@@ -1,0 +1,833 @@
+[
+  {
+    "name": "Psychoeducation and Normalization",
+    "description": "Therapist explains the nature of panic and anxiety symptoms, normalizes these experiences, and differentiates adaptive from maladaptive anxiety.",
+    "goal": {
+      "objective": "Increase the patient’s understanding of anxiety/panic and reduce fear, shame, or catastrophizing.",
+      "success_levels": {
+        "ideal": "Patient accurately understands anxiety/panic as manageable and non-dangerous, reducing distress surrounding symptoms.",
+        "acceptable": "Patient grasps the basics of anxiety/panic and feels somewhat less threatened, but retains mild fears or misconceptions.",
+        "unsuccessful": "Patient remains fearful and holds mistaken catastrophic beliefs about anxiety/panic symptoms."
+      },
+      "reward_hint": "Patient appropriately describes panic/anxiety with reduced catastrophizing or increased acceptance."
+    },
+    "states": [
+      "Patient exhibits fear or confusion about anxiety/panic.",
+      "Patient expresses catastrophic beliefs or shame regarding symptoms.",
+      "Therapy is beginning or moving to intervention rationale."
+    ],
+    "confidence_score": 1.0,
+    "micro_actions": [
+      {
+        "name": "Explain physiological basis of panic/anxiety",
+        "description": "Describe how anxiety and panic arise, referencing sympathetic and parasympathetic systems, with clear, relatable examples or analogies.",
+        "states": [
+          "Patient expresses confusion about panic symptoms.",
+          "Therapy session introduces psychoeducation."
+        ],
+        "confidence_score": 1.0
+      },
+      {
+        "name": "Reframe symptoms as normal and protective",
+        "description": "Normalize panic/anxiety experiences, stressing their adaptive value and distinguishing healthy vs. unhealthy anxiety.",
+        "states": [
+          "Patient exhibits shame or catastrophizing about symptoms.",
+          "Therapist seeks to reduce fear of sensations."
+        ],
+        "confidence_score": 1.0
+      },
+      {
+        "name": "Check for and dispel myths/inaccuracies",
+        "description": "Ask patient for beliefs about symptoms, challenge and correct misconceptions (e.g., 'Is it truly dangerous if your heart races?').",
+        "states": [
+          "Patient voices misconceptions or catastrophic beliefs.",
+          "Therapist addresses inaccurate understandings."
+        ],
+        "confidence_score": 0.98
+      },
+      {
+        "name": "Invite patient reflection on personal history",
+        "description": "Prompt patient to discuss past experiences with symptoms and how these shaped current beliefs.",
+        "states": [
+          "Therapist explores patient background related to anxiety/panic.",
+          "Patient has entrenched or unexplored beliefs about symptoms."
+        ],
+        "confidence_score": 0.97
+      },
+      {
+        "name": "Use self-assessment questions to check understanding",
+        "description": "Ask the patient targeted questions or use quizzes to assess their grasp of psychoeducation material and to correct misunderstandings.",
+        "states": [
+          "Therapist confirms patient learning after psychoeducation.",
+          "Patient exhibits lingering confusion or uncertainty."
+        ],
+        "confidence_score": 0.97
+      }
+    ]
+  },
+  {
+    "name": "Objective Self-Monitoring and Recordkeeping",
+    "description": "Therapist trains and motivates the patient to systematically record panic attacks, anxiety events, mood states, and coping efforts using standardized forms.",
+    "goal": {
+      "objective": "Increase patient self-awareness and provide a data-driven foundation for all subsequent interventions.",
+      "success_levels": {
+        "ideal": "Patient consistently and objectively records relevant events, leading to accurate insights and treatment planning.",
+        "acceptable": "Patient completes most records but may be subjective or occasionally skip entries.",
+        "unsuccessful": "Records are consistently missing, incomplete, or inaccurate, hindering progress."
+      },
+      "reward_hint": "Therapist receives consistently completed, objective monitoring records from the patient."
+    },
+    "states": [
+      "Patient is unfamiliar with monitoring tools or unsure about own symptoms/events.",
+      "Therapist introduces or reinforces foundational treatment strategies.",
+      "Patient exhibits reluctance or concern about recordkeeping."
+    ],
+    "confidence_score": 0.95,
+    "micro_actions": [
+      {
+        "name": "Prompt timely completion of monitoring forms",
+        "description": "Instruct the patient to fill out standardized records soon after panic or anxiety episodes, detailing time, triggers, symptoms, and behaviors.",
+        "states": [
+          "A panic/anxiety event has occurred.",
+          "Patient is introduced to monitoring."
+        ],
+        "confidence_score": 0.98
+      },
+      {
+        "name": "Encourage use of rating scales for symptoms",
+        "description": "Ask patient to rate severity of fear/anxiety, mood, and worry on a 0–10 scale for episodes and daily averages.",
+        "states": [
+          "Patient records symptoms on forms.",
+          "Therapist seeks objective data."
+        ],
+        "confidence_score": 0.97
+      },
+      {
+        "name": "Distinguish between objective and subjective data",
+        "description": "Teach and remind patient to note factual details ('what happened, what I did, what I thought') rather than subjective evaluations ('how bad I feel').",
+        "states": [
+          "Patient records events in a subjective manner.",
+          "Therapist reviews monitoring sheets."
+        ],
+        "confidence_score": 0.96
+      },
+      {
+        "name": "Clarify expected vs. unexpected panic episodes",
+        "description": "Instruct patient to note whether episodes were anticipated or surprising on the forms.",
+        "states": [
+          "Patient completes panic/anxiety logs.",
+          "Therapist reviews exposure predictability."
+        ],
+        "confidence_score": 0.93
+      },
+      {
+        "name": "Review and provide feedback on records",
+        "description": "Go over the completed forms with the patient, offering praise, troubleshooting obstacles, and clarifying missed details.",
+        "states": [
+          "Patient hands in monitoring records.",
+          "Regular session check-in."
+        ],
+        "confidence_score": 0.97
+      },
+      {
+        "name": "Assign monitoring homework and reinforce compliance",
+        "description": "Clearly state expectations for daily or event-driven record completion and positively reinforce efforts.",
+        "states": [
+          "End of session.",
+          "Patient exhibits inconsistency or reluctance."
+        ],
+        "confidence_score": 0.95
+      }
+    ]
+  },
+  {
+    "name": "Guided Analysis and Insight Building",
+    "description": "Therapist reviews monitoring records with patient, collaboratively identifying patterns, triggers, and cycles of panic/anxiety.",
+    "goal": {
+      "objective": "Foster understanding of personal anxiety cycles, triggers, and maintenance factors.",
+      "success_levels": {
+        "ideal": "Patient demonstrates insight into own patterns and can identify specific triggers and cycles.",
+        "acceptable": "Patient recognizes some patterns or triggers with therapist support.",
+        "unsuccessful": "Patient fails to recognize key patterns or triggers despite guidance."
+      },
+      "reward_hint": "Patient verbalizes awareness or makes connections between triggers and panic/anxiety episodes."
+    },
+    "states": [
+      "Patient has accumulated monitoring records but lacks clarity regarding their meaning.",
+      "Therapist aims to move from data gathering to insight development.",
+      "Patient is uncertain about what drives their panic/anxiety episodes."
+    ],
+    "confidence_score": 0.92,
+    "micro_actions": [
+      {
+        "name": "Encourage detailed description of episodes",
+        "description": "Prompt patient to recount specific instances of panic/anxiety, focusing separately on physical sensations, thoughts, and behaviors.",
+        "states": [
+          "Reviewing panic/anxiety episodes.",
+          "Therapist initiates pattern analysis."
+        ],
+        "confidence_score": 0.95
+      },
+      {
+        "name": "Model episode analysis using examples",
+        "description": "Use case vignettes and step-by-step breakdowns to illustrate how to analyze panic/anxiety episodes.",
+        "states": [
+          "Explaining analysis approach.",
+          "Patient shows confusion in self-reflection."
+        ],
+        "confidence_score": 0.94
+      },
+      {
+        "name": "Guide use of self-monitoring forms for structure",
+        "description": "Provide and review structured forms (Components of Panic/Anxiety, Step-by-Step Analysis) to support self-report.",
+        "states": [
+          "Patient has incomplete or disorganized records.",
+          "Therapist introduces structured monitoring."
+        ],
+        "confidence_score": 0.93
+      },
+      {
+        "name": "Ask targeted questions about sequence and interactions",
+        "description": "Probe for episode timelines: what happened first, what followed, and how thoughts/behaviors/symptoms interacted.",
+        "states": [
+          "Therapist and patient review episode details.",
+          "Insight building discussion."
+        ],
+        "confidence_score": 0.95
+      },
+      {
+        "name": "Reinforce identification of patterns and connections",
+        "description": "Highlight repeated patterns, such as links between thoughts and symptoms or escape behaviors, to foster awareness.",
+        "states": [
+          "Patient shows emerging insight.",
+          "Therapist summarizes observed patterns."
+        ],
+        "confidence_score": 0.94
+      },
+      {
+        "name": "Differentiate between panic and anxiety experiences",
+        "description": "Emphasize distinctions in subjective and behavioral responses between anxiety and panic.",
+        "states": [
+          "Patient conflates panic and anxiety.",
+          "Therapist reviews experience nuances."
+        ],
+        "confidence_score": 0.93
+      },
+      {
+        "name": "Review and clarify homework focused on reflection",
+        "description": "Discuss patient’s ongoing self-monitoring and ensure continued focus on reflection and pattern identification.",
+        "states": [
+          "Session review of homework.",
+          "Patient appears stuck in understanding cycles."
+        ],
+        "confidence_score": 0.91
+      }
+    ]
+  },
+  {
+    "name": "Collaborative Cognitive Restructuring",
+    "description": "Therapist educates and guides the patient to identify, analyze, and challenge maladaptive thoughts and beliefs related to anxiety and panic.",
+    "goal": {
+      "objective": "Modify unrealistic, catastrophic, or unhelpful thoughts to reduce anxiety and panic intensity.",
+      "success_levels": {
+        "ideal": "Patient accurately applies cognitive restructuring strategies independently and beliefs shift towards realistic interpretations.",
+        "acceptable": "Patient uses cognitive restructuring with therapist help and beliefs show partial improvement.",
+        "unsuccessful": "Patient continues to hold maladaptive beliefs, unable to challenge or change thoughts."
+      },
+      "reward_hint": "Patient evidences change or flexibility in previously held catastrophic thoughts."
+    },
+    "states": [
+      "Patient expresses automatic negative or catastrophic thoughts about panic/anxiety.",
+      "Therapist introduces cognitive strategies following psychoeducation.",
+      "Patient struggles to separate facts from assumptions."
+    ],
+    "confidence_score": 0.97,
+    "micro_actions": [
+      {
+        "name": "Ask open-ended clarifying questions about thoughts",
+        "description": "Prompt patient to describe specific automatic thoughts using questions like 'What are you afraid will happen?'",
+        "states": [
+          "Patient expresses vague or generalized fear.",
+          "Therapist explores thought detail."
+        ],
+        "confidence_score": 1.0
+      },
+      {
+        "name": "Probe for underlying catastrophic predictions",
+        "description": "Iteratively inquire about 'worst case' scenarios and what these would mean for the patient.",
+        "states": [
+          "Patient's fears remain global or abstract.",
+          "Cognitive patterns are being identified."
+        ],
+        "confidence_score": 0.99
+      },
+      {
+        "name": "Challenge automatic thoughts with evidence",
+        "description": "Ask patient to provide evidence for and against the feared outcome (e.g., 'What is the actual evidence?'), and review realistic odds.",
+        "states": [
+          "Patient holds maladaptive beliefs.",
+          "Therapist supports cognitive examination."
+        ],
+        "confidence_score": 0.99
+      },
+      {
+        "name": "Guide patient to generate alternative balanced thoughts",
+        "description": "Help patient brainstorm other possible interpretations and practice more evidence-based thinking.",
+        "states": [
+          "Patient is stuck in catastrophic thinking.",
+          "Cognitive restructuring exercise."
+        ],
+        "confidence_score": 0.98
+      },
+      {
+        "name": "Encourage rating of feared outcomes odds",
+        "description": "Prompt patient to rate likelihood of catastrophe on 0–100 scale, emphasizing objective assessment.",
+        "states": [
+          "Patient overestimates risk.",
+          "Therapist works on probability estimation."
+        ],
+        "confidence_score": 0.96
+      },
+      {
+        "name": "Prompt brainstorming of coping strategies for worst-case",
+        "description": "Facilitate patient to list or discuss actionable coping tactics for possible feared outcomes.",
+        "states": [
+          "Patient remains fearful after thought restructuring.",
+          "Therapist shifts toward planning coping."
+        ],
+        "confidence_score": 0.95
+      }
+    ]
+  },
+  {
+    "name": "Systematic Skills Training and Behavioral Practice",
+    "description": "Therapist teaches coping skills (e.g., breathing, relaxation, exposure) and guides application through repeated in-session and homework practice.",
+    "goal": {
+      "objective": "Build patient self-efficacy with coping skills for managing anxiety and panic.",
+      "success_levels": {
+        "ideal": "Patient independently uses coping skills during anxiety, resulting in decreased symptom intensity and avoidance.",
+        "acceptable": "Patient practices skills but is inconsistent or requires therapist reminders. Occasional improvement in coping.",
+        "unsuccessful": "Patient avoids practice or fails to use skills effectively, resulting in little or no symptom improvement."
+      },
+      "reward_hint": "Patient demonstrates coping skills in session or reports consistent practice outside session."
+    },
+    "states": [
+      "Patient is anxious or anticipates panic but lacks adequate coping responses.",
+      "Therapist moves from discussion to skill-building stages.",
+      "Patient is ready for practical behavioral intervention."
+    ],
+    "confidence_score": 1.0,
+    "micro_actions": [
+      {
+        "name": "Elicit and check breathing pattern awareness",
+        "description": "Ask patient about current breathing patterns or facilitate controlled overbreathing exercises (under medical caution) to increase symptom awareness.",
+        "states": [
+          "Patient expresses distress related to physical symptoms.",
+          "Therapist introduces breathing-focused coping."
+        ],
+        "confidence_score": 0.98
+      },
+      {
+        "name": "Model and instruct correct diaphragmatic breathing",
+        "description": "Demonstrate deep, belly-based breathing (hand-on-stomach cue), guiding patient in correct technique.",
+        "states": [
+          "Teaching breathing skills.",
+          "Practice of relaxation-based coping."
+        ],
+        "confidence_score": 1.0
+      },
+      {
+        "name": "Prompt focused attention on breath using cues",
+        "description": "Remind patient to use counting or the word 'relax' on exhalation to support mindful attention to breathing.",
+        "states": [
+          "Patient distracted during breathing exercise.",
+          "Therapist reinforces focused practice."
+        ],
+        "confidence_score": 0.98
+      },
+      {
+        "name": "Provide feedback and normalization during skill training",
+        "description": "Reassure patient about awkwardness or breathlessness and reinforce practice effort, normalizing learning process.",
+        "states": [
+          "Patient experiences discomfort or doubt with practice.",
+          "Therapist corrects and encourages."
+        ],
+        "confidence_score": 0.99
+      },
+      {
+        "name": "Encourage repeated, structured practice",
+        "description": "Assign regular skill practice (e.g., 10 minutes twice daily, practice in various settings, mini-practices) as homework.",
+        "states": [
+          "Patient learning new coping skill.",
+          "Planning for skill generalization."
+        ],
+        "confidence_score": 1.0
+      },
+      {
+        "name": "Prompt patient to keep practice records",
+        "description": "Ask patient to complete logs tracking breathing and relaxation practice, observing technique success.",
+        "states": [
+          "Patient struggles to maintain regular practice.",
+          "Therapist reviews homework compliance."
+        ],
+        "confidence_score": 0.97
+      },
+      {
+        "name": "Coach coping skill use in real-time anxiety moments",
+        "description": "Prompt patient to apply breathing or relaxation skills when experiencing panic/anxiety in session or daily life.",
+        "states": [
+          "Patient reports acute panic or anxiety.",
+          "Therapist reinforces in vivo skill use."
+        ],
+        "confidence_score": 1.0
+      },
+      {
+        "name": "Prompt reflection after skill application",
+        "description": "Ask patient to reflect on outcome (e.g., 'What effect did this have? Did you notice early signals?') after practicing skills.",
+        "states": [
+          "After skill practice or exposure.",
+          "Therapist supports self-monitoring."
+        ],
+        "confidence_score": 0.95
+      }
+    ]
+  },
+  {
+    "name": "Graded Exposure Planning and Execution",
+    "description": "Therapist collaborates with patient to design exposure hierarchies and guides gradual, systematic practice facing feared situations or physical sensations.",
+    "goal": {
+      "objective": "Reduce avoidance and anxiety/fear response to targeted triggers through direct experience.",
+      "success_levels": {
+        "ideal": "Patient consistently completes planned exposures, demonstrates reduced avoidance and fear, and alters maladaptive beliefs.",
+        "acceptable": "Patient attempts exposures with some anxiety but partial reduction in avoidance/fear.",
+        "unsuccessful": "Patient avoids exposure tasks; maintains high anxiety and avoidance behavior."
+      },
+      "reward_hint": "Patient reports successful approach behaviors toward previously avoided situations or sensations."
+    },
+    "states": [
+      "Patient identifies specific avoided situations/physical symptoms.",
+      "Therapist introduces exposure interventions.",
+      "Patient demonstrates willingness to face or attempt exposure but needs guidance."
+    ],
+    "confidence_score": 0.99,
+    "micro_actions": [
+      {
+        "name": "Collaboratively identify greatest worry/catastrophic thought",
+        "description": "Work with patient to specify the feared outcome or symptom in detail for each exposure situation.",
+        "states": [
+          "Planning exposure hierarchy.",
+          "Patient presents anxiety around target situations."
+        ],
+        "confidence_score": 1.0
+      },
+      {
+        "name": "Guide patient to rate subjective likelihood of feared outcome",
+        "description": "Ask patient to estimate and record odds of feared consequence occurring prior to exposure.",
+        "states": [
+          "Before initiating exposure.",
+          "Therapist checks baseline anxiety."
+        ],
+        "confidence_score": 1.0
+      },
+      {
+        "name": "Design exposure tasks with patient targeting end goal",
+        "description": "Facilitate brainstorming and planning of exposure steps; clarify specific feared result being tested.",
+        "states": [
+          "Patient ready to plan exposures.",
+          "Therapist structures graded program."
+        ],
+        "confidence_score": 0.99
+      },
+      {
+        "name": "Prompt abandonment of safety behaviors and distractions during exposure",
+        "description": "Remind patient to refrain from using superstitious objects, safety signals, or avoidance strategies while practicing.",
+        "states": [
+          "In session planning or exposure practice.",
+          "Patient relies on safety behaviors."
+        ],
+        "confidence_score": 0.99
+      },
+      {
+        "name": "Cue use of coping skills during high anxiety moments",
+        "description": "Instruct patient to apply breathing or thinking skills when anxiety escalates during exposure.",
+        "states": [
+          "During or just before exposure.",
+          "Patient demonstrates distress."
+        ],
+        "confidence_score": 1.0
+      },
+      {
+        "name": "Support return to exposure situation after brief escape/withdrawal",
+        "description": "Encourage patient to promptly re-enter situation after short withdrawal due to overwhelming anxiety.",
+        "states": [
+          "Patient escapes from exposure.",
+          "Therapist responds to managing setbacks."
+        ],
+        "confidence_score": 0.97
+      },
+      {
+        "name": "Facilitate immediate and delayed reflection on exposure",
+        "description": "Prompt the patient to reflect on outcomes and learning right after and some time after the exposure (experience vs. expectation).",
+        "states": [
+          "After exposure completion.",
+          "In subsequent sessions reviewing exposure."
+        ],
+        "confidence_score": 0.98
+      },
+      {
+        "name": "Assign and review structured homework (exposure, monitoring)",
+        "description": "Clearly communicate next steps for daily exposure practices and mood/panic monitoring forms.",
+        "states": [
+          "Session conclusion.",
+          "Therapist plans for continued practice."
+        ],
+        "confidence_score": 0.97
+      }
+    ]
+  },
+  {
+    "name": "Review, Consolidation, and Troubleshooting",
+    "description": "Therapist reviews skill use and exposure outcomes with patient for consolidation, insight building, problem solving, and adjustment of strategies.",
+    "goal": {
+      "objective": "Consolidate learning, reinforce progress, and troubleshoot obstacles to improve future outcomes.",
+      "success_levels": {
+        "ideal": "Patient articulates learning, applies insights to setbacks, and shows resilience/adaptation.",
+        "acceptable": "Patient identifies some gains or obstacles, makes moderate adjustments for next steps.",
+        "unsuccessful": "Patient does not consolidate learning, repeats maladaptive patterns, fails to adapt strategy."
+      },
+      "reward_hint": "Patient reflects on exposure/skill outcomes and proposes adjustments or acknowledges new understanding."
+    },
+    "states": [
+      "Patient completes exposure or skill application but struggles to generalize or understand results.",
+      "Therapist moves from practice to integration phase.",
+      "Follow-up session after behavioral interventions."
+    ],
+    "confidence_score": 0.94,
+    "micro_actions": [
+      {
+        "name": "Prompt patient to recall and discuss daily mood and panic records",
+        "description": "Ask about recent record entries and explore what patient noticed as outcomes and patterns.",
+        "states": [
+          "Reviewing exposure progress.",
+          "Therapist consolidates learning."
+        ],
+        "confidence_score": 0.96
+      },
+      {
+        "name": "Ask targeted questions about patterns and variability",
+        "description": "Probe for times, places, people, and symptom variations relevant to experiences and progress.",
+        "states": [
+          "Patient reflects on exposure results.",
+          "Therapist investigates learning."
+        ],
+        "confidence_score": 0.95
+      },
+      {
+        "name": "Brainstorm methods to maintain or improve consistency",
+        "description": "Collaboratively plan tactics with patient to address challenges in ongoing recordkeeping and skills use.",
+        "states": [
+          "Patient has trouble maintaining habits.",
+          "Therapist anticipates barriers."
+        ],
+        "confidence_score": 0.92
+      },
+      {
+        "name": "Guide patient in rating situations on hierarchy",
+        "description": "Regularly revisit hierarchy and rate difficulty of recent/future situations (0–10 scale).",
+        "states": [
+          "Therapist tracks progress over time.",
+          "Patient faces new or harder situations."
+        ],
+        "confidence_score": 0.94
+      },
+      {
+        "name": "Probe for unnoticed safety behaviors/avoidance patterns",
+        "description": "Ask questions to uncover use of safety signals, objects, or avoidance the patient might miss.",
+        "states": [
+          "Patient discusses exposures or setbacks.",
+          "Therapist seeks hidden obstacles."
+        ],
+        "confidence_score": 0.92
+      },
+      {
+        "name": "Encourage objective self-focus in experience descriptions",
+        "description": "Prompt patient to describe situations factually and physically (location, sensations, actions).",
+        "states": [
+          "Therapist reviews progress.",
+          "Patient prone to subjective/biased reporting."
+        ],
+        "confidence_score": 0.92
+      },
+      {
+        "name": "Suggest seeking input from significant others about patterns",
+        "description": "Invite patient to consult close others for direct feedback on unrecognized safety behaviors or avoidance.",
+        "states": [
+          "Patient struggles to self-identify obstacles.",
+          "Therapist incorporates team support."
+        ],
+        "confidence_score": 0.9
+      }
+    ]
+  },
+  {
+    "name": "Involvement of Significant Others and Team-Based Support",
+    "description": "Therapist evaluates, coaches, and prepares significant others to provide appropriate support during exposure and coping, facilitating teamwork while minimizing rescue and reinforcement of avoidance.",
+    "goal": {
+      "objective": "Enhance patient progress via coordinated involvement of helpers, while increasing patient independence.",
+      "success_levels": {
+        "ideal": "Helpers support exposure efforts appropriately and patient transitions to independent coping.",
+        "acceptable": "Helpers are somewhat supportive; patient relies on assistance but begins practicing increased independence.",
+        "unsuccessful": "Helpers reinforce avoidance or are absent, patient remains dependent or sabotages progress."
+      },
+      "reward_hint": "Patient and helpers collaborate constructively and patient progressively self-manages exposure."
+    },
+    "states": [
+      "Patient's support network can influence avoidance or progress.",
+      "Therapist discusses barriers/enablers related to significant others.",
+      "Patient demonstrates readiness or need for collaborative exposure."
+    ],
+    "confidence_score": 0.9,
+    "micro_actions": [
+      {
+        "name": "Prompt patient to identify potential helpers",
+        "description": "Ask patient to name individuals (family, friends) who could act as supporters during exposure/wellness activities.",
+        "states": [
+          "Preparing for team-based support.",
+          "Patient discusses need for assistance."
+        ],
+        "confidence_score": 0.91
+      },
+      {
+        "name": "Explore willingness and roles of identified helpers",
+        "description": "Facilitate joint discussion with patient and helper(s) about expected roles, boundaries, and reinforcement strategies.",
+        "states": [
+          "Helpers present in session.",
+          "Therapist builds collaborative plan."
+        ],
+        "confidence_score": 0.9
+      },
+      {
+        "name": "Model constructive exposure dialogue with helper",
+        "description": "Demonstrate, with role play or scripting, how helpers can cue anxiety ratings and offer objective encouragement, not rescue.",
+        "states": [
+          "Teaching helpers supportive behaviors.",
+          "Planning exposure routines."
+        ],
+        "confidence_score": 0.9
+      },
+      {
+        "name": "Encourage use of CBT skills via helper cues",
+        "description": "Guide helpers to prompt patient to use thinking skills or breathing exercises during anxious moments.",
+        "states": [
+          "Patient and helpers discuss coping strategies.",
+          "Therapist prepares for live exposure."
+        ],
+        "confidence_score": 0.91
+      },
+      {
+        "name": "Support pre-planning of communications for distress or withdrawal",
+        "description": "Coach patient and helper(s) to rehearse responses to anticipated distress, aiming to maintain appropriate exposure effort.",
+        "states": [
+          "Exposure sessions with team support.",
+          "Therapist anticipates withdrawal."
+        ],
+        "confidence_score": 0.89
+      },
+      {
+        "name": "Scaffold gradual exposure steps with team support",
+        "description": "Adjust helper involvement in exposures over time, fostering patient independence and problem-solving as a team.",
+        "states": [
+          "Exposure hierarchy involves support network.",
+          "Therapist transitions assistance."
+        ],
+        "confidence_score": 0.89
+      }
+    ]
+  },
+  {
+    "name": "Medication Management and Transition Support",
+    "description": "Therapist educates patient about medication use for panic/anxiety, coordinates with medical providers, and supports safe withdrawal and skill substitution.",
+    "goal": {
+      "objective": "Patient safely discontinues unneeded medications while maintaining progress with CBT coping skills.",
+      "success_levels": {
+        "ideal": "Patient completes withdrawal, manages symptoms using CBT with minimal relapse.",
+        "acceptable": "Patient tapers medication, experiences mild withdrawal managed with support.",
+        "unsuccessful": "Patient relapses or is unable to discontinue medication, coping skills are insufficient."
+      },
+      "reward_hint": "Patient demonstrates safe medication reduction and relies increasingly on CBT strategies."
+    },
+    "states": [
+      "Patient is prescribed medication for panic/anxiety.",
+      "Therapist discusses treatment planning related to pharmacological support.",
+      "Patient or prescriber initiates medication tapering."
+    ],
+    "confidence_score": 0.93,
+    "micro_actions": [
+      {
+        "name": "Assess patient’s current medication use and beliefs",
+        "description": "Ask direct questions about medications, dosages, patient preferences, and attitudes towards pharmacologic treatment.",
+        "states": [
+          "Patient uses or questions medication.",
+          "Therapist begins transition planning."
+        ],
+        "confidence_score": 0.94
+      },
+      {
+        "name": "Educate on medication action, side effects, and withdrawal",
+        "description": "Provide psychoeducation about how medications work, potential adverse effects, and process of safe withdrawal.",
+        "states": [
+          "Patient inquires about medication changes.",
+          "Therapist supports medication knowledge."
+        ],
+        "confidence_score": 0.93
+      },
+      {
+        "name": "Prompt consultation with physician for withdrawal/taper",
+        "description": "Remind patient to coordinate withdrawal and dosage changes directly with prescribing doctor.",
+        "states": [
+          "Medication change is being considered.",
+          "Therapist enforces medical safety."
+        ],
+        "confidence_score": 0.92
+      },
+      {
+        "name": "Encourage gradual tapering schedule",
+        "description": "Advise gradual reduction rather than abrupt cessation and help set a physician-approved target taper date.",
+        "states": [
+          "Patient determined to discontinue medication.",
+          "Therapist monitors withdrawal progress."
+        ],
+        "confidence_score": 0.92
+      },
+      {
+        "name": "Anticipate and normalize withdrawal symptoms",
+        "description": "Discuss common withdrawal symptoms and help patient differentiate these from panic relapses, reassuring normalcy.",
+        "states": [
+          "Withdrawal symptoms emerge.",
+          "Therapist supports adjustment."
+        ],
+        "confidence_score": 0.93
+      },
+      {
+        "name": "Coach use of CBT coping skills during withdrawal",
+        "description": "Prompt practice of abdominal breathing, cognitive restructuring, and exposure to help manage symptoms.",
+        "states": [
+          "During withdrawal/taper period.",
+          "Therapist reinforces skill substitution."
+        ],
+        "confidence_score": 0.93
+      },
+      {
+        "name": "Encourage self-monitoring of symptoms",
+        "description": "Ask patient to track withdrawal symptoms and progress in diaries or on assessment forms.",
+        "states": [
+          "Withdrawal monitoring.",
+          "Therapist reviews progress."
+        ],
+        "confidence_score": 0.92
+      },
+      {
+        "name": "Assign homework to consult physician and plan coping",
+        "description": "Instruct patient to formally follow up with prescriber and strategize for anticipated withdrawal symptoms.",
+        "states": [
+          "Between sessions on medication transitions.",
+          "Therapist supports ongoing adjustment."
+        ],
+        "confidence_score": 0.91
+      }
+    ]
+  },
+  {
+    "name": "Maintenance Planning and Relapse Prevention",
+    "description": "Therapist guides patient in developing ongoing practice plans, prepares for setbacks, problem-solves anticipated stressors, and supports long-term personal goal setting.",
+    "goal": {
+      "objective": "Ensure patient maintains gains, is resilient to setbacks, and self-monitors for continued progress post-therapy.",
+      "success_levels": {
+        "ideal": "Patient establishes and follows a maintenance plan, confidently manages future stressors with CBT skills.",
+        "acceptable": "Patient engages in some maintenance activities and copes with minor setbacks; may need booster sessions.",
+        "unsuccessful": "Patient has no structured plan, relapses easily when stressed, and abandons learned skills."
+      },
+      "reward_hint": "Patient articulates personal goals, maintenance routines, and expresses readiness for self-directed progress."
+    },
+    "states": [
+      "Therapy is nearing completion or patient has achieved significant progress.",
+      "Patient expresses concern about relapse or future stressors.",
+      "Therapist wants to consolidate long-term outcomes and self-efficacy."
+    ],
+    "confidence_score": 0.96,
+    "micro_actions": [
+      {
+        "name": "Assist with progress self-assessment forms",
+        "description": "Help patient complete self-evaluation forms assessing panic, negative thoughts, and avoidance frequency/severity.",
+        "states": [
+          "Therapy in maintenance or consolidation phase.",
+          "Patient reviews progress."
+        ],
+        "confidence_score": 0.96
+      },
+      {
+        "name": "Review ratings/scales of feared situations and mood",
+        "description": "Discuss patient’s self-report data (e.g., severity ratings around symptoms, activities, agoraphobic stimuli) and tie these to coping plans.",
+        "states": [
+          "Patient tracks ongoing progress.",
+          "Therapist evaluates post-therapy outcomes."
+        ],
+        "confidence_score": 0.95
+      },
+      {
+        "name": "Provide affirmative feedback and tailored advice",
+        "description": "Offer encouragement and specific advice based on self-evaluation and observed progress.",
+        "states": [
+          "Patient expresses achievement or doubts.",
+          "Therapist fosters resilience."
+        ],
+        "confidence_score": 0.95
+      },
+      {
+        "name": "Help generate and update actionable practice plan",
+        "description": "Collaboratively break down future practice into specific skills and steps, updating written plans.",
+        "states": [
+          "Patient planning for long-term self-management.",
+          "Therapist prepares for therapy completion."
+        ],
+        "confidence_score": 0.95
+      },
+      {
+        "name": "Encourage periodic self-monitoring tied to life events",
+        "description": "Prompt patient to continue regular mood/anxiety tracking alongside real-life events for consistency.",
+        "states": [
+          "Patient transition to post-therapy practice.",
+          "Therapist promotes habit formation."
+        ],
+        "confidence_score": 0.94
+      },
+      {
+        "name": "Problem-solve and mentally rehearse coping with high-risk situations",
+        "description": "Role-play and discuss strategies for facing triggers and stressors using learned CBT skills.",
+        "states": [
+          "Imminent relapse threat or stressor.",
+          "Therapist and patient plan for setbacks."
+        ],
+        "confidence_score": 0.96
+      },
+      {
+        "name": "Break down long-term goals into manageable steps",
+        "description": "Support patient in goal setting and incremental progress tracking for maintenance.",
+        "states": [
+          "Consolidating plans for post-therapy success.",
+          "Therapist encourages realistic expectations."
+        ],
+        "confidence_score": 0.95
+      },
+      {
+        "name": "Encourage review of psychoeducational content",
+        "description": "Recommend regular review of anxiety/panic educational materials for ongoing learning and reinforcement.",
+        "states": [
+          "Patient at risk for relapse or skill loss.",
+          "Therapist closes therapy/booster sessions."
+        ],
+        "confidence_score": 0.93
+      }
+    ]
+  }
+]

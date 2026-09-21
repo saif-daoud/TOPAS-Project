@@ -1,0 +1,1797 @@
+[
+  {
+    "per_action": [
+      {
+        "action": "Therapeutic Alliance and Engagement",
+        "states_mappings": [
+          {
+            "state_phrase": "Initial contact and early sessions",
+            "by_dimensions": [],
+            "gap_reason": "No dimension captures temporal context or session phase (e.g., 'initial contact', 'early sessions')."
+          },
+          {
+            "state_phrase": "Patient expresses hesitancy, mistrust, or low engagement",
+            "by_dimensions": [
+              "Therapeutic Alliance",
+              "Patient Engagement and Participation"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "Therapeutic relationship strains or ruptures emerge",
+            "by_dimensions": [
+              "Therapeutic Alliance"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "Throughout all sessions for maintenance",
+            "by_dimensions": [],
+            "gap_reason": "No dimension tracks ongoing/maintenance phase or indicates that a macro process should persist throughout all sessions."
+          }
+        ]
+      },
+      {
+        "action": "Warm Greeting and Rapport-Building",
+        "states_mappings": [
+          {
+            "state_phrase": "Session start",
+            "by_dimensions": [],
+            "gap_reason": "No dimension represents session phase or timing (e.g., 'start of session')."
+          },
+          {
+            "state_phrase": "Patient appears anxious or uncertain",
+            "by_dimensions": [
+              "Mood/Emotional State"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Validate and Reflect Patient Experience",
+        "states_mappings": [
+          {
+            "state_phrase": "Patient expresses emotions or distress",
+            "by_dimensions": [
+              "Mood/Emotional State",
+              "Emotional State Intensity",
+              "Subjective Distress Level"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "Any sign of relational strain",
+            "by_dimensions": [
+              "Therapeutic Alliance"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Solicit Collaborative Input and Decision-Making",
+        "states_mappings": [
+          {
+            "state_phrase": "Session plans are revised",
+            "by_dimensions": [],
+            "gap_reason": "No dimension tracks whether the session plan/agenda changes or is collaboratively adjusted."
+          },
+          {
+            "state_phrase": "Engaging new therapy tasks",
+            "by_dimensions": [
+              "Patient Engagement and Participation"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Directly Invite Feedback on the Alliance",
+        "states_mappings": [
+          {
+            "state_phrase": "End of session",
+            "by_dimensions": [],
+            "gap_reason": "No variable represents session timing/phase (e.g., 'end of session')."
+          },
+          {
+            "state_phrase": "When patient appears uncomfortable or disengaged",
+            "by_dimensions": [
+              "Patient Engagement and Participation"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Normalize Hesitancy and Reduce Stigma",
+        "states_mappings": [
+          {
+            "state_phrase": "Early sessions",
+            "by_dimensions": [],
+            "gap_reason": "No dimension represents therapy phase or session chronology."
+          },
+          {
+            "state_phrase": "Therapeutic engagement seems hesitant",
+            "by_dimensions": [
+              "Patient Engagement and Participation"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      }
+    ],
+    "new_dimensions": [
+      {
+        "Variable Name": "Session Phase/Chronology",
+        "Description": "Indicates the temporal phase of the therapy process (e.g., initial contact, early sessions, mid, late, termination). Helps distinguish relevant interventions and contextualize engagement/alliance events.",
+        "Categorical values": [
+          "Initial Contact",
+          "Early",
+          "Mid",
+          "Late",
+          "Termination",
+          "Ongoing",
+          "Maintenance"
+        ],
+        "Numerical values": "regression from 0 to 1 scale reflecting session chronological progress",
+        "Rationale": "Needed to track states and interventions tied specifically to session timing or phase, such as 'initial contact', 'early sessions', and distinguishing actions appropriate for session start/end."
+      },
+      {
+        "Variable Name": "Session Agenda/Plan Status",
+        "Description": "Tracks whether the planned session agenda was followed, revised, or collaboratively changed in-session.",
+        "Categorical values": [
+          "Not Set",
+          "Unchanged",
+          "Revised Collaboratively",
+          "Revised by Therapist",
+          "Revised by Patient",
+          "Flexible/On the Fly"
+        ],
+        "Numerical values": "regression from 0 to 1 scale indicating degree of deviation from original plan",
+        "Rationale": "Required to reliably detect when session plans are revised or collaboratively adjusted, as referenced in actions relating to soliciting collaborative input and decision-making."
+      }
+    ],
+    "_macro_action_name": "Therapeutic Alliance and Engagement"
+  },
+  {
+    "per_action": [
+      {
+        "action": "Psychoeducation and Therapy Orientation",
+        "states_mappings": [
+          {
+            "state_phrase": "Therapy is beginning or transitioning to a new focus",
+            "by_dimensions": [
+              "Session Phase/Chronology"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "Patient is unfamiliar or uncertain about CBT/diagnosis",
+            "by_dimensions": [],
+            "gap_reason": "No existing variable tracks patient's knowledge or understanding level regarding CBT/diagnosis."
+          },
+          {
+            "state_phrase": "Misconceptions, stigma, shame, or anxiety about therapy are evident",
+            "by_dimensions": [
+              "Automatic Thoughts",
+              "Cognitive Distortions/Errors",
+              "Mood/Emotional State"
+            ],
+            "gap_reason": "No existing variable specifically tracks misconception presence or stigma beliefs about therapy (vs. general faulty cognitions or negative thoughts)."
+          }
+        ]
+      },
+      {
+        "action": "Explain CBT Model and Treatment Structure",
+        "states_mappings": [
+          {
+            "state_phrase": "First sessions",
+            "by_dimensions": [
+              "Session Phase/Chronology"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "Patient expresses misconceptions",
+            "by_dimensions": [
+              "Cognitive Distortions/Errors",
+              "Automatic Thoughts"
+            ],
+            "gap_reason": "No variable focuses on content-specific misconceptions related to CBT/mental health (general cognitive distortions may not fully cover therapy-specific misconceptions)."
+          }
+        ]
+      },
+      {
+        "action": "Normalize Symptoms and Emotional Distress",
+        "states_mappings": [
+          {
+            "state_phrase": "Patient expresses shame or embarrassment",
+            "by_dimensions": [
+              "Mood/Emotional State"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "Discussing symptom mechanisms",
+            "by_dimensions": [],
+            "gap_reason": "No dimension represents whether a psychoeducational explanation of symptom mechanisms is occurring or understood."
+          }
+        ]
+      },
+      {
+        "action": "Debunk Myths and Address Misconceptions",
+        "states_mappings": [
+          {
+            "state_phrase": "Patient expresses inaccurate beliefs",
+            "by_dimensions": [
+              "Cognitive Distortions/Errors",
+              "Automatic Thoughts"
+            ],
+            "gap_reason": "These variables cover general cognitive inaccuracies, but not those specific to therapy/mental health—may need variable for 'therapy-related misconceptions.'"
+          },
+          {
+            "state_phrase": "Resistance is linked to misunderstandings",
+            "by_dimensions": [
+              "Patient Engagement and Participation"
+            ],
+            "gap_reason": "No dimension indicates the specific cause of resistance (e.g., misunderstanding or misconception)."
+          }
+        ]
+      },
+      {
+        "action": "Invite Questions and Feedback",
+        "states_mappings": [
+          {
+            "state_phrase": "Patient hesitates, appears confused, or expresses doubts",
+            "by_dimensions": [
+              "Insight and Self-Awareness"
+            ],
+            "gap_reason": "No variable specifically detects patient confusion, doubt, or lack of understanding about therapy content."
+          }
+        ]
+      },
+      {
+        "action": "Reinforce Psychoeducation with Visuals or Handouts",
+        "states_mappings": [
+          {
+            "state_phrase": "Explaining complex models",
+            "by_dimensions": [],
+            "gap_reason": "No variable indicates the complexity of content being discussed or tracks if supplemental educational supports (e.g., visuals, handouts) are used or needed."
+          },
+          {
+            "state_phrase": "Patient benefits from supplemental information",
+            "by_dimensions": [],
+            "gap_reason": "No dimension assesses benefit or need for alternative/supplemental psychoeducational resources."
+          }
+        ]
+      }
+    ],
+    "new_dimensions": [
+      {
+        "Variable Name": "CBT/Diagnosis Knowledge Level",
+        "Description": "Patient's level of understanding of CBT principles and their diagnosis, including misconceptions and knowledge gaps.",
+        "Categorical values": [
+          "None",
+          "Minimal",
+          "Basic",
+          "Adequate",
+          "Good",
+          "Accurate",
+          "Common misconceptions",
+          "Specific misconceptions",
+          "Stigma present"
+        ],
+        "Numerical values": "regression from 0 to 1 scale",
+        "Rationale": "Essential to track whether the patient understands CBT, holds misconceptions, or needs psychoeducation. Current variables do not encode domain-specific knowledge or misunderstanding."
+      },
+      {
+        "Variable Name": "Therapy-Related Misconceptions/Stigma",
+        "Description": "Presence and nature of misconceptions, stigmatizing beliefs, or faulty assumptions about mental health treatment and therapy.",
+        "Categorical values": [
+          "None",
+          "General stigma",
+          "CBT-specific misconception",
+          "Mental health myth",
+          "Therapy skepticism",
+          "Incorrect mechanism",
+          "Blame/self-blame",
+          "Shame-based misconception",
+          "Other"
+        ],
+        "Numerical values": "regression from 0 to 1 scale",
+        "Rationale": "Allows tracking and targeting of therapy-specific inaccuracies versus generic cognitive errors."
+      },
+      {
+        "Variable Name": "Psychoeducation Delivery/Support Type",
+        "Description": "Indicates methods and supports used for psychoeducation, such as visuals, handouts, or verbal explanation.",
+        "Categorical values": [
+          "Verbal Only",
+          "Written Handout",
+          "Visual Diagram",
+          "Homework Reading",
+          "Digital Resource",
+          "None",
+          "Other"
+        ],
+        "Numerical values": "regression from 0 to 1 scale for amount/intensity of support",
+        "Rationale": "Needed to monitor whether supplemental educational methods/resources are being used, their type, and their adaptation to patient learning needs."
+      },
+      {
+        "Variable Name": "Comprehension/Confusion State",
+        "Description": "Degree to which patient appears to understand, is confused by, or expresses doubt/uncertainty regarding session material or explanations.",
+        "Categorical values": [
+          "Clear Understanding",
+          "Partial Understanding",
+          "Uncertain",
+          "Confused",
+          "Doubtful",
+          "Asking clarifying questions",
+          "Hesitant to express confusion"
+        ],
+        "Numerical values": "regression from 0 to 1 scale (0=total confusion, 1=complete clarity)",
+        "Rationale": "Allows explicit tracking of whether the patient is following explanations or needs further clarification, beyond generic insight/awareness."
+      },
+      {
+        "Variable Name": "Psychoeducational Content Complexity",
+        "Description": "Level of complexity in the CBT or symptom mechanisms being discussed, to guide adaptation of explanations.",
+        "Categorical values": [
+          "Basic",
+          "Intermediate",
+          "Complex/Advanced"
+        ],
+        "Numerical values": "regression from 0 to 1 scale",
+        "Rationale": "Supports decisions about when to provide supplemental aids, and to adapt explanations to patient learning needs."
+      }
+    ],
+    "_macro_action_name": "Psychoeducation and Therapy Orientation"
+  },
+  {
+    "per_action": [
+      {
+        "action": "Assessment, Diagnosis, and Case Formulation",
+        "states_mappings": [
+          {
+            "state_phrase": "Intake and early sessions",
+            "by_dimensions": [
+              "Session Phase/Chronology"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "Symptoms or history are unclear or complex",
+            "by_dimensions": [
+              "Symptom Severity",
+              "Comorbid Symptoms Impact",
+              "Physical Symptoms",
+              "Mood/Emotional State",
+              "Cognitive Distortions/Errors"
+            ],
+            "gap_reason": "No dimension explicitly addresses symptom or history ambiguity/clarity, or presence of diagnostic uncertainty. The agent would benefit from an explicit variable for 'Diagnostic/Case Clarity' for tracking, e.g. 'Unclear', 'Partially Clear', 'Clear', in addition to content- and severity-focused variables."
+          },
+          {
+            "state_phrase": "When planning or revising treatment targets",
+            "by_dimensions": [
+              "Progress Toward Goals",
+              "Session Agenda/Plan Status"
+            ],
+            "gap_reason": "No explicit dimension exists for tracking 'case formulation completeness' or 'case conceptualization quality/status', which is central to planning/revision moments."
+          }
+        ]
+      },
+      {
+        "action": "Ask Targeted Assessment Questions",
+        "states_mappings": [
+          {
+            "state_phrase": "Initial evaluation, unclear presentation",
+            "by_dimensions": [
+              "Session Phase/Chronology"
+            ],
+            "gap_reason": "No dimension captures specifically 'presentation clarity/diagnostic ambiguity'. Existing state focuses on chronology not clarity."
+          }
+        ]
+      },
+      {
+        "action": "Elicit Narrative and Context",
+        "states_mappings": [
+          {
+            "state_phrase": "Clarifying presenting problems",
+            "by_dimensions": [
+              "Symptom Severity",
+              "Comorbid Symptoms Impact",
+              "Physical Symptoms"
+            ],
+            "gap_reason": "No dimension for quality/completeness of problem narrative/contextual understanding (i.e., is the case narrative/confounding factors fully elicited or not)."
+          },
+          {
+            "state_phrase": "Patient describes history",
+            "by_dimensions": [
+              "Cultural/Identity/Context Factors",
+              "Environmental/Situational Stressors"
+            ],
+            "gap_reason": "Existing variables cover context/stressors overall. However, there is no explicit variable for 'History Narrative Completeness'—whether a structured and sufficient account of relevant history has actually been captured."
+          }
+        ]
+      },
+      {
+        "action": "Administer and Review Standardized Measures",
+        "states_mappings": [
+          {
+            "state_phrase": "Assessment or progress monitoring",
+            "by_dimensions": [
+              "Symptom Severity",
+              "Progress Toward Goals"
+            ],
+            "gap_reason": "No explicit dimension for whether formal measures have been used/administered or their status in the process."
+          }
+        ]
+      },
+      {
+        "action": "Collaboratively Review and Update Formulation",
+        "states_mappings": [
+          {
+            "state_phrase": "Formulation phase",
+            "by_dimensions": [
+              "Session Phase/Chronology"
+            ],
+            "gap_reason": "No variable for state of 'case formulation/model consensus/status' between therapist and patient."
+          },
+          {
+            "state_phrase": "Revising targets after new information",
+            "by_dimensions": [
+              "Progress Toward Goals",
+              "Session Agenda/Plan Status"
+            ],
+            "gap_reason": "No dimension for 'case formulation/model completeness/status', even though revision is implied."
+          }
+        ]
+      },
+      {
+        "action": "Identify and Rate Mood, Thoughts, Emotions, Behaviors",
+        "states_mappings": [
+          {
+            "state_phrase": "Complex or overlapping symptoms",
+            "by_dimensions": [
+              "Symptom Severity",
+              "Mood/Emotional State",
+              "Cognitive Distortions/Errors",
+              "Comorbid Symptoms Impact",
+              "Physical Symptoms"
+            ],
+            "gap_reason": "No explicit variable for tracking 'number of diagnostic domains involved' or 'degree of case complexity/overlap', which can be important for guiding the need for more comprehensive formulation."
+          }
+        ]
+      }
+    ],
+    "new_dimensions": [
+      {
+        "Variable Name": "Diagnostic/Case Clarity",
+        "Description": "Degree to which the patient’s diagnosis, symptom picture, and case formulation are clear, ambiguous, or evolving.",
+        "Categorical values": [
+          "Unclear",
+          "Partially Clear",
+          "Mostly Clear",
+          "Clear",
+          "Revised with new information"
+        ],
+        "Numerical values": "regression from 0 to 1 scale (0=ambiguous, 1=fully clear)",
+        "Rationale": "Needed to distinguish between cases where information is missing, ambiguous, or where the therapist is actively seeking or revising clarity; guides conversational and clinical strategy."
+      },
+      {
+        "Variable Name": "History Narrative Completeness",
+        "Description": "Extent to which a structured, sufficient account of the patient’s relevant personal, developmental, and clinical history has been elicited and documented.",
+        "Categorical values": [
+          "Not Elicited",
+          "Partial",
+          "Adequate",
+          "Comprehensive"
+        ],
+        "Numerical values": "regression from 0 to 1 scale",
+        "Rationale": "Distinguishes whether adequate background/contextual information has been gathered for case formulation, beyond fleeting mentions of context/factors."
+      },
+      {
+        "Variable Name": "Case Formulation/Conceptualization Status",
+        "Description": "The degree to which an individualized CBT model has been explicitly developed, documented, and agreed upon (or revised) with the patient.",
+        "Categorical values": [
+          "Not Started",
+          "Drafted by Therapist",
+          "Collaboratively Drafted",
+          "Reviewed/Consensus Achieved",
+          "Revised",
+          "Outdated"
+        ],
+        "Numerical values": "regression from 0 to 1 scale",
+        "Rationale": "Essential to track whether there is an explicit, collaborative formulation guiding treatment and whether it is current."
+      },
+      {
+        "Variable Name": "Assessment Measure Utilization",
+        "Description": "Whether (and how recently) standardized assessment tools, rating scales, or questionnaires have been administered and reviewed with the patient.",
+        "Categorical values": [
+          "Not Used",
+          "Administered—Not Reviewed",
+          "Administered and Reviewed",
+          "In Progress",
+          "Repeated/Follow-up"
+        ],
+        "Numerical values": "regression from 0 to 1 scale (reflecting regularity/use over time)",
+        "Rationale": "Allows agent to monitor use of structured measures, differentiate clinical strategies, and know when to prompt for assessment versus review versus retest."
+      },
+      {
+        "Variable Name": "Case Complexity/Overlap",
+        "Description": "Degree to which the patient presents with multiple, overlapping, or comorbid conditions, symptom clusters, or diagnostic ambiguity complicating straightforward formulation.",
+        "Categorical values": [
+          "Simple",
+          "Moderate Complexity",
+          "High/Overlapping",
+          "Unclear"
+        ],
+        "Numerical values": "regression from 0 to 1 scale",
+        "Rationale": "Important for distinguishing cases requiring more extensive assessment/formulation efforts and guiding need for clarity or simplification."
+      }
+    ],
+    "_macro_action_name": "Assessment, Diagnosis, and Case Formulation"
+  },
+  {
+    "per_action": [
+      {
+        "action": "Agenda, Goal Setting, and Action Planning",
+        "states_mappings": [
+          {
+            "state_phrase": "Start of every session",
+            "by_dimensions": [
+              "Session Phase/Chronology"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "Following assessment/psychoeducation",
+            "by_dimensions": [
+              "Session Phase/Chronology",
+              "Psychoeducation Delivery/Support Type",
+              "Assessment Measure Utilization"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "When motivation or direction is unclear",
+            "by_dimensions": [
+              "Motivation and Readiness for Change",
+              "Readiness/Commitment to Change"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Initiate Agenda Setting and Goal Identification",
+        "states_mappings": [
+          {
+            "state_phrase": "Session start",
+            "by_dimensions": [
+              "Session Phase/Chronology"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "Therapy planning points",
+            "by_dimensions": [
+              "Session Phase/Chronology",
+              "Session Agenda/Plan Status"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Elicit Patient's Preferences and Values",
+        "states_mappings": [
+          {
+            "state_phrase": "Beginning treatment planning",
+            "by_dimensions": [
+              "Session Phase/Chronology",
+              "Session Agenda/Plan Status"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "Motivation phase",
+            "by_dimensions": [
+              "Motivation and Readiness for Change",
+              "Readiness/Commitment to Change"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Collaboratively Prioritize and Specify Goals",
+        "states_mappings": [
+          {
+            "state_phrase": "Patient proposes multiple goals",
+            "by_dimensions": [
+              "Progress Toward Goals"
+            ],
+            "gap_reason": "No existing dimension explicitly tracks the content, specificity, or number of active therapy goals being considered or collaboratively negotiated in-session."
+          },
+          {
+            "state_phrase": "Ambiguity present",
+            "by_dimensions": [
+              "Progress Toward Goals"
+            ],
+            "gap_reason": "No existing dimension directly covers ambiguity or clarity of goals or plans from the patient's or therapy's perspective."
+          }
+        ]
+      },
+      {
+        "action": "Record and Review Agenda/Goals",
+        "states_mappings": [
+          {
+            "state_phrase": "Agenda/goal setting",
+            "by_dimensions": [
+              "Session Agenda/Plan Status"
+            ],
+            "gap_reason": "No dimension tracks whether current goals have been agreed upon, recorded, or are pending patient agreement/clarification."
+          },
+          {
+            "state_phrase": "Progress review",
+            "by_dimensions": [
+              "Progress Toward Goals"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Facilitate Cost–Benefit and Motivation Discussion",
+        "states_mappings": [
+          {
+            "state_phrase": "Patient undecided or unmotivated",
+            "by_dimensions": [
+              "Motivation and Readiness for Change",
+              "Readiness/Commitment to Change"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      }
+    ],
+    "new_dimensions": [
+      {
+        "Variable Name": "Agenda/Goal Clarity and Agreement",
+        "Description": "Degree to which therapy goals and session agendas are clear, specific, agreed upon, and collaboratively negotiated between patient and therapist.",
+        "Categorical values": [
+          "No goals/agenda",
+          "Multiple unclear options",
+          "Drafted—Not agreed",
+          "Partially specified",
+          "Clear—Not agreed",
+          "Clear—Agreed",
+          "Revised during session"
+        ],
+        "Numerical values": "regression from 0 to 1 scale (0=ambiguous/unagreed, 1=fully specific/agreed)",
+        "Rationale": "Needed to track the clarity, specificity, and degree of collaborative agreement on session agendas and therapy goals. Enables identification of ambiguity and negotiation stages that existing dimensions do not represent."
+      }
+    ],
+    "_macro_action_name": "Agenda, Goal Setting, and Action Planning"
+  },
+  {
+    "per_action": [
+      {
+        "action": "Cognitive Interventions: Identification and Restructuring",
+        "states_mappings": [
+          {
+            "state_phrase": "Patient reports distressing emotions or behaviors tied to thoughts",
+            "by_dimensions": [
+              "Mood/Emotional State",
+              "Emotional State Intensity",
+              "Automatic Thoughts"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "Cognitive restructuring or belief modification phase",
+            "by_dimensions": [
+              "Session Phase/Chronology"
+            ],
+            "gap_reason": "Current dimensions do not encode specific CBT sub-phases within a session (such as 'cognitive restructuring phase'), only general session chronology."
+          },
+          {
+            "state_phrase": "Persistent negative thinking or rigid beliefs present",
+            "by_dimensions": [
+              "Automatic Thoughts",
+              "Core Beliefs/Schemas",
+              "Belief Conviction/Strength"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Elicit and Record Automatic Thoughts",
+        "states_mappings": [
+          {
+            "state_phrase": "Discussion of problem events",
+            "by_dimensions": [],
+            "gap_reason": "No explicit dimension tracks whether a problem event (context/trigger/situation) is being discussed or represented."
+          },
+          {
+            "state_phrase": "High emotional arousal",
+            "by_dimensions": [
+              "Emotional State Intensity"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Identify and Categorize Cognitive Distortions",
+        "states_mappings": [
+          {
+            "state_phrase": "Negative thinking evident",
+            "by_dimensions": [
+              "Automatic Thoughts"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Use Socratic Questioning to Challenge Beliefs",
+        "states_mappings": [
+          {
+            "state_phrase": "Automatic thoughts or beliefs appear rigid or unhelpful",
+            "by_dimensions": [
+              "Belief Conviction/Strength",
+              "Automatic Thoughts",
+              "Core Beliefs/Schemas"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Facilitate Generation of Alternative Thoughts",
+        "states_mappings": [
+          {
+            "state_phrase": "Post-evidence gathering",
+            "by_dimensions": [],
+            "gap_reason": "No existing dimension encodes the procedural sub-phase (i.e., 'evidence has been gathered' within cognitive restructuring), only overall session phase."
+          },
+          {
+            "state_phrase": "After cognitive error identification",
+            "by_dimensions": [
+              "Cognitive Distortions/Errors"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Guide Ratings of Belief Strength and Mood Change",
+        "states_mappings": [
+          {
+            "state_phrase": "During or after cognitive intervention",
+            "by_dimensions": [],
+            "gap_reason": "No dimension encodes process sub-phase markers specific to 'during/after a cognitive intervention' as opposed to general session phase."
+          },
+          {
+            "state_phrase": "Emotion tracking",
+            "by_dimensions": [
+              "Mood/Emotional State",
+              "Emotional State Intensity"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Review and Troubleshoot Cognitive Restructuring",
+        "states_mappings": [
+          {
+            "state_phrase": "No improvement after restructuring",
+            "by_dimensions": [
+              "Automatic Thoughts",
+              "Core Beliefs/Schemas",
+              "Belief Conviction/Strength"
+            ],
+            "gap_reason": "No dimension explicitly encodes 'improvement after restructuring' (i.e., a discrete marker signaling successful/unsuccessful intervention outcome in-session), only the content or level of beliefs themselves."
+          },
+          {
+            "state_phrase": "Persistent maladaptive thoughts",
+            "by_dimensions": [
+              "Automatic Thoughts"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      }
+    ],
+    "new_dimensions": [
+      {
+        "Variable Name": "Problem Event/Trigger Discussion",
+        "Description": "Whether the patient is actively describing a specific event, situation, or trigger relevant to emotional or behavioral responses.",
+        "Categorical values": [
+          "Not Discussed",
+          "In Discussion",
+          "Discussed/Documented"
+        ],
+        "Numerical values": "regression from 0 to 1 scale (0=not surfaced; 1=fully explored/documented)",
+        "Rationale": "Needed to track whether a problem event or trigger is explicitly being discussed or recorded as context for automatic thoughts and CBT work."
+      },
+      {
+        "Variable Name": "Intervention Step/Subphase",
+        "Description": "The current detailed step or procedural subphase within a CBT intervention sequence (e.g., evidence gathering, Socratic questioning, restructuring, review phase).",
+        "Categorical values": [
+          "Psychoeducation",
+          "Identifying Thoughts",
+          "Identifying Errors",
+          "Evidence Gathering",
+          "Generating Alternatives",
+          "Rating Beliefs",
+          "Review/Reflect",
+          "Other"
+        ],
+        "Numerical values": "regression from 0 to 1 scale representing completion progression of the intervention sequence",
+        "Rationale": "Required to distinguish between procedural stages inside a macro CBT technique (e.g., whether therapist/patient are mid-evidence-gathering vs. generating alternatives), supplementing general session phase tracking."
+      },
+      {
+        "Variable Name": "Intervention Effectiveness Outcome",
+        "Description": "Captures the immediate outcome of an intervention with respect to symptomatic or cognitive improvement (e.g., successful, partial, none, or negative effect) following restructuring attempts.",
+        "Categorical values": [
+          "Improved",
+          "No Change",
+          "Worsened",
+          "Partial Improvement",
+          "Deterioration",
+          "Not Assessed"
+        ],
+        "Numerical values": "regression from 0 to 1 scale (0=no improvement/deterioration, 1=full improvement)",
+        "Rationale": "Needed to mark if change occurs after an intervention attempt (e.g., improvement after cognitive restructuring), not just the content of beliefs or mood itself."
+      }
+    ],
+    "_macro_action_name": "Cognitive Interventions: Identification and Restructuring"
+  },
+  {
+    "per_action": [
+      {
+        "action": "Core Beliefs and Schema Work",
+        "states_mappings": [
+          {
+            "state_phrase": "Surface restructuring has limited effect",
+            "by_dimensions": [
+              "Intervention Effectiveness Outcome"
+            ],
+            "gap_reason": "Able to detect that intervention (at surface level) failed to improve outcome, but cannot currently attribute specifically to the 'depth' of content targeted (i.e., surface automatic thoughts vs. deep core beliefs) without an explicit variable for intervention target level."
+          },
+          {
+            "state_phrase": "Longstanding patterns traced to global beliefs",
+            "by_dimensions": [
+              "Core Beliefs/Schemas"
+            ],
+            "gap_reason": "Can detect global/core beliefs, but no variable ensures agent can track whether a long chain of problematic patterns has explicitly been 'traced' to global beliefs during session (i.e., causal/historical mapping)."
+          },
+          {
+            "state_phrase": "Later therapy stages focused on underlying schemas",
+            "by_dimensions": [
+              "Session Phase/Chronology",
+              "Core Beliefs/Schemas"
+            ],
+            "gap_reason": "Can infer therapy phase and presence of core belief focus, but not whether current session content is primarily centered on schemas/core beliefs as opposed to other foci."
+          }
+        ]
+      },
+      {
+        "action": "Apply Downward Arrow Technique",
+        "states_mappings": [
+          {
+            "state_phrase": "Recurring negative thought patterns",
+            "by_dimensions": [
+              "Automatic Thoughts"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "Seeking underlying core beliefs",
+            "by_dimensions": [],
+            "gap_reason": "No variable tracks 'seeking' vs. 'having found' core beliefs or explicit hypothesis-testing/elicitation procedures to move from surface to deep levels."
+          }
+        ]
+      },
+      {
+        "action": "Facilitate Core Belief Worksheet Completion",
+        "states_mappings": [
+          {
+            "state_phrase": "Identification and monitoring phase",
+            "by_dimensions": [
+              "Core Beliefs/Schemas"
+            ],
+            "gap_reason": "Coverage for content identification and strength, but no tracking of specific phase/stage (identification/monitoring vs. restructuring) within a core belief intervention workflow."
+          }
+        ]
+      },
+      {
+        "action": "Solicit and Reinforce New Adaptive Beliefs",
+        "states_mappings": [
+          {
+            "state_phrase": "New belief identified",
+            "by_dimensions": [
+              "Core Beliefs/Schemas"
+            ],
+            "gap_reason": "Able to represent presence/content of new belief; cannot disambiguate between 'newly identified' vs. already established/longstanding vs. still hypothetical."
+          },
+          {
+            "state_phrase": "Strengthening phase",
+            "by_dimensions": [],
+            "gap_reason": "No variable to capture the phase of 'actively reinforcing' or 'practicing' new beliefs as part of skill consolidation."
+          }
+        ]
+      },
+      {
+        "action": "Support Behavioral Experiments for New Beliefs",
+        "states_mappings": [
+          {
+            "state_phrase": "Belief change consolidation",
+            "by_dimensions": [
+              "Change in Belief/Emotion Post-Experiment"
+            ],
+            "gap_reason": "Captures degree of change, but does not distinguish the process of deliberate consolidation/maintenance vs. one-off or initial intervention."
+          },
+          {
+            "state_phrase": "Practical application phase",
+            "by_dimensions": [
+              "Homework/Behavioral Experiment Completion"
+            ],
+            "gap_reason": "Tracks completion, but not explicit focus on 'application of new belief' nor whether this is a transition/phase in the treatment plan."
+          }
+        ]
+      },
+      {
+        "action": "Prompt Regular Monitoring and Review",
+        "states_mappings": [
+          {
+            "state_phrase": "Ongoing review/maintenance",
+            "by_dimensions": [],
+            "gap_reason": "No variable to track that work is now in an ongoing, maintenance/review phase for core beliefs (vs. active intervention/identification)."
+          }
+        ]
+      }
+    ],
+    "new_dimensions": [
+      {
+        "Variable Name": "Intervention Target Level",
+        "Description": "Tracks the cognitive-processing level targeted by the current intervention—surface (automatic thoughts), intermediate beliefs, or core/global schemas.",
+        "Categorical values": [
+          "Automatic Thoughts",
+          "Intermediate Beliefs/Assumptions",
+          "Core Beliefs/Schemas"
+        ],
+        "Numerical values": "regression from 0 (surface only) to 1 (deep schema focus)",
+        "Rationale": "Needed to distinguish whether limited effect is due to insufficient depth and to map content focus across intervention levels."
+      },
+      {
+        "Variable Name": "Belief Elicitation/Tracing Status",
+        "Description": "Status of process tracing problematic patterns to core/global beliefs, covering whether causal/historical roots have been identified and explicitly discussed.",
+        "Categorical values": [
+          "Not Explored",
+          "Exploration in Progress",
+          "Traced to Core Beliefs",
+          "Not Linked"
+        ],
+        "Numerical values": "regression from 0 (not explored) to 1 (fully traced/linked)",
+        "Rationale": "To detect if longstanding patterns have been explicitly mapped to global beliefs during therapy."
+      },
+      {
+        "Variable Name": "Session Content Focus",
+        "Description": "Primary focus/theme of the current session or segment, distinguishing core belief/schema work, surface restructuring, behavioral work, etc.",
+        "Categorical values": [
+          "Core Belief/Schema",
+          "Automatic Thought",
+          "Behavioral Activation",
+          "Interpersonal",
+          "Other"
+        ],
+        "Numerical values": "regression from 0 to 1 scale (1 = exclusively focused on given content area)",
+        "Rationale": "Needed to discern when later therapy stages prioritize schema work, as opposed to other foci."
+      },
+      {
+        "Variable Name": "Belief Intervention Workflow Phase",
+        "Description": "Tracks the working phase within core belief intervention: identification, monitoring, restructuring, strengthening, consolidation/maintenance.",
+        "Categorical values": [
+          "Not Started",
+          "Identification",
+          "Monitoring",
+          "Restructuring",
+          "Strengthening",
+          "Consolidation/Maintenance"
+        ],
+        "Numerical values": "regression from 0 (not started) to 1 (maintenance/consolidation phase)",
+        "Rationale": "Allows agent to track which procedural phase of schema/core belief work the patient is currently engaging in."
+      },
+      {
+        "Variable Name": "Belief Novelty/Status",
+        "Description": "Distinguishes whether a belief is newly identified, longstanding (previously known), or hypothetical/under exploration.",
+        "Categorical values": [
+          "Newly Identified",
+          "Longstanding",
+          "Hypothetical",
+          "Under Evaluation"
+        ],
+        "Numerical values": "regression from 0 (hypothetical/unknown) to 1 (newly identified and explicit)",
+        "Rationale": "Needed to track whether a patient has just identified a new belief versus other possible belief statuses."
+      }
+    ],
+    "_macro_action_name": "Core Beliefs and Schema Work"
+  },
+  {
+    "per_action": [
+      {
+        "action": "Behavioral Activation, Experimentation, and Skills Training",
+        "states_mappings": [
+          {
+            "state_phrase": "Symptoms related to inactivity, avoidance, or skill deficits",
+            "by_dimensions": [
+              "Functional Impairment",
+              "Avoidance and Safety Behaviors",
+              "Coping Strategies Utilization/Effectiveness",
+              "Symptom Severity"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "Cognitive interventions alone are insufficient",
+            "by_dimensions": [],
+            "gap_reason": "No existing variable directly tracks the sufficiency or effectiveness of cognitive interventions alone (i.e., identifying when cognitive-only approaches have been ineffective and behavioral methods are needed)."
+          },
+          {
+            "state_phrase": "Patient is ready to test beliefs or build new behaviors",
+            "by_dimensions": [
+              "Motivation and Readiness for Change",
+              "Readiness/Commitment to Change"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Collaboratively Design Behavioral Experiments and Activity Plans",
+        "states_mappings": [
+          {
+            "state_phrase": "When practical learning or activation is needed",
+            "by_dimensions": [
+              "Progress Toward Goals",
+              "Avoidance and Safety Behaviors",
+              "Coping Strategies Utilization/Effectiveness"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Break Tasks Into Steps and Problem-Solve Barriers",
+        "states_mappings": [
+          {
+            "state_phrase": "Planning phase",
+            "by_dimensions": [
+              "Intervention Step/Subphase"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "Patient expresses overwhelm",
+            "by_dimensions": [
+              "Emotional State Intensity",
+              "Mood/Emotional State",
+              "Obstacles and Barriers to Change"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Model and Teach New Behavioral/Coping Skills",
+        "states_mappings": [
+          {
+            "state_phrase": "Skill-building sessions",
+            "by_dimensions": [
+              "Session Content Focus"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "Patient unfamiliar with target skill",
+            "by_dimensions": [
+              "Coping Strategies Utilization/Effectiveness",
+              "CBT/Diagnosis Knowledge Level"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Prompt In-Session or Homework Skill Practice",
+        "states_mappings": [
+          {
+            "state_phrase": "After skills instruction",
+            "by_dimensions": [
+              "Intervention Step/Subphase"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "Preparing for real-world application",
+            "by_dimensions": [
+              "Generalization of Learning"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Encourage Tracking and Reflection",
+        "states_mappings": [
+          {
+            "state_phrase": "Homework or between-session review",
+            "by_dimensions": [
+              "Homework/Behavioral Experiment Completion",
+              "Progress Toward Goals"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      }
+    ],
+    "new_dimensions": [
+      {
+        "Variable Name": "Cognitive Intervention Sufficiency",
+        "Description": "Tracks whether cognitive interventions alone have been sufficient (i.e., if additional behavioral interventions are warranted due to limited impact of cognitive techniques).",
+        "Categorical values": [
+          "Sufficient",
+          "Partially Sufficient",
+          "Insufficient",
+          "Not Assessed"
+        ],
+        "Numerical values": "regression from 0 (ineffective) to 1 (fully sufficient)",
+        "Rationale": "Needed to determine when cognitive restructuring has not produced desired outcomes and behavioral methods (activation, experiment) should be prioritized, as in the macro state 'Cognitive interventions alone are insufficient.'"
+      }
+    ],
+    "_macro_action_name": "Behavioral Activation, Experimentation, and Skills Training"
+  },
+  {
+    "per_action": [
+      {
+        "action": "Exposure and Response Prevention",
+        "states_mappings": [
+          {
+            "state_phrase": "Patient presents with avoidance, anxiety, phobia, or OCD symptoms",
+            "by_dimensions": [
+              "Symptom Severity",
+              "Avoidance and Safety Behaviors"
+            ],
+            "gap_reason": "No existing dimension for tracking which SPECIFIC target (e.g., phobia subtype or OCD symptom type) is being addressed; this may limit ability to specifically monitor domain-focus (e.g., is exposure for contamination, social phobia, etc.)."
+          },
+          {
+            "state_phrase": "When reducing avoidance or testing beliefs is needed",
+            "by_dimensions": [
+              "Avoidance and Safety Behaviors",
+              "Belief Conviction/Strength",
+              "Motivation and Readiness for Change"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Develop Exposure Hierarchy",
+        "states_mappings": [
+          {
+            "state_phrase": "Beginning exposure-based interventions",
+            "by_dimensions": [
+              "Intervention Step/Subphase"
+            ],
+            "gap_reason": "No dimension exists for tracking the STRUCTURE or presence of a formal exposure hierarchy (the list of targets, their order, and anxiety ratings for each step); agent cannot track progress through a hierarchy or whether one has been collaboratively created."
+          }
+        ]
+      },
+      {
+        "action": "Assign and Guide Exposure Tasks",
+        "states_mappings": [
+          {
+            "state_phrase": "Engaging in exposure work",
+            "by_dimensions": [
+              "Intervention Step/Subphase",
+              "Homework/Behavioral Experiment Completion"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Prompt Prediction and Outcome Review",
+        "states_mappings": [
+          {
+            "state_phrase": "Before and after exposure exercises",
+            "by_dimensions": [
+              "Subjective Distress Level",
+              "Belief Conviction/Strength",
+              "Change in Belief/Emotion Post-Experiment",
+              "Homework/Behavioral Experiment Completion"
+            ],
+            "gap_reason": "No existing dimension for capturing patient's explicit PREDICTION (expectancy or anticipated outcome) prior to exposure (not just actual anxiety or belief); current variables only track outcome and response, not stated predictions."
+          }
+        ]
+      },
+      {
+        "action": "Monitor and Reduce Safety Behaviors",
+        "states_mappings": [
+          {
+            "state_phrase": "During or after exposure tasks",
+            "by_dimensions": [
+              "Avoidance and Safety Behaviors"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Provide Support and Encouragement During Exposure",
+        "states_mappings": [
+          {
+            "state_phrase": "Patient expresses distress or doubt during exposure",
+            "by_dimensions": [
+              "Subjective Distress Level",
+              "Mood/Emotional State",
+              "Patient Engagement and Participation"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      }
+    ],
+    "new_dimensions": [
+      {
+        "Variable Name": "Exposure Hierarchy Structure/Progress",
+        "Description": "Tracks whether an individualized exposure hierarchy has been constructed with the patient, including presence, number, and order of items, and progression/completion through the hierarchy.",
+        "Categorical values": [
+          "Not Started",
+          "In Progress",
+          "Partially Constructed",
+          "Complete",
+          "Progressing",
+          "Stalled",
+          "Completed"
+        ],
+        "Numerical values": "regression from 0 (not started) to 1 (fully constructed and completed)",
+        "Rationale": "Necessary to monitor stepwise exposure therapy progress, confirm collaborative planning, and differentiate early, mid, and late phases of graded exposure."
+      },
+      {
+        "Variable Name": "Pre-Exposure Prediction/Expectation",
+        "Description": "Captures patient’s explicit prediction or expectation about their feelings, behavior, or outcome PRIOR to the exposure exercise (e.g., 'My anxiety will be 9/10' or 'I will panic and leave').",
+        "Categorical values": [
+          "Catastrophic Outcome Predicted",
+          "Moderate Negative Outcome Predicted",
+          "Mild Negative Outcome Predicted",
+          "Neutral/No Major Prediction",
+          "Positive/Adaptive Outcome Predicted"
+        ],
+        "Numerical values": "regression from 0 (most negative/extreme prediction) to 1 (fully positive/adaptive expectation)",
+        "Rationale": "Essential for evaluating expectancy violation during exposure and comparing anticipated vs. actual outcomes for CBT learning."
+      },
+      {
+        "Variable Name": "Exposure Target Domain",
+        "Description": "Specifies the particular content or symptom domain targeted by the current exposure (e.g., contamination, social phobia, checking, health anxiety, etc.).",
+        "Categorical values": [
+          "Contamination",
+          "Social Phobia",
+          "Health Anxiety",
+          "Checking",
+          "Superstitious",
+          "Other OCD",
+          "Specific Phobia",
+          "Panic/Interoceptive",
+          "Generalized Anxiety/Worry",
+          "Other"
+        ],
+        "Numerical values": "no standard regression; can use 1-hot encoding or frequency if multiple domains worked on over time",
+        "Rationale": "Allows tracking which symptom clusters or fears are currently being addressed, not just that avoidance exists; important for tailoring and evaluating progress within multidimensional exposures."
+      }
+    ],
+    "_macro_action_name": "Exposure and Response Prevention"
+  },
+  {
+    "per_action": [
+      {
+        "action": "Skills Generalization, Homework, and Progress Review",
+        "states_mappings": [
+          {
+            "state_phrase": "Between sessions to consolidate skills",
+            "by_dimensions": [
+              "Homework/Behavioral Experiment Completion",
+              "Generalization of Learning"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "When monitoring application in daily life",
+            "by_dimensions": [
+              "Generalization of Learning",
+              "Homework/Behavioral Experiment Completion"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "Troubleshooting noncompliance or limited progress",
+            "by_dimensions": [
+              "Homework/Behavioral Experiment Completion",
+              "Obstacles and Barriers to Change",
+              "Progress Toward Goals"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Assign Clear, Specific Homework Tasks",
+        "states_mappings": [
+          {
+            "state_phrase": "End of session",
+            "by_dimensions": [
+              "Session Phase/Chronology"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "Skill needs reinforcement",
+            "by_dimensions": [
+              "Coping Strategies Utilization/Effectiveness",
+              "Progress Toward Goals"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Review Homework Completion and Barriers",
+        "states_mappings": [
+          {
+            "state_phrase": "Session start",
+            "by_dimensions": [
+              "Session Phase/Chronology"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "If homework wasn't completed",
+            "by_dimensions": [
+              "Homework/Behavioral Experiment Completion"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Collaboratively Problem-Solve Obstacles",
+        "states_mappings": [
+          {
+            "state_phrase": "Patient reports obstacles to completion",
+            "by_dimensions": [
+              "Obstacles and Barriers to Change",
+              "Homework/Behavioral Experiment Completion"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Provide Positive, Constructive Feedback",
+        "states_mappings": [
+          {
+            "state_phrase": "Review phase",
+            "by_dimensions": [
+              "Session Phase/Chronology",
+              "Intervention Step/Subphase"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "On patient expression of effort or challenges",
+            "by_dimensions": [
+              "Patient Engagement and Participation",
+              "Obstacles and Barriers to Change"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Model Mistake Normalization",
+        "states_mappings": [
+          {
+            "state_phrase": "Patient expresses shame or self-criticism",
+            "by_dimensions": [
+              "Mood/Emotional State",
+              "Core Beliefs/Schemas"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      }
+    ],
+    "new_dimensions": [],
+    "_macro_action_name": "Skills Generalization, Homework, and Progress Review"
+  },
+  {
+    "per_action": [
+      {
+        "action": "Relapse Prevention and Termination Planning",
+        "states_mappings": [
+          {
+            "state_phrase": "Later/termination phase of therapy",
+            "by_dimensions": [
+              "Session Phase/Chronology"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "Following substantial progress",
+            "by_dimensions": [
+              "Progress Toward Goals"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "Patient is concerned about setbacks, relapse, or future risks",
+            "by_dimensions": [
+              "Relapse Risk and Early Warning Signs"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Review and Consolidate Skills and Progress",
+        "states_mappings": [
+          {
+            "state_phrase": "Therapy end or tapering",
+            "by_dimensions": [
+              "Session Phase/Chronology"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Collaboratively Develop Relapse Prevention Plan",
+        "states_mappings": [
+          {
+            "state_phrase": "Termination or maintenance sessions",
+            "by_dimensions": [
+              "Session Phase/Chronology"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Practice Skills in High-Risk Scenarios",
+        "states_mappings": [
+          {
+            "state_phrase": "As discharge approaches",
+            "by_dimensions": [
+              "Session Phase/Chronology"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "Stressful periods anticipated",
+            "by_dimensions": [
+              "Environmental/Situational Stressors"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Ensure Visibility of CBT Materials",
+        "states_mappings": [
+          {
+            "state_phrase": "Post-therapy maintenance",
+            "by_dimensions": [
+              "Session Phase/Chronology"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Promote Use of Social Support",
+        "states_mappings": [
+          {
+            "state_phrase": "Patient has history of relapse",
+            "by_dimensions": [],
+            "gap_reason": "No dimension directly tracks patient’s history of relapse episodes across therapy (not just current risk/warning signs or current symptom severity)."
+          },
+          {
+            "state_phrase": "Anticipating need for assistance",
+            "by_dimensions": [],
+            "gap_reason": "No dimension explicitly tracks current level of anticipated support needs or patient’s expectation that additional support will be required soon (distinct from general 'Social Support and Interpersonal Functioning')."
+          }
+        ]
+      }
+    ],
+    "new_dimensions": [
+      {
+        "Variable Name": "Relapse History Status",
+        "Description": "Tracks whether and how often the patient has previously relapsed or experienced setbacks during or after prior treatment episodes.",
+        "Categorical values": [
+          "No Relapse",
+          "Single Past Relapse",
+          "Multiple Past Relapses",
+          "Recent Relapse",
+          "Unknown"
+        ],
+        "Numerical values": "regression from 0 (no relapse) to 1 (multiple/recent relapses)",
+        "Rationale": "Needed to differentiate between current risk/warning signs and actual past relapse incidents, as 'Relapse Risk and Early Warning Signs' only tracks present/future risk, not relapse history."
+      },
+      {
+        "Variable Name": "Anticipated Support Needs",
+        "Description": "Degree to which the patient expects to require external support (e.g., social/family/professional) to manage anticipated challenges or setbacks in the near future.",
+        "Categorical values": [
+          "None Expected",
+          "Minimal",
+          "Moderate",
+          "Significant",
+          "Critical"
+        ],
+        "Numerical values": "regression from 0 (no expected need) to 1 (critical support expected/required)",
+        "Rationale": "Needed to capture patient’s stated or inferred expectation of needing support for upcoming challenges, which is not fully captured by general social support functioning."
+      }
+    ],
+    "_macro_action_name": "Relapse Prevention and Termination Planning"
+  },
+  {
+    "per_action": [
+      {
+        "action": "Crisis Management and Safety Planning",
+        "states_mappings": [
+          {
+            "state_phrase": "Patient reports suicidal ideation, self-harm risk, or acute emergency",
+            "by_dimensions": [
+              "Suicidal Ideation and Risk"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "Ongoing risk factors surface during treatment",
+            "by_dimensions": [
+              "Relapse Risk and Early Warning Signs"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "Crisis or emergencies occur in session",
+            "by_dimensions": [],
+            "gap_reason": "No existing dimension directly and specifically tracks acute, in-session crisis or emergency status (e.g., code situations in which immediate emergency response, safety hold, or crisis protocol is needed distinct from generic risk factors or suicidal ideation)."
+          }
+        ]
+      },
+      {
+        "action": "Directly Assess Risk",
+        "states_mappings": [
+          {
+            "state_phrase": "Patient expresses acute risk",
+            "by_dimensions": [
+              "Suicidal Ideation and Risk"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "Suicidal ideation suspected",
+            "by_dimensions": [
+              "Suicidal Ideation and Risk"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Develop and Review Safety/Coping Plan",
+        "states_mappings": [
+          {
+            "state_phrase": "Risk identified in session",
+            "by_dimensions": [
+              "Suicidal Ideation and Risk"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Monitor and Reassess Risk During Session",
+        "states_mappings": [
+          {
+            "state_phrase": "During high-risk sessions",
+            "by_dimensions": [
+              "Suicidal Ideation and Risk"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Initiate Emergency Procedures if Indicated",
+        "states_mappings": [
+          {
+            "state_phrase": "Risk escalation",
+            "by_dimensions": [
+              "Suicidal Ideation and Risk"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "Patient unable to ensure safety",
+            "by_dimensions": [
+              "Suicidal Ideation and Risk"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Provide Emotional Support and Grounding",
+        "states_mappings": [
+          {
+            "state_phrase": "Patient is highly anxious or agitated in crisis",
+            "by_dimensions": [
+              "Mood/Emotional State",
+              "Emotional State Intensity"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "During safety planning",
+            "by_dimensions": [
+              "Suicidal Ideation and Risk"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      }
+    ],
+    "new_dimensions": [
+      {
+        "Variable Name": "In-Session Crisis/Emergency Status",
+        "Description": "Captures the presence and severity of an acute crisis or emergency occurring during the session that requires immediate intervention (e.g., patient losing control, imminent threat to safety, need to activate emergency/crisis protocols distinct from baseline risk).",
+        "Categorical values": [
+          "None",
+          "Potential/Early Signs",
+          "Acute Crisis (Verbal)",
+          "Acute Crisis (Behavioral)",
+          "Emergency Action Initiated"
+        ],
+        "Numerical values": "regression from 0 (no crisis/normal) to 1 (active emergency intervention required in-session)",
+        "Rationale": "No existing dimension distinguishes between ongoing risk/suicidal ideation and acute, emergent, in-session events where immediate action is required. Tracking this explicitly is crucial for differentiating general safety planning from real-time emergency management."
+      }
+    ],
+    "_macro_action_name": "Crisis Management and Safety Planning"
+  },
+  {
+    "per_action": [
+      {
+        "action": "Ongoing Progress Monitoring and Troubleshooting",
+        "states_mappings": [
+          {
+            "state_phrase": "When symptoms do not improve as expected",
+            "by_dimensions": [
+              "Symptom Severity",
+              "Progress Toward Goals",
+              "Intervention Effectiveness Outcome"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "Barriers to engagement, skill use, or homework occur",
+            "by_dimensions": [
+              "Obstacles and Barriers to Change",
+              "Patient Engagement and Participation",
+              "Homework/Behavioral Experiment Completion",
+              "Coping Strategies Utilization/Effectiveness"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "Significant life changes disrupt progress",
+            "by_dimensions": [
+              "Environmental/Situational Stressors"
+            ],
+            "gap_reason": "No explicit dimension tracks the specific temporal linkage between life change events and resulting disruption in therapy progress/goals, but current dimensions sufficiently identify stressors and progress."
+          }
+        ]
+      },
+      {
+        "action": "Review Symptoms, Ratings, and Observations",
+        "states_mappings": [
+          {
+            "state_phrase": "Ongoing and review sessions",
+            "by_dimensions": [
+              "Session Phase/Chronology"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Provide Constructive Feedback",
+        "states_mappings": [
+          {
+            "state_phrase": "Session review",
+            "by_dimensions": [
+              "Session Phase/Chronology"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "Patient expresses self-criticism",
+            "by_dimensions": [
+              "Automatic Thoughts",
+              "Core Beliefs/Schemas"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Troubleshoot Barriers to Treatment",
+        "states_mappings": [
+          {
+            "state_phrase": "Obstacles become apparent",
+            "by_dimensions": [
+              "Obstacles and Barriers to Change"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Adapt Goals and Interventions",
+        "states_mappings": [
+          {
+            "state_phrase": "Progress stalls",
+            "by_dimensions": [
+              "Progress Toward Goals",
+              "Intervention Effectiveness Outcome"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "Life events affect treatment",
+            "by_dimensions": [
+              "Environmental/Situational Stressors"
+            ],
+            "gap_reason": ""
+          }
+        ]
+      },
+      {
+        "action": "Encourage Self-Validation and Strengths Focus",
+        "states_mappings": [
+          {
+            "state_phrase": "Slow progress",
+            "by_dimensions": [
+              "Progress Toward Goals"
+            ],
+            "gap_reason": ""
+          },
+          {
+            "state_phrase": "Patient feels demoralized",
+            "by_dimensions": [
+              "Mood/Emotional State"
+            ],
+            "gap_reason": "No explicit dimension for 'Sense of demoralization' or 'confidence in making change', but Mood/Emotional State covers affect. Considered sufficiently covered unless stronger affective constructs are needed."
+          }
+        ]
+      }
+    ],
+    "new_dimensions": [],
+    "_macro_action_name": "Ongoing Progress Monitoring and Troubleshooting"
+  }
+]

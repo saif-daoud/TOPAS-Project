@@ -1,0 +1,142 @@
+﻿domain: "CBT"
+mode: "dialogue" # choices: "dialogue", "task"
+# Read API key from environment (.env). See repository root .env.example
+api_key_env: "TOPA_API_KEY"
+seed: 42
+
+domain_params:
+  system: "therapist"
+  user: "patient"
+  adj: "cognitive behavioral therapy"
+  interaction_unit: "session"
+
+paths:
+  textbooks: "topa/data/textbooks/CBT/"
+  data: "topa/data/datasets/CBT/AlexanderStreet_Dataset.json"
+  output: "outputs/"
+
+extraction_params:
+  method: "topa_ours" # choices: "ChatGPT", "DeepSeek", "LC_Full", "Chap_Seq", "Chunk_RAG", "Rules", "Merge_RAG", "Mamba", "topa_per_book", "topa_ours"
+  role: ["system", "user"]
+  role_components:
+    system: ["macro_actions", "micro_actions", "conversation_states", "knowledge_graph", "cautions", "rules"]
+    user: ["user_profile"] # "user_actions"
+  fusion_type: "Late" # choices: "Late", "Early"
+
+annotations_params:
+  components:
+    - macro_actions
+    - micro_actions
+    - conv_state
+    - intrinsic_reward
+    - cautions
+    - extrinsic_reward
+
+    - user_profile
+    # - user_actions
+  num_processes: 1
+  max_retries: 3
+
+  validation_subset:
+    enabled: true
+    mode: by_user   # by_session | by_user
+    ratio: 0.1
+    seed: 42
+    split_key: split
+    split_values: ["val", "validation"]
+    export_path: ""  # optional: write chosen indices JSON here (default: <output>/validation_sessions.json)
+    user_profile_only: true
+
+rl:
+  prepare_only: true
+  artifact_dir: "rl"
+  runs_dir: "runs"
+  cache_dir: ".cache"
+  sft:
+    enabled: false
+    state_repr: "encoder"
+    encoder_name: "roberta-large"
+    epochs: 10
+    batch_size: 32
+    lr: 2e-4
+    amp: "auto"
+    run_macro_no_conv: true
+    run_conv_state: true
+    run_macro_with_conv: true
+    run_micro_flat: true
+    run_micro_independent: true
+    run_termination: true
+  offline_rl:
+    enabled: false
+    algorithm: "iql"
+    state_repr: "encoder"
+    epochs: 10
+    batch_size: 16
+    lr_actor: 3e-5
+    lr_critic: 1e-4
+    gamma: 0.99
+    lr_beta: 1e-4
+    bc_epochs: 1
+    expectile: 0.7
+    temperature: 3.0
+    entropy_alpha: 0.2
+    cql_alpha: 1.0
+    bc_weight: 1.0
+    run_macro_no_conv: true
+    run_macro_with_conv: true
+    run_micro_flat: true
+    run_micro_independent: true
+
+simulation:
+  output_dir: ""
+  validation_subset_path: ""
+  methods:
+    # - prompting
+    # - flat_rl_encoder
+    # - hrl_encoder
+    # - ProCoT
+    - prompt_reasoning
+    # - ICL-AIF 
+    # - IntegratedActionSpace 
+    # - Random
+    # - flat_rl_latent
+    # - hrl_latent
+  # user_simulator: "patient_psi"
+  user_simulator: "topa"
+
+  num_workers: 2
+  # seed_turns: 6
+  turns: 50
+  max_new_tokens: 64
+  resume: false
+  context_turns: -1
+  max_macro_turns: 5
+  max_sessions_per_user: 2
+  worker_progress: true
+  metadata_keys: ["summary", "presenting conditions"]
+  extrinsic_reward:
+    reward_fn: ""
+    prompt_builder: ""
+    judge_system_prompt: ""
+    # judge_system_prompt: "You are a strict but fair evaluator. Evaluate only the system responses (ignore user messages). Return JSON only."
+    output_type: "score"   # binary | int | float | score
+    reward_key: "overall_mean"
+    min_value: 0
+    max_value: 6
+    success_threshold: 4.0
+    success_fn: ""
+  latent_instruction_following:
+    instruction_mode: "prompt"   # prompt | kv_cache
+    router_layer_index: 10
+    rep_pooling: "last"          # last | mean
+    instruction_marker: "[[INSTRUCTION]]"
+    system_prefix_template: "{system_label}: "
+    user_prefix_template: "{user_label}: "
+    latent_max_new_tokens: 64
+  latent_policies:
+    root_dir: ""                 # optional override; defaults to <rl_root>/runs
+    flat_subdir: "flat"
+    macro_subdir: "macro"
+    micro_subdir: "micro"
+    termination_subdir: "termination"
+

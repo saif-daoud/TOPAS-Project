@@ -1,0 +1,252 @@
+{
+  "nodes": [
+    {
+      "type": "Patient",
+      "description": "Root node representing the individual in therapy."
+    },
+    {
+      "type": "Demographics",
+      "description": "Patient's age, gender, cultural background, education, vocation, and social context."
+    },
+    {
+      "type": "Diagnosis and Symptom Profile",
+      "description": "Diagnoses, symptom types, severity, and progression (including Axis I/II and multi-axial information)."
+    },
+    {
+      "type": "Presenting Problems",
+      "description": "Initial complaints and ongoing or new issues as identified across sessions."
+    },
+    {
+      "type": "Developmental and Life History",
+      "description": "Historical antecedents including childhood, formative experiences, major life events, trauma, and social/family/educational/vocational history."
+    },
+    {
+      "type": "Cognitive Formulation",
+      "description": "Central beliefs, thinking and behavioral patterns, evolving case conceptualization, and theoretical understanding (schemas, thought patterns)."
+    },
+    {
+      "type": "Core Beliefs",
+      "description": "Central beliefs about self, others, and world (e.g., incompetence, unlovability), including their developmental origins and conviction strength."
+    },
+    {
+      "type": "Intermediate Beliefs",
+      "description": "Attitudes, rules, and assumptions derived from core beliefs."
+    },
+    {
+      "type": "Cognitive Distortions",
+      "description": "Recurring faulty patterns of thinking (e.g., catastrophizing, black-and-white thinking) linked to automatic thoughts or beliefs."
+    },
+    {
+      "type": "Automatic Thoughts",
+      "description": "Recurring, spontaneous thoughts in response to situations, including emotional and behavioral reactions."
+    },
+    {
+      "type": "Emotional Responses",
+      "description": "Patterns and vocabulary of emotional reactivity, intensity ratings, dysfunctional emotion-related beliefs, and changes over time."
+    },
+    {
+      "type": "Behavioral Patterns",
+      "description": "Typical activities, routines, avoidance/approach behaviors, and mastery/pleasurable activities including changes since symptom onset."
+    },
+    {
+      "type": "Coping Strategies",
+      "description": "Adaptive and maladaptive strategies, historical and current use, compensatory behaviors, and progress in coping skills."
+    },
+    {
+      "type": "Strengths/Resilience Factors",
+      "description": "Assets, sources of resilience, and progress in skill autonomy (becoming one's own therapist)."
+    },
+    {
+      "type": "Therapeutic Alliance",
+      "description": "Quality, ruptures, repairs, feedback history, and collaboration history with this and former clinicians."
+    },
+    {
+      "type": "Treatment Goals",
+      "description": "Patient’s goal list, both ongoing and new, with behavioral specifications and evolution across sessions."
+    },
+    {
+      "type": "Therapy Interventions/Techniques",
+      "description": "Interventions used, responses, effectiveness, rationale, and patient preferences (e.g., coping cards, behavioral experiments, imagery, bibliotherapy)."
+    },
+    {
+      "type": "Homework and Skill Acquisition",
+      "description": "Assignment types/completion, adherence patterns, outcomes, barriers encountered, self-efficacy changes, self-therapy practices."
+    },
+    {
+      "type": "Activity Scheduling",
+      "description": "Patterns and records of activity scheduling, mastery/pleasure ratings, progress, and data from activity charts."
+    },
+    {
+      "type": "Behavioral Experiments",
+      "description": "Design, predicted outcomes, actual results, reflection on dysfunctional cognitions, and role in belief modification."
+    },
+    {
+      "type": "Relapse Prevention",
+      "description": "Strategies taught/implemented, booster session content/outcomes, patient’s readiness and plans for maintaining gains."
+    },
+    {
+      "type": "Problem-Solving Skillset",
+      "description": "Individual problem-solving style, progress on graded tasks/exposure, and responses to setbacks/relapses."
+    },
+    {
+      "type": "Social Support Network",
+      "description": "Composition, quality, and utilization of external support systems."
+    },
+    {
+      "type": "Therapist’s Observations and Assumptions",
+      "description": "Therapist’s notes regarding their own reactions, assumptions, and skill development regarding the patient and therapy process."
+    }
+  ],
+  "edges": [
+    {
+      "source": "Patient",
+      "target": "Demographics",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Diagnosis and Symptom Profile",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Presenting Problems",
+      "relation": "experiences"
+    },
+    {
+      "source": "Patient",
+      "target": "Developmental and Life History",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Cognitive Formulation",
+      "relation": "shows"
+    },
+    {
+      "source": "Cognitive Formulation",
+      "target": "Core Beliefs",
+      "relation": "is based on"
+    },
+    {
+      "source": "Core Beliefs",
+      "target": "Intermediate Beliefs",
+      "relation": "shape"
+    },
+    {
+      "source": "Intermediate Beliefs",
+      "target": "Automatic Thoughts",
+      "relation": "underlie"
+    },
+    {
+      "source": "Cognitive Formulation",
+      "target": "Cognitive Distortions",
+      "relation": "manifests as"
+    },
+    {
+      "source": "Patient",
+      "target": "Automatic Thoughts",
+      "relation": "has"
+    },
+    {
+      "source": "Automatic Thoughts",
+      "target": "Emotional Responses",
+      "relation": "trigger"
+    },
+    {
+      "source": "Automatic Thoughts",
+      "target": "Behavioral Patterns",
+      "relation": "influence"
+    },
+    {
+      "source": "Automatic Thoughts",
+      "target": "Cognitive Distortions",
+      "relation": "display"
+    },
+    {
+      "source": "Automatic Thoughts",
+      "target": "Core Beliefs",
+      "relation": "reinforce"
+    },
+    {
+      "source": "Behavioral Patterns",
+      "target": "Coping Strategies",
+      "relation": "are mediated by"
+    },
+    {
+      "source": "Developmental and Life History",
+      "target": "Core Beliefs",
+      "relation": "inform"
+    },
+    {
+      "source": "Patient",
+      "target": "Strengths/Resilience Factors",
+      "relation": "possesses"
+    },
+    {
+      "source": "Patient",
+      "target": "Therapeutic Alliance",
+      "relation": "builds"
+    },
+    {
+      "source": "Therapeutic Alliance",
+      "target": "Treatment Goals",
+      "relation": "facilitates"
+    },
+    {
+      "source": "Patient",
+      "target": "Treatment Goals",
+      "relation": "pursues"
+    },
+    {
+      "source": "Treatment Goals",
+      "target": "Therapy Interventions/Techniques",
+      "relation": "achieved by"
+    },
+    {
+      "source": "Therapy Interventions/Techniques",
+      "target": "Homework and Skill Acquisition",
+      "relation": "involve"
+    },
+    {
+      "source": "Homework and Skill Acquisition",
+      "target": "Activity Scheduling",
+      "relation": "include"
+    },
+    {
+      "source": "Homework and Skill Acquisition",
+      "target": "Behavioral Experiments",
+      "relation": "include"
+    },
+    {
+      "source": "Behavioral Experiments",
+      "target": "Core Beliefs",
+      "relation": "test"
+    },
+    {
+      "source": "Behavioral Experiments",
+      "target": "Cognitive Distortions",
+      "relation": "challenge"
+    },
+    {
+      "source": "Homework and Skill Acquisition",
+      "target": "Relapse Prevention",
+      "relation": "contribute to"
+    },
+    {
+      "source": "Relapse Prevention",
+      "target": "Problem-Solving Skillset",
+      "relation": "strengthens"
+    },
+    {
+      "source": "Patient",
+      "target": "Social Support Network",
+      "relation": "utilizes"
+    },
+    {
+      "source": "Patient",
+      "target": "Therapist’s Observations and Assumptions",
+      "relation": "is reflected in"
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+[
+  {
+    "negative_action": "Rigid adherence to protocol or technique",
+    "description": "Strictly following standardized procedures or one framework without adapting to patient context.",
+    "risk": "Reduces effectiveness, may harm alliance, alienates or overwhelms patient.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Ignoring or undermining therapeutic alliance",
+    "description": "Neglecting collaborative relationship or empathy with the patient.",
+    "risk": "Damages trust, reduces engagement and effectiveness.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Forcing interventions or exposure before readiness",
+    "description": "Pushing patients into experiments, exposure tasks, or new skills before consent or preparation.",
+    "risk": "Causes distress, loss of trust, increases dropout and risk of harm.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Dismissing, minimizing, or invalidating patient thoughts or emotions",
+    "description": "Ignoring, downplaying, or criticizing patient emotional experiences or distress.",
+    "risk": "Breaks trust and may worsen distress or lead to dropout.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Allowing or reinforcing avoidance and safety behaviors",
+    "description": "Permitting use of distraction, rituals, reassurance, or safety strategies during exposure or therapy.",
+    "risk": "Maintains anxiety and maladaptive patterns, undermines therapeutic progress.",
+    "confidence_score": 0.99
+  },
+  {
+    "negative_action": "Making uncollaborative assumptions about patient beliefs or readiness",
+    "description": "Assuming patient beliefs or history without collaborative exploration.",
+    "risk": "Leads to resistance, misunderstanding, reduced efficacy.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Skipping planning, preparation, or debriefing for experiments",
+    "description": "Failing to plan, reflect, or provide preparation and follow-up for behavioral or cognitive tasks.",
+    "risk": "Limits learning, may increase distress, reduces quality of outcomes.",
+    "confidence_score": 0.91
+  },
+  {
+    "negative_action": "Breaching confidentiality or professional boundaries",
+    "description": "Disregarding privacy or ethical boundaries or sharing patient information inappropriately.",
+    "risk": "Damages trust, alliance, and may have legal repercussions.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Neglecting physical health or medical safety",
+    "description": "Ignoring health risks, needed clearance, or safety in interventions; offering advice outside professional scope.",
+    "risk": "Endangers patient, can result in harm or legal issues.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Overwhelming the patient with excessive, complex, or unrealistic tasks",
+    "description": "Assigning tasks or goals that are too difficult, packed, vague, or mismatched with patient readiness.",
+    "risk": "Causes discouragement, avoidance, disengagement.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Offering non-evidence-based or unproven interventions",
+    "description": "Using untested, anecdotal, or outdated methods not supported by empirical research.",
+    "risk": "Ineffective or harmful therapy outcomes.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Invalidating accurate perceptions or real risks",
+    "description": "Dismissing genuine negative events or minimizing physical, social, or emotional risks.",
+    "risk": "Alienates patient, undermines safety, prevents adaptive coping.",
+    "confidence_score": 0.96
+  },
+  {
+    "negative_action": "Focusing exclusively on cognition or behavior",
+    "description": "Only targeting cognitive or behavioral aspects, neglecting emotions, context, or environmental factors.",
+    "risk": "Limits efficacy and ignores core issues.",
+    "confidence_score": 0.94
+  },
+  {
+    "negative_action": "Using authoritarian, didactic, or impersonal communication",
+    "description": "Lecturing, persuading, or communicating in a top-down manner instead of guided discovery.",
+    "risk": "Fosters resistance, inhibits alliance, reduces engagement.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Assigning blame, shaming, or criticizing for symptoms or setbacks",
+    "description": "Responding punitively or judgmentally to errors, failures, or lack of progress.",
+    "risk": "Increases shame, undermines motivation, and engagement.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Neglecting or improperly assessing suicide or self-harm risk",
+    "description": "Failing to monitor, assess, or respond to signs of suicidality or self-harm.",
+    "risk": "Serious patient safety threat, potential loss of life.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Ignoring comorbid conditions or contextual factors",
+    "description": "Neglecting physical health, substance use, trauma, or cultural/social background in treatment.",
+    "risk": "Poor outcomes, alienates patient, misses core contributors.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Proceeding before medical or psychiatric stabilization",
+    "description": "Starting therapy with acute medical or psychiatric instability.",
+    "risk": "Worsens condition or misses critical medical needs.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Failing to track symptoms, progress, or relapse risk",
+    "description": "Omitting symptom monitoring, progress tracking, or relapse prevention planning.",
+    "risk": "Increases risk of deterioration and missed setbacks.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Endorsing unrealistic expectations of rapid or total symptom elimination",
+    "description": "Promising complete, instant relief from symptoms or minimizing plateaus/setbacks.",
+    "risk": "Leads to disappointment, drop-out, and invalidates patient experience.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Conflating therapist authority over patient's autonomy or physician's role",
+    "description": "Imposing therapist’s views, dismissing patient agency, or contradicting medical guidance.",
+    "risk": "Reduces collaboration, risks safety, erodes trust.",
+    "confidence_score": 0.96
+  },
+  {
+    "negative_action": "Using stigmatizing language or labels",
+    "description": "Labeling or pathologizing patients negatively or pejoratively.",
+    "risk": "Damages self-esteem, increases stigma, blocks progress.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Encouraging passive or superficial efforts",
+    "description": "Accepting half-hearted attempts, lack of engagement, or letting patient be passive in process.",
+    "risk": "Reduces skill development, fosters dependence, impairs outcomes.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Forcing or rushing cognitive challenging or belief change",
+    "description": "Challenging beliefs, guided discovery, or core schemas before rapport or readiness.",
+    "risk": "Increases resistance, distress, or dropout.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Failing to tailor interventions to individual background, history, or education",
+    "description": "Using generic or irrelevant interventions that disregard patient’s history, strengths, culture, or learning style.",
+    "risk": "Reduces motivation, engagement, relevance, and efficacy.",
+    "confidence_score": 0.94
+  },
+  {
+    "negative_action": "Neglecting to explain rationale for therapy and interventions",
+    "description": "Not clarifying purpose behind interventions or making process opaque.",
+    "risk": "Undermines trust and collaboration.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Endorsing avoidance, suppression, or denial of distressing emotions",
+    "description": "Encouraging patient to suppress, ignore, or avoid emotional or distressing content.",
+    "risk": "Blocks emotional processing and genuine healing.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Making premature inferences or interpretations without patient input",
+    "description": "Drawing conclusions about symptoms or underlying causes without collaboration or sufficient evidence.",
+    "risk": "Leads to errors, reduces alliance quality.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Using non-specific, vague, or unstructured session formats or goals",
+    "description": "Skipping agenda-setting or using unclear/unrealistic goal setting.",
+    "risk": "Sessions become unfocused, limiting therapeutic progress.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Shaming or blaming for ineffective coping attempts",
+    "description": "Criticizing patient for trying but failing to implement helpful strategies.",
+    "risk": "Increases defensiveness and disengagement.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Neglecting supervision, reflective practice, or self-care",
+    "description": "Ignoring personal burnout or failing to seek feedback or supervision.",
+    "risk": "Reduces therapy quality and increases risk of error.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Practicing outside scope of competence",
+    "description": "Treating cases beyond professional expertise or legal authority.",
+    "risk": "Risks patient safety, legal consequences, and ineffective treatment.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Proceeding with advanced interventions or schema work before basic skills are established",
+    "description": "Attempting complex treatments or cognitive restructuring prematurely.",
+    "risk": "Patient may disengage or not benefit from therapy.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Rushing assessment or pressing for full disclosure early",
+    "description": "Hurrying intake or pushing patients for personal revelations prematurely.",
+    "risk": "Increases patient anxiety and diminishes engagement.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Combining medication and CBT without coordination",
+    "description": "Implementing both therapies without clarifying roles, rationale, or monitoring effects.",
+    "risk": "Confusion regarding treatment impact and reduced efficacy.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Encouraging excessive self-blame or guilt",
+    "description": "Promoting harsh internal dialogue or shame during cognitive restructuring.",
+    "risk": "Undermines healing and increases depressive symptoms.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Promoting unreliable or anecdotal information",
+    "description": "Endorsing non-evidence-based approaches or unverified advice.",
+    "risk": "Risks ineffective or harmful outcomes.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Minimizing positive feedback, strengths, or small improvements",
+    "description": "Only emphasizing problems, ignoring growth and achievement.",
+    "risk": "Decreases motivation and self-efficacy.",
+    "confidence_score": 0.92
+  }
+]

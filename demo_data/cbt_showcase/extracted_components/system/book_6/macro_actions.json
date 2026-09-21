@@ -1,0 +1,194 @@
+{
+  "macro_actions": [
+    {
+      "name": "Psychoeducation and Normalization",
+      "description": "Therapist explains the nature of panic and anxiety symptoms, normalizes these experiences, and differentiates adaptive from maladaptive anxiety.",
+      "goal": {
+        "objective": "Increase the patient’s understanding of anxiety/panic and reduce fear, shame, or catastrophizing.",
+        "success_levels": {
+          "ideal": "Patient accurately understands anxiety/panic as manageable and non-dangerous, reducing distress surrounding symptoms.",
+          "acceptable": "Patient grasps the basics of anxiety/panic and feels somewhat less threatened, but retains mild fears or misconceptions.",
+          "unsuccessful": "Patient remains fearful and holds mistaken catastrophic beliefs about anxiety/panic symptoms."
+        },
+        "reward_hint": "Patient appropriately describes panic/anxiety with reduced catastrophizing or increased acceptance."
+      },
+      "states": [
+        "Patient exhibits fear or confusion about anxiety/panic.",
+        "Patient expresses catastrophic beliefs or shame regarding symptoms.",
+        "Therapy is beginning or moving to intervention rationale."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "name": "Objective Self-Monitoring and Recordkeeping",
+      "description": "Therapist trains and motivates the patient to systematically record panic attacks, anxiety events, mood states, and coping efforts using standardized forms.",
+      "goal": {
+        "objective": "Increase patient self-awareness and provide a data-driven foundation for all subsequent interventions.",
+        "success_levels": {
+          "ideal": "Patient consistently and objectively records relevant events, leading to accurate insights and treatment planning.",
+          "acceptable": "Patient completes most records but may be subjective or occasionally skip entries.",
+          "unsuccessful": "Records are consistently missing, incomplete, or inaccurate, hindering progress."
+        },
+        "reward_hint": "Therapist receives consistently completed, objective monitoring records from the patient."
+      },
+      "states": [
+        "Patient is unfamiliar with monitoring tools or unsure about own symptoms/events.",
+        "Therapist introduces or reinforces foundational treatment strategies.",
+        "Patient exhibits reluctance or concern about recordkeeping."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Guided Analysis and Insight Building",
+      "description": "Therapist reviews monitoring records with patient, collaboratively identifying patterns, triggers, and cycles of panic/anxiety.",
+      "goal": {
+        "objective": "Foster understanding of personal anxiety cycles, triggers, and maintenance factors.",
+        "success_levels": {
+          "ideal": "Patient demonstrates insight into own patterns and can identify specific triggers and cycles.",
+          "acceptable": "Patient recognizes some patterns or triggers with therapist support.",
+          "unsuccessful": "Patient fails to recognize key patterns or triggers despite guidance."
+        },
+        "reward_hint": "Patient verbalizes awareness or makes connections between triggers and panic/anxiety episodes."
+      },
+      "states": [
+        "Patient has accumulated monitoring records but lacks clarity regarding their meaning.",
+        "Therapist aims to move from data gathering to insight development.",
+        "Patient is uncertain about what drives their panic/anxiety episodes."
+      ],
+      "confidence_score": 0.92
+    },
+    {
+      "name": "Collaborative Cognitive Restructuring",
+      "description": "Therapist educates and guides the patient to identify, analyze, and challenge maladaptive thoughts and beliefs related to anxiety and panic.",
+      "goal": {
+        "objective": "Modify unrealistic, catastrophic, or unhelpful thoughts to reduce anxiety and panic intensity.",
+        "success_levels": {
+          "ideal": "Patient accurately applies cognitive restructuring strategies independently and beliefs shift towards realistic interpretations.",
+          "acceptable": "Patient uses cognitive restructuring with therapist help and beliefs show partial improvement.",
+          "unsuccessful": "Patient continues to hold maladaptive beliefs, unable to challenge or change thoughts."
+        },
+        "reward_hint": "Patient evidences change or flexibility in previously held catastrophic thoughts."
+      },
+      "states": [
+        "Patient expresses automatic negative or catastrophic thoughts about panic/anxiety.",
+        "Therapist introduces cognitive strategies following psychoeducation.",
+        "Patient struggles to separate facts from assumptions."
+      ],
+      "confidence_score": 0.97
+    },
+    {
+      "name": "Systematic Skills Training and Behavioral Practice",
+      "description": "Therapist teaches coping skills (e.g., breathing, relaxation, exposure) and guides application through repeated in-session and homework practice.",
+      "goal": {
+        "objective": "Build patient self-efficacy with coping skills for managing anxiety and panic.",
+        "success_levels": {
+          "ideal": "Patient independently uses coping skills during anxiety, resulting in decreased symptom intensity and avoidance.",
+          "acceptable": "Patient practices skills but is inconsistent or requires therapist reminders. Occasional improvement in coping.",
+          "unsuccessful": "Patient avoids practice or fails to use skills effectively, resulting in little or no symptom improvement."
+        },
+        "reward_hint": "Patient demonstrates coping skills in session or reports consistent practice outside session."
+      },
+      "states": [
+        "Patient is anxious or anticipates panic but lacks adequate coping responses.",
+        "Therapist moves from discussion to skill-building stages.",
+        "Patient is ready for practical behavioral intervention."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "name": "Graded Exposure Planning and Execution",
+      "description": "Therapist collaborates with patient to design exposure hierarchies and guides gradual, systematic practice facing feared situations or physical sensations.",
+      "goal": {
+        "objective": "Reduce avoidance and anxiety/fear response to targeted triggers through direct experience.",
+        "success_levels": {
+          "ideal": "Patient consistently completes planned exposures, demonstrates reduced avoidance and fear, and alters maladaptive beliefs.",
+          "acceptable": "Patient attempts exposures with some anxiety but partial reduction in avoidance/fear.",
+          "unsuccessful": "Patient avoids exposure tasks; maintains high anxiety and avoidance behavior."
+        },
+        "reward_hint": "Patient reports successful approach behaviors toward previously avoided situations or sensations."
+      },
+      "states": [
+        "Patient identifies specific avoided situations/physical symptoms.",
+        "Therapist introduces exposure interventions.",
+        "Patient demonstrates willingness to face or attempt exposure but needs guidance."
+      ],
+      "confidence_score": 0.99
+    },
+    {
+      "name": "Review, Consolidation, and Troubleshooting",
+      "description": "Therapist reviews skill use and exposure outcomes with patient for consolidation, insight building, problem solving, and adjustment of strategies.",
+      "goal": {
+        "objective": "Consolidate learning, reinforce progress, and troubleshoot obstacles to improve future outcomes.",
+        "success_levels": {
+          "ideal": "Patient articulates learning, applies insights to setbacks, and shows resilience/adaptation.",
+          "acceptable": "Patient identifies some gains or obstacles, makes moderate adjustments for next steps.",
+          "unsuccessful": "Patient does not consolidate learning, repeats maladaptive patterns, fails to adapt strategy."
+        },
+        "reward_hint": "Patient reflects on exposure/skill outcomes and proposes adjustments or acknowledges new understanding."
+      },
+      "states": [
+        "Patient completes exposure or skill application but struggles to generalize or understand results.",
+        "Therapist moves from practice to integration phase.",
+        "Follow-up session after behavioral interventions."
+      ],
+      "confidence_score": 0.94
+    },
+    {
+      "name": "Involvement of Significant Others and Team-Based Support",
+      "description": "Therapist evaluates, coaches, and prepares significant others to provide appropriate support during exposure and coping, facilitating teamwork while minimizing rescue and reinforcement of avoidance.",
+      "goal": {
+        "objective": "Enhance patient progress via coordinated involvement of helpers, while increasing patient independence.",
+        "success_levels": {
+          "ideal": "Helpers support exposure efforts appropriately and patient transitions to independent coping.",
+          "acceptable": "Helpers are somewhat supportive; patient relies on assistance but begins practicing increased independence.",
+          "unsuccessful": "Helpers reinforce avoidance or are absent, patient remains dependent or sabotages progress."
+        },
+        "reward_hint": "Patient and helpers collaborate constructively and patient progressively self-manages exposure."
+      },
+      "states": [
+        "Patient's support network can influence avoidance or progress.",
+        "Therapist discusses barriers/enablers related to significant others.",
+        "Patient demonstrates readiness or need for collaborative exposure."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "name": "Medication Management and Transition Support",
+      "description": "Therapist educates patient about medication use for panic/anxiety, coordinates with medical providers, and supports safe withdrawal and skill substitution.",
+      "goal": {
+        "objective": "Patient safely discontinues unneeded medications while maintaining progress with CBT coping skills.",
+        "success_levels": {
+          "ideal": "Patient completes withdrawal, manages symptoms using CBT with minimal relapse.",
+          "acceptable": "Patient tapers medication, experiences mild withdrawal managed with support.",
+          "unsuccessful": "Patient relapses or is unable to discontinue medication, coping skills are insufficient."
+        },
+        "reward_hint": "Patient demonstrates safe medication reduction and relies increasingly on CBT strategies."
+      },
+      "states": [
+        "Patient is prescribed medication for panic/anxiety.",
+        "Therapist discusses treatment planning related to pharmacological support.",
+        "Patient or prescriber initiates medication tapering."
+      ],
+      "confidence_score": 0.93
+    },
+    {
+      "name": "Maintenance Planning and Relapse Prevention",
+      "description": "Therapist guides patient in developing ongoing practice plans, prepares for setbacks, problem-solves anticipated stressors, and supports long-term personal goal setting.",
+      "goal": {
+        "objective": "Ensure patient maintains gains, is resilient to setbacks, and self-monitors for continued progress post-therapy.",
+        "success_levels": {
+          "ideal": "Patient establishes and follows a maintenance plan, confidently manages future stressors with CBT skills.",
+          "acceptable": "Patient engages in some maintenance activities and copes with minor setbacks; may need booster sessions.",
+          "unsuccessful": "Patient has no structured plan, relapses easily when stressed, and abandons learned skills."
+        },
+        "reward_hint": "Patient articulates personal goals, maintenance routines, and expresses readiness for self-directed progress."
+      },
+      "states": [
+        "Therapy is nearing completion or patient has achieved significant progress.",
+        "Patient expresses concern about relapse or future stressors.",
+        "Therapist wants to consolidate long-term outcomes and self-efficacy."
+      ],
+      "confidence_score": 0.96
+    }
+  ]
+}

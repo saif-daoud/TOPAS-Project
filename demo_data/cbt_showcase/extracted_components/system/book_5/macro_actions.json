@@ -1,0 +1,175 @@
+{
+  "macro_actions": [
+    {
+      "name": "Establishing Therapeutic Alliance and Psychoeducation",
+      "description": "The therapist initiates treatment by building rapport, establishing collaborative goals, and educating the patient about the CBT model, including the connection between thoughts, emotions, behaviors, and physical sensations.",
+      "goal": {
+        "objective": "Build trust and understanding, foster engagement, and orient the patient to CBT principles.",
+        "success_levels": {
+          "ideal": "Patient expresses trust, feels understood, grasps CBT concepts, and is motivated to engage.",
+          "acceptable": "Patient demonstrates basic understanding and willingness to try CBT techniques.",
+          "unsuccessful": "Patient remains skeptical, disengaged, or confused about CBT."
+        },
+        "reward_hint": "Verbalized understanding, commitment to try, patient asking questions about CBT."
+      },
+      "states": [
+        "Initial session or contact.",
+        "Patient is unfamiliar or unsure about CBT.",
+        "Patient expresses skepticism, reluctance, or questions about the therapy process."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "name": "Mood and Thought Identification",
+      "description": "The therapist guides the patient in identifying, labeling, and tracking moods and automatic thoughts using structured tools such as worksheets and thought records.",
+      "goal": {
+        "objective": "Increase patient awareness and articulation of thoughts and emotional states as foundational CBT skills.",
+        "success_levels": {
+          "ideal": "Patient can accurately distinguish and record moods and thoughts in diverse situations.",
+          "acceptable": "Patient can identify and label moods and thoughts with therapist support.",
+          "unsuccessful": "Patient is unable or unwilling to differentiate or report moods/thoughts."
+        },
+        "reward_hint": "Patient completes worksheets, speaks in terms of identified thoughts and moods."
+      },
+      "states": [
+        "Early treatment when the patient struggles to specify or express emotions/thoughts.",
+        "Patient reports mixed or unclear emotional experiences.",
+        "Patient begins self-monitoring."
+      ],
+      "confidence_score": 0.98
+    },
+    {
+      "name": "Case Conceptualization and Collaborative Formulation",
+      "description": "Therapist and patient work together to understand how specific life events, thoughts, moods, behaviors, and physical reactions contribute to the presenting concerns via CBT models.",
+      "goal": {
+        "objective": "Develop shared understanding of patient’s problems and formulation of CBT targets.",
+        "success_levels": {
+          "ideal": "Therapist and patient co-create a clear, personalized CBT case formulation.",
+          "acceptable": "Patient understands how events connect to thoughts/moods with therapist direction.",
+          "unsuccessful": "Formulation remains unclear or patient is unable to relate to the conceptual model."
+        },
+        "reward_hint": "Patient restates the formulation in own words, agrees with the targets."
+      },
+      "states": [
+        "Once presenting problems and basic psychoeducation are complete.",
+        "Patient is open to understanding triggers and maintaining factors.",
+        "Complex cases requiring personalized strategies."
+      ],
+      "confidence_score": 0.97
+    },
+    {
+      "name": "Goal Setting and Action Planning",
+      "description": "The therapist guides the patient to set specific, measurable goals and develop actionable plans to address identified problems.",
+      "goal": {
+        "objective": "Establish clear behavioral and emotional change targets, enhance motivation.",
+        "success_levels": {
+          "ideal": "Patient articulates meaningful, measurable goals and participates in designing action plans.",
+          "acceptable": "Patient sets basic goals and agrees to try therapist-proposed plans.",
+          "unsuccessful": "Patient is unable to set goals or rejects planning process."
+        },
+        "reward_hint": "Patient selects goals and contributes suggestions for action steps."
+      },
+      "states": [
+        "After problem identification and some skill acquisition.",
+        "Patient expresses desire for change or improvement.",
+        "Patient is ready for next steps beyond insight."
+      ],
+      "confidence_score": 0.99
+    },
+    {
+      "name": "Cognitive Restructuring and Socratic Questioning",
+      "description": "Therapist helps the patient identify 'hot' automatic thoughts, evaluate evidence for and against these thoughts, and generate alternative, balanced alternatives through structured questioning.",
+      "goal": {
+        "objective": "Reduce cognitive distortions and foster more adaptive thinking.",
+        "success_levels": {
+          "ideal": "Patient independently uses CBT techniques to challenge and balance thoughts.",
+          "acceptable": "Patient participates in restructuring thoughts with therapist support.",
+          "unsuccessful": "Patient resists or fails to challenge maladaptive thoughts."
+        },
+        "reward_hint": "Patient verbalizes or records alternative/balanced thoughts, reduced negative mood ratings."
+      },
+      "states": [
+        "Patient displays distressing automatic thoughts and emotional reactivity.",
+        "Patient completes mood/thought identification and is ready for cognitive testing.",
+        "Repeated patterns of negative thinking are present."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "name": "Behavioral Experimentation and Activation",
+      "description": "Therapist collaboratively designs and supports real-life experiments to test beliefs, assumptions, or coping strategies. Also includes systematic behavioral activation planning to improve mood.",
+      "goal": {
+        "objective": "Test and update dysfunctional beliefs, increase adaptive behaviors, and/or boost mood.",
+        "success_levels": {
+          "ideal": "Patient completes experiments, reflects, and modifies beliefs/behaviors accordingly.",
+          "acceptable": "Patient attempts planned activities and discusses findings regardless of outcome.",
+          "unsuccessful": "Patient avoids behavioral assignments or interprets outcomes in a distorted fashion."
+        },
+        "reward_hint": "Patient completes agreed activities and modifies interpretations based on results."
+      },
+      "states": [
+        "When key beliefs or avoidance patterns have been identified.",
+        "Depressed, anxious, or avoidant patient needs behavioral activation.",
+        "Patient is ready for practical, experiential learning."
+      ],
+      "confidence_score": 0.99
+    },
+    {
+      "name": "Core Belief Identification and Modification",
+      "description": "Therapist supports the patient to uncover global, absolute core beliefs, evaluate their impact, and develop and strengthen more adaptive beliefs through exercises and behavioral experiments.",
+      "goal": {
+        "objective": "Reveal, challenge, and update core beliefs for sustained change.",
+        "success_levels": {
+          "ideal": "Patient clearly identifies negative core beliefs and successfully develops flexible, positive alternatives.",
+          "acceptable": "Patient accepts existence of core beliefs and begins practicing new ones.",
+          "unsuccessful": "Patient denies or cannot access core beliefs, or refuses to practice updates."
+        },
+        "reward_hint": "Patient articulates new core beliefs, tracks belief strength, engages in related activities."
+      },
+      "states": [
+        "After sufficient progress with automatic thought restructuring.",
+        "Patient’s difficulties are traced to recurring global belief patterns.",
+        "Long-term maintenance and relapse prevention phases."
+      ],
+      "confidence_score": 0.97
+    },
+    {
+      "name": "Relapse Prevention Planning and Skill Consolidation",
+      "description": "Therapist helps patient identify high-risk situations, early warning signs, and actionable prevention plans. Reviews and consolidates skills for ongoing self-management.",
+      "goal": {
+        "objective": "Strengthen patient autonomy and decrease risk of setback or relapse.",
+        "success_levels": {
+          "ideal": "Patient proactively uses relapse plans and skills to maintain gains post-therapy.",
+          "acceptable": "Patient can identify risk factors and agrees to use skills with reminders.",
+          "unsuccessful": "Patient remains passive or ceases CBT skills after symptom improvement."
+        },
+        "reward_hint": "Patient reviews and updates relapse plans, practices skills independently, seeks help as needed."
+      },
+      "states": [
+        "Late-stage or termination phase of therapy.",
+        "Patient demonstrates improvement but requires support in maintenance.",
+        "Patient expresses worry about setbacks or has history of relapse."
+      ],
+      "confidence_score": 0.99
+    },
+    {
+      "name": "Acceptance and Self-Forgiveness Facilitation",
+      "description": "Therapist assists patient in developing acceptance of unchangeable thoughts, feelings, or situations and supports self-forgiveness via guided reflection and specific exercises.",
+      "goal": {
+        "objective": "Alleviate distress related to guilt, shame, or unchangeable issues by fostering acceptance and compassion.",
+        "success_levels": {
+          "ideal": "Patient is able to experience non-judgmental acceptance and self-forgiveness, reducing distress.",
+          "acceptable": "Patient attempts acceptance or self-forgiveness with partial relief.",
+          "unsuccessful": "Patient remains stuck in guilt, shame, or distress without progress toward acceptance."
+        },
+        "reward_hint": "Patient verbalizes acceptance, completes reflection exercises, demonstrates reduced self-blame."
+      },
+      "states": [
+        "When evidence supports distressing thoughts/situations that cannot be changed.",
+        "Patient struggles with persistent guilt or shame.",
+        "Patient is stuck despite cognitive and behavioral attempts."
+      ],
+      "confidence_score": 0.96
+    }
+  ]
+}

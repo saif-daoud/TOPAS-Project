@@ -1,0 +1,1336 @@
+{
+  "usage": {
+    "tok_in": 1505895,
+    "tok_out": 103417,
+    "lat_sec": 1279.9269063472748,
+    "mem_peak": 174643
+  },
+  "calls": [
+    {
+      "tag": "llm",
+      "tok_in": 883,
+      "tok_out": 7,
+      "lat_sec": 1.548241376876831
+    },
+    {
+      "tag": "llm",
+      "tok_in": 128,
+      "tok_out": 22,
+      "lat_sec": 1.5994315147399902
+    },
+    {
+      "tag": "llm",
+      "tok_in": 1077,
+      "tok_out": 145,
+      "lat_sec": 2.0842695236206055
+    },
+    {
+      "tag": "llm",
+      "tok_in": 265,
+      "tok_out": 155,
+      "lat_sec": 3.498020648956299
+    },
+    {
+      "tag": "llm",
+      "tok_in": 1340,
+      "tok_out": 196,
+      "lat_sec": 3.4993114471435547
+    },
+    {
+      "tag": "llm",
+      "tok_in": 316,
+      "tok_out": 206,
+      "lat_sec": 3.931063652038574
+    },
+    {
+      "tag": "llm",
+      "tok_in": 604,
+      "tok_out": 7,
+      "lat_sec": 1.5341017246246338
+    },
+    {
+      "tag": "llm",
+      "tok_in": 128,
+      "tok_out": 18,
+      "lat_sec": 1.7389299869537354
+    },
+    {
+      "tag": "llm",
+      "tok_in": 1284,
+      "tok_out": 7,
+      "lat_sec": 1.339684247970581
+    },
+    {
+      "tag": "llm",
+      "tok_in": 128,
+      "tok_out": 21,
+      "lat_sec": 1.4668140411376953
+    },
+    {
+      "tag": "llm",
+      "tok_in": 11032,
+      "tok_out": 608,
+      "lat_sec": 9.148124694824219
+    },
+    {
+      "tag": "llm",
+      "tok_in": 728,
+      "tok_out": 630,
+      "lat_sec": 3.4313571453094482
+    },
+    {
+      "tag": "llm",
+      "tok_in": 11359,
+      "tok_out": 611,
+      "lat_sec": 11.686875820159912
+    },
+    {
+      "tag": "llm",
+      "tok_in": 731,
+      "tok_out": 597,
+      "lat_sec": 8.530510425567627
+    },
+    {
+      "tag": "llm",
+      "tok_in": 10352,
+      "tok_out": 717,
+      "lat_sec": 8.581034898757935
+    },
+    {
+      "tag": "llm",
+      "tok_in": 837,
+      "tok_out": 764,
+      "lat_sec": 4.080614328384399
+    },
+    {
+      "tag": "llm",
+      "tok_in": 9353,
+      "tok_out": 564,
+      "lat_sec": 9.510018587112427
+    },
+    {
+      "tag": "llm",
+      "tok_in": 684,
+      "tok_out": 581,
+      "lat_sec": 7.8023576736450195
+    },
+    {
+      "tag": "llm",
+      "tok_in": 12283,
+      "tok_out": 533,
+      "lat_sec": 7.988173007965088
+    },
+    {
+      "tag": "llm",
+      "tok_in": 653,
+      "tok_out": 547,
+      "lat_sec": 7.774424314498901
+    },
+    {
+      "tag": "llm",
+      "tok_in": 16543,
+      "tok_out": 776,
+      "lat_sec": 8.983201742172241
+    },
+    {
+      "tag": "llm",
+      "tok_in": 896,
+      "tok_out": 803,
+      "lat_sec": 12.099353313446045
+    },
+    {
+      "tag": "llm",
+      "tok_in": 10518,
+      "tok_out": 697,
+      "lat_sec": 6.27912712097168
+    },
+    {
+      "tag": "llm",
+      "tok_in": 817,
+      "tok_out": 696,
+      "lat_sec": 8.900648593902588
+    },
+    {
+      "tag": "llm",
+      "tok_in": 15354,
+      "tok_out": 494,
+      "lat_sec": 7.790372371673584
+    },
+    {
+      "tag": "llm",
+      "tok_in": 614,
+      "tok_out": 508,
+      "lat_sec": 7.674367904663086
+    },
+    {
+      "tag": "llm",
+      "tok_in": 9445,
+      "tok_out": 441,
+      "lat_sec": 6.061922311782837
+    },
+    {
+      "tag": "llm",
+      "tok_in": 561,
+      "tok_out": 457,
+      "lat_sec": 6.577264308929443
+    },
+    {
+      "tag": "llm",
+      "tok_in": 9719,
+      "tok_out": 559,
+      "lat_sec": 6.337275981903076
+    },
+    {
+      "tag": "llm",
+      "tok_in": 679,
+      "tok_out": 584,
+      "lat_sec": 8.654290199279785
+    },
+    {
+      "tag": "llm",
+      "tok_in": 15627,
+      "tok_out": 847,
+      "lat_sec": 8.386266946792603
+    },
+    {
+      "tag": "llm",
+      "tok_in": 967,
+      "tok_out": 893,
+      "lat_sec": 11.783495664596558
+    },
+    {
+      "tag": "llm",
+      "tok_in": 10641,
+      "tok_out": 609,
+      "lat_sec": 9.423548221588135
+    },
+    {
+      "tag": "llm",
+      "tok_in": 729,
+      "tok_out": 630,
+      "lat_sec": 3.4325778484344482
+    },
+    {
+      "tag": "llm",
+      "tok_in": 10315,
+      "tok_out": 459,
+      "lat_sec": 5.209371089935303
+    },
+    {
+      "tag": "llm",
+      "tok_in": 579,
+      "tok_out": 475,
+      "lat_sec": 7.229328632354736
+    },
+    {
+      "tag": "llm",
+      "tok_in": 10864,
+      "tok_out": 545,
+      "lat_sec": 5.410842180252075
+    },
+    {
+      "tag": "llm",
+      "tok_in": 665,
+      "tok_out": 565,
+      "lat_sec": 8.515282154083252
+    },
+    {
+      "tag": "llm",
+      "tok_in": 10102,
+      "tok_out": 645,
+      "lat_sec": 8.172316789627075
+    },
+    {
+      "tag": "llm",
+      "tok_in": 765,
+      "tok_out": 666,
+      "lat_sec": 3.494001865386963
+    },
+    {
+      "tag": "llm",
+      "tok_in": 16153,
+      "tok_out": 594,
+      "lat_sec": 10.410235404968262
+    },
+    {
+      "tag": "llm",
+      "tok_in": 714,
+      "tok_out": 607,
+      "lat_sec": 3.039591073989868
+    },
+    {
+      "tag": "llm",
+      "tok_in": 7770,
+      "tok_out": 406,
+      "lat_sec": 6.40435791015625
+    },
+    {
+      "tag": "llm",
+      "tok_in": 526,
+      "tok_out": 429,
+      "lat_sec": 6.568608283996582
+    },
+    {
+      "tag": "llm",
+      "tok_in": 48627,
+      "tok_out": 7,
+      "lat_sec": 1.955766201019287
+    },
+    {
+      "tag": "llm",
+      "tok_in": 128,
+      "tok_out": 18,
+      "lat_sec": 1.7460627555847168
+    },
+    {
+      "tag": "llm",
+      "tok_in": 5852,
+      "tok_out": 266,
+      "lat_sec": 4.6622819900512695
+    },
+    {
+      "tag": "llm",
+      "tok_in": 386,
+      "tok_out": 276,
+      "lat_sec": 4.233819961547852
+    },
+    {
+      "tag": "llm",
+      "tok_in": 199,
+      "tok_out": 7,
+      "lat_sec": 1.546445608139038
+    },
+    {
+      "tag": "llm",
+      "tok_in": 128,
+      "tok_out": 18,
+      "lat_sec": 1.788135051727295
+    },
+    {
+      "tag": "llm",
+      "tok_in": 292,
+      "tok_out": 7,
+      "lat_sec": 1.0921299457550049
+    },
+    {
+      "tag": "llm",
+      "tok_in": 128,
+      "tok_out": 16,
+      "lat_sec": 1.3610150814056396
+    },
+    {
+      "tag": "llm",
+      "tok_in": 226,
+      "tok_out": 7,
+      "lat_sec": 1.3084781169891357
+    },
+    {
+      "tag": "llm",
+      "tok_in": 128,
+      "tok_out": 18,
+      "lat_sec": 1.7257874011993408
+    },
+    {
+      "tag": "llm",
+      "tok_in": 857,
+      "tok_out": 7,
+      "lat_sec": 2.388448476791382
+    },
+    {
+      "tag": "llm",
+      "tok_in": 128,
+      "tok_out": 18,
+      "lat_sec": 1.4694273471832275
+    },
+    {
+      "tag": "llm",
+      "tok_in": 227,
+      "tok_out": 7,
+      "lat_sec": 1.6749534606933594
+    },
+    {
+      "tag": "llm",
+      "tok_in": 128,
+      "tok_out": 18,
+      "lat_sec": 1.7460503578186035
+    },
+    {
+      "tag": "llm",
+      "tok_in": 692,
+      "tok_out": 7,
+      "lat_sec": 1.9312653541564941
+    },
+    {
+      "tag": "llm",
+      "tok_in": 128,
+      "tok_out": 20,
+      "lat_sec": 1.4578118324279785
+    },
+    {
+      "tag": "llm",
+      "tok_in": 441,
+      "tok_out": 7,
+      "lat_sec": 1.982102632522583
+    },
+    {
+      "tag": "llm",
+      "tok_in": 128,
+      "tok_out": 20,
+      "lat_sec": 1.5480167865753174
+    },
+    {
+      "tag": "llm",
+      "tok_in": 2017,
+      "tok_out": 216,
+      "lat_sec": 3.9000723361968994
+    },
+    {
+      "tag": "llm",
+      "tok_in": 336,
+      "tok_out": 226,
+      "lat_sec": 2.0910685062408447
+    },
+    {
+      "tag": "llm",
+      "tok_in": 17598,
+      "tok_out": 840,
+      "lat_sec": 10.349507331848145
+    },
+    {
+      "tag": "llm",
+      "tok_in": 960,
+      "tok_out": 873,
+      "lat_sec": 4.13811993598938
+    },
+    {
+      "tag": "llm",
+      "tok_in": 29679,
+      "tok_out": 838,
+      "lat_sec": 13.271604776382446
+    },
+    {
+      "tag": "llm",
+      "tok_in": 958,
+      "tok_out": 857,
+      "lat_sec": 11.869794368743896
+    },
+    {
+      "tag": "llm",
+      "tok_in": 79219,
+      "tok_out": 1204,
+      "lat_sec": 22.069684505462646
+    },
+    {
+      "tag": "llm",
+      "tok_in": 1324,
+      "tok_out": 1252,
+      "lat_sec": 5.637731075286865
+    },
+    {
+      "tag": "llm",
+      "tok_in": 35441,
+      "tok_out": 920,
+      "lat_sec": 15.431114912033081
+    },
+    {
+      "tag": "llm",
+      "tok_in": 1040,
+      "tok_out": 892,
+      "lat_sec": 11.124115228652954
+    },
+    {
+      "tag": "llm",
+      "tok_in": 10411,
+      "tok_out": 7,
+      "lat_sec": 1.7389283180236816
+    },
+    {
+      "tag": "llm",
+      "tok_in": 128,
+      "tok_out": 18,
+      "lat_sec": 1.5136735439300537
+    },
+    {
+      "tag": "llm",
+      "tok_in": 12807,
+      "tok_out": 490,
+      "lat_sec": 8.522615671157837
+    },
+    {
+      "tag": "llm",
+      "tok_in": 610,
+      "tok_out": 519,
+      "lat_sec": 3.6629292964935303
+    },
+    {
+      "tag": "llm",
+      "tok_in": 20890,
+      "tok_out": 705,
+      "lat_sec": 11.46594524383545
+    },
+    {
+      "tag": "llm",
+      "tok_in": 825,
+      "tok_out": 742,
+      "lat_sec": 17.003303050994873
+    },
+    {
+      "tag": "llm",
+      "tok_in": 16749,
+      "tok_out": 600,
+      "lat_sec": 8.885890245437622
+    },
+    {
+      "tag": "llm",
+      "tok_in": 720,
+      "tok_out": 608,
+      "lat_sec": 2.7531540393829346
+    },
+    {
+      "tag": "llm",
+      "tok_in": 32046,
+      "tok_out": 700,
+      "lat_sec": 7.922421455383301
+    },
+    {
+      "tag": "llm",
+      "tok_in": 820,
+      "tok_out": 707,
+      "lat_sec": 10.323946475982666
+    },
+    {
+      "tag": "llm",
+      "tok_in": 17427,
+      "tok_out": 602,
+      "lat_sec": 5.925177812576294
+    },
+    {
+      "tag": "llm",
+      "tok_in": 722,
+      "tok_out": 613,
+      "lat_sec": 3.0999274253845215
+    },
+    {
+      "tag": "llm",
+      "tok_in": 30742,
+      "tok_out": 859,
+      "lat_sec": 13.895691633224487
+    },
+    {
+      "tag": "llm",
+      "tok_in": 979,
+      "tok_out": 807,
+      "lat_sec": 3.5629138946533203
+    },
+    {
+      "tag": "llm",
+      "tok_in": 34920,
+      "tok_out": 631,
+      "lat_sec": 6.5123374462127686
+    },
+    {
+      "tag": "llm",
+      "tok_in": 751,
+      "tok_out": 664,
+      "lat_sec": 3.4457077980041504
+    },
+    {
+      "tag": "llm",
+      "tok_in": 25114,
+      "tok_out": 562,
+      "lat_sec": 8.360262155532837
+    },
+    {
+      "tag": "llm",
+      "tok_in": 682,
+      "tok_out": 583,
+      "lat_sec": 3.0414321422576904
+    },
+    {
+      "tag": "llm",
+      "tok_in": 40700,
+      "tok_out": 830,
+      "lat_sec": 16.387372255325317
+    },
+    {
+      "tag": "llm",
+      "tok_in": 950,
+      "tok_out": 877,
+      "lat_sec": 6.48934268951416
+    },
+    {
+      "tag": "llm",
+      "tok_in": 40108,
+      "tok_out": 733,
+      "lat_sec": 7.649887323379517
+    },
+    {
+      "tag": "llm",
+      "tok_in": 853,
+      "tok_out": 790,
+      "lat_sec": 10.40619158744812
+    },
+    {
+      "tag": "llm",
+      "tok_in": 40002,
+      "tok_out": 628,
+      "lat_sec": 8.508496522903442
+    },
+    {
+      "tag": "llm",
+      "tok_in": 748,
+      "tok_out": 648,
+      "lat_sec": 3.3981897830963135
+    },
+    {
+      "tag": "llm",
+      "tok_in": 32449,
+      "tok_out": 742,
+      "lat_sec": 8.987716913223267
+    },
+    {
+      "tag": "llm",
+      "tok_in": 862,
+      "tok_out": 745,
+      "lat_sec": 4.431585788726807
+    },
+    {
+      "tag": "llm",
+      "tok_in": 173759,
+      "tok_out": 884,
+      "lat_sec": 14.7941575050354
+    },
+    {
+      "tag": "llm",
+      "tok_in": 1004,
+      "tok_out": 918,
+      "lat_sec": 12.70787763595581
+    },
+    {
+      "tag": "llm",
+      "tok_in": 178,
+      "tok_out": 7,
+      "lat_sec": 1.617316484451294
+    },
+    {
+      "tag": "llm",
+      "tok_in": 128,
+      "tok_out": 22,
+      "lat_sec": 1.7150068283081055
+    },
+    {
+      "tag": "llm",
+      "tok_in": 490,
+      "tok_out": 7,
+      "lat_sec": 1.1423993110656738
+    },
+    {
+      "tag": "llm",
+      "tok_in": 128,
+      "tok_out": 21,
+      "lat_sec": 1.4169535636901855
+    },
+    {
+      "tag": "llm",
+      "tok_in": 242,
+      "tok_out": 7,
+      "lat_sec": 1.7171008586883545
+    },
+    {
+      "tag": "llm",
+      "tok_in": 128,
+      "tok_out": 18,
+      "lat_sec": 1.5198478698730469
+    },
+    {
+      "tag": "llm",
+      "tok_in": 579,
+      "tok_out": 7,
+      "lat_sec": 1.343033790588379
+    },
+    {
+      "tag": "llm",
+      "tok_in": 128,
+      "tok_out": 18,
+      "lat_sec": 1.558631181716919
+    },
+    {
+      "tag": "llm",
+      "tok_in": 1166,
+      "tok_out": 7,
+      "lat_sec": 1.6447994709014893
+    },
+    {
+      "tag": "llm",
+      "tok_in": 128,
+      "tok_out": 18,
+      "lat_sec": 4.348902463912964
+    },
+    {
+      "tag": "llm",
+      "tok_in": 2684,
+      "tok_out": 256,
+      "lat_sec": 4.772587776184082
+    },
+    {
+      "tag": "llm",
+      "tok_in": 376,
+      "tok_out": 268,
+      "lat_sec": 2.4187960624694824
+    },
+    {
+      "tag": "llm",
+      "tok_in": 1591,
+      "tok_out": 198,
+      "lat_sec": 2.562239408493042
+    },
+    {
+      "tag": "llm",
+      "tok_in": 318,
+      "tok_out": 208,
+      "lat_sec": 1.6776154041290283
+    },
+    {
+      "tag": "llm",
+      "tok_in": 466,
+      "tok_out": 204,
+      "lat_sec": 2.8202717304229736
+    },
+    {
+      "tag": "llm",
+      "tok_in": 324,
+      "tok_out": 214,
+      "lat_sec": 2.4001963138580322
+    },
+    {
+      "tag": "llm",
+      "tok_in": 14936,
+      "tok_out": 346,
+      "lat_sec": 4.9320313930511475
+    },
+    {
+      "tag": "llm",
+      "tok_in": 466,
+      "tok_out": 355,
+      "lat_sec": 5.29482889175415
+    },
+    {
+      "tag": "llm",
+      "tok_in": 10460,
+      "tok_out": 683,
+      "lat_sec": 9.846200466156006
+    },
+    {
+      "tag": "llm",
+      "tok_in": 803,
+      "tok_out": 716,
+      "lat_sec": 3.1580564975738525
+    },
+    {
+      "tag": "llm",
+      "tok_in": 10638,
+      "tok_out": 460,
+      "lat_sec": 5.831078290939331
+    },
+    {
+      "tag": "llm",
+      "tok_in": 580,
+      "tok_out": 477,
+      "lat_sec": 2.645984172821045
+    },
+    {
+      "tag": "llm",
+      "tok_in": 10306,
+      "tok_out": 430,
+      "lat_sec": 4.6552629470825195
+    },
+    {
+      "tag": "llm",
+      "tok_in": 550,
+      "tok_out": 441,
+      "lat_sec": 6.741057872772217
+    },
+    {
+      "tag": "llm",
+      "tok_in": 14544,
+      "tok_out": 546,
+      "lat_sec": 5.290600061416626
+    },
+    {
+      "tag": "llm",
+      "tok_in": 666,
+      "tok_out": 570,
+      "lat_sec": 3.351499080657959
+    },
+    {
+      "tag": "llm",
+      "tok_in": 17074,
+      "tok_out": 560,
+      "lat_sec": 8.688175916671753
+    },
+    {
+      "tag": "llm",
+      "tok_in": 680,
+      "tok_out": 582,
+      "lat_sec": 8.083463191986084
+    },
+    {
+      "tag": "llm",
+      "tok_in": 21285,
+      "tok_out": 645,
+      "lat_sec": 7.640105962753296
+    },
+    {
+      "tag": "llm",
+      "tok_in": 765,
+      "tok_out": 657,
+      "lat_sec": 3.508748769760132
+    },
+    {
+      "tag": "llm",
+      "tok_in": 14844,
+      "tok_out": 573,
+      "lat_sec": 7.448280572891235
+    },
+    {
+      "tag": "llm",
+      "tok_in": 693,
+      "tok_out": 594,
+      "lat_sec": 3.145899772644043
+    },
+    {
+      "tag": "llm",
+      "tok_in": 12727,
+      "tok_out": 437,
+      "lat_sec": 6.0297064781188965
+    },
+    {
+      "tag": "llm",
+      "tok_in": 557,
+      "tok_out": 451,
+      "lat_sec": 6.8022496700286865
+    },
+    {
+      "tag": "llm",
+      "tok_in": 8610,
+      "tok_out": 301,
+      "lat_sec": 4.037159442901611
+    },
+    {
+      "tag": "llm",
+      "tok_in": 421,
+      "tok_out": 310,
+      "lat_sec": 5.001332521438599
+    },
+    {
+      "tag": "llm",
+      "tok_in": 8831,
+      "tok_out": 564,
+      "lat_sec": 8.005209684371948
+    },
+    {
+      "tag": "llm",
+      "tok_in": 684,
+      "tok_out": 586,
+      "lat_sec": 3.3498518466949463
+    },
+    {
+      "tag": "llm",
+      "tok_in": 7559,
+      "tok_out": 315,
+      "lat_sec": 3.903275728225708
+    },
+    {
+      "tag": "llm",
+      "tok_in": 435,
+      "tok_out": 325,
+      "lat_sec": 2.139505624771118
+    },
+    {
+      "tag": "llm",
+      "tok_in": 17908,
+      "tok_out": 629,
+      "lat_sec": 6.792760848999023
+    },
+    {
+      "tag": "llm",
+      "tok_in": 749,
+      "tok_out": 667,
+      "lat_sec": 10.300923347473145
+    },
+    {
+      "tag": "llm",
+      "tok_in": 23620,
+      "tok_out": 556,
+      "lat_sec": 7.9449169635772705
+    },
+    {
+      "tag": "llm",
+      "tok_in": 676,
+      "tok_out": 573,
+      "lat_sec": 3.101994037628174
+    },
+    {
+      "tag": "llm",
+      "tok_in": 20662,
+      "tok_out": 750,
+      "lat_sec": 9.481874465942383
+    },
+    {
+      "tag": "llm",
+      "tok_in": 870,
+      "tok_out": 748,
+      "lat_sec": 3.3946328163146973
+    },
+    {
+      "tag": "llm",
+      "tok_in": 17333,
+      "tok_out": 761,
+      "lat_sec": 8.144407033920288
+    },
+    {
+      "tag": "llm",
+      "tok_in": 881,
+      "tok_out": 795,
+      "lat_sec": 4.373393774032593
+    },
+    {
+      "tag": "llm",
+      "tok_in": 31208,
+      "tok_out": 7,
+      "lat_sec": 3.472728967666626
+    },
+    {
+      "tag": "llm",
+      "tok_in": 128,
+      "tok_out": 22,
+      "lat_sec": 1.5198099613189697
+    },
+    {
+      "tag": "llm",
+      "tok_in": 13547,
+      "tok_out": 543,
+      "lat_sec": 7.64345645904541
+    },
+    {
+      "tag": "llm",
+      "tok_in": 663,
+      "tok_out": 558,
+      "lat_sec": 2.958674907684326
+    },
+    {
+      "tag": "llm",
+      "tok_in": 1990,
+      "tok_out": 271,
+      "lat_sec": 4.074186325073242
+    },
+    {
+      "tag": "llm",
+      "tok_in": 391,
+      "tok_out": 281,
+      "lat_sec": 4.346117258071899
+    },
+    {
+      "tag": "llm",
+      "tok_in": 2689,
+      "tok_out": 248,
+      "lat_sec": 4.267147064208984
+    },
+    {
+      "tag": "llm",
+      "tok_in": 368,
+      "tok_out": 258,
+      "lat_sec": 1.930893898010254
+    },
+    {
+      "tag": "llm",
+      "tok_in": 2468,
+      "tok_out": 244,
+      "lat_sec": 3.9692788124084473
+    },
+    {
+      "tag": "llm",
+      "tok_in": 364,
+      "tok_out": 254,
+      "lat_sec": 2.0632762908935547
+    },
+    {
+      "tag": "llm",
+      "tok_in": 3745,
+      "tok_out": 274,
+      "lat_sec": 4.610460996627808
+    },
+    {
+      "tag": "llm",
+      "tok_in": 394,
+      "tok_out": 283,
+      "lat_sec": 4.431346893310547
+    },
+    {
+      "tag": "llm",
+      "tok_in": 1354,
+      "tok_out": 206,
+      "lat_sec": 3.975275754928589
+    },
+    {
+      "tag": "llm",
+      "tok_in": 326,
+      "tok_out": 216,
+      "lat_sec": 4.254482984542847
+    },
+    {
+      "tag": "llm",
+      "tok_in": 3291,
+      "tok_out": 217,
+      "lat_sec": 2.8356850147247314
+    },
+    {
+      "tag": "llm",
+      "tok_in": 337,
+      "tok_out": 227,
+      "lat_sec": 1.9613304138183594
+    },
+    {
+      "tag": "llm",
+      "tok_in": 6856,
+      "tok_out": 512,
+      "lat_sec": 7.158802270889282
+    },
+    {
+      "tag": "llm",
+      "tok_in": 632,
+      "tok_out": 534,
+      "lat_sec": 7.333549737930298
+    },
+    {
+      "tag": "llm",
+      "tok_in": 6720,
+      "tok_out": 516,
+      "lat_sec": 7.23654580116272
+    },
+    {
+      "tag": "llm",
+      "tok_in": 636,
+      "tok_out": 544,
+      "lat_sec": 2.8844618797302246
+    },
+    {
+      "tag": "llm",
+      "tok_in": 2542,
+      "tok_out": 257,
+      "lat_sec": 4.614782094955444
+    },
+    {
+      "tag": "llm",
+      "tok_in": 377,
+      "tok_out": 267,
+      "lat_sec": 1.8340730667114258
+    },
+    {
+      "tag": "llm",
+      "tok_in": 2669,
+      "tok_out": 323,
+      "lat_sec": 5.305813312530518
+    },
+    {
+      "tag": "llm",
+      "tok_in": 443,
+      "tok_out": 333,
+      "lat_sec": 2.392946720123291
+    },
+    {
+      "tag": "llm",
+      "tok_in": 2058,
+      "tok_out": 229,
+      "lat_sec": 4.413765907287598
+    },
+    {
+      "tag": "llm",
+      "tok_in": 349,
+      "tok_out": 239,
+      "lat_sec": 2.1810803413391113
+    },
+    {
+      "tag": "llm",
+      "tok_in": 2229,
+      "tok_out": 239,
+      "lat_sec": 5.62649393081665
+    },
+    {
+      "tag": "llm",
+      "tok_in": 359,
+      "tok_out": 251,
+      "lat_sec": 4.929277420043945
+    },
+    {
+      "tag": "llm",
+      "tok_in": 4716,
+      "tok_out": 268,
+      "lat_sec": 3.814429998397827
+    },
+    {
+      "tag": "llm",
+      "tok_in": 388,
+      "tok_out": 278,
+      "lat_sec": 2.752504825592041
+    },
+    {
+      "tag": "llm",
+      "tok_in": 3765,
+      "tok_out": 248,
+      "lat_sec": 3.5647218227386475
+    },
+    {
+      "tag": "llm",
+      "tok_in": 368,
+      "tok_out": 259,
+      "lat_sec": 2.06093168258667
+    },
+    {
+      "tag": "llm",
+      "tok_in": 1761,
+      "tok_out": 368,
+      "lat_sec": 5.882993698120117
+    },
+    {
+      "tag": "llm",
+      "tok_in": 488,
+      "tok_out": 391,
+      "lat_sec": 5.347986459732056
+    },
+    {
+      "tag": "llm",
+      "tok_in": 1581,
+      "tok_out": 197,
+      "lat_sec": 4.131332874298096
+    },
+    {
+      "tag": "llm",
+      "tok_in": 317,
+      "tok_out": 207,
+      "lat_sec": 2.0922391414642334
+    },
+    {
+      "tag": "llm",
+      "tok_in": 4305,
+      "tok_out": 440,
+      "lat_sec": 6.159112215042114
+    },
+    {
+      "tag": "llm",
+      "tok_in": 560,
+      "tok_out": 466,
+      "lat_sec": 2.5580568313598633
+    },
+    {
+      "tag": "llm",
+      "tok_in": 2708,
+      "tok_out": 289,
+      "lat_sec": 4.132159471511841
+    },
+    {
+      "tag": "llm",
+      "tok_in": 409,
+      "tok_out": 299,
+      "lat_sec": 2.3167033195495605
+    },
+    {
+      "tag": "llm",
+      "tok_in": 3283,
+      "tok_out": 335,
+      "lat_sec": 4.710524797439575
+    },
+    {
+      "tag": "llm",
+      "tok_in": 455,
+      "tok_out": 345,
+      "lat_sec": 5.467508316040039
+    },
+    {
+      "tag": "llm",
+      "tok_in": 11642,
+      "tok_out": 380,
+      "lat_sec": 5.013225793838501
+    },
+    {
+      "tag": "llm",
+      "tok_in": 500,
+      "tok_out": 392,
+      "lat_sec": 5.933669567108154
+    },
+    {
+      "tag": "llm",
+      "tok_in": 5440,
+      "tok_out": 536,
+      "lat_sec": 8.783308506011963
+    },
+    {
+      "tag": "llm",
+      "tok_in": 656,
+      "tok_out": 557,
+      "lat_sec": 3.1892666816711426
+    },
+    {
+      "tag": "llm",
+      "tok_in": 4935,
+      "tok_out": 595,
+      "lat_sec": 7.559634685516357
+    },
+    {
+      "tag": "llm",
+      "tok_in": 715,
+      "tok_out": 576,
+      "lat_sec": 8.16922903060913
+    },
+    {
+      "tag": "llm",
+      "tok_in": 7654,
+      "tok_out": 409,
+      "lat_sec": 5.737016916275024
+    },
+    {
+      "tag": "llm",
+      "tok_in": 529,
+      "tok_out": 432,
+      "lat_sec": 2.7348623275756836
+    },
+    {
+      "tag": "llm",
+      "tok_in": 4443,
+      "tok_out": 350,
+      "lat_sec": 5.759427070617676
+    },
+    {
+      "tag": "llm",
+      "tok_in": 470,
+      "tok_out": 363,
+      "lat_sec": 2.301485300064087
+    },
+    {
+      "tag": "llm",
+      "tok_in": 6191,
+      "tok_out": 275,
+      "lat_sec": 5.797245264053345
+    },
+    {
+      "tag": "llm",
+      "tok_in": 395,
+      "tok_out": 284,
+      "lat_sec": 2.02864670753479
+    },
+    {
+      "tag": "llm",
+      "tok_in": 13213,
+      "tok_out": 559,
+      "lat_sec": 8.98836874961853
+    },
+    {
+      "tag": "llm",
+      "tok_in": 679,
+      "tok_out": 560,
+      "lat_sec": 8.966732025146484
+    },
+    {
+      "tag": "llm",
+      "tok_in": 15620,
+      "tok_out": 476,
+      "lat_sec": 5.318925380706787
+    },
+    {
+      "tag": "llm",
+      "tok_in": 596,
+      "tok_out": 470,
+      "lat_sec": 6.394982099533081
+    },
+    {
+      "tag": "llm",
+      "tok_in": 11831,
+      "tok_out": 408,
+      "lat_sec": 7.414161443710327
+    },
+    {
+      "tag": "llm",
+      "tok_in": 528,
+      "tok_out": 425,
+      "lat_sec": 2.620739221572876
+    },
+    {
+      "tag": "llm",
+      "tok_in": 4361,
+      "tok_out": 206,
+      "lat_sec": 3.8798916339874268
+    },
+    {
+      "tag": "llm",
+      "tok_in": 326,
+      "tok_out": 216,
+      "lat_sec": 1.6740713119506836
+    },
+    {
+      "tag": "llm",
+      "tok_in": 5765,
+      "tok_out": 280,
+      "lat_sec": 4.62532377243042
+    },
+    {
+      "tag": "llm",
+      "tok_in": 400,
+      "tok_out": 289,
+      "lat_sec": 1.9813647270202637
+    },
+    {
+      "tag": "llm",
+      "tok_in": 5015,
+      "tok_out": 319,
+      "lat_sec": 4.155578374862671
+    },
+    {
+      "tag": "llm",
+      "tok_in": 439,
+      "tok_out": 331,
+      "lat_sec": 5.08303427696228
+    },
+    {
+      "tag": "llm",
+      "tok_in": 11173,
+      "tok_out": 1491,
+      "lat_sec": 13.590771913528442
+    },
+    {
+      "tag": "llm",
+      "tok_in": 5015,
+      "tok_out": 1482,
+      "lat_sec": 13.304429054260254
+    },
+    {
+      "tag": "llm",
+      "tok_in": 8849,
+      "tok_out": 1688,
+      "lat_sec": 13.94269347190857
+    },
+    {
+      "tag": "llm",
+      "tok_in": 10223,
+      "tok_out": 1708,
+      "lat_sec": 14.928231239318848
+    },
+    {
+      "tag": "llm",
+      "tok_in": 6562,
+      "tok_out": 1565,
+      "lat_sec": 13.403742551803589
+    },
+    {
+      "tag": "llm",
+      "tok_in": 4867,
+      "tok_out": 1314,
+      "lat_sec": 14.03388237953186
+    },
+    {
+      "tag": "llm",
+      "tok_in": 9858,
+      "tok_out": 4460,
+      "lat_sec": 57.14695429801941
+    }
+  ]
+}

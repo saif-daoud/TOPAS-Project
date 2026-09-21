@@ -1,0 +1,509 @@
+{
+  "nodes": [
+    {
+      "type": "Patient",
+      "description": "Root node representing the individual receiving cognitive behavioral therapy."
+    },
+    {
+      "type": "Demographics",
+      "description": "Patient’s age, gender, cultural background, education, vocation, and social context."
+    },
+    {
+      "type": "Presenting Problems",
+      "description": "Presenting complaints, symptom descriptions, and contextual/problem history."
+    },
+    {
+      "type": "Diagnosis/Clinical History",
+      "description": "Mental and physical health diagnoses, comorbidities, and longitudinal symptom profiles."
+    },
+    {
+      "type": "Medical History",
+      "description": "Relevant medical background, medication adherence, and physical health/disability details."
+    },
+    {
+      "type": "Family Psychiatric and Medical History",
+      "description": "Family history of psychiatric, medical, and substance issues impacting the patient."
+    },
+    {
+      "type": "Developmental and Life Events",
+      "description": "Developmental, childhood, family, social, educational, and critical life events or trauma."
+    },
+    {
+      "type": "Cultural/Contextual Factors",
+      "description": "Cultural, familial, religious, language, and developmental influences relevant to therapy."
+    },
+    {
+      "type": "Core Beliefs/Schemas",
+      "description": "Enduring beliefs and schemas about self, others, world; developmental origins and conviction strength."
+    },
+    {
+      "type": "Intermediate Beliefs/Assumptions",
+      "description": "Attitudes, rules, conditional assumptions derived from core beliefs."
+    },
+    {
+      "type": "Automatic Thoughts",
+      "description": "Recurring spontaneous cognitions or negative automatic thoughts and their context and impact."
+    },
+    {
+      "type": "Cognitive Distortions",
+      "description": "Unhelpful thinking styles, biases, and patterns across time."
+    },
+    {
+      "type": "Behavioral Patterns",
+      "description": "Adaptive and maladaptive patterns including avoidance, approach, rituals, withdrawal, and safety behaviors."
+    },
+    {
+      "type": "Coping Strategies",
+      "description": "Adaptive and maladaptive strategies used by the patient for regulation and distress management."
+    },
+    {
+      "type": "Strengths and Support System",
+      "description": "Patient’s identified strengths, assets, resilience, and available social/relationship supports."
+    },
+    {
+      "type": "Therapeutic Alliance/Relationship",
+      "description": "Quality, rupture/repair cycles, engagement, compliance, feedback, and skill development in the therapy relationship."
+    },
+    {
+      "type": "Treatment/Interventions",
+      "description": "Records of CBT interventions, exposures, behavioral experiments, and effectiveness/rationale."
+    },
+    {
+      "type": "Homework/Assignments",
+      "description": "Therapy homework and assignments history, adherence, completion, and outcome notes."
+    },
+    {
+      "type": "Skill Acquisition/CBT Competency",
+      "description": "Acquisition and mastery of CBT skills and ability for independent use."
+    },
+    {
+      "type": "Activity Patterns/Scheduling",
+      "description": "Scheduling of activities, mastery/pleasure ratings, and engagement/avoidance patterns."
+    },
+    {
+      "type": "Mood and Emotional Responses",
+      "description": "Patterns of emotional, behavioral, and physiological responses including depression, anxiety, anger, shame, and mood tracking."
+    },
+    {
+      "type": "Triggers",
+      "description": "Situational, personal, or environmental triggers for symptoms, moods, and automatic thoughts."
+    },
+    {
+      "type": "Safety Behaviors/Avoidance",
+      "description": "Catalogue of specific safety, avoidance, and ritual behaviors, their context and frequency."
+    },
+    {
+      "type": "Episodes/Setbacks/Relapse History",
+      "description": "History and details of symptom episodes, relapses, setbacks, warning signs, and preventive strategies."
+    },
+    {
+      "type": "Motivation and Values",
+      "description": "Key goals, values, motivation sources, and value-based behavioral patterns."
+    },
+    {
+      "type": "Problem-Solving Capacity",
+      "description": "Problem-solving style, skill level, attempts, progress, and responses to setbacks."
+    },
+    {
+      "type": "Personality Features/Traits",
+      "description": "Personality disorder features or relevant traits such as obsessiveness, perfectionism, or hostility."
+    },
+    {
+      "type": "Self-Concept/Identity",
+      "description": "Self-esteem, shame, self-worth, identity, and related beliefs and changes."
+    },
+    {
+      "type": "Physical Symptoms/Reactions",
+      "description": "Typical physical reactions to emotional distress (e.g., agitation, withdrawal, somatic symptoms)."
+    },
+    {
+      "type": "Habits and Lifestyle",
+      "description": "Patterns in diet, sleep, exercise, substance use, routines, and self-care."
+    },
+    {
+      "type": "Addiction/Problematic Behaviors",
+      "description": "Substance or behavioral addictions and compulsive behaviors."
+    },
+    {
+      "type": "Sleep and Insomnia Features",
+      "description": "Sleep patterns, quality, beliefs about sleep, and related behaviors."
+    },
+    {
+      "type": "Eating Disorder and Body Image Features",
+      "description": "Disordered eating patterns, compensatory behaviors, body image concerns, and related beliefs."
+    },
+    {
+      "type": "OCD and Compulsive Symptoms",
+      "description": "Obsessional problems, compulsions, rituals, and related avoidance."
+    },
+    {
+      "type": "Anger and Rumination Patterns",
+      "description": "Antecedents, patterns, and consequences of anger and rumination."
+    },
+    {
+      "type": "Trauma and Abuse History",
+      "description": "History, timing, and sequence of trauma, loss, abuse, bullying, neglect, and associated impacts."
+    },
+    {
+      "type": "Support System Involvement",
+      "description": "Role/involvement of significant others/family in support, rituals, or symptom maintenance."
+    },
+    {
+      "type": "Therapist’s Observations",
+      "description": "Therapist’s observations, notes, reactions, and clinical assumptions about therapy process."
+    },
+    {
+      "type": "Functional Outcomes/Impairment",
+      "description": "Functioning and impairment in social, academic, occupational, and daily living domains."
+    },
+    {
+      "type": "Standardized Assessments",
+      "description": "Scores and outcomes from standardized assessment and symptom measures over time."
+    },
+    {
+      "type": "Insight/Understanding",
+      "description": "Patient’s evolving insight, metacognition, and understanding of therapy and disorder."
+    },
+    {
+      "type": "Transference/Countertransference",
+      "description": "Patient transference patterns and therapist’s countertransference reactions."
+    }
+  ],
+  "edges": [
+    {
+      "source": "Patient",
+      "target": "Demographics",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Diagnosis/Clinical History",
+      "relation": "has"
+    },
+    {
+      "source": "Diagnosis/Clinical History",
+      "target": "Medical History",
+      "relation": "includes"
+    },
+    {
+      "source": "Diagnosis/Clinical History",
+      "target": "Family Psychiatric and Medical History",
+      "relation": "may include"
+    },
+    {
+      "source": "Patient",
+      "target": "Presenting Problems",
+      "relation": "presents"
+    },
+    {
+      "source": "Patient",
+      "target": "Developmental and Life Events",
+      "relation": "has"
+    },
+    {
+      "source": "Developmental and Life Events",
+      "target": "Core Beliefs/Schemas",
+      "relation": "inform"
+    },
+    {
+      "source": "Developmental and Life Events",
+      "target": "Trauma and Abuse History",
+      "relation": "may include"
+    },
+    {
+      "source": "Patient",
+      "target": "Cultural/Contextual Factors",
+      "relation": "is influenced by"
+    },
+    {
+      "source": "Patient",
+      "target": "Core Beliefs/Schemas",
+      "relation": "holds"
+    },
+    {
+      "source": "Patient",
+      "target": "Intermediate Beliefs/Assumptions",
+      "relation": "holds"
+    },
+    {
+      "source": "Core Beliefs/Schemas",
+      "target": "Intermediate Beliefs/Assumptions",
+      "relation": "underlie"
+    },
+    {
+      "source": "Intermediate Beliefs/Assumptions",
+      "target": "Automatic Thoughts",
+      "relation": "shape"
+    },
+    {
+      "source": "Patient",
+      "target": "Automatic Thoughts",
+      "relation": "has"
+    },
+    {
+      "source": "Automatic Thoughts",
+      "target": "Cognitive Distortions",
+      "relation": "display"
+    },
+    {
+      "source": "Automatic Thoughts",
+      "target": "Mood and Emotional Responses",
+      "relation": "trigger"
+    },
+    {
+      "source": "Automatic Thoughts",
+      "target": "Core Beliefs/Schemas",
+      "relation": "reinforce"
+    },
+    {
+      "source": "Patient",
+      "target": "Cognitive Distortions",
+      "relation": "shows"
+    },
+    {
+      "source": "Cognitive Distortions",
+      "target": "Behavioral Patterns",
+      "relation": "lead to"
+    },
+    {
+      "source": "Patient",
+      "target": "Behavioral Patterns",
+      "relation": "exhibits"
+    },
+    {
+      "source": "Triggers",
+      "target": "Automatic Thoughts",
+      "relation": "provoke"
+    },
+    {
+      "source": "Triggers",
+      "target": "Mood and Emotional Responses",
+      "relation": "influence"
+    },
+    {
+      "source": "Patient",
+      "target": "Triggers",
+      "relation": "is affected by"
+    },
+    {
+      "source": "Behavioral Patterns",
+      "target": "Coping Strategies",
+      "relation": "are mediated by"
+    },
+    {
+      "source": "Behavioral Patterns",
+      "target": "Safety Behaviors/Avoidance",
+      "relation": "include"
+    },
+    {
+      "source": "Patient",
+      "target": "Coping Strategies",
+      "relation": "uses"
+    },
+    {
+      "source": "Coping Strategies",
+      "target": "Episodes/Setbacks/Relapse History",
+      "relation": "contribute_to"
+    },
+    {
+      "source": "Coping Strategies",
+      "target": "Skill Acquisition/CBT Competency",
+      "relation": "require"
+    },
+    {
+      "source": "Strengths and Support System",
+      "target": "Coping Strategies",
+      "relation": "bolster"
+    },
+    {
+      "source": "Patient",
+      "target": "Strengths and Support System",
+      "relation": "possesses"
+    },
+    {
+      "source": "Patient",
+      "target": "Skill Acquisition/CBT Competency",
+      "relation": "acquires"
+    },
+    {
+      "source": "Skill Acquisition/CBT Competency",
+      "target": "Homework/Assignments",
+      "relation": "enables"
+    },
+    {
+      "source": "Patient",
+      "target": "Homework/Assignments",
+      "relation": "completes"
+    },
+    {
+      "source": "Homework/Assignments",
+      "target": "Treatment/Interventions",
+      "relation": "reflect"
+    },
+    {
+      "source": "Patient",
+      "target": "Treatment/Interventions",
+      "relation": "receives"
+    },
+    {
+      "source": "Treatment/Interventions",
+      "target": "Skill Acquisition/CBT Competency",
+      "relation": "promote"
+    },
+    {
+      "source": "Patient",
+      "target": "Therapeutic Alliance/Relationship",
+      "relation": "engages in"
+    },
+    {
+      "source": "Therapeutic Alliance/Relationship",
+      "target": "Motivation and Values",
+      "relation": "influences"
+    },
+    {
+      "source": "Therapist’s Observations",
+      "target": "Therapeutic Alliance/Relationship",
+      "relation": "inform"
+    },
+    {
+      "source": "Therapist’s Observations",
+      "target": "Treatment/Interventions",
+      "relation": "guide"
+    },
+    {
+      "source": "Therapeutic Alliance/Relationship",
+      "target": "Skill Acquisition/CBT Competency",
+      "relation": "facilitates"
+    },
+    {
+      "source": "Therapeutic Alliance/Relationship",
+      "target": "Motivation and Values",
+      "relation": "strengthens"
+    },
+    {
+      "source": "Motivation and Values",
+      "target": "Treatment/Interventions",
+      "relation": "inform"
+    },
+    {
+      "source": "Patient",
+      "target": "Episode/Setbacks/Relapse History",
+      "relation": "has"
+    },
+    {
+      "source": "Episodes/Setbacks/Relapse History",
+      "target": "Treatment/Interventions",
+      "relation": "modifies"
+    },
+    {
+      "source": "Episodes/Setbacks/Relapse History",
+      "target": "Coping Strategies",
+      "relation": "challenge"
+    },
+    {
+      "source": "Motivation and Values",
+      "target": "Episodes/Setbacks/Relapse History",
+      "relation": "buffer"
+    },
+    {
+      "source": "Patient",
+      "target": "Activity Patterns/Scheduling",
+      "relation": "engages in"
+    },
+    {
+      "source": "Activity Patterns/Scheduling",
+      "target": "Mood and Emotional Responses",
+      "relation": "impact"
+    },
+    {
+      "source": "Self-Concept/Identity",
+      "target": "Core Beliefs/Schemas",
+      "relation": "reflect"
+    },
+    {
+      "source": "Behavioral Patterns",
+      "target": "Functional Outcomes/Impairment",
+      "relation": "impact"
+    },
+    {
+      "source": "Trauma and Abuse History",
+      "target": "Core Beliefs/Schemas",
+      "relation": "shape"
+    },
+    {
+      "source": "Physical Symptoms/Reactions",
+      "target": "Mood and Emotional Responses",
+      "relation": "mirror"
+    },
+    {
+      "source": "Therapist’s Observations",
+      "target": "Episodes/Setbacks/Relapse History",
+      "relation": "track"
+    },
+    {
+      "source": "Standardized Assessments",
+      "target": "Mood and Emotional Responses",
+      "relation": "measure"
+    },
+    {
+      "source": "Eating Disorder and Body Image Features",
+      "target": "Core Beliefs/Schemas",
+      "relation": "stem from"
+    },
+    {
+      "source": "Eating Disorder and Body Image Features",
+      "target": "Cognitive Distortions",
+      "relation": "are associated with"
+    },
+    {
+      "source": "Addiction/Problematic Behaviors",
+      "target": "Behavioral Patterns",
+      "relation": "contribute to"
+    },
+    {
+      "source": "Addiction/Problematic Behaviors",
+      "target": "Episodes/Setbacks/Relapse History",
+      "relation": "are linked to"
+    },
+    {
+      "source": "OCD and Compulsive Symptoms",
+      "target": "Safety Behaviors/Avoidance",
+      "relation": "express"
+    },
+    {
+      "source": "Support System Involvement",
+      "target": "Treatment/Interventions",
+      "relation": "reinforce"
+    },
+    {
+      "source": "Motivation and Values",
+      "target": "Activity Patterns/Scheduling",
+      "relation": "drive"
+    },
+    {
+      "source": "Skill Acquisition/CBT Competency",
+      "target": "Problem-Solving Capacity",
+      "relation": "improves"
+    },
+    {
+      "source": "Sleep and Insomnia Features",
+      "target": "Behavioral Patterns",
+      "relation": "influence"
+    },
+    {
+      "source": "Habits and Lifestyle",
+      "target": "Mood and Emotional Responses",
+      "relation": "modulate"
+    },
+    {
+      "source": "Therapist’s Observations",
+      "target": "Transference/Countertransference",
+      "relation": "record"
+    },
+    {
+      "source": "Insight/Understanding",
+      "target": "Treatment/Interventions",
+      "relation": "inform"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "macro_actions": [
+    {
+      "name": "Engagement and Therapeutic Relationship Building",
+      "description": "Therapist establishes a genuine, collaborative relationship with the patient characterized by warmth, empathy, openness, and trust, setting the stage for productive dialogue and intervention.",
+      "goal": {
+        "objective": "Build a safe and collaborative therapeutic foundation for intervention.",
+        "success_levels": {
+          "ideal": "Patient feels understood, safe, trusting, and actively engaged in the therapy process.",
+          "acceptable": "Patient shows some openness and willingness to participate, even if guarded.",
+          "unsuccessful": "Patient feels misunderstood, unsafe, withdrawn, or resistant to collaboration."
+        },
+        "reward_hint": "Patient expresses trust, participates willingly, or positively references the relationship."
+      },
+      "states": [
+        "Initial sessions where rapport must be established",
+        "When trust or openness is low or resistance is present",
+        "Patient expresses hesitancy, shame, or uncertainty about therapy",
+        "Therapeutic progress stalls due to a weak relationship"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "name": "Assessment and Cognitive Case Formulation",
+      "description": "Therapist gathers information, explores patterns, and synthesizes cognitive, emotional, and behavioral data to collaboratively develop a shared understanding of the patient's difficulties using CBT models.",
+      "goal": {
+        "objective": "Create an individualized CBT-based formulation that links theory with the patient’s problems and informs targeted intervention.",
+        "success_levels": {
+          "ideal": "Therapist and patient share a clear, collaboratively-built formulation aligned with CBT principles, guiding targets for change.",
+          "acceptable": "Basic understanding of presenting problems and some relevant cognitive patterns are established.",
+          "unsuccessful": "No meaningful formulation is constructed; information remains fragmented or unshared."
+        },
+        "reward_hint": "Therapist and patient verbalize agreement on a case formulation or identify shared goals based on it."
+      },
+      "states": [
+        "Initial therapy sessions when presenting problems and history are unclear",
+        "After rapport is established but targets for intervention have not been identified",
+        "Complex or intertwined symptom presentations needing clarification"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "name": "Psychoeducation",
+      "description": "Therapist provides clear, tailored information about CBT principles, diagnosis, symptom mechanisms, and treatment rationale to foster patient understanding, reduce stigma, and empower self-management.",
+      "goal": {
+        "objective": "Improve patient insight and understanding of problems, CBT approach, and rationale for intervention.",
+        "success_levels": {
+          "ideal": "Patient accurately understands and can explain CBT concepts relevant to their case, increasing motivation.",
+          "acceptable": "Patient receives relevant information and shows partial understanding or curiosity.",
+          "unsuccessful": "Patient misunderstands or rejects CBT explanations or shows increased confusion."
+        },
+        "reward_hint": "Patient asks informed questions, discusses new insights, or shows increased engagement following psychoeducation."
+      },
+      "states": [
+        "Beginning phase or with new topics/interventions",
+        "When patient displays misconceptions, unrealistic expectations, or confusion about therapy or their symptoms",
+        "Following assessment when introducing the CBT model"
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Collaborative Identification of Target Cognitions and Behaviors",
+      "description": "Therapist and patient jointly identify problem-maintaining thoughts, beliefs, assumptions, and behaviors as focal points for intervention, ensuring relevance and ownership.",
+      "goal": {
+        "objective": "Develop a prioritized list of key cognitions and behaviors to target in therapy.",
+        "success_levels": {
+          "ideal": "Therapist and patient agree on a clearly defined set of target cognitions/behaviors directly linked to distress or dysfunction.",
+          "acceptable": "Therapist identifies some relevant targets; patient acknowledges their importance.",
+          "unsuccessful": "Targets remain vague or unrelated to the patient’s lived experience."
+        },
+        "reward_hint": "Agreement and explicit list of priority targets is documented in session."
+      },
+      "states": [
+        "After case formulation, before intervention planning",
+        "When specific problematic beliefs or behaviors are evident and require clarification",
+        "At points where therapy focus needs realignment"
+      ],
+      "confidence_score": 0.98
+    },
+    {
+      "name": "Planning and Design of Behavioral Experiments",
+      "description": "Therapist leads collaborative design of behavioral experiments (BEs) to test specific beliefs/predictions, challenge avoidance, or facilitate new learning, ensuring tailoring to individual needs and capabilities.",
+      "goal": {
+        "objective": "Produce a feasible, relevant, and collaboratively agreed upon plan for behavioral experiments to test maladaptive cognitions and promote change.",
+        "success_levels": {
+          "ideal": "Therapist and patient have a detailed plan for an experiment addressing critical beliefs, with clear predicted outcomes.",
+          "acceptable": "Experiment is loosely planned with intent to test target cognition, though some details may be missing.",
+          "unsuccessful": "No experiments are planned, or designs are irrelevant, unsafe, or un-agreed upon."
+        },
+        "reward_hint": "Patient expresses commitment or curiosity about the experiment, and details are clearly identified."
+      },
+      "states": [
+        "Therapy sessions after target beliefs are identified",
+        "When patient is ready to move from discussion to experiential learning",
+        "Before exposure/interpersonal experiments designed to test avoidance or catastrophic predictions"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "name": "Execution of Behavioral Experiments and Structured Experiences",
+      "description": "Therapist guides, facilitates, and sometimes models the patient’s participation in planned behavioral experiments or exposure tasks, either in-session or assigned as homework, with attention to safety and relevance.",
+      "goal": {
+        "objective": "Successfully engage the patient in the structured experience/experiment to generate direct evidence and learning.",
+        "success_levels": {
+          "ideal": "Patient actively participates, experiment proceeds as planned, and meaningful data for hypothesis testing is gathered.",
+          "acceptable": "Experiment is attempted with partial engagement; some learning occurs despite challenges.",
+          "unsuccessful": "Experiment is avoided, disrupted, or leads to adverse outcomes."
+        },
+        "reward_hint": "Patient’s actions align with the planned experiment and outcome data are available for follow-up."
+      },
+      "states": [
+        "After experiment planning, before reflection or review",
+        "Patient is ready and willing to test beliefs ‘in vivo’ or through structured tasks",
+        "During exposure-based tasks or skills practice"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "name": "Observation and Data Gathering",
+      "description": "Therapist and patient observe, record, and collect data on the outcomes of experiments, behaviors, emotional responses, and cognitions as they unfold, ensuring unbiased evidence gathering.",
+      "goal": {
+        "objective": "Provide objective data for evaluating the validity of beliefs and intervention effectiveness.",
+        "success_levels": {
+          "ideal": "Complete, unbiased observations and data capture relevant to initial predictions.",
+          "acceptable": "Partial data or observations recorded, sufficient for basic hypothesis testing.",
+          "unsuccessful": "No meaningful data gathered; observations are ignored or misinterpreted."
+        },
+        "reward_hint": "Concrete observation records (written, verbal, behavioral) are available post-experiment."
+      },
+      "states": [
+        "Immediately after experiments or exposure sessions",
+        "When hypotheses need empirical data for evaluation",
+        "After a meaningful behavioral intervention"
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Reflection and Cognitive Restructuring",
+      "description": "Therapist facilitates collaborative reflection on experimental outcomes, supports cognitive restructuring, encourages reconsideration of maladaptive beliefs, and fosters integration of new learning into core perspectives.",
+      "goal": {
+        "objective": "Modify dysfunctional beliefs and construct more adaptive perspectives based on evidence and reflection.",
+        "success_levels": {
+          "ideal": "Patient demonstrates meaningful cognitive change, adopts new adaptive beliefs, and recognizes evidence against old assumptions.",
+          "acceptable": "Partial reconsideration or tentative adoption of alternative perspectives occurs.",
+          "unsuccessful": "Beliefs remain unchanged or become more rigid despite evidence."
+        },
+        "reward_hint": "Patient verbalizes changed or challenged beliefs and integrates experiment results."
+      },
+      "states": [
+        "After gathering data from behavioral experiments",
+        "When evidence contradicts or supports patient’s core beliefs",
+        "Following significant emotional or behavioral experiences in therapy"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "name": "Skills Training and Development of Coping Strategies",
+      "description": "Therapist teaches, models, and reinforces adaptive skills (e.g., assertiveness, emotion regulation, self-monitoring, alternative coping) to address difficulties and enhance patient self-efficacy.",
+      "goal": {
+        "objective": "Increase the patient’s repertoire of effective coping and self-management strategies.",
+        "success_levels": {
+          "ideal": "Patient acquires and flexibly applies new skills across relevant life domains.",
+          "acceptable": "Patient learns basic skills and uses them in limited contexts.",
+          "unsuccessful": "No skill acquisition or skills not used beyond sessions."
+        },
+        "reward_hint": "Patient reports or demonstrates use of new coping or behavioral skills outside therapy."
+      },
+      "states": [
+        "When functional or behavioral deficits are identified",
+        "Patient expresses a need for practical strategies",
+        "Preparation for new behavioral experiments or challenging situations"
+      ],
+      "confidence_score": 0.92
+    },
+    {
+      "name": "Relapse Prevention and Future Planning",
+      "description": "Therapist and patient collaboratively develop strategies for relapse prevention, including identifying early warning signs, triggers, and formulating adaptive plans for future setbacks, ensuring maintenance of gains.",
+      "goal": {
+        "objective": "Equip patient with individualized plans to sustain change and respond effectively to future challenges.",
+        "success_levels": {
+          "ideal": "Clear, collaboratively-developed relapse prevention plan is in place and patient expresses confidence in its use.",
+          "acceptable": "Basic strategies are discussed, and patient shows some awareness of future risks.",
+          "unsuccessful": "No future planning; patient remains vulnerable to relapse with no strategies."
+        },
+        "reward_hint": "Patient articulates awareness of relapse risks and proactive coping plans."
+      },
+      "states": [
+        "Following substantial progress in therapy",
+        "Before planned discharge or therapy ending",
+        "Patient expresses concern about setbacks or past relapses"
+      ],
+      "confidence_score": 0.96
+    }
+  ]
+}

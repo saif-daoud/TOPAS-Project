@@ -1,0 +1,188 @@
+﻿domain: P4G
+mode: dialogue
+api_key_env: TOPA_API_KEY
+seed: 42
+domain_params:
+  system: persuader
+  user: persuadee
+  adj: persuasion
+  interaction_unit: session
+paths:
+  textbooks: topa/data/textbooks/Persuasion
+  data: topa/data/datasets/P4G/p4g_topa.json
+  output: outputs/
+extraction_params:
+  method: topa_ours
+  role:
+  - system
+  - user
+  role_components:
+    system:
+    - macro_actions
+    - micro_actions
+    - conversation_states
+    - knowledge_graph
+    - cautions
+    - rules
+    user:
+    - user_profile
+  fusion_type: Late
+annotations_params:
+  components:
+  # - macro_actions
+  - micro_actions
+  # - conv_state
+  # - intrinsic_reward
+  # - cautions
+  # - extrinsic_reward
+  # - user_profile
+  num_processes: 1
+  max_retries: 3
+  frequent_pattern_mining:
+    enabled: true
+    min_support_ratio: 0.1
+    min_pattern_length: 2
+    max_pattern_length: 10
+    top_k: 30
+    collapse_consecutive: true
+  action_space_refinement:
+    enabled: true
+    conf_threshold: 0.65
+    context_length: 5
+    max_examples_per_macro: 30
+    max_new_actions_per_macro: 6
+  expert_feedback:
+    enabled: false
+    conf_threshold: 0.65
+    n_review: 200
+    similarity_delta: 0.85
+  validation_subset:
+    enabled: true
+    mode: by_user   # by_session | by_user
+    ratio: 0.1
+    seed: 42
+    split_key: split
+    split_values:
+    - val
+    export_path: ''
+    user_profile_only: true
+    explicit_session_ids_path: topa/data/datasets/P4G/validation_sessions.json
+  conv_state_ambiguity:
+    enabled: false
+    n_review: 200
+    context_length: 10
+    none_value: none
+  macro_actions_params:
+    use_annotation_rules: true
+    num_processes: 1
+  micro_actions_params:
+    context_length: 5
+    batch_size: 32
+    use_annotation_rules: true
+  conv_state_params:
+    numeric: false
+  intrinsic_reward_params:
+    context_length: 5
+  cautions_params:
+    context_length: 5
+    batch_size: 32
+  extrinsic_reward_params:
+    reward_module: topa.reward.p4g
+    output_fields:
+    - label
+    - reward
+    - raw
+  validation:
+    split_values:
+    - val
+    split_key: split
+rl:
+  prepare_only: true
+  artifact_dir: rl
+  runs_dir: runs
+  cache_dir: .cache
+  sft:
+    enabled: false
+    state_repr: encoder
+    encoder_name: roberta-large
+    epochs: 10
+    batch_size: 32
+    lr: 2e-4
+    amp: auto
+    run_macro_no_conv: true
+    run_conv_state: true
+    run_macro_with_conv: true
+    run_micro_flat: true
+    run_micro_independent: true
+    run_termination: true
+  offline_rl:
+    enabled: false
+    algorithm: "iql"
+    state_repr: encoder
+    epochs: 10
+    batch_size: 16
+    lr_actor: 3e-5
+    lr_critic: 1e-4
+    gamma: 0.99
+    lr_beta: 1e-4
+    bc_epochs: 1
+    expectile: 0.7
+    temperature: 3.0
+    entropy_alpha: 0.2
+    cql_alpha: 1.0
+    bc_weight: 1.0
+    run_macro_no_conv: true
+    run_macro_with_conv: true
+    run_micro_flat: true
+    run_micro_independent: true
+simulation:
+  output_dir: ""
+  validation_subset_path: ""
+  methods:
+    - prompting
+    # - flat_rl_encoder
+    # - hrl_encoder_sft
+    # - ProCoT
+    # - ICL-AIF 
+    # - IntegratedActionSpace 
+    # - prompt_reasoning
+    # - Random
+    # - flat_rl_latent_sft
+    # - hrl_latent_sft
+  user_simulator: topa
+  num_workers: 2
+  # seed_turns: 6
+  turns: 20
+  max_new_tokens: 64
+  resume: false
+  context_turns: -1
+  max_macro_turns: 5
+  max_sessions_per_user: 2
+  worker_progress: true
+  # metadata_keys: ["summary", "presenting conditions"]
+  extrinsic_reward:
+    reward_fn: 'topa.reward.p4g:reward_fn'
+    prompt_builder: ""
+    judge_system_prompt: ""
+    # judge_system_prompt: "You are a strict but fair evaluator. Evaluate only the system responses (ignore user messages). Return JSON only."
+    output_type: score
+    reward_key: reward
+    min_value: -1
+    max_value: 1
+    success_threshold: 1.0
+    success_fn: ''
+  latent_instruction_following:
+    instruction_mode: "prompt"   # prompt | kv_cache
+    router_layer_index: 10
+    rep_pooling: "last"          # last | mean
+    instruction_marker: "[[INSTRUCTION]]"
+    system_prefix_template: "{system_label}: "
+    user_prefix_template: "{user_label}: "
+    latent_max_new_tokens: 64
+  latent_policies:
+    root_dir: ""                 # optional override; defaults to <rl_root>/runs
+    flat_subdir: "flat"
+    macro_subdir: "macro"
+    micro_subdir: "micro"
+    termination_subdir: "termination"
+

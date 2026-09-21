@@ -1,0 +1,205 @@
+{
+  "static_dimensions": [
+    {
+      "dimension_name": "Diagnosis_and_Depression_Type",
+      "description": "A static categorical attribute reflecting the primary diagnostic category and subtype of depression or relevant comorbid disorders identified at the start of therapy.",
+      "options": [
+        "unipolar_nonpsychotic_depression",
+        "bipolar_depression",
+        "psychotic_depression",
+        "chronic_depression",
+        "recurrent_depression",
+        "single_episode_depression",
+        "subthreshold_depression",
+        "comorbid_anxiety",
+        "comorbid_personality_disorder",
+        "comorbid_medical_condition"
+      ]
+    },
+    {
+      "dimension_name": "Core_Beliefs_and_Schemas",
+      "description": "Enduring, broad, and deeply held beliefs about self, others, and the world that influence all aspects of cognition, emotion, and behavior.",
+      "options": [
+        "unlovable",
+        "incompetent",
+        "defective",
+        "dangerous_world",
+        "hopeless_future",
+        "worthless",
+        "responsible_for_bad",
+        "acceptable",
+        "capable"
+      ]
+    },
+    {
+      "dimension_name": "Personality_Features",
+      "description": "Stable personality trait clusters or features impacting therapy, including tendencies toward perfectionism, dependence, avoidance, or emotional instability.",
+      "options": [
+        "no_personality_disorder",
+        "avoidant",
+        "dependent",
+        "obsessive_compulsive",
+        "emotionally_unstable",
+        "paranoid",
+        "perfectionistic",
+        "none_specified"
+      ]
+    },
+    {
+      "dimension_name": "Cognitive_Style",
+      "description": "A default mode of processing information, indicating habitual patterns such as rumination, dichotomous thinking, attributional style, or emotional reasoning.",
+      "options": [
+        "ruminative",
+        "catastrophizing",
+        "all_or_nothing",
+        "personalizing",
+        "self-blaming",
+        "optimistic",
+        "balanced"
+      ]
+    },
+    {
+      "dimension_name": "Therapy_Attitude_and_Preferences",
+      "description": "Relatively fixed preferences and expectations regarding therapy modalities, openness to psychological vs. pharmacological treatment, and stance toward collaboration.",
+      "options": [
+        "prefers_psychotherapy",
+        "prefers_medication",
+        "ambivalent",
+        "reluctant",
+        "open_collaborator",
+        "skeptical"
+      ]
+    },
+    {
+      "dimension_name": "Demographics_and_Context",
+      "description": "Stable contextual factors such as age group, relationship status, employment, cultural or developmental context, and care setting, influencing engagement and accessibility.",
+      "options": [
+        "child",
+        "adolescent",
+        "adult",
+        "older_adult",
+        "inpatient",
+        "outpatient",
+        "group_therapy",
+        "individual_therapy",
+        "employed",
+        "unemployed",
+        "student",
+        "married",
+        "single"
+      ]
+    }
+  ],
+  "dynamic_dimensions": [
+    {
+      "dimension_name": "Mood_and_Affective_State",
+      "description": "A dynamic categorical state reflecting current mood and affective functioning, including both the presence and intensity of depressive, anxious, or other emotions.",
+      "options": [
+        "severely_depressed",
+        "moderately_depressed",
+        "mildly_depressed",
+        "euthymic",
+        "anxious",
+        "irritable",
+        "hopeful",
+        "ashamed",
+        "angry"
+      ],
+      "update_condition": "Changes in response to symptom fluctuations, session events, interventions, homework completion, or external life stressors."
+    },
+    {
+      "dimension_name": "Engagement_Level_in_Therapy",
+      "description": "A dynamic state indicating the degree of participation, collaboration, and investment in the therapy process.",
+      "options": [
+        "withdrawn",
+        "passive",
+        "minimal_participation",
+        "collaborator",
+        "active_engagement",
+        "resistant",
+        "noncompliant"
+      ],
+      "update_condition": "Can change with the quality of the therapeutic alliance, experience of progress/setbacks, personal motivation, or direct intervention by the therapist."
+    },
+    {
+      "dimension_name": "Cognitive_Distortion_Patterns",
+      "description": "Dynamic patterns representing the current intensity and variety of cognitive distortions or automatic negative thoughts displayed.",
+      "options": [
+        "pervasive_distortions",
+        "moderate_distortions",
+        "minimal_distortions",
+        "improved_reality_testing"
+      ],
+      "update_condition": "Changes as patient acquires and applies cognitive skills, as mood improves or worsens, or during exposure to relevant triggering situations."
+    },
+    {
+      "dimension_name": "Motivation_and_Readiness_to_Change",
+      "description": "A state denoting current willingness to engage in change-oriented tasks, experiment with new behaviors, and tolerate discomfort.",
+      "options": [
+        "precontemplative",
+        "ambivalent",
+        "contemplative",
+        "ready_for_change",
+        "actively_changing"
+      ],
+      "update_condition": "Shifts with patient insight, experience of success or failure, crisis moments, intervention efficacy, and positive reinforcement from therapy."
+    },
+    {
+      "dimension_name": "Behavioral_Activation_and_Avoidance",
+      "description": "Current level of engagement in adaptive activities versus avoidance or withdrawal behaviors.",
+      "options": [
+        "high_avoidance",
+        "moderate_avoidance",
+        "initiating_activities",
+        "active_behavioral_activation"
+      ],
+      "update_condition": "Evolves as a function of behavioral experiments, external stressors or accomplishments, and shifts in mood or environmental support."
+    },
+    {
+      "dimension_name": "Therapeutic_Alliance_and_Relational_Style",
+      "description": "Dynamic state reflecting the current quality of the therapeutic relationship, the patient's trust, responsiveness to feedback, and likelihood of expressing relational concerns.",
+      "options": [
+        "distrustful",
+        "guarded",
+        "ambivalent",
+        "open_and_trusting",
+        "ruptured",
+        "repaired"
+      ],
+      "update_condition": "Alters following alliance-building interventions, ruptures or repairs in session, therapist feedback, or personal disclosures."
+    },
+    {
+      "dimension_name": "Homework_Adherence_and_Skill_Practice",
+      "description": "Level of follow-through with therapeutic assignments, practice of CBT skills, and response to in-session troubleshooting.",
+      "options": [
+        "nonadherent",
+        "inconsistent",
+        "partial_adherence",
+        "fully_adherent"
+      ],
+      "update_condition": "Ranges with mood, perceived relevance or difficulty of tasks, engagement in therapy, and outcome success or obstacles encountered."
+    },
+    {
+      "dimension_name": "Self-Reflection_and_Insight",
+      "description": "Capacity for introspection, awareness of thoughts/feelings, and ability to identify cognitive-emotional links.",
+      "options": [
+        "limited_insight",
+        "emerging_awareness",
+        "growing_insight",
+        "high_self_reflection"
+      ],
+      "update_condition": "Improves with Socratic questioning, repeated self-monitoring, and feedback from therapist; may decrease with intense emotion or resistance."
+    },
+    {
+      "dimension_name": "Relapse_Risk_and_Prevention_Readiness",
+      "description": "Current risk for symptom relapse and level of preparedness to employ prevention strategies independently.",
+      "options": [
+        "high_risk_low_preparedness",
+        "high_risk_moderate_preparedness",
+        "moderate_risk_high_preparedness",
+        "low_risk_high_preparedness"
+      ],
+      "update_condition": "Modifies with symptom stability, skill mastery, successful practice of relapse prevention plans, and response to life events or therapy termination."
+    }
+  ]
+}

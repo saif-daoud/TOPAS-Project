@@ -1,0 +1,416 @@
+[
+  {
+    "negative_action": "Rigid protocol application",
+    "description": "Strictly following standardized procedures without adapting to the patient's context.",
+    "risk": "Reduces therapy effectiveness, overlooks individual needs, and may harm therapeutic alliance.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Focusing solely on behaviour change",
+    "description": "Targeting behaviour modifications without addressing underlying cognitive or emotional factors.",
+    "risk": "Prevents meaningful cognitive change, limits treatment efficacy.",
+    "confidence_score": 0.94
+  },
+  {
+    "negative_action": "Exclusive reliance on verbal interventions",
+    "description": "Using only verbal strategies when experiential or behavioural approaches are needed.",
+    "risk": "Limits depth of change, reduces learning through experience.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Ignoring collaborative relationship",
+    "description": "Neglecting the collaborative, empathic nature of the therapeutic alliance.",
+    "risk": "Damages trust, reduces treatment engagement and effectiveness.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Reinforcing safety behaviors",
+    "description": "Allowing or encouraging safety behaviors during behavioral experiments.",
+    "risk": "Undermines cognitive change and maintains maladaptive patterns.",
+    "confidence_score": 0.96
+  },
+  {
+    "negative_action": "Making assumptions about beliefs/readiness",
+    "description": "Assuming patient beliefs or readiness for change without collaborative exploration.",
+    "risk": "Leads to resistance, reduces efficacy of interventions.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Neglecting planning and reflection",
+    "description": "Skipping steps of planning, observation, or reflection during experiments.",
+    "risk": "Limits learning, reduces quality of therapeutic outcomes.",
+    "confidence_score": 0.91
+  },
+  {
+    "negative_action": "Uncontrolled or ambiguous experiment design",
+    "description": "Implementing experimental designs without clear parameters or controls.",
+    "risk": "Confounds interpretation of results, may mislead therapy direction.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Coercing or rushing patients",
+    "description": "Pressuring patients into experiments they do not understand or accept.",
+    "risk": "Creates distress, damages trust, increases dropout risk.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Overlooking non-verbal distress cues",
+    "description": "Missing subtle signs of anxiety, reluctance, or misunderstanding.",
+    "risk": "Reduces patient safety and engagement, can escalate distress.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Planning overly challenging or trivial experiments",
+    "description": "Designing tasks that are too difficult or insignificant for the patient.",
+    "risk": "Overwhelm or loss of motivation, impedes progress.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Breaching confidentiality/professional boundaries",
+    "description": "Disregarding boundaries and privacy during in vivo or other experiments.",
+    "risk": "Damages therapeutic alliance and may have legal repercussions.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Neglecting physical health risks",
+    "description": "Ignoring medical safety or not obtaining clearance when needed.",
+    "risk": "Endangers patient physical health.",
+    "confidence_score": 0.96
+  },
+  {
+    "negative_action": "Dismissing experiment failures",
+    "description": "Treating setbacks as demoralizing rather than learning opportunities.",
+    "risk": "Increases patient discouragement and decreases engagement.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Assuming one experiment is sufficient",
+    "description": "Expecting entrenched beliefs to change with a single experiment.",
+    "risk": "Limits meaningful change, reduces patient progress.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Neglecting cultural/social context",
+    "description": "Disregarding the influence of cultural and social background.",
+    "risk": "Can lead to inappropriate interventions, undermines rapport.",
+    "confidence_score": 0.94
+  },
+  {
+    "negative_action": "Disregarding patient autonomy",
+    "description": "Not allowing patient input or choice in planning experiments.",
+    "risk": "Reduces engagement, fosters resistance.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Giving excessive advance warning or surprise exposure",
+    "description": "Over-explaining or suddenly exposing patients to traumatic material without preparation.",
+    "risk": "Heightens anxiety or trauma, may cause drop-out.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Inducing physical symptoms in at-risk patients",
+    "description": "Using methods like hyperventilation with patients who have medical contraindications.",
+    "risk": "Triggers physical complications (e.g., for pregnancy, asthma, epilepsy, cardiac), endangering health.",
+    "confidence_score": 0.99
+  },
+  {
+    "negative_action": "Withholding rationale",
+    "description": "Not explaining the purpose behind interventions to the patient.",
+    "risk": "Undermines trust and therapeutic engagement.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Forcing exposure beyond readiness",
+    "description": "Pushing patients into exposure tasks when they are not ready or do not consent.",
+    "risk": "Increases distress, harms therapeutic alliance, may cause trauma.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Rushing debriefing",
+    "description": "Not providing adequate time for reflection after behavioral experiments.",
+    "risk": "Impairs integration of learning and can heighten unresolved distress.",
+    "confidence_score": 0.91
+  },
+  {
+    "negative_action": "Minimizing patient distress",
+    "description": "Underestimating or disregarding how distressed a patient is.",
+    "risk": "Alienates the patient and undermines therapy progress.",
+    "confidence_score": 0.96
+  },
+  {
+    "negative_action": "Arguing about symptom origins",
+    "description": "Debating with patients whether symptoms are physical or psychological.",
+    "risk": "Damages rapport, increases defensiveness and resistance.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Prematurely challenging beliefs or guided discovery",
+    "description": "Attempting to change beliefs or use guided discovery before establishing rapport.",
+    "risk": "Reduces trust, increases resistance and dropout risk.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Polarizing cause discussion",
+    "description": "Focusing discussion exclusively on one possible cause for symptoms.",
+    "risk": "Increases patient defensiveness, ignores complexity.",
+    "confidence_score": 0.91
+  },
+  {
+    "negative_action": "Reinforcing reassurance-seeking",
+    "description": "Encouraging or teaching reassurance-seeking behaviours.",
+    "risk": "Maintains maladaptive patterns, impedes recovery.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Interpreting anxiety sensations without clarifying",
+    "description": "Treating normal anxiety sensations as confirmation of beliefs without explanation.",
+    "risk": "May accidentally reinforce maladaptive beliefs.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Attempting high-risk experiments in unsafe situations",
+    "description": "Conducting risky behavioral experiments when there is doubt about ego-dystonic thoughts or a history of actual harm.",
+    "risk": "Could provoke real harm or distress; requires expert consultation.",
+    "confidence_score": 0.99
+  },
+  {
+    "negative_action": "Misdiagnosing obsessional thoughts",
+    "description": "Confusing obsessional thoughts with dangerous impulses without proper assessment.",
+    "risk": "May cause anxiety and incorrect treatment; fail to address true problem.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Failing to distinguish OCD from other conditions",
+    "description": "Not differentiating OCD from post-natal depression or psychosis.",
+    "risk": "Leads to inappropriate interventions and may endanger patient.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Overstructuring behavioral experiments",
+    "description": "Structuring interventions so rigidly that they foster patient inflexibility.",
+    "risk": "May create or exacerbate rigidity and anxiety.",
+    "confidence_score": 0.91
+  },
+  {
+    "negative_action": "Neglecting comorbid depression/hopelessness",
+    "description": "Failing to address other mood or psychiatric issues alongside the primary problem.",
+    "risk": "Limits efficacy, increases risk of poor outcomes.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Permitting distraction as avoidance",
+    "description": "Allowing distraction strategies to replace exposure or meaningful processing.",
+    "risk": "Maintains maladaptive avoidance, reduces progress.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Forcing rapid or overwhelming exposure",
+    "description": "Exposure exercises that are too intense or rushed before sufficient trust is built.",
+    "risk": "Causes excessive anxiety, damages relationship, e.g., in social anxiety.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Colluding with avoidance or safety behaviours",
+    "description": "Supporting patient avoidance or safety strategies by therapist action or structure.",
+    "risk": "Prevents change, reinforces problems.",
+    "confidence_score": 0.96
+  },
+  {
+    "negative_action": "Ignoring cultural/contextual differences",
+    "description": "Not considering unique presentation of issues related to social or cultural context.",
+    "risk": "Misapplies treatment, may alienate patients.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Neglecting clear goals and testing criteria",
+    "description": "Lack of specific aims or measurements for interventions.",
+    "risk": "Leads to confusion, poor learning and weak outcomes.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Undermining therapeutic pacing and relapse prevention",
+    "description": "Rushing interventions or ignoring need for sustained progress monitoring.",
+    "risk": "Increases risk of relapse or destabilization, particularly in bipolar disorder.",
+    "confidence_score": 0.94
+  },
+  {
+    "negative_action": "Trivializing insomnia",
+    "description": "Treating insomnia as a minor symptom rather than a disorder.",
+    "risk": "May underestimate seriousness and miss appropriate interventions.",
+    "confidence_score": 0.91
+  },
+  {
+    "negative_action": "Scheduling sleep restriction prior to safety-critical activities",
+    "description": "Arranging sleep reduction when patient needs to drive or operate machinery.",
+    "risk": "Increases risk of accidents and serious harm.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Enforcing rigid sleep routines",
+    "description": "Mandating a strict sleep duration without accounting for individual needs.",
+    "risk": "May worsen sleep problems or cause exhaustion.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Invalidating patient distress",
+    "description": "Minimizing or disregarding the emotional pain and impact on the patient.",
+    "risk": "Can reduce engagement and trust in therapy.",
+    "confidence_score": 0.96
+  },
+  {
+    "negative_action": "Offering risky or unrealistic behavioral experiments",
+    "description": "Suggesting activities that are physically risky or contrary to medical advice.",
+    "risk": "Endangers patient safety; may damage trust.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Neglecting adaptation for physical restrictions",
+    "description": "Failing to adjust interventions given patient restrictions or disability.",
+    "risk": "Limits effectiveness, may cause harm or overwhelm.",
+    "confidence_score": 0.94
+  },
+  {
+    "negative_action": "Making guarantees about symptom elimination",
+    "description": "Promising patients quick or complete relief from symptoms.",
+    "risk": "May create disappointment, demoralization, or undermine trust.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Challenging accurate appraisals",
+    "description": "Disputing valid negative ideas about adversity or disability.",
+    "risk": "Can invalidate experience and reduce therapeutic credibility.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Minimizing real risks or distress",
+    "description": "Downplaying actual dangers or emotional suffering.",
+    "risk": "Harms rapport and may fail to protect patient.",
+    "confidence_score": 0.96
+  },
+  {
+    "negative_action": "Avoiding medical consultation when necessary",
+    "description": "Neglecting to involve medical professionals for relevant health concerns.",
+    "risk": "Endangers patient safety and may cause harm.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Excessive open-ended questioning with initiation/abstract thought difficulty",
+    "description": "Using open-ended questions for ABI patients with trouble initiating or abstract reasoning.",
+    "risk": "May frustrate or overwhelm patient, impede communication.",
+    "confidence_score": 0.94
+  },
+  {
+    "negative_action": "Bombarding patients with Socratic questioning",
+    "description": "Overwhelming patients with too many probing questions.",
+    "risk": "Feels like an inquisition, increases resistance and distress.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Challenging emotional avoidance too directly",
+    "description": "Confronting patients on emotional avoidance before building trust.",
+    "risk": "Increases resistance, withdrawal, or emotional overwhelm.",
+    "confidence_score": 0.94
+  },
+  {
+    "negative_action": "Neglecting supervision/reflective practice",
+    "description": "Failing to seek supervision when therapist's own biases interfere.",
+    "risk": "Enables errors, reduces quality and safety of therapy.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Minimizing risk of death/self-harm",
+    "description": "Failing to monitor or assess suicide/self-harm risk continuously.",
+    "risk": "Patient safety threatened; risk of harm or death.",
+    "confidence_score": 0.99
+  },
+  {
+    "negative_action": "Insufficient preparation for experiments",
+    "description": "Failing to adequately prepare for behavioral interventions.",
+    "risk": "May cause perceived failure, demotivating fragile patients.",
+    "confidence_score": 0.94
+  },
+  {
+    "negative_action": "Imposing punitive contracts",
+    "description": "Encouraging contracts that are experienced as punitive or harm self-esteem.",
+    "risk": "May worsen self-esteem, increase shame or disengagement.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Oversimplifying complex cases",
+    "description": "Reducing multifaceted presentations to simplistic explanations.",
+    "risk": "Misses critical issues, impedes progress.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Neglecting emotional safety around trauma/vulnerability",
+    "description": "Ignoring need for emotional safety before disclosure or sensitive experiments.",
+    "risk": "Risk of retraumatization or disengagement.",
+    "confidence_score": 0.96
+  },
+  {
+    "negative_action": "Skipping debriefing after emotionally charged experiments",
+    "description": "Not analyzing or reflecting after intense role-play or tasks.",
+    "risk": "Disrupts learning, may leave patient distressed.",
+    "confidence_score": 0.91
+  },
+  {
+    "negative_action": "Treating negative self-beliefs only with verbal interventions",
+    "description": "Relying solely on cognitive/verbal work for entrenched beliefs.",
+    "risk": "Limits effectiveness; behavioral and experiential change is necessary.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Designing tangential or irrelevant experiments",
+    "description": "Testing beliefs or behaviors that are not central or impactful.",
+    "risk": "Wastes time, reduces motivation and engagement.",
+    "confidence_score": 0.91
+  },
+  {
+    "negative_action": "Giving excessive weight to rational arguments",
+    "description": "Focusing on rationality over emotional or experiential learning.",
+    "risk": "Limits the depth of change, misses emotional processing.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Crossing professional boundaries",
+    "description": "Inappropriately moving beyond therapist role without clear justification.",
+    "risk": "Risks damage to therapeutic alliance; possible ethical violations.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Imposing therapist perspectives or dismissing patient experience",
+    "description": "Discounting or overruling the patient's lived experience.",
+    "risk": "Undermines trust and effect of interventions.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Ignoring environmental/contextual factors",
+    "description": "Neglecting external influences on self-esteem and learning.",
+    "risk": "Limits generalization, reduces impact of therapy.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Overgeneralization of experimental outcomes",
+    "description": "Assuming findings apply broadly across settings and contexts.",
+    "risk": "Leads to inaccurate conclusions and poor therapeutic plans.",
+    "confidence_score": 0.91
+  },
+  {
+    "negative_action": "Neglecting patient autonomy and control",
+    "description": "Failing to prioritize patient choice, especially during sensitive work.",
+    "risk": "Decreases safety, increases resistance and disengagement.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Rushing or abandoning therapy without impact",
+    "description": "Stopping behavioral experiments prematurely when effects are not immediate.",
+    "risk": "Misses gradual progress, risks reinforcing hopelessness.",
+    "confidence_score": 0.91
+  },
+  {
+    "negative_action": "Invalidating deeply held beliefs without support",
+    "description": "Forcing a challenge to core beliefs when patient resources or support are lacking.",
+    "risk": "Increases distress, may damage recovery.",
+    "confidence_score": 0.94
+  }
+]

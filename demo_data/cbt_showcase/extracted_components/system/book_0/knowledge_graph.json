@@ -1,0 +1,323 @@
+{
+  "nodes": [
+    {
+      "type": "Patient",
+      "description": "Root node representing the individual receiving therapy."
+    },
+    {
+      "type": "Presenting Problems History",
+      "description": "Records of patient’s history, presenting complaints, and relevant contextual information."
+    },
+    {
+      "type": "Cognitive Formulation",
+      "description": "Individualized models: hypotheses about maintaining processes, target thoughts, assumptions, and their evolution."
+    },
+    {
+      "type": "Core Beliefs and Schemas",
+      "description": "Key automatic thoughts, core beliefs, conditional assumptions, and higher-order schemas including metacognitive beliefs."
+    },
+    {
+      "type": "Behavioral Experiment History",
+      "description": "History of completed behavioral experiments: predictions, actions taken, outcomes, and reflections/learning."
+    },
+    {
+      "type": "Safety Behaviors",
+      "description": "Catalogue of safety and avoidance behaviors, their frequency, context, and changes over time."
+    },
+    {
+      "type": "Emotional Responses",
+      "description": "Patterns and evolution of primary and secondary emotional, behavioral, and physiological responses to events and interventions."
+    },
+    {
+      "type": "Therapeutic Relationship History",
+      "description": "Progression of collaboration, rapport, boundary management, and interpersonal schema testing within therapy."
+    },
+    {
+      "type": "Progression of Change",
+      "description": "Longitudinal cognitive, affective, behavioral changes, skill acquisition, degree of belief change, and generalization into everyday life."
+    },
+    {
+      "type": "Challenges and Difficulties",
+      "description": "Encountered barriers, triggers, implementation issues, disclosure difficulties or shame."
+    },
+    {
+      "type": "Comorbid Diagnoses",
+      "description": "Mental and physical health disorders existing alongside presenting problem, including symptom changes and their interrelations."
+    },
+    {
+      "type": "Support System and Social Network",
+      "description": "Trusted companions, family relationships, resources, and supportive interpersonal/social connections."
+    },
+    {
+      "type": "Medical History",
+      "description": "Relevant background including physical health risks, medical investigations, disabilities, and medication adherence."
+    },
+    {
+      "type": "Functional Outcomes",
+      "description": "Patient’s functioning in social, occupational, academic, and daily living domains."
+    },
+    {
+      "type": "Cultural and Developmental Factors",
+      "description": "Sociocultural, developmental, language-based, and contextual influences on cognition, engagement, and expectations."
+    },
+    {
+      "type": "Historical Experiences and Trauma",
+      "description": "History of formative experiences, losses, trauma (including abuse, neglect, bullying), and associated memories and appraisals."
+    },
+    {
+      "type": "Mood and Anxiety Features",
+      "description": "Depression, emotional numbness, PTSD, OCD, bipolar, phobias, social anxiety, and related symptom trajectories."
+    },
+    {
+      "type": "Self-concept and Identity",
+      "description": "Patient’s self-esteem, shame, defectiveness, self-appraisal, and evolving sense of identity."
+    },
+    {
+      "type": "Coping Strategies",
+      "description": "Catalog of adaptive and maladaptive coping strategies, help-seeking/assertion, and rescue/avoidance approaches."
+    },
+    {
+      "type": "Relapse Prevention",
+      "description": "Relapse history, management plans, early warning signals, prevention strategies, and vulnerabilities."
+    },
+    {
+      "type": "Interpersonal Patterns",
+      "description": "Patterns and styles of interpersonal behavior across relationships and contexts (e.g., assertiveness, withdrawal, hostility)."
+    },
+    {
+      "type": "Self-Injurious Behavior",
+      "description": "Functions, history, frequency, and progression of self-injury and associated facilitating beliefs."
+    },
+    {
+      "type": "Personality Disorder Features",
+      "description": "Unique cognitive themes, maintaining factors, and relevant social context."
+    },
+    {
+      "type": "Sleep Patterns and Insomnia Features",
+      "description": "Latency, duration, quality of sleep, maladaptive sleep-related beliefs and behaviors, and impact on functioning."
+    },
+    {
+      "type": "Eating Disorder Features",
+      "description": "Types/history of disordered eating, compensatory behaviors, beliefs about food/weight/shape/control, perfectionism, and motivation to change."
+    },
+    {
+      "type": "Physical Illness/Disability",
+      "description": "History/nature of illness or injury, adaptations, identity shift, and coping in and out of therapy."
+    },
+    {
+      "type": "ABI/Neuropsychological Assessments",
+      "description": "Records of brain injury trajectory, assessments, feedback from external professionals, and social/occupational functioning."
+    },
+    {
+      "type": "Therapy Interventions and Reflections",
+      "description": "Patient’s responses and reflections on diverse cognitive interventions across sessions."
+    }
+  ],
+  "edges": [
+    {
+      "source": "Patient",
+      "target": "Presenting Problems History",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Cognitive Formulation",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Core Beliefs and Schemas",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Behavioral Experiment History",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Safety Behaviors",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Emotional Responses",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Therapeutic Relationship History",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Progression of Change",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Challenges and Difficulties",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Comorbid Diagnoses",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Support System and Social Network",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Medical History",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Functional Outcomes",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Cultural and Developmental Factors",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Historical Experiences and Trauma",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Mood and Anxiety Features",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Self-concept and Identity",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Coping Strategies",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Relapse Prevention",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Interpersonal Patterns",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Self-Injurious Behavior",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Personality Disorder Features",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Sleep Patterns and Insomnia Features",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Eating Disorder Features",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Physical Illness/Disability",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "ABI/Neuropsychological Assessments",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Therapy Interventions and Reflections",
+      "relation": "has"
+    },
+    {
+      "source": "Core Beliefs and Schemas",
+      "target": "Cognitive Formulation",
+      "relation": "inform"
+    },
+    {
+      "source": "Behavioral Experiment History",
+      "target": "Progression of Change",
+      "relation": "shapes"
+    },
+    {
+      "source": "Safety Behaviors",
+      "target": "Challenges and Difficulties",
+      "relation": "reflects"
+    },
+    {
+      "source": "Comorbid Diagnoses",
+      "target": "Mood and Anxiety Features",
+      "relation": "includes"
+    },
+    {
+      "source": "Functional Outcomes",
+      "target": "Progression of Change",
+      "relation": "demonstrates"
+    },
+    {
+      "source": "Therapeutic Relationship History",
+      "target": "Interpersonal Patterns",
+      "relation": "influences"
+    },
+    {
+      "source": "Eating Disorder Features",
+      "target": "Self-concept and Identity",
+      "relation": "affects"
+    },
+    {
+      "source": "Physical Illness/Disability",
+      "target": "Coping Strategies",
+      "relation": "modifies"
+    },
+    {
+      "source": "Historical Experiences and Trauma",
+      "target": "Core Beliefs and Schemas",
+      "relation": "shape"
+    },
+    {
+      "source": "Medical History",
+      "target": "Physical Illness/Disability",
+      "relation": "details"
+    },
+    {
+      "source": "Support System and Social Network",
+      "target": "Interpersonal Patterns",
+      "relation": "influences"
+    },
+    {
+      "source": "Therapy Interventions and Reflections",
+      "target": "Progression of Change",
+      "relation": "tracks"
+    },
+    {
+      "source": "Coping Strategies",
+      "target": "Relapse Prevention",
+      "relation": "contribute_to"
+    },
+    {
+      "source": "Challenges and Difficulties",
+      "target": "Therapy Interventions and Reflections",
+      "relation": "inform"
+    }
+  ]
+}

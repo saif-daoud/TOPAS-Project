@@ -1,0 +1,12 @@
+data/
+!data/.gitkeep
+backend/.env
+.wrangler/
+**/__pycache__/
+*.py[cod]
+backend/.pytest_cache/
+frontend/node_modules/
+frontend/dist/
+frontend/*.log
+screenshots/
+screenshots-therapy-agent/

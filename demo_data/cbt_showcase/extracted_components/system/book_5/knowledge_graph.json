@@ -1,0 +1,326 @@
+{
+  "nodes": [
+    {
+      "type": "Patient",
+      "description": "Root node representing the patient whose long-term therapy dimensions are being tracked."
+    },
+    {
+      "type": "Mood History",
+      "description": "Longitudinal tracking of mood ratings, types, intensity, frequency, duration, baselines, trends, and response to interventions."
+    },
+    {
+      "type": "Symptoms History",
+      "description": "History of symptom occurrence, severity, progression, including depression, anxiety, anger, guilt, shame, etc., with standardized inventory scores."
+    },
+    {
+      "type": "Core Beliefs",
+      "description": "Enduring beliefs about self, others, and the world; their evolution, strength, supporting/challenging evidence, and related shifts."
+    },
+    {
+      "type": "Automatic Thoughts",
+      "description": "Catalog of recurring and hot automatic thoughts, their context, emotional impact, and believability ratings across sessions."
+    },
+    {
+      "type": "Cognitive Distortions",
+      "description": "Patterns of unhelpful thinking styles or interpretation biases unique to the patient and their evolution over time."
+    },
+    {
+      "type": "Situational Triggers",
+      "description": "Typical situations, events, or environmental contexts that consistently evoke strong moods or automatic thoughts."
+    },
+    {
+      "type": "Behavior Patterns",
+      "description": "Characteristic behaviors including avoidance, engagement, safety behaviors, withdrawal, and approach, tracked over time."
+    },
+    {
+      "type": "Coping Strategies",
+      "description": "Adaptive and maladaptive strategies the patient uses for regulation, including skill use, withdrawal, substance use, etc."
+    },
+    {
+      "type": "CBT Skill Acquisition",
+      "description": "Progress in learning, practicing, and mastering cognitive-behavioral skills (e.g., Thought Records, activity scheduling, exposure) and movement from guided to independent use."
+    },
+    {
+      "type": "Interventions & Behavioral Experiments",
+      "description": "List of interventions and behavioral experiments attempted, predictions, outcomes, effectiveness, and sequence history."
+    },
+    {
+      "type": "Action Plans",
+      "description": "History of planned and completed action steps, obstacles encountered, and progress/resolution for each."
+    },
+    {
+      "type": "Relapse & Warning Signs",
+      "description": "Episodes of relapse (e.g., symptom return, substance use), warning signs, high-risk situations, and response/prevention strategies."
+    },
+    {
+      "type": "Significant Life Events",
+      "description": "Notable past or recent events (losses, trauma, transitions) shaping patient’s beliefs, schemas, or emotional responses."
+    },
+    {
+      "type": "Family & Relationships",
+      "description": "Pattern of relationships/dynamics, supports, sources of criticism or abuse, and impact on patient’s progress."
+    },
+    {
+      "type": "Values, Goals, & Meaning",
+      "description": "Evolving personal goals, value-driven intentions, sources of meaning/pride, and goal progression/achievement."
+    },
+    {
+      "type": "Motivation & Adherence",
+      "description": "Patient’s engagement in therapy, motivational barriers/facilitators, treatment adherence, and consistency with exercises/homework."
+    },
+    {
+      "type": "Forgiveness & Acceptance",
+      "description": "Development and progress in self-forgiveness, forgiveness of others, self-acceptance, and associated emotional shifts."
+    },
+    {
+      "type": "Strengths & Supports",
+      "description": "Catalog of patient’s identified strengths, positive qualities, supports, successful coping, and evidence for self-efficacy."
+    },
+    {
+      "type": "Physical Reactions",
+      "description": "Records of typical physical responses to emotional distress (e.g., agitation, withdrawal, somatic symptoms)."
+    },
+    {
+      "type": "Therapy Response",
+      "description": "Patient’s responses to prior interventions, skill training, acceptability, and learning progress."
+    },
+    {
+      "type": "Medication & Treatment",
+      "description": "History of medication trials, side effects, and adherence, and any adjunct treatments."
+    },
+    {
+      "type": "Gratitude/Kindness/Forgiveness Exercises",
+      "description": "History and cumulative impact of completed gratitude journals, acts of kindness, forgiveness exercises, and noted emotional effects."
+    },
+    {
+      "type": "Activity Patterns",
+      "description": "Tracking of activities that produce pleasure/mastery, engagement/avoidance patterns, activity scheduling, enjoyment and accomplishment ratings."
+    },
+    {
+      "type": "Assumptions & Alternative Thoughts",
+      "description": "Underlying assumptions, balanced/adaptive alternatives tested, their derivation and effect on symptoms/moods."
+    }
+  ],
+  "edges": [
+    {
+      "source": "Patient",
+      "target": "Mood History",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Symptoms History",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Core Beliefs",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Automatic Thoughts",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Cognitive Distortions",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Situational Triggers",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Behavior Patterns",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Coping Strategies",
+      "relation": "uses"
+    },
+    {
+      "source": "Patient",
+      "target": "CBT Skill Acquisition",
+      "relation": "shows"
+    },
+    {
+      "source": "Patient",
+      "target": "Interventions & Behavioral Experiments",
+      "relation": "undergoes"
+    },
+    {
+      "source": "Patient",
+      "target": "Action Plans",
+      "relation": "follows"
+    },
+    {
+      "source": "Patient",
+      "target": "Relapse & Warning Signs",
+      "relation": "experiences"
+    },
+    {
+      "source": "Patient",
+      "target": "Significant Life Events",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Family & Relationships",
+      "relation": "influenced by"
+    },
+    {
+      "source": "Patient",
+      "target": "Values, Goals, & Meaning",
+      "relation": "pursues"
+    },
+    {
+      "source": "Patient",
+      "target": "Motivation & Adherence",
+      "relation": "exhibits"
+    },
+    {
+      "source": "Patient",
+      "target": "Forgiveness & Acceptance",
+      "relation": "develops"
+    },
+    {
+      "source": "Patient",
+      "target": "Strengths & Supports",
+      "relation": "possesses"
+    },
+    {
+      "source": "Patient",
+      "target": "Physical Reactions",
+      "relation": "shows"
+    },
+    {
+      "source": "Patient",
+      "target": "Therapy Response",
+      "relation": "demonstrates"
+    },
+    {
+      "source": "Patient",
+      "target": "Medication & Treatment",
+      "relation": "receives"
+    },
+    {
+      "source": "Patient",
+      "target": "Gratitude/Kindness/Forgiveness Exercises",
+      "relation": "completes"
+    },
+    {
+      "source": "Patient",
+      "target": "Activity Patterns",
+      "relation": "engages in"
+    },
+    {
+      "source": "Patient",
+      "target": "Assumptions & Alternative Thoughts",
+      "relation": "endorses"
+    },
+    {
+      "source": "Core Beliefs",
+      "target": "Automatic Thoughts",
+      "relation": "influences"
+    },
+    {
+      "source": "Automatic Thoughts",
+      "target": "Mood History",
+      "relation": "trigger"
+    },
+    {
+      "source": "Automatic Thoughts",
+      "target": "Cognitive Distortions",
+      "relation": "display"
+    },
+    {
+      "source": "Situational Triggers",
+      "target": "Automatic Thoughts",
+      "relation": "provoke"
+    },
+    {
+      "source": "Situational Triggers",
+      "target": "Mood History",
+      "relation": "affect"
+    },
+    {
+      "source": "Interventions & Behavioral Experiments",
+      "target": "Core Beliefs",
+      "relation": "challenge"
+    },
+    {
+      "source": "CBT Skill Acquisition",
+      "target": "Action Plans",
+      "relation": "supports"
+    },
+    {
+      "source": "Action Plans",
+      "target": "Behavior Patterns",
+      "relation": "modify"
+    },
+    {
+      "source": "Relapse & Warning Signs",
+      "target": "Behavior Patterns",
+      "relation": "predict"
+    },
+    {
+      "source": "Family & Relationships",
+      "target": "Core Beliefs",
+      "relation": "shape"
+    },
+    {
+      "source": "Values, Goals, & Meaning",
+      "target": "Motivation & Adherence",
+      "relation": "influence"
+    },
+    {
+      "source": "Significant Life Events",
+      "target": "Core Beliefs",
+      "relation": "impact"
+    },
+    {
+      "source": "Forgiveness & Acceptance",
+      "target": "Mood History",
+      "relation": "improve"
+    },
+    {
+      "source": "Strengths & Supports",
+      "target": "Coping Strategies",
+      "relation": "bolster"
+    },
+    {
+      "source": "Cognitive Distortions",
+      "target": "Behavior Patterns",
+      "relation": "lead to"
+    },
+    {
+      "source": "Physical Reactions",
+      "target": "Mood History",
+      "relation": "reflect"
+    },
+    {
+      "source": "Therapy Response",
+      "target": "CBT Skill Acquisition",
+      "relation": "indicates"
+    },
+    {
+      "source": "Medication & Treatment",
+      "target": "Mood History",
+      "relation": "modifies"
+    },
+    {
+      "source": "Activity Patterns",
+      "target": "Mood History",
+      "relation": "correlate with"
+    },
+    {
+      "source": "Assumptions & Alternative Thoughts",
+      "target": "Cognitive Distortions",
+      "relation": "address"
+    }
+  ]
+}

@@ -1,0 +1,746 @@
+[
+  {
+    "negative_action": "Minimizing or invalidating patient feelings",
+    "description": "Dismissing or downplaying the patient’s emotional experience.",
+    "risk": "Can harm therapeutic alliance and worsen emotional distress.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Reinforcing extreme or global negative meanings",
+    "description": "Supporting self-defeating or overly broad negative interpretations.",
+    "risk": "Entrenches maladaptive beliefs and impedes cognitive restructuring.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Focusing only on root causes",
+    "description": "Neglecting maintenance factors and current coping strategies by fixating solely on origins.",
+    "risk": "Reduces effectiveness of therapy and prevents progress.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Encouraging avoidance or withdrawal behaviors",
+    "description": "Supporting escape or avoidance from difficult situations.",
+    "risk": "Increases symptom severity and maintains maladaptive patterns.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Assigning blame or causing shame for normal emotions",
+    "description": "Making the patient feel guilty for natural emotional reactions.",
+    "risk": "Leads to increased shame, avoidance, and reduced self-efficacy.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Endorsing cognitive distortions as accurate",
+    "description": "Agreeing with patient’s distorted thinking without challenge.",
+    "risk": "Strengthens dysfunctional thoughts and prevents cognitive change.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Ignoring alternative explanations",
+    "description": "Overlooking other possibilities when patient presents negative assumptions.",
+    "risk": "Limits cognitive flexibility and reinforces negative biases.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Failing to challenge all-or-nothing language",
+    "description": "Accepting absolute or extreme negative labels without prompting alternatives.",
+    "risk": "Maintains rigid and maladaptive thinking.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Dismissal or minimization of experience",
+    "description": "Neglecting to explore and validate the patient’s experience.",
+    "risk": "Damages trust and impedes emotional processing.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Assuming feelings are facts",
+    "description": "Treating emotions as literal truths.",
+    "risk": "Promotes misinterpretation of reality and sustains emotional distress.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Accepting mental filtering without challenging",
+    "description": "Allowing negative information filtering to go unexamined.",
+    "risk": "Reinforces negative bias and prevents balanced thinking.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Guaranteeing rigid worldview",
+    "description": "Supporting inflexible or demand-based perspectives.",
+    "risk": "Limits adaptability and maintains suffering.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Directing blame or personalization without external consideration",
+    "description": "Focusing blame solely on the patient without acknowledging external factors.",
+    "risk": "Increases shame and sense of responsibility for uncontrollable issues.",
+    "confidence_score": 0.96
+  },
+  {
+    "negative_action": "Ignoring positive feedback or progress",
+    "description": "Not recognizing patient achievements and improvements.",
+    "risk": "Decreases motivation and hope.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Rushing through thought error correction",
+    "description": "Quickly touching on cognitive errors without ensuring patient understanding.",
+    "risk": "Reduces effectiveness and leaves errors unchallenged.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Excessive challenging of intrusive thoughts in OCD/anxiety",
+    "description": "Overly confronting intrusive thoughts in OCD, health anxiety, or BDD.",
+    "risk": "Can reinforce compulsive/challenging cycle and worsen symptoms.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Offering superficial challenges",
+    "description": "Providing quick, glib answers to cognitive challenges.",
+    "risk": "Undermines depth of cognitive restructuring and learning.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Treating negative automatic thoughts as facts",
+    "description": "Not questioning or evaluating the accuracy of negative thoughts.",
+    "risk": "Prevents change and perpetuates maladaptive beliefs.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Overlooking skill-building opportunities",
+    "description": "Neglecting regular practice with ABC forms or cognitive exercises.",
+    "risk": "Limits acquisition and consolidation of skills.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Focusing only on events",
+    "description": "Disregarding emotions and cognition during review of events.",
+    "risk": "Limits understanding and integration.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Allowing safety behaviors during experiments",
+    "description": "Permitting subtle safety strategies that contaminate behavioral experiments.",
+    "risk": "Undermines validity of therapeutic learning.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Biasing patient interpretation of results",
+    "description": "Allowing cognitive distortions to influence experiment outcome assessment.",
+    "risk": "Reinforces maladaptive thinking.",
+    "confidence_score": 0.96
+  },
+  {
+    "negative_action": "Devising overwhelming or meaningless experiments",
+    "description": "Planning behavioral experiments that are too difficult or not personally meaningful.",
+    "risk": "May lead to avoidance, discouragement, or non-learning.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Poorly planned or vague experiments",
+    "description": "Utilizing non-specific or ambiguous therapeutic activities.",
+    "risk": "Generates unhelpful or misleading evidence.",
+    "confidence_score": 0.94
+  },
+  {
+    "negative_action": "Ignoring consolidation and follow-up",
+    "description": "Not reviewing or planning after experiments.",
+    "risk": "Lessons are not integrated and progress is stunted.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Assuming negative predictions are always disproved",
+    "description": "Believing every exposure will immediately counter patient’s fears.",
+    "risk": "Patient learning is undermined and authentic processing is lost.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Reinforcing thought suppression or avoidance",
+    "description": "Encouraging the patient to suppress, avoid, or eliminate intrusive thoughts.",
+    "risk": "Increases distress and maintains pathological patterns.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Providing excessive reassurance about intrusive thoughts",
+    "description": "Frequently assuring safety regarding unwanted thoughts.",
+    "risk": "Promotes intolerance of unwanted thought content.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Validating importance/factuality of distressing thoughts",
+    "description": "Treating distressing thoughts/images as significant or real.",
+    "risk": "Worsens symptoms and sustains maladaptive beliefs.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Pushing too quickly into highly anxiety-provoking situations",
+    "description": "Forcing rapid exposure before graduated preparation.",
+    "risk": "May overwhelm patient and increase avoidance.",
+    "confidence_score": 0.96
+  },
+  {
+    "negative_action": "Focusing solely on emotion labels",
+    "description": "Overemphasizing emotion words instead of understanding their origins and processes.",
+    "risk": "Misses underlying issues and impedes progress.",
+    "confidence_score": 0.94
+  },
+  {
+    "negative_action": "Reinforcing rigid or self-defeating urges",
+    "description": "Supporting uncompromising and unhelpful behavior patterns.",
+    "risk": "Blocks healthy change and increases suffering.",
+    "confidence_score": 0.94
+  },
+  {
+    "negative_action": "Prolonging catastrophic or blame-centered emotions",
+    "description": "Unduly focusing on catastrophic aspects or blaming.",
+    "risk": "Keeps negative emotions active and intensifies distress.",
+    "confidence_score": 0.96
+  },
+  {
+    "negative_action": "Minimizing or dismissing physical sensations",
+    "description": "Ignoring or trivializing patient-reported bodily symptoms.",
+    "risk": "Neglects potential diagnostic information and patient experience.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Neglecting influence of meta-emotions",
+    "description": "Overlooking secondary emotional responses (e.g., shame about anger).",
+    "risk": "Hampers processing of primary emotions.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Giving psychiatric advice beyond scope",
+    "description": "Offering diagnosis or medication guidance outside therapist’s expertise (e.g., for bipolar disorder).",
+    "risk": "Legal, ethical, or safety issues may arise.",
+    "confidence_score": 0.99
+  },
+  {
+    "negative_action": "Reinforcing safety behaviors or avoidance",
+    "description": "Offering reassurance or assistance with maladaptive rituals.",
+    "risk": "Prevents symptom reduction and maintains anxiety.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Enabling substance use or short-term relief behaviors",
+    "description": "Permitting immediate coping methods that cause long-term harm (e.g., substance use).",
+    "risk": "Entrenches addiction or maladaptive coping strategies.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Focusing only on immediate symptom relief",
+    "description": "Prioritizing short-term comfort over sustainable change.",
+    "risk": "Limits long-term recovery.",
+    "confidence_score": 0.91
+  },
+  {
+    "negative_action": "Imposing control over uncontrollable aspects",
+    "description": "Suggesting patient control things outside their ability (thoughts, sensations, others’ behavior).",
+    "risk": "Increases frustration and helplessness.",
+    "confidence_score": 0.96
+  },
+  {
+    "negative_action": "Encouraging vague or unrealistic goals",
+    "description": "Helping patient create goals that lack specificity or reality.",
+    "risk": "Reduces motivation and clarity; increases avoidance.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Pressing for feeling 'okay' in all situations",
+    "description": "Expecting patient to feel positive regardless of genuine hardship.",
+    "risk": "Promotes emotional invalidation.",
+    "confidence_score": 0.94
+  },
+  {
+    "negative_action": "Encouraging frequent abandonment of goals",
+    "description": "Helping patients switch goals often without addressing avoidance/procrastination.",
+    "risk": "Promotes avoidance and lack of progress.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Setting rigid deadlines without flexibility",
+    "description": "Imposing strict timelines that do not account for setbacks.",
+    "risk": "Leads to guilt, demotivation, and drop-out.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Negative comparison to role models",
+    "description": "Contrasting patient to others in a shaming or discouraging manner.",
+    "risk": "Increases inadequacy and reduces self-esteem.",
+    "confidence_score": 0.96
+  },
+  {
+    "negative_action": "Permitting reliance on safety behaviors during exposure",
+    "description": "Allowing patient to use safety strategies during exposures.",
+    "risk": "Reduces therapeutic impact and maintains anxiety.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Trivializing patient’s anxiety or phobia",
+    "description": "Minimizing distress regardless of apparent severity.",
+    "risk": "Damages trust and increases emotional suffering.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Pushing beyond patient's distress tolerance without support",
+    "description": "Forcing exposure beyond patient’s capacity.",
+    "risk": "May retraumatize or worsen symptoms.",
+    "confidence_score": 0.99
+  },
+  {
+    "negative_action": "Attempting to 'prove' bad outcomes impossible",
+    "description": "Trying to guarantee bad outcomes cannot happen.",
+    "risk": "Undermines realistic coping and increases reassurance-seeking.",
+    "confidence_score": 0.94
+  },
+  {
+    "negative_action": "Minimizing or ignoring denial, shame, or self-stigma",
+    "description": "Not addressing these barriers in addiction treatment.",
+    "risk": "Blocks therapeutic progress.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Moralizing or blaming for addiction",
+    "description": "Judging patient’s substance use as a personal moral failing.",
+    "risk": "Increases shame and inhibits recovery.",
+    "confidence_score": 0.99
+  },
+  {
+    "negative_action": "Neglecting underlying mental health problems",
+    "description": "Failing to address comorbid disorders hidden by addiction.",
+    "risk": "Leaves root causes untreated.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Reinforcing secrecy",
+    "description": "Encouraging patient to hide their addiction.",
+    "risk": "Prevents support and increases isolation.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Encouraging willpower alone for addiction recovery",
+    "description": "Promoting change via willpower without behavioral/environmental adjustments.",
+    "risk": "Reduces likelihood of sustained recovery.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Leaving relapse prevention to chance",
+    "description": "Not planning for relapse risk.",
+    "risk": "Increases risk of recurrence.",
+    "confidence_score": 0.94
+  },
+  {
+    "negative_action": "Validating maladaptive body image beliefs",
+    "description": "Supporting rigid or unhealthy appearance-related attitudes.",
+    "risk": "Perpetuates BDD/eating disorder symptoms.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Endorsing unhealthy motivations for cosmetic changes",
+    "description": "Supporting appearance change rooted in psychopathology.",
+    "risk": "Reinforces disordered beliefs and behaviors.",
+    "confidence_score": 0.96
+  },
+  {
+    "negative_action": "Neglecting referral for assessment/specialist support",
+    "description": "Ignoring need for psychiatric or specialist care in severe cases.",
+    "risk": "Delay in appropriate treatment.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Excessive focus on appearance-based compliments",
+    "description": "Giving frequent reassurance based on looks.",
+    "risk": "Perpetuates unhealthy patterns and low self-worth.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Minimizing patient distress around appearance",
+    "description": "Trivializing body image worries.",
+    "risk": "Damages alliance and discourages help-seeking.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Shaming or criticizing for symptoms/progress",
+    "description": "Blaming patient for lack of improvement.",
+    "risk": "Increases shame, reduces motivation, and worsens mood.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Urging patient to 'snap out' of depression",
+    "description": "Pressuring via forceful willpower or bullying self-talk.",
+    "risk": "Invalidates struggle and increases hopelessness.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Overloading patient with unrealistic activity schedules",
+    "description": "Setting excessive tasks.",
+    "risk": "Leads to discouragement and non-compliance.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Promoting unhealthy coping strategies",
+    "description": "Encouraging drugs, alcohol, or food binges.",
+    "risk": "Worsens symptoms and builds unhelpful habits.",
+    "confidence_score": 0.99
+  },
+  {
+    "negative_action": "Ignoring suicidal ideation or plans",
+    "description": "Minimizing risk of self-harm.",
+    "risk": "May lead to safety crises.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Focusing solely on negative thoughts/content",
+    "description": "Staying in rumination without shifting to helpful change.",
+    "risk": "Increases depressive symptoms.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Pathologizing or misdiagnosing depression without assessment",
+    "description": "Making judgments without appropriate evaluation.",
+    "risk": "Risks incorrect treatment and stigma.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Setting expectations for immediate normalization/enjoyment",
+    "description": "Expecting patient to 'bounce back' quickly from depression.",
+    "risk": "Increases pressure and distress.",
+    "confidence_score": 0.94
+  },
+  {
+    "negative_action": "Encouraging excessive reliance on sleep diaries",
+    "description": "Promoting prolonged focus on sleep records.",
+    "risk": "Increases sleep anxiety and worsens insomnia.",
+    "confidence_score": 0.96
+  },
+  {
+    "negative_action": "Perpetuating catastrophic or rigid sleep expectations",
+    "description": "Supporting strict beliefs about sleep needs.",
+    "risk": "Maintains anxiety and sleep disruption.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Recommending unverified supplements without medical advice",
+    "description": "Suggesting supplements without professional guidance.",
+    "risk": "Health hazards, interactions, or inefficacy.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Suggesting essential oils/aromatherapy without consulting physician",
+    "description": "Recommending alternative treatments without checking for allergies or comorbidities.",
+    "risk": "Potential health risks or allergic reactions.",
+    "confidence_score": 0.94
+  },
+  {
+    "negative_action": "Promoting napping/lying in bed awake",
+    "description": "Encouraging long periods in bed without sleep.",
+    "risk": "Worsens insomnia by weakening bed-sleep association.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Fostering dependency on sleep medication",
+    "description": "Encouraging sustained reliance on pharmacological aids.",
+    "risk": "Increases risk of dependence and side effects.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Guaranteeing safety or certainty in OCD",
+    "description": "Promising absolute prevention of feared outcomes.",
+    "risk": "Reinforces obsessive pathology.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Colluding with compulsions or reassurance-seeking",
+    "description": "Participating in or supporting ritualistic behaviors.",
+    "risk": "Maintains OCD symptoms.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Validating over-responsibility or catastrophic misinterpretations",
+    "description": "Agreeing with extreme interpretations of thoughts.",
+    "risk": "Strengthens maladaptive beliefs.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Suppressing or controlling intrusive thoughts",
+    "description": "Encouraging attempts to control unwanted thoughts.",
+    "risk": "Increases distress and perpetuates pathology.",
+    "confidence_score": 0.99
+  },
+  {
+    "negative_action": "Allowing rituals or avoidance as safety behaviors",
+    "description": "Leaving compulsions or avoidance unchecked.",
+    "risk": "Prevents therapeutic progress.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Escalating exposure too fast in OCD",
+    "description": "Increasing exposure or ritual cessation beyond patient’s tolerance.",
+    "risk": "Risk of overwhelming or traumatizing patient.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Neglecting assessment for relapse risk",
+    "description": "Failure to monitor for symptom recurrence.",
+    "risk": "Increases vulnerability to relapse.",
+    "confidence_score": 0.91
+  },
+  {
+    "negative_action": "Reinforcing global self-condemnation",
+    "description": "Agreeing with or failing to challenge broad negative self-labels.",
+    "risk": "Damages self-esteem and impedes recovery.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Condoning resignation or avoidance as self-acceptance",
+    "description": "Treating giving up as legitimate self-compassion.",
+    "risk": "Blocks proactive change.",
+    "confidence_score": 0.91
+  },
+  {
+    "negative_action": "Using conditional self-worth language",
+    "description": "Implying worth depends on behavior rather than person.",
+    "risk": "Perpetuates low self-esteem.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Pushing self-acceptance as condoning destructive behaviors",
+    "description": "Equating self-acceptance with excusing harmful actions.",
+    "risk": "Undermines accountability and growth.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Encouraging 'venting' or cathartic rage expression",
+    "description": "Promoting uncontrolled anger outbursts.",
+    "risk": "Reinforces angry patterns and harms relationships.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Validating rigid or self-righteous attitudes",
+    "description": "Affirming unyielding or morally superior positions.",
+    "risk": "Blocks resolution and increases conflict.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Encouraging aggressive responses",
+    "description": "Promoting revenge, insults, or intimidation.",
+    "risk": "Damages relationships and increases harm.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Responding defensively to patient anger",
+    "description": "Arguing or escalating conflict during session.",
+    "risk": "Erodes therapeutic alliance.",
+    "confidence_score": 0.94
+  },
+  {
+    "negative_action": "Allowing unhealthy power dynamics",
+    "description": "Permitting disrespect or dominance during therapy.",
+    "risk": "Reduces safety and trust.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Invalidating genuine medical concerns",
+    "description": "Dismissing legitimate physical symptoms.",
+    "risk": "May lead to missed medical diagnosis.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Reinforcing catastrophic interpretations via reassurance",
+    "description": "Unintentionally strengthening threat beliefs.",
+    "risk": "Maintains or worsens anxiety.",
+    "confidence_score": 0.94
+  },
+  {
+    "negative_action": "Pushing reinterpretation before foundational understanding",
+    "description": "Encouraging cognitive shifts before ensuring comprehension.",
+    "risk": "Leads to resistance or ineffective learning.",
+    "confidence_score": 0.91
+  },
+  {
+    "negative_action": "Encouraging unrealistic or simplistic positive thinking",
+    "description": "Promoting positivity that disregards truth of patient experience.",
+    "risk": "Dismisses emotional reality and damages alliance.",
+    "confidence_score": 0.96
+  },
+  {
+    "negative_action": "Telling patient to 'erase' old beliefs quickly",
+    "description": "Pressing for extreme, rapid belief change.",
+    "risk": "Promotes cognitive dissonance and instability.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Fostering excessive self-blame/guilt during belief review",
+    "description": "Not supporting self-compassion.",
+    "risk": "Increases depression and impedes cognitive restructuring.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Neglecting repeated practice and evidence for new beliefs",
+    "description": "Skipping rehearsal and evidence gathering.",
+    "risk": "New beliefs fail to consolidate.",
+    "confidence_score": 0.91
+  },
+  {
+    "negative_action": "Encouraging perfection or suppression in change",
+    "description": "Demanding flawless execution or ignoring doubts.",
+    "risk": "Increases anxiety and resistance to change.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Pressuring activities conflicting with personality or abilities",
+    "description": "Encouraging participation in discordant tasks.",
+    "risk": "Promotes resistance and reduces authenticity.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Imposing therapist values over patient values",
+    "description": "Promoting adoption of external values.",
+    "risk": "Reduces patient autonomy and self-esteem.",
+    "confidence_score": 0.96
+  },
+  {
+    "negative_action": "Ignoring patient boundaries/comfort zones",
+    "description": "Disregarding limits regarding intimacy or personal change.",
+    "risk": "Risk of retraumatization or loss of trust.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Ignoring feelings of shame/guilt/pride",
+    "description": "Minimizing or dismissing these important emotions.",
+    "risk": "Blocks full emotional processing.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Coercing or overriding patient autonomy",
+    "description": "Making decisions for the patient without consent.",
+    "risk": "Reduces engagement and may trigger resistance.",
+    "confidence_score": 0.96
+  },
+  {
+    "negative_action": "Reinforcing passivity by taking over work",
+    "description": "Doing tasks for the patient, reducing self-responsibility.",
+    "risk": "Prevents skill development and fosters dependence.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Setting overwhelming or unrealistic goals",
+    "description": "Imposing unachievable targets.",
+    "risk": "Increases discouragement and risk of drop-out.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Ignoring signs of relapse",
+    "description": "Not addressing early warning signs of symptom recurrence.",
+    "risk": "Allows problems to worsen unaddressed.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Permitting avoidance behaviors to go unaddressed",
+    "description": "Not intervening when patient avoids difficult tasks.",
+    "risk": "Maintains maladaptive beliefs and patterns.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Encouraging half-hearted efforts at cognitive challenging",
+    "description": "Accepting superficial attempts to challenge thinking.",
+    "risk": "Reduces efficacy and depth of treatment.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Ignoring or glossing over severe symptoms",
+    "description": "Failing to refer for assessment or specialist input.",
+    "risk": "Serious conditions may go untreated.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Withholding rationale or making therapy opaque",
+    "description": "Not explaining interventions or process.",
+    "risk": "Reduces collaboration and understanding.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Avoiding review of homework",
+    "description": "Not addressing obstacles to completion.",
+    "risk": "Reduces accountability and limits progress.",
+    "confidence_score": 0.91
+  },
+  {
+    "negative_action": "Breach of confidentiality without clear danger",
+    "description": "Breaking trust by sharing patient information without cause.",
+    "risk": "Damages relationship and may have legal consequences.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Pushing patients into experiments when not ready",
+    "description": "Imposing exposure against patient’s capacity.",
+    "risk": "Risks retraumatization and loss of trust.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Encouraging reliance on external approval for self-worth",
+    "description": "Promoting dependence on others or relationships for self-esteem.",
+    "risk": "Undermines internal sense of value.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Promoting unrealistic demands for certainty",
+    "description": "Encouraging excessive need for proof or assurances.",
+    "risk": "Reinforces anxiety and intolerance of uncertainty.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Endorsing passive waiting for change",
+    "description": "Supporting lack of active problem-solving.",
+    "risk": "Prevents progress and fosters helplessness.",
+    "confidence_score": 0.91
+  },
+  {
+    "negative_action": "Colluding with ineffective self-esteem boosting strategies",
+    "description": "Supporting attempts that do not foster true self-worth.",
+    "risk": "Perpetuates fragile self-esteem.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Encouraging perfectionism, defensiveness, or control",
+    "description": "Supporting rigid standards and self-protection.",
+    "risk": "Blocks growth and sustains distress.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Promoting over-reliance on approval for self-worth",
+    "description": "Encouraging dependence on others’ praise.",
+    "risk": "Undermines development of self-acceptance.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Validating external blame for problems",
+    "description": "Supporting attribution of issues entirely to outside factors.",
+    "risk": "Reduces personal agency.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Shaming clients for counterproductive strategies",
+    "description": "Criticizing for ineffective attempts to cope.",
+    "risk": "Increases defensiveness and reduces engagement.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Reinforcing stigma or myths about psychological weakness",
+    "description": "Supporting stereotypes or minimizing patient experiences.",
+    "risk": "Prevents help-seeking and increases shame.",
+    "confidence_score": 0.96
+  },
+  {
+    "negative_action": "Promoting unreliable or anecdotal information",
+    "description": "Endorsing non-evidence-based approaches.",
+    "risk": "Risks ineffective or harmful outcomes.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Overgeneralizing or making all-or-none statements",
+    "description": "Using absolute language regarding mental health.",
+    "risk": "Increases stigma and reduces nuance.",
+    "confidence_score": 0.93
+  }
+]

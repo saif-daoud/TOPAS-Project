@@ -1,0 +1,439 @@
+{
+  "nodes": [
+    {
+      "type": "Patient",
+      "description": "Root node representing the patient being tracked in therapy."
+    },
+    {
+      "type": "Thinking Patterns",
+      "description": "Typical cognitive styles, thought patterns, and belief tendencies of the patient."
+    },
+    {
+      "type": "Core Beliefs",
+      "description": "Patient’s enduring beliefs about self, others, and the world, their evolution and conviction strength."
+    },
+    {
+      "type": "Automatic Thoughts",
+      "description": "Recurring automatic cognitions, NATs, and habitual thinking errors."
+    },
+    {
+      "type": "Cognitive Distortions",
+      "description": "Common distortions (e.g., catastrophizing, overgeneralizing) shown by the patient and their patterns."
+    },
+    {
+      "type": "Activating Events (A)",
+      "description": "Situational triggers, environmental stressors, and recurring contexts impacting the patient."
+    },
+    {
+      "type": "Beliefs/Meanings (B)",
+      "description": "Patient's assigned meanings, beliefs, interpretations of events."
+    },
+    {
+      "type": "Consequences (C)",
+      "description": "Behavioral and emotional outcomes following beliefs about activating events."
+    },
+    {
+      "type": "Behavioral Patterns",
+      "description": "Maladaptive and adaptive response habits, including avoidance, safety behaviors, and rituals."
+    },
+    {
+      "type": "Coping Strategies",
+      "description": "Methods (helpful or unhelpful) the patient uses to deal with distress or maintain problems."
+    },
+    {
+      "type": "Vicious Cycles",
+      "description": "Interaction histories where emotions, thoughts, and behaviors reinforce one another."
+    },
+    {
+      "type": "Goals",
+      "description": "Individual goals for therapy and desired emotional and behavioral outcomes, including their evolution and progress."
+    },
+    {
+      "type": "Alternative Beliefs/Strategies",
+      "description": "Preferred or developed new thinking/behavioral approaches and their effectiveness."
+    },
+    {
+      "type": "Adaptive vs Maladaptive Responses",
+      "description": "Records of how the patient responds in similar situations over time."
+    },
+    {
+      "type": "Treatment History",
+      "description": "History and response to interventions, including self-help, professional therapy, medications, and behavioral experiments."
+    },
+    {
+      "type": "Emotional Responses",
+      "description": "Patterns of emotional reactions, mood trajectories, progress in normalizing or regulating emotions."
+    },
+    {
+      "type": "Exposure/Behavioral Experiments",
+      "description": "History, outcomes, and planned follow ups of behavioral experiments and exposures."
+    },
+    {
+      "type": "Safety Behaviors/Avoidance",
+      "description": "Specific avoidance behaviors, rituals, and safety measures taken to reduce distress."
+    },
+    {
+      "type": "Triggers",
+      "description": "Catalogue of specific personal, situational, or environmental triggers for problems or symptoms."
+    },
+    {
+      "type": "Support System",
+      "description": "Social, familial, and professional support network and its evolution over therapy."
+    },
+    {
+      "type": "Relapse/Setbacks",
+      "description": "Episodes and history of relapse, setbacks, and recovery attempts, including risk and crisis plans."
+    },
+    {
+      "type": "Motivation/Values",
+      "description": "Key personal values, motivation sources, and value-based behavioral patterns."
+    },
+    {
+      "type": "Diagnosis/Clinical History",
+      "description": "Formal diagnoses, comorbidities, symptom registers, and medical/psychiatric records."
+    },
+    {
+      "type": "Medication Use",
+      "description": "Current, past, and evolving use of medications (psychiatric or medical), compliance and side effects."
+    },
+    {
+      "type": "Self-Esteem/Self-Worth",
+      "description": "Historical and current patterns of self-esteem, associated triggers, beliefs, and compensatory behaviors."
+    },
+    {
+      "type": "Anger Patterns",
+      "description": "Antecedents, types, and consequences of anger, including development of assertiveness and frustration tolerance."
+    },
+    {
+      "type": "Habits/Lifestyle",
+      "description": "Patterns in diet, exercise, sleep, substance use, self-care, and routines."
+    },
+    {
+      "type": "Addiction",
+      "description": "History, triggers, coping strategies, and outcomes related to substance/behavioral addiction."
+    },
+    {
+      "type": "Sleep",
+      "description": "Patterns, disturbances, beliefs, and treatment responses regarding sleep."
+    },
+    {
+      "type": "Anxiety/Fear Profile",
+      "description": "Personal hierarchy of fears/triggers, historical exposure/anxiety data, and related beliefs."
+    },
+    {
+      "type": "OCD/Compulsions",
+      "description": "History and intensity of obsessional problems, types/content, and compulsion patterns."
+    },
+    {
+      "type": "Body Image Concerns",
+      "description": "Body image issues, BDD symptoms, focus on specific physical features, and associated rules and rituals."
+    },
+    {
+      "type": "Rumination",
+      "description": "Patterns of rumination, negative thinking, and avoidance in depression and other conditions."
+    },
+    {
+      "type": "Self-Compassion/Acceptance",
+      "description": "Trajectory of growing self-compassion, self-acceptance, and use of related skills."
+    },
+    {
+      "type": "Homework/Assignments",
+      "description": "Record of completed and planned CBT homework, forms, and outcome/progress notes."
+    },
+    {
+      "type": "Personal Development",
+      "description": "Goals, barriers, development in study/work/skills, and meaningful activities."
+    },
+    {
+      "type": "Attitudes to Uncertainty/Risk",
+      "description": "Patterns of beliefs, avoidance, or acceptance concerning uncertainty and risk."
+    }
+  ],
+  "edges": [
+    {
+      "source": "Patient",
+      "target": "Thinking Patterns",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Core Beliefs",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Automatic Thoughts",
+      "relation": "has"
+    },
+    {
+      "source": "Thinking Patterns",
+      "target": "Cognitive Distortions",
+      "relation": "shows"
+    },
+    {
+      "source": "Patient",
+      "target": "Activating Events (A)",
+      "relation": "experiences"
+    },
+    {
+      "source": "Activating Events (A)",
+      "target": "Beliefs/Meanings (B)",
+      "relation": "leads_to"
+    },
+    {
+      "source": "Beliefs/Meanings (B)",
+      "target": "Consequences (C)",
+      "relation": "leads_to"
+    },
+    {
+      "source": "Consequences (C)",
+      "target": "Behavioral Patterns",
+      "relation": "results_in"
+    },
+    {
+      "source": "Patient",
+      "target": "Behavioral Patterns",
+      "relation": "exhibits"
+    },
+    {
+      "source": "Behavioral Patterns",
+      "target": "Coping Strategies",
+      "relation": "includes"
+    },
+    {
+      "source": "Behavioral Patterns",
+      "target": "Vicious Cycles",
+      "relation": "can_form"
+    },
+    {
+      "source": "Patient",
+      "target": "Goals",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Alternative Beliefs/Strategies",
+      "relation": "develops"
+    },
+    {
+      "source": "Patient",
+      "target": "Adaptive vs Maladaptive Responses",
+      "relation": "shows"
+    },
+    {
+      "source": "Patient",
+      "target": "Treatment History",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Emotional Responses",
+      "relation": "experiences"
+    },
+    {
+      "source": "Emotional Responses",
+      "target": "Vicious Cycles",
+      "relation": "can_form"
+    },
+    {
+      "source": "Patient",
+      "target": "Exposure/Behavioral Experiments",
+      "relation": "participates_in"
+    },
+    {
+      "source": "Exposure/Behavioral Experiments",
+      "target": "Alternative Beliefs/Strategies",
+      "relation": "test"
+    },
+    {
+      "source": "Patient",
+      "target": "Safety Behaviors/Avoidance",
+      "relation": "uses"
+    },
+    {
+      "source": "Safety Behaviors/Avoidance",
+      "target": "Triggers",
+      "relation": "responds_to"
+    },
+    {
+      "source": "Behavioral Patterns",
+      "target": "Safety Behaviors/Avoidance",
+      "relation": "includes"
+    },
+    {
+      "source": "Patient",
+      "target": "Triggers",
+      "relation": "affected_by"
+    },
+    {
+      "source": "Patient",
+      "target": "Support System",
+      "relation": "is_supported_by"
+    },
+    {
+      "source": "Patient",
+      "target": "Relapse/Setbacks",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Motivation/Values",
+      "relation": "guided_by"
+    },
+    {
+      "source": "Motivation/Values",
+      "target": "Goals",
+      "relation": "inform"
+    },
+    {
+      "source": "Patient",
+      "target": "Diagnosis/Clinical History",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Medication Use",
+      "relation": "uses"
+    },
+    {
+      "source": "Patient",
+      "target": "Self-Esteem/Self-Worth",
+      "relation": "has"
+    },
+    {
+      "source": "Self-Esteem/Self-Worth",
+      "target": "Core Beliefs",
+      "relation": "based_on"
+    },
+    {
+      "source": "Self-Esteem/Self-Worth",
+      "target": "Coping Strategies",
+      "relation": "influences"
+    },
+    {
+      "source": "Patient",
+      "target": "Anger Patterns",
+      "relation": "experiences"
+    },
+    {
+      "source": "Patient",
+      "target": "Habits/Lifestyle",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Addiction",
+      "relation": "may_have"
+    },
+    {
+      "source": "Addiction",
+      "target": "Habits/Lifestyle",
+      "relation": "affects"
+    },
+    {
+      "source": "Addiction",
+      "target": "Relapse/Setbacks",
+      "relation": "linked_to"
+    },
+    {
+      "source": "Patient",
+      "target": "Sleep",
+      "relation": "experiences"
+    },
+    {
+      "source": "Sleep",
+      "target": "Habits/Lifestyle",
+      "relation": "part_of"
+    },
+    {
+      "source": "Sleep",
+      "target": "Emotional Responses",
+      "relation": "influences"
+    },
+    {
+      "source": "Patient",
+      "target": "Anxiety/Fear Profile",
+      "relation": "has"
+    },
+    {
+      "source": "Anxiety/Fear Profile",
+      "target": "Exposure/Behavioral Experiments",
+      "relation": "shaped_by"
+    },
+    {
+      "source": "Anxiety/Fear Profile",
+      "target": "Safety Behaviors/Avoidance",
+      "relation": "involves"
+    },
+    {
+      "source": "Patient",
+      "target": "OCD/Compulsions",
+      "relation": "may_have"
+    },
+    {
+      "source": "OCD/Compulsions",
+      "target": "Safety Behaviors/Avoidance",
+      "relation": "expresses"
+    },
+    {
+      "source": "Patient",
+      "target": "Body Image Concerns",
+      "relation": "may_have"
+    },
+    {
+      "source": "Body Image Concerns",
+      "target": "Core Beliefs",
+      "relation": "stem_from"
+    },
+    {
+      "source": "Body Image Concerns",
+      "target": "Coping Strategies",
+      "relation": "related_to"
+    },
+    {
+      "source": "Patient",
+      "target": "Rumination",
+      "relation": "may_experience"
+    },
+    {
+      "source": "Rumination",
+      "target": "Emotional Responses",
+      "relation": "influences"
+    },
+    {
+      "source": "Patient",
+      "target": "Self-Compassion/Acceptance",
+      "relation": "develops"
+    },
+    {
+      "source": "Self-Compassion/Acceptance",
+      "target": "Coping Strategies",
+      "relation": "enhances"
+    },
+    {
+      "source": "Patient",
+      "target": "Homework/Assignments",
+      "relation": "completes"
+    },
+    {
+      "source": "Homework/Assignments",
+      "target": "Alternative Beliefs/Strategies",
+      "relation": "support"
+    },
+    {
+      "source": "Patient",
+      "target": "Personal Development",
+      "relation": "pursues"
+    },
+    {
+      "source": "Personal Development",
+      "target": "Goals",
+      "relation": "overlaps_with"
+    },
+    {
+      "source": "Patient",
+      "target": "Attitudes to Uncertainty/Risk",
+      "relation": "holds"
+    }
+  ]
+}

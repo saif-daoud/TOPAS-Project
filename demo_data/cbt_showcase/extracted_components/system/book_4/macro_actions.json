@@ -1,0 +1,176 @@
+{
+  "macro_actions": [
+    {
+      "name": "Assessment and Diagnosis",
+      "description": "The therapist gathers information to identify symptoms, establish diagnosis, evaluate impairment, assess risk, and explore comorbidities.",
+      "goal": {
+        "objective": "To accurately assess and define the patient's current symptoms, problems, and diagnostic status.",
+        "success_levels": {
+          "ideal": "Comprehensive understanding of all relevant symptoms, risks, and comorbidities, leading to a clear formulation and diagnosis.",
+          "acceptable": "Sufficient information gathered to establish a working diagnosis and formulate initial treatment targets.",
+          "unsuccessful": "Key symptoms or risks missed, ambiguous diagnosis, or assessment too incomplete to guide intervention."
+        },
+        "reward_hint": "Therapist identifies all relevant presenting problems and establishes a diagnosis with risk management considered."
+      },
+      "states": [
+        "Patient presents for initial evaluation.",
+        "Symptoms or functional impairments are unclear.",
+        "There is concern for comorbidities or risk behaviors (e.g. suicidality, substance abuse).",
+        "Preparation for creating a treatment plan."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "name": "Socialization to Treatment and Psychoeducation",
+      "description": "The therapist educates the patient about their diagnosis, introduces the CBT model and rationale, builds motivation, and establishes treatment expectations.",
+      "goal": {
+        "objective": "To increase the patient's understanding of CBT and their condition, foster engagement, and collaboratively establish goals and treatment commitment.",
+        "success_levels": {
+          "ideal": "Patient demonstrates good understanding, feels motivated, and collaborates in goal-setting.",
+          "acceptable": "Patient understands basic principles and agrees to begin treatment.",
+          "unsuccessful": "Patient resists or rejects CBT principles, lacks buy-in, or is unclear about expectations."
+        },
+        "reward_hint": "Patient verbalizes understanding, asks questions, and sets collaborative goals."
+      },
+      "states": [
+        "Following assessment/diagnosis.",
+        "Patient is unfamiliar with CBT or expresses ambivalence or low motivation.",
+        "Treatment rationale requires clarification."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "name": "Collaborative Goal Setting and Treatment Planning",
+      "description": "Therapist and patient work together to identify measurable, observable goals and select appropriate, evidence-based interventions tailored to symptoms.",
+      "goal": {
+        "objective": "To develop a clear, agreed-upon set of treatment goals and corresponding interventions.",
+        "success_levels": {
+          "ideal": "Goals are specific, observable, realistic, and fully aligned with patient values and symptom presentation.",
+          "acceptable": "Goals are reasonably specific and provide structure for the treatment plan.",
+          "unsuccessful": "Goals are vague, not agreed upon, or not feasible for the patient's current state."
+        },
+        "reward_hint": "Written or verbal agreement on goals and plan, with therapist and patient both expressing commitment."
+      },
+      "states": [
+        "After initial socialization/psychoeducation.",
+        "Patient expresses desire for change.",
+        "Symptoms or functional impairments are prioritized for intervention."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Cognitive Interventions",
+      "description": "The therapist uses techniques (e.g. guided discovery, Socratic questioning, cognitive restructuring) to help the patient identify and modify maladaptive thoughts, beliefs, and schemas.",
+      "goal": {
+        "objective": "To enable the patient to recognize and change dysfunctional cognitive patterns contributing to distress.",
+        "success_levels": {
+          "ideal": "Patient independently identifies and modifies distorted thoughts and beliefs, resulting in symptom reduction.",
+          "acceptable": "Patient can recognize maladaptive thoughts and sometimes challenge them with therapist support.",
+          "unsuccessful": "Patient continues to engage in dysfunctional thinking without insight or change."
+        },
+        "reward_hint": "Patient successfully identifies and reappraises automatic thoughts or beliefs during sessions."
+      },
+      "states": [
+        "Patient reports distressing emotions linked to maladaptive thinking.",
+        "Symptoms are maintained by cognitive distortions.",
+        "Working through cognitive formulations after initial interventions."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "name": "Behavioral Interventions and Skills Training",
+      "description": "Therapist implements behavioral strategies (e.g. activation, exposure, problem-solving training, relaxation, assertiveness, social skills modeling) to change patterns maintaining psychological distress.",
+      "goal": {
+        "objective": "To help the patient learn, practice, and generalize new behavioral skills that reduce symptoms and improve functioning.",
+        "success_levels": {
+          "ideal": "Patient consistently practices, generalizes, and benefits from targeted behavioral skills in various contexts.",
+          "acceptable": "Patient is able to practice behavioral skills with support and shows partial improvement.",
+          "unsuccessful": "Patient avoids, resists, or fails to engage in behavioral practices; no change in symptoms."
+        },
+        "reward_hint": "Patient actively participates in behavioral exercises and demonstrates skills improvement across sessions."
+      },
+      "states": [
+        "Symptoms persist due to avoidance, inactivity, or skill deficits.",
+        "Exposure to feared situations is indicated.",
+        "Patient lacks coping, social, or self-regulation skills."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "name": "Progress Monitoring and Troubleshooting",
+      "description": "Therapist reviews ongoing progress, monitors symptom change, adapts interventions, and collaboratively solves obstacles such as noncompliance, hopelessness, or setbacks.",
+      "goal": {
+        "objective": "To ensure treatment is effective, adjust strategies as needed, and address any barriers to progress.",
+        "success_levels": {
+          "ideal": "Therapist and patient collaborate to track progress, overcome all obstacles, and adjust treatment for optimal improvement.",
+          "acceptable": "Obstacles are partially resolved, and treatment continues with incremental progress.",
+          "unsuccessful": "Progress stalls or regresses, and obstacles persist unaddressed."
+        },
+        "reward_hint": "Documented progress, adaptive changes in plan, and successful problem-solving evident in session notes."
+      },
+      "states": [
+        "Symptoms are not improving as expected.",
+        "Patient displays compliance issues, hopelessness, self-criticism, rumination, or avoidance.",
+        "Changes in life events or contexts require intervention adaptation."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Homework Assignment and Skill Generalization",
+      "description": "Therapist assigns real-life tasks, self-monitoring, and behavior/cognition exercises between sessions to help patients practice and consolidate skills.",
+      "goal": {
+        "objective": "To facilitate skill generalization and maintain progress outside of therapy sessions.",
+        "success_levels": {
+          "ideal": "Patient completes homework regularly and applies skills independently in real-life situations.",
+          "acceptable": "Patient attempts homework or partial skill generalization with therapist support.",
+          "unsuccessful": "Patient consistently avoids or fails to complete homework; no real-life application."
+        },
+        "reward_hint": "Patient completes assignments, reports real-world skill use, and describes positive impact."
+      },
+      "states": [
+        "Patient requires practice or consolidation of skills outside sessions.",
+        "Therapeutic gains must be maintained between appointments.",
+        "Both therapist and patient agree on tasks to support change."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "name": "Crisis Management",
+      "description": "Therapist addresses acute risk situations such as suicidality, severe anxiety, or the need for emergency intervention (safety planning, risk assessment, hospitalization if necessary).",
+      "goal": {
+        "objective": "To ensure the safety and immediate stabilization of the patient in crisis.",
+        "success_levels": {
+          "ideal": "Risk is effectively managed, and patient is stabilized and safe.",
+          "acceptable": "Partial reduction of risk; ongoing monitoring and contingency plans in place.",
+          "unsuccessful": "Risk is not managed, leading to potential harm or deterioration."
+        },
+        "reward_hint": "Patient follows safety plan, risk is reduced, and therapist responds effectively in emergencies."
+      },
+      "states": [
+        "Patient is acutely suicidal, severely anxious, or in immediate danger.",
+        "Risk assessment indicates potential harm.",
+        "Crisis or emergencies arise during therapy."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Phasing Out Therapy and Relapse Prevention",
+      "description": "Therapist prepares the patient for therapy termination by consolidating skills, planning for future triggers, maintenance strategies, and fostering self-efficacy.",
+      "goal": {
+        "objective": "To enable the patient to maintain gains independently and effectively manage future challenges.",
+        "success_levels": {
+          "ideal": "Patient demonstrates high self-efficacy, uses skills independently, and has a plan for future challenges.",
+          "acceptable": "Patient needs minimal support and can apply most learned skills; basic relapse prevention is in place.",
+          "unsuccessful": "Patient is unable to manage independently; risk of relapse is high; termination plan is unclear."
+        },
+        "reward_hint": "Patient articulates relapse prevention strategies and demonstrates readiness for independence."
+      },
+      "states": [
+        "Treatment goals have been substantially met.",
+        "Patient approaches end of planned therapy course.",
+        "Preparation for reduced therapist contact or termination."
+      ],
+      "confidence_score": 1.0
+    }
+  ]
+}

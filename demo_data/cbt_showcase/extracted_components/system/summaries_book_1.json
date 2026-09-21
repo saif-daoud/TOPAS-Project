@@ -1,0 +1,801 @@
+[
+  {
+    "macro_actions": {
+      "summary": [
+        "Establishing and maintaining a therapeutic alliance.",
+        "Conceptualizing the patient’s problems in cognitive terms (both current and past).",
+        "Educating the patient about the cognitive model and therapy process.",
+        "Collaboratively setting treatment goals and agendas.",
+        "Problem-solving and targeting dysfunctional thoughts and behaviors.",
+        "Focusing on present issues with selective exploration of past events.",
+        "Teaching the patient to be their own therapist, emphasizing relapse prevention.",
+        "Utilizing a structured session format (mood check, agenda setting, problem discussion, homework, feedback).",
+        "Varying techniques and session structure based on patient needs, case conceptualization, and treatment stage.",
+        "Progressing the therapist's own skill through stages of cognitive therapy proficiency."
+      ]
+    },
+    "micro_actions": {
+      "summary": [
+        "Making empathic statements, showing warmth and genuine interest.",
+        "Eliciting and reviewing patient feedback at the end of each session.",
+        "Asking specific questions to identify automatic thoughts linked to emotions and behaviors.",
+        "Summarizing patient’s thoughts and therapy progress aloud and in writing.",
+        "Recording adaptive responses for patient review.",
+        "Using guided discovery/Socratic questioning to collaboratively evaluate thoughts.",
+        "Setting and reviewing homework/action plans.",
+        "Initiating behavioral experiments with the patient.",
+        "Discussing and reviewing problems as they arise and as expected in the coming weeks.",
+        "Adjusting session elements (e.g., agenda setting) collaboratively with patient consent."
+      ]
+    },
+    "conversation_states": {
+      "summary": [
+        "Patient's current mood and affective state.",
+        "Patient’s reported symptoms and recent experiences.",
+        "Specific problems and goals the patient wants help with.",
+        "Identified automatic thoughts and underlying beliefs.",
+        "Patient’s level of engagement, trust, and participation.",
+        "Progress in therapy (behavioral activation, skill acquisition, movement toward goals).",
+        "Patient feedback regarding session usefulness and alliance.",
+        "Homework/action plan completion and results.",
+        "Stage of learning, both for the patient and for the therapist in skill development."
+      ]
+    },
+    "knowledge_graph": {
+      "summary": [
+        "Patient’s cognitive formulation (specific beliefs, patterns of thinking and behavior).",
+        "History of developmental and precipitating life events linked to beliefs.",
+        "Case conceptualization evolution (data gathered and revised across sessions).",
+        "Record of therapeutic goals, problems addressed, and progress made.",
+        "Techniques used and patient’s responsiveness to interventions.",
+        "Relapse prevention strategies taught and implemented.",
+        "Patient’s therapy homework records and adaptive responses list.",
+        "Level of skill and autonomy as patient moves toward “becoming their own therapist.”"
+      ]
+    },
+    "cautions": {
+      "summary": [
+        "Do not use persuasion, debate, or lecturing to challenge patient thoughts.",
+        "Do not encourage uncritical adoption of positive viewpoints or ignore patient’s reality.",
+        "Do not rigidly apply techniques without adapting to individual needs, conceptualization, and feedback.",
+        "Do not neglect building or maintaining the therapeutic alliance.",
+        "Avoid making premature inferences or assumptions—conceptualizations must be continuously updated and collaboratively validated.",
+        "Avoid focusing excessively on the past unless justified by alliance issues or patient stuck points.",
+        "Do not overlook the importance of ongoing feedback and structured session format."
+      ]
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "patient expresses a preference to discuss past events or is stuck in dysfunctional thinking",
+          "then": "shift focus to relevant childhood/developmental history to aid cognitive restructuring and maintain alliance"
+        },
+        {
+          "if": "patient exhibits current problems and distress",
+          "then": "focus on present-oriented strategies targeting current thoughts and behaviors"
+        },
+        {
+          "if": "therapeutic alliance is weak or patient is not engaged",
+          "then": "increase empathic statements, actively elicit feedback, and prioritize relationship-building actions in-session"
+        },
+        {
+          "if": "new data about patient’s thoughts, behaviors, or life events is obtained",
+          "then": "revise case conceptualization and share/discuss with patient for validation"
+        },
+        {
+          "if": "collaboratively setting or reviewing session agenda",
+          "then": "solicit patient’s problem priorities and preferences actively"
+        },
+        {
+          "if": "identifying automatic thoughts during session",
+          "then": "use Socratic/guided questioning to collaboratively evaluate and record adaptive responses"
+        },
+        {
+          "if": "homework assignment is given",
+          "then": "review completion and results with patient each session and address barriers"
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter describes high-level therapist interventions in CBT sessions including: developing the therapeutic relationship (building rapport, trust, and alliance), planning treatment and structuring sessions (reviewing goals and homework, setting agendas), identifying and responding to dysfunctional cognitions (using guided discovery and behavioral experiments), emphasizing the positive (eliciting and highlighting strengths and positive experiences), and facilitating cognitive and behavioral change between sessions via homework."
+    },
+    "micro_actions": {
+      "summary": "Micro-actions recommended include: demonstrating empathy through words, tone, and body language; reflecting and summarizing patient's statements; asking Socratic questions to elicit, evaluate, and reframe automatic thoughts (e.g., 'What evidence supports this thought?'); collaboratively setting the agenda and prioritizing session topics; seeking feedback during and after sessions about therapist understanding and session efficacy; gently interrupting to keep structure; eliciting positive data and strengths; collaboratively designing behavioral experiments; recording homework assignments in written form; reviewing prior homework at session start."
+    },
+    "conversation_states": {
+      "summary": "The therapist should track: the strength and quality of therapeutic alliance, patient's emotional reactions (distress, hopefulness, engagement), current symptoms and mood, rapport and trust, progress toward treatment goals, patient's feedback and satisfaction, ongoing automatic thoughts/beliefs/emotions, patient’s strengths and positive experiences, behavioral engagement with homework, and session agenda/problem prioritization."
+    },
+    "knowledge_graph": {
+      "summary": "Across sessions, the therapist should track: patient’s diagnosis and presenting problems, treatment goals, recurring automatic thoughts, underlying beliefs and schemas, strengths/resilience factors, history and effectiveness of interventions/homework assignments, therapeutic alliance quality over time, symptom trajectories, patterns of positive/negative thinking, and evidence gathered from behavioral experiments."
+    },
+    "cautions": {
+      "summary": "Do not deliver treatment in a rote or impersonal/cold manner; avoid ignoring or failing to address negative patient feedback; do not disregard the importance of the therapeutic relationship, especially with difficult cases; avoid failing to tailor interventions and homework to the individual patient; do not neglect reviewing homework; avoid making assumptions about patient experiences without eliciting them; do not persist in a style that is uncomfortable for the patient."
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "patient provides negative feedback or displays distress",
+          "then": "positively reinforce feedback, address the issue immediately, and conceptualize/problem-solve together"
+        },
+        {
+          "if": "session begins",
+          "then": "review treatment goals, previous homework, and plan a flexible structured agenda collaboratively"
+        },
+        {
+          "if": "patient reports a distressing event or emotion",
+          "then": "ask 'What is going through your mind right now?' to elicit automatic thoughts"
+        },
+        {
+          "if": "automatic thought is identified",
+          "then": "use Socratic questioning to evaluate validity and utility, and help reframe or decatastrophize"
+        },
+        {
+          "if": "discussing problem solutions or new perspectives",
+          "then": "collaboratively design homework assignments and record them in writing"
+        },
+        {
+          "if": "patient displays positive coping or achievement",
+          "then": "highlight and reinforce these instances, and discuss what these mean for the patient"
+        },
+        {
+          "if": "patient expresses discomfort with therapist style",
+          "then": "ask questions to clarify, adapt presentation, and foster comfort"
+        },
+        {
+          "if": "homework is assigned",
+          "then": "ensure assignment is crafted collaboratively, written out, and reviewed next session"
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter describes the high-level process of cognitive conceptualization in CBT, which starts at first contact and is refined throughout therapy. The core macro-actions include formulating a case based on diagnosis, current problems, developmental history, dysfunctional thoughts/beliefs, and coping strategies; mapping out the cognitive model for the patient (situation → automatic thoughts → reactions); engaging the patient to identify and evaluate automatic thoughts; gradually exploring and modifying intermediate and core beliefs; empathizing to build rapport; checking and revising hypotheses with the patient; and using conceptualization to plan interventions and treatment course."
+    },
+    "micro_actions": {
+      "summary": "Micro-actions operationalizing these strategies include: eliciting automatic thoughts by asking \"What was going through your mind?\" in specific situations; attending to shifts in affect, behavior, and physiology as cues; helping the patient question and reality-test automatic thoughts; gathering situational data to inform hypotheses; directly checking conceptualizations with the patient for resonance; guiding the patient to notice, articulate, and process both negative and positive data; using reality checks and encouraging alternative interpretations at the level of thoughts; and collecting specific examples of coping strategies, behavioral responses, and intermediate beliefs."
+    },
+    "conversation_states": {
+      "summary": "Variables to track during the session include: the patient's current emotional state, automatic thoughts, physiological reactions, behaviors, activated core beliefs, intermediate beliefs (attitudes, rules, assumptions), situational triggers, degree of insight/self-reflection, coping strategies in use, openness to reality-testing, degree of distress, and engagement as well as any emergence of new data relevant to conceptualization."
+    },
+    "knowledge_graph": {
+      "summary": "Long-term memory dimensions to track across sessions include: historical and developmental antecedents (significant life events, interactions, trauma), core beliefs about self, others, and the world; intermediate beliefs (rules, attitudes, assumptions); common cognitive distortions or thinking patterns; coping strategies used historically and currently; patterns of automatic thoughts; vulnerabilities and strengths; positive and negative data processing tendencies; and ongoing modifications to the conceptualization based on new patient information."
+    },
+    "cautions": {
+      "summary": "Therapists should avoid prematurely questioning or challenging deeply held core beliefs, as this can threaten the therapeutic alliance and reduce credibility. They should refrain from making interpretations or inferences not based on actual patient data, avoid rigid or fixed conceptualizations (incorporate patient feedback and new data), and avoid invalidating the patient’s current perceptions or experiences."
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "Patient reports a strong negative emotion, dysfunctional behavior, or physiology shift",
+          "then": "Ask, 'What was going through your mind just then?' to elicit automatic thought."
+        },
+        {
+          "if": "Patient expresses an automatic thought as a truth",
+          "then": "Encourage reality-testing by asking the patient to evaluate the validity of the thought."
+        },
+        {
+          "if": "Conceptualization hypothesis is being formed or modified",
+          "then": "Check the hypothesis directly with the patient for accuracy and resonance."
+        },
+        {
+          "if": "Therapist is considering challenging a core belief",
+          "then": "Assess whether the belief is entrenched and avoid challenging if too early in therapy."
+        },
+        {
+          "if": "New patient data contradicts prior formulation",
+          "then": "Modify the conceptualization accordingly and communicate changes to the patient as appropriate."
+        },
+        {
+          "if": "Patient has difficulty articulating thoughts or beliefs",
+          "then": "Use specific situational questioning and affect cues to help the patient access their cognitions."
+        },
+        {
+          "if": "Therapist notices positive data about the patient",
+          "then": "Encourage the patient to process and acknowledge positive data instead of discounting or ignoring it."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The evaluation session is structured around several high-level phases: pre-session information gathering, greeting and collaborative agenda-setting, conducting a comprehensive assessment covering multiple biopsychosocial areas, setting broad initial treatment goals, eliciting feedback and concerns, involving family members if appropriate, summarizing initial impressions and the cognitive model, managing expectations regarding therapy duration and process, and devising a tentative initial cognitive conceptualization and treatment plan after the session. Throughout, the therapist establishes a therapeutic alliance and begins socializing the patient into CBT structure."
+    },
+    "micro_actions": {
+      "summary": "Micro-actions include: greeting the patient; collaboratively deciding on family member involvement; reviewing pre-completed forms and records; explaining session structure and expectations; providing rationale for assessment questions; actively questioning about symptoms, daily routines, thoughts, feelings, and behaviors; probing for both negatives and positives (strengths, adaptive coping); gently interrupting when necessary to keep conversation focused; asking for feedback and reactions to plans; eliciting unspoken concerns or reluctance; noting specific patient requests/issues; jotting down goals; presenting initial impressions in accessible language; expressing collaborative stance; summarizing problems and initial treatment plan; reinforcing expressions of skepticism; and clarifying or personalizing treatment expectations."
+    },
+    "conversation_states": {
+      "summary": "Key dimensions to continuously track include: - Patient's presenting problems and chief complaints - Current functioning in various domains (school, social, daily routines) - Symptom severity, onset, and fluctuations (e.g., mood variations) - Suicidal risk and ideation - Coping strategies (adaptive/maladaptive) - Patient engagement, motivation, and willingness to commit to therapy - Patient's automatic thoughts, core beliefs, and expressed emotions (hopelessness, sadness, anxiety) - Feedback from patient (including doubts, concerns, and alliance strength) - Family/member perspectives (if involved) - Degree of social isolation, avoidance behaviors - Positive qualities, strengths, and values"
+    },
+    "knowledge_graph": {
+      "summary": "Dimensions to track across sessions about the patient include: - Demographics - Psychiatric, medical, substance use history - Developmental, educational, vocational, social, family history - Core beliefs (e.g., incompetence, unlovability, worthlessness) and their developmental antecedents - Patterns of automatic thoughts and behaviors associated with key problems - Previous and ongoing treatments, helpfulness, and alliances with prior clinicians - Adaptive coping strategies and strengths - Chronicity/severity/course of psychiatric disorders - Treatment goals and progress across time - Relapse prevention needs and plans"
+    },
+    "cautions": {
+      "summary": "Warnings include: Do not mistake organic/medical issues for psychological ones; avoid assuming diagnosis from previous clinicians without your own comprehensive assessment; do not prematurely label or disclose severe mental illness/personality disorder; avoid over-focusing on negatives (also elicit strengths/adaptive behavior); beware of allowing patient to go off on tangents—interrupt gently and respectfully as needed; do not push patient to reveal sensitive information without appropriate consent or readiness; avoid rigid/one-size-fits-all treatment—personalize plans; do not neglect suicidal risk assessment."
+    },
+    "rules": {
+      "summary": "[{\"if\": \"Patient expresses skepticism or concern about treatment plan\", \"then\": \"Reinforce expression of concern; elicit specific doubts or preferred alternatives; conceptualize the concern in cognitive terms; personalize response and encourage trial of the approach.\"}, {\"if\": \"Patient starts to provide excessive or irrelevant detail during assessment\", \"then\": \"Gently interrupt, explain need to focus, and guide patient back to structured answers.\"}, {\"if\": \"Patient shows hesitancy or expresses automatic thoughts indicating hopelessness or reluctance to engage\", \"then\": \"Probe for underlying beliefs and emotions; normalize and address these thoughts; elicit feedback on alliance.\"}, {\"if\": \"Reviewing records indicates incomplete medical/mental health information\", \"then\": \"Request relevant reports from previous/current professionals and pursue additional data before forming a diagnosis.\"}, {\"if\": \"Family member present or available\", \"then\": \"Collaboratively decide with the patient about their involvement; always seek patient consent before sharing or inquiring sensitive information in their presence.\"}, {\"if\": \"Session nearing end\", \"then\": \"Summarize initial impressions and broad goal areas; elicit feedback and address any final concerns.\"}, {\"if\": \"Detect suicide risk or high symptom severity\", \"then\": \"Follow relevant assessment guidelines and coordinate adjunctive care or increase session frequency as needed.\"}]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter outlines high-level interventions for structuring the first cognitive behavioral therapy session. The therapist establishes rapport, explains session structure (agenda-setting), discusses diagnosis and psychoeducation, performs a mood check, identifies problems and sets collaborative goals, introduces the cognitive model, begins problem solving or behavioral activation, provides session summaries, sets homework assignments, and elicits feedback to strengthen engagement and the therapeutic alliance."
+    },
+    "micro_actions": {
+      "summary": "Micro-intervention actions include greeting the patient, collaboratively setting and revising the agenda, providing rationales for actions, inviting the patient to add agenda items, performing a mood check using forms or subjective ratings, asking for updates and probing for both negative and positive experiences, gently directing conversations, normalizing symptoms, giving hope, explaining diagnostic labels accessibly, using analogies, encouraging patient verbalization and understanding, recording goals and homework, checking for suicidality, breaking goals into behavioral terms, teaching how to track thoughts and mood shifts, collaboratively problem-solving difficulties, summarizing progress, specifying homework logistics (timing, methods), adjusting assignments for feasibility, and explicitly eliciting and responding to feedback about the session and therapist behavior."
+    },
+    "conversation_states": {
+      "summary": "Therapists should continuously track rapport and trust, patient engagement and understanding, mood and symptom severity (from forms and self-reports), distress and urgency related to problems, priority of issues for discussion, patient insight into the cognitive model, degree of hopelessness and suicidality risk, willingness and ability to set/accept homework, emotional reactions to session structure or interventions, and any misunderstandings or dissatisfaction expressed."
+    },
+    "knowledge_graph": {
+      "summary": "Dimensions to track across sessions include diagnosis and symptom profiles (including severity over time), patient’s goal list (with behavioral specifications), homework adherence and outcomes, recurring automatic thoughts and cognitive patterns, important life events/updates, patient’s understanding of the cognitive model, alliance strength and feedback history, prominent stressors or pressing problems, and adaptations required for the homework or interventions."
+    },
+    "cautions": {
+      "summary": "Do not dictate the agenda in an overly controlling fashion; avoid using stigmatizing diagnostic labels (especially personality disorders); do not proceed with educational or cognitive interventions if the patient is too distressed or overloaded; avoid pushing too hard with cognitive model explanations if it causes discomfort or negative self-assessment. Don’t ignore serious concerns/issues (suicidality, overwhelming problems). Don’t assign homework without ensuring feasibility and collaboration, and do not dismiss patient feedback or signs of dissatisfaction."
+    },
+    "rules": {
+      "summary": "- {\"if\": \"Patient expresses preference to discuss a different topic or resist agenda\", \"then\": \"Be collaborative; consider splitting session time or deferring standard structure to maintain engagement.\"}\n- {\"if\": \"Patient is unable or unwilling to complete symptom forms\", \"then\": \"Use alternative mood rating (e.g., 0–10 scale, verbal description) and adjust accordingly.\"}\n- {\"if\": \"Patient presents pressing or high-risk problem\", \"then\": \"Prioritize problem discussion and risk management before continuing session structure.\"}\n- {\"if\": \"Homework or assignments seem overwhelming or cause distress\", \"then\": \"Make homework optional, collaboratively adapt or reconsider assignments.\"}\n- {\"if\": \"Patient provides negative feedback about session\", \"then\": \"Specify the problem, express understanding, clarify misunderstandings, and make adjustments for next session.\"}\n- {\"if\": \"Patient sets goals for someone else’s behavior\", \"then\": \"Redirect toward actionable goals within patient’s direct control.\"}\n- {\"if\": \"Patient has difficulty grasping the cognitive model\", \"then\": \"Use concrete aids, limit explanations, and defer more intensive teaching to future session as needed.\"}\n- {\"if\": \"Discussing diagnosis\", \"then\": \"Use accessible language, normalize, and avoid stigmatizing diagnostic labels.\"}\n- {\"if\": \"Setting homework\", \"then\": \"Specify clear, feasible steps; agree on frequency and reminders collaboratively.\"}"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "- Therapist provides psychoeducation about inactivity and behavioral activation for depression.\n- Reviews patient's typical daily schedule to identify problematic behaviors and areas for behavioral activation.\n- Guides patient to select, schedule, and commit to specific pleasurable or mastery activities.\n- Elicits and addresses automatic thoughts that interfere with activity initiation and enjoyment.\n- Sets up behavioral experiments to test validity of negative predictions regarding activities and mood.\n- Reinforces effort and progress by teaching patient to give themselves credit for doing activities.\n- Uses activity charts and rating scales (pleasure, mastery) to systematically track activities and mood.\n- Reviews and reflects on activity chart data to assess accuracy of patient’s predictions and identify new cognitive targets."
+    },
+    "micro_actions": {
+      "summary": "- Ask open-ended questions to elicit changes in activity patterns and mood (\"What do you notice about your schedule?\")\n- Directly elicit automatic thoughts interfering with activity (\"What's going through your mind right now?\")\n- Write down automatic thoughts and identify them as predictions for testing.\n- Inquire about evidence for and against patient’s negative predictions.\n- Suggest specific, manageable activities and collaboratively schedule them by time of day.\n- Ask patient to rate sense of pleasure and accomplishment after activities using scales.\n- Summarize and reflect back patient’s statements and mood ratings.\n- Reinforce and praise small efforts at activity.\n- Offer forced-choice from activity lists when patient cannot generate ideas.\n- Hypothesize and verbally address additional interfering cognitions.\n- Gently persist and encourage when patient is inactive or reluctant.\n- Encourage patient to fill out activity charts immediately after activities or at set times each day.\n- Review and discuss charted predictions versus actual experiences in subsequent sessions.\n- Help patient reframe self-critical comparisons (e.g., compare to worst, not best point)."
+    },
+    "conversation_states": {
+      "summary": "- Level and type of activity engagement (passive, active, pleasurable, mastery-related).\n- Patient’s automatic thoughts and predictions regarding activity, energy, and mood.\n- Emotional states connected with activity initiation, execution, and reflection (sadness, guilt, frustration, dysphoria).\n- Degree of commitment/reluctance to behavioral experiments and scheduled activities.\n- Ratings of pleasure and mastery for specific activities.\n- Balance between mastery and pleasurable activities.\n- Patient’s perceived self-efficacy and ability to give themselves credit.\n- Energy level (subjective fatigue/tiredness).\n- Change/responsiveness in mood as activities are initiated (from chart data)."
+    },
+    "knowledge_graph": {
+      "summary": "- Patient’s typical activity patterns and routines (daily schedule).\n- Historical changes in activity since onset of depression.\n- List of pleasurable/mastery activities with corresponding pleasure/mastery ratings.\n- Records of automatic thoughts, emotional reactions, and behavioral experiments conducted.\n- Data on predictions and actual outcomes (predicted vs. experienced pleasure/mastery).\n- Evidence and outcomes from behavioral experiments testing dysfunctional cognitions.\n- Cumulative progress in activity scheduling and adherence across sessions.\n- Patterns and insights from activity chart reviews.\n- Patient’s ability and history of self-reinforcement (giving self credit)."
+    },
+    "cautions": {
+      "summary": "- Do not overwhelm inactive/severely depressed patients with overly ambitious or packed schedules; build up slowly.\n- Do not ignore or fail to address automatic/self-critical thoughts that interfere with activity enjoyment or execution.\n- Avoid focusing solely on activity quantity—ensure balance between mastery and pleasure.\n- Do not dismiss patient reluctance or invalidate skeptical predictions; use behavioral experiments instead.\n- Avoid failure to reinforce small steps or progress; lack of positive reinforcement may decrease motivation.\n- Do not fail to track and respond to fluctuating mood and ratings after activities.\n- Refrain from pushing patients to compare themselves unfavorably to their best pre-depression functioning."
+    },
+    "rules": {
+      "summary": "- {\"if\": \"Patient expresses belief that they cannot become more active or doubt that activity will improve mood\", \"then\": \"Provide psychoeducation about behavioral activation and propose a behavioral experiment to test beliefs.\"}\n- {\"if\": \"Patient is unable to generate pleasurable or mastery activities\", \"then\": \"Offer activity lists and use forced-choice questioning to narrow options.\"}\n- {\"if\": \"Patient makes negative predictions about an upcoming activity\", \"then\": \"Write down predictions as testable hypotheses and encourage behavioral experiments.\"}\n- {\"if\": \"Patient is skeptical about mood changes from activity\", \"then\": \"Teach patient to rate pleasure and mastery immediately after activities and compare with predictions.\"}\n- {\"if\": \"Patient is very inactive or severely depressed\", \"then\": \"Collaboratively schedule manageable short activities, balancing activity with rest/leisure, and do not overwhelm with too busy a schedule.\"}\n- {\"if\": \"Patient engages in activities and has self-critical automatic thoughts\", \"then\": \"Elicit and address such thoughts, help patient reframe them, and teach comparison to their worst, not best, functioning.\"}\n- {\"if\": \"Patient completes an activity or behavioral experiment\", \"then\": \"Reinforce effort and teach patient to give themselves credit, regardless of outcome.\"}\n- {\"if\": \"Patient reports unchanged mood after scheduled activities\", \"then\": \"Review chart data for subtle mood shifts and address interfering automatic thoughts.\"}\n- {\"if\": \"Patient is overscheduled or experiences a poor balance of pleasure/mastery\", \"then\": \"Adjust schedule to improve balance and reinforce efforts to make changes.\"}"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter outlines the structured format for CBT sessions from Session 2 onward, consisting of distinct phases: (1) Initial Part (mood check, agenda setting, update of week, homework review, prioritizing agenda), (2) Middle Part (select and work on specific problems using CBT interventions, teach relevant skills, collaboratively set homework assignments, periodic summaries), and (3) End of Session (final summary, homework review, elicit feedback). Therapists work to build rapport, reinforce the cognitive model, teach skill identification and evaluation of automatic thoughts, facilitate problem-solving, and gradually transfer responsibility for these tasks to the patient across sessions."
+    },
+    "micro_actions": {
+      "summary": "Therapists should perform moment-to-moment actions such as: giving concise instructions/requesting brief updates, gently interrupting to keep interactions focused, eliciting attributions for mood changes, probing for evidence when evaluating automatic thoughts, summarizing and paraphrasing using the patient’s own words, encouraging the identification and recording of automatic thoughts, reinforcing adaptive changes, collaboratively prioritizing and modifying the agenda, prompting for positive experiences and homework completion, setting implementation intentions for homework, and eliciting and addressing patient feedback. Notes are taken during the session but with eye contact preserved."
+    },
+    "conversation_states": {
+      "summary": "Therapists must continuously track: patient’s current and week-long mood (self-report and objective scores), emotional state and affect changes, belief strengths (ratings), presence and content of automatic thoughts, homework completion and barriers, agenda items (patient’s and therapist’s priorities), degree of engagement and alliance, symptom changes or new symptoms (suicidal ideation, anxiety, sleep issues, etc.), adherence to medication (if relevant), and patient’s ability/willingness to summarize, prioritize, and give feedback."
+    },
+    "knowledge_graph": {
+      "summary": "Long-term information tracked about the patient includes: historical and current problem areas, symptom progression (objective and subjective measures over time), belief structures and their change (old/new beliefs with strength ratings), content and outcome of automatic thoughts, homework history, skills acquisition progress, alliance/feedback records, notes on successful and unsuccessful interventions, and items for future agendas or treatment phases (including relapse prevention)."
+    },
+    "cautions": {
+      "summary": "Warnings include: do not allow patients to elaborate excessively or drift off agenda without therapeutic purpose; avoid summarizing a patient's problems with your own words instead of theirs; do not recommend changes in medication if you are not the provider; do not push patients to evaluate thoughts before they have the necessary skills (may worsen mood); do not neglect homework review as non-review leads to non-compliance; avoid insufficient note-taking or poor documentation; do not ignore negative feedback as this undermines the alliance."
+    },
+    "rules": {
+      "summary": "[{\"if\": \"patient elaborates at length about mood or drifts off topic\", \"then\": \"gently interrupt and redirect patient to give a concise description or return to agenda/prioritized problem\"}, {\"if\": \"therapist notes discrepancy between self-report and objective scores\", \"then\": \"question and explore underlying reasons for discrepancy\"}, {\"if\": \"reviewing automatic thoughts and beliefs\", \"then\": \"use patient’s own words when summarizing and evaluating for maximum activation and accurate understanding\"}, {\"if\": \"patient provides negative feedback or expresses discomfort with session\", \"then\": \"positively reinforce feedback, apologize if needed, and plan to address at start of next session if time is lacking\"}, {\"if\": \"agenda items exceed feasible session coverage\", \"then\": \"collaboratively prioritize with patient and defer secondary items to future sessions\"}, {\"if\": \"unexpected important new topic arises in session\", \"then\": \"explicitly note change, elicit patient’s agreement to pursue or postpone topic\"}, {\"if\": \"taking session notes\", \"then\": \"maintain eye contact and pause note-taking during emotionally intense disclosures\"}, {\"if\": \"patient’s mood has worsened without clear attribution\", \"then\": \"explore links to thinking and behavior, and reinforce the cognitive model of control over mood\"}, {\"if\": \"patient persists in belief that nothing can improve mood\", \"then\": \"introduce intervention (e.g., better/worse list) to collaboratively identify modifiable factors\"}, {\"if\": \"not the prescribing provider and medication issues are raised\", \"then\": \"help patient list specific questions to discuss with provider, but do not suggest medication changes\"}, {\"if\": \"patient has difficulty identifying agenda items\", \"then\": \"provide encouragement and guidance toward problem identification\"}]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter details high-level intervention strategies for structuring CBT sessions. Key phases include: (1) gently interrupting and directing the session, (2) socializing the patient to CBT expectations and session structure, (3) engaging the patient by addressing dysfunctional beliefs interfering with participation, (4) strengthening the therapeutic alliance and negotiating session structure, (5) managing specific session elements (mood check, update, agenda setting, discussion, homework, summary, feedback), and (6) collaboratively problem-solving around difficulties. Therapists are encouraged to monitor and solve structural problems as they arise, moving patients toward standard CBT session formats with flexibility as needed."
+    },
+    "micro_actions": {
+      "summary": "Micro-interventions include gentle interruptions, explicit agenda-setting questions, offering rationale for requests, checking for automatic thoughts or affect shifts, making empathic statements and apologies as needed, collaborative negotiation of session structure, summarizing patient statements, demonstrating concise responses, modelling problem-solving, asking patients to rate emotions on scales, eliciting and addressing feedback, reviewing notes and homework assignments, writing down homework, covert rehearsal of assignments, and adjusting intervention pacing/time management within session."
+    },
+    "conversation_states": {
+      "summary": "Therapists should continuously track: patient affect (including shifts in mood, distress, engagement or annoyance), patient’s automatic thoughts and beliefs (about therapy, structure, homework, and ability to change), degree of involvement and compliance with session elements, clarity of goals, therapeutic alliance strength, patient feedback (explicit/implicit), session pacing/time, relevance and effectiveness of interventions, and the patient’s ability to succinctly express mood and agenda topics."
+    },
+    "knowledge_graph": {
+      "summary": "Long-term dimensions to track across sessions include: patient’s progress in socialization to CBT session structure, recurring automatic thoughts and dysfunctional beliefs (especially about homework, therapy, and self-efficacy), preferred communication and structuring styles, ongoing therapeutic alliance status, problem areas recurrently discussed, patient’s history responding to session interventions, completion and difficulty of homework assignments, and feedback about session process."
+    },
+    "cautions": {
+      "summary": "Therapists should avoid: being overly controlling or demanding in session structuring, pushing patients too rigidly when there is resistance (which risks damaging the alliance), neglecting to elicit or respond to patient feedback or distress, failing to apologize for misgauged interventions, giving homework without adequate rationale or instructions, forgetting to review homework, noncollaborative assignment setting, or focusing too much/too little on homework when it is not the patient’s priority."
+    },
+    "rules": {
+      "summary": "[{\"if\": \"Therapist identifies a negative affect shift after interrupting or structuring the session\", \"then\": \"Ask the patient what went through their mind; if still unclear, hypothesize that interruption may have been upsetting and respond accordingly.\"}, {\"if\": \"Patient expresses annoyance or resistance to session structure or assignments\", \"then\": \"Empathize and collaboratively negotiate or adjust structuring and assignment requests.\"}, {\"if\": \"Patient is unable or unwilling to succinctly review mood or weekly events\", \"then\": \"Gently interrupt and model or instruct concise responses; demonstrate as needed.\"}, {\"if\": \"Therapist notes patient’s difficulty with homework adherence\", \"then\": \"Review rationale, discuss obstacles, provide instructions, do covert rehearsal, and collaboratively set assignments.\"}, {\"if\": \"Patient is distressed at session end or gives negative feedback\", \"then\": \"Elicit feedback, clarify misunderstandings, express empathy, and collaboratively resolve for future sessions.\"}, {\"if\": \"Therapist overestimates agenda items for session\", \"then\": \"Prioritize two or three topics and collaboratively monitor time with patient.\"}, {\"if\": \"Session tape or peer review indicates therapist was too controlling\", \"then\": \"Model apologizing and discuss session structure preferences with patient in the next session.\"}]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter describes several macro-level therapist actions: explaining the concept of automatic thoughts using patient examples and psychoeducation; eliciting and specifying automatic thoughts, including associated emotions and situations; teaching patients to identify their own automatic thoughts in and between sessions; using Socratic and collaborative dialogue; and reinforcing the relationship between thoughts, emotions, and behaviors as part of the cognitive model."
+    },
+    "micro_actions": {
+      "summary": "The therapist operationalizes these strategies by: asking targeted questions such as \"What was going through your mind?\"; prompting for emotions and physiological correlates; using imagery and role play to recreate situations and heighten emotional responses; eliciting detailed descriptions of context; supplying hypothetical or opposite thoughts when patients struggle; asking for the meaning behind events; guiding patients to restate telegraphic or question-form thoughts as fully formed statements; and prompting for actual words or images rather than interpretations. The therapist checks patient understanding and assigns homework to practice identifying automatic thoughts."
+    },
+    "conversation_states": {
+      "summary": "Therapist tracks the following states during the session: patient's current emotions, mood shifts, physiological responses, nonverbal and verbal cues of affect changes, situations or topics causing distress, patient’s awareness or ability to articulate automatic thoughts, form and specificity of reported thoughts (verbal, imaginal; statement vs. question vs. interpretation), presence of secondary thoughts about emotions/behaviors/physiology, and the specific point in time (before, during, after) where distress peaks in a situation."
+    },
+    "knowledge_graph": {
+      "summary": "Dimensions to track across sessions include: typical automatic thought patterns, domains/situations that elicit the most distressing thoughts, patient’s progress/skill in identifying automatic thoughts, recurrent themes or core beliefs underlying thought content, repeated emotional/behavioral responses tied to specific thought patterns, strategies or techniques that have/ have not helped patient access and articulate their thoughts, and cues or triggers for mood changes."
+    },
+    "cautions": {
+      "summary": "Therapist should avoid interrogating or pressuring the patient when they struggle to identify thoughts (which can induce feelings of inadequacy or failure); should not accept interpretations or general statements in place of actual automatic thoughts; should be cautious about leading patients to speculate inaccurately about their thoughts when supplying hypothetical or opposite thoughts; and should avoid moving too quickly without clarifying patient understanding of the cognitive model."
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "Patient describes an affect shift or expresses negative emotion",
+          "then": "Ask, 'What was going through your mind?' to elicit automatic thoughts."
+        },
+        {
+          "if": "Patient has difficulty naming automatic thoughts",
+          "then": "Use techniques such as imagery, role play, asking for meaning, supplying opposite thoughts, or rephrasing the question."
+        },
+        {
+          "if": "Patient reports thoughts in telegraphic or question form",
+          "then": "Guide them to restate the thought as a full statement for evaluation."
+        },
+        {
+          "if": "Patient reports interpretations or generalizations rather than actual thoughts",
+          "then": "Prompt for the actual words or images that went through their mind."
+        },
+        {
+          "if": "Patient continues to struggle and feels pressured or inadequate",
+          "then": "Collaborate to shift topics to prevent feelings of failure or interrogation."
+        },
+        {
+          "if": "Patient reports an initial automatic thought about a distressing situation",
+          "then": "Continue questioning to elicit additional, potentially important automatic thoughts."
+        },
+        {
+          "if": "Patient demonstrates a lack of understanding of the cognitive model",
+          "then": "Pause to clarify and check understanding before proceeding."
+        },
+        {
+          "if": "Patient is unable to identify the most distressing issue among several",
+          "then": "Help narrow down by hypothetical elimination and assessing emotional relief."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The therapist guides the patient through high-level phases including: (1) distinguishing and labeling emotions, (2) differentiating automatic thoughts from emotions, (3) investigating mismatches between thoughts and reported emotions, (4) teaching emotion vocabulary when needed, (5) helping patients identify and rate emotional intensity, and (6) using emotional intensity ratings to prioritize which situations to discuss in therapy. The therapist consistently empathizes with emotions but focuses intervention on thoughts and beliefs, not on challenging the emotions themselves."
+    },
+    "micro_actions": {
+      "summary": "- The therapist asks specific questions to elicit the patient’s emotional state and underlying automatic thoughts in response to events.\n- Subtly or explicitly corrects patient when emotions and thoughts are mislabeled.\n- Guides the patient to recall specific situations and then probes for the associated thoughts and feelings.\n- Uses concrete tools like emotion charts and lists of emotion words to assist labeling.\n- Offers rating scales (numeric or qualitative) for patients to quantify emotional intensity.\n- Asks follow-up questions based on emotional ratings to decide whether to proceed with or shift focus in the session."
+    },
+    "conversation_states": {
+      "summary": "- Emotional label (the specific emotion the patient reports)\n- Emotional intensity (degree/percentage, qualitative scale, or ranking)\n- Situational context (recent events, triggers)\n- Content of automatic thoughts linked to emotional experiences\n- Consistency between reported emotions and identified thoughts\n- Difficulty level in labeling emotions\n- Change in emotional intensity over time (within-session, between situations)"
+    },
+    "knowledge_graph": {
+      "summary": "- Patient’s typical emotional vocabulary and any deficits\n- Patterns of emotional responses in varied situations\n- List of situations, automatic thoughts, and emotions (charts or records)\n- Dysfunctional beliefs about emotions (e.g., fear that minor distress will escalate)\n- Emotional intensity ratings linked to specific situations and their progress over sessions"
+    },
+    "cautions": {
+      "summary": "- Do not challenge, dispute, or evaluate the patient’s emotions.\n- Do not ignore subtle discrepancies between thoughts and emotions that could indicate deeper issues.\n- Do not proceed with a topic if the emotional intensity is low and the situation lacks therapeutic value.\n- Do not assume an intervention has succeeded without assessing post-intervention emotion intensity.\n- Do not focus exclusively on negative emotions; encourage discussion of positive events and emotions as relevant."
+    },
+    "rules": {
+      "summary": "- {\"if\": \"Patient confuses thoughts with emotions or vice versa\", \"then\": \"Gently correct mislabeling by clarifying the difference between thoughts (ideas, beliefs) and emotions (feelings, usually single words).\"}\n- {\"if\": \"An emotion label does not match the content of the reported automatic thought\", \"then\": \"Investigate further to clarify thought-emotion connection, possibly using imagery or recall techniques.\"}\n- {\"if\": \"Patient has difficulty labeling emotions\", \"then\": \"Provide emotion charts, word lists, and help link emotions to specific situations.\"}\n- {\"if\": \"Patient struggles to quantify emotional intensity\", \"then\": \"Offer numerical or descriptive scales and guide the patient through rating their feelings.\"}\n- {\"if\": \"A situation is reported with low or resolved emotional intensity\", \"then\": \"Consider shifting focus to a situation with higher emotional distress for therapeutic work.\"}\n- {\"if\": \"Therapist recognizes a dysfunctional belief about experiencing emotion\", \"then\": \"Help the patient rate emotional intensity and test the belief as appropriate.\"}\n- {\"if\": \"Patient reports both positive and negative emotions/events\", \"then\": \"Discuss positive events and encourage activities that foster mastery and pleasure.\"}"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter describes several high-level therapeutic strategies for evaluating automatic thoughts within CBT sessions. These include: selecting which automatic thoughts to focus on, collaboratively evaluating the validity and impact of key automatic thoughts through Socratic questioning and alternate methods, assessing the outcome of these interventions, conceptualizing why an evaluation may be ineffective, teaching patients the skill of self-evaluating their own thoughts, deciding how to proceed when thoughts are true (problem-solving, investigating conclusions, working toward acceptance), and progressively encouraging patient autonomy in applying these evaluation skills."
+    },
+    "micro_actions": {
+      "summary": "Therapists operationalize these macro strategies through specific conversational moves within each dialogue step, such as:  - Eliciting and clarifying the automatic thought, underlying situation, and emotional response.  - Asking Socratic questions about evidence for and against the thought, alternative explanations, worst/best/most realistic outcomes, impact of believing the thought, and how to cope.  - Distancing (asking what the patient would advise a friend in a similar situation).  - Summarizing the patient’s responses to highlight both supporting and contrary evidence.  - Guiding problem-solving steps if thoughts are valid.  - Labeling and teaching cognitive distortions when they occur.  - Using self-disclosure of similar experiences when appropriate.  - Offering or tailoring question lists for homework/practice.  - Assessing belief change and emotional shifts after evaluation.  - Exploring further if the evaluation is ineffective (e.g., seeking missing thoughts/images/evidence, probing for core beliefs, distinguishing intellectual vs. emotional acceptance).  - Modeling functional coping and adaptive responses."
+    },
+    "conversation_states": {
+      "summary": "Key patient variables and process dimensions the therapist should track include:  - Current and residual distress level (intensity, persistence of emotions).  - Strength of belief in both the automatic thought and the adaptive response (rated values, qualitative shifts).  - Type and significance of automatic thoughts (distressing, recurrent, central to core beliefs).  - Content and pattern of cognitive distortions.  - Behavioral responses to automatic thoughts (functional vs. dysfunctional actions).  - Patient readiness/skill in evaluating thoughts independently.  - Responses to homework assignments, experiences of frustration or defeatism.  - Patient’s level of understanding and emotional internalization vs. mere intellectual change."
+    },
+    "knowledge_graph": {
+      "summary": "Long-term dimensions for continued tracking include:  - Catalog of the patient’s typical automatic thoughts and related cognitive distortions.  - Core beliefs and their stability/change over time.  - Patterns in distress triggers and recurrent problematic situations.  - Patient’s evolving competence in evaluating and responding to thoughts.  - Effective and ineffective interventions used, outcomes, and patient reactions.  - Adaptive responses, coping strategies, and the patient’s use/acceptance of these externally and internally.  - Common areas of avoidance or difficulty in thought evaluation or emotional processing."
+    },
+    "cautions": {
+      "summary": "Therapists are warned against:  - Directly challenging or invalidating automatic thoughts, as this can harm the therapeutic relationship.  - Encouraging patients to ignore genuine evidence supporting an automatic thought or adopt a superficially positive or unrealistic reframing.  - Using all Socratic questions indiscriminately, making the process burdensome or overwhelming.  - Proceeding with cognitive restructuring when a patient’s distress is too high, the relationship is at risk, or insufficient time is available.  - Overloading patients with information about cognitive distortions or evaluation questions if they appear overwhelmed.  - Assigning thought evaluation tasks without preparing patients to handle frustration, self-criticism, or setbacks that may arise."
+    },
+    "rules": {
+      "summary": "[\n  {\"if\": \"A patient expresses an automatic thought with significant current distress\", \"then\": \"Use Socratic questioning to evaluate evidence for and against the thought collaboratively.\"},\n  {\"if\": \"The patient no longer feels distress and has solved the problem functionally\", \"then\": \"Do not focus further on the automatic thought; move on to a more central issue.\"},\n  {\"if\": \"Therapist observes signs of invalidation or excessive distress during evaluation\", \"then\": \"Defer thought evaluation to protect therapeutic relationship or emotional safety.\"},\n  {\"if\": \"A patient persistently believes a thought or does not feel better emotionally after evaluation\", \"then\": \"Conceptualize reasons for ineffective intervention (e.g., unaddressed thoughts/images, core beliefs, insufficient probing) and adjust strategy.\"},\n  {\"if\": \"An automatic thought turns out to be true\", \"then\": \"Switch focus to problem-solving steps, examine the conclusion for dysfunction, and/or work toward acceptance as needed.\"},\n  {\"if\": \"A patient appears overwhelmed by questions or cognitive distortions\", \"then\": \"Introduce questions and cognitive distortion labels gradually, tailoring number and complexity to the patient’s readiness.\"},\n  {\"if\": \"Assigning homework for thought evaluation\", \"then\": \"Prepare patient for possible frustration, validate skill development, and encourage documentation of barriers or thoughts arising.\"}\n]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "- Facilitating evaluation and response to automatic thoughts between sessions.\n- Teaching patients to record and review adaptive responses to known automatic thoughts.\n- Guiding patients in the use of Socratic questions, thought records, or alternative worksheets for novel automatic thoughts.\n- Encouraging use of behavioral assignments and coping strategies (problem-solving, distraction, relaxation, labeling, and acceptance).\n- Reviewing and reinforcing therapy notes as daily preparation and support.\n- Introducing and scaffolding the use of structured worksheets (Thought Record, Testing Your Thoughts) as appropriate to patient ability.\n- Using alternative approaches (AWARE technique, distraction, relaxation) when cognitive evaluation is difficult."
+    },
+    "micro_actions": {
+      "summary": "- Asking patients to summarize adaptive responses after evaluating thoughts in session.\n- Prompting patient to record these responses (written or audio).\n- Suggesting regular reading or listening to therapy notes, ideally daily.\n- Checking for completeness, clarity, and helpfulness of patient-generated responses; offering concise rewording or additions.\n- Directing patients to use therapy notes or Socratic questions when distressed.\n- Teaching stepwise completion of worksheet columns during skill building (Situation, Thought, Emotion, Distortion, Response, Outcome) and prompting specific ratings/intensities.\n- Instructing patients on how/when to use worksheets (pull out when mood worsens; write down thoughts and feeling intensities).\n- Introducing worksheet alternatives for patients needing simpler formats.\n- Modeling and guiding through relaxation/distraction/acceptance steps as needed."
+    },
+    "conversation_states": {
+      "summary": "- Patient’s current mood/intensity and trends over time.\n- Presence and content of automatic thoughts and images.\n- Degree of belief in automatic thoughts and adaptive responses.\n- Emotional intensity relating to each thought (e.g., sadness, anxiety, anger, % ratings).\n- Level of patient engagement and understanding in using worksheets or other strategies.\n- Frequency and patterns of reviewing therapy notes or engaging in homework.\n- Degree of patient motivation or capacity for self-monitoring outside session.\n- Recognition of cognitive distortions present in self-talk or worksheet completion."
+    },
+    "knowledge_graph": {
+      "summary": "- Record of previously identified automatic thoughts and adaptive responses.\n- Patient’s history of therapy note usage and behavioral assignments.\n- Patterns and outcomes of responding to specific automatic thoughts.\n- Documentation of completed worksheets (Thought Record, Testing Your Thoughts) and what responses/effectiveness were recorded.\n- Individual coping strategies found effective for the specific patient.\n- Observations of patient preferences or obstacles in recording/reviewing notes (written, audio, etc.).\n- Ongoing evaluation of areas where patient struggles (e.g., types of cognitive distortion, superﬁcial or incomplete responses, emotional overwhelm)."
+    },
+    "cautions": {
+      "summary": "- Do not overemphasize or rigidly require worksheet completion; avoid making patients feel inadequate if the worksheet is not helpful.\n- Avoid insisting all questions or worksheets be used for every automatic thought; tailor to patient’s needs and abilities.\n- Do not ignore superﬁcial, confused, or incomplete responses—clarify or supplement as needed.\n- Do not expect negative emotion to be eliminated completely by the exercises.\n- Avoid pushing cognitive strategies when emotion is too high or executive function impaired; use supportive alternatives."
+    },
+    "rules": {
+      "summary": "[\n  {\"if\": \"Patient expresses a confused or incomplete summary of adaptive response\", \"then\": \"Provide a concise, helpful rewording and offer for patient to record the improved response.\"},\n  {\"if\": \"Patient mood worsens and a familiar automatic thought arises\", \"then\": \"Prompt patient to review recorded therapy notes or coping cards before attempting further evaluation.\"},\n  {\"if\": \"Patient encounters a new automatic thought outside session\", \"then\": \"Suggest use of Socratic questions or a structured worksheet to evaluate and respond to the thought.\"},\n  {\"if\": \"Patient finds worksheet too challenging or unhelpful\", \"then\": \"Offer a simpler worksheet or alternative strategy, such as relaxation or distraction.\"},\n  {\"if\": \"Patient reports high emotional distress that blocks evaluation\", \"then\": \"Guide patient in using acceptance, distraction, or relaxation techniques before returning to cognitive intervention.\"},\n  {\"if\": \"Patient avoids reading/listening to notes due to time or motivation concerns\", \"then\": \"Highlight brevity of note reading and support regular, proactive use, possibly via audio or assistance from environment.\"},\n  {\"if\": \"Patient loses therapy notes\", \"then\": \"Provide a copy from therapist records to ensure continuity.\"}\n]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "- The therapist guides the patient through phases including formulating a cognitive conceptualization, identifying intermediate and core beliefs, evaluating the centrality of beliefs, educating about beliefs, converting rules/attitudes into assumption form, and collaboratively modifying dysfunctional beliefs via multiple techniques.\n- High-level strategies include use of a Cognitive Conceptualization Diagram, Socratic questioning, behavioral experiments, cognitive continuum, intellectual-emotional role play, using others as reference, acting \"as if,\" and therapist self-disclosure.\n- Therapist focuses on collaboration, hypothesis testing, gradual belief modification, and homework assignments for tracking belief strength."
+    },
+    "micro_actions": {
+      "summary": "- Ask targeted questions to elicit automatic thoughts, underlying meanings, rules, attitudes, and assumptions from the patient.\n- Apply the downward arrow technique: repeatedly probe “What does that thought mean?” or “What’s the worst that would happen if...?” until underlying beliefs emerge.\n- Directly ask patients to articulate their beliefs or complete assumption statements.\n- Review and discuss belief questionnaires (e.g., Dysfunctional Attitude Scale).\n- Request examples to test the pervasiveness of a belief.\n- Have patients rate (0–100%) how strongly they believe dysfunctional and new functional beliefs.\n- Guide patients to express rules/attitudes as conditional assumptions for easier evaluation.\n- Examine advantages/disadvantages of a belief through discussion.\n- Formulate alternative beliefs and collaboratively refine them.\n- Assign homework to rate beliefs daily and seek situations to test new beliefs.\n- Design, discuss, and follow up on behavioral experiments to test beliefs.\n- Use Socratic questioning within concrete situations.\n- Draw continuums or “number lines” to moderate polarized beliefs.\n- Roleplay intellectual-vs-emotional arguments around beliefs.\n- Reference other people or roleplay advising another person with the same belief.\n- Suggest “acting as if” a new belief is true in daily life.\n- Use relevant self-disclosure to challenge beliefs, where appropriate."
+    },
+    "conversation_states": {
+      "summary": "- Patient’s current automatic thoughts, their meanings, associated emotions, and behavioral responses.\n- Degree of patient endorsement (strength, 0–100%) of both dysfunctional and functional beliefs.\n- Perceived impact and pervasiveness of beliefs across situations.\n- Patient readiness and receptivity to discussing deeper-level beliefs.\n- Nonverbal cues signifying emotional response or discomfort with techniques.\n- Patterns/themes recurring in patient’s automatic thoughts.\n- Patient willingness and motivation to engage in behavioral experiments or homework.\n- Evidence gathered for and against both old and new beliefs.\n- Progress in belief modification over time (strength change)."
+    },
+    "knowledge_graph": {
+      "summary": "- Relationships between patient’s core beliefs, intermediate beliefs (rules, attitudes, assumptions), automatic thoughts, emotions, and behaviors.\n- Relevant childhood or formative experiences contributing to belief development and maintenance.\n- Historical coping strategies and compensatory behaviors the patient uses in response to core/intermediate beliefs.\n- List of problematic beliefs and their functional alternatives.\n- Ongoing record of belief strengths, modification attempts, and outcomes across sessions.\n- Patient’s questionnaire responses illuminating stable belief patterns.\n- Record of behavioral experiment results and shifts in belief endorsement."
+    },
+    "cautions": {
+      "summary": "- Do not present interpretations or hypotheses as definitive facts—always share tentatively and check for patient resonance.\n- Avoid showing the worksheet or diagram directly to patients who may find it confusing or demeaning.\n- Do not attempt modification of beliefs that are peripheral or weakly held (low importance).\n- Avoid pushing for belief change before addressing more superficial cognitions, or when patient is not ready.\n- Beware of applying argumentative or roleplay techniques if the patient appears uncomfortable or resistant.\n- Take care not to denigrate, criticize, or elevate intellectual reasoning over emotional experience; monitor nonverbal cues."
+    },
+    "rules": {
+      "summary": "- {\n    \"if\": \"You have only tentative data about patient’s beliefs or conceptualization.\",\n    \"then\": \"Mark hypotheses with a question mark and check them in future sessions.\"\n  }\n- {\n    \"if\": \"Presenting the broader conceptualization to a patient.\",\n    \"then\": \"Ask for confirmation, disconfirmation, or modification from the patient.\"\n  }\n- {\n    \"if\": \"A dysfunctional belief is revealed but patient does not endorse it strongly (less than 30%).\",\n    \"then\": \"Defer modification of that belief and focus on more relevant issues.\"\n  }\n- {\n    \"if\": \"Patient reports a rule or attitude.\",\n    \"then\": \"Convert into conditional assumption form and evaluate logically.\"\n  }\n- {\n    \"if\": \"Patient rates both old and new beliefs.\",\n    \"then\": \"Assign homework to reread and rerate beliefs daily.\"\n  }\n- {\n    \"if\": \"Patient expresses discomfort or resistance to an intervention technique.\",\n    \"then\": \"Pause and discuss the intervention collaboratively; consider switching techniques.\"\n  }\n- {\n    \"if\": \"Therapist is uncertain what constitutes belittling in behavioral experiments.\",\n    \"then\": \"Ask patient for description of belittling to ensure accurate interpretation.\"\n  }"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The therapist identifies, conceptualizes, and modifies core beliefs by progressing through distinct stages: hypothesizing about core belief categories (helplessness, unlovability, worthlessness), specifying core beliefs, tentatively presenting hypotheses to the patient for confirmation/refinement, educating the patient about the nature and operation of core beliefs, helping the patient monitor core belief activation and effects, collaboratively developing and strengthening new adaptive core beliefs, and systematically evaluating and modifying negative core beliefs using intellectual and emotional (experiential) techniques."
+    },
+    "micro_actions": {
+      "summary": "Use downward arrow technique and targeted Socratic questioning to uncover underlying core beliefs beneath automatic thoughts. Test the breadth, strength, and modifiability of core beliefs by probing for evidence, exceptions, and historical context. Label the core belief as an \"idea\" rather than an absolute truth to foster cognitive flexibility. Present and review core belief hypotheses with the patient, eliciting confirmation or disagreement. Educate the patient about the cognitive processing \"screen\" that filters information for/against core beliefs. Assign homework such as monitoring the operation of the core belief daily, noting evidence for and against, and using tools like the Core Belief Worksheet. Guide reframing of evidence that supports negative core beliefs, helping the patient generate alternative, more adaptive explanations. Use contrast and comparison techniques (e.g., extreme contrasts, hypothetical models, comparisons to others). Facilitate patient reflection on evidence that supports both the old and potential new core beliefs. Reinforce recognition and recording of positive evidence, including attribution and self-credit prompts. Employ role-plays and guided imagery to emotionally and experientially re-explore and reframe early memories supporting negative core beliefs. Encourage intellectual and emotional monitoring (strength of beliefs at both levels). Provide ongoing feedback, reminders, and encouragement (e.g., visual cues, tracking belief strength)."
+    },
+    "conversation_states": {
+      "summary": "Activation level of core beliefs (is the core belief currently influencing thinking/emotion/behavior?). Strength of belief in old and new core beliefs (tracked at both intellectual and emotional levels). Emotional distress or affect intensity when beliefs are discussed or triggered. Openness/receptivity to belief evaluation, modification, and therapist intervention. Therapeutic alliance/trust between therapist and patient. Evidence provided by the patient for and against the core belief (both in-session and from homework or reflection). Patient's ability to generate reframes and identify positive evidence. Ongoing operation of cognitive processing biases (e.g., selective attention to supporting data; discounting of contradictory data). Motivation and engagement in homework and belief-monitoring tasks."
+    },
+    "knowledge_graph": {
+      "summary": "Category(s) and specific content of patient’s core beliefs (helplessness, unlovability, worthlessness). Historical origins and developmental timeline of core beliefs (childhood, adolescence, adulthood, critical incidents). Patterns and themes in automatic thoughts and behaviors linked to core beliefs. Previous and current strength and modifiability of both negative and positive core beliefs. Record of reframed events, evidence for/against beliefs, and efficacy of interventions and techniques. Degree of emotional and intellectual conviction in beliefs across time and circumstances. Patient’s beliefs about self, others, and the world (schemas). Response to bibliotherapy and between-session interventions."
+    },
+    "cautions": {
+      "summary": "Do not treat a core belief as an unquestionable truth or “fact,” or reinforce its certainty. Avoid confronting core beliefs too early if the patient is not ready (high affect, rigid beliefs, poor therapeutic alliance). Do not invalidate, rush, or force belief evaluation; avoid being overly direct or dismissive. Do not neglect the emotional level of belief activation; some techniques require affect to be present. Avoid reinforcing cognitive processing biases by failing to challenge them or by corroborating negative interpretations. Do not assign cognitively demanding homework before ensuring the patient can identify positive evidence in-session. Avoid overlooking historical context; do not focus solely on present evidence if past origins are influential."
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "Patient expresses an automatic thought that seems extreme or global.",
+          "then": "Use the downward arrow technique or Socratic questioning to uncover the underlying core belief."
+        },
+        {
+          "if": "Therapist hypothesizes a core belief category based on patient data.",
+          "then": "Present the hypothesis tentatively and invite patient confirmation, refinement, or disagreement."
+        },
+        {
+          "if": "Patient displays strong emotional response when discussing beliefs.",
+          "then": "Use emotional or experiential techniques (e.g., role play, guided imagery) to facilitate modification."
+        },
+        {
+          "if": "Patient discounts positive evidence in session.",
+          "then": "Facilitate reframing and highlight alternative explanations for the data."
+        },
+        {
+          "if": "Core belief strength is high and modifiability is low.",
+          "then": "Postpone intensive belief evaluation; strengthen positive and intermediate beliefs first."
+        },
+        {
+          "if": "Evidence for both old and new beliefs is provided.",
+          "then": "Highlight, record, and reinforce evidence supporting the new, adaptive core belief; encourage attribution of positive experiences."
+        },
+        {
+          "if": "Patient cannot generate positive evidence.",
+          "then": "Prompt with comparison to others, attribution prompts, or hypothetical models before assigning homework."
+        },
+        {
+          "if": "Patient provides historical/childhood data supporting a core belief.",
+          "then": "Help them reframe early memories using techniques such as role play, Socratic questioning, or guided imagery."
+        },
+        {
+          "if": "Patient demonstrates increased belief in the new core belief.",
+          "then": "Reinforce the interpretation and collaboratively discuss circumstances leading to belief change."
+        },
+        {
+          "if": "Therapeutic alliance is weak or trust is low.",
+          "then": "Prioritize building alliance and avoid intensive core belief work until sufficient trust is established."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "This chapter describes a variety of cognitive and behavioral techniques beyond the standard CBT repertoire. The high-level interventions include:\n- Encouraging patients to put real-life and anticipated problems onto the agenda.\n- Facilitating structured problem solving and decision-making processes (e.g., listing and weighing advantages/disadvantages).\n- Teaching and guiding refocusing and distraction techniques for managing distressing thoughts and feelings.\n- Measuring mood and behaviors using activity charts to identify patterns.\n- Introducing relaxation and mindfulness exercises.\n- Breaking down large goals into graded task assignments (step-by-step).\n- Implementing exposure tasks to address avoidance.\n- Using role-play to practice skills and modify beliefs.\n- Applying the “pie” technique for visualizing goals and attributing responsibility.\n- Teaching self-comparison reframing and credit lists to combat negative cognitive biases."
+    },
+    "micro_actions": {
+      "summary": "Operational micro-interventions that therapists enact include:\n- Eliciting past problem-solving successes from the patient.\n- Suggesting and co-brainstorming possible solutions.\n- Providing direct instruction in problem-solving or skills training where deficits exist.\n- Using worksheets (e.g., problem-solving, activity chart, credit list) and guiding their completion step-by-step.\n- Prompting the patient to write down and reflect on thoughts, advantages/disadvantages, comparisons, credits.\n- Role-modeling assertiveness and social skill scripts through in-session role-play.\n- Drawing diagrams (e.g., staircase for graded tasks, pie charts for goals/attributions) together.\n- Encouraging use of distraction or refocusing techniques and rehearsing their use.\n- Assigning “experiments” to try out new coping or behavioral strategies.\n- Prompting the patient to estimate and rate emotions, beliefs, or attribution proportions.\n- Reinforcing the importance of immediate or regular recording for self-monitoring.\n- Reminding the patient to reflect on rationale and anticipated outcome for exercises (“Why are you doing this?”)."
+    },
+    "conversation_states": {
+      "summary": "Variables/dimensions therapists should track throughout sessions include:\n- Current mood states, level of distress or anxiety (possibly self-rated 0–10 or mild/moderate/severe).\n- Problem-solving/skills proficiency (including deficits and strengths).\n- Avoidance and approach behaviors.\n- Presence and content of dysfunctional cognitions, automatic thoughts, or assumptions.\n- Degree of attention to negative vs. positive self-information (attentional/cognitive bias).\n- Use, effectiveness, and frequency of coping strategies (distraction, refocusing, relaxation, mindfulness).\n- Behavioral activation and activity patterns over time.\n- Willingness to engage in exposure and graded tasks (progress along hierarchy).\n- Nature and accuracy of self and situation comparisons.\n- Attribution style for successes and setbacks (e.g., internal vs. external, pie chart proportions)."
+    },
+    "knowledge_graph": {
+      "summary": "Long-term memory/monitoring dimensions across sessions should include:\n- Patterns of real-life problems (recurring issues and anticipated problems).\n- Individual problem-solving and coping skillset (and progress).\n- Historical and current mood patterns in relation to behaviors and activities.\n- Frequency, type, and triggers of avoidance versus approach behaviors.\n- Step-by-step progress on graded tasks and exposure hierarchies (with outcome data).\n- Behavioral experiments and their results (including predictions vs. actual outcomes).\n- Automatic thoughts, core beliefs, and the impact of interventions on these.\n- Attribution patterns: shifts in blame/responsibility for outcomes.\n- Credit lists and positive achievements over time (trend).\n- Changes in dysfunctional comparison habits (self to others, self at worst/best)."
+    },
+    "cautions": {
+      "summary": "- Avoid allowing patients to distract themselves excessively and consistently, thus evading emotional experiences—their learning is impaired if they always avoid discomfort.\n- Be aware that relaxation can paradoxically increase anxiety in some patients; do not insist on relaxation if it is counterproductive.\n- Avoid reinforcing dysfunctional comparisons (e.g., patient always comparing themselves to non-depressed individuals or their former \"best\" self).\n- Be careful not to prematurely attribute failures solely to internal causes (e.g., incompetence) without exploring alternatives.\n- Do not use graphic attribution (“pie”) exercises in a way that skips or neglects consideration of alternative explanations."
+    },
+    "rules": {
+      "summary": "[\n  {\"if\": \"Patient brings up a real-life or anticipated problem\", \"then\": \"Encourage the patient to put the problem on the agenda and explore possible solutions.\"},\n  {\"if\": \"Patient exhibits problem-solving or skills deficits\", \"then\": \"Provide direct instruction, resources, or outside referrals for skills training.\"},\n  {\"if\": \"Patient is faced with a decision and wants help\", \"then\": \"Guide the patient to list and weigh advantages and disadvantages of each option, and support process of drawing conclusions.\"},\n  {\"if\": \"Patient reports distressing thoughts interfering with concentration or functioning\", \"then\": \"Teach and rehearse refocusing techniques or appropriate distraction strategies.\"},\n  {\"if\": \"Patient exhibits excessive avoidance behaviors\", \"then\": \"Provide rationale for exposure, identify a manageable task, and encourage graded exposure until anxiety decreases.\"},\n  {\"if\": \"Patient consistently distracts to escape negative emotions\", \"then\": \"Set up behavioral experiments to test their beliefs about tolerating affect, and encourage facing, evaluating thoughts.\"},\n  {\"if\": \"Patient has difficulty tracking or recognizing shifts in mood/affect\", \"then\": \"Use activity charts with emotion ratings during different activities to build awareness.\"},\n  {\"if\": \"Patient displays persistent negative self-comparison\", \"then\": \"Teach the patient to compare themselves to their worst point rather than idealized or non-disordered individuals.\"},\n  {\"if\": \"Patient has difficulty noticing personal progress or positive behaviors\", \"then\": \"Assign and help construct a daily credit list, starting in-session.\"},\n  {\"if\": \"Patient is about to attribute failure solely to internal/dysfunctional causes\", \"then\": \"Explore and document alternative causes before estimating dysfunctional attribution.\"},\n  {\"if\": \"Patient is to learn a new social skill\", \"then\": \"Assess existing skill level and, if needed, conduct targeted role-play interventions with rationale.\"},\n  {\"if\": \"Patient begins relaxation training\", \"then\": \"Propose relaxation exercises as experiments, monitor for paradoxical arousal, and adjust strategy if anxiety escalates.\"}\n]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "- Teach patients to identify and report spontaneous mental images associated with distress.\n- Normalize and educate about imagery to reduce shame or anxiety.\n- Intervene therapeutically with both spontaneous and induced images using specific strategies: following images to completion, jumping ahead in time, coping in the image, changing the image, reality-testing the image, repeating the image, and substituting images.\n- Induce imagery for rehearsal of coping techniques, distancing (seeing problems as time-limited), and reduction of perceived threat.\n- Encourage regular practice of imagery techniques both in and out of session."
+    },
+    "micro_actions": {
+      "summary": "- Actively probe for imaginal automatic thoughts using varied terminology (mental picture, daydream, memory).\n- Ask specific, step-by-step questions to help patients describe, visualize, and elaborate images.\n- Normalize and reassure about the frequency and variety of images.\n- Guide patients to continue or modify distressing scenes, ensuring they “follow the image to completion.”\n- Suggest jumping ahead in the imagined timeline or creating alternative (“realistic” or “magical”) endings.\n- Direct patients to imagine themselves coping, using learned strategies (coping cards, breathing).\n- Use Socratic questioning to reality-test images as with verbal automatic thoughts.\n- Instruct patients to repeat distressing images to decrease intensity or exaggeration.\n- Invite patients to substitute pleasant imagery and practice switching intentionally.\n- Lead patients through “distancing” exercises, visualizing life further ahead in time after an upsetting event.\n- Induce images for therapeutic rehearsal or to explicitly reduce perceived threat by visualizing support or safety cues.\n- Assign homework to monitor, report, and practice imagery interventions."
+    },
+    "conversation_states": {
+      "summary": "- Presence, content, and emotional impact of spontaneous and induced images.\n- Patient’s ability and willingness to identify and share images.\n- Level of distress experienced with particular imagery.\n- Patient’s reaction to psychoeducation/normalization interventions.\n- Degree of engagement and success in practicing imagery interventions.\n- Progress in coping, shifting perspective, or reducing distress via imagery techniques.\n- Patient’s belief in the realism of images and their ability to change them.\n- Changes in emotional response before and after imagery techniques.\n- Recurring themes or triggers associated with distressing images."
+    },
+    "knowledge_graph": {
+      "summary": "- Record of specific images: content, associated situations, emotional responses.\n- Patterns and frequency of spontaneous distressing imagery.\n- Patient’s typical imagery intervention responses (what works/doesn’t).\n- Problem areas or catastrophic scenarios frequently visualized by the patient.\n- Therapeutic “toolbox” established (coping cards, breathing, reality checks practiced in imagery).\n- Long-term progress in ability to self-intervene in distressing images.\n- History of induced imagery exercises and their outcomes (e.g., for rehearsal, distancing, support).\n- Homework completion and patient’s self-reported experience with imagery outside session."
+    },
+    "cautions": {
+      "summary": "- Do not abandon attempts to address imagery after only a few tries; persistence is often necessary.\n- Avoid judging, pathologizing, or reacting negatively to patients’ images, especially if graphic or disturbing.\n- Do not force patients to re-experience distressing images beyond their tolerance; approach gently if high distress is observed.\n- Avoid invalidating the emotional impact or significance of images, even if they seem unrealistic.\n- Do not overuse verbal (non-imagery) techniques; favor imagery-based methods for imaginal problems.\n- Do not assume patients can readily change imagery or immediately grasp new techniques; patient education and gradual practice are key."
+    },
+    "rules": {
+      "summary": "- {\"if\": \"patient expresses emotional distress but does not report imagery\", \"then\": \"probe specifically for images using varied words (e.g., mental picture, daydream, fantasy, memory)\"}\n- {\"if\": \"patient reports vivid, distressing imagery\", \"then\": \"normalize the experience and reassure of its commonality\"}\n- {\"if\": \"patient stops an image at its worst point\", \"then\": \"encourage patient to follow the image to completion or jump ahead in time\"}\n- {\"if\": \"patient remains stuck in a distressing image\", \"then\": \"suggest coping actions or modify the scenario, either realistically or magically\"}\n- {\"if\": \"patient presents exaggerated or catastrophic imagery\", \"then\": \"use Socratic questioning or repetition technique to reality-test or reduce intensity\"}\n- {\"if\": \"patient unable to cope in the image\", \"then\": \"guide them through imagery rehearsal using learned coping strategies\"}\n- {\"if\": \"therapist forms a spontaneous image while patient describes a situation\", \"then\": \"use own image as cue to probe further about patient's imagery\"}\n- {\"if\": \"patient fears long-term consequences or endless distress\", \"then\": \"induce distancing by visualizing positive future scenarios\"}\n- {\"if\": \"patient experiences persistent distressing imagery\", \"then\": \"encourage regular practice of imagery techniques in and out of session\"}"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter describes the following high-level dialogue phases and intervention strategies related to homework in CBT: (1) setting homework assignments tailored to the individual; (2) collaboratively increasing motivation and readiness for homework; (3) conceptualizing barriers to homework and problem-solving difficulties; (4) reviewing and reinforcing completed homework; and (5) preparing for possible negative outcomes or failures in homework. Additional macro strategies include using rationale-giving, collaborative negotiation, rehearsal techniques, and flexible adaptation of homework assignments."
+    },
+    "micro_actions": {
+      "summary": "The therapist operationalizes these strategies through specific actions at the utterance level: (a) proposing homework tasks appropriate to the patient’s current session and status; (b) eliciting the patient's thoughts/feelings about homework, seeking agreement, and providing rationale; (c) jointly writing or recording the assignment, including reminders and rationales; (d) initiating covert rehearsal/mental imagery to anticipate obstacles; (e) problem-solving practical/logistical barriers with the patient; (f) eliciting and responding to automatic thoughts, beliefs, and feelings that interfere; (g) reworking, breaking down, or making homework tasks easier or optional when appropriate; (h) normalization and self-disclosure to reduce shame about difficulties; (i) modeling mistake-admission as therapist; (j) setting up behavioral experiments, credit lists, and activity charts, and (k) reinforcing successful completion and reviewing adherence or learning during session. The therapist also uses checklists, reminders, role plays, and collaborative review of lesson notes and therapy materials."
+    },
+    "conversation_states": {
+      "summary": "Variables that should be tracked during sessions include: patient’s mood state and its fluctuations; motivation and willingness to do homework; belief in rationale and perceived relevance of the assignment; confidence (expressed, e.g., on a 0–100% scale) in ability to complete homework; current cognitive, emotional, and behavioral functioning; obstacles or barriers (practical and psychological); quality, frequency, and completeness of homework done; beliefs or automatic thoughts arising related to assignment; level of distress, overwhelm, or avoidance; patient’s engagement and accountability; learning or skill acquisition from homework; reasons and explanations for non-adherence; and any evidence of self-criticism, hopelessness, perfectionism, or ambivalence."
+    },
+    "knowledge_graph": {
+      "summary": "Long-term memory dimensions to track across sessions include: patterns of homework adherence and completion over time; types and effectiveness of assigned homework; individual tailoring based on patient characteristics, skills, and goals; practical and psychological barriers previously noted and their resolution; beliefs about homework and therapy (e.g., efficacy, relevance, self-concept); coping cards and thought records created over multiple sessions; patient’s progress in skill acquisition (e.g., thought monitoring, behavioral activation); self-efficacy changes; changes in underlying dysfunctional beliefs (e.g., perfectionism, learned helplessness); previous rationales given and accepted; reaction and learning from unsuccessful assignments or negative outcomes; and the collaborative process history in setting and reviewing homework."
+    },
+    "cautions": {
+      "summary": "The therapist should avoid: making homework assignments too difficult, overwhelming, or ill-defined; assuming all patients will comply regardless of tailoring; failing to provide rationale or collaboration; neglecting to track or review homework, which may decrease adherence and learning; pressuring or challenging the patient excessively before rapport and skills are established (especially with role plays); allowing the patient to repeatedly skip homework without exploring underlying causes; failing to address the therapist’s own dysfunctional assumptions that impede homework encouragement; missing the opportunity to model mistake-admission and normalization; setting up “lose-lose” scenarios that reinforce patient feelings of failure; neglecting to adjust homework in response to severe depression, low motivation, anxiety, or avoidance; and overlooking ambivalence, perfectionism, or disguised psychological obstacles. Do not shame or criticize the patient for lack of homework completion; avoid presenting homework as punitive or irrelevant."
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "Patient expresses low confidence (<90%) about completing homework",
+          "then": "Use covert rehearsal, change the assignment to be easier, or do role play to address obstacles."
+        },
+        {
+          "if": "Patient repeatedly fails to complete homework",
+          "then": "Elicit and address psychological or practical barriers and collaboratively modify the assignment."
+        },
+        {
+          "if": "Homework assignment is too difficult or unclear",
+          "then": "Take responsibility, acknowledge as therapist, and simplify or clarify the task."
+        },
+        {
+          "if": "Patient expresses ambivalence or negative beliefs about homework",
+          "then": "Acknowledge uncertainty, explore advantages/disadvantages, and address core beliefs or consider a behavioral experiment."
+        },
+        {
+          "if": "Patient forgets homework or rationale",
+          "then": "Have the patient write down the assignment and rationale together, and set up reminders or pairing with regular activities."
+        },
+        {
+          "if": "Patient demonstrates perfectionism around homework",
+          "then": "Assign an intentionally imperfect homework task with clear time or thoroughness limits."
+        },
+        {
+          "if": "Therapist has dysfunctional assumptions about assigning homework",
+          "then": "Reflect on and address those assumptions before proceeding with homework discussion or assignment."
+        },
+        {
+          "if": "Patient expresses practical obstacles to homework (time, energy, opportunity)",
+          "then": "Collaboratively problem-solve for logistical solutions and clarify the time-limited nature of the assignment."
+        },
+        {
+          "if": "Homework is missed in session due to crisis or special circumstance",
+          "then": "Review homework at a later point or collaboratively agree to pause/restart as relevant to patient’s needs."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": [
+        "Prepare the patient for termination and relapse prevention from the start of therapy through final booster sessions.",
+        "Gradually taper session frequency in collaboration with the patient (“spacing” as an experiment), progressing from weekly to biweekly to monthly appointments, including booster sessions post-termination.",
+        "Attribute progress to the patient, reinforcing their self-efficacy and responsibility for change.",
+        "Teach and help the patient generalize tools and techniques for lifelong use beyond therapy.",
+        "Prepare for setbacks both during therapy and after termination by normalizing setbacks and planning responses.",
+        "Elicit, discuss, and reframe concerns (automatic thoughts) about less frequent sessions and eventual termination.",
+        "Review skills and techniques learned in therapy, helping the patient organize notes and create self-therapy plans.",
+        "Encourage and support self-therapy sessions and use of coping cards for post-therapy setbacks.",
+        "Conduct booster sessions focused on maintaining gains, evaluating any difficulties, reviewing relapse prevention strategies, and setting new goals."
+      ]
+    },
+    "micro_actions": {
+      "summary": [
+        "Discuss the course of recovery explicitly, including normal fluctuations, setbacks, and plateaus.",
+        "Use visual aids (e.g., graphs) to illustrate expected ups and downs and normalize the process.",
+        "Explicitly inquire about why the patient feels better, connecting improvements to their own actions and strategies.",
+        "Probe for external attributions and gently redirect toward cognitive and behavioral changes made by the patient.",
+        "Teach tools/techniques: e.g., breaking problems down, Thought Records, activity scheduling, relaxation, distraction, hierarchy creation, credit lists, advantage/disadvantage lists.",
+        "Help the patient identify situations for tool use and practice.",
+        "Explore the patient’s automatic thoughts and beliefs about potential setbacks, session tapering, and termination.",
+        "Use guided discovery and Socratic questioning to reframe disadvantages and reinforce advantages of tapering/termination.",
+        "Coach the patient in planning responses for setbacks, writing coping cards, and making concrete action plans.",
+        "Assign homework such as finding lists, practicing Thought Records, contacting support people, and writing synopses of learned skills.",
+        "Review recent events, homework adherence/problems, new issues, predictions of future problems, and set new homework.",
+        "In booster sessions, assess symptom changes, set the agenda, review coping and progress, check for activation of dysfunctional beliefs, and update the self-therapy program."
+      ]
+    },
+    "conversation_states": {
+      "summary": [
+        "Patient’s current and recent mood/symptom levels (e.g., depression score, ups/downs, setbacks).",
+        "Attribution of progress (who/what the patient credits for improvement).",
+        "Patient’s skill acquisition and confidence in using tools/techniques independently.",
+        "Automatic thoughts and underlying beliefs (especially about relapse, progress, session frequency, and ending therapy).",
+        "Level of anxiety/concerns related to session tapering and termination.",
+        "Current problematic issues/situations and coping strategies used.",
+        "Homework completion, barriers encountered, and efforts to overcome these.",
+        "Presence of reactivated dysfunctional beliefs or avoidance strategies.",
+        "Support network availability and willingness to use it.",
+        "Anticipation and prediction of future problems or setbacks.",
+        "Patient’s engagement in self-therapy or homework exercises."
+      ]
+    },
+    "knowledge_graph": {
+      "summary": [
+        "Patient’s history of symptom severity and course of recovery over time.",
+        "Patterns of responses to setbacks and relapses.",
+        "Techniques/tools learned and individualized coping strategies.",
+        "Attribution style (internal/external) and self-efficacy development.",
+        "Automatic thoughts, underlying core beliefs, and typical cognitive distortions.",
+        "Progress on homework assignments, self-therapy practices, and skill generalization.",
+        "Social support network composition and use.",
+        "Record of booster sessions, content, and outcomes.",
+        "List of patient’s ongoing/new goals and unresolved issues needing attention."
+      ]
+    },
+    "cautions": {
+      "summary": [
+        "Avoid fostering dependence by positioning oneself as responsible for solving all the patient’s problems.",
+        "Do not neglect to prepare patients for the normal possibility of setbacks, both during and after therapy.",
+        "Avoid attributing all progress exclusively to therapy or external factors—reinforce patient agency.",
+        "Do not ignore or minimize patient anxieties/fears about tapering or termination; always address and reframe.",
+        "Avoid suggesting that therapy will eliminate all negative emotions; focus only on reducing disproportionate/distressing reactions.",
+        "Do not discourage patient autonomy and problem-solving outside therapy.",
+        "Avoid neglecting to follow up on booster session planning and relapse prevention.",
+        "Do not terminate therapy without ensuring the patient has self-therapy resources and a coping plan for setbacks."
+      ]
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "Patient begins showing improvement in mood or symptoms",
+          "then": "Discuss the course of recovery, normalize setbacks, and reinforce the use of tools/skills acquired."
+        },
+        {
+          "if": "Patient attributes progress to therapist or external circumstances",
+          "then": "Redirect attribution toward patient's own cognitive and behavioral changes to build self-efficacy."
+        },
+        {
+          "if": "Patient experiences anxiety about spacing sessions or termination",
+          "then": "Elicit and discuss automatic thoughts, list advantages/disadvantages, and collaboratively reframe disadvantages."
+        },
+        {
+          "if": "Patient has concerns about handling setbacks independent of therapy",
+          "then": "Encourage coping card creation, rehearse self-therapy steps, and reinforce support network use."
+        },
+        {
+          "if": "Preparing for session frequency reduction or termination",
+          "then": "Treat spacing/termination as an experiment, agree on check-ins, and invite patient to call if additional support is needed."
+        },
+        {
+          "if": "Approaching termination",
+          "then": "Review skills learned, organize notes, and plan for self-therapy sessions."
+        },
+        {
+          "if": "Booster session scheduled after termination",
+          "then": "Assess symptom course, identify current/future problems, check use of skills, and update relapse prevention plan as needed."
+        },
+        {
+          "if": "Patient expresses dysfunctional beliefs or cognitive distortions during booster or regular sessions",
+          "then": "Facilitate cognitive restructuring in session and plan further belief work for homework."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter describes treatment planning in cognitive behavioral therapy (CBT) as a multi-layered, continuous process. Macro-level actions include (1) building a strong therapeutic alliance; (2) making therapy structure/process explicit; (3) collaboratively planning treatment across sessions by setting broad therapeutic goals and individual session goals; (4) teaching the cognitive model and supporting patient self-therapy skills; (5) assessing and prioritizing which problems to address in each session; (6) adapting interventions to the patient’s diagnosis, stage of therapy, and individual characteristics; and (7) preparing for termination and relapse prevention."
+    },
+    "micro_actions": {
+      "summary": "Micro-intervention actions include: (1) Asking targeted questions to assess mood, automatic thoughts, behaviors, emotions, and beliefs at each conversational turn; (2) Using Socratic questioning and guided discovery to evaluate and uncover meaning of automatic thoughts and beliefs; (3) Facilitating problem-solving steps, such as helping the patient define the problem, identify options, and select solutions; (4) Teaching and modeling skills such as Thought Records, coping strategies, and mood monitoring; (5) Monitoring and repairing the therapeutic alliance via eliciting and evaluating negative automatic thoughts; (6) Jointly reviewing homework and session notes, probing for obstacles, and collaboratively revising plans; (7) Deciding in real time when to shift agenda focus, based on patient distress or progress."
+    },
+    "conversation_states": {
+      "summary": "Variables to track continuously include: (1) Patient’s disorder(s) and diagnostic status; (2) Stage of therapy (beginning/middle/final); (3) Therapeutic alliance strength and ruptures; (4) Patient’s mood(s) and affective changes; (5) Patient’s progress toward goals and problem resolution; (6) Active automatic thoughts, intermediate/core beliefs; (7) Behavioral activation and changes; (8) Homework completion and engagement; (9) Patient motivation and engagement level; (10) Areas of dysfunction, resistance, or skill deficits (problem-solving, coping, etc.); (11) Agenda items and priority; (12) Cultural/developmental variables."
+    },
+    "knowledge_graph": {
+      "summary": "Long-term memory dimensions to track across sessions include: (1) Patient’s ongoing goals and presenting problems; (2) History of symptom progression and treatment response; (3) List of Axis I/II symptoms and diagnoses; (4) Record of automatic thoughts, intermediate/core beliefs, and cognitive distortions associated with key problems; (5) Major life events, triggers, and precipitating factors; (6) Homework and skill acquisition history; (7) Status of therapeutic alliance and significant ruptures/repairs; (8) Patterns in behavioral, emotional, and cognitive responses; (9) Patient’s learning style, motivation, and cultural background."
+    },
+    "cautions": {
+      "summary": "The therapist should avoid: (1) Focusing persistently on problems unlikely to be solved in-session or that the patient can resolve alone; (2) Pursuing topics that increase distress or activate painful core beliefs without readiness or engagement; (3) Neglecting to monitor and repair the therapeutic alliance after ruptures or negative affect shifts; (4) Failing to individualize standard CBT protocols based on diagnosis or patient characteristics; (5) Not collaborating on agenda setting or ignoring patient preferences in problem selection."
+    },
+    "rules": {
+      "summary": "- {\"if\": \"A new problem is brought up in session\", \"then\": \"Gather data about its nature, distress level, and impact before deciding to intervene.\"}\n- {\"if\": \"The patient expresses significant distress or negative affect during an agenda item\", \"then\": \"Assess for activation of core beliefs and consider shifting focus to repair the alliance or discuss alternate topics.\"}\n- {\"if\": \"Reviewing homework or session notes\", \"then\": \"Probe for obstacles, confirm relevance, and revise tasks collaboratively as needed.\"}\n- {\"if\": \"Beginning of session\", \"then\": \"Check patient mood, progress since previous session, objective and subjective ratings, and prioritize agenda collaboratively.\"}\n- {\"if\": \"Therapist notices lack of progress or suitability of a topic for intervention\", \"then\": \"Collaboratively consider postponing or changing agenda items.\"}\n- {\"if\": \"Patient demonstrates readiness and capacity for self-therapy skills\", \"then\": \"Shift toward increasing patient autonomy in agenda setting and homework selection.\"}\n- {\"if\": \"Standard CBT needs adaptation based on patient diagnosis or characteristics\", \"then\": \"Modify interventions to suit the individual’s needs, referencing appropriate resources.\"}"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter covers high-level interventions for managing problems and 'stuck points' in cognitive behavioral therapy (CBT). It describes phases such as: uncovering therapy problems, conceptualizing their origins, collaboratively planning their remediation, continually refining diagnosis/treatment plans, strengthening the therapeutic alliance, maintaining session structure and focus, socializing patients into CBT principles, tracking and responding to automatic thoughts, fostering consolidation of learning, and using problems as opportunities for skill improvement."
+    },
+    "micro_actions": {
+      "summary": "Therapists operationalize the above strategies through actions including: actively soliciting and listening for patient feedback (both verbal and nonverbal), checking on patient understanding throughout sessions, seeking explicit ratings or summaries from the patient about key insights, eliciting automatic thoughts when affect shifts occur, requesting written evaluations, reviewing session recordings, collaborating on agenda setting and prioritization, gently interrupting unproductive discourse, rechecking and clarifying central beliefs or session content, modifying intervention in response to feedback or lack of progress, and verifying emotional/behavioral change after interventions."
+    },
+    "conversation_states": {
+      "summary": "Key variables to track during sessions include: patient’s affect and engagement, degree of understanding and belief in rationale/model/interventions, level of collaboration and alliance quality, progress toward session and overall goals, endorsement and impact of automatic thoughts, degree of emotional distress pre/post interventions, patient’s feedback and perspective on therapy/therapist, patient’s expectations and engagement with CBT frameworks, adherence to agenda, completion and impact of homework, signs of confusion/disagreement (verbal and nonverbal), and therapist’s own affect/cognitions that may influence session dynamics."
+    },
+    "knowledge_graph": {
+      "summary": "Dimensions to track across multiple sessions include: patient’s diagnostic formulation (multi-axial), evolving CBT conceptualization (central beliefs/thoughts/behaviors), therapy progress over time (objective measures and subjective reports), history of therapeutic alliance and collaboration, recurring problems or stuck points and their context, patient’s processing and consolidation of therapy material, patterns in homework compliance and effectiveness, documented automatic thoughts/beliefs with corresponding interventions/responses, past session summaries and feedback, relevant external factors (e.g., medical/biological issues, environmental stressors), and therapist’s own reactions and assumptions regarding the patient/therapy."
+    },
+    "cautions": {
+      "summary": "Warnings include: avoid assigning blame (to patient or self) for therapeutic problems, do not assume patient cognitions are distorted without guided discovery, avoid persuasion or being overly didactic, do not neglect checking patient’s understanding, refrain from ignoring or minimizing negative feedback (even indirect), be wary of therapist automatic thoughts that interfere with problem-solving, do not rigidly adhere to standard format if patient needs differ, and avoid monopolizing agenda or failing to address patient’s priorities."
+    },
+    "rules": {
+      "summary": "- {\"if\": \"Patient provides negative feedback or shows nonverbal signs of disengagement/confusion\", \"then\": \"Solicit explicit feedback and probe further to uncover problem dimensions.\"}  \n- {\"if\": \"Therapist notices affect shift during session\", \"then\": \"Elicit patient's automatic thoughts to explore underlying issues.\"}  \n- {\"if\": \"Patient hesitates to provide feedback\", \"then\": \"Ask specific questions about potentially problematic session moments and explicitly invite honest responses.\"}  \n- {\"if\": \"No explicit progress in therapy (via subjective/objective measures)\", \"then\": \"Collaborate with patient to set/remediate treatment direction and agenda.\"}  \n- {\"if\": \"Therapist has negative automatic thoughts about patient/self\", \"then\": \"Identify, evaluate, and respond to these thoughts before proceeding.\"}  \n- {\"if\": \"Patient fails to understand or remember session content\", \"then\": \"Summarize frequently, ask patient to paraphrase, and check belief in new understandings.\"}  \n- {\"if\": \"Intervention fails to reduce distress or change belief\", \"then\": \"Switch to alternative approach or technique.\"}  \n- {\"if\": \"Session runs over allotted time or unproductive talk persists\", \"then\": \"Gently interrupt, prioritize agenda topics, and collaboratively decide time allocation.\"}  \n- {\"if\": \"Patient shows doubts about CBT principles or model\", \"then\": \"Review and clarify the cognitive model, address misunderstandings or reservations.\"}"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "This chapter covers the process of progressing as a cognitive behavior therapist, including therapist self-practice of core CBT techniques, developing personal understanding of therapy obstacles, cognitive conceptualization, treatment planning, and employing standard interventions with patients. The chapter also introduces the cognitive case write-up format, treatment plans, and provides resources for therapist training and assessment. Concrete interventions outlined for therapist use include teaching cognitive tools, behavioral experiments, activity scheduling, problem solving, and assertiveness training. In addition, evaluation of therapy proficiency is described via the Cognitive Therapy Rating Scale, which defines high-level phases such as agenda setting, feedback elicitation, understanding/empathy, interpersonal effectiveness, collaboration, pacing, guided discovery, focusing on key cognitions/behaviors, selecting and implementing strategies for change, and homework integration."
+    },
+    "micro_actions": {
+      "summary": "Micro-interventions operationalized in this chapter include: (1) monitoring and writing down one’s own automatic thoughts and moods, (2) using worksheets (e.g., Thought Records, Cognitive Conceptualization Diagrams, Core Belief Worksheet), (3) guided discovery through Socratic questioning, (4) eliciting, evaluating, and responding to patient automatic thoughts/assumptions, (5) facilitating behavioral experiments, (6) scheduling activities and reviewing them with patients, (7) teaching patients the use of coping cards, credit lists, and other self-regulation tools, (8) setting agendas collaboratively and efficiently, (9) providing feedback, checking patient understanding and reactions, (10) summarizing session content, (11) reviewing, assigning, and customizing homework, and (12) assigning roles in role-plays for skill-building. The Therapist should also use the Cognitive Therapy Rating Scale to self-assess each micro-skill within sessions."
+    },
+    "conversation_states": {
+      "summary": "The therapist should continuously track: patient mood (including emotional symptoms and affect), identified automatic thoughts (content, frequency, and impact), core and intermediate beliefs, cognitive distortions, behavioral patterns (avoidance, activity level, social engagement), therapeutic relationship quality (engagement, alliance, feedback), homework adherence and obstacles, session agenda items and their progress, assertiveness and social skills, patient motivation and energy, understanding and acceptance of CBT principles, and progress towards treatment goals. For therapists in training, self-awareness of their own cognitions/affect and obstacles encountered is also emphasized."
+    },
+    "knowledge_graph": {
+      "summary": "Dimensions to track across sessions include: patient case history (demographics, presenting complaint, psychiatric history, medical history, personal/social history), longitudinal changes in cognition and behavior, core and intermediate beliefs and associated rules/assumptions, compensatory strategies, strengths/assets, major problem domains (e.g., avoidance, social withdrawal, academic difficulties), progress and outcomes for each problem area, rationale and response to each intervention, homework completion rates, therapeutic alliance status, record of behavioral experiments and outcomes, evolution of treatment plan and conceptualization, and therapist’s own development/skill trajectory."
+    },
+    "cautions": {
+      "summary": "Therapists should avoid: skipping personal practice of CBT tools (risking lack of empathy and skill), assigning CBT interventions to patients without understanding practical/psychological obstacles, neglecting to elicit and directly address automatic thoughts, using vague/unspecific agendas, relying on persuasion/lecturing/debate rather than guided discovery, failing to track or respond to feedback, adopting skills from other modalities that are incompatible and dilute CBT intervention, overlooking detailed homework review/assignment processes, inadequately explaining interventions, failing to individualize conceptualization or treatment plans, and practicing without recording or reviewing sessions for competence and improvement."
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "The therapist has not personally practiced a CBT technique (e.g., Thought Record)",
+          "then": "Therapist must practice the technique themselves before assigning it to patients to uncover obstacles and build empathy."
+        },
+        {
+          "if": "Assigning homework in-session",
+          "then": "Rapidly compare patient obstacles to therapist's own; assess opportunity, motivation, time, energy, hope, and customize assignment accordingly."
+        },
+        {
+          "if": "Patient or therapist encounters automatic thoughts interfering with task completion",
+          "then": "Acknowledge their partial validity but emphasize the value of writing thoughts down and using CBT tools to gain insight."
+        },
+        {
+          "if": "Therapist is working with a new patient for first CBT application",
+          "then": "Select a straightforward patient (e.g., unipolar depression, no Axis II), and follow the standard CBT model as closely as possible."
+        },
+        {
+          "if": "Therapist is experienced in a different modality",
+          "then": "Explicitly avoid defaulting to previous modality skills that conflict with CBT."
+        },
+        {
+          "if": "Therapy sessions are to be reviewed",
+          "then": "Obtain written consent and use recordings for feedback, self- and peer-evaluation."
+        },
+        {
+          "if": "Assigning, reviewing, or planning homework",
+          "then": "Incorporate patient feedback, individualize assignments, review previous work, and provide detailed explanation."
+        },
+        {
+          "if": "Conducting any therapy session",
+          "then": "Set a mutually satisfactory agenda, elicit sufficient feedback, check understanding, demonstrate empathy and collaboration, pace efficiently, and focus on key cognitions/behaviors."
+        },
+        {
+          "if": "Using guided discovery or strategy for change",
+          "then": "Favor questioning, exploration of evidence/alternatives, and custom-tailored interventions over debate/persuasion."
+        },
+        {
+          "if": "Therapist identifies personal obstacles in cognitive therapy skill development",
+          "then": "Seek supervision, read additional resources, observe expert sessions, and self-assess via standardized scales."
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,416 @@
+[
+  {
+    "negative_action": "Upcoding or exaggerating diagnoses",
+    "description": "Providing inaccurate or exaggerated diagnoses for insurance purposes.",
+    "risk": "Unethical behavior, potential legal consequences, and breach of professional standards.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Underdiagnosing",
+    "description": "Failing to accurately diagnose, resulting in withheld necessary care.",
+    "risk": "Patient may not receive appropriate treatment or insurance coverage.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Including unnecessary patient detail in reports",
+    "description": "Providing more patient information than required in documentation.",
+    "risk": "Risk to patient confidentiality and privacy breaches.",
+    "confidence_score": 0.96
+  },
+  {
+    "negative_action": "Adversarial attitude with care reviewers",
+    "description": "Taking a hostile or unprofessional stance during managed care reviews.",
+    "risk": "Damaged working relationships and potential denial of patient care.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Releasing information against regulations",
+    "description": "Sharing information that contravenes state or HIPAA privacy laws.",
+    "risk": "Legal ramifications and patient trust erosion.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Failing to record or justify treatment changes",
+    "description": "Not documenting or explaining modifications in treatment, medication, or progress.",
+    "risk": "Lack of accountability and continuity of care issues.",
+    "confidence_score": 0.94
+  },
+  {
+    "negative_action": "Neglecting assessment of suicidal ideation",
+    "description": "Failing to ask directly and prepare safety plans regarding suicidality.",
+    "risk": "Increased risk of suicide or self-harm in patients.",
+    "confidence_score": 0.99
+  },
+  {
+    "negative_action": "Using self-report forms as sole assessment",
+    "description": "Relying exclusively on written inventories instead of full clinical interviews.",
+    "risk": "Missing crucial clinical data and risk factors.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Rigid adherence to one theoretical model",
+    "description": "Focusing only on a single treatment model rather than adapting to patient needs.",
+    "risk": "Reduced treatment effectiveness and patient engagement.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Assuming patient insight into history",
+    "description": "Believing patient will fully report bipolar or hypomanic episodes without corroboration.",
+    "risk": "Missed diagnosis, inappropriate treatment planning.",
+    "confidence_score": 0.91
+  },
+  {
+    "negative_action": "Assigning overwhelming homework",
+    "description": "Giving tasks beyond patient's motivation or tolerance.",
+    "risk": "Shutdown, non-engagement, or increased distress.",
+    "confidence_score": 0.96
+  },
+  {
+    "negative_action": "Reinforcing negative interpersonal cycles",
+    "description": "Providing excessive reassurance in response to complaints.",
+    "risk": "May worsen social withdrawal and reinforce maladaptive patterns.",
+    "confidence_score": 0.94
+  },
+  {
+    "negative_action": "Passive or unstructured sessions",
+    "description": "Being overly passive or failing to provide structure during sessions.",
+    "risk": "Therapy becomes ineffective, patient may feel lost or unsupported.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Rationalizing self-criticism/hopelessness",
+    "description": "Accepting patient's negative self-talk without challenging it.",
+    "risk": "Reinforces negative thinking and hopelessness.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Ignoring health or comorbidities",
+    "description": "Neglecting physical health, substance use or co-occurring conditions.",
+    "risk": "Increased treatment failure and overlooked risk factors.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Abrupt cessation of therapy",
+    "description": "Ending therapy suddenly rather than phasing out gradually.",
+    "risk": "Risk of relapse or psychological distress.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Making medical recommendations outside scope",
+    "description": "Advising on medication, dosage, or combinations without proper credentials.",
+    "risk": "Patient safety risk; legal liability for unqualified guidance.",
+    "confidence_score": 0.99
+  },
+  {
+    "negative_action": "Reinforcing perfectionism or avoidance",
+    "description": "Supporting 'must' or 'should' statements.",
+    "risk": "Increases maladaptive behavior patterns and impedes progress.",
+    "confidence_score": 0.94
+  },
+  {
+    "negative_action": "Disregarding patient resistance",
+    "description": "Ignoring reluctance or resistance instead of exploring collaboratively.",
+    "risk": "Loss of engagement, risk of dropout, and poorer outcomes.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Neglecting medical evaluation prior to treatment",
+    "description": "Not conducting an initial health screening before beginning therapy.",
+    "risk": "Potentially missing medical contributors to symptoms.",
+    "confidence_score": 0.94
+  },
+  {
+    "negative_action": "Using relaxation as safety behavior for panic",
+    "description": "Allowing breathing or relaxation training only to terminate panic attacks.",
+    "risk": "Reinforces avoidance and prevents therapeutic learning.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Allowing reliance on safety behaviors",
+    "description": "Permitting use of safety behaviors during exposure tasks or overall therapy.",
+    "risk": "Undermines exposure therapy and maintains anxiety.",
+    "confidence_score": 0.99
+  },
+  {
+    "negative_action": "Premature termination before skill acquisition",
+    "description": "Ending treatment before therapeutic skills are learned and maintained.",
+    "risk": "Insufficient coping abilities, increased relapse risk.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Failing to challenge cognitive distortions",
+    "description": "Ignoring or neglecting cognitive errors and assumptions.",
+    "risk": "Treatment is less effective and problems persist.",
+    "confidence_score": 0.96
+  },
+  {
+    "negative_action": "Pathologizing or labeling patient negatively",
+    "description": "Using stigmatizing or negative language.",
+    "risk": "Damages patient self-esteem and trust in therapy.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Allowing unrealistic anxiety elimination expectations",
+    "description": "Not managing expectations around the pace or completeness of anxiety relief.",
+    "risk": "Disappointment, dropout, and impaired progress.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Rushing therapy pace",
+    "description": "Moving through interventions faster than patient can tolerate.",
+    "risk": "Overwhelms patient and disrupts learning.",
+    "confidence_score": 0.94
+  },
+  {
+    "negative_action": "Skipping homework review",
+    "description": "Not reviewing homework or rehearsing skills properly.",
+    "risk": "Reduces skill consolidation and progress monitoring.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Ignoring cultural factors and patient experience",
+    "description": "Neglecting cultural considerations and subjective experience.",
+    "risk": "Reduced therapy relevance, engagement issues.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Assuming cognition changes automatically through exposure",
+    "description": "Relying solely on exposure for cognitive change.",
+    "risk": "Incomplete symptom resolution and poor generalization.",
+    "confidence_score": 0.91
+  },
+  {
+    "negative_action": "Reinforcing need for total anxiety elimination",
+    "description": "Supporting the belief that anxiety must be eliminated immediately.",
+    "risk": "Heightens avoidance and disrupts tolerance development.",
+    "confidence_score": 0.96
+  },
+  {
+    "negative_action": "Overusing relaxation during exposure",
+    "description": "Putting excessive focus on relaxation in exposure tasks.",
+    "risk": "Provides safety cues, impedes anxiety tolerance learning.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Suppressing worried thoughts",
+    "description": "Urging control or suppression of all worried thoughts.",
+    "risk": "Paradoxically increases distress and rumination.",
+    "confidence_score": 0.96
+  },
+  {
+    "negative_action": "Colluding with demands for certainty and perfection",
+    "description": "Agreeing with patient demands for quick fixes and certainty.",
+    "risk": "Reinforces maladaptive beliefs and impedes progress.",
+    "confidence_score": 0.94
+  },
+  {
+    "negative_action": "Using purely supportive, non-directive therapy",
+    "description": "Providing supportive therapy without CBT interventions.",
+    "risk": "Lower effectiveness for anxiety and worry based disorders.",
+    "confidence_score": 0.91
+  },
+  {
+    "negative_action": "Rushing assessment or pressing for full disclosure early",
+    "description": "Hurrying intake or pushing patients for detailed personal revelations.",
+    "risk": "Increases patient anxiety and diminishes engagement.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Over-pathologizing or underdiagnosing SAD",
+    "description": "Mistaking normal shyness for pathology or missing SAD when other complaints dominate.",
+    "risk": "Mistreatment or lack of treatment for social anxiety.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Combining meds and CBT without clear rationale",
+    "description": "Using combined treatments without specifying purpose or progress attribution.",
+    "risk": "Confusion about source of improvement and diluted therapeutic effect.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Tapering sessions before exposure completion",
+    "description": "Reducing session frequency before the exposure hierarchy is finished.",
+    "risk": "Incomplete resolution of problem behaviors and risk of relapse.",
+    "confidence_score": 0.94
+  },
+  {
+    "negative_action": "Failing to normalize or monitor hypersensitivity",
+    "description": "Not validating patient’s experience or checking for hypersensitivity to therapist feedback.",
+    "risk": "Impaired therapeutic relationship and treatment engagement.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Terminating exposure while highly distressed",
+    "description": "Stopping exposure tasks before patient anxiety subsides.",
+    "risk": "Strengthens anxiety associations and avoidance.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Encouraging use of safety behaviors during exposure",
+    "description": "Allowing coping skills or safety behaviors to interrupt exposure.",
+    "risk": "Prevents anxiety habituation and undermines exposure effectiveness.",
+    "confidence_score": 0.99
+  },
+  {
+    "negative_action": "Proceeding with PTSD treatment during active substance abuse or unstable circumstances",
+    "description": "Initiating PTSD therapy when patient cannot participate safely due to concurrent issues.",
+    "risk": "Ineffective treatment, increased risk and dropout.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Minimizing or invalidating trauma/distress",
+    "description": "Rushing or belittling patient’s trauma narrative or cognitive distortions.",
+    "risk": "Decreased trust, engagement, and potential re-traumatization.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Neglecting relapse prevention when ending treatment",
+    "description": "Not planning for relapse prevention strategies during treatment phase-out.",
+    "risk": "Increased risk of symptom recurrence.",
+    "confidence_score": 0.96
+  },
+  {
+    "negative_action": "Group CBT for PTSD without indication",
+    "description": "Using group therapy for PTSD except when clearly appropriate.",
+    "risk": "Patient distress and lower treatment effectiveness.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Surprising or pressuring patients into exposure",
+    "description": "Presenting exposure tasks without warning or collaborative agreement.",
+    "risk": "Patient avoidance, dropout, and increased anxiety.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Attributing gains solely to safety behaviors",
+    "description": "Giving credit for progress only to external supports or safety behaviors.",
+    "risk": "Undermines patient agency and self-efficacy.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Therapist acting overly cautious about inducing anxiety",
+    "description": "Displaying hesitance or fear about purposeful anxiety induction.",
+    "risk": "Reinforces patient's fear and threat appraisals.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Guaranteeing absolute safety/certainty",
+    "description": "Promising absolute safety or certainty in therapy.",
+    "risk": "Promotes unrealistic expectations and dependency.",
+    "confidence_score": 0.94
+  },
+  {
+    "negative_action": "Terminating exposure before habituation",
+    "description": "Ending exposure tasks before patient achieves anxiety reduction/habituation.",
+    "risk": "May increase sensitization and undermine therapy.",
+    "confidence_score": 0.96
+  },
+  {
+    "negative_action": "Reassuring during exposure tasks",
+    "description": "Providing reassurance which can become ritualistic.",
+    "risk": "Disrupts learning and maintains OCD symptoms.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Allowing rituals during exposure or homework",
+    "description": "Permitting compulsions to occur post-exposure.",
+    "risk": "Undermines response prevention and reinforces OCD.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Being judgmental about lapses or setbacks",
+    "description": "Responding critically to setbacks in therapy.",
+    "risk": "Reduces patient trust and willing participation.",
+    "confidence_score": 0.91
+  },
+  {
+    "negative_action": "Using overly standardized cognitive restructuring",
+    "description": "Employing fixed phrase repetition if it resembles ritualizing.",
+    "risk": "Maintains compulsive behaviors rather than addressing cognition.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Neglecting to prepare for dropout/relapse",
+    "description": "Not warning patients of relapse risk or preparing for end of therapy.",
+    "risk": "Increased dropout and recurrence of symptoms.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Ignoring covert avoidance or mental rituals",
+    "description": "Failing to identify subtle forms of avoidance in ERP.",
+    "risk": "Reduces ERP effectiveness and maintains symptoms.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Proceeding with ERP during strong 'overvalued ideas'",
+    "description": "Starting exposure work for OCD without weakening strongly held obsessive beliefs.",
+    "risk": "High distress and poor engagement, failed intervention.",
+    "confidence_score": 0.96
+  },
+  {
+    "negative_action": "Setting vague or unrealistic behavioral targets",
+    "description": "Not establishing clear, achievable goals.",
+    "risk": "Creates confusion, undermines goal attainment.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Punishing or excessively criticizing failed attempts",
+    "description": "Responding negatively to patient setbacks.",
+    "risk": "Reduces motivation and increases shame.",
+    "confidence_score": 0.91
+  },
+  {
+    "negative_action": "Pushing overwhelming tasks without grading",
+    "description": "Presenting tasks that are too difficult without appropriate scaling.",
+    "risk": "Risk of shutdown, avoidance, and non-engagement.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Invalidating patient subjective experience",
+    "description": "Dismissing patient’s feelings during communication training.",
+    "risk": "Impedes progress, erodes therapeutic relationship.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Ignoring relapse risk or waiting for motivation",
+    "description": "Not guiding patients actively or anticipating pitfalls like procrastination.",
+    "risk": "Delays recovery and increases chances of relapse.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Relying solely on techniques without case conceptualization",
+    "description": "Being purely technique oriented ('shotgun' approach) without patient-tailored formulation.",
+    "risk": "Reduces treatment effectiveness and patient engagement.",
+    "confidence_score": 0.94
+  },
+  {
+    "negative_action": "Rushing identification of schemas or assumptions",
+    "description": "Forcing patients to identify core schemas quickly.",
+    "risk": "Incomplete understanding and reduced patient insight.",
+    "confidence_score": 0.91
+  },
+  {
+    "negative_action": "Minimizing patient distress or schema depth",
+    "description": "Overlooking or diminishing the impact of underlying core beliefs.",
+    "risk": "Incomplete treatment and ongoing symptoms.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Fostering dependence on safety behaviors",
+    "description": "Allowing reliance on safety behaviors.",
+    "risk": "Maintains avoidance and inhibits therapy gains.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Attempting exposures without adequate preparation",
+    "description": "Beginning challenging interventions without socialization or collaboration.",
+    "risk": "High dropout and poor engagement.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Being invalidating or neglecting feedback",
+    "description": "Not providing ongoing feedback; being judgmental.",
+    "risk": "Reduces patient motivation, increases dropout risk.",
+    "confidence_score": 0.93
+  }
+]

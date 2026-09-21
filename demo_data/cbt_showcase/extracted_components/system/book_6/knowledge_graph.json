@@ -1,0 +1,233 @@
+{
+  "nodes": [
+    {
+      "type": "Patient",
+      "description": "Root node representing the patient whose longitudinal clinical data is being tracked."
+    },
+    {
+      "type": "Panic Attack Log",
+      "description": "History and detailed log of individual panic attacks, including triggers, symptoms, context, duration, and patient responses."
+    },
+    {
+      "type": "Mood Ratings",
+      "description": "Patterns and trends in mood ratings (anxiety, depression, worry) over time."
+    },
+    {
+      "type": "Triggers",
+      "description": "Known and suspected triggers or antecedent events for panic/anxiety episodes."
+    },
+    {
+      "type": "Symptoms",
+      "description": "Clusters of symptoms experienced during panic attacks or periods of anxiety."
+    },
+    {
+      "type": "Thought Patterns",
+      "description": "Taxonomy and patterns of negative thoughts, including themes, cognitive errors, catastrophic beliefs, and changes over time."
+    },
+    {
+      "type": "Avoidance Behaviors",
+      "description": "Patterns of avoidance, situations most frequently avoided, safety behaviors, and reliance on maladaptive coping strategies."
+    },
+    {
+      "type": "Coping Behaviors",
+      "description": "Coping strategies during and after panic attacks, including application and efficacy of CBT skills."
+    },
+    {
+      "type": "Contextual Variables",
+      "description": "Relevant contextual factors such as time, place, presence of others, and environmental stresses during anxiety/panic episodes."
+    },
+    {
+      "type": "Beliefs",
+      "description": "Documented beliefs about anxiety, panic, dangerousness of symptoms, and cognitive appraisals (including enduring myths, catastrophic beliefs, and changes over time)."
+    },
+    {
+      "type": "Agoraphobia Hierarchy",
+      "description": "Individualized ranking of feared situations or activities, with subjective anxiety ratings and exposure progression."
+    },
+    {
+      "type": "Exposure Practice",
+      "description": "Progress across the exposure hierarchy, details of exposure tasks (triggers, duration, anxiety levels), and associated learning."
+    },
+    {
+      "type": "Homework/Practice Logs",
+      "description": "Completion, compliance, barriers, outcome, and engagement with assigned homework and practice exercises."
+    },
+    {
+      "type": "Insight/Understanding",
+      "description": "Patient’s evolving insight and metacognitive understanding of CBT concepts, therapeutic rationale, and disorder."
+    },
+    {
+      "type": "Significant Others/Helpers",
+      "description": "List of significant others involved, nature of relationships, roles in exposure sessions, communication strategies, and reinforcement patterns."
+    },
+    {
+      "type": "Medication History",
+      "description": "Types, dosages, response, side effects, withdrawal experiences, and response during titration or cessation."
+    },
+    {
+      "type": "Medical Status/Comorbidities",
+      "description": "History and monitoring of medical conditions and contraindications (e.g., for breathing exercises) that may affect therapy."
+    },
+    {
+      "type": "Life Goals and Milestones",
+      "description": "Patient’s long-term life goals, therapy milestones, setbacks, and progress towards those goals."
+    }
+  ],
+  "edges": [
+    {
+      "source": "Patient",
+      "target": "Panic Attack Log",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Mood Ratings",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Triggers",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Symptoms",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Thought Patterns",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Avoidance Behaviors",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Coping Behaviors",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Contextual Variables",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Beliefs",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Agoraphobia Hierarchy",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Exposure Practice",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Homework/Practice Logs",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Insight/Understanding",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Significant Others/Helpers",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Medication History",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Medical Status/Comorbidities",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Life Goals and Milestones",
+      "relation": "has"
+    },
+    {
+      "source": "Triggers",
+      "target": "Panic Attack Log",
+      "relation": "precipitates"
+    },
+    {
+      "source": "Symptoms",
+      "target": "Panic Attack Log",
+      "relation": "manifested in"
+    },
+    {
+      "source": "Thought Patterns",
+      "target": "Symptoms",
+      "relation": "influences"
+    },
+    {
+      "source": "Beliefs",
+      "target": "Thought Patterns",
+      "relation": "shapes"
+    },
+    {
+      "source": "Panic Attack Log",
+      "target": "Avoidance Behaviors",
+      "relation": "can lead to"
+    },
+    {
+      "source": "Coping Behaviors",
+      "target": "Panic Attack Log",
+      "relation": "applied during"
+    },
+    {
+      "source": "Avoidance Behaviors",
+      "target": "Agoraphobia Hierarchy",
+      "relation": "informs"
+    },
+    {
+      "source": "Exposure Practice",
+      "target": "Agoraphobia Hierarchy",
+      "relation": "targets"
+    },
+    {
+      "source": "Homework/Practice Logs",
+      "target": "Exposure Practice",
+      "relation": "records"
+    },
+    {
+      "source": "Insight/Understanding",
+      "target": "Beliefs",
+      "relation": "modifies"
+    },
+    {
+      "source": "Significant Others/Helpers",
+      "target": "Exposure Practice",
+      "relation": "support"
+    },
+    {
+      "source": "Medication History",
+      "target": "Mood Ratings",
+      "relation": "modulates"
+    },
+    {
+      "source": "Medical Status/Comorbidities",
+      "target": "Coping Behaviors",
+      "relation": "limits"
+    },
+    {
+      "source": "Life Goals and Milestones",
+      "target": "Exposure Practice",
+      "relation": "guides"
+    }
+  ]
+}

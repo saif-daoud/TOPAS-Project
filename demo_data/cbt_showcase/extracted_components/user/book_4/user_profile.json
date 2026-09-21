@@ -1,0 +1,220 @@
+{
+  "static_dimensions": [
+    {
+      "dimension_name": "Diagnosis",
+      "description": "A static categorical attribute indicating the primary psychiatric diagnosis of the user in the CBT session.",
+      "options": [
+        "OCD",
+        "OCD with comorbid depression",
+        "OCD with tic disorder",
+        "OCD with anxiety disorder",
+        "OCD with intellectual disability",
+        "OCD with eating disorder",
+        "OCD with conduct disorder",
+        "OCD with hypochondriasis",
+        "OCD with body dysmorphic disorder"
+      ]
+    },
+    {
+      "dimension_name": "OCD Subtype",
+      "description": "A static categorical attribute describing the predominant OCD theme(s) for the user.",
+      "options": [
+        "Contamination",
+        "Checking",
+        "Order/Symmetry",
+        "Hoarding",
+        "Harming",
+        "Superstitious/Religious",
+        "Sexual/Violent",
+        "Other/Idiosyncratic"
+      ]
+    },
+    {
+      "dimension_name": "Age/Developmental Stage",
+      "description": "A static categorical attribute reflecting the user's age and developmental level relevant to CBT protocols.",
+      "options": [
+        "Child",
+        "Adolescent",
+        "Adult",
+        "Older Adult",
+        "Mild intellectual disability"
+      ]
+    },
+    {
+      "dimension_name": "Insight Level",
+      "description": "A static categorical attribute indicating the user's level of recognition regarding the irrational or excessive nature of their OCD symptoms during a session.",
+      "options": [
+        "Good",
+        "Fair",
+        "Poor",
+        "Absent (delusional)"
+      ]
+    },
+    {
+      "dimension_name": "OCD Course",
+      "description": "A static categorical attribute describing the historical course of OCD symptoms.",
+      "options": [
+        "Chronic and stable",
+        "Chronic with waxing/waning",
+        "Episodic",
+        "Deteriorating",
+        "Acute onset"
+      ]
+    },
+    {
+      "dimension_name": "Treatment History",
+      "description": "A static categorical attribute capturing the user's previous experience with OCD treatment.",
+      "options": [
+        "No prior treatment",
+        "Prior CBT",
+        "Prior pharmacotherapy only",
+        "CBT + medication",
+        "Failed prior treatment",
+        "Contraindication to medication"
+      ]
+    },
+    {
+      "dimension_name": "Family/Social System Involvement",
+      "description": "A static categorical attribute capturing the degree of family or social accommodation/participation in rituals and the support system.",
+      "options": [
+        "Highly involved/accommodating",
+        "Supportive/encouraging but not enabling",
+        "Minimal involvement",
+        "Actively resistant"
+      ]
+    },
+    {
+      "dimension_name": "Comorbidity Profile",
+      "description": "A static categorical attribute denoting presence of other psychiatric or medical disorders that may impact CBT sessions.",
+      "options": [
+        "None",
+        "Depression",
+        "Anxiety disorder",
+        "Tic disorder",
+        "ADHD",
+        "Intellectual disability",
+        "Eating disorder",
+        "Oppositional/conduct disorder",
+        "Medical (e.g. pregnancy)"
+      ]
+    }
+  ],
+  "dynamic_dimensions": [
+    {
+      "dimension_name": "Symptom Severity",
+      "description": "A dynamic categorical state indicating the current severity of OCD symptoms (obsessions, compulsions, distress, impairment) during the session.",
+      "options": [
+        "Mild",
+        "Moderate",
+        "Severe"
+      ],
+      "update_condition": "Changes with session progress, exposure tasks, stress, and between-session events as measured by severity scales, therapist ratings, or user self-report."
+    },
+    {
+      "dimension_name": "Treatment Motivation/Engagement",
+      "description": "A dynamic categorical state reflecting the user's willingness to participate in and adhere to CBT tasks, including exposures, homework, and resistance to rituals.",
+      "options": [
+        "High",
+        "Moderate",
+        "Low",
+        "Ambivalent",
+        "Resistant"
+      ],
+      "update_condition": "Updated in response to the user's emotional reactions, progress, clarity of rationale provided, support, and perceived difficulty of therapeutic tasks."
+    },
+    {
+      "dimension_name": "Distress Intolerance",
+      "description": "A dynamic categorical state reflecting the user's ability to tolerate anxiety/distress during exposure or ritual prevention.",
+      "options": [
+        "High intolerance",
+        "Moderate intolerance",
+        "Low intolerance",
+        "Good tolerance"
+      ],
+      "update_condition": "Changes during and across sessions depending on exposure difficulty, support, habituation, new stressors, and perceived success."
+    },
+    {
+      "dimension_name": "Ritual/Compulsion Frequency",
+      "description": "A dynamic categorical state indicating how often the user is performing rituals/compulsions during the treatment period.",
+      "options": [
+        "Frequent",
+        "Occasional",
+        "Rare",
+        "Absent"
+      ],
+      "update_condition": "Changes in response to exposure/response prevention, progress, stress, and social support changes."
+    },
+    {
+      "dimension_name": "Avoidance Behavior",
+      "description": "A dynamic categorical state reflecting the extent of the user's avoidance behaviors related to OCD triggers.",
+      "options": [
+        "Extensive avoidance",
+        "Moderate avoidance",
+        "Minimal avoidance",
+        "No avoidance"
+      ],
+      "update_condition": "May decrease with successful exposure or increase if exposures are avoided or if distress is too high; updated throughout therapy."
+    },
+    {
+      "dimension_name": "Confidence in Treatment/Alliance",
+      "description": "A dynamic categorical state reflecting the user's trust in the therapist, treatment rationale, and perceived efficacy.",
+      "options": [
+        "Strong confidence",
+        "Some confidence",
+        "Doubtful",
+        "Skeptical/Hostile"
+      ],
+      "update_condition": "Changes with therapist consistency, empathy, outcomes, and satisfaction with session; can improve with positive experience or worsen after setbacks."
+    },
+    {
+      "dimension_name": "Emotional Reactivity",
+      "description": "A dynamic categorical state describing the user's predominant emotional response during the session.",
+      "options": [
+        "Anxious",
+        "Fearful",
+        "Distressed",
+        "Angry",
+        "Hopeless",
+        "Sad",
+        "Motivated",
+        "Neutral"
+      ],
+      "update_condition": "Updates in real time as the user responds to exposures, homework, discussion, therapist interventions, and external stressors."
+    },
+    {
+      "dimension_name": "Readiness for Exposure/Change",
+      "description": "A dynamic categorical state assessing the user's stage of readiness for engagement in exposure or behavioral change.",
+      "options": [
+        "Not ready",
+        "Contemplating",
+        "Preparing",
+        "Taking action",
+        "Maintaining"
+      ],
+      "update_condition": "Changes with user progress in therapy, degree of habituation, self-efficacy, and therapist feedback; may regress with setbacks."
+    },
+    {
+      "dimension_name": "Compliance/Adherence",
+      "description": "A dynamic categorical state indicating the user's observed or reported adherence to therapeutic recommendations (e.g., exposures, homework).",
+      "options": [
+        "Full compliance",
+        "Partial compliance",
+        "Noncompliance",
+        "Concealed noncompliance"
+      ],
+      "update_condition": "Updates after feedback on homework, session attendance, therapist review, or new avoidance/substitution behaviors."
+    },
+    {
+      "dimension_name": "Social Support Dynamics",
+      "description": "A dynamic categorical state describing the current level and valence of involvement by family or support network in therapy and rituals.",
+      "options": [
+        "Supportive",
+        "Enabling",
+        "Resistant",
+        "Minimal participation",
+        "Conflictual"
+      ],
+      "update_condition": "Can shift following therapist-family interventions, changes in ritual accommodation, or crises/conflicts emerging in the social context."
+    }
+  ]
+}

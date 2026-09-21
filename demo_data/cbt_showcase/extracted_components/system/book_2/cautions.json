@@ -1,0 +1,278 @@
+[
+  {
+    "negative_action": "Relying solely on written materials or outdated guidelines",
+    "description": "Do not depend only on textbooks or outdated standards instead of current physician or expert guidance.",
+    "risk": "Therapeutic interventions may not meet current best practices, increasing risk of harm or ineffective treatment.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Violating intellectual property laws",
+    "description": "Do not reproduce copyrighted materials beyond allowed limits.",
+    "risk": "Legal issues and professional misconduct allegations.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Ignoring agenda-setting or session structure",
+    "description": "Do not neglect to set a session agenda or structure sessions poorly.",
+    "risk": "Sessions may become unfocused, reducing therapeutic effectiveness.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Neglecting patient privacy and confidentiality",
+    "description": "Do not breach patient confidentiality, especially in sharing case material.",
+    "risk": "Loss of patient trust and ethical violations.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Failing to maintain therapist self-care",
+    "description": "Do not neglect your own self-care or ignore burnout.",
+    "risk": "Burnout can lead to decreased therapy quality and therapist well-being.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Using didactic or non-collaborative communication",
+    "description": "Do not communicate in a top-down or authoritarian manner.",
+    "risk": "Reduces patient engagement and inhibits therapeutic alliance.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Glossing over genuine problems or distress",
+    "description": "Do not minimize or dismiss significant patient emotions or circumstances.",
+    "risk": "Patient may feel invalidated or unheard, hampering progress.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Overusing empathy, warmth, or humor",
+    "description": "Do not use excessive empathy, warmth, or humor during sessions.",
+    "risk": "May unintentionally reinforce negative cognitions or backfire.",
+    "confidence_score": 0.85
+  },
+  {
+    "negative_action": "Colluding with maladaptive thoughts or behaviors",
+    "description": "Do not passively validate or reinforce maladaptive patterns.",
+    "risk": "Entrenches unhelpful cognitions or behaviors.",
+    "confidence_score": 0.94
+  },
+  {
+    "negative_action": "Applying a rigid, one-size-fits-all approach",
+    "description": "Do not use monolithic or inflexible therapeutic styles.",
+    "risk": "Fails to address unique patient needs and reduces efficacy.",
+    "confidence_score": 0.94
+  },
+  {
+    "negative_action": "Labeling patients in a pejorative way",
+    "description": "Do not use diagnostic terms to distance or insult patients.",
+    "risk": "Harms the therapeutic relationship and increases stigma.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Violating boundaries or ethics",
+    "description": "Do not accede to inappropriate requests for friendship, intimacy, or favors.",
+    "risk": "Blurs professional boundaries, leading to ethical violations.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Proceeding with CBT in presence of absolute contraindications",
+    "description": "Do not use CBT when patients have absolute contraindications (e.g., advanced dementia, severe antisocial traits).",
+    "risk": "Likely to result in poor outcomes or even harm.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Overlooking hopelessness or suicidality",
+    "description": "Do not minimize, overlook, or neglect to address suicidality, hopelessness, or associated risks.",
+    "risk": "Potential for increased suicide risk and patient harm.",
+    "confidence_score": 0.99
+  },
+  {
+    "negative_action": "Neglecting to assess CBT suitability",
+    "description": "Do not skip assessment of model compatibility or patient rationale.",
+    "risk": "May cause disengagement or resistance to treatment.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Proceeding with fixed case conceptualization",
+    "description": "Do not use unchanging conceptualizations—revise as new info emerges.",
+    "risk": "Overlooks evolving patient needs; may miss important treatment targets.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Neglecting standardized symptom tracking",
+    "description": "Do not skip symptom measurements and standardized progress tracking.",
+    "risk": "May miss signs of deterioration or lack of improvement.",
+    "confidence_score": 0.91
+  },
+  {
+    "negative_action": "Using vague, non-specific, or overwhelming goals",
+    "description": "Do not set overly vague or unrealistic goals or agenda items.",
+    "risk": "Patients may feel overwhelmed or lost and progress is hindered.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Giving overly positive or critical feedback",
+    "description": "Do not provide feedback that is exaggerated (either positive or negative).",
+    "risk": "May reinforce denial or decrease motivation.",
+    "confidence_score": 0.88
+  },
+  {
+    "negative_action": "Ignoring patient education level or therapy history",
+    "description": "Do not neglect to tailor psychoeducation to patient’s background.",
+    "risk": "Patient may misunderstand or disengage from therapy.",
+    "confidence_score": 0.89
+  },
+  {
+    "negative_action": "Inappropriately using role play with unstable patients",
+    "description": "Do not use role play with patients lacking reality testing or with severe personality/psychotic disorders unless highly experienced.",
+    "risk": "May destabilize patients or worsen symptoms.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Pushing for cognitive error labeling if discouraging",
+    "description": "Do not force patients to label or distinguish cognitive errors if it causes confusion.",
+    "risk": "Risk of discouragement or disengagement.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Overwhelming with complex tasks early in therapy",
+    "description": "Do not overload new patients with complicated record-keeping or analyses.",
+    "risk": "Patient may feel overwhelmed and give up.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Using leading, closed, or overly challenging Socratic questions",
+    "description": "Do not frame Socratic inquiry in ways that make the therapist the only expert.",
+    "risk": "Patients may feel judged or less autonomous.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Encouraging unrealistic positive thinking",
+    "description": "Do not promote ungrounded positive alternatives, especially after trauma or severe loss.",
+    "risk": "Patient may feel invalidated or misunderstood.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Proceeding with advanced interventions before readiness",
+    "description": "Do not attempt complex interventions before basic skills are established.",
+    "risk": "Patient may not benefit or may disengage from therapy.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Assigning tasks that are too ambitious or mismatched",
+    "description": "Do not assign tasks beyond the patient’s current capacity.",
+    "risk": "Patients may feel overwhelmed and unsuccessful.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Imposing action plans non-collaboratively",
+    "description": "Do not assign solutions or tasks without patient collaboration.",
+    "risk": "Reduces patient buy-in and willingness.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Criticizing or blaming patients for noncompletion",
+    "description": "Do not blame or label the patient for failing homework.",
+    "risk": "Damages alliance and reduces motivation.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Overloading with too many tasks",
+    "description": "Do not give the patient an excessive or complicated list of homework.",
+    "risk": "Leads to cognitive overload and potential dropout.",
+    "confidence_score": 0.93
+  },
+  {
+    "negative_action": "Facilitating avoidance behaviors",
+    "description": "Do not reinforce safety or avoidance behaviors, directly or indirectly.",
+    "risk": "Maintains or worsens the issue the therapy is aiming to treat.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Pushing exposure/homework at an inappropriate pace",
+    "description": "Do not push assignments that are too easy, too hard, or poorly timed.",
+    "risk": "Can cause excessive anxiety or lack of progress.",
+    "confidence_score": 0.96
+  },
+  {
+    "negative_action": "Using non-collaborative response prevention",
+    "description": "Do not prescribe exposure or response prevention in an authoritarian manner.",
+    "risk": "Undermines trust and reduces efficacy.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Prematurely challenging entrenched beliefs",
+    "description": "Do not challenge core beliefs before building alliance or ensuring readiness.",
+    "risk": "Patient may become defensive or drop out.",
+    "confidence_score": 0.92
+  },
+  {
+    "negative_action": "Exploring schemas without safety/psychoeducation",
+    "description": "Do not pursue schema work without supporting understanding and safety.",
+    "risk": "May evoke distress or confusion.",
+    "confidence_score": 0.91
+  },
+  {
+    "negative_action": "Challenging hopelessness or suicidality before alliance",
+    "description": "Do not directly confront these core issues without a secure therapeutic relationship.",
+    "risk": "Patient may feel invalidated, defensive, or experience increased risk.",
+    "confidence_score": 0.97
+  },
+  {
+    "negative_action": "Pursuing aversive interventions without consent",
+    "description": "Do not proceed with imaginal or distressing interventions without preparation and explicit patient agreement.",
+    "risk": "Traumatization or violation of trust.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Neglecting safety and confidentiality with high-risk patients",
+    "description": "Do not overlook the specifics of confidentiality or safety planning.",
+    "risk": "Patient or others may be put at increased risk.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Attempting therapy before medical stabilization",
+    "description": "Do not proceed when acute medical or psychiatric instability is present.",
+    "risk": "Could worsen patient condition or miss critical medical needs.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Ignoring comorbid issues (substance use, trauma)",
+    "description": "Do not overlook major comorbidities in planning and delivering CBT.",
+    "risk": "Poor outcomes and risk of exacerbation.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Rigidly applying session format with impaired patients",
+    "description": "Do not demand standard format when a patient’s participation is compromised.",
+    "risk": "Increases disengagement and could worsen symptoms.",
+    "confidence_score": 0.89
+  },
+  {
+    "negative_action": "Continuing treatment when patient is intoxicated",
+    "description": "Do not proceed with sessions if patient is intoxicated or sobriety is violated.",
+    "risk": "Therapy is unlikely to be productive and could be unsafe.",
+    "confidence_score": 0.96
+  },
+  {
+    "negative_action": "Exceeding reasonable workload or neglecting self-care",
+    "description": "Do not overload yourself or allow work-life imbalance.",
+    "risk": "Risks burnout, lower performance, and suboptimal care.",
+    "confidence_score": 0.96
+  },
+  {
+    "negative_action": "Proceeding outside scope of competence",
+    "description": "Do not treat cases beyond your expertise; refer out when needed.",
+    "risk": "Patient safety and outcomes may be compromised.",
+    "confidence_score": 0.98
+  },
+  {
+    "negative_action": "Ignoring evidence or prematurely forming conclusions",
+    "description": "Do not ignore counter-evidence or overgeneralize from limited data.",
+    "risk": "Can lead to faulty conceptualizations and poor intervention choices.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Neglecting at-risk patient safety planning",
+    "description": "Do not overlook the need for safety plans with high-risk patients.",
+    "risk": "Increases likelihood of patient harm.",
+    "confidence_score": 0.98
+  }
+]

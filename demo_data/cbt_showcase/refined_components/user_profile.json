@@ -1,0 +1,520 @@
+{
+  "static_dimensions": [
+    {
+      "dimension_name": "Diagnosis and Comorbidity",
+      "description": "A static categorical attribute of the user that remains fixed during the therapy session with the system. Captures the main present diagnosis and comorbidities or relevant presenting problems/disorders.",
+      "options": [
+        "no formal diagnosis/clinical symptoms only",
+        "panic disorder",
+        "agoraphobia",
+        "generalized anxiety disorder",
+        "social anxiety disorder",
+        "PTSD",
+        "PTSD with depression",
+        "PTSD with anxiety",
+        "PTSD with substance use",
+        "PTSD with personality disorder features",
+        "Complex PTSD/multiple comorbidities",
+        "Subthreshold PTSD",
+        "OCD",
+        "OCD with comorbid depression",
+        "OCD with tic disorder",
+        "OCD with anxiety disorder",
+        "OCD with intellectual disability",
+        "OCD with eating disorder",
+        "OCD with conduct disorder",
+        "OCD with hypochondriasis",
+        "OCD with body dysmorphic disorder",
+        "unipolar_nonpsychotic_depression",
+        "bipolar_depression",
+        "psychotic_depression",
+        "chronic_depression",
+        "recurrent_depression",
+        "single_episode_depression",
+        "subthreshold_depression",
+        "no diagnosis",
+        "other anxiety disorder",
+        "multiple comorbidities",
+        "comorbid anxiety",
+        "comorbid personality disorder",
+        "comorbid medical condition",
+        "ADHD",
+        "eating disorder",
+        "tic disorder",
+        "intellectual disability",
+        "medical (e.g. pregnancy)",
+        "depression",
+        "oppositional/conduct disorder",
+        "other"
+      ]
+    },
+    {
+      "dimension_name": "Core Beliefs and Cognitive Style",
+      "description": "A static categorical attribute of the user that remains fixed during the therapy session with the system. Reflects enduring core beliefs, schemas, and habitual thought patterns.",
+      "options": [
+        "perfectionism",
+        "catastrophic appraisal/catastrophizing",
+        "self-criticism/shame",
+        "fear of abandonment/rejection",
+        "positive self-appraisal",
+        "flexible/accepting",
+        "unlovable",
+        "incompetent",
+        "defective",
+        "dangerous_world",
+        "hopeless_future",
+        "worthless",
+        "responsible_for_bad",
+        "acceptable",
+        "capable",
+        "all_or_nothing",
+        "personalizing",
+        "self-blaming",
+        "optimistic",
+        "balanced",
+        "threat/vulnerability",
+        "incompetence/failure",
+        "social inadequacy/negative evaluation",
+        "perfectionism/responsibility",
+        "control/intolerance of uncertainty",
+        "multiple/other"
+      ]
+    },
+    {
+      "dimension_name": "Personality and Temperament",
+      "description": "A static categorical attribute of the user that remains fixed during the therapy session with the system. Describes stable personality features, emotional reactivity, and temperament.",
+      "options": [
+        "high neuroticism/negative affectivity",
+        "low neuroticism",
+        "high extraversion/positive affectivity",
+        "low positive affect/behavioral inhibition",
+        "emotionally labile/dysregulated",
+        "rigid/cognitive inflexibility",
+        "no personality disorder",
+        "avoidant",
+        "dependent",
+        "obsessive_compulsive",
+        "emotionally_unstable",
+        "paranoid",
+        "perfectionistic",
+        "none specified",
+        "frequent_catastrophizing",
+        "moderate_distortions",
+        "minimal_distortions",
+        "high trait anxiety/negative affectivity",
+        "moderate trait anxiety/negative affectivity",
+        "low trait anxiety/negative affectivity"
+      ]
+    },
+    {
+      "dimension_name": "Coping and Avoidance Style",
+      "description": "A static categorical attribute of the user that remains fixed during the therapy session with the system. Indicates typical coping or avoidance strategies used to manage distress.",
+      "options": [
+        "behavioral avoidance",
+        "cognitive avoidance/rumination",
+        "substance use",
+        "safety behaviors/reassurance seeking",
+        "emotion suppression",
+        "adaptive coping",
+        "avoidance/escape",
+        "safety-seeking behaviors",
+        "reassurance-seeking",
+        "compulsive rituals",
+        "adaptive problem-solving",
+        "mixed/other"
+      ]
+    },
+    {
+      "dimension_name": "Demographics and Sociocultural Context",
+      "description": "A static categorical attribute of the user that remains fixed during the therapy session with the system. Describes age, gender, cultural/ethnic identity, education, occupation, family status, and related context.",
+      "options": [
+        "youth (under 25)",
+        "adult (25-60)",
+        "older adult (60+)",
+        "student",
+        "employed",
+        "unemployed",
+        "parent/caregiver",
+        "majority cultural background",
+        "minority/immigrant background",
+        "high socioeconomic status",
+        "low socioeconomic status",
+        "urban setting",
+        "rural setting",
+        "child",
+        "adolescent",
+        "adult",
+        "older_adult",
+        "inpatient",
+        "outpatient",
+        "single",
+        "married",
+        "young_adult_single",
+        "young_adult_married",
+        "adult_with_children",
+        "adult_no_children",
+        "low literacy",
+        "high literacy",
+        "specific cultural/ethnic group",
+        "individualistic western",
+        "collectivist/non-western",
+        "mixed/migratory/transitional",
+        "male",
+        "female",
+        "non-binary/gender diverse",
+        "LGBTQ+",
+        "veteran/military",
+        "civilian"
+      ]
+    },
+    {
+      "dimension_name": "Therapy Format and History",
+      "description": "A static categorical attribute of the user that remains fixed during the therapy session with the system. Captures the user’s treatment delivery format, setting, prior treatment experience, and preferences.",
+      "options": [
+        "individual CBT",
+        "group CBT",
+        "individual therapy",
+        "group therapy",
+        "previous CBT experience",
+        "CBT-naïve",
+        "technology-assisted/online therapy",
+        "in-person",
+        "telehealth/remote",
+        "shortened/adapted format",
+        "CPT with additional elements (CPT+A)",
+        "no prior treatment",
+        "prior CBT",
+        "prior pharmacotherapy only",
+        "CBT + medication",
+        "failed prior treatment",
+        "contraindication to medication",
+        "prefers_psychotherapy",
+        "prefers_medication",
+        "ambivalent",
+        "reluctant",
+        "open collaborator",
+        "skeptical"
+      ]
+    },
+    {
+      "dimension_name": "Functional and Cognitive Status",
+      "description": "A static categorical attribute of the user that remains fixed during the therapy session with the system. Includes level of functional impairment and baseline cognitive abilities.",
+      "options": [
+        "severe functional impairment",
+        "moderate functional impairment",
+        "mild functional impairment",
+        "minimal/no functional impairment",
+        "no impairment",
+        "mild cognitive impairment",
+        "moderate cognitive impairment",
+        "severe impairment (may require adaptations)",
+        "childhood/adolescent onset, chronic course",
+        "adult onset, chronic course",
+        "recent onset, acute course",
+        "chronic and stable",
+        "chronic with waxing/waning",
+        "episodic",
+        "deteriorating",
+        "acute onset"
+      ]
+    },
+    {
+      "dimension_name": "Insight Level",
+      "description": "A static categorical attribute of the user that remains fixed during the therapy session with the system. Denotes awareness and understanding of symptoms.",
+      "options": [
+        "good insight",
+        "partial insight",
+        "poor/absent insight",
+        "good",
+        "fair",
+        "poor",
+        "absent (delusional)",
+        "unknown"
+      ]
+    },
+    {
+      "dimension_name": "Family and Social Support",
+      "description": "A static categorical attribute of the user that remains fixed during the therapy session with the system. Represents family involvement, typical support patterns, and social context.",
+      "options": [
+        "highly involved/accommodating",
+        "supportive/encouraging but not enabling",
+        "minimal involvement",
+        "actively resistant",
+        "dependence on significant others",
+        "receives unsupportive responses",
+        "effective support system",
+        "prefers autonomy",
+        "positive family history",
+        "negative family history"
+      ]
+    },
+    {
+      "dimension_name": "Trauma and Index Experience",
+      "description": "A static categorical attribute of the user that remains fixed during the therapy session with the system. Captures trauma history, trauma type, and relevant context.",
+      "options": [
+        "combat-related trauma",
+        "sexual assault/abuse",
+        "childhood physical abuse",
+        "intimate partner violence",
+        "accident or disaster",
+        "witnessing violence/death",
+        "moral injury",
+        "multiple/complex traumas",
+        "other trauma"
+      ]
+    }
+  ],
+  "dynamic_dimensions": [
+    {
+      "dimension_name": "Emotional State and Affect Intensity",
+      "description": "A dynamic categorical state of the user that may change during the therapy session depending on the user's responses and the system's interventions. Captures present emotional tone, predominant mood, and intensity.",
+      "options": [
+        "stable/neutral",
+        "calm/neutral",
+        "high negative affect (anxious, sad, irritable, shameful)",
+        "mild anxiety",
+        "moderate anxiety",
+        "severe anxiety/panic",
+        "distress (shame/guilt/anger)",
+        "dysregulated/overwhelmed",
+        "emotionally numb/disconnected",
+        "high positive affect (hopeful, engaged, confident)",
+        "hopeful",
+        "ashamed",
+        "angry",
+        "anxious",
+        "fearful",
+        "motivated",
+        "discouraged",
+        "frustrated",
+        "sad",
+        "neutral",
+        "emotional numbing/avoidance",
+        "excessive guilt/shame/fear",
+        "emotional dysregulation",
+        "effective regulation/acceptance"
+      ],
+      "update_condition": "Update with discussion of triggers, symptom change, exposure or cognitive tasks, session events, and as the user's affect shifts in response to interventions, stressors, successes, or mindfulness."
+    },
+    {
+      "dimension_name": "Level of Engagement and Participation",
+      "description": "A dynamic categorical state of the user that may change during the therapy session depending on the user's responses and the system's interventions. Reflects willingness, active participation, and compliance.",
+      "options": [
+        "active/collaborative",
+        "highly engaged/motivated",
+        "variable engagement",
+        "moderately engaged",
+        "ambivalent/hesitant",
+        "open and experimenting",
+        "passively compliant",
+        "avoidant/withdrawing",
+        "resistant/avoidant",
+        "ambivalent/resistant",
+        "withdrawn",
+        "passive",
+        "minimal_participation",
+        "collaborator",
+        "noncompliant",
+        "disengaged"
+      ],
+      "update_condition": "Update in response to participation with exposure, cognitive tasks, session structure, alliance quality, changes after successes, setbacks, motivational interventions, or reported willingness."
+    },
+    {
+      "dimension_name": "Motivation and Readiness for Change",
+      "description": "A dynamic categorical state of the user that may change during the therapy session depending on the user's responses and the system's interventions. Reflects motivation, readiness to engage, and willingness to practice change.",
+      "options": [
+        "highly motivated",
+        "ambivalent",
+        "externally motivated",
+        "low motivation/resistant",
+        "increasing motivation",
+        "precontemplation (not ready/anxious/ambivalent)",
+        "contemplation (willing but hesitant)",
+        "preparing",
+        "action (actively participating)",
+        "maintenance (consolidating gains)",
+        "actively_changing",
+        "ready_for_change",
+        "actively_confronting",
+        "resistant"
+      ],
+      "update_condition": "Update as the user expresses willingness, discusses change, responds to motivational interventions, reports on assignment completion, or demonstrates effort with tasks."
+    },
+    {
+      "dimension_name": "Symptom Severity/Distress Level",
+      "description": "A dynamic categorical state of the user that may change during the therapy session depending on the user's responses and the system's interventions. Represents the current intensity and pattern of symptoms or subjective distress.",
+      "options": [
+        "mild",
+        "moderate",
+        "severe",
+        "extreme/impairing",
+        "severe/worsening symptoms",
+        "moderate/persistent symptoms",
+        "mild/improving symptoms",
+        "remitted/minimal symptoms",
+        "none/mild"
+      ],
+      "update_condition": "Update based on symptom self-report, exposure exercises, therapist observation, rating scales, and session events."
+    },
+    {
+      "dimension_name": "Avoidance and Safety Behaviors (Current Use)",
+      "description": "A dynamic categorical state of the user that may change during the therapy session depending on the user's responses and the system's interventions. Indicates the frequency and intensity of avoidance or safety behaviors.",
+      "options": [
+        "frequent/automatic use",
+        "significantly avoidant",
+        "occasionally avoidant",
+        "minimally avoidant",
+        "reduced but present use",
+        "minimal/intentional use",
+        "absent or discontinued",
+        "high reliance",
+        "moderate reliance",
+        "minimal reliance",
+        "no avoidance",
+        "extensive avoidance",
+        "moderate avoidance"
+      ],
+      "update_condition": "Update after exposures, behavioral experiments, review of homework, and as the user alters or reflects on coping strategies and response to triggers."
+    },
+    {
+      "dimension_name": "Cognitive Flexibility and Insight",
+      "description": "A dynamic categorical state of the user that may change during the therapy session depending on the user's responses and the system's interventions. Reflects current ability to reflect, reappraise, and challenge automatic thoughts.",
+      "options": [
+        "very rigid",
+        "somewhat rigid",
+        "moderately flexible",
+        "highly flexible and insightful",
+        "limited insight",
+        "growing insight",
+        "emerging awareness",
+        "accurate self-monitoring",
+        "high self reflection"
+      ],
+      "update_condition": "Update after cognitive restructuring, insight-building exercises, or as the user discusses shifting perspective on thoughts, emotions, or behaviors."
+    },
+    {
+      "dimension_name": "Cognitive Distortion Patterns",
+      "description": "A dynamic categorical state of the user that may change during the therapy session depending on the user's responses and the system's interventions. Captures current intensity or resolution of negative automatic thoughts and distortions.",
+      "options": [
+        "pervasive distortions",
+        "moderate distortions",
+        "minimal distortions",
+        "improved reality testing"
+      ],
+      "update_condition": "Changes as the user acquires and applies cognitive skills, insight, new learning, or faces triggering situations."
+    },
+    {
+      "dimension_name": "Engagement With Therapy Tasks and Adherence",
+      "description": "A dynamic categorical state of the user that may change during the therapy session depending on the user's responses and the system's interventions. Tracks compliance and completion of assigned CBT homework or exposure tasks.",
+      "options": [
+        "full adherence",
+        "partial adherence",
+        "nonadherent/avoiding",
+        "improving adherence",
+        "noncompliance",
+        "inconsistent",
+        "fully adherent",
+        "partial compliance",
+        "full compliance",
+        "concealed noncompliance"
+      ],
+      "update_condition": "Update after homework review, check-ins, therapeutic assignments, or in response to barriers and discussion of supports."
+    },
+    {
+      "dimension_name": "Skill Proficiency and Practice",
+      "description": "A dynamic categorical state of the user that may change during the therapy session depending on the user's responses and the system's interventions. Describes proficiency and independence in using emotion regulation, coping, or CBT skills.",
+      "options": [
+        "not using skills",
+        "attempting but inconsistent",
+        "using with support",
+        "using independently",
+        "generalizing to daily life",
+        "novice",
+        "practicing",
+        "competent",
+        "mastery"
+      ],
+      "update_condition": "Update after skills training, in-session practice, emotional exposures, and as the user reports or demonstrates skill use between sessions."
+    },
+    {
+      "dimension_name": "Coping Response (Session Dominant)",
+      "description": "A dynamic categorical state of the user that may change during the therapy session depending on the user's responses and the system's interventions. Denotes which coping strategy is being used most in session.",
+      "options": [
+        "avoidance/escape",
+        "safety/reassurance-seeking",
+        "active engagement/problem-solving",
+        "suppression/distraction",
+        "compulsions/rituals",
+        "acceptance/tolerance"
+      ],
+      "update_condition": "Update as the user avoids, seeks safety, actively participates, resists, or practices acceptance/tolerance, especially during or after exposures or cognitive tasks."
+    },
+    {
+      "dimension_name": "Therapeutic Engagement/Alliance",
+      "description": "A dynamic categorical state of the user that may change during the therapy session depending on the user's responses and the system's interventions. Captures trust, relational quality, and openness to feedback or support.",
+      "options": [
+        "distrustful",
+        "guarded",
+        "ambivalent",
+        "open and trusting",
+        "ruptured",
+        "repaired",
+        "strong confidence",
+        "some confidence",
+        "doubtful",
+        "skeptical/hostile"
+      ],
+      "update_condition": "Update with changes after alliance-building, feedback, rupture/repair events, or openness in session."
+    },
+    {
+      "dimension_name": "Social Context and Support",
+      "description": "A dynamic categorical state of the user that may change during the therapy session depending on the user's responses and the system's interventions. Reflects current family/support involvement.",
+      "options": [
+        "supportive",
+        "enabling",
+        "resistant",
+        "minimal participation",
+        "conflictual",
+        "supportive context",
+        "neutral context",
+        "unsupportive/context of conflict",
+        "social isolation"
+      ],
+      "update_condition": "Update with life circumstance changes, feedback from involved supports, or change in family engagement in rituals or therapy."
+    },
+    {
+      "dimension_name": "Exposure/Change Readiness",
+      "description": "A dynamic categorical state of the user that may change during the therapy session depending on the user's responses and the system's interventions. Tracks stage of readiness for exposure or behavioral change.",
+      "options": [
+        "not ready",
+        "contemplating",
+        "preparing",
+        "taking action",
+        "maintaining"
+      ],
+      "update_condition": "Update as the user progresses through therapy, with shifts in self-efficacy, habituation, therapist support, or in the event of setbacks."
+    },
+    {
+      "dimension_name": "Relapse Risk and Prevention Readiness",
+      "description": "A dynamic categorical state of the user that may change during the therapy session depending on the user's responses and the system's interventions. Assesses current relapse risk and preparedness for prevention.",
+      "options": [
+        "high_risk_low_preparedness",
+        "high_risk_moderate_preparedness",
+        "moderate_risk_high_preparedness",
+        "low_risk_high_preparedness"
+      ],
+      "update_condition": "Update with changes in symptom stability, skill practice, and as therapy termination or transitions are approached."
+    },
+    {
+      "dimension_name": "Medication Attitude and Compliance",
+      "description": "A dynamic categorical state of the user that may change during the therapy session depending on the user's responses and the system's interventions. Reflects the user's medication compliance and attitude.",
+      "options": [
+        "compliant_positive",
+        "compliant_ambivalent",
+        "noncompliant_negative",
+        "tapering_withdrawal"
+      ],
+      "update_condition": "Update as the user discusses side effects, withdrawal, or adjusts reliance on CBT versus medication."
+    }
+  ]
+}

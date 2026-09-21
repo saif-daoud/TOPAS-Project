@@ -1,0 +1,868 @@
+[
+  {
+    "macro_actions": {
+      "summary": "None"
+    },
+    "micro_actions": {
+      "summary": "None"
+    },
+    "conversation_states": {
+      "summary": "None"
+    },
+    "knowledge_graph": {
+      "summary": "None"
+    },
+    "cautions": {
+      "summary": "None"
+    },
+    "rules": {
+      "summary": "None"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "None"
+    },
+    "micro_actions": {
+      "summary": "None"
+    },
+    "conversation_states": {
+      "summary": "None"
+    },
+    "knowledge_graph": {
+      "summary": "None"
+    },
+    "cautions": {
+      "summary": "None"
+    },
+    "rules": {
+      "summary": "None"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter outlines high-level CBT strategies primarily centered on the design and implementation of behavioral experiments. These macro-actions include: performing assessment and cognitive formulation, applying cognitive models to specific problems, identifying key cognitions or constructs, designing tailored behavioral experiments to test target beliefs, noting results, and reflecting on implications for beliefs. Flexibility and creative adaptation to individual needs are emphasized as core strategies throughout intervention."
+    },
+    "micro_actions": {
+      "summary": "The chapter lists micro-intervention actions operationalizing the above strategies, such as: formulating testable cognitions, making explicit predictions prior to experiments, setting up and conducting behavioral experiments with individualized context and parameters, documenting results, and jointly reflecting (with the patient) on the outcomes. Micro-actions also involve iterative adaptation based on unpredictable outcomes and maintaining a context-sensitive approach at each conversational step."
+    },
+    "conversation_states": {
+      "summary": "The chapter implicitly suggests therapists track several dimensions during sessions, such as: current cognitive formulation of the patient, target cognition(s) under investigation, predictions made by patient/therapist, ongoing results of behavioral experiments, and the patient’s emotional and cognitive responses to unexpected outcomes or difficulties encountered."
+    },
+    "knowledge_graph": {
+      "summary": "Long-term memory dimensions to track across multiple sessions include: patient’s history of presenting problems, previous cognitive formulations, past and current key cognitions, outcomes of prior behavioral experiments, difficulties encountered with implementation, links to co-occurring or transdiagnostic issues, and references to relevant chapters or readings for the patient’s situation."
+    },
+    "cautions": {
+      "summary": "Therapists are cautioned against rigidly following ‘recipes’ or standardized procedures without adapting to patient context. There is a warning not to slavishly implement protocols irrespective of case specifics, and not to overlook the importance of humor and flexibility in managing unpredictable events, serendipitous or adverse outcomes."
+    },
+    "rules": {
+      "summary": "- {\"if\": \"a behavioral experiment does not yield expected results or unexpected difficulties occur\", \"then\": \"adapt the approach flexibly; use humor and creativity to process outcomes with the patient\"}\n- {\"if\": \"setting up a behavioral experiment for a specific patient\", \"then\": \"individually tailor the experiment to the patient's cognitive formulation and current context\"}\n- {\"if\": \"identifying key cognitions or constructs relevant to the patient's problem\", \"then\": \"design behavioral experiments to test those cognitions\"}\n- {\"if\": \"documenting results after an experiment\", \"then\": \"engage the patient in reflection to evaluate implications for target beliefs\"}\n- {\"if\": \"using this textbook for CBT intervention\", \"then\": \"do not rigidly follow standardized methods; apply principles creatively based on patient needs\"}"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "- Therapist collaborates with the patient to develop a case formulation linking theory to the individual's difficulties.\n- Therapist identifies maladaptive cognitions (negative automatic thoughts, core beliefs, assumptions, etc.) and their maintaining processes.\n- Therapist assists patient in reality-testing maladaptive cognitions through both verbal and experiential strategies.\n- Therapist plans, implements, and reviews behavioural experiments (BEs) to test the validity of beliefs, construct new adaptive beliefs, and gather evidence for cognitive change.\n- Therapist builds and maintains a strong therapeutic relationship characterized by warmth, empathy, genuineness, and collaboration.\n- Therapist supports learning from experience through cycles of planning, executing, observing, and reflecting (Kolb/Lewin experiential learning model).\n- Therapist uses both hypothesis-testing and discovery-oriented approaches depending on the patient’s needs.\n- Therapist may use the safety of the therapeutic relationship to conduct interpersonal BEs, especially when relevant to schema change."
+    },
+    "micro_actions": {
+      "summary": "- Eliciting specific negative automatic thoughts, assumptions, and core beliefs through focused questioning.\n- Using guided discovery to uncover important information and challenge unhelpful cognitions.\n- Collaboratively generating predictions related to specific beliefs to be tested in BEs.\n- Planning the details of behavioural experiments, including what action the patient will take, potential safety behaviours to avoid, and ensuring variables are controlled where possible.\n- Encouraging the patient to carry out actions or observations both within and outside therapy sessions.\n- Systematically observing and recording patient experiences, outcomes, and emotional responses during experiments.\n- Reflecting with the patient on the observed results and their implications for the target beliefs.\n- Iteratively adapting experiments based on reflection and observed results, continuing the experiential learning cycle."
+    },
+    "conversation_states": {
+      "summary": "- The patient’s currently activated beliefs and cognitions (automatic thoughts, assumptions, core beliefs).\n- Patient appraisal of situations/events and their emotional/behavioral/physiological reactions.\n- Presence and specifics of safety behaviours or avoidance strategies.\n- Motivation and readiness for cognitive/experiential change.\n- Quality of the therapeutic relationship (collaboration, trust, engagement).\n- Level of self-awareness regarding internal processes (thoughts, feelings, physical reactions).\n- Degree of belief change (“intellectual” vs. “emotional” conviction).\n- Stage within experiential learning cycle (plan, experience, observe, reflect).\n- Patient’s ability to generate alternative cognitions and predictions.\n- Procedural vs. declarative cognition status."
+    },
+    "knowledge_graph": {
+      "summary": "- Patient’s hypothesized maintaining processes and case formulation (individualized model).\n- Record of key automatic thoughts, core beliefs, assumptions, schemas, and metacognitive beliefs implicated in difficulties.\n- History of completed BEs: predictions, actions taken, outcomes observed, reflections/learning.\n- Safety behaviours identified and tracked over time.\n- Patterns of emotional, behavioural, and physiological responses to targeted events/experiments.\n- Therapeutic relationship history: collaboration, rapport, interpersonal schema testing.\n- Longitudinal progression of cognitive, affective, behavioural changes across sessions.\n- Patient’s responses to and reflections on other cognitive interventions (e.g., thought records, guided discovery)."
+    },
+    "cautions": {
+      "summary": "- Do not focus solely on changing behaviour without explicit cognitive/affective targets (i.e., behaviour change should serve cognitive change).\n- Avoid relying exclusively on purely verbal interventions when experiential/behavioural approaches would provide deeper change.\n- Do not ignore or bypass the collaborative, empathic, trusting nature of the therapeutic relationship.\n- Be cautious not to reinforce safety behaviours during BEs as this undermines cognitive change.\n- Avoid making assumptions about the patient’s beliefs or readiness for change without collaboratively exploring these.\n- Do not neglect planning, observing, and reflecting – performing actions without these steps limits learning.\n- Avoid ambiguous or uncontrolled experimental designs that could confound interpretation of results."
+    },
+    "rules": {
+      "summary": "[\n  {\"if\": \"Patient presents with repeated negative emotional/behavioural patterns linked to specific cognitions\", \"then\": \"Collaboratively identify and reality-test the underlying cognitions through verbal or behavioural interventions\"},\n  {\"if\": \"Therapist and patient have agreed on a cognitive formulation\", \"then\": \"Use the formulation to select and design behavioural experiments testing specific beliefs\"},\n  {\"if\": \"Patient uses safety behaviours to prevent predicted catastrophes\", \"then\": \"Plan BEs that drop or minimize safety behaviours to genuinely test predictions\"},\n  {\"if\": \"Patient expresses only 'intellectual' belief change but not 'emotional' conviction\", \"then\": \"Prioritize experiential interventions (BEs) over purely verbal strategies\"},\n  {\"if\": \"Patient lacks alternative adaptive beliefs to test\", \"then\": \"Guide patient to discovery-oriented BEs to gather new data for hypothesis building\"},\n  {\"if\": \"Reflecting on a completed BE yields evidence against maladaptive belief\", \"then\": \"Support the patient in updating their core beliefs/assumptions based on new experiential data\"},\n  {\"if\": \"Planning a BE\", \"then\": \"Follow the Plan–Experience–Observe–Reflect cycle for effective learning and integration\"},\n  {\"if\": \"Patient or experiment design suggests possible confounding safety behaviour\", \"then\": \"Identify and eliminate these behaviours in the experimental setup\"},\n  {\"if\": \"Therapeutic relationship shows signs of distrust or disengagement\", \"then\": \"Attend to the relationship through collaborative, empathic, genuine engagement before proceeding with complex interventions\"}\n]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter outlines high-level intervention phases using the experiential \"learning circle\" model: planning (designing behavioral experiments collaboratively and transparently), experience (executing experiments in vivo or simulated settings), observation (reviewing what happened during/after the experiment), reflection (making sense of the results and implications for beliefs/assumptions), and follow-up planning (developing new experiments or next steps based on learning). Strategic therapist approaches include hypothesis-testing, guided discovery, modelling, collaborative problem solving, graded exposure, and targeted assessment to elaborate cognitive formulation, test negative cognitions and build/adopt adaptive perspectives."
+    },
+    "micro_actions": {
+      "summary": "Therapist operational actions include:\n- Collaboratively clarifying experiment rationale and goals.\n- Explicitly specifying target cognition(s) and predicted outcomes.\n- Eliciting and rating beliefs and emotions before, during, and after experiments (0-100% scale).\n- Identifying and discussing alternative perspectives; rating belief in alternatives.\n- Exploring and resolving doubts, fears, cultural/social concerns.\n- Detecting and discussing safety behaviours; planning how to drop or test them.\n- Determining experiment type (active/observational/discovery/hypothesis-testing).\n- Defining logistical planning: time/place, resources, people involved.\n- Providing encouragement and support during challenging moments.\n- Facilitating action-oriented, mindful engagement and attention to immediate thoughts, sensations, and feelings.\n- Prompting to record observations via worksheets or diaries.\n- Actively listening for biases in patient perception, memory, and interpretation.\n- Reviewing outcome, re-rating beliefs/emotions, and relating findings to prior assumptions.\n- Summarizing learning, identifying generalization, and planning next steps or further experiments."
+    },
+    "conversation_states": {
+      "summary": "Therapists must continuously monitor:\n- Degree of belief in target cognitions, alternatives, predictions (0-100%).\n- Intensity/type of emotional state(s) and physiological sensations.\n- Level of challenge and patient’s confidence/willingness to engage.\n- Presence or emergence of safety behaviours or avoidance.\n- Understanding/acceptance of rationale; engagement/collaboration.\n- Processing biases (interpretation, attention, recall).\n- Doubts, fears, and reservations (verbal and non-verbal).\n- Successful completion, partial change, or setbacks during/after experiment.\n- Generalization of new learning to other situations.\n- Logistical concerns (e.g. confidentiality, physical health risks, interaction with others, boundaries)."
+    },
+    "knowledge_graph": {
+      "summary": "Across sessions, therapists should track and update:\n- Cognitive formulation (target thoughts, assumptions, core beliefs and their evolution).\n- Patient’s history of experiments: what was tried, with what result, graded sequence.\n- Progression in degree of belief in beliefs/assumptions/alternative perspectives; emotional change.\n- Encountered challenges/safety behaviours and how addressed.\n- Successful generalization of new perspectives into everyday life.\n- Patient’s capacity for independent learning, self-reflection, and experiment planning.\n- Cultural/social factors influencing cognition, language, expectations, engagement."
+    },
+    "cautions": {
+      "summary": "- Do not coerce or rush patients into experiments they do not understand, accept, or wish to perform; avoid being didactic or ignoring reservations.\n- Do not overlook non-verbal or subtle cues of anxiety, reluctance, or misunderstanding.\n- Avoid planning experiments that are either overwhelmingly challenging or trivial; poor titration undermines progress.\n- Do not neglect safety behaviours or allow their use to contaminate experiment results.\n- Avoid breaching confidentiality or professional boundaries during in vivo experiments.\n- Do not disregard physical health risks; always obtain medical clearance if relevant.\n- Do not dismiss experiment \"failures\"; treat setbacks as learning opportunities, not grounds for demoralization.\n- Avoid \"one-shot\" interventions; do not assume one experiment will suffice for entrenched beliefs.\n- Do not neglect cultural/social context in design and interpretation.\n- Do not disallow patient autonomy and input in planning.\n- Avoid giving excessive advance warning of anxiety-provoking experiments, but do not surprise patients with traumatic exposures without preparation."
+    },
+    "rules": {
+      "summary": "- {\"if\": \"Patient expresses doubts, fears, or reservations about an experiment\", \"then\": \"Explore, discuss, and resolve these collaboratively before proceeding.\"}\n- {\"if\": \"Patient is using or considering safety behaviours during the experiment\", \"then\": \"Clarify, discuss, and plan to drop or test safety behaviours as part of the experiment.\"}\n- {\"if\": \"Degree of belief in target cognition is only partially reduced after experiment\", \"then\": \"Plan further experiments, cognitive work, or graded exposure.\"}\n- {\"if\": \"Patient experiences overwhelming emotion or distress during an experiment\", \"then\": \"Allow for retreat, reassess challenge level, and provide encouragement/support.\"}\n- {\"if\": \"Patient is physically unwell, pregnant, or experiment could carry physical risk\", \"then\": \"Obtain medical clearance before proceeding with the experiment.\"}\n- {\"if\": \"Patient is involved in public experiment (in vivo)\", \"then\": \"Protect confidentiality and professional boundaries.\"}\n- {\"if\": \"Negative outcome or prediction is confirmed in experiment\", \"then\": \"Review formulation, explore meaning, and plan problem-solving steps.\"}\n- {\"if\": \"Patient demonstrates bias in interpretation or recall of experiment results\", \"then\": \"Use guided discovery and active listening to explore and correct biases.\"}\n- {\"if\": \"Therapist or patient encounter unexpected events/opportunities during session\", \"then\": \"Remain flexible, use spontaneous guided discovery, and consider off-the-cuff experiments to maximize experiential learning.\"}\n- {\"if\": \"Patient completes an experiment\", \"then\": \"Facilitate reflection on implications, record learning, and collaboratively plan next steps or experiments.\"}"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "Therapists use a structured sequence of interventions for panic disorder and agoraphobia. The high-level phases include assessment of catastrophic beliefs and safety behaviours, collaborative identification of feared symptoms and avoidance patterns, generating and testing alternative interpretations, designing and conducting behavioural experiments (both in-session and in real-world environments), fostering reflection post-experiment to consolidate learning, targeting coping and rescue beliefs, and systematically increasing exposure to avoided situations. For agoraphobia and more severe avoidance, focus shifts to testing the perceived social/interpersonal costs of feared catastrophes, and enhancing the patient's confidence in coping and seeking help."
+    },
+    "micro_actions": {
+      "summary": "- Eliciting detailed accounts of panic attacks and associated catastrophic thoughts.\n- Identifying specific predictions and alternative perspectives for the target cognition.\n- Explicitly linking safety behaviours to catastrophic beliefs and monitoring their use.\n- Facilitating patient engagement in behavioural experiments (e.g., evoking symptoms, refraining from safety behaviours, exaggerating symptoms).\n- Providing reassurance and modeling behaviour (e.g., therapist performs the experiment first or alongside the patient).\n- Surveying others and real-time observation of others' reactions to feared scenarios.\n- Prompting patient reflection through targeted, Socratic questioning after each experiment (\"What did you make of…?\", \"How did your experience compare to your prediction?\").\n- Encouraging patients to repeat experiments outside sessions and generalize results.\n- Guiding role-plays to build assertiveness, coping, and help-seeking skills.\n- Tracking belief ratings before and after experiments."
+    },
+    "conversation_states": {
+      "summary": "- Current catastrophic beliefs and their intensity (belief ratings).\n- Patient’s level of anxiety and willingness to engage.\n- Specific safety behaviours and avoidance patterns in each situation.\n- Symptoms experienced during the session and experiments.\n- Patient’s predictions versus observed outcomes.\n- Changes in belief ratings following interventions.\n- Degree of trust/engagement with therapist.\n- Patient’s confidence in coping and perceived availability of rescue/help.\n- Social/interpersonal concerns about others’ reactions.\n- Generalization/transfer of learning to real-world situations.\n- Comorbid issues (e.g., depression, social anxiety) impacting the session."
+    },
+    "knowledge_graph": {
+      "summary": "- Individual’s catalogue of catastrophic beliefs (physical and social).\n- Inventory of safety behaviours and avoidance strategies.\n- Record of behavioural experiments performed, predictions, and outcomes/reflections.\n- Shifts in core beliefs and automatic thoughts over time.\n- Coping and rescue-related beliefs, and proficiency in help-seeking/assertion.\n- Social/interpersonal anxieties and past experiences (e.g., bullying, bereavement).\n- Progress in exposure to previously avoided situations.\n- Comorbid diagnoses and their interrelations.\n- Patient’s support system: trusted companions, access to help, resources.\n- Medical history relevant to physical health risks."
+    },
+    "cautions": {
+      "summary": "- Do not induce physical symptoms through methods (e.g., hyperventilation) with patients at risk—pregnant, asthmatic, epileptic, or cardiac complaints.\n- Avoid withholding rationale if it would undermine trust with the patient.\n- Do not force patients into exposure beyond their readiness; ensure safety and patient consent.\n- Be aware that some behavioural experiments may need to be adapted for co-existing physical health problems.\n- Avoid reinforcing safety behaviours during experiments.\n- Do not rush debriefing; ensure adequate reflection time post-experiment.\n- Avoid minimizing the patient’s distress or disregarding longstanding beliefs without appropriate intervention.\n- Do not assume a single experiment will change entrenched beliefs; repetition and gradual progress are necessary.\n- Hyperventilation experiments can rarely trigger tetany; be prepared to reverse with slow breathing, and monitor closely."
+    },
+    "rules": {
+      "summary": "[\n  {\"if\": \"Patient expresses a catastrophic interpretation of symptoms\", \"then\": \"Collaboratively generate and test alternative, benign explanations via discussion and behavioural experiment.\"},\n  {\"if\": \"Safety behaviours are identified and linked to catastrophic beliefs\", \"then\": \"Structure experiments where patient refrains from the safety behaviour and monitors outcome.\"},\n  {\"if\": \"Patient is highly anxious about symptom induction and is well-engaged/trusting\", \"then\": \"Consider withholding advance explanation of rationale to increase realism and allow for surprise, but always provide thorough debriefing after.\"},\n  {\"if\": \"Therapist assesses potential for damaged therapeutic relationship due to lack of openness\", \"then\": \"Explain the rationale for the experiment and address patient concerns.\"},\n  {\"if\": \"Patient demonstrates lingering high belief ratings after disproving a catastrophe\", \"then\": \"Design experiments that exaggerate feared symptoms further to test whether disaster occurs.\"},\n  {\"if\": \"Hyperventilation or symptom induction is used\", \"then\": \"Screen for physical health risk factors (pregnancy, asthma, epilepsy, cardiac issues) and adapt or omit experiment as needed.\"},\n  {\"if\": \"Patient is comorbid with physical health conditions\", \"then\": \"Never use exposure techniques that might risk physical harm; tailor interventions to challenge beliefs without health danger.\"},\n  {\"if\": \"Therapist or patient performs a public experiment to assess others' reactions\", \"then\": \"Observe passers-by impartially, and prompt reflection about actual social consequences.\"},\n  {\"if\": \"Patient voices concern about coping or rescue in public settings\", \"then\": \"Arrange for coping/rescue skill-building experiments (e.g., role-play asking for help, traveling to new locations, rehearsing directions).\"},\n  {\"if\": \"Patient expresses ongoing avoidance or lack of self-confidence despite successful experiments\", \"then\": \"Increase repetition, practice, and gradual exposure; utilize schema-focused work as needed.\"}\n]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The therapist progresses through several high-level phases: establishing a collaborative therapeutic relationship; careful open assessment of the patient's health anxiety symptoms and beliefs; jointly identifying target cognitions and alternative perspectives; formulating two competing hypotheses (hypothesis A: physical illness; hypothesis B: anxiety-driven preoccupation); collaboratively designing and conducting behavioural experiments to test these hypotheses; troubleshooting practical barriers; reflecting on experiment results and shifting beliefs; and revisiting underlying issues (e.g., self-esteem or interpersonal difficulties). The therapist's strategies emphasize collaboration, guided discovery, and managing maintaining factors rather than proving absence of illness."
+    },
+    "micro_actions": {
+      "summary": "At the utterance/intervention level, the therapist's actions include: asking open and curious questions to elicit the patient’s own explanations and beliefs; validating and empathizing with patient distress; postponing challenging or guided discovery until rapport is established; collaboratively generating predictions and alternative perspectives; rating belief strength and anxiety; instructing and troubleshooting behavioural experiments (e.g., symptom diaries, graded cessation of reassurance-seeking, surveys of others' symptoms, in-session bodily focus, role play for consultations); reflecting on experiment outcomes using patient data; carefully guiding the patient through discomfort or risk during experiments; and troubleshooting obstacles to adherence (e.g., scheduling, subtle safety behaviours)."
+    },
+    "conversation_states": {
+      "summary": "Therapists should continuously track: the patient’s level of belief in target and alternative cognitions; degree of health anxiety/distress (scales, diary ratings); frequency and specific form of safety-seeking behaviours (body checking, reassurance-seeking, information searching, appointments); affective states (anxiety, frustration, defensiveness, self-esteem issues); progress in collaboration/therapeutic alliance; openness to alternative explanations; shifts in attention/rumination; and typical cognitive biases (catastrophizing, selective attention, arbitrary inference)."
+    },
+    "knowledge_graph": {
+      "summary": "Relevant long-term patient memory dimensions across sessions include: core health-related beliefs and assumptions (about illness, symptoms, bodily vulnerability, sense of responsibility for health, effects of anxiety); specific forms and history of safety-seeking behaviours; history and results of previous medical consultations/investigations; relationship/interpersonal patterns (e.g., family attitudes to illness, GP relationship quality); comorbid anxiety or mood problems; level of functioning (social, occupational); previous therapy experiences (including perceived misunderstandings or lack of validation); and the outcomes of past behavioural experiments."
+    },
+    "cautions": {
+      "summary": "Therapists should avoid: arguing with the patient about whether symptoms are physical versus psychological; prematurely challenging patient’s beliefs or resorting to guided discovery before rapport and collaboration are established; polarizing the discussion toward one “cause”; reinforcing reassurance-seeking or safety behaviours (including covert forms); focusing therapy on proving the absence of illness or offering certainty about the future; teaching patients to become more effective at seeking reassurance (rather than reducing maintenance behaviours); disregarding the patient’s distress or feeling misunderstood; ignoring collaboration and dropping the therapeutic alliance; and dismissing small cognitive or belief shifts as insufficient progress."
+    },
+    "rules": {
+      "summary": "- {\"if\": \"Patient presents with strong health anxiety beliefs and distress.\", \"then\": \"Prioritize empathic understanding and validation over challenging beliefs or guided discovery.\"}\n- {\"if\": \"Therapy has difficulty initiating collaboration or the patient is defensive.\", \"then\": \"Devote extra time to building the therapeutic alliance before cognitive exploration.\"}\n- {\"if\": \"Patient seeks reassurance or performs safety behaviours.\", \"then\": \"Identify and collaboratively design behavioural experiments to explore the effects of the behaviours on anxiety and symptom perception.\"}\n- {\"if\": \"Patient tries to demonstrate absence of illness or seeks certainty about future health.\", \"then\": \"Redirect focus to examining maintenance factors and effects of current behaviour on anxiety, not proving disease absence.\"}\n- {\"if\": \"Experiment involves changing safety behaviours.\", \"then\": \"Troubleshoot practical barriers and covert reassurance-seeking with the patient prior to starting.\"}\n- {\"if\": \"Patient dismisses evidence from experiments or surveys because they believe 'my case is different'.\", \"then\": \"Collaboratively explore the extremity or uniqueness of the patient's beliefs using guided discovery.\"}\n- {\"if\": \"Patient exhibits comorbid anxiety, interpersonal, or self-esteem issues.\", \"then\": \"Integrate focus on these underlying issues into the ongoing cognitive work.\"}\n- {\"if\": \"Therapeutic dialogue becomes argumentative or the patient feels misunderstood.\", \"then\": \"Immediately address collaboration and work to repair the alliance before proceeding.\"}\n- {\"if\": \"Conducting in-session or real-world experiment.\", \"then\": \"Participate as therapist alongside patient to illustrate effects and strengthen collaboration.\"}"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter describes high-level intervention strategies for OCD using cognitive behavioral therapy, notably: (1) development and collaborative testing of individualized cognitive formulations, (2) identification and challenging of problematic beliefs/domains (e.g., thought-action fusion, inflated responsibility, overestimation of threat), (3) design of graded behavioral experiments to test catastrophic predictions or maintenance processes, (4) psychoeducation about OCD, intrusive thoughts, and difference from psychosis, (5) building alternative, benign perspectives, (6) building patient trust and encouraging disclosure, (7) using observational and survey-based approaches to recalibrate 'normal' behaviors and beliefs, and (8) repeated experimentation to drive belief change and ritual reduction."
+    },
+    "micro_actions": {
+      "summary": "The chapter offers detailed micro-intervention steps operationalizing the above, including: collaboratively rating target and alternative beliefs/anxiety levels before, during, and after experiments; guiding patients in performing homework (e.g., thought exposure, behavioral tasks, surveys, observational assignments); prompting patients to resist rituals/neutralizing responses for set time spans; modeling exposure and response prevention in-session; giving graded tasks (from absurd/neutral to feared situations); gently probing for underlying cognitions and encouraging verbal challenge of disclosure blocks; providing education to reduce shame or fear over thoughts; discussing expected sensations and emotional responses prior to experiments; instructing patients to record distress and beliefs daily; and reclaiming any tangible safety signals (e.g., guarantee letters) after agreed periods."
+    },
+    "conversation_states": {
+      "summary": "Therapists should track: current belief ratings for target and alternative perspectives; moment-to-moment anxiety/distress; urges to ritualize or neutralize; emotional reactions and attributions (e.g., interpretation of sensations as evidence); levels of willingness and trust for disclosure; engagement and adherence to exposure/homework; changes in ritual or avoidance frequency/intensity; presence of black-and-white or perfectionist thinking; clarity of feared outcomes; ability to cope with uncertainty; patient insights after experimentation; and the degree to which beliefs shift as a result of in-session or homework experiences."
+    },
+    "knowledge_graph": {
+      "summary": "Long-term features to track across sessions include: individual formulations (core OCD domains/beliefs relevant for that patient); severity, frequency, and content of obsessions and compulsions; rituals and neutralizing behaviors; history of harm (to self/others, if any); triggers and avoidance patterns; progress on belief ratings, anxiety, ritual reduction; results of specific behavioral experiments; normal versus abnormal behavior benchmarks/calibration; history of disclosure difficulties or shame; comorbid themes such as depression, social anxiety or low self-esteem; and efficacy/pathways of various cognitive and behavioral experiments performed."
+    },
+    "cautions": {
+      "summary": "Therapists are cautioned against: attempting high-risk behavioral experiments when there is doubt about ego-dystonic nature of thoughts or a history of actual harm (seek second opinion); allowing safety behaviors or external guarantees to persist and become new rituals; rushing disclosure or confronting feared thoughts before sufficient trust is built; misdiagnosing obsessional thoughts as dangerous impulses (especially with aggressive, sexual, or illegal themes); failing to distinguish OCD from post-natal depression or psychosis; interpreting normal anxiety sensations as confirmation of beliefs if not clarified; expecting immediate, full belief change after one experiment; and extending responsibility or magical thinking beyond its agreed boundaries during experiments."
+    },
+    "rules": {
+      "summary": "[\n  {\"if\": \"Patient expresses uncertainty about divulging thoughts due to shame or fear\", \"then\": \"Provide examples of common obsessions, educate about OCD, and gently encourage disclosure.\"},\n  {\"if\": \"Patient presents obsessional thoughts about harming others or self\", \"then\": \"Assess for ego-dystonic nature and history of actual harm; seek second opinion if in doubt before behavioral experiment.\"},\n  {\"if\": \"Experiment involves giving patient external guarantee (e.g., responsibility letter)\", \"then\": \"Retrieve the guarantee after the agreed period to prevent it becoming a safety behavior.\"},\n  {\"if\": \"Patient interprets anxiety sensations during exposure as confirming OCD belief\", \"then\": \"Clarify ahead of time that alternative prediction involves discomfort, and differentiate emotional from confirmatory sensations.\"},\n  {\"if\": \"Patient repeatedly associates distant bad events with omission of rituals\", \"then\": \"Discuss and limit magical thinking attribution to directly related events only.\"},\n  {\"if\": \"Patient has difficulty identifying what is 'normal' behavior\", \"then\": \"Suggest observation or surveys of others to recalibrate benchmarks.\"},\n  {\"if\": \"Belief or anxiety does not fully reduce after a single experiment\", \"then\": \"Encourage repeated exposure and belief testing to facilitate further change.\"},\n  {\"if\": \"Patient has comorbid depression, social anxiety, or low self-esteem\", \"then\": \"Consider integrating relevant approaches from associated chapters.\"}\n]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter details high-level CBT intervention phases for Generalized Anxiety Disorder (GAD), including: initial assessment and psychoeducation, cognitive restructuring (focusing on metacognitive beliefs and intolerance of uncertainty), behavioral experiments (e.g., testing metaworries, increasing flexibility, practicing acceptance of uncertainty), emotion processing support, promotion of self-reliance, and relapse prevention (including reinforcing adaptive skills for future worries). Therapists are advised to prioritize comorbidities if present, and to maintain a process focus rather than getting stuck on the specific content of worries."
+    },
+    "micro_actions": {
+      "summary": "Micro-interventions include: prompting the patient to articulate and rate key beliefs (e.g., “I can’t control my worry”), encouraging in-session thought suppression or worry postponement exercises, facilitating identification and documentation of worries (e.g., “write down worries as they occur”), guiding evaluations of predictions versus outcomes, coaching the use of metaphors to change perspective, providing reminders to refocus during imaginal exposure, prompting problem-solving steps, facilitating self-monitoring (e.g., recognizing behavioral markers of worry), supporting scheduled relaxation and enjoyable activities, redirecting reassurance-seeking behaviors toward self-reliant decision making, giving feedback and summaries, and checking for avoidance or excessive control behaviors during tasks."
+    },
+    "conversation_states": {
+      "summary": "Conversation-relevant dimensions to track include: belief strength (commitment to metacognitive/dysfunctional beliefs), emotional arousal/anxiety levels, frequency and spread of worry, avoidance and reassurance-seeking behavior, flexibility versus rigidity in routines, tolerance/acceptance of uncertainty, engagement with problem-solving versus rumination, readiness/reservations about change, emotional processing progress, comorbid symptoms, concentration and memory issues, and signs of ambivalence or subtle avoidance."
+    },
+    "knowledge_graph": {
+      "summary": "CBT therapy should maintain session-to-session tracking of: trait-versus-state worry tendencies, individual metacognitive beliefs (including their evolution), intolerance-of-uncertainty attitudes, typical content and triggers of worries, safety behaviors (e.g., reassurance seeking, avoidance, substance use), emotional/traumatic history, comorbid diagnoses and symptom changes, functional outcomes (performance in life domains, confidence), history of behavioral experiment results, strategies for relapse prevention, and details about supportive relationships and social network involvement."
+    },
+    "cautions": {
+      "summary": "Therapists are cautioned against: focusing exclusively on the content of worry (rather than the maladaptive process itself), inadvertently encouraging rigidity (e.g., by overstructuring behavioral experiments), failing to address or anticipate subtle avoidance or reassurance seeking, permitting distraction techniques to function as avoidance, raising false hopes about permanent elimination of worry, neglecting comorbid depression/hopelessness, overreliance on self-medication/substance use without collaboration with prescriber, and failing to clarify invisible/experiential experiments. Emotional processing work may trigger traumatic memories and should be handled with care."
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "the patient expresses a metacognitive belief about worrying (e.g., 'I can't control my worry')",
+          "then": "design a behavioral experiment to test the validity of this belief in-session or as homework."
+        },
+        {
+          "if": "the patient reports avoidance or reassurance-seeking behaviors",
+          "then": "encourage micro-experiments focusing on facing the fear or making independent decisions."
+        },
+        {
+          "if": "the patient engages in worry about future disruptive events or expresses intolerance of uncertainty",
+          "then": "coach acceptance of uncertainty and practice increased flexibility via specific routine changes."
+        },
+        {
+          "if": "worries are vague or described as feelings",
+          "then": "prompt identification of behavioral markers and use relaxation/mindfulness techniques to focus on present experience."
+        },
+        {
+          "if": "the patient shows distress about insoluble or catastrophic worries",
+          "then": "use analogies and pros/cons exploration to highlight the limits of worry influence and cultivate acceptance."
+        },
+        {
+          "if": "the session involves imaginal or experiential (invisible) behavioral experiments",
+          "then": "clarify the purpose and methods explicitly beforehand."
+        },
+        {
+          "if": "concentration or memory issues interfere with therapy progression",
+          "then": "provide feedback, summaries, written notes, and session tapes for reinforcement."
+        },
+        {
+          "if": "the patient has comorbid depression or severe hopelessness",
+          "then": "prioritize intervention for comorbid disorder before intensive worry-focused CBT."
+        },
+        {
+          "if": "the patient uses medication or substances as safety behaviors",
+          "then": "collaborate with prescriber and explore the long-term disadvantages via motivational interviewing."
+        },
+        {
+          "if": "small changes are achieved in multi-layered problems",
+          "then": "emphasize their positive impact as steps in a process to foster hope and engagement."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter outlines high-level phases and strategies for CBT intervention in social anxiety, emphasizing: assessment and formulation (identifying core beliefs, safety behaviours, attentional patterns); psychoeducation about social anxiety mechanisms; collaborative goal-setting; conducting behavioural experiments (in-session and homework) to test beliefs/predictions; shifting focus from self to external environment; dropping safety behaviours; comparing subjective impressions with objective feedback; and gradually increasing exposure and social engagement. The re-evaluation of social danger, fostering curiosity, and encouraging persistent practice across situations are also described."
+    },
+    "micro_actions": {
+      "summary": "Micro-actions include: prompting patients to make concrete predictions before experiments; instructing patients to switch attentional focus (from internal/self-focused to external/other-focused); encouraging rating of feelings/thoughts vs. reality (using scales or video/audio feedback); guiding patients to drop or modify safety behaviours and observe the impact; facilitating role-play and/or video review in a detached, third-person manner; helping patients operationalize behavioural observations; asking patients to reflect on discrepancies between expectations and outcomes; directly observing or surveying others' reactions; encouraging objective self-assessment after experiments; recording outcomes for ongoing review; and maintaining a stance of collaborative curiosity and open inquiry about feelings and beliefs."
+    },
+    "conversation_states": {
+      "summary": "Therapists should continuously track: the patient's levels of self-focused attention vs. externally-focused attention; presence and nature of safety behaviours; subjective ratings of anxiety, confidence, self-image, and perceived social danger; degree of belief in negative predictions and core assumptions; emotional reactions to social situations; coping capacity for criticism/rejection; motivation and willingness to engage in experiments; current and evolving social engagement, avoidance, and isolation patterns; feedback from homework tasks; and changes in belief updating or behavioural flexibility."
+    },
+    "knowledge_graph": {
+      "summary": "Across sessions, long-term tracking should include: patient's core beliefs, assumptions, and schemas regarding social acceptability, evaluation, and danger; historical formative experiences (e.g., bullying, rejection); recurring self-images and associated memories; catalogue of safety behaviours and their evolution; record of predictions vs. outcomes across experiments; patterns in social avoidance vs. engagement; noted changes in self-perception and self-esteem; progress toward social goals; persistent difficulties and situational triggers; and comorbid issues (e.g., depression, generalized anxiety, avoidant personality features)."
+    },
+    "cautions": {
+      "summary": "Therapists should not: force rapid or overwhelming exposure before sufficient trust and preparation; collude with or reinforce safety behaviours; overlook subtle safety behaviours masquerading as helpful strategies; interpret social withdrawal or negative feedback within therapy as simple resistance; make over-generalized assumptions about necessary social skills training; ignore cultural/contextual differences in social anxiety presentation; neglect to set clear, achievable goals and criteria for belief testing; and neglect the distinction between subjective feelings and objective reality in ratings and feedback."
+    },
+    "rules": {
+      "summary": "[\n  {\"if\": \"Patient is self-focused and using safety behaviours\", \"then\": \"Guide patient to experiment with shifting attention externally and reduce safety behaviours\"},\n  {\"if\": \"Conducting a behavioural experiment testing social danger\", \"then\": \"Have patient make specific predictions beforehand and compare them to observed outcomes\"},\n  {\"if\": \"Patient resists dropping safety behaviours or finds experiments overwhelming\", \"then\": \"Provide preparatory or observational experiments, gradually increasing challenge\"},\n  {\"if\": \"Patient is overly monitoring or planning speech during social tasks\", \"then\": \"Encourage less monitoring/planning and facilitate feedback via role-play/video/audiotape\"},\n  {\"if\": \"Patient presents feedback based purely on feelings\", \"then\": \"Prompt for objective measures or external ratings (e.g., video/audience/third-party)\"},\n  {\"if\": \"Patient shows signs of withdrawal or feedback avoidance in therapy\", \"then\": \"Adapt therapist behaviour to increase comfort, and explicitly address process issues\"},\n  {\"if\": \"Goals for therapy are unclear or unrealistic\", \"then\": \"Collaboratively set and clarify achievable, measurable treatment goals\"},\n  {\"if\": \"Patient makes predictions about others’ thoughts (mind reading)\", \"then\": \"Define observable criteria and collect relevant external evidence where possible\"},\n  {\"if\": \"Patient demonstrates improvement limited to particular contexts\", \"then\": \"Encourage generalization by applying learned principles to new situations\"},\n  {\"if\": \"Patient displays lack of curiosity or interest in others\", \"then\": \"Prompt for outward curiosity or interest, and provide structured opportunities to build social engagement\"}\n]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter describes several high-level intervention phases and strategies in CBT treatment for specific phobias, including: establishing a collaborative therapeutic relationship; assessing and formulating the patient’s phobia (identifying triggers, cognitions, safety behaviours, and secondary cognitions); planning and conducting behavioural experiments aimed at testing anxious predictions and beliefs; grading the difficulty of exposure and experiments to fit the patient’s tolerance; therapist modelling of approach and coping strategies; facilitating reflection and belief updating post-experiment; addressing secondary cognitions (e.g., shame, self-judgement); ensuring generalization of learning beyond sessions; and managing distinctive challenges (high anxiety, avoidance, subtle safety behaviours, interpersonal/social factors, comorbidity)."
+    },
+    "micro_actions": {
+      "summary": "Key micro-intervention actions include: eliciting and clarifying target cognitions and predictions before exposure; collaboratively developing alternative, more adaptive perspectives; modelling approach or coping behaviour for the patient; coaching the patient through exposure and experiments step-by-step; prompting frequent self-ratings of anxiety and beliefs during experiments; encouraging patients to drop safety behaviours and monitor their impact; using distraction or coping techniques short-term if needed, but fading them as quickly as possible; facilitating real-time reflection on outcomes (e.g., what actually happened vs. predicted); reinforcing adaptive learning and updated beliefs; providing emotional support, reassurance, and normalization around embarrassing or shameful content; and using surveys/flashcards/metaphors as needed to elicit thoughts or normalize reactions."
+    },
+    "conversation_states": {
+      "summary": "Therapists should continuously track variables including: current level of anxiety and its fluctuations; patient’s belief ratings in both target and alternative cognitions; identification and usage of safety behaviours (including subtle/automatic forms); presence and intensity of physiological symptoms; engagement level with exposure tasks; emotional and affect states (especially avoidance of emotion); presence of secondary cognitions (e.g., low self-esteem, shame, hopelessness); readiness for further experimentation or exposure; impact of interpersonal or environmental factors (e.g., support, reinforcement by others); and comorbid symptoms."
+    },
+    "knowledge_graph": {
+      "summary": "Dimensions to track across sessions include: patient’s idiosyncratic phobic triggers, predictions, and safety behaviours; development and changes in belief ratings (target vs. alternative); detailed history of exposure tasks/behavioural experiments and results; progress in dropping safety behaviours; evolution of secondary cognitions and related emotional states (confidence, self-esteem, shame); generalization of learning into real-world contexts; presence and management of comorbid disorders; supportive or maintaining interpersonal/social factors; and coping resources (skills and strategies acquired)."
+    },
+    "cautions": {
+      "summary": "Therapists should avoid: colluding with avoidance of affect/emotion; reinforcing safety behaviours or avoidance by therapist actions or structure of tasks; pushing patients beyond their tolerance level too quickly; relying excessively on short-term coping strategies (e.g., distraction, relaxation) at the expense of exposure/testing predictions; failing to address subtle safety behaviours; engaging in experiments without humane consideration when animals are involved; enabling interpersonal maintaining factors without formulation; tackling phobias as standalone if comorbidity suggests another primary problem; neglecting to plan for generalization beyond session context. Safety and legal issues should be respected if working outside the clinic (e.g., driving)."
+    },
+    "rules": {
+      "summary": "[\n  {\"if\": \"patient exhibits excessive anxiety during an experiment\", \"then\": \"therapist should remain calm, offer encouragement, and allow breaks if tasks become overwhelming\"},\n  {\"if\": \"subtle safety behaviours persist during exposure experiments\", \"then\": \"therapist should help patient identify, monitor, and aim to drop them through creative means\"},\n  {\"if\": \"patient is reluctant or unable to do experiments alone\", \"then\": \"therapist should offer guided experiments, modelling, and titrate difficulty to increase confidence\"},\n  {\"if\": \"patient expresses secondary cognitions such as shame or low self-esteem\", \"then\": \"therapist should explore, normalize, and address these alongside phobic beliefs\"},\n  {\"if\": \"anxious predictions are not accessible verbally\", \"then\": \"therapist should facilitate exposure to feared situations to elicit in-the-moment thoughts and images\"},\n  {\"if\": \"exposure tasks are graded\", \"then\": \"patient should identify residual negative thoughts or safety behaviours to build further experiments\"},\n  {\"if\": \"comorbid disorders are present\", \"then\": \"therapist should determine primary problem and prioritize accordingly\"},\n  {\"if\": \"generalization beyond session is needed\", \"then\": \"therapist should plan for out-of-session experiments and encourage independent exposure\"},\n  {\"if\": \"patient uses coping/distraction during exposure\", \"then\": \"therapist should phase out these strategies as soon as possible to prevent reinforcement of anxious predictions\"},\n  {\"if\": \"animal behavioural experiments are conducted\", \"then\": \"therapist must ensure humane treatment and respect for animals\"},\n  {\"if\": \"therapy is blocked by interpersonal maintaining factors\", \"then\": \"therapist should formulate and address these factors, possibly involving relatives and educating as needed\"}\n]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter details a multifaceted cognitive behavioral therapy approach for PTSD. High-level interventions include psychoeducation, collaborative development of a detailed case conceptualization, identification and amendment of unhelpful appraisals (of self, world, trauma, symptoms), dropping safety behaviors via behavioral experiments, reliving trauma memories for processing and cognitive reappraisal, building trust with the patient, normalization of symptoms, addressing avoidance (of treatment, memories, affect), and systematically testing fears and beliefs to foster adaptive change. Therapist-guided experiments, exposure in vivo, and integration of new information are central strategies."
+    },
+    "micro_actions": {
+      "summary": "Micro-interventions operationalize the above strategies as follows: eliciting specific target cognitions/beliefs and ratings; collaboratively generating alternative perspectives; making concrete predictions for experiments; warning about possible symptom increases; discussing and rehearsing coping strategies; supporting the patient during exposure/reliving; monitoring and recording distress/anxiety levels; encouraging explicit comparison of past and present (e.g., discriminating trauma stimuli from the present); observing and providing feedback on safety behaviors in real time; prompting detailed reflection after each experiment; presenting context-relevant stimuli to facilitate discrimination; arranging and guiding real-world behavioral experiments; ensuring safety and clear boundaries during exposures; seeking and presenting factual information for memory updating; and explicitly encouraging and rewarding patient disclosures and engagement."
+    },
+    "conversation_states": {
+      "summary": "Variables for active therapist monitoring during sessions include: current belief/appraisal ratings (intensity, content); distress/anxiety levels and fluctuations; degree and form of avoidance (of affect, memories, situations, therapy engagement); use and persistence of safety behaviors; readiness and motivation for exposure/reliving; trust level in therapist/therapy; emotional, physiological, and behavioral responses during experiments; coping strategy utilization; patient engagement and willingness to disclose; discussion of new information and its integration; and impact of comorbid symptoms (e.g., depression, chronic pain)."
+    },
+    "knowledge_graph": {
+      "summary": "Long-term patient data to track includes: the history and evolution of trauma memories and associated appraisals; types and frequency of safety behaviors; responses and progress across repeated behavioral experiments; patterns of avoidance and their contexts; comorbid diagnoses and their impact on PTSD progression; pre-existing beliefs and coping styles; historical and current trust levels with therapist and others; significant life events/losses; patient’s degree of adaptation to disability or new circumstances; records of factual updates to trauma narratives; and changes in family/social relationships over time."
+    },
+    "cautions": {
+      "summary": "Therapists should not ignore contraindications for reliving or direct memory work (e.g., current high risk to self/others, perpetrator status). Do not assume trauma memories are accurate without verification. Avoid inadvertently reinforcing safety behaviors or avoidance (including subtle variants during sessions). Therapists should not proceed without a collaborative conceptualization and patient readiness. Avoid breaching trust by failing to keep promises or by neglecting explicit boundaries and patient safety. Do not push patients to disclose or engage before they feel safe. Failing to monitor comorbid symptoms, or proceeding without proper supervision in complex cases, is also cautioned against."
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "patient expresses fear of loss of control during exposure or reliving",
+          "then": "warn about possible short-term increase in symptoms, provide coping strategies, and support during session"
+        },
+        {
+          "if": "patient uses safety behaviors during behavioral experiment",
+          "then": "observe, identify, and encourage dropping these behaviors for the experiment's duration"
+        },
+        {
+          "if": "memory accuracy is in question or beliefs strongly maintained",
+          "then": "seek and present factual evidence (e.g., reports, photos) to test and update appraisals"
+        },
+        {
+          "if": "patient avoids affect, memories, or engagement during session",
+          "then": "proactively address and gently challenge avoidance behavior"
+        },
+        {
+          "if": "patient has comorbid disorder or complex presentation",
+          "then": "construct a detailed case conceptualization, plan interventions carefully, and seek supervision as needed"
+        },
+        {
+          "if": "patient is not ready or contraindications for exposure are present",
+          "then": "do not proceed with reliving or direct trauma work until safe and appropriate"
+        },
+        {
+          "if": "patient shows breaks in trust or reluctance to disclose",
+          "then": "explicitly discuss difficulties, build trust, and ensure consistent, empathic behavior"
+        },
+        {
+          "if": "patient's appraisal is rigid or overgeneralized",
+          "then": "design graded behavioral experiments to test and reevaluate the appraisal with patient collaboration"
+        },
+        {
+          "if": "residual or emerging safety behaviors are detected during an experiment",
+          "then": "identify, discuss, and encourage dropping these to maximize experiment efficacy"
+        },
+        {
+          "if": "patient is integrating new information into traumatic memory",
+          "then": "proceed cautiously, monitor distress, and support emotional processing"
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter describes several high-level therapist interventions in CBT for depression:\n- Initial engagement and introduction of the cognitive model of depression, fostering understanding of the mood-thought cycle.\n- Activity scheduling: encouraging patients to monitor and plan activities to challenge inactivity, test negative predictions, and increase pleasurable and mastery experiences.\n- Behavioral experiments: systematically testing negative automatic thoughts and dysfunctional beliefs related to the self, world, and future.\n- Socratic dialogue and collaborative exploration of alternatives to negative cognitions.\n- Preparation for relapse prevention: developing action plans and early warning systems for recurrence of depression.\n- Gradual targeting of more generalized or abstract dysfunctional beliefs only after initial stabilization.\n- Involvement of family or friends for psychoeducation or support, if relevant."
+    },
+    "micro_actions": {
+      "summary": "Therapists are expected to operationalize macro interventions using micro-actions such as:\n- Asking patients to rate mood and specific feelings before and after thought/attention tasks.\n- Guiding patients to focus attention away from ruminative content (e.g., distraction experiments).\n- Step-by-step completion and review of weekly activity schedules in the session, prompting detailed recall.\n- Direct questioning about pleasure and mastery for each activity, teaching the patient to rate these experiences numerically.\n- Identifying, discussing, and recording specific negative thoughts; generating possible alternative interpretations collaboratively.\n- Encouraging self-compassion behaviors and helping patients compare outcomes when responding differently to negative self-talk.\n- Rehearsing, planning, and anticipating barriers or negative thoughts toward homework/experiments.\n- Helping the patient list possible activities and plan them concretely.\n- Setting up behavioral experiments with clear predictions and recording results, then reviewing these in subsequent sessions.\n- Monitoring and discussing patient reactions to new experiences and contrasting them with prior predictions.\n- Surveying others (as in the doctor interview example) to counter dysfunctional beliefs.\n- Recording, reviewing, and reflecting on changes in thoughts and feelings after experiments.\n- Using flashcards to remind patients of strategies or alternative perspectives.\n- Writing down predictions and results to compensate for memory/concentration difficulties."
+    },
+    "conversation_states": {
+      "summary": "Therapists should track several dynamic variables during the session:\n- Patient’s current mood intensity and fluctuations.\n- Predominance and content of negative automatic thoughts, especially regarding the cognitive triad (self, world, future).\n- Levels of pleasure and mastery associated with activities.\n- Cognitive biases (e.g., overgeneralization, selective attention, rumination).\n- Degree of hopelessness, particularly concerning suicidal ideation.\n- Frequency and legitimacy of 'Yes, but...' discounting responses.\n- Patient’s motivation, energy level, engagement in therapy and homework.\n- Cognitive deficits (concentration, memory, problem-solving).\n- Reactions to behavioral experiments (did predicted outcomes occur, emotional response, learning).\n- Level of support or reinforcement from family and social environment.\n- Signs or triggers of relapse (early warning signals).\n- Barriers to homework/task completion."
+    },
+    "knowledge_graph": {
+      "summary": "Across sessions, therapists should build long-term knowledge of:\n- Patient’s core beliefs and conditional assumptions (especially those underlying depression).\n- Historical context (e.g., prior losses, trauma, recurrent episodes of depression).\n- Typical cognitive biases and attributional styles.\n- Patterns in activity engagement, sources of pleasure/mastery.\n- Recurring negative thought content, and their most impactful triggers.\n- Coping strategies that have/have not worked.\n- Individual vulnerabilities to relapse and identified triggers.\n- Successful and unsuccessful experiments with alternative behaviors/cognitions.\n- Relationships with key others (family, work, social context).\n- Action plans for relapse prevention and patient’s ability to recognize early warning signals."
+    },
+    "cautions": {
+      "summary": "Therapists are warned against:\n- Prematurely targeting highly abstract/core beliefs without stabilizing mood or establishing concrete progress.\n- Using distraction solely to avoid meaningful issues rather than as a learning tool.\n- Being contaminated by the patient’s pessimism, losing therapeutic optimism or patience.\n- Overlooking cognitive deficits, failing to structure sessions or record discussions, risking learning loss.\n- Ignoring discounting or minimization of positive outcomes ('Yes, but...') without using it constructively.\n- Failing to monitor and prioritize suicidal thoughts/hopelessness; risking patient safety if experiments are not tailored to vulnerability.\n- Assigning homework/tasks without sufficient specificity, rehearsal, or consideration of likely barriers.\n- Letting environmental reinforcement of negativity pass unchecked, or ignoring indirect negative feedback from family/social context.\n- Assuming all low mood is depression rather than considering grief or other psychological processes.\n- Underestimating the scale of steps/tension required for chronic/severe cases; pushing too hard, too soon."
+    },
+    "rules": {
+      "summary": "[\n  {\"if\": \"The patient expresses strong doubt about therapy's effectiveness\", \"then\": \"Introduce the cognitive model using a simple vicious circle illustration, and use experiments to allow the patient to test its validity herself.\"},\n  {\"if\": \"The patient reports inactivity or criticizes herself for laziness\", \"then\": \"Use an activity schedule to prompt recall and objectively test perceptions of inactivity.\"},\n  {\"if\": \"Patient assigns negative ratings to activities or little pleasure/mastery\", \"then\": \"Collaboratively rate activities and discuss alternatives, highlighting even small achievements.\"},\n  {\"if\": \"Patient feels tired and avoids activity, preferring to wait for motivation\", \"then\": \"Test competing strategies—rest versus planned pleasurable activity—by tracking mood and outcome.\"},\n  {\"if\": \"Patient presents negative automatic thoughts about self, world, or future\", \"then\": \"Set up behavioral experiments to test the validity of these thoughts and collaboratively reflect on outcomes.\"},\n  {\"if\": \"Patient shows perfectionism or fear of failure\", \"then\": \"Generate alternative perspectives, make concrete predictions, and test these in real-world interactions.\"},\n  {\"if\": \"Patient has cognitive deficits (poor memory/concentration)\", \"then\": \"Emphasize written records and specific, structured session routines.\"},\n  {\"if\": \"Patient discounts positive outcomes with 'Yes, but...' remarks\", \"then\": \"Use these as further examples of negative thinking and incorporate them into cognitive work.\"},\n  {\"if\": \"Signs of suicidal thinking or hopelessness appear\", \"then\": \"Prioritize assessment and intervention for suicidal risk; ensure tasks are small, manageable, and anticipate possible pitfalls.\"},\n  {\"if\": \"Sessions are infrequent and the patient is severely depressed\", \"then\": \"Increase session frequency at the start until stable engagement and progress are achieved.\"},\n  {\"if\": \"Patient's environment reinforces negativity or undermines gains\", \"then\": \"Address these influences via psychoeducation and/or involve key others to support positive change (with patient consent).\"},\n  {\"if\": \"Patient is completing homework/experiments\", \"then\": \"Prepare, rehearse, and anticipate negative thoughts or barriers with the patient to maximize success.\"},\n  {\"if\": \"Relapse prevention is being discussed\", \"then\": \"Formulate concrete action plans, identify and educate about early warning signals, and prepare resources for patient to use if depression returns.\"}\n]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "- Engage in assessment and case formulation using cognitive models adapted for bipolar disorder, considering biological vulnerability, stressors, and cognitive patterns.\n- Collaborate with the patient to identify problematic cognitions, beliefs, and assumptions related to mania, depression, diagnosis, stigma, prognosis, and medication.\n- Use Socratic questioning and behavioural experiments to test and challenge unhelpful beliefs and assumptions.\n- Promote self-management strategies for relapse prevention, including mood monitoring, activity scheduling, and involvement of significant others.\n- Implement relapse prevention planning (monitoring mood, early warning signs, and triggers).\n- Tailor therapy pacing and interventions to the patient’s current mood state (manic, depressive, or remission), prioritizing stability.\n- Facilitate acceptance of enduring disorder and focus on psychosocial improvement rather than “cure.”\n- Involve significant others and communicate with other professionals, as appropriate for support and reality testing."
+    },
+    "micro_actions": {
+      "summary": "- Use Socratic questioning to explore beliefs about achievement, autonomy, perfectionism, approval, and social desirability.\n- Jointly set up behavioural experiments targeting specific cognitions (e.g., ability to control impulsivity, engagement in pleasant activities without risk, evaluating achievement, dependence, stigma).\n- Collaborate to agree on measurable parameters for experiments (e.g., spending limits, length of party attendance, data collection for self-esteem/achievement).\n- Encourage mood and activity monitoring, using a scaled approach (e.g., 1–10 mood monitoring scale).\n- Explore coping strategies for preventing relapse, such as the “48-hour rule”, seeking second-party advice, graded exposure, and positive data logging.\n- Assist patient reflection on experiment outcomes and facilitate generalization of skills to other settings.\n- Discuss with patient how trusted others can provide feedback constructively.\n- Record and review thoughts, feelings, behaviours, and experiment results in-session.\n- Role-play and rehearse alternative behaviours (e.g., assertive responses).\n- Prompt reality testing via surveys and direct feedback from others.\n- Assess patient readiness for behavioural experiment pacing and modify strategies based on mood fluctuations."
+    },
+    "conversation_states": {
+      "summary": "- Mood state (mania, hypomania, depression, remission).\n- Severity and stability of symptoms (including subclinical fluctuations).\n- Early warning signs of relapse (specific to each patient).\n- Functional status (work, social, relationships).\n- Engagement in risky behaviours.\n- Cognitions, beliefs, and assumptions actively influencing current functioning (e.g., about self-worth, autonomy, approval, achievement, stigma, illness).\n- Response to previous behavioural experiments and coping strategies.\n- Willingness to engage in therapy and experiments.\n- Social support and involvement of significant others.\n- Medication adherence and attitudes toward medication.\n- Patient’s stress level and reaction to life events.\n- Patient’s readiness for therapy pacing and ability to tolerate change."
+    },
+    "knowledge_graph": {
+      "summary": "- Patient’s personal history of BP episodes (manic, depressive, mixed, hypomanic) including triggers and early warning signs.\n- Enduring beliefs and assumptions (autonomy, goal attainment, perfectionism, need for approval, self-esteem) present during episodes and remission.\n- Records of patient responses to specific behavioural experiments and therapy strategies.\n- Social and occupational functioning, role status, significant life events (e.g., job loss, relationship changes).\n- Medication history (adherence, reactions, beliefs).\n- Attitudes toward illness, stigma, prognosis, and help-seeking.\n- Relapse prevention plan(s), including strategies that were effective or ineffective.\n- Involvement and attitudes of significant others/support network.\n- Patient reflection statements and cognitive shifts over multiple sessions."
+    },
+    "cautions": {
+      "summary": "- Avoid initiating cognitive therapy during acute manic episodes; assess for clinical stability before starting.\n- Beware of encouraging patients to resume too many tasks or experiments too quickly after mood improvements (risk of triggering hypomania).\n- Do not introduce behavioural activation approaches from depression protocols without considering risk of provoking mania.\n- Avoid invalidating enduring, justified distressing thoughts (e.g., ongoing need for medication) simply because they are negative.\n- Take care not to reinforce patient’s sense of hopelessness or therapist’s own pessimism about BP prognosis.\n- Avoid pushing patients to challenge core beliefs too rapidly.\n- Do not make over-optimistic promises regarding “cure.”\n- Avoid introducing emotionally risky experiments when patient or therapist is alarmed by mood changes.\n- Do not undermine the need for careful pacing and relapse prevention.\n- Monitor for tendency to encourage pleasure-seeking behaviours during early mania."
+    },
+    "rules": {
+      "summary": "- {\"if\": \"Patient is currently manic or not clinically stable\", \"then\": \"Do not initiate cognitive therapy; focus on stabilization and ensure safety first.\"}\n- {\"if\": \"Patient shows early warning signs of mania or hypomania during therapy\", \"then\": \"Implement relapse prevention strategies (self-monitoring, self-management, medication adjustment) and slow down therapy pacing.\"}\n- {\"if\": \"Patient is in remission but has subclinical fluctuations\", \"then\": \"Monitor mood closely and proceed with behavioural experiments cautiously, adjusting pace as needed.\"}\n- {\"if\": \"Patient is resistant to feedback from significant others during experiments\", \"then\": \"Discuss in advance how feedback will be provided in a non-antagonistic manner.\"}\n- {\"if\": \"Patient's beliefs about achievement, perfectionism, or autonomy dominate\", \"then\": \"Use Socratic questioning and behavioural experiments to test and broaden these beliefs, exploring both positive and negative consequences.\"}\n- {\"if\": \"Patient expresses distress related to long-term prognosis or stigma\", \"then\": \"Use discovery or survey experiments to challenge overgeneralizations and provide realistic, hopeful perspectives.\"}\n- {\"if\": \"Patient wishes to engage in pleasurable or risky activities during early mania\", \"then\": \"Collaborate to set limits and parameters and encourage alternative, safer activities.\"}\n- {\"if\": \"Negative beliefs about medication adherence arise\", \"then\": \"Facilitate reality testing through contact with others with chronic illness and review reasons for ongoing medication use.\"}\n- {\"if\": \"Therapist notices increasing patient stress or alarm regarding mood change\", \"then\": \"Adjust therapy goals, slow down behavioural experiment introduction, and ensure emotional safety.\"}\n- {\"if\": \"Significant others are available and patient consents\", \"then\": \"Involve them for collateral information, support, and reality testing, especially regarding relapse prevention.\"}"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": [
+        "Engagement and collaborative relationship building: Therapist aims to engage the patient genuinely, develop an initial cognitive formulation, and introduce behavioural testing as a way forward.",
+        "Cognitive and metacognitive assessment: Therapist explores patient beliefs (delusional, about voices, negative self-appraisals, affective avoidance, social isolation), their content, sources, and impact.",
+        "Collaborative identification and testing of target cognitions: Therapist collaboratively selects distressing or functionally interfering beliefs for focused work.",
+        "Implementation of behavioural experiments: Therapist and patient design, predict, and conduct reality-testing experiments for targeted beliefs.",
+        "Reflection, review, and consolidation: Therapist guides patient in reflection on experiment results, evaluating new perspectives and integrating learning.",
+        "Ongoing rehabilitation and relapse prevention: Therapist aims to help the patient develop coping strategies, reduce demoralization, and lower risk of relapse through repeated, structured interventions."
+      ]
+    },
+    "micro_actions": {
+      "summary": [
+        "Use of Socratic questioning to elicit beliefs, evidence, alternative perspectives, and possible predictions.",
+        "Writing down and/or video recording beliefs, predictions, experiment outcomes, and reflections to reduce memory/attention bias.",
+        "Carefully operationalizing experiments: agreeing on what outcomes will support/refute each belief before conducting.",
+        "Emotional monitoring and debrief: therapist checks in regularly about costs/benefits, emotional distress, and provides support or pauses interventions if distress escalates.",
+        "Engaging significant others in reality-testing experiments for external validation.",
+        "Scheduling activities, monitoring mood and anxiety, tracking changes in behaviour and cognition in relation to interventions.",
+        "Use of normalizing attributions and empathic responses, especially when discussing distressing or demoralizing themes."
+      ]
+    },
+    "conversation_states": {
+      "summary": [
+        "Current level of belief conviction in key cognitions (delusions, beliefs about voices, negative self-appraisals, affective avoidance).",
+        "Emotional state: levels of distress, anxiety, mood swings, and affective flatness.",
+        "Motivation and engagement in therapy.",
+        "Signs of thought disorder or behavioural disorganization.",
+        "Reflection and assimilation of experimental results (integration of new learning).",
+        "Social connection and withdrawal/isolation.",
+        "Coping skills usage, avoidance behaviours, and maintenance cycles.",
+        "Degree of collaboration and therapeutic alliance."
+      ]
+    },
+    "knowledge_graph": {
+      "summary": [
+        "Patient's major beliefs (delusional, voice-related, negative self-appraisals, schemas around defectiveness, stigma, social isolation).",
+        "History of psychotic episodes, recovery style, residual symptoms.",
+        "Vulnerabilities (biopsychosocial stressors, triggers, coping styles, avoidance tendencies).",
+        "History and outcomes of behavioural experiments, including emotional responses and cognitive shifts.",
+        "Involvement and perspectives of significant others/support system.",
+        "Patterns relating activity scheduling, adherence to medication, response to intervention across sessions.",
+        "Persistent mood disturbance, negative symptoms, and relapse risk status.",
+        "Effects of core beliefs on functioning, relationships, and quality of life."
+      ]
+    },
+    "cautions": {
+      "summary": [
+        "Avoid confrontation or direct challenge to delusional beliefs (use collaborative enquiry instead).",
+        "Do not conduct behavioural experiments when patient shows pronounced thought disorder or severe behavioural disorganization.",
+        "Be alert to distressing or chance outcomes that could inadvertently reinforce psychotic beliefs.",
+        "Avoid overloading patient by increasing experiment difficulty too quickly; proceed gradually.",
+        "Be wary of undermining beliefs that support self-esteem, as it may result in demoralization.",
+        "Avoid proceeding with experiments unless patient agrees to costs/benefits and is emotionally ready.",
+        "Do not neglect affective disturbance—requirements for mood management and support are high.",
+        "Avoid therapist “contamination” by patient hopelessness—maintain an optimistic, hypothesis-testing stance."
+      ]
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "A patient presents with strong conviction in a delusional or distressing belief",
+          "then": "Use Socratic questioning and collaborative enquiry to explore the belief, its evidence, and possible alternative perspectives"
+        },
+        {
+          "if": "Therapist and patient agree on a target cognition for testing",
+          "then": "Operationalize predictions for that belief, clearly specifying what would support or refute it before starting the experiment"
+        },
+        {
+          "if": "Patient shows overt thought disorder or significant behavioural disorganization",
+          "then": "Do not conduct behavioural experiments; focus instead on stabilization and support"
+        },
+        {
+          "if": "Patient begins to show emotional distress during experiment",
+          "then": "Pause intervention and offer debriefing, emotional support, and, if needed, revise coping strategies"
+        },
+        {
+          "if": "Belief being tested serves as a psychological defense or has perceived benefits",
+          "then": "Regularly assess costs and benefits and discuss possible impacts of relinquishing the belief before proceeding"
+        },
+        {
+          "if": "Evidence arises that patient's social isolation or low self-esteem is reinforced by negative core beliefs",
+          "then": "Introduce activity scheduling, behavioural experiments, and positive, normalizing attributions to challenge these beliefs"
+        },
+        {
+          "if": "Patient is at risk for relapse or has residual psychotic symptoms",
+          "then": "Prioritize maintenance of helpful coping strategies, rehabilitation, and relapse prevention throughout therapy"
+        },
+        {
+          "if": "Experimental results are ambiguous or reinforce distressing beliefs",
+          "then": "Debrief with the patient, reframe learning, and adapt intervention strategy as needed"
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": [
+        "Establish a collaborative therapeutic relationship, emphasizing trust, openness, empathy, and non-judgement.",
+        "Identify core cognitive and behavioral patterns across key domains: overevaluation of eating/weight/shape/control, mood intolerance, core low self-esteem, perfectionism, and interpersonal difficulties.",
+        "Conduct cognitive and behavioral experiments to test and challenge problematic cognitions and beliefs related to eating and associated domains.",
+        "Directly address patient motivation, engagement, and readiness to change as essential treatment precursors.",
+        "Frame treatment and behavioral change as ongoing, overarching experiments, especially if strong illness identity is present.",
+        "Tactfully handle sensitive, personal, or realistic beliefs, sometimes shifting focus from direct challenge to exploration of costs/benefits and available resources.",
+        "Integrate skills training and address medical issues as required."
+      ]
+    },
+    "micro_actions": {
+      "summary": [
+        "Elicit and clarify specific target cognitions and alternative perspectives for each problem area.",
+        "Collaboratively predict outcomes based on the patient’s beliefs.",
+        "Design, operationalize, and execute specific behavioral experiments (e.g., eating a feared food, limiting body checking, surveying friends).",
+        "Monitor and document patient’s emotional and cognitive reactions during and after experiments.",
+        "Facilitate patient reflection on experiment outcomes, discrepancies between prediction and result, and implications for their beliefs.",
+        "Incrementally repeat and generalize behavioral experiments across various contexts/situations as tolerance and insight grow.",
+        "Affirm and highlight small achievements; encourage repeated data collection (e.g., logs, journals).",
+        "Offer graded exposure and practice (assertiveness, tolerating distress, reducing perfectionistic standards).",
+        "Substitute maladaptive behaviors with adaptive alternatives during experiments (e.g., engaging in distracting or pleasurable activities).",
+        "Use non-confrontational, supportive feedback; monitor and process patient’s resistance, rationalizations, or discounting of positive outcomes."
+      ]
+    },
+    "conversation_states": {
+      "summary": [
+        "Patient’s current belief ratings (confidence in problematic and alternative cognitions).",
+        "Emotional state before, during, and after behavioral experiments (anxiety, distress, mood).",
+        "Level of motivation, engagement, and readiness to change at session and experiment onset.",
+        "Degree of collaborative alliance, trust, and openness to the therapist.",
+        "Evidence accepted or discounted by the patient post-experiment.",
+        "Manifestation of eating disorder behaviors (avoidance, safety behaviors, checking, purging, bingeing, perfectionistic actions, interpersonal strategies).",
+        "Patient’s willingness to generalize learning and maintain behavioral change across situations.",
+        "Presence and intensity of interpersonal difficulties, self-harm, or maladaptive coping.",
+        "Reaction to graded exposure, assertiveness, and performance evaluations.",
+        "Sensitivity and defensiveness regarding personal and realistic beliefs."
+      ]
+    },
+    "knowledge_graph": {
+      "summary": [
+        "Detailed history and types of eating disorder behaviors, including subtypes and compensatory actions.",
+        "Core cognitive constructs: ratings and evidence for overevaluation of eating/weight/shape/control, mood intolerance, low self-esteem, perfectionism, and interpersonal/interpersonal beliefs.",
+        "Records of behavioral experiment outcomes and reflections across sessions.",
+        "Changes in belief strength and behavior over time in different domains and contexts.",
+        "Documentation of patient’s motivation, readiness to change, and engagement progression.",
+        "Notes on significant interpersonal relationships, support networks, and their impact on beliefs.",
+        "Identification and tracking of medical concerns, illness identity, and potential co-morbidities.",
+        "Sensitive and personal beliefs, their origins, evolutions, and responses to intervention."
+      ]
+    },
+    "cautions": {
+      "summary": [
+        "Do not conduct behavioral or cognitive experiments without appropriate medical assessment when there are significant medical risks.",
+        "Avoid direct, insensitive challenging of personal, realistic, or valued beliefs, especially when negative consequences are likely or resources for change are lacking.",
+        "Do not disregard the importance of building motivation, engagement, and readiness to change prior to implementing specific techniques.",
+        "Avoid rigidly applying structured interventions without adaptation for individual sensitivity or unique patient context.",
+        "Do not neglect the therapeutic relationship, especially in situations where trust is necessary for risk-taking in behavioral change.",
+        "Be careful not to reinforce eating disorder beliefs by testing them in counterproductive social groups or contexts.",
+        "Avoid major confrontations or emotionally overwhelming exposures, especially with ‘all or nothing’ thinkers—graded, discreet actions are safer.",
+        "Do not abandon behavioral experiments prematurely if there is no immediate impact, especially when working with core low self-esteem.",
+        "Take care not to force a patient into challenging deeply held beliefs if their current resources or support are insufficient."
+      ]
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "Patient displays ambivalence or low readiness to change",
+          "then": "Address motivation and readiness directly before introducing cognitive or behavioral experiments."
+        },
+        {
+          "if": "Patient expresses a problematic belief about eating, weight, or control",
+          "then": "Collaboratively design and implement a behavioral experiment to test the belief, ensuring emotional support."
+        },
+        {
+          "if": "Patient discounts positive experimental outcomes as insignificant or due to other causes",
+          "then": "Encourage continued data collection and reflection, and gently challenge discounting."
+        },
+        {
+          "if": "Patient engages in perfectionistic checking or avoidance",
+          "then": "Facilitate graded reduction of perfectionistic behaviors and monitor emotional/cognitive reactions."
+        },
+        {
+          "if": "Patient's interpersonal beliefs prevent assertiveness or expression of needs",
+          "then": "Implement graded assertiveness practice and collect data on relationship outcomes."
+        },
+        {
+          "if": "Patient fears loss of control or distress from challenging beliefs",
+          "then": "Use graded exposure, alternative coping strategies, and discreet actions to minimize emotional overwhelm."
+        },
+        {
+          "if": "Sensitive or realistic beliefs are present and challenge may result in genuine negative outcomes",
+          "then": "Explore costs and benefits, and consider skills/resource building rather than direct challenge."
+        },
+        {
+          "if": "Medical risk is present or suspected",
+          "then": "Seek medical opinion before beginning cognitive behavioral interventions."
+        },
+        {
+          "if": "Therapeutic alliance is weak or patient distrustful",
+          "then": "Prioritize empathy, summarizing, and a non-judgemental and curious attitude to build rapport."
+        },
+        {
+          "if": "Patient shows resistance to generalizing new behaviors",
+          "then": "Facilitate incremental, context-driven experiments to support transfer of learning."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter details high-level intervention phases for addressing insomnia in CBT, including: assessment and identification of maintaining cognitive and behavioral processes (worry, monitoring, safety behaviors, distorted perception), psychoeducation, collaborative cognitive restructuring (challenging unhelpful beliefs), behavioral experiments (to test predictions and challenge dysfunctional thoughts), managing safety behaviors, promoting alternative coping strategies, tracking and reviewing experiment outcomes, and integrating insights across sessions. The therapist iteratively selects and tailors experiments targeting key cognitive processes (beliefs, worry, monitoring, perceptions) and behavioral patterns, using patient feedback and collaborative reflection."
+    },
+    "micro_actions": {
+      "summary": "Micro-interventions described include: eliciting specific unhelpful thoughts and beliefs; collaboratively generating alternative perspectives; operationalizing beliefs into concrete predictions; designing, implementing and reviewing behavioral experiments (e.g. altering routines, limiting naps/coffee/alcohol, expressive writing, monitoring and not monitoring symptoms, photo-based reality testing); rating fatigue/mood/coping after experiment periods; encouraging attention shifting from internal sensations to external environment; facilitating expressive writing; scheduling pleasant activities during high-risk periods; guiding use of diaries for recording sleep and daytime impact; directly questioning and brainstorming with patients; providing anticipatory guidance about experiment effects; summarizing and reflecting on experiment outcomes. The therapist adapts utterances and actions to challenge cognitive distortions, reinforce learning, and encourage between-session practice."
+    },
+    "conversation_states": {
+      "summary": "Variables to track within-session include: patient’s current beliefs about sleep and fatigue; degree of worry and arousal; engagement in safety behaviors (e.g. napping, caffeine use, monitoring); subjective perceptions of sleep quality versus objective indicators; daytime functioning and impairment (social, occupational, mood, energy, cognitive performance); emotional response to experiments; willingness and motivation to try new approaches; insight/discrepancy between experience and beliefs; level of fatigue and mood at various points in day; experiment adherence and outcomes; degree of monitoring (internal/external focus); anxiety about consequences of poor sleep and experiment participation; readiness for experiment timing."
+    },
+    "knowledge_graph": {
+      "summary": "Therapist should track longitudinal data on: baseline and evolving sleep patterns (latency, duration, awakenings, quality); history and changes in maladaptive beliefs about sleep, tiredness, and control; specific safety behaviors and their frequency; effects of behavioral experiments over time; patient’s predictions versus actual outcomes; subjective versus objective sleep perception discrepancies; impact on daytime functioning and mood; risk behaviors (e.g. napping, medication, alcohol, caffeine); co-occurring psychological disorders and treatment responses; patient’s developmental and situational history of insomnia episodes; preferred coping strategies and their effectiveness; individual sleep requirements and adaptations; reflections and insights gained from repeated experiments."
+    },
+    "cautions": {
+      "summary": "Warnings include: Do not trivialize insomnia as a mere symptom of other disorders. Avoid scheduling sleep restriction experiments prior to safety-critical activities (driving, machinery operation). Do not rush or pressure the patient into anxiety-provoking experiments before sufficient confidence is built. Do not reinforce safety behaviors or encourage excessive monitoring, thought suppression, or reliance on substances (alcohol, caffeine) for sleep. Be sensitive to individual sleep needs—do not enforce a rigid sleep duration or routine. Avoid invalidating patient’s distress or over-pathologizing normal sleep variation. Ensure patients are warned about short-term tiredness after changing routines, and explicitly caution those in high-accident-risk jobs."
+    },
+    "rules": {
+      "summary": "[{\"if\": \"patient expresses an unhelpful belief about sleep/tiredness\", \"then\": \"collaboratively elicit alternative perspective and design experiment to test prediction\"}, {\"if\": \"patient engages in safety behavior (napping, caffeine, clock monitoring, thought suppression)\", \"then\": \"plan and implement behavioral experiment to restrict/replace safety behavior and track outcome\"}, {\"if\": \"session involves reviewing behavioral experiment\", \"then\": \"discuss outcome, compare predictions with results, reinforce insight, and plan next steps\"}, {\"if\": \"patient monitors body sensations or clock excessively\", \"then\": \"encourage attention shifting to external environment and implement 'no monitoring' periods\"}, {\"if\": \"preparing for sleep restriction experiment\", \"then\": \"ensure patient is confident, provide rationale, and schedule experiment away from days requiring high alertness\"}, {\"if\": \"patient reports excessive tiredness during experiment\", \"then\": \"warn about short-term effects, encourage continuation and support between sessions\"}, {\"if\": \"patient works in safety-critical environment (driving, machinery)\", \"then\": \"explicitly warn to take regular breaks and use safe strategies for alertness when experiencing insomnia\"}, {\"if\": \"patient expresses concern about appearance or functioning after poor sleep\", \"then\": \"design reality-testing experiment (e.g. photos, performance tasks) to correct perception\"}, {\"if\": \"patient resists writing intervention\", \"then\": \"offer alternative forms of expression (talking to a friend, recording thoughts) to externalize worries\"}]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "- Assessment of patient's physical illness/disability and its psychological impacts.\n- Establishing shared cognitive formulations of problems and presenting therapy as a collaborative, curiosity-driven process.\n- Identification and modification of maladaptive thoughts, assumptions, and coping strategies related to illness/disability.\n- Encouraging and designing behavioural experiments to test unhelpful cognitions and safety behaviours.\n- Supporting adjustment to loss/change, strengthening sense of identity, and exploring difficult emotions.\n- Facilitating engagement and trust with patients, especially those with medically unexplained symptoms.\n- Adapting interventions to accommodate genuine adversity, physical limitations, and social/environmental obstacles."
+    },
+    "micro_actions": {
+      "summary": "- Eliciting and labeling patient’s automatic thoughts and beliefs about their illness/disability.\n- Gently probing about difficult emotions using open questions and reflective statements.\n- Giving feedback on cognitive distortions, safety behaviours, and avoidance patterns.\n- Collaborative development of behavioural experiments, including setting predictions, alternative perspectives, and monitoring outcomes.\n- Role-playing anxiety-provoking scenarios, helping patients rehearse assertiveness and coping skills in-session.\n- Guided surveys/interviews with others to normalize patient concerns (e.g., about memory lapses or others’ reactions).\n- Encouraging symptom and activity diaries, logs of mood/energy, and reflection on experiment results.\n- Monitoring for safety behaviours (e.g., checking for toilets, use of motility aids, excessive resting) and gently challenging these in graduated steps.\n- Repeatedly working to integrate new perspectives, particularly where negative self-schemas are entrenched.\n- Providing psychoeducation on normal bodily responses (e.g., pain, bowel sensations, changes in appearance)."
+    },
+    "conversation_states": {
+      "summary": "- Patient’s current mood, energy level, and emotional state (e.g., anxiety, depression, self-worth).\n- Level of engagement and trust in therapy/process.\n- Key beliefs and assumptions about illness/disability, self, coping, and social roles.\n- Frequency, intensity, and context of automatic negative thoughts.\n- Use and effects of safety behaviours and avoidance.\n- Patient’s confidence, willingness, and progress in behavioural experiments.\n- Symptoms tracking: fluctuations in pain, fatigue, dizziness, bowel function, etc.\n- Patient’s activity levels, independence, and ability to adjust routines.\n- Social support, perceived stigma, and reactions from others."
+    },
+    "knowledge_graph": {
+      "summary": "- History and nature of patient’s physical illness/disability and medical investigations/results.\n- Patient’s core beliefs and early experiences relevant to current difficulties.\n- Patterns and effectiveness of coping strategies (e.g., safety behaviours, avoidance, over-activity).\n- Patient’s evolving sense of identity and role within family/social contexts pre- and post-illness.\n- Record of significant behavioural experiments, results, patient reflections, and integration of alternative perspectives over time.\n- Recurrent problematic situations, hierarchies of anxiety-provoking scenarios, and progress in tackling them.\n- Catalog of changes in appearance, function, and adaptations made.\n- Responses to previous therapeutic interventions and engagement level across sessions."
+    },
+    "cautions": {
+      "summary": "- Do not minimize or dismiss the severity/reality of physical symptoms, especially with medically unexplained conditions.\n- Avoid pressuring patients to immediately face emotions or make rapid changes—go gently.\n- Do not offer behavioural experiments that are physically risky, unrealistic, or contradict medical advice.\n- Do not put words in patients’ mouths when discussing emotion; avoid undermining or invalidating their experience.\n- Avoid over-challenging accurate negative ideas about social adversity or disability—focus on realistic, achievable experiments.\n- Do not neglect to adapt interventions based on patient’s physical restrictions, safety concerns, and level of functioning.\n- Refrain from making guarantees about eliminating physical symptoms."
+    },
+    "rules": {
+      "summary": "[\n  {\n    \"if\": \"Patient expresses a negative automatic thought about their illness/disability.\",\n    \"then\": \"Collaboratively identify the thought, explore its origins, and design behavioural experiment(s) to test it.\"\n  },\n  {\n    \"if\": \"Patient uses safety behaviours (e.g., excessive resting, checking for toilets, overuse of aids).\",\n    \"then\": \"Monitor and gently challenge these behaviours, introducing graded behavioural experiments to reduce reliance.\"\n  },\n  {\n    \"if\": \"Patient exhibits avoidance of emotions or reluctance to discuss feelings.\",\n    \"then\": \"Explore gently using open questions and reflections, without imposing language or interpretations.\"\n  },\n  {\n    \"if\": \"Patient is at risk when conducting physical experiments (due to dizziness, pain, or medical contraindications).\",\n    \"then\": \"Ensure experiments are conducted within medically safe parameters and consult medical professionals if needed.\"\n  },\n  {\n    \"if\": \"Patient demonstrates low engagement or distrust in therapy.\",\n    \"then\": \"Spend more time building rapport, validating their experience, and clarifying the psychological aspects and collaborative nature of therapy.\"\n  },\n  {\n    \"if\": \"Patient reports negative experiences related to social reactions and stigma.\",\n    \"then\": \"Support gradual behavioural experiments to test these beliefs and collect real-world feedback, noticing both supportive and adverse responses.\"\n  },\n  {\n    \"if\": \"Patient struggles to adjust to loss/change in function or appearance.\",\n    \"then\": \"Facilitate identity-strengthening exercises and discovery experiments, integrating alternative perspectives and feedback from trusted others.\"\n  }\n]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter describes a CBT-influenced intervention approach for acquired brain injury (ABI) patients, emphasizing adaptation of standard CBT methods to cognitive and physical limitations. High-level phases include initial assessment/formulation of problems considering premorbid beliefs, current impairments, and psychosocial circumstances; validation of accurate distress and disability assessments; psychoeducation about brain injury and its psychological impacts; collaborative identification of maladaptive cognitions (either overly negative or positive/denial-based); designing and negotiating behavioral experiments to test beliefs about symptoms, functioning, and social situations; supporting reflection and restructuring in light of experiment outcomes; providing emotional support following distressing or demoralizing experiment outcomes; and planning ongoing rehabilitation and further experiments, often with multidisciplinary input."
+    },
+    "micro_actions": {
+      "summary": "Micro-actions include Socratic questioning, validating accurate perceptions before challenging dysfunctional beliefs, providing personalized psychoeducation, eliciting target and alternative cognitions, collaboratively formulating predictions and operationalizing behavioral experiments, assisting the patient in record-keeping (e.g., diaries, flashcards), using role-play and rehearsal for social challenges, giving directive prompts (especially for patients with executive dysfunction), using forced-choice questions as needed, facilitating emotional expression and careful inquiry about mood, providing real-time support during distressing moments, gathering collateral information from relatives and other professionals, and ensuring explicit agreement about experiment validity before commencement."
+    },
+    "conversation_states": {
+      "summary": "Therapist must continuously track: patient’s awareness/insight into cognitive and functional deficits, level of cognitive fatigue/stamina, emotional arousal/distress (including flat or exaggerated presentations), degree of denial or overoptimism, accuracy of symptom attribution (medical versus psychological), coping strategies in use, risk tolerance/avoidance behavior, change in self-identity, relationship dynamics, readiness for challenge versus risk of demoralization, rate of learning and retention, and level of social engagement/isolation."
+    },
+    "knowledge_graph": {
+      "summary": "Long-term memory dimensions include: history and trajectory of ABI (cause, time since injury, medical course); premorbid core beliefs and coping styles; current cognitive, physical, emotional, and social functioning; patterns and results of previous behavioral experiments; accurate versus dysfunctional self-appraisals; persistent maladaptive schemas; emotional reactions to setbacks/failures; strategies for self-advocacy/social interaction; outcomes from neuropsychological/rehabilitation assessments; feedback from family, employers, and other professionals."
+    },
+    "cautions": {
+      "summary": "The therapist should avoid attributing all problems solely to ABI (some may be pre-existing or independent), avoid minimizing real risks or distress, avoid overly demanding experiments that could physically or emotionally harm patients, avoid neglecting medical consultation when necessary, avoid challenging accurate appraisals merely out of CBT habit, avoid excessive open-ended questioning with patients who struggle with initiation or abstract thought (especially after frontal lobe injuries), avoid forcing premature insight in cases of denial, and avoid carrying out experiments without ensuring the patient agrees on experiment validity."
+    },
+    "rules": {
+      "summary": "- {\"if\": \"patient presents with high anxiety about returning to activities\", \"then\": \"validate their fear and explicitly distinguish realistic risk from dysfunctional avoidance before proposing behavioral experiments\"}\n- {\"if\": \"patient demonstrates overoptimistic beliefs or denial of impairment\", \"then\": \"facilitate behavioral experiments targeting positive beliefs, with careful emotional support for possible demoralization\"}\n- {\"if\": \"patient has poor memory or processing speed but intact reading\", \"then\": \"provide written aids (diaries, flashcards) to support therapy and experiment recall\"}\n- {\"if\": \"patient exhibits initiation difficulties or rigid thinking\", \"then\": \"use directive strategies and forced-choice prompts rather than open-ended questions\"}\n- {\"if\": \"experiment may entail medical risk\", \"then\": \"consult with medical professionals prior to execution\"}\n- {\"if\": \"patient displays flat affect or low emotional expression\", \"then\": \"use careful questioning to assess underlying emotional states\"}\n- {\"if\": \"patient expresses persistent dysfunctional beliefs after experiment\", \"then\": \"facilitate collaborative renegotiation of experiment conditions to test beliefs more thoroughly\"}\n- {\"if\": \"forming predictions for behavioral experiments\", \"then\": \"require explicit patient agreement that experiment fairly tests the belief\"}"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The therapist's high-level strategies include facilitating the patient's gradual engagement with feelings, structuring behavioral experiments to challenge avoidance, encouraging the articulation and expression of emotions, and working to reduce confusion about affect. They emphasize normalizing feelings, supporting the development of emotional vocabulary, helping the patient test predictions about emotional experiences, and slowly building tolerance for affect through in-session and homework exercises. Therapists also manage the therapeutic environment to reduce threat, attend to non-verbal signals, and address interpersonal processes within therapy that may interfere with emotional openness."
+    },
+    "micro_actions": {
+      "summary": "Therapists operationalize the above strategies by guiding patients to focus on bodily sensations when overwhelming feelings arise, using gentle prompts to remain present (e.g., “focus on your feet and legs”), inviting patients to label emotions, encouraging written or drawn representations of feelings, initiating Socratic questioning or reflections to access underlying beliefs, scheduling graduated exposure to emotion-related situations, fostering the use of thought records or data logs, and role-playing or rehearsing emotional disclosures. Therapists monitor and respond to non-verbal cues, gently bring attention back to relevant emotional topics, and use normalized, validating statements. Cooling down or self-soothing skills are introduced or modelled when affect becomes intense."
+    },
+    "conversation_states": {
+      "summary": "Therapists should continuously track emotional arousal/intensity (including non-verbal signs), indications of avoidance strategies or safety behaviors (e.g., distraction, topic change, intellectualizing, dissociation), ability and willingness to verbalize emotion, confusion/distress about emotions, beliefs and predictions regarding affective experiences, mood changes, sense of vulnerability/trust, relational or interpersonal comfort, and patient engagement levels (e.g., withdrawal, reluctance). The activation of “hot cognitions” or emotionally charged beliefs should be noted, as well as changes in self-esteem or self-concept during discussion of feelings. Tracking specific affective vocabulary or progress in naming and tolerating affect is also important."
+    },
+    "knowledge_graph": {
+      "summary": "Long-term memory dimensions for case formulation and intervention planning include: historical experiences with affect and emotional expression (family, culture, trauma, neglect, abuse), typical safety behaviors and avoidance patterns, core beliefs and assumptions about emotion, habitual emotional vocab or “felt sense” confusion, patterns of emotional response in relationships, cultural factors influencing emotional expression, dominant self-schema (e.g., shame, defectiveness, fear of rejection), chronic emotional difficulties (e.g., emotional numbing, dissociation), and documented progress in emotional fluency or tolerance. Significant memories, images, or dreams discussed in session and behaviors accompanying high affect should be tracked across sessions."
+    },
+    "cautions": {
+      "summary": "Therapists should avoid rushing emotional work or pushing patients into high affect states; avoid bombarding patients with Socratic questions that feel like an inquisition; avoid ignoring non-verbal signs of distress, overwhelm, or withdrawal; do not challenge or confront emotional avoidance too directly or invalidate safety behaviors before building trust; avoid enmeshment where therapist and patient share avoidance of certain emotions; do not neglect to adjust session structure (environment, pace, content) in response to patient vulnerability; avoid assuming lack of engagement reflects lack of motivation rather than distress or fear; avoid prematurely interpreting \"shutdown\" as non-cooperation; do not neglect supervision or reflective practice when therapist's own emotional biases interfere."
+    },
+    "rules": {
+      "summary": "[{\"if\": \"Patient shows signs of dissociation or emotional overwhelm in session\", \"then\": \"Prompt patient to focus on specific bodily sensations one at a time to anchor in the present and reduce withdrawal\"},{\"if\": \"Patient uses distraction or topic change to avoid emotional content\", \"then\": \"Gently redirect conversation back to the feeling or 'felt sense', offering normalization and validation\"},{\"if\": \"Patient expresses confusion or difficulty labeling emotions\", \"then\": \"Introduce emotion words, encourage labeling and exploration through writing, drawing, or role play\"},{\"if\": \"Patient reports fear or negative prediction about expressing feelings\", \"then\": \"Collaboratively plan and rehearse graded behavioral experiments to test these predictions\"},{\"if\": \"Therapist notices non-verbal indications of discomfort or withdrawal\", \"then\": \"Adjust physical environment (e.g., chair placement), pace, or interpersonal approach to reduce threat\"},{\"if\": \"Patient displays safety behaviors (e.g., joking, intellectualizing)\", \"then\": \"Reflect the safety behavior gently and explore its function without direct confrontation\"},{\"if\": \"Intense emotion arises and patient seems at risk of disengagement or impulsive action\", \"then\": \"Introduce cooling down or self-soothing strategies and facilitate return to manageable level of affect\"},{\"if\": \"Patient demonstrates memory gaps regarding emotional events\", \"then\": \"Use positive data logs or targeted recall exercises to anchor and elaborate emotional memories\"},{\"if\": \"Therapist notes shared avoidance of emotion (enmeshment)\", \"then\": \"Seek supervision and reflect on therapist's own emotional processes to maintain effective intervention\"}]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "Therapist intervention in self-injurious behavior (SIB) unfolds through several high-level phases: \n- Assessment of the functions, belief systems, and consequences of self-injury.\n- Collaborative case conceptualization considering intrapsychic, interpersonal, and physiological dimensions.\n- Psychoeducation about self-injury and its cognitive/physiological underpinnings.\n- Implementation of behavioral experiments to test and challenge facilitating beliefs and core schemas.\n- Development of alternative coping strategies tailored to match the function of SIB.\n- Relapse management planning from the outset.\n- Monitoring for and addressing the risk of death associated with self-injury.\n- Generalization of strategies to substitute multi-impulsive behaviors.\n- Continuous revisiting and updating of the case formulation as change occurs."
+    },
+    "micro_actions": {
+      "summary": "At each conversational turn, the therapist:\n- Elicits and clarifies the patient's immediate and core beliefs regarding SIB.\n- Identifies urges, triggers, and emotional states (e.g., hopelessness, anger, urges to self-injure).\n- Guides the patient through formulation and operationalization of behavioral experiments (e.g., activity scheduling, relaxation exercises, data logging, role-playing assertiveness or help-seeking).\n- Coaches the patient in recognizing, recording, and reflecting on positive evidence contradicting negative beliefs.\n- Rehearses coping, distraction, and anger management techniques in session and reviews implementation between sessions.\n- Assesses and reinforces alternative interpretations and perspectives.\n- Provides motivational support and contracts for engagement in challenging tasks.\n- Monitors patient response to distraction: Is it adaptive or avoidance?\n- Prepares contingency plans for setbacks and reviews relapse experiences.\n- Debriefs and helps the patient generalize skills to other problem dimensions."
+    },
+    "conversation_states": {
+      "summary": "Therapists must continuously track:\n- Intensity and type of urges to self-injure (e.g., impulsive vs. planned).\n- Emotional states: distress, anger, hopelessness, dissociation, loneliness.\n- Activation of core belief systems and facilitating beliefs relevant to SIB.\n- Patient's self-concept, self-esteem, and reaction to achievements or setbacks.\n- Functional role of self-injury (e.g., attention-seeking, tension-reducing, dissociation, self-punishment).\n- Patient's engagement level, motivation, and readiness for behavioral experiments.\n- Progress in developing and using alternative coping strategies.\n- Patient’s management of and reaction to positive data.\n- Relapse risk and warning signs.\n- Physiological impacts and risk of lethality.\n- Evidence of multi-impulsive or related maladaptive coping behaviors (e.g., substance misuse)."
+    },
+    "knowledge_graph": {
+      "summary": "Long-term memory dimensions to track include:\n- Historical and current functions of self-injury for the patient.\n- Evolving core belief systems and associated facilitating beliefs.\n- History and frequency of SIB episodes, patterns, and triggers.\n- Progress in alternative coping strategy adoption and efficacy.\n- Relapse history and relapse management plan.\n- Patient’s repertoire of coping behaviors and symptom substitution (e.g., shifting from self-injury to substance misuse).\n- Therapeutic contract, agreements, and level of engagement.\n- Interpersonal dynamics, social skills development, and progress in social confidence.\n- Associated trauma, dissociation, or comorbid disorders (e.g., depression, PTSD, personality disorder).\n- Responses to and outcomes from behavioral experiments."
+    },
+    "cautions": {
+      "summary": "- Do not minimize or ignore the risk of death/self-harm; maintain continual risk assessment.\n- Avoid insufficient preparation before behavioral experiments, as perceived failure can demotivate and undermine fragile patients.\n- Do not push for contracts if they are experienced as punitive or likely to harm self-esteem upon breach.\n- Avoid letting distraction techniques become permanent avoidance rather than adaptive coping.\n- Do not neglect the significance of physiological factors driving SIB.\n- Avoid oversimplifying complex case presentations; keep broader conceptualization in mind.\n- Do not ignore or dismiss symptom substitution (e.g., shifting to other impulsive behaviors).\n- Do not overlook the impact of negative schemas or beliefs that may undermine progress.\n- Avoid invalidating or dismissing patient experiences and achievements, even if the patient tries to do so themselves."
+    },
+    "rules": {
+      "summary": "[\n  {\"if\": \"Patient reports motivation to self-injure following activation of distressing memories or emotions\", \n   \"then\": \"Elicit core and facilitating beliefs and collaboratively formulate a behavioral experiment targeting those beliefs.\"},\n  {\"if\": \"Facilitating beliefs enabling self-injury are identified\", \n   \"then\": \"Design and execute in-session and in-vivo behavioral experiments to test alternative coping strategies.\"},\n  {\"if\": \"Patient struggles to record or accept positive evidence\", \n   \"then\": \"Introduce practical solutions (e.g., cue cards, paper and pencil for quick recording) and encourage retention of evidence, even if later rejected.\"},\n  {\"if\": \"Patient begins to substitute distraction techniques for self-injury\", \n   \"then\": \"Assess whether distraction is serving adaptive coping rather than avoidance; reinforce adaptive use only.\"},\n  {\"if\": \"Therapist anticipates patient may perceive experiment as risky or difficult\", \n   \"then\": \"Ask what might make the task easier and collaborate on solutions to enhance safety and achievability.\"},\n  {\"if\": \"Patient relapses into self-injury after initial improvement\", \n   \"then\": \"Work through relapse management, analyze triggers, reinforce learning, and update personal management plan.\"},\n  {\"if\": \"Evidence of symptom substitution or multi-impulsive behaviors appears\", \n   \"then\": \"Review and generalize coping skills and address fundamental beliefs supporting the new impulsivity.\"},\n  {\"if\": \"Physical risk or lethality of self-injury is possible\", \n   \"then\": \"Maintain continual risk assessment, prepare for urgent intervention, and seek supervision.\"},\n  {\"if\": \"Therapist identifies a negative schema or rigid core belief system undermining progress\", \n   \"then\": \"Utilize schema-based conceptualization and integrate schema-focused strategies into intervention.\"},\n  {\"if\": \"Patient attempts to dismiss positive data contradicting negative beliefs\", \n   \"then\": \"Encourage retention and reflection on such data, reinforcing its relevance despite initial resistance.\"}\n]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "- The chapter outlines a set of high-level therapeutic strategies for addressing interpersonal difficulties, including: \n  - Identifying and formulating problematic interpersonal beliefs, assumptions, and core thoughts (e.g., about trust, intimacy, assertiveness, interpersonal style, power/authority).\n  - Collaborative planning of behavioral experiments aimed at testing these beliefs within the therapy relationship and generalizing to real-life situations.\n  - Using the therapeutic relationship as a \"laboratory\" for safe, immediate interpersonal experiments.\n  - Reflecting on experiment outcomes to foster belief modification, improve self-awareness, and encourage new interpersonal behaviors.\n  - Preparing and supporting patients for unpredictable/interpersonal responses and helping process outcomes, particularly negative or unwanted reactions.\n  - Facilitating generalization of new learning from experiments to other relationships and contexts.\n  - Supporting patients in building new skills (e.g., assertiveness) if necessary before conducting experiments."
+    },
+    "micro_actions": {
+      "summary": "- Therapist operational micro-actions throughout the dialogue include:\n  - Use of Socratic questioning to elicit beliefs and double standards.\n  - Explicit collaborative hypothesis testing about patient beliefs.\n  - Role-playing conversations, disclosures, or new reactions (e.g., handling criticism, expressing anger).\n  - Structuring, observing, and debriefing behavioral experiments with clear focus (e.g., asking for feedback after disclosure; monitoring others’ reactions; clarifying meaning of responses).\n  - Sensitively inquiring about the meaning behind patients’ actions (e.g., session absences) and feedback.\n  - Explicitly inviting direct patient feedback (e.g., “Did anything feel difficult for you today?”).\n  - Reflecting together on what went well, what surprised, and what was learned post-experiment.\n  - Supporting patient autonomy—ensuring patient control during challenging interpersonal experiments.\n  - Discussing in advance the meaning of possible responses and how to distinguish between them.\n  - Rehearsing new interpersonal skills with patients and evaluating their appropriateness for varied situations."
+    },
+    "conversation_states": {
+      "summary": "- Variables/dimensions to be tracked during the session include:\n  - Activation and strength of specific interpersonal beliefs and their emotional impact.\n  - Patient’s current interpersonal style, safety behaviors, and responses to social interactions.\n  - Emotional reactions to interpersonal experiments (e.g., relief, anxiety, anger, hurt).\n  - Degree of patient trust and sense of safety within therapeutic relationship.\n  - Level of collaboration and engagement in the therapeutic process.\n  - Patient’s readiness and skill level for new interpersonal behaviors (e.g., assertiveness).\n  - Patient’s feedback, expressions of discomfort, or difficulties during or after interventions.\n  - Dynamics and responses in the therapeutic relationship relevant to the patient’s broader difficulties.\n  - Monitoring shifts in beliefs, perspective, and patterns in the patient’s interpersonal interactions."
+    },
+    "knowledge_graph": {
+      "summary": "- Long-term dimensions to track across sessions include:\n  - Patient’s core interpersonal beliefs and dysfunctional assumptions (and their evolution).\n  - Specific interpersonal behavior patterns/styles (e.g., hostile, compliant, “superwoman,” entertaining).\n  - Historical relationship difficulties and significant events (e.g., betrayals, abuse, patterns of social withdrawal).\n  - Patterns of generalization or specificity of interpersonal difficulties (across contexts and within therapy).\n  - Progress and outcomes of interpersonal behavioral experiments over time.\n  - Patient’s skill acquisition in relevant interpersonal domains (e.g., assertiveness).\n  - Instances and impact of feedback and critical events within the therapeutic relationship.\n  - Patient’s emotional responses and coping strategies to interpersonal stressors or experiment results.\n  - Therapist’s own interpersonal assumptions as they manifest in the process.\n  - Contextual information regarding trusted relationships and criteria for healthy boundaries."
+    },
+    "cautions": {
+      "summary": "- Warnings/risks identified include:\n  - Do not rush into interpersonal experiments without sufficient trust and preparation.\n  - Avoid overgeneralizing experimental outcomes (especially from therapy to other settings or vice versa).\n  - Do not assume interpersonal difficulties expressed in therapy automatically reflect difficulties in all contexts.\n  - Avoid defensiveness or personalization when patients provide difficult feedback.\n  - Beware of pressuring patients to change entrenched interpersonal patterns too quickly.\n  - Do not neglect patient autonomy or control during sensitive experiments.\n  - Avoid neglecting the need for patient skills or rehearsal before attempting new behaviors.\n  - Be vigilant about the emotional safety of the patient, especially around disclosures of trauma or vulnerability."
+    },
+    "rules": {
+      "summary": "- \n{\"if\": \"A patient expresses fear about disclosing sensitive information due to trust beliefs.\", \"then\": \"Ensure a strong therapeutic alliance and allow patient full control to pause or stop; discuss and plan responses to possible outcomes before the experiment.\"}\n{\"if\": \"Planning a behavioral experiment involving interpersonal risk.\", \"then\": \"Prepare the patient for possible unwanted or unpredictable outcomes through discussion or role play beforehand.\"}\n{\"if\": \"Patient exhibits overgeneralized beliefs about trust or relationships.\", \"then\": \"Collaboratively devise experiments or surveys to test and explore alternatives, emphasizing nuances and specific dimensions of trust.\"}\n{\"if\": \"Patient is expected to try new interpersonal skills (e.g., assertiveness).\", \"then\": \"Assess and teach necessary skills within therapy, use role play, and begin experiments in safe/receptive contexts.\"}\n{\"if\": \"Patient gives interpersonal feedback that could be perceived as criticism.\", \"then\": \"Respond non-defensively; focus discussion on the meaning for the patient rather than taking things personally.\"}\n{\"if\": \"Interpersonal difficulties arise within the therapeutic relationship.\", \"then\": \"Discuss whether these difficulties are unique to therapy, to the therapist, or are broader issues for the patient, and disentangle as necessary.\"}\n{\"if\": \"The patient attempts to change their interpersonal style in established relationships.\", \"then\": \"Monitor for pressure from others to revert to old styles and support the patient in maintaining change.\"}\n{\"if\": \"Beliefs about relationships are being tested in therapy.\", \"then\": \"Reflect post-experiment on outcomes, emotions, and generalization to wider contexts, avoiding premature or broad conclusions.\"}\n{\"if\": \"Therapist’s own interpersonal assumptions/beliefs are activated during session.\", \"then\": \"Practice decentering; observe own responses and seek supervision as needed to avoid inadvertently maintaining the patient’s problem.\"}\n{\"if\": \"Patient regularly misses sessions and fails to mention reasons.\", \"then\": \"Sensitively inquire into patterns and possible underlying interpersonal issues, ensuring patient feels safe to express dissatisfaction or anger.\"}"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The high-level phases and strategies for addressing low self-esteem in CBT include: (1) assessment and cognitive formulation of low self-esteem, (2) identification of negative automatic thoughts, dysfunctional assumptions, and core beliefs, (3) introducing and collaboratively designing behavioural experiments to test predictions and challenge cognitions, (4) building self-acceptance by monitoring positive qualities and encouraging respectful self-treatment, (5) explicitly linking specific experiences to broader, underlying beliefs and assumptions, (6) using assertive techniques (e.g., assertive defence of self), (7) encouraging decentring—helping the patient view negative beliefs as opinions rather than facts, (8) preparing and supporting the patient through manageable steps, especially when longstanding self-esteem issues are present, and (9) fostering generalization of new learnings to daily life."
+    },
+    "micro_actions": {
+      "summary": "Therapist micro-interventions include: eliciting and recording specific negative thoughts and predictions; guiding detailed observation of events and their outcomes; prompting rating of expectations versus actual outcomes; rehearsing alternative responses; role-playing critical situations and assertive defence; coaching through assertive replies; offering sensitive debriefing after emotionally intense exercises; preparing and structuring behavioural experiments; monitoring mood, anxiety, and self-esteem ratings before and after experiments; helping the patient log positive data; identifying, labeling, and gently challenging cognitive biases (discounting, ‘yes, but’ responses); using patient’s own language when discussing beliefs; facilitating reflection and discussion of experiment results; and gradually extending the scope and difficulty of interventions as confidence increases."
+    },
+    "conversation_states": {
+      "summary": "Therapists should continuously track: (1) activation level and content of negative automatic thoughts, dysfunctional assumptions, and core beliefs; (2) mood and anxiety levels (state-dependent self-esteem); (3) patient’s readiness and motivation for behavioural experiments; (4) degree of cognitive bias (discounting, misinterpreting, ignoring results); (5) evidence of self-critical thinking versus self-acceptance; (6) emotional responses to experiments and new perspectives; (7) patient’s ratings of expectation versus reported experience; (8) the impact of recent or developmental environmental triggers (bullying, trauma, support, etc.); and (9) changes in ability/willingness to generalize learning beyond therapy sessions."
+    },
+    "knowledge_graph": {
+      "summary": "Therapists should maintain long-term records of: (a) patient’s developmental history relevant to self-esteem (validation, neglect, trauma, etc.); (b) evolution of core beliefs, conditional assumptions, and rules for living; (c) recurring patterns of cognitive biases; (d) history and outcomes of behavioural experiments (successful/disconfirming, unsuccessful, generalization); (e) improvements in self-acceptance and adaptive behaviours; (f) persistent critical incidents and triggers; (g) environmental factors shaping or confirming self-esteem; (h) progress in positive data logging; and (i) summary changes or stability in self-related schemas and identity."
+    },
+    "cautions": {
+      "summary": "Therapists should not: (1) push patients into overly difficult or demoralizing behavioural experiments; (2) ignore evidence of cognitive bias or discounting results; (3) skip debriefing after emotionally charged role-plays/experiments; (4) assume negative self-statements always require long-term therapy (assess for mood dependency and related presenting problem); (5) treat entrenched negative self-beliefs only with verbal/cognitive interventions—behavioural and experiential work is necessary; (6) impose therapist perspectives verbally or dismiss patient experiences; (7) neglect the importance of relating specific experiments to core beliefs/assumptions; and (8) overlook environmental/contextual factors influencing self-esteem and generalization of learning."
+    },
+    "rules": {
+      "summary": "- {\"if\": \"Patient reports negative automatic thoughts or predictions about self-worth in a specific situation\", \"then\": \"Collaboratively design a manageable behavioural experiment to test these predictions in real life or in session.\"}\n- {\"if\": \"Patient discounts positive outcomes or ignores disconfirming evidence after an experiment\", \"then\": \"Guide the patient to record predictions in detail before experiments and compare them explicitly to actual outcomes; gently highlight cognitive biases.\"}\n- {\"if\": \"Patient shows excessive anxiety or demoralization at the prospect of an experiment\", \"then\": \"Scale back the experiment to a more manageable step and provide additional support or rehearsal.\"}\n- {\"if\": \"Patient struggles to respond assertively during role-play\", \"then\": \"Coach the patient with example assertive responses and repeat the exercise, providing sensitive encouragement and debriefing.\"}\n- {\"if\": \"Experiments or interventions evoke strong self-critical or emotionally painful reactions\", \"then\": \"Provide repeated reassurance that therapist's critical voice is an act; debrief sensitively and validate patient experience.\"}\n- {\"if\": \"Patient expresses belief that negative thoughts about the self are objective facts\", \"then\": \"Introduce the concept of decentring and reframe beliefs as opinions or hypotheses; encourage exploration of alternative perspectives.\"}\n- {\"if\": \"Patient shows progress in changing moment-to-moment thoughts, feelings, or behaviour\", \"then\": \"Explicitly link these changes to underlying assumptions and beliefs about the self, others, and the world.\"}\n- {\"if\": \"Presenting self-esteem issues appear mood-dependent or situational\", \"then\": \"Consider prioritizing treatment of related presenting problems before addressing self-esteem directly.\"}\n- {\"if\": \"Patient generally downgrades or ignores personal achievements\", \"then\": \"Introduce and maintain a positive data log to encourage attention to successes and feedback.\"}"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": [
+        "The therapist designs and facilitates behavioural experiments to test and modify pivotal beliefs, behaviours, and emotional responses.",
+        "Uses guided discovery to help patients balance analytical (head) and experiential (heart) knowledge, extracting learning from both rational and emotional perspectives.",
+        "Engages in collaborative partnership with the patient, occasionally crossing from therapy office to real-world settings for experiment implementation and observation.",
+        "Facilitates debriefing post-experiment to analyze observations and learning.",
+        "Coaches and encourages patients to conduct behavioural experiments between sessions and in real life.",
+        "Selects experiments that target central and relevant beliefs or behaviours, especially for personality disorders.",
+        "Models empirical curiosity and compassionate exploration throughout the process."
+      ]
+    },
+    "micro_actions": {
+      "summary": [
+        "Elicit patient beliefs and identify pivotal cognitions related to the presenting problem.",
+        "Ask targeted questions to distinguish between rational (head) and experiential (heart) responses.",
+        "Design concrete behavioural experiment tasks collaboratively, aligned with central beliefs or behaviours.",
+        "Provide clear instructions and support for experiment execution.",
+        "Focus patient attention during debriefing on specific observations and emotional reactions generated by the experiment.",
+        "Use guided discovery techniques to explore patient reservations, preconceptions, and learning outcomes step by step.",
+        "Record, share, and discuss normative or observational data gathered externally (e.g., therapist-conducted surveys).",
+        "Encourage ongoing patient reflection and curiosity throughout experiment cycles."
+      ]
+    },
+    "conversation_states": {
+      "summary": [
+        "Patient's current belief strength and conviction (both rational and experiential).",
+        "Emotional responses to events and experiments.",
+        "Degree of consensus or conflict between analytical (head) and experiential (heart) perspectives.",
+        "Quality and relevance of designed experiments to the patient's problems.",
+        "Observations and learning gained from each experiment.",
+        "Patient's willingness, engagement, and risk tolerance for experiments.",
+        "Therapist-patient collaborative alliance status.",
+        "Presence of viable alternative beliefs to challenge dysfunctional ones."
+      ]
+    },
+    "knowledge_graph": {
+      "summary": [
+        "History of pivotal beliefs and their evolution across sessions.",
+        "Records of completed behavioural experiments (design, context, outcome, learning).",
+        "Patient's ongoing emotional and behavioural responses to relevant situations.",
+        "Degree of belief change, consensus between 'head' and 'heart', and reservations addressed.",
+        "Patient's unique cognitive themes or maintaining factors tied to their presenting problems (especially for personality disorders).",
+        "Therapist-patient boundary management and collaborative actions taken outside the office.",
+        "Normative data and observations relevant to patient's social context."
+      ]
+    },
+    "cautions": {
+      "summary": [
+        "Do not design experiments that test tangential or irrelevant beliefs/behaviours—focus on central, impactful issues.",
+        "Avoid giving excessive weight to rational arguments at the expense of the patient's emotional/experiential learning.",
+        "Do not inadequately analyze or debrief experiments; superficial analysis undermines learning.",
+        "Beware of crossing professional boundaries without justification, risking negative impacts on the therapeutic alliance.",
+        "Do not question beliefs in a way that feels invalidating or uncaring, especially with personality disorders.",
+        "Avoid underestimating the perceived risk and emotional impact of experiments on patients."
+      ]
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "Patient expresses strong conviction in a dysfunctional belief",
+          "then": "Collaboratively design a behavioural experiment to empirically test the belief."
+        },
+        {
+          "if": "Patient shows conflict between rational ('head') and emotional ('heart') beliefs",
+          "then": "Facilitate consensus using guided discovery and balanced focus on both perspectives during the experiment design and debriefing."
+        },
+        {
+          "if": "Therapist and patient identify a belief central to the maintenance of the problem",
+          "then": "Prioritize designing behavioural experiments targeting this pivotal belief."
+        },
+        {
+          "if": "Therapist observes patient reluctance or anxiety about experimenting",
+          "then": "Explore patient reservations, provide support, and adjust experiment risk/relevance accordingly."
+        },
+        {
+          "if": "Debriefing following an experiment is superficial or unfocused",
+          "then": "Refocus patient attention on the specific observations and emotionally salient outcomes to enhance experiential learning."
+        },
+        {
+          "if": "Patient is diagnosed with a personality disorder",
+          "then": "Help the patient identify viable alternative beliefs before engaging in behavioural experiments."
+        },
+        {
+          "if": "Therapist considers undertaking actions outside standard office boundaries",
+          "then": "Evaluate appropriateness given professional, ethical, and patient-specific factors, ensuring actions support learning and alliance."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "None"
+    },
+    "micro_actions": {
+      "summary": "None"
+    },
+    "conversation_states": {
+      "summary": "None"
+    },
+    "knowledge_graph": {
+      "summary": "None"
+    },
+    "cautions": {
+      "summary": "None"
+    },
+    "rules": {
+      "summary": "None"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter covers a diverse range of CBT interventions, most notably the implementation of behavioural experiments, cognitive restructuring, exploration and modification of key cognitions, beliefs, and assumptions, planning and conducting sessions targeting specific disorders (e.g., depression, anxiety, eating disorders, psychosis, OCD, low self-esteem), and ongoing monitoring and reflection on therapeutic progress. Therapists apply specific strategies to address avoidance of affect, interpersonal difficulties, safety behaviours, self-injurious behaviours, and maladaptive beliefs through phases such as engagement, information gathering, experiment planning, execution, feedback/reflection, and relapse prevention."
+    },
+    "micro_actions": {
+      "summary": "Therapist actions include eliciting automatic thoughts and assumptions, challenging distorted beliefs through Socratic questioning, designing tailored behavioural experiments, monitoring patient symptoms/behaviours, recording and reviewing experiment outcomes, providing active listening, giving feedback, and facilitating reflective discussion on session experiences. Micro-actions also entail evaluating the helpfulness of safety behaviours, encouraging patient participation in activities, tracking reactions, prompting alternative explanations for symptoms, and supporting the expression/change of feelings or coping responses."
+    },
+    "conversation_states": {
+      "summary": "Therapists must track the patient’s current mood, levels of anxiety/distress, intensity of emotions, automatic thoughts, core beliefs, assumptions, symptom frequency/severity, functional abilities, safety behaviours, avoidance patterns, engagement, interpersonal dynamics, sense of identity/self-worth, behaviour changes, motivation, and progression through behavioural experiments. Additional states include appraisal of self/world, satisfaction with experiment outcomes, and degree of uncertainty or intolerance to uncertainty."
+    },
+    "knowledge_graph": {
+      "summary": "Long-term dimensions to track include the patient’s history of psychological and medical disorders, patterns of dysfunctional beliefs/assumptions across contexts, history of safety behaviours and avoidance, resilience/vulnerability factors, interpersonal relationship issues and coping style, trauma history/appraisals, self-injurious behaviour history, beliefs about illness, medication, and prognosis, core identity/self-esteem trajectories, changes in social, emotional, and behavioural functioning, and relapse/recurrence markers."
+    },
+    "cautions": {
+      "summary": "Therapists should avoid imposing their own beliefs, pushing for rapid change without patient engagement, reinforcing unhelpful behaviours or beliefs, ignoring cultural and individual differences, disclosing personal information inappropriately, over-informing or overwhelming the patient, neglecting therapeutic alliance, and failing to monitor for high-risk behaviours (e.g., self-injury, suicidal ideation). Overgeneralization, minimization of patient difficulties, and lack of preparation or planning may undermine interventions."
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "Patient expresses a distorted or negative automatic thought or assumption",
+          "then": "Use Socratic questioning and encourage behavioural experiments to test/challenge the belief"
+        },
+        {
+          "if": "Safety behaviours are detected during session",
+          "then": "Assess their helpfulness and support gradual reduction or modification of those behaviours through tailored experiments"
+        },
+        {
+          "if": "Patient shows signs of low engagement or reservation",
+          "then": "Actively facilitate engagement through morale-building, clarification of goals, and encouraging reflection"
+        },
+        {
+          "if": "Significant distress or strong emotions are present",
+          "then": "Prioritize monitoring mood, validate feelings, and explore emotional expression and regulation strategies"
+        },
+        {
+          "if": "Patient is at risk for self-injurious behaviour or reports suicidal ideation",
+          "then": "Conduct thorough risk assessment and ensure appropriate safety planning and support mechanisms"
+        },
+        {
+          "if": "Relapse indicators or recurring issues emerge",
+          "then": "Implement relapse prevention planning and revisit previously successful coping strategies"
+        },
+        {
+          "if": "Patient demonstrates avoidance of affect or subtle avoidance patterns",
+          "then": "Introduce interventions targeting emotional processing and affect tolerance, including relevant behavioural experiments"
+        }
+      ]
+    }
+  }
+]

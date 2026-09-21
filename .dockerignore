@@ -1,0 +1,13 @@
+.git
+.github
+.wrangler
+backend/.env
+backend/.pytest_cache
+data
+frontend/node_modules
+frontend/dist
+screenshots
+screenshots-therapy-agent
+**/__pycache__
+*.pyc
+*.log

@@ -1,0 +1,262 @@
+{
+  "macro_actions": [
+    {
+      "name": "Establishing Collaborative Therapeutic Relationship",
+      "description": "Initiate and maintain a collaborative, supportive alliance characterized by empathy, warmth, and shared goal-setting.",
+      "goal": {
+        "objective": "Form a strong, trusting partnership between therapist and patient to enable engagement in CBT work.",
+        "success_levels": {
+          "ideal": "Patient feels understood, safe, motivated, and actively participates in setting therapy goals.",
+          "acceptable": "Patient is generally willing to engage, expresses some trust, and participates with occasional reservations.",
+          "unsuccessful": "Patient remains distant, disengaged, mistrustful, or resistant to therapy involvement."
+        },
+        "reward_hint": "Observable patient engagement, disclosure, and willingness to collaborate on goals."
+      },
+      "states": [
+        "Intake phase of therapy",
+        "Patient is hesitant, anxious, or ambivalent about treatment",
+        "Therapeutic alliance requires strengthening",
+        "Beginning work with new patients or after ruptures in alliance"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "name": "Assessment and Case Formulation",
+      "description": "Comprehensively assess presenting problems, symptoms, history, and use CBT concepts to develop a shared understanding and treatment plan.",
+      "goal": {
+        "objective": "Construct an individualized CBT case conceptualization to guide targeted interventions.",
+        "success_levels": {
+          "ideal": "Thorough, collaboratively developed case formulation guides precise and personalized treatment planning.",
+          "acceptable": "A basic formulation is created and referenced, though details may be lacking or incomplete.",
+          "unsuccessful": "No clear formulation, or one that is inaccurate, missing, or ignored in treatment."
+        },
+        "reward_hint": "Patient and therapist reference conceptualization, plan interventions, and update hypotheses as needed."
+      },
+      "states": [
+        "Initial sessions after intake",
+        "Complex or unclear diagnostic presentation",
+        "When modifying treatment plan due to new information",
+        "Patient progress stalls or unexpected difficulties arise"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "name": "Session Structuring and Agenda Setting",
+      "description": "Actively structure CBT sessions by jointly setting an agenda to organize time around specific goals and actions.",
+      "goal": {
+        "objective": "Maximize session productivity, focus, and relevance through shared session organization.",
+        "success_levels": {
+          "ideal": "Agenda is collaboratively set, followed, and reviewed, with main priorities addressed and patient actively involved.",
+          "acceptable": "Agenda is loosely set and mostly followed, with some drift or unaddressed priorities.",
+          "unsuccessful": "Session is unfocused, agenda is absent or ignored, patient feels lost or dissatisfied."
+        },
+        "reward_hint": "Session structure maps onto the patient's treatment goals and both parties refer to the agenda."
+      },
+      "states": [
+        "Start of every session",
+        "Patient appears scattered, overwhelmed, or unfocused",
+        "Therapy progress is drifting or patient feels dissatisfied",
+        "Complex session topics require organization"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "name": "Psychoeducation",
+      "description": "Teach CBT theory, techniques, and self-help strategies to empower and motivate the patient.",
+      "goal": {
+        "objective": "Increase patient's understanding of CBT and its relevance to their problems, enhancing engagement and efficacy.",
+        "success_levels": {
+          "ideal": "Patient demonstrates accurate understanding of CBT concepts and applies them effectively.",
+          "acceptable": "Patient shows partial understanding and applies concepts inconsistently.",
+          "unsuccessful": "Patient remains confused or rejects CBT concepts and interventions."
+        },
+        "reward_hint": "Patient restates and uses CBT concepts in session and homework."
+      },
+      "states": [
+        "Early phase of therapy",
+        "Patient expresses confusion, uncertainty, or skepticism toward CBT",
+        "Introducing new skills or concepts",
+        "When troubleshooting skill non-use or misapplication"
+      ],
+      "confidence_score": 0.98
+    },
+    {
+      "name": "Identification and Modification of Automatic Thoughts",
+      "description": "Help patient uncover automatic thoughts influencing emotions and behavior, then employ cognitive strategies to challenge or restructure them.",
+      "goal": {
+        "objective": "Reduce negative affect and maladaptive behavior by reshaping dysfunctional thought patterns.",
+        "success_levels": {
+          "ideal": "Patient reliably identifies and modifies automatic thoughts, reporting symptom relief and functional improvement.",
+          "acceptable": "Patient sometimes identifies/modifies thoughts, with moderate improvements in mood or behavior.",
+          "unsuccessful": "Patient cannot identify or modify automatic thoughts; symptoms persist."
+        },
+        "reward_hint": "Patient demonstrates ability to record, question, and reframe thoughts both in session and homework."
+      },
+      "states": [
+        "Patient reports distressing emotions or unhelpful behaviors",
+        "Difficulty understanding causes of current problems",
+        "When introducing cognitive interventions",
+        "During cognitive restructuring practice"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "name": "Behavioral Activation and Activity Scheduling",
+      "description": "Encourage graded increases in pleasurable and mastery-oriented activities to improve mood and engagement.",
+      "goal": {
+        "objective": "Facilitate behavioral change that counters avoidance, improves mood, and increases motivation.",
+        "success_levels": {
+          "ideal": "Patient consistently engages in scheduled activities, reporting increased pleasure and accomplishment.",
+          "acceptable": "Patient participates in some activities with intermittent progress and partial symptom relief.",
+          "unsuccessful": "Patient avoids activities; mood and activity levels remain low or worsen."
+        },
+        "reward_hint": "Patient completes and reflects on activity logs; reports increased well-being."
+      },
+      "states": [
+        "Patient presents with low energy, decreased pleasure, avoidance or withdrawal",
+        "Depressive symptoms are prominent",
+        "Therapy requires behavioral focus",
+        "Patient struggles with inactivity or lack of motivation"
+      ],
+      "confidence_score": 0.98
+    },
+    {
+      "name": "Skills Training and Coping Skills Acquisition",
+      "description": "Teach, coach, and rehearse skills including relaxation, problem-solving, emotion regulation, and coping strategies.",
+      "goal": {
+        "objective": "Enhance patient's repertoire of adaptive coping and emotional regulation techniques.",
+        "success_levels": {
+          "ideal": "Patient masters skills, applying them independently with sustained benefits.",
+          "acceptable": "Patient learns and occasionally applies some skills, with limited gain.",
+          "unsuccessful": "Patient does not use taught skills, remaining dysregulated and unable to cope."
+        },
+        "reward_hint": "Patient demonstrates skills fluency in session and in real-life situations."
+      },
+      "states": [
+        "Patient displays poor coping, problematic emotional responses, or skill deficits",
+        "New technique needs to be introduced or reinforced",
+        "Patient asks for concrete tools or strategies"
+      ],
+      "confidence_score": 0.96
+    },
+    {
+      "name": "Systematic Exposure and Response Prevention",
+      "description": "Gradually expose patient to feared or avoided stimuli and prevent safety behaviors or rituals to reduce anxiety and avoidance.",
+      "goal": {
+        "objective": "Decrease anxiety and avoidance through habituation, extinction, and behavioral learning.",
+        "success_levels": {
+          "ideal": "Patient faces feared situations, eliminates avoidance, and reports significant anxiety reduction.",
+          "acceptable": "Patient partially completes exposures, with some decrease in distress.",
+          "unsuccessful": "Patient resists exposure, maintains avoidance, anxiety remains high."
+        },
+        "reward_hint": "Patient completes assigned exposures and can report decreased distress over time."
+      },
+      "states": [
+        "Patient presents with anxiety, phobia, or OCD symptoms",
+        "High avoidance or ritualistic safety behaviors",
+        "Patient agrees to exposure-based interventions"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "name": "Schema Identification and Modification",
+      "description": "Identify, educate about, and collaboratively rework maladaptive core schemas using cognitive and behavioral strategies.",
+      "goal": {
+        "objective": "Restructure underlying maladaptive schemas to promote lasting change in self-concept and interpersonal functioning.",
+        "success_levels": {
+          "ideal": "Patient identifies and modifies core schemas, demonstrating healthier beliefs and behavior patterns.",
+          "acceptable": "Patient identifies some schemas with partial modification or inconsistent application.",
+          "unsuccessful": "Patient unable or unwilling to explore schemas; dysfunctional patterns persist."
+        },
+        "reward_hint": "Patient can describe schemas, actively works to modify them, and reports life changes."
+      },
+      "states": [
+        "Long-standing dysfunctional patterns identified",
+        "Personality or chronic disorders present",
+        "Automatic thoughts are rooted in core schema issues",
+        "Patient open to deeper cognitive work"
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Suicide Risk Assessment and Safety Planning",
+      "description": "Assess suicide risk, foster hope and commitment to treatment, develop and review a structured safety plan to manage risk.",
+      "goal": {
+        "objective": "Reduce immediate risk of self-harm by increasing crisis safety, hope, and actionable coping plans.",
+        "success_levels": {
+          "ideal": "Patient fully engages with safety plan, demonstrates increased hope and reduced risk.",
+          "acceptable": "Patient participates in risk assessment and safety planning with guarded cooperation.",
+          "unsuccessful": "Patient refuses safety protocols; risk remains unmitigated."
+        },
+        "reward_hint": "Patient commits to safety plan, identifies reasons for living, and implements crisis resources."
+      },
+      "states": [
+        "Patient expresses suicidal ideation, hopelessness, or past attempts",
+        "Every session with high-risk patient",
+        "Major life crisis or elevated distress",
+        "Post-acute crisis or planning for discharge"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "name": "Homework Assignment and Review",
+      "description": "Assign, monitor, and troubleshoot between-session tasks to generalize skills and promote independent practice.",
+      "goal": {
+        "objective": "Increase skill uptake and real-world behavioral change through active practice and self-monitoring.",
+        "success_levels": {
+          "ideal": "Patient completes and reviews homework consistently, demonstrating transfer of skills to daily life.",
+          "acceptable": "Patient attempts homework with partial completion or engagement.",
+          "unsuccessful": "Patient avoids homework, shows minimal skill generalization."
+        },
+        "reward_hint": "Patient brings in homework, discusses insights, shows progress outside sessions."
+      },
+      "states": [
+        "Skills need practice or generalization",
+        "Session ends and new targets set",
+        "Patient displays difficulty applying skills between sessions",
+        "Troubleshooting lack of progress"
+      ],
+      "confidence_score": 0.97
+    },
+    {
+      "name": "Relapse Prevention Planning",
+      "description": "Consolidate gains, anticipate relapse risks, teach maintenance and recovery strategies, and plan for post-treatment follow-up.",
+      "goal": {
+        "objective": "Prepare patient to sustain progress and cope with setbacks independently post-therapy.",
+        "success_levels": {
+          "ideal": "Patient is proactive about relapse prevention, uses maintenance strategies, and recovers from setbacks autonomously.",
+          "acceptable": "Patient understands relapse risks and uses some coping strategies though needs reminders.",
+          "unsuccessful": "Patient is unprepared for relapse; regression occurs with no recovery plan."
+        },
+        "reward_hint": "Patient articulates, practices, and implements relapse prevention strategies."
+      },
+      "states": [
+        "Later stages of treatment approaching termination",
+        "Past history of relapse",
+        "Maintenance phase following symptom improvement",
+        "Discharge or transition planning"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "name": "Therapist Competence Monitoring and Supervision Engagement",
+      "description": "Therapist actively monitors own CBT competence, seeks supervision and feedback, pursues professional learning, and self-care practices.",
+      "goal": {
+        "objective": "Ensure therapist maintains high skill level, ethical standards, and wellness for effective CBT delivery.",
+        "success_levels": {
+          "ideal": "Therapist regularly engages in self-reflection, supervision, and education, preventing burnout and maintaining competence.",
+          "acceptable": "Therapist intermittently reviews skills and seeks feedback, skills may stagnate.",
+          "unsuccessful": "Therapist neglects competence monitoring, leading to suboptimal care or burnout."
+        },
+        "reward_hint": "Therapist documents supervision, self-assessment, and continuing learning activities."
+      },
+      "states": [
+        "Therapist is new, encounters complex/novel cases",
+        "Skill gaps or burnout are suspected",
+        "Preparation for advanced certification",
+        "Periodic review of practice per guidelines"
+      ],
+      "confidence_score": 0.95
+    }
+  ]
+}

@@ -1,0 +1,946 @@
+[
+  {
+    "macro_actions": {
+      "summary": "Chapter 1 introduces the foundational phases and strategies of CBT as follows: \n- Psychoeducation regarding the principles of CBT (“You feel the way you think”).\n- Teaching patients to identify and differentiate between events (A), beliefs (B), and consequences (C) using the ABC model.\n- Guiding patients to analyze the meanings they assign to events and how these affect their emotions and behaviors.\n- Encouraging movement from problem identification toward goal-setting and self-help.\n- Normalizing emotional responses and shifting focus from root causes to maintenance mechanisms.\n- Promoting active experimentation with new thoughts, behaviors, and strategies."
+    },
+    "micro_actions": {
+      "summary": "- Asking targeted questions to elicit the patient’s thoughts, beliefs, and meanings attached to events (“Is the meaning I’m giving to this event unduly extreme?”).\n- Encouraging the patient to break down specific emotional episodes using the ABC format.\n- Prompting the patient to write down actual events, their associated thoughts/beliefs, and emotional/behavioral consequences.\n- Challenging global, extreme, or self-defeating interpretations.\n- Supporting the patient in generating alternative, more accurate or helpful meanings for events.\n- Reinforcing differentiation between facts (events) and interpretations (beliefs).\n- Offering normalization statements regarding emotional reactions and self-help."
+    },
+    "conversation_states": {
+      "summary": "- Content and extremity of patient’s beliefs and meanings assigned to events.\n- Patient’s emotional states and behavioral responses (“disturbed” vs. “distress”).\n- Frequency and persistence of avoidance or self-defeating behaviors.\n- Ability to accurately distinguish between events, beliefs, and consequences.\n- Patient’s progress from problem focus to goal orientation.\n- Openness to psychoeducational information and readiness to try self-help strategies."
+    },
+    "knowledge_graph": {
+      "summary": "- Patient’s typical thinking patterns, belief tendencies, meanings assigned to common events.\n- Catalog of recurring activating events (A), specific beliefs/meanings (B), and behavioral/emotional consequences (C) over time.\n- Known self-defeating or maintaining strategies used by the patient.\n- Progress in normalizing emotional responses and adopting self-help.\n- History of how emotions, cognitions, and behaviors interact (vicious cycles).\n- Individual goals for emotional and behavioral outcomes."
+    },
+    "cautions": {
+      "summary": "- Do not minimize or invalidate the reality of the patient’s feelings by attributing everything solely to thinking.\n- Do not reinforce extreme, global, or self-defeating meanings without challenging or prompting alternatives.\n- Avoid focusing exclusively on uncovering root causes at the expense of addressing maintenance factors and current coping strategies.\n- Do not encourage avoidance or withdrawal behaviors.\n- Avoid assigning blame or creating shame for normal emotional reactions."
+    },
+    "rules": {
+      "summary": "[\n  {\"if\": \"Patient describes a negative emotional response to an event\", \"then\": \"Prompt the patient to clarify the activating event (A), beliefs/meanings (B), and emotional/behavioral consequences (C) using the ABC model.\"},\n  {\"if\": \"Patient assigns extreme or global negative meaning to an event\", \"then\": \"Challenge the belief with targeted questions to help the patient re-evaluate for accuracy and helpfulness.\"},\n  {\"if\": \"Patient exhibits avoidance or self-defeating behaviors\", \"then\": \"Encourage identification of the thoughts/beliefs underlying those behaviors and discuss alternative behavioral responses.\"},\n  {\"if\": \"Patient is focused solely on root causes of problems\", \"then\": \"Redirect focus to how current thoughts and behaviors maintain problem states.\"},\n  {\"if\": \"Patient expresses difficulty differentiating thoughts, feelings, and events\", \"then\": \"Use psychoeducational techniques to clarify the distinctions and encourage practice with the ABC format.\"}\n]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter describes the high-level CBT intervention phases for addressing errors in thinking patterns. These include (1) educating the patient about common cognitive distortions (e.g., catastrophizing, all-or-nothing thinking, fortune-telling, mind-reading, emotional reasoning, overgeneralizing, labeling, making demands, mental filtering, disqualifying the positive, low frustration tolerance, personalizing), (2) training patients to identify these errors in their own thoughts, (3) guiding the patient to challenge and reframe distorted thoughts through alternative explanations and evidence gathering, and (4) encouraging ongoing self-monitoring and reflection to reinforce adaptive thinking."
+    },
+    "micro_actions": {
+      "summary": "The therapist is advised to operationalize interventions by: prompting the patient to describe recent emotionally charged situations and their automatic thoughts; helping the patient specify which thinking error(s) are present in their thoughts; encouraging alternative perspectives and interpretations for each cognitive distortion (\"What else could explain this?\", \"Is there evidence that contradicts your conclusion?\"); guiding the patient to search for evidence (supporting and contradicting their negative assumption); promoting realistic and flexible language use (replacing \"must/should\" with \"prefer/wish/want\"); encouraging self-compassion and forgiveness for mistakes; prompting acceptance of compliments and positive experiences, and challenging negative filtering and personalization; encouraging the patient to record and track thoughts and identify recurring patterns of errors."
+    },
+    "conversation_states": {
+      "summary": "Therapists should track: the presence and type of cognitive distortions in the patient's statements and thought content; emotional states (e.g., anxiety, guilt, anger, sadness) and their correlation to cognitive errors; patient’s tendency to use global/extreme/unrealistic language; degree of insight and ability to identify and label their own cognitive errors; patterns or triggers associated with negative thinking; frequency and intensity of self-critical or labeling statements; openness/resistance to alternative explanations; degree of mental filtering or disqualifying positive information; level of frustration tolerance; personalizing tendencies; flexibility vs rigidity in beliefs and demands."
+    },
+    "knowledge_graph": {
+      "summary": "Therapists should maintain long-term tracking of: individual patterns of cognitive distortions most frequently exhibited by the patient; recurring situational triggers and emotional responses; progress in recognizing and challenging thinking errors; preferred alternative thinking strategies; history of adaptive vs maladaptive responses to similar situations; informational records of the patient’s beliefs, attitudes, and themes in their negative cognitions."
+    },
+    "cautions": {
+      "summary": "Therapists should avoid: endorsing or reinforcing the patient’s cognitive distortions as accurate; ignoring alternative explanations when patients present negative assumptions; failing to challenge all-or-nothing language or extreme negative labeling; dismissing or minimizing the patient’s experience without exploration; assuming feelings represent facts; accepting mental filtering without evidence gathering; guaranteeing a rigid or demand-based worldview; directing blame or personalization towards the patient without considering external factors; ignoring positive feedback or progress; rushing through identification or correction of thought errors without patient understanding."
+    },
+    "rules": {
+      "summary": "- {\"if\": \"patient expresses an automatic negative thought with an identified cognitive error\", \"then\": \"prompt the patient to label the distortion and consider alternative perspectives or evidence\"}\n- {\"if\": \"patient uses extreme language such as 'always', 'never', 'must', 'should', or global negative labels\", \"then\": \"encourage more flexible, specific, and realistic language\"}\n- {\"if\": \"patient disqualifies or minimizes positive events or feedback\", \"then\": \"invite the patient to acknowledge and accept positive experiences or compliments\"}\n- {\"if\": \"patient displays mental filtering or ignores evidence contrary to their negative belief\", \"then\": \"ask the patient to collect evidence for and against their thought\"}\n- {\"if\": \"patient personalizes events or assumes excessive personal responsibility\", \"then\": \"guide the patient to consider alternative explanations not centered on themselves\"}\n- {\"if\": \"patient demonstrates low frustration tolerance\", \"then\": \"support the patient to recognize their capacity to endure discomfort and explore adaptive coping\"}\n- {\"if\": \"patient reports an emotional state as evidence for a negative belief ('I feel, therefore it is')\", \"then\": \"encourage skepticism and search for factual evidence to support or refute the belief\"}\n- {\"if\": \"patient struggles to identify thinking errors in their own cognitions\", \"then\": \"model the identification process and teach them a systematic approach\"}"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter describes the high-level CBT intervention phases of thought monitoring, identifying triggers and consequences, recognizing cognitive distortions, disputing negative thoughts, generating constructive alternatives, evaluating emotional impact, and planning behavioral change. Therapists guide patients through structured tools (ABC forms) to systematically move from identifying problematic thoughts to generating more helpful cognition and planning change."
+    },
+    "micro_actions": {
+      "summary": "Therapists prompt patients to: \n- Record specific emotions and behaviors following an upsetting event.\n- Write down triggering events and closely describe what happened.\n- Capture automatic thoughts, including those expressed in images.\n- Identify and name the specific cognitive distortions present using targeted questions (e.g., \"Am I catastrophizing?\").\n- Challenge negative thoughts by asking probing questions about their validity, evidence, and logic.\n- Help generate and record flexible, realistic alternative thoughts to replace toxic ones.\n- Rate the resulting change in emotional intensity after evaluating alternatives.\n- Design an actionable next step or behavioral experiment as a plan to move forward.\n- Assign regular homework using ABC forms for continued practice and skill development."
+    },
+    "conversation_states": {
+      "summary": "Therapists should continuously track:\n- Patient’s current emotional state and intensity (e.g., anger, anxiety, sadness, rated 0–100%).\n- Behavioral responses and urges tied to emotions.\n- Content and themes of automatic thoughts, including perceived images.\n- Identity and frequency of cognitive distortions (\"thinking errors\").\n- Patient’s engagement and ability to challenge or shift negative thoughts.\n- Emergence of alternative, constructive cognitions and related emotional shifts.\n- Recurring patterns in thoughts, triggers, and behavioral reactions across forms.\n- Readiness and willingness to develop and enact behavioral change plans."
+    },
+    "knowledge_graph": {
+      "summary": "Therapists should maintain long-term records of:\n- Previously completed ABC forms and their content (triggers, thoughts, emotions, behaviors).\n- History and evolution of core beliefs, attitudes, and cognitive distortions.\n- Patterns of emotional and behavioral responses over time.\n- Effectiveness of disputed thoughts and alternative cognitions for emotional change.\n- The patient’s progress in disputing NATs and adopting healthier responses.\n- Types and results of behavioral experiments and homework assignments.\n- Recurring themes that indicate underlying issues requiring further interventions."
+    },
+    "cautions": {
+      "summary": "Therapists are cautioned:\n- Not to encourage excessive challenging of intrusive/catastrophic thoughts in cases of OCD, health anxiety, body dysmorphic disorder, or chronic worry, as this may reinforce the pattern. In such cases, the focus should shift to tolerating doubt and allowing these thoughts to pass.\n- Not to rush or offer superficial challenges; patients should be encouraged to take time and avoid “glib” answers to self-challenge questions.\n- Not to treat negative automatic thoughts as absolute facts, but rather as hypotheses to be examined.\n- Not to overlook opportunities to practice skill-building via regular ABC form completion.\n- Not to focus only on the event without attending to emotions and cognition."
+    },
+    "rules": {
+      "summary": "[\n  {\"if\": \"Patient presents with a recent upsetting emotion or unwanted behavior\", \"then\": \"Initiate an ABC form and prompt recording of emotion, behavior, activating event, and automatic thoughts.\"},\n  {\"if\": \"Automatic thoughts or images are described\", \"then\": \"Help patient identify cognitive distortions using targeted questions.\"},\n  {\"if\": \"Patient identifies cognitive distortions\", \"then\": \"Prompt them to challenge the distortions through questioning and evidence review.\"},\n  {\"if\": \"Alternative, realistic thoughts are generated\", \"then\": \"Guide patient to rate emotional changes and note new healthier emotions.\"},\n  {\"if\": \"Patient struggles with intrusive, catastrophic thoughts linked to OCD, health anxiety, BDD, or chronic worry\", \"then\": \"Advise against disputing and instead encourage tolerating doubt and allowing thoughts to pass.\"},\n  {\"if\": \"Completion of several ABC forms reveals recurring themes\", \"then\": \"Consider introducing additional CBT techniques, such as facing fears or behavioral experiments.\"},\n  {\"if\": \"Patient progresses through ABC forms and feels more able to challenge thoughts\", \"then\": \"Assign regular homework for continued practice and skill retention.\"}\n]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "- The therapist guides the patient through the process of designing and conducting behavioural experiments to test the validity of beliefs, predictions, and assumptions. \n- The therapist encourages collaborative scientific inquiry (\"being scientific together\") to gather evidence in real life instead of relying solely on discussion.\n- The therapist helps the patient generate alternative theories or competing explanations for their problems and facilitates real-life testing of these ideas.\n- The therapist introduces various experiment types (action-based, surveys, observations) and works with the patient to interpret outcomes, consolidate learning, and plan next steps.\n- Record-keeping and using results to drive further interventions are emphasized."
+    },
+    "micro_actions": {
+      "summary": "- Therapist prompts the patient to clearly describe the problem in their own words, noting specific safety behaviours and the negative impacts.\n- Therapist instructs the patient to formulate explicit predictions about outcomes, including rating the conviction level (% belief in the prediction).\n- Therapist assists the patient in planning and executing a behavioural experiment, including specifying when, where, and how it will be done, and what evidence will indicate result success/failure.\n- Therapist guides the patient to systematically examine experiment results and re-rate conviction in the original prediction, noting learning points.\n- Therapist helps develop, document, and compare competing theories; encourages evidence gathering for each.\n- Therapist proposes survey designs for gathering data from others about experiences or behaviours relevant to the patient’s beliefs.\n- Therapist guides the patient to make structured observations of others as evidence about social or behavioural predictions.\n- Therapist reviews record sheets and facilitates planning further experiments or changes in activities based on outcomes.\n- Therapist identifies and challenges subtle safety behaviours that may contaminate experimentation results."
+    },
+    "conversation_states": {
+      "summary": "- Prediction conviction/belief strength (percentage ratings before and after experiments)\n- Evidence for or against original and competing beliefs/theories\n- Presence and type of safety behaviours used during experiments\n- Patient’s mood and enjoyment levels during activities (especially relevant for depression)\n- Obstacles or barriers encountered in planning or execution of experiments\n- Degree of bias or cognitive error in interpreting results (e.g., discounting positives, mind-reading)\n- Willingness or hesitance to experiment or approach new strategies\n- Specific learning and reflections post-experiment (what was learned, plans for consolidation)"
+    },
+    "knowledge_graph": {
+      "summary": "- Patient’s ongoing list of tested beliefs, predictions, and their conviction levels across sessions\n- Results (data, observations) from past and ongoing behavioural experiments\n- Record of alternative theories considered and their support status\n- History of safety behaviours and responses to attempts at reducing them\n- Log of experiment types attempted (action, survey, observation, etc.), outcomes, and follow-up actions planned\n- Identified cognitive biases/errors in processing results and efforts to address them\n- Dominant obstacles that block behaviour change, as identified through experiment attempts"
+    },
+    "cautions": {
+      "summary": "- Do not allow experiments to be contaminated by the use of subtle safety behaviours, as this undermines the validity of learning.\n- Therapist should avoid biasing patient interpretation of results (e.g., letting cognitive distortions affect assessment).\n- Avoid devising experiments that are too overwhelming or not challenging/meaningful enough.\n- Do not proceed with poorly planned, vague experiments (e.g., \"just to see what happens\"), as these risk generating unhelpful or ambiguous evidence.\n- Do not ignore consolidation and follow-up after experiments; results should drive further planning and intervention.\n- Do not assume negative predictions are always disproved—the value lies in authentic testing and learning from outcomes, whether positive or negative."
+    },
+    "rules": {
+      "summary": "- {\"if\": \"Patient presents a strongly held belief or prediction about reality/in themselves/others\", \"then\": \"Guide patient to formulate the belief as a testable prediction and rate their conviction.\"}\n- {\"if\": \"Patient is ready to challenge their belief\", \"then\": \"Collaboratively design a behavioural experiment that can test the prediction in a real-world or survey/observation context.\"}\n- {\"if\": \"Patient describes multiple possible explanations for a problem\", \"then\": \"Help them structure competing theories and plan evidence-gathering to compare them.\"}\n- {\"if\": \"Patient is planning or conducting an experiment\", \"then\": \"Ensure explicit documentation of the plan, predicted outcomes, and what counts as evidence of success/failure.\"}\n- {\"if\": \"Patient uses subtle safety behaviours during an experiment\", \"then\": \"Identify and discourage their use to maintain experiment validity.\"}\n- {\"if\": \"Patient completes an experiment\", \"then\": \"Review the outcome together, re-rate conviction in the original belief, draw out learning, and discuss consolidation or next steps.\"}\n- {\"if\": \"Patient expresses difficulty interpreting ambiguous results\", \"then\": \"Check for cognitive biases/errors in analysis and encourage a balanced consideration of evidence.\"}\n- {\"if\": \"Experiments generate clear evidence counter to patient’s negative prediction\", \"then\": \"Support the patient in updating beliefs and planning behaviour changes based on new learning.\"}"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": [
+        "Therapist educates the patient about attention focus as a dimension of psychological wellbeing, shifting from changing thought content to retraining awareness.",
+        "Therapist introduces and guides the patient through 'task concentration' training and 'mindfulness' exercises, helping the patient redirect attention from internal distress to external, present-moment experiences.",
+        "Therapist facilitates graded exposure to increasingly anxiety-provoking situations, coaching the patient in applying task concentration techniques.",
+        "Therapist supports tolerance of unwelcome thoughts and intrusive images, encouraging acceptance and non-engagement rather than suppression.",
+        "Therapist guides routine documentation and reflection on concentration exercises and outcomes (e.g., using a record sheet)."
+      ]
+    },
+    "micro_actions": {
+      "summary": [
+        "Therapist prompts the patient to notice and report what percentage of attention is focused on self, task, and environment during exercises.",
+        "Therapist instructs the patient in exercises such as listening to a story, storytelling, taking a walk, and graded practice across various situations to operationalize attention refocusing.",
+        "Therapist encourages the patient to deliberately distract themselves with self-focus and then consciously redirect focus to the task/environment.",
+        "Therapist facilitates mindfulness practices: observing sensations, thoughts, and surroundings with non-judgmental awareness; encourages letting thoughts pass by (e.g., 'train passing' metaphor).",
+        "Therapist discourages thought suppression, instead recommending observing intrusive thoughts/images and allowing them to fade without engagement.",
+        "Therapist prompts reflection on what the patient learned from each exercise: changes in anxiety, difficulty level, any new insights."
+      ]
+    },
+    "conversation_states": {
+      "summary": [
+        "Degree of self-focus vs. task-focus vs. environment-focus (often quantified as percentages).",
+        "Current levels of anxiety or other emotional states in various situations.",
+        "Patient’s ability to redirect attention (skill acquisition/progress).",
+        "Presence and awareness of intrusive thoughts or images.",
+        "Patient’s judgmental vs. non-judgmental attitude toward thoughts and sensations.",
+        "Patient's tendency to seek reassurance or suppression of distressing thoughts."
+      ]
+    },
+    "knowledge_graph": {
+      "summary": [
+        "Hierarchy/list of situations rated by threat/anxiety level for individual patient.",
+        "Patient’s habitual patterns of attention (self-focused, externally-focused, task/environment-focused).",
+        "Types of intrusive thoughts/images frequently experienced by the patient; their emotional impact and the patient’s responses.",
+        "Progression and outcomes from concentration/mindfulness training over time (recorded %s, anxiety ratings, insights)."
+      ]
+    },
+    "cautions": {
+      "summary": [
+        "Therapist should not encourage or reinforce thought suppression, avoidance, or attempts to eliminate intrusive thoughts, as this increases distress.",
+        "Therapist should avoid providing excessive reassurance about the safety or meaning of intrusive thoughts, which can reinforce intolerance of unwanted thought content.",
+        "Therapist should not validate the importance or factuality of distressing thoughts/images.",
+        "For patients with increasing preoccupation or comfort with suicidal thoughts and development of a plan, therapist must ensure immediate intervention or referral.",
+        "Avoid pushing patients too quickly into highly anxiety-provoking situations before progressing through graded exposure."
+      ]
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "Patient is engaging with distressing or intrusive thoughts/images and attempting to suppress or neutralize them.",
+          "then": "Guide the patient to adopt a non-judgmental attitude and allow the thoughts to pass without engagement or suppression."
+        },
+        {
+          "if": "Patient reports intense self-focus in an anxiety-provoking or ordinary situation.",
+          "then": "Prompt the patient to deliberately redirect their attention to the external task or environment and reflect on changes in feelings."
+        },
+        {
+          "if": "Patient progresses through non-threatening situations successfully with task concentration techniques.",
+          "then": "Gradually introduce more challenging situations from the anxiety hierarchy."
+        },
+        {
+          "if": "Patient seeks reassurance about the meaning or danger of unwanted/intrusive thoughts.",
+          "then": "Encourage the patient to treat those thoughts as unimportant and avoid giving excessive reassurance."
+        },
+        {
+          "if": "Patient shows signs of developing a plan for self-harm or expresses comfort with suicidal thoughts.",
+          "then": "Refer immediately to appropriate medical or crisis intervention services."
+        },
+        {
+          "if": "Patient completes a mindfulness or concentration exercise.",
+          "then": "Review the patient's allocation of attention and emotional responses and reinforce skill acquisition/reflection."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "- The therapist guides the patient in distinguishing between healthy and unhealthy emotions, focusing especially on negative emotions and their impact.\n- The therapist encourages patients to identify, name, and analyze their emotions based on thinking, behavior, and attention.\n- The therapist assists in evaluating the patient's thinking styles (rigid/demanding vs. flexible/preferential).\n- The therapist helps the patient define specific emotional problems, including writing problem statements and rating distress/interference.\n- The therapist facilitates problem-solving by moving patients from unhealthy to healthy emotional responses.\n- The therapist helps patients recognize and address meta-emotions (feelings about feelings).\n- For specific disorders (e.g., bipolar), the therapist models behavioral interventions such as activity scheduling."
+    },
+    "micro_actions": {
+      "summary": "- Ask the patient to describe and name their current emotion(s).\n- Encourage exploration of themes or triggers associated with the emotion.\n- Prompt the patient to differentiate their thoughts: Are they rigid/demanding or flexible/preferential?\n- Inquire about behavioral urges or actions resulting from the emotion.\n- Direct the patient's attention to what they are focusing on (e.g., blame, solutions, evidence).\n- Guide the patient to recognize physical sensations associated with emotions, noting intensity.\n- Identify and discuss any secondary/meta-emotions interfering with identifying the primary emotion.\n- Help the patient fill in emotional problem statements: \"Feeling _____ about _____, leading me to _____.\"\n- Assist the patient in rating the distress and interference of their emotion (0–10 scale).\n- Review emotion ratings regularly and remind the patient of progress."
+    },
+    "conversation_states": {
+      "summary": "- The type of emotion (named and categorized as healthy or unhealthy).\n- The theme or trigger associated with the emotion.\n- The patient's style of thinking (rigid/demanding vs. flexible/preferential).\n- Behavior/action tendencies in response to the emotion.\n- What the patient is paying attention to (event, blame, solutions, positive/negative aspects).\n- The presence and nature of meta-emotions.\n- Intensity and duration of physical sensations associated with emotions.\n- The stated emotional problem and its rating of distress/interference."
+    },
+    "knowledge_graph": {
+      "summary": "- Historical patterns of healthy and unhealthy emotional responses.\n- Common themes or triggers linked to recurrent emotional problems.\n- Previous examples and ratings of emotional problems (progress tracking).\n- Patient’s typical thinking styles and tendencies (rigid vs. flexible).\n- Antecedents and consequences of specific emotions (including meta-emotions).\n- History of specific diagnoses (e.g., bipolar disorder), intervention strategies (activity scheduling), and medication status if relevant."
+    },
+    "cautions": {
+      "summary": "- Do not focus solely on emotion labels/words; understanding categories and underlying processes is more important.\n- Avoid reinforcing rigid, demand-based thinking or self-defeating behavioral urges.\n- Do not prolong unhealthy negative emotions by focusing unduly on catastrophic or blame-centered aspects.\n- Avoid minimizing or dismissing physical sensations; note their intensity but don’t overrely on them for diagnosis.\n- Do not neglect the influence of meta-emotions, as they can impede addressing primary emotions.\n- Do not give psychiatric advice beyond scope (e.g., for bipolar disorder, recommend psychiatry for diagnosis and medication management)."
+    },
+    "rules": {
+      "summary": "- {\"if\": \"The patient describes an emotion without naming it clearly\", \"then\": \"Prompt the patient to select a descriptive word for the emotion and categorize it as healthy or unhealthy.\"}\n- {\"if\": \"Patient presents with distressing emotion\", \"then\": \"Explore the theme and ask about thoughts, attention focus, behavioral urges, and physical sensations.\"}\n- {\"if\": \"Patient shows rigid, demand-based thinking\", \"then\": \"Challenge and help reformulate into flexible, preference-based thinking.\"}\n- {\"if\": \"Patient manifests self-defeating or extreme behavioral urges\", \"then\": \"Discuss realistic, constructive alternatives aligned with healthy emotional responses.\"}\n- {\"if\": \"Patient appears to have feelings about their feelings (meta-emotion)\", \"then\": \"Help them recognize and name the meta-emotion and address it as a separate issue.\"}\n- {\"if\": \"Patient is struggling to define their emotional problem\", \"then\": \"Use the structured statement: 'Feeling ___ about ___, leading me to ___.'\"}\n- {\"if\": \"Patient reports an emotional problem\", \"then\": \"Ask the patient to rate the distress and interference of the emotion (0–10) and track this over time.\"}\n- {\"if\": \"Patient discusses symptoms consistent with bipolar disorder\", \"then\": \"Refer to psychiatrist for assessment and medication management.\"}\n- {\"if\": \"Patient exhibits rigid demands concerning positive emotions\", \"then\": \"Encourage flexible preferences to reduce vulnerability to future unhealthy negative emotions.\"}\n- {\"if\": \"Patient is at risk of under- or over-stimulation due to mood swings\", \"then\": \"Encourage the use of an activity schedule and consistency regardless of mood.\"}"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "- The therapist guides the patient to recognize and define the problem, focusing on how their existing coping strategies may be maintaining or worsening emotional issues (“your solution becomes the problem”).\n- The therapist helps the patient identify and examine counterproductive coping behaviors (avoidance, reassurance-seeking, control efforts, safety behaviors).\n- The therapist assists the patient in understanding and challenging these unhelpful strategies, often suggesting doing the opposite of their current habits (exposure instead of avoidance).\n- The therapist encourages acceptance of discomfort, uncertainty, and the inevitable unpleasant sensations or emotions.\n- The therapist facilitates the mapping of problem-maintaining cycles using tools like the “vicious flower” exercise to promote insight.\n- The therapist collaboratively targets and eliminates safety behaviors, prompting behavioral experiments to test alternative approaches."
+    },
+    "micro_actions": {
+      "summary": "- Asking the patient to describe typical coping strategies and short-term relief behaviors.\n- Prompting the patient to specify situations/events that trigger anxiety or distress.\n- Directing the patient to record avoidance and safety behaviors in detail.\n- Encouraging the patient to try exposure (facing feared situations without safety behaviors).\n- Guiding the patient to fill in the “vicious flower” (trigger, thoughts/meanings, emotions, behaviors, sensations, attentional focus).\n- Helping the patient list and physically discard safety props, with follow-up on urges to replace them.\n- Providing specific feedback on how attempts at control, reassurance, or suppression may exacerbate symptoms.\n- Suggesting shifts of attention when excessive worry occurs.\n- Encouraging activity scheduling (for depression) and gradual increase in behavioral activation."
+    },
+    "conversation_states": {
+      "summary": "- Patient's current coping strategies (including avoidance, safety behaviors, reassurance-seeking, suppression).\n- Patient's levels of distress (emotional, physical sensations, degree of worry or anxiety).\n- Patient’s perceptions of control and intolerance of uncertainty.\n- Patient’s engagement in activities and social contact.\n- Patient’s triggers for emotional distress.\n- Presence/absence of safety props or rituals.\n- Patient’s beliefs about risk, danger, and coping ability.\n- Patterns in attentional focus (e.g., internal sensations vs. external environment).\n- Patient’s insight into how attempts to control symptoms, thoughts, or external events may perpetuate problems."
+    },
+    "knowledge_graph": {
+      "summary": "- Types and frequency of problematic coping strategies (avoidance, safety behaviors, reassurance-seeking, suppression).\n- Historical and ongoing safety props/rituals used by the patient.\n- Patterns of emotional avoidance and their consequences.\n- Triggers and core beliefs/thoughts central to the patient’s “vicious flower”.\n- Records of behavioral experiments and exposures (attempts, results).\n- Patient’s attitudes toward uncertainty, risk, and control.\n- Progress in discarding unhelpful behaviors and adopting alternative strategies."
+    },
+    "cautions": {
+      "summary": "- Do not reinforce safety behaviors or avoidance—avoid giving excessive reassurance or helping with rituals that maintain the problem.\n- Do not encourage suppression of thoughts, emotions, or sensations, as this can worsen symptoms.\n- Do not enable substance use or other behaviors that provide only short-term relief but cause long-term harm.\n- Avoid focusing exclusively on immediate symptom relief at the expense of long-term change.\n- Do not impose or prescribe “control” over uncontrollable aspects (thoughts, physical sensations, other people’s behavior).\n- Be wary of unintentionally assisting the patient in continuing to purchase or accumulate new safety props."
+    },
+    "rules": {
+      "summary": "- {\"if\": \"Patient identifies a coping strategy that provides short-term relief but perpetuates emotional problems\", \"then\": \"Encourage exploration of the long-term effects of this strategy and propose alternative approaches.\"}\n- {\"if\": \"Patient reports avoidance or safety behaviors related to anxiety\", \"then\": \"Prompt the patient to consider exposure without safety behaviors and monitor anxiety level.\"}\n- {\"if\": \"Patient expresses desire for reassurance around uncertainty or risk\", \"then\": \"Discourage excessive reassurance, support acceptance of uncertainty, and reinforce confidence in coping skills.\"}\n- {\"if\": \"Patient is suppressing thoughts or emotions to avoid discomfort\", \"then\": \"Educate on the paradoxical effects of suppression and promote acceptance strategies.\"}\n- {\"if\": \"Patient demonstrates problem-maintaining behaviors (checking, over-preparing, controlling others)\", \"then\": \"Guide the patient to recognize these patterns and their impact, and collaboratively plan behavioral experiments to discontinue them.\"}\n- {\"if\": \"Patient relies on safety props to manage anxiety\", \"then\": \"Support the patient in discarding non-essential props and track urges to replace them.\"}\n- {\"if\": \"Patient’s symptoms worsen after attempts at immediate control or suppression\", \"then\": \"Help the patient reflect on this feedback, encouraging alternative coping and acceptance methods.\"}\n- {\"if\": \"Patient remains inactive or isolates due to depression\", \"then\": \"Collaborate on activity scheduling and gradual increases in engagement.\"}"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "- The therapist guides the patient through a structured process of setting therapy goals, emphasizing CBT's role in moving from problems toward concrete goals. \n- Dialogue phases include: clarifying and defining goals (using the SPORT model—Specific, Positive, Observable, Realistic, Time-framed), identifying and documenting problem statements, differentiating between current and desired emotional/behavioral states, motivating the patient (drawing on role models, inspirational stories, metaphors), conducting cost–benefit analyses of change versus staying the same, and implementing ongoing progress monitoring and rating."
+    },
+    "micro_actions": {
+      "summary": "- Therapist prompts patient to specify details for each aspect of SPORT for goal-setting.\n- Asks clarifying questions to help the patient distinguish vague, avoidance-based, or unrealistic goals from functional ones.\n- Guides the patient to articulate problem statements with emotion, triggering situation, and associated behavior.\n- Encourages patient to write goal statements in a prescribed format identifying desired emotion, situation, and alternative behavior.\n- Supports patient in identifying sources of inspiration and creating motivational materials (flashcards).\n- Facilitates completion of cost–benefit analyses via paired questioning about pros/cons of current and alternative emotions, behaviors, and thoughts.\n- Directs patient to regularly self-rate emotional intensity/interference and progress towards specified goals."
+    },
+    "conversation_states": {
+      "summary": "- Therapist should continuously track: \n    - Clarity and specificity of patient’s goals (are they SPORT-aligned?)\n    - Patient’s current emotional states and intensity/interference\n    - Patient’s description of triggering situations and associated behaviors\n    - Motivation levels and factors boosting or hindering motivation\n    - Patient’s patterns of avoidance, procrastination, or frequent goal-shifting\n    - Patient’s perceived costs and benefits of change versus current status\n    - Progress ratings (frequency, intensity, duration of problem feelings/behaviors; proximity to goal achievement)."
+    },
+    "knowledge_graph": {
+      "summary": "- Across sessions, therapist should track: \n    - Evolution of patient’s goal statements and their alignment with the SPORT framework\n    - Changes in patient’s emotional responses to specific situations\n    - Patterns in avoidance or abandonment of goals\n    - Outcomes of cost–benefit analyses\n    - Sources of inspiration or motivation identified by the patient\n    - Longitudinal ratings of problem intensity/interference and goal progress."
+    },
+    "cautions": {
+      "summary": "- Avoid encouraging vague, negative, or unrealistic goals.\n- Don’t press for \"feeling okay\" or entirely positive emotions in genuinely difficult circumstances; acknowledge appropriate negative emotions.\n- Warn against helping the patient frequently abandon old goals for new ones, as this may indicate avoidance/procrastination.\n- Do not set rigid deadlines without flexibility—avoid fostering guilt or demotivation if progress is slower than expected.\n- Do not compare the patient negatively to role models or use inspirational sources to shame or discourage."
+    },
+    "rules": {
+      "summary": "- {\"if\": \"The patient presents a vague or avoidance-based goal.\", \"then\": \"Prompt the patient to revise the goal using the SPORT criteria.\"}\n- {\"if\": \"The patient expresses demotivation or doubts about change.\", \"then\": \"Encourage recalling sources of inspiration and reviewing motivational flashcards/cost–benefit analysis.\"}\n- {\"if\": \"The patient struggles to describe observable behavioral changes.\", \"then\": \"Ask how someone who knows them well would notice positive change in their actions.\"}\n- {\"if\": \"The patient shifts goals frequently or abandons goals on a whim.\", \"then\": \"Explore underlying avoidance/procrastination and review the durability and functionality of goals using SPORT.\"}\n- {\"if\": \"The patient rates progress or emotional intensity.\", \"then\": \"Document these ratings and review longitudinal changes for goal tracking.\"}\n- {\"if\": \"The patient compares themselves negatively to role models or inspirational stories.\", \"then\": \"Reframe the reference—focus on inspiration, not negative comparison.\"}\n- {\"if\": \"The patient fails to achieve a goal by a set timeframe.\", \"then\": \"Encourage self-acceptance, flexibility, and perseverance—avoid instilling guilt or discouragement.\"}"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "- The therapist helps the patient understand the nature and mechanisms of anxiety and fear.  \n- The therapist guides the patient to develop and adopt realistic and anti-anxiety attitudes.  \n- Designs and implements graded exposure programs for facing fears systematically.  \n- Supports the patient in identifying and countering safety behaviours and avoidance.  \n- Encourages tracking progress, revisiting anxiety hierarchies, and adjusting interventions as needed.  \n- Applies core CBT principles to specific anxiety presentations (e.g., social anxiety, panic, agoraphobia, PTSD, phobias).  \n- When relevant, advises involving medical professionals or CBT specialists for complex cases (e.g., PTSD)."
+    },
+    "micro_actions": {
+      "summary": "- Remind the patient to challenge and adjust overestimations of threat probability.  \n- Coach the patient to re-label extreme thoughts/events (“awful”, “the end of the world”) into more accurate descriptors (“unfortunate”, “inconvenient”).  \n- Validate and normalize physical sensations of anxiety, reducing catastrophic misinterpretations.  \n- Prompt the patient to tolerate anxiety without attempting to suppress or avoid it (“do nothing” except feel anxious during exposures).  \n- Instruct the patient to remain in feared situations until anxiety decreases naturally.  \n- Guide the patient to complete and update anxiety/fear hierarchies, and rate anticipated/actual anxiety (0–10 scale).  \n- Record session details: duration, anxiety ratings (start/middle/end), use/exclusion of safety behaviours.  \n- Support the patient in behavioral experiments, attention retraining, and reflection on predictions/outcomes.  \n- Repeat exposures daily, increasing challenge as mastery develops."
+    },
+    "conversation_states": {
+      "summary": "- Current level and type of anxiety/fear (subjective ratings: 0–10, frequency, intensity).  \n- Patient’s beliefs/thought patterns about threat probability, severity, and tolerance.  \n- Presence and reliance on safety behaviours.  \n- Patient’s engagement in exposure tasks and avoidance patterns.  \n- Emotional responses and physiological sensations during exposures.  \n- Patient’s progression along the graded hierarchy.  \n- Degree of acceptance of anxiety and willingness to tolerate discomfort.  \n- Differential engagement with specific anxiety subtypes (social, panic, agoraphobia, PTSD, phobia)."
+    },
+    "knowledge_graph": {
+      "summary": "- Patient’s personal anxiety/fear hierarchy: triggers, ranking, anticipated/actual ratings.  \n- Historical records of exposure sessions, anxiety trajectories (duration, ratings, context).  \n- Catalogue of safety behaviours and avoidance strategies previously used.  \n- Individual beliefs and attitudes around fear, threat, coping, and self-efficacy.  \n- Summary of responses and outcomes from behavioral experiments (predictions vs. reality).  \n- Any specific diagnoses or anxiety presentations (e.g., agoraphobia, panic, PTSD) noted through sessions.  \n- Relevant medical or professional consults related to anxiety management."
+    },
+    "cautions": {
+      "summary": "- Do not encourage the patient to avoid or escape from anxiety-provoking situations.  \n- Avoid letting exposures become either overwhelming (leading to avoidance) or too easy (slowing progress).  \n- Do not reinforce catastrophic thinking or extreme labelling of anxious experiences.  \n- Do not allow reliance on safety behaviours during exposures.  \n- Avoid trivializing the patient’s anxiety or phobia, regardless of its apparent “silliness”.  \n- Do not push beyond the patient’s capacity for tolerating distress without adequate support (especially in severe cases or PTSD).  \n- Do not attempt to “prove” that bad outcomes are impossible; focus on realistic probability and coping."
+    },
+    "rules": {
+      "summary": "- {\"if\": \"Patient overestimates likelihood of bad events\", \"then\": \"Prompt to adjust thinking toward more realistic appraisals.\"}  \n- {\"if\": \"Patient uses extreme language to describe anxiety-provoking events\", \"then\": \"Guide toward more accurate, balanced descriptors.\"}  \n- {\"if\": \"Patient experiences strong physical symptoms of anxiety\", \"then\": \"Normalize and educate about sensations to reduce catastrophic interpretations.\"}  \n- {\"if\": \"Patient is in a feared situation during exposure\", \"then\": \"Instruct to remain until anxiety decreases naturally without use of safety behaviours.\"}  \n- {\"if\": \"Patient completes an exposure\", \"then\": \"Record anxiety ratings (anticipation, peak, decline), and plan next graded exposure accordingly.\"}  \n- {\"if\": \"Exposure session is overwhelming for the patient\", \"then\": \"Adjust future exposures to be more manageable to prevent avoidance.\"}  \n- {\"if\": \"Exposure session is too easy and not anxiety-provoking\", \"then\": \"Increase challenge level to optimize progress.\"}  \n- {\"if\": \"Patient attempts to use safety behaviours during exposure\", \"then\": \"Intervene to reduce safety behaviours and reinforce tolerating anxiety.\"}  \n- {\"if\": \"Patient repeatedly ruminates over social encounters after exposure\", \"then\": \"Redirect attention away from rumination and reinforce focus on task outcomes.\"}  \n- {\"if\": \"Patient struggles to tolerate doubt and uncertainty with worry\", \"then\": \"Coach acceptance of uncertainty and reduction in premature problem-solving.\"}  \n- {\"if\": \"Patient presents with complex trauma or severe PTSD symptoms\", \"then\": \"Recommend referral to or consultation with a specialist CBT therapist.\"}"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": [
+        "Establishing recognition and definition of the addiction problem (addressing denial, shame, and stigma).",
+        "Supporting acceptance of self and responsibility without self-condemnation.",
+        "Assessing specific costs and benefits of addiction for motivation enhancement.",
+        "Facilitating decision and commitment to abstinence, including planning and setting a quit date.",
+        "Identifying and strategizing against triggers, cravings, and relapse risks.",
+        "Promoting healthy replacement behaviors, lifestyle reengineering, and supportive social connection.",
+        "Encouraging physical health monitoring and integration of professional/social supports.",
+        "Guidance for ongoing relapse prevention, including managing 'seemingly irrelevant decisions'."
+      ]
+    },
+    "micro_actions": {
+      "summary": [
+        "Eliciting honest self-reflection through targeted questions and checklist usage.",
+        "Prompting written self-acknowledgment of the problem.",
+        "Supporting patient in completing cost-benefit analysis and addiction pricing forms.",
+        "Encouraging identification and listing of triggers and gratitude exercises.",
+        "Coaching on “positive obstacles”: removal of paraphernalia, altering routines, informing accountability partners, blocking access.",
+        "Reinforcing patient commitments through behavioral planning (e.g., scheduling alternative activities, making promises to supportive others).",
+        "Recommending immediate replacement activities for dealing with cravings (phone call, exercise, etc).",
+        "Micro-monitoring for rationalizations, minimization, or 'false bravado', and challenging them in session.",
+        "Promoting emotion labeling and coping plan creation for HARD LOSS states (hurt, anger, reward, depression, loneliness, overwhelmed, stagnant, self-pity).",
+        "Prompting documentation and reflection on 'seemingly irrelevant decisions' to prevent subtle relapse risks."
+      ]
+    },
+    "conversation_states": {
+      "summary": [
+        "Level of insight/denial regarding addiction.",
+        "Shame, stigma, and self-worth attitudes.",
+        "Motivation and readiness for change.",
+        "Current cravings, triggers, and emotional state (including HARD LOSS factors).",
+        "Commitment to abstinence and recovery plan adherence.",
+        "Substance/behavior use frequency, intensity, and patterns.",
+        "Social support network status and patient willingness to disclose/problem-solve.",
+        "Engagement in replacement behaviors and lifestyle restructuring.",
+        "Risk perception and monitoring for relapse-related rationalizations or decision-making traps."
+      ]
+    },
+    "knowledge_graph": {
+      "summary": [
+        "History of addiction (substances/behaviors, onset, patterns).",
+        "Previous and current costs and benefits from addiction and abstinence.",
+        "Patient’s triggers and relapse risks (with lists and examples).",
+        "Personal coping strategies, support mechanisms, and accountability partners.",
+        "History and status of underlying psychological comorbidities (e.g., depression, anxiety, trauma).",
+        "Longitudinal record of abstinence/stressful periods, successful coping, and relapse events/precursors.",
+        "Key personal values, interests, and previously enjoyed activities for behavioral reengineering.",
+        "Patient’s support system (friends, family, professionals, groups) and changes over time."
+      ]
+    },
+    "cautions": {
+      "summary": [
+        "Do not minimize or ignore denial, shame, or self-stigma; these can block progress.",
+        "Avoid moralizing, blaming, or making judgments about addiction (\"morally decrepit\", etc.).",
+        "Do not allow rationalizations or false bravado regarding \"safe\" moderate use.",
+        "Do not neglect to address underlying mental health problems masked by addiction.",
+        "Avoid assuming recovery is passive or automatic – requiring active responsibility and planning.",
+        "Do not reinforce secrecy; rather, encourage appropriate disclosure for support.",
+        "Avoid encouraging willpower alone; promote realistic behavioral and environmental changes.",
+        "Do not leave relapse prevention to chance or rely on luck/fate."
+      ]
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "Patient expresses denial or minimization of addiction severity",
+          "then": "Gently challenge denial and prompt honest self-reflection through targeted questions and exercises."
+        },
+        {
+          "if": "Patient expresses shame or stigma about addiction",
+          "then": "Support acceptance and self-compassion while maintaining personal responsibility."
+        },
+        {
+          "if": "Patient identifies triggers or cravings",
+          "then": "Collaboratively plan specific alternative responses and strategies to manage urges."
+        },
+        {
+          "if": "Patient is preparing to quit",
+          "then": "Assist in setting a concrete quit date and creating a detailed abstinence plan."
+        },
+        {
+          "if": "Patient uses rationalizations for moderate use",
+          "then": "Challenge these thoughts and reinforce abstinence as primary goal."
+        },
+        {
+          "if": "Patient is at risk of relapse due to 'seemingly irrelevant decisions'",
+          "then": "Prompt patient to identify, document, and challenge the true motivation behind these decisions."
+        },
+        {
+          "if": "Patient encounters HARD LOSS emotional states",
+          "then": "Support identification, labeling, and constructive coping response planning."
+        },
+        {
+          "if": "Patient lacks social support or faces isolation",
+          "then": "Encourage re-engagement with caring individuals/groups and increase supportive contact."
+        },
+        {
+          "if": "Patient expresses boredom, loneliness, or stagnation",
+          "then": "Facilitate scheduling of varied, meaningful, and enjoyable replacement activities."
+        },
+        {
+          "if": "Patient is attempting passive recovery or relying on luck",
+          "then": "Promote active relapse prevention planning and self-monitoring."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter describes several high-level intervention strategies for building a better body image and addressing disorders like Body Dysmorphic Disorder (BDD) and eating disorders. Key phases include (1) assessment and identification of unhealthy body image, BDD, or eating disorder features; (2) psychoeducation about healthy versus unhealthy body image; (3) cognitive restructuring of appearance-related beliefs; (4) behavioral interventions including exposure and response prevention (ERP) for BDD; (5) re-focusing on whole-person acceptance, not just physical appearance; (6) encouragement of self-acceptance and acceptance of others; (7) guidance in setting healthy, realistic goals for physical improvement and appearance-related changes; and (8) motivational work to ensure changes are pursued for healthy, adaptive reasons (e.g., health, enjoyment, confidence), not solely for worth or social approval."
+    },
+    "micro_actions": {
+      "summary": "- Asking targeted questions to determine if the patient is experiencing BDD or an eating disorder, and suggesting psychiatric assessment when indicated.\n- Advising the patient to observe themselves in the mirror without judgment; regulating mirror use duration and frequency; resisting selective scrutiny of specific features.\n- Encouraging temporary cessation or redirection of reassurance seeking, comparison-making, and body checking behaviors.\n- Challenging rigid rules, unrealistic standards, and overvalued negative beliefs about appearance at the utterance level.\n- Prompting reflection on the broader functions and values of the body beyond appearance (e.g., sensation, daily duties, social/physical activities).\n- Supporting practical exercises such as listing admired people and their valued non-physical qualities, keeping a gratitude list for bodily abilities, and reality-testing appearance-related beliefs.\n- Monitoring and redirecting motivation for cosmetic changes from unhealthy to healthy reasons.\n- Reinforcing acceptance messages and challenging negative self-talk in real-time conversations."
+    },
+    "conversation_states": {
+      "summary": "- Level of preoccupation/distress with appearance and/or specific body features.\n- Frequency and type of body-focused behaviors (mirror-checking, reassurance-seeking, avoidance, comparison, preparation rituals).\n- Cognitive patterns: self-worth attribution to appearance, presence of rigid rules or unrealistic standards, overestimation of others’ judgments.\n- Motivation behind desired appearance changes (e.g., health vs. worth).\n- Degree of acceptance of self and others as whole persons, not just physical attributes.\n- Emotional state: self-esteem, social confidence, mood, shame, or guilt.\n- Impact of body image on social, occupational, or academic functioning.\n- Response to exposures (if ERP is utilized), including anxiety levels and ritual reduction."
+    },
+    "knowledge_graph": {
+      "summary": "- History and trajectory of body image concerns, BDD symptoms, and/or eating disorder behaviors.\n- Specific physical features of concern and patterns of focus over time.\n- Idiosyncratic beliefs about appearance and associated rules/rituals.\n- Recurrent safety behaviors and coping mechanisms.\n- Social, functional, and occupational impact of body image issues.\n- Previous attempts/experiences with cosmetic changes and their psychological consequences.\n- Patient’s motivational patterns for attempting physical improvements.\n- Attitude shifts regarding self-worth, acceptance, and non-appearance aspects of self.\n- Evolution of self-acceptance and whole-person perspective across sessions."
+    },
+    "cautions": {
+      "summary": "- Do not validate or reinforce maladaptive or rigid appearance-related beliefs or rules.\n- Avoid encouraging or endorsing unhealthy motivations for cosmetic changes, especially if symptomatic of BDD or an eating disorder.\n- Do not neglect to refer for psychiatric assessment or specialist support if evidence of BDD or an eating disorder is present.\n- Avoid excessive focus on appearance-based compliments or reassurance, which can perpetuate problematic patterns.\n- Do not ignore the functional and emotional impacts of body image issues on daily life.\n- Refrain from minimizing or trivializing the patient’s distress around appearance; avoid judgmental or shaming responses."
+    },
+    "rules": {
+      "summary": "- {\"if\": \"Patient expresses persistent distress or preoccupation with appearance despite reassurance\", \"then\": \"Screen for BDD and recommend psychiatric assessment.\"}\n- {\"if\": \"Patient answers yes to five or more eating disorder screening questions\", \"then\": \"Refer to medical and psychiatric assessment for eating disorder.\"}\n- {\"if\": \"Patient engages in frequent mirror checking or avoidance\", \"then\": \"Coach in healthy mirror use: observe without judgment, regulate time, avoid selective scrutiny.\"}\n- {\"if\": \"Patient seeks frequent reassurance or compares self to others\", \"then\": \"Redirect to acceptance, challenge comparison, and support reflection on non-appearance qualities.\"}\n- {\"if\": \"Patient expresses desire for cosmetic surgery due to appearance dissatisfaction\", \"then\": \"Assess for BDD/eating disorder and ensure motivation is health-focused before supporting referral.\"}\n- {\"if\": \"Patient links self-worth to attractiveness\", \"then\": \"Challenge belief and encourage whole-person acceptance.\"}\n- {\"if\": \"Patient sets unrealistic standards for appearance\", \"then\": \"Work on cognitive restructuring to develop realistic, attainable standards.\"}\n- {\"if\": \"Patient focuses excessively on one body part or feature\", \"then\": \"Encourage viewing self holistically and resist selective scrutiny.\"}\n- {\"if\": \"Patient has negative self-talk about body\", \"then\": \"Prompt and reinforce self-acceptance messaging.\"}\n- {\"if\": \"Patient demonstrates avoidance of mirrors or social situations due to body image\", \"then\": \"Plan and support graded exposure with response prevention.\"}"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "- The chapter describes several high-level therapeutic strategies for intervening in depression using CBT. These include:\n  - Assessment of depressive symptoms and their severity.\n  - Psychoeducation about the nature and forms of depression.\n  - Identification of maladaptive thinking and behavioral patterns that perpetuate depression (rumination, inactivity, withdrawal, negative thinking).\n  - Teaching and encouraging behavioral activation and activity scheduling.\n  - Problem-solving training for practical issues and daily challenges.\n  - Techniques for interrupting and disengaging from ruminative thinking.\n  - Acceptance strategies and compassionate self-talk.\n  - Managing suicidal thoughts and crisis planning.\n  - Psychoeducation and referral for complex forms of depression.\n  - Building optimistic outlooks and normalizing setbacks."
+    },
+    "micro_actions": {
+      "summary": "- At the interaction step level, therapists should:\n  - Prompt the patient to describe specific symptoms and durations.\n  - Encourage reflection and identification of negative thoughts, ruminative patterns, and avoidance behaviors.\n  - Prompt recognition of early warning signs of rumination and inactivity.\n  - Guide the patient through breaking tasks/problems into manageable steps and brainstorming solutions.\n  - Provide instructions for activity scheduling (including balance of activity and rest).\n  - Offer in-the-moment cues to redirect attention from rumination (task concentration, mindfulness of current actions).\n  - Reinforce small achievements and progress.\n  - Model and encourage compassionate self-dialogue and active self-praise.\n  - Advise non-engagement with negative automatic thoughts (observe and let pass).\n  - Prompt patient to reach out to social supports or healthcare providers when suicidal ideation is disclosed.\n  - Give feedback on the patient's use of strategies and reinforce effort over outcome.\n  - Normalize setbacks and encourage perseverance."
+    },
+    "conversation_states": {
+      "summary": "- The therapist should track:\n  - Severity and persistence of depressive symptoms.\n  - Frequency and content of negative/ruminative thoughts.\n  - Level of daily activity and degree of social withdrawal.\n  - Patient's ability to disengage from rumination.\n  - Patient’s use of problem-solving steps for practical problems.\n  - Mood fluctuations, especially toward hopelessness/suicidality.\n  - Signs of compassionate vs. self-critical self-talk.\n  - Patient's engagement with activity scheduling.\n  - Response to setbacks or failed recovery efforts.\n  - Risk behaviors (substance use, self-neglect, suicidal plans).\n  - Patient’s connection to social supports."
+    },
+    "knowledge_graph": {
+      "summary": "- Across sessions, therapists should track and record:\n  - Patient’s baseline and change in depressive symptoms over time.\n  - Patterns of rumination, negative thinking, and avoidance behaviors.\n  - Activity levels and participation in scheduled activities.\n  - Problem areas recurrently flagged (relationships, finances, isolation, health, etc.)\n  - History and response to CBT strategies (which interventions work, which do not).\n  - Medication use, compliance, and effects (if applicable).\n  - Social support network (who patient confides in, their engagement).\n  - Suicidal ideation: frequency, intensity, any attempts or plans.\n  - Diagnosis or suspicion of complex depressive disorders (bipolar, cyclothymia, PDD).\n  - Substance and alcohol use patterns.\n  - Patient’s attitude toward self-compassion and acceptance.\n  - Previous and ongoing setbacks/relapses and response patterns."
+    },
+    "cautions": {
+      "summary": "- Avoid shaming or criticizing the patient for their symptoms or lack of progress.\n- Do not urge the patient to “snap out of” depression by forceful willpower or by bullying self-talk.\n- Do not overload the patient with unrealistic activity schedules.\n- Avoid promoting drugs, alcohol, or food binges as coping strategies.\n- Do not ignore suicidal ideation or plans; do not minimize risk of self-harm.\n- Avoid focusing solely on negative thoughts/content; prioritize disengaging from rumination.\n- Do not disregard potential need for medication/medical evaluation in severe or complex depression.\n- Avoid making direct comparisons between the patient and others (friends, celebrities) that reinforce feelings of inadequacy.\n- Do not pathologize or misdiagnose complex forms of depression without professional assessment.\n- Avoid setting expectations for immediate “enjoyment” or normalization."
+    },
+    "rules": {
+      "summary": "[\n  {\"if\": \"Patient describes symptoms of low mood, anhedonia, difficulty functioning for two weeks or more\", \"then\": \"Assess for depression and advise medical evaluation if indicated.\"},\n  {\"if\": \"Patient shows signs of rumination (circular, repetitive negative thinking)\", \"then\": \"Prompt patient to recognize rumination and guide use of disengagement techniques.\"},\n  {\"if\": \"Patient is inactive or socially withdrawn\", \"then\": \"Encourage gradual activation, starting with small manageable activities.\"},\n  {\"if\": \"Patient expresses self-critical or shame-based thinking\", \"then\": \"Model and prompt compassionate self-talk; discourage self-bullying.\"},\n  {\"if\": \"Patient has difficulties completing practical daily tasks\", \"then\": \"Guide problem-solving: define the problem, brainstorm solutions, evaluate options, break down into steps, review outcome.\"},\n  {\"if\": \"Patient discusses suicidal thoughts or plans\", \"then\": \"Immediately conduct risk assessment and facilitate connection to medical/emergency services; encourage reaching out to support network.\"},\n  {\"if\": \"Patient attempts large leaps in activity after long inactivity\", \"then\": \"Advise gradual increase, discourage overloading.\"},\n  {\"if\": \"Patient uses alcohol, drugs, or binge eating to cope\", \"then\": \"Warn about risks, encourage alternative coping strategies.\"},\n  {\"if\": \"Patient is diagnosed or suspected of bipolar or cyclothymia\", \"then\": \"Advise referral for psychiatric assessment and medication review; tailor CBT for stabilization and behavioral activation.\"},\n  {\"if\": \"Patient experiences setbacks after progress\", \"then\": \"Normalize fluctuation, encourage continuation of recovery strategies.\"}\n]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "- Assessing patient's sleep situation and patterns over time.\n- Identifying and restructuring unhelpful sleep-related thoughts and expectations.\n- Advising and guiding the patient in establishing a sleep-conducive routine (“sleep hygiene”).\n- Providing psychoeducation about the relationship between thoughts, feelings, and sleep.\n- Coaching patient in behavior modification (e.g., limiting napping, establishing sleep windows, bedtime routines).\n- Supporting patient in experimenting with practical sleep-improvement techniques and tracking progress.\n- Encouraging consultation with medical professionals when sleep problems persist or present health risks."
+    },
+    "micro_actions": {
+      "summary": "- Prompting the patient to maintain a sleep diary or track sleep via apps to create a baseline and monitor change.\n- Challenging maladaptive sleep beliefs and catastrophic predictions (“I’ll never sleep”; “I can’t cope” etc.).\n- Offering alternative, realistic self-statements regarding sleep expectations.\n- Guiding patient to refrain from dwelling on sleep diary results to avoid reinforcing worry.\n- Suggesting specific actionable sleep hygiene behaviors (e.g., limit caffeine, avoid screens before bedtime, get exercise).\n- Encouraging patient to get out of bed after 10 minutes of wakefulness, engage in non-stimulating activity, then return to bed when sleepy.\n- Instructing patient on muscle relaxation techniques and ritualized wind-down routines.\n- Advising patient to make the sleeping environment comfortable and associated with relaxation/sleep.\n- Encouraging open discussion about medication, supplements, and seeking medical guidance when needed."
+    },
+    "conversation_states": {
+      "summary": "- Current sleep duration and quality (hours slept, restorative quality, frequency/duration of awakenings).\n- Sleep-related thoughts, worries, and expectations (catastrophic thinking, pressure to sleep, bed-dread).\n- Emotional states before, during, and after sleep (anxiety, sadness, irritability, mood).\n- Bedtime routines and sleep hygiene behaviors.\n- Degree of adherence to suggested interventions (sleep window, limiting stimulation, relaxation practice).\n- Relationship between daily stressors/activities and sleep outcomes.\n- Patient’s physical health concerns related to sleep (daytime functioning, tiredness).\n- Use of and response to medications or supplements."
+    },
+    "knowledge_graph": {
+      "summary": "- Historical and current sleep patterns, including duration, quality, and disturbances.\n- Longitudinal record of sleep-related cognitions and beliefs (persistent unhelpful expectations, catastrophic thinking).\n- Evolution of bedtime routines, sleep hygiene adherence, and environmental factors.\n- Record of interventions tried and their effectiveness (behavioral, cognitive, pharmacological, environmental).\n- Relevant comorbidities: medical conditions, psychological diagnoses, medication use (type, dose, duration).\n- Impact of sleep problems on other domains (relationships, work, mood).\n- Patient’s attitude toward medication (preferences, experiences, side effects, compliance).\n- Any history or presence of dependency, tolerance, or misuse of sleep-related substances."
+    },
+    "cautions": {
+      "summary": "- Do not encourage excessive reliance on sleep diaries; dwelling can reinforce anxiety and worsen sleep.\n- Do not perpetuate or reinforce catastrophic or rigid sleep expectations (“I must sleep X hours”).\n- Avoid recommending unregulated or unverified supplements without medical advice.\n- Do not suggest essential oils or aromatherapy without confirming absence of allergies or consultation with the patient’s physician, especially if there are comorbidities or pregnancy.\n- Do not promote napping or lying in bed awake for extended periods.\n- Avoid stimulating activities in bed or activities that associate the bed/bedroom with wakefulness.\n- Do not foster dependency on sleep medication; always guide patient toward professional medical input for pharmacological solutions."
+    },
+    "rules": {
+      "summary": "- {\"if\": \"Patient reports consistently disrupted sleep patterns for three nights out of seven over three months\", \"then\": \"Assess for insomnia and recommend tracking sleep patterns with a diary or digital app for two weeks.\"}\n- {\"if\": \"Patient expresses catastrophic sleep-related thoughts or rigid expectations\", \"then\": \"Challenge unhelpful beliefs and encourage alternative, realistic sleep expectations via CBT techniques.\"}\n- {\"if\": \"Patient stays in bed awake for more than ten minutes\", \"then\": \"Advise them to get up and perform a calming, non-stimulating activity until sleepy.\"}\n- {\"if\": \"Patient shows bed-dread or negative bedtime associations\", \"then\": \"Coach patient to build positive associations with bed and relaxation-focused routines.\"}\n- {\"if\": \"Patient experiences urge to nap during the day\", \"then\": \"Recommend making stimulating plans at those times to avoid napping.\"}\n- {\"if\": \"Patient engages in stimulating activities before bedtime or in bed\", \"then\": \"Suggest restricting these activities and establishing a consistent, quiet wind-down routine.\"}\n- {\"if\": \"Patient considers using essential oils or alternative remedies for sleep\", \"then\": \"Advise consulting a qualified medical professional or herbalist before use, particularly if on medication, pregnant, or with comorbidities.\"}\n- {\"if\": \"Patient's sleep disturbance leads to health impact or crisis and behavioral interventions fail\", \"then\": \"Recommend consultation with a physician regarding possible short-term medication or alternative interventions.\"}\n- {\"if\": \"Patient is tracking sleep diary results compulsively\", \"then\": \"Prompt to focus on behavioral change rather than fixation on results to prevent reinforcing worry.\"}"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": [
+        "Assessment and identification of obsessional problems, including OCD and related disorders.",
+        "Psychoeducation regarding the nature of obsessions, compulsions, and avoidance behaviors.",
+        "Cognitive restructuring: Challenging and modifying unhelpful beliefs related to over-responsibility, intolerance of uncertainty, and misinterpretation of intrusive thoughts.",
+        "Behavioral interventions: Planning and executing exposure and response prevention (ERP) tailored to individual obsessions and rituals.",
+        "Encouragement to tolerate discomfort, uncertainty, and to reduce rituals systematically.",
+        "Training to shift from internal criteria (\"feeling right\") to external/practical criteria for terminating actions.",
+        "Teaching normalization of sensations, emotions, and thoughts.",
+        "Guidance on responsibility redistribution using tools like the \"responsibility pie chart.\"",
+        "Monitoring progress and reinforcing maintenance of ritual reduction.",
+        "Assessment for need of professional help and facilitating referrals if appropriate."
+      ]
+    },
+    "micro_actions": {
+      "summary": [
+        "Asking specific questions to identify the nature (content, frequency, intensity, duration) of obsessions/compulsions.",
+        "Supporting the patient in recording daily frequencies and durations of rituals and obsessions (e.g., tallying, using counters).",
+        "Directing the patient to design and run behavioral experiments (e.g., doubling a ritual one day, reducing/stopping a ritual another day, noting effects).",
+        "Encouraging the patient to deliberately trigger upsetting thoughts/images in controlled ways.",
+        "Prompting the patient to delay rituals by increments and gradually increase delay time.",
+        "Guiding a modified/simplified version of rituals when full cessation is not possible.",
+        "Coaching the patient through re-exposure if rituals are performed prematurely.",
+        "Instructing the patient on creating a responsibility pie chart: listing feared events, assigning responsibility, identifying contributing factors, and reevaluating perceptions.",
+        "Reminding to actively tolerate uncertainty and refrain from seeking reassurance or checking.",
+        "Providing gentle challenges to reliance on internal criteria (\"feeling right\") and prompting reliance on external/practical criteria.",
+        "Suggesting attention-training exercises to de-focus from obsessional thoughts.",
+        "Use of cost-benefit analysis dialogue to examine rigidity and inflexibility.",
+        "Regularly reviewing and reinforcing progress and ritual reduction efforts."
+      ]
+    },
+    "conversation_states": {
+      "summary": [
+        "Severity, frequency, intensity, and duration of obsessions and compulsions.",
+        "Types/content of obsessions and compulsions (contamination, harm, order, etc.).",
+        "Emotional responses (distress, anxiety, discomfort) and degree of tolerance to these states.",
+        "Patient's interpretation and beliefs about intrusive thoughts/images (probability, morality, responsibility).",
+        "Cognitive biases (catastrophic thinking, emotional reasoning, attention bias).",
+        "Level of reliance on rituals and avoidance versus willingness to face triggers.",
+        "Criteria used to terminate rituals (internal vs. external/practical).",
+        "Perceived responsibility for feared outcomes.",
+        "Progress in exposure, ritual reduction, and ability to tolerate uncertainty/discomfort.",
+        "Impact of symptoms on functioning (work, relationships, self-care).",
+        "Risk of relapse or increase in symptoms.",
+        "Need/appropriateness for escalation to professional help."
+      ]
+    },
+    "knowledge_graph": {
+      "summary": [
+        "Patient's history of obsessional problems: onset, progression, specific types/content.",
+        "Patterns and history of compulsions/avoidance behaviors.",
+        "Historical intensity, frequency, and duration data of obsessions/compulsions.",
+        "Previous attempts and outcomes of self-help strategies or professional interventions.",
+        "Patient's beliefs about responsibility, uncertainty, and intrusive thoughts/images.",
+        "Instances of catastrophic thinking, emotional reasoning, and other cognitive biases.",
+        "Patient's use of internal versus external criteria for decision-making.",
+        "Personal and situational triggers for obsessions or rituals.",
+        "Progress metrics in exposure and ritual reduction over time.",
+        "Impact on occupational, social, and family functioning, especially responsibility toward children.",
+        "Record of completed responsibility pie charts and changes in perception.",
+        "Episodes of relapse or periods of increased distress/symptomatology."
+      ]
+    },
+    "cautions": {
+      "summary": [
+        "Do not attempt to guarantee safety or absolute certainty for feared outcomes; this reinforces OCD pathology.",
+        "Avoid colluding with compulsions or reassurance-seeking as this perpetuates rituals.",
+        "Do not validate over-responsibility or catastrophic misinterpretations of thoughts.",
+        "Do not encourage suppression or control of intrusive thoughts; let them pass naturally.",
+        "Avoid allowing rituals or avoidance behaviors to remain as \"safety behaviors.\"",
+        "Do not escalate exposure or ritual reduction too fast without proper tolerance; proceed systematically.",
+        "Pay attention to signs of severe impairment (physical health, self-care, social/occupational function, child care) and do not neglect referral for professional help when needed.",
+        "Avoid setting excessively rigid goals for ritual cessation; encourage flexibility and gradual change.",
+        "Do not neglect ongoing assessment for relapse risk."
+      ]
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "Patient expresses need for certainty regarding obsessional fears",
+          "then": "Encourage toleration of uncertainty rather than providing reassurance or guarantees."
+        },
+        {
+          "if": "Patient describes intrusive/unpleasant thoughts",
+          "then": "Normalize these as common human experiences and discourage attempts to suppress or control them."
+        },
+        {
+          "if": "Patient demonstrates reliance on internal criteria to end rituals",
+          "then": "Coach use of external/practical criteria to guide decisions about ending actions."
+        },
+        {
+          "if": "Patient wants to reduce rituals but struggles to stop",
+          "then": "Prompt them to delay rituals incrementally, building up delay times."
+        },
+        {
+          "if": "Patient is unable to fully stop a ritual",
+          "then": "Suggest modifying or shortening the ritual rather than performing it in complete form."
+        },
+        {
+          "if": "Patient performs a ritual after intending to resist",
+          "then": "Guide them to re-expose themselves to the feared situation to counteract the ritual's reinforcement."
+        },
+        {
+          "if": "Patient shows inflated sense of responsibility for harm",
+          "then": "Use responsibility pie chart exercise to redistribute perceived responsibility among multiple factors."
+        },
+        {
+          "if": "Patient's obsessional problems are impacting health, functioning, or care for dependents",
+          "then": "Encourage seeking specialist professional help."
+        },
+        {
+          "if": "Patient makes progress in reducing rituals",
+          "then": "Affirm and reinforce progress, tracking metrics over time."
+        },
+        {
+          "if": "Patient interprets distressing emotions or physical sensations as abnormal or dangerous",
+          "then": "Normalize them and challenge the belief that they are problematic."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter emphasizes the overall CBT intervention phases for low self-esteem through:\n- Identifying and discussing self-esteem issues, especially the impact of global self-labelling and overgeneralisation.\n- Educating the patient on principles and philosophy of unconditional self-acceptance, separating worth from achievements or external factors.\n- Challenging and dispelling myths about self-acceptance (e.g., that acceptance means resignation or condoning poor behavior).\n- Facilitating behavioral change by promoting self-acceptance and responsibility for specific actions while encouraging adaptive problem-solving and personal development.\n- Modeling and reinforcing the practice of self-acceptance, compassion, and realistic self-evaluation."
+    },
+    "micro_actions": {
+      "summary": "- Guide the patient to identify and articulate specific examples of global self-labelling in their self-talk.\n- Prompt the patient to reframe global self-judgments into specific, behavior-focused assertions (e.g., \"I failed at X,\" instead of \"I am a failure\").\n- Encourage the use of compassionate, non-abusive language in self-reflection.\n- Employ Socratic questioning to help the patient distinguish between self-worth and behaviors.\n- Facilitate exercises (e.g., sticky-note activity) to visually demonstrate the complexity and multifaceted nature of the self.\n- Use analogies and real-life scenarios to illustrate the pitfalls of overgeneralisation.\n- Encourage the patient to apply the \"best-friend standard\" to themselves and to review what emotional responses would be appropriate for others in identical situations.\n- Gently confront and challenge double standards or perfectionistic self-expectations.\n- Guide the patient to recognize specific behaviors they wish to change and help them formulate adaptive plans for improvement.\n- Reinforce and coach high frustration tolerance (HFT) toward personal growth, as opposed to resignation and low frustration tolerance (LFT)."
+    },
+    "conversation_states": {
+      "summary": "- Patient’s global versus specific self-appraisal tendencies (frequency and intensity of self-labelling statements).\n- Emotional responses to failure, criticism, or shortcomings.\n- Patient’s use of self-abusive language and negative self-talk.\n- Degree of self-acceptance versus self-condemnation at various points in the session (and shifts therein).\n- Level of frustration tolerance and willingness to engage in short-term discomfort for long-term gain.\n- Patient’s approach to responsibility: distinguishing personal responsibility for specific actions from global self-blame.\n- Presence or absence of adaptive behavior following setbacks (e.g., problem-solving vs. avoidance/resignation).\n- Use of double standards (being harsher on self than others).\n- Motivation and readiness for change/self-improvement."
+    },
+    "knowledge_graph": {
+      "summary": "- Historical and current self-esteem patterns, including triggers for low self-worth.\n- Key instances of overgeneralisation or self-labelling in patient’s life and language.\n- Patient’s beliefs about self-worth and conditionality (e.g., external achievements, approval by others).\n- Specific behaviors the patient condemns and those the patient accepts/change attempts.\n- Past and present examples of successful self-acceptance and adaptive responses.\n- Instances where patient displays high or low frustration tolerance.\n- Record of interventions (e.g., reframing, self-talk exercises, progress in adopting self-acceptance philosophy).\n- Double standards the patient applies in self-versus-others judgement."
+    },
+    "cautions": {
+      "summary": "- Avoid reinforcing or agreeing with patient's global self-condemnation or overgeneralised negative labels.\n- Do not condone resignation, avoidance, or giving up as valid outcomes of self-acceptance.\n- Avoid minimizing, ignoring, or bypassing responsibility for specific behaviors (especially socially undesirable ones).\n- Do not use language that implies conditionality of self-worth or rates the person rather than specific behaviors.\n- Avoid being less compassionate toward the patient than one would toward a friend in similar circumstances.\n- Do not push self-acceptance as synonymous with condoning all behaviors, or as excusing ongoing destructive actions."
+    },
+    "rules": {
+      "summary": "[\n  {\"if\": \"Patient uses a global self-condemning label (e.g., 'I am a failure')\", \"then\": \"Prompt patient to reframe statement into specific, concrete feedback about an event or behavior.\"},\n  {\"if\": \"Patient expresses excessive guilt, shame, or depression following a setback\", \"then\": \"Facilitate discussion distinguishing between healthy and unhealthy negative emotions and challenge overgeneralisation.\"},\n  {\"if\": \"Patient displays resignation and low effort due to self-condemnation\", \"then\": \"Encourage adoption of high frustration tolerance and active problem-solving.\"},\n  {\"if\": \"Patient expresses fear that self-acceptance means 'giving up'\", \"then\": \"Clarify that self-acceptance involves responsibility and constructive behavioral change.\"},\n  {\"if\": \"Patient applies harsher standards to themselves than to others\", \"then\": \"Challenge the double standard and encourage compassionate, best-friend-like self-appraisal.\"},\n  {\"if\": \"Patient fails to recognize their uniqueness and complexity\", \"then\": \"Facilitate exercises or analogies that highlight multifaceted nature and ever-changing personal identity.\"},\n  {\"if\": \"Patient makes self-worth contingent on external factors\", \"then\": \"Educate and reinforce the principle of intrinsic human worth independent of achievements or approval.\"},\n  {\"if\": \"Patient is reluctant to accept specific behaviors as modifiable versus immutable\", \"then\": \"Help patient distinguish between areas amenable to change and those requiring acceptance.\"}\n]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter describes several high-level intervention phases and strategies for managing anger in CBT:\n- Differentiating between healthy and unhealthy anger.\n- Psychoeducation about triggers, beliefs, and behavioral consequences of anger.\n- Cognitive restructuring of rigid, toxic attitudes underlying unhealthy anger.\n- Training in assertive communication as an alternative to passive or aggressive behavior.\n- Developing frustration tolerance.\n- Cost–benefit analysis of anger responses.\n- Teaching coping skills for criticism and workplace stress.\n- Encouraging behavioral experiments to test predictions about assertive versus aggressive responses.\n- Supporting attitude shifts toward acceptance of self and others."
+    },
+    "micro_actions": {
+      "summary": "- Prompting patient to describe recent angry incidents and identify whether their anger was healthy or unhealthy.\n- Asking the patient to analyze their beliefs and attitudes contributing to anger (e.g., rigid demands, personal rules).\n- Guiding the use of ABC forms to record and replace unhealthy with healthy thoughts.\n- Encouraging identification of early physical signs of anger and triggers.\n- Coaching patient to express anger or annoyance assertively using \"I feel\" statements, staying respectful and clear.\n- Role-playing responses to criticism, including practicing the \"disarming technique\": partial agreement, empathy, information-seeking, expressing own viewpoint.\n- Encouraging patients to list and question their \"intolerance\" statements when frustrated.\n- Supporting preparation and planning for potentially anger-triggering conversations at work.\n- Reinforcing professional behaviors (posture, speech, question-asking, listening) in workplace scenarios.\n- Providing feedback and empathy on obstacles to changing anger patterns."
+    },
+    "conversation_states": {
+      "summary": "- Patient’s anger episode frequency, intensity, and type (healthy vs. unhealthy).\n- Triggers/themes for anger (broken rules, threats to self-esteem, frustration).\n- Patient’s underlying attitudes: rigid demands, intolerance, self-worth fragility.\n- Behavioral responses: assertion, aggression, passivity, passive-aggression.\n- Physical signs of anger (fists, muscular tension, temperature).\n- Ability to use assertive vs. aggressive communication, particularly in response to criticism or conflict.\n- Flexibility in preferences, acceptance of self and others.\n- Frustration tolerance level.\n- Response to criticism: personalization, ability to seek specifics, defensiveness.\n- Motivation and obstacles to changing anger habits."
+    },
+    "knowledge_graph": {
+      "summary": "- Patient’s patterns of anger: antecedents, triggers, types (healthy/unhealthy), and consequences.\n- Strong personal rules or toxic beliefs about self, others, and the world.\n- Development of assertiveness skills and responses to criticism.\n- Attitudes toward frustration and tolerance levels.\n- History of anger in relationships and workplaces.\n- Changes in self-acceptance and acceptance of others.\n- Outcomes of behavioral experiments regarding anger/communication.\n- Impact of anger on physical health and relationships."
+    },
+    "cautions": {
+      "summary": "- Therapist should avoid:\n  - Encouraging \"venting\" or cathartic expression of rage; such practices reinforce angry responses.\n  - Validating or supporting rigid, demanding, or self-righteous attitudes.\n  - Minimizing or ignoring the negative consequences of unhealthy anger (harm to relationships, health, self-esteem).\n  - Suggesting avoidance or passivity as a solution (risk of bottling up anger).\n  - Encouraging aggressive responses, including revenge, insults, or intimidation.\n  - Responding defensively to patient’s anger or criticism; avoid escalation.\n  - Allowing the session to reinforce unhealthy power dynamics or disrespect."
+    },
+    "rules": {
+      "summary": "[\n  {\"if\": \"Patient expresses rigid demands about others' behavior or the world\", \"then\": \"Prompt cognitive restructuring to create flexible preferences and acceptance.\"},\n  {\"if\": \"Patient shows physical signs of mounting anger in session\", \"then\": \"Pause and guide patient to notice their early warning signs and consider cooling down strategies.\"},\n  {\"if\": \"Patient reports aggressive or passive-aggressive behavior in response to anger\", \"then\": \"Coach and role-play assertive communication skills for addressing conflict.\"},\n  {\"if\": \"Patient voices intolerance statements during frustration\", \"then\": \"Support reframing to increase frustration tolerance and encourage less extreme judgments.\"},\n  {\"if\": \"Patient receives criticism and reacts defensively or with anger\", \"then\": \"Model the disarming technique: find partial agreement, show empathy, seek clarification, express own feelings respectfully.\"},\n  {\"if\": \"Patient appears to lack motivation or expresses doubts about changing anger\", \"then\": \"Facilitate cost–benefit analysis of current anger responses versus healthier alternatives.\"},\n  {\"if\": \"Patient expresses concern about becoming passive if anger is reduced\", \"then\": \"Clarify the distinction between assertive and passive responses, and reinforce assertiveness training.\"},\n  {\"if\": \"Patient is faced with workplace conflict or anger\", \"then\": \"Prepare and plan assertive, professional communication; reinforce maintaining self-control, appropriate boundaries, and collaborative skills.\"},\n  {\"if\": \"Patient is unable to differentiate between personal and professional criticism\", \"then\": \"Remind and assist in distinguishing between feedback on performance and personal attacks.\"}\n]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter describes several high-level phases and strategies for intervention with illness anxiety: (1) identifying and profiling the patient's illness anxiety and related behaviors (checking, reassurance-seeking, avoidance); (2) psychoeducation about the normalcy of bodily sensations and the tendency for catastrophic misinterpretation; (3) cognitive restructuring via generation of alternative interpretations of symptoms (e.g., three-column chart, interpretation pie chart); (4) increasing tolerance of uncertainty about health; (5) behavioral experiments (e.g., cost–benefit analysis, planned confrontation of feared scenarios, attention modification, delay and revisit of triggers); and (6) reduction of safety-seeking behaviors (checking, reassurance-seeking, avoidance)."
+    },
+    "micro_actions": {
+      "summary": "Operationalization at the utterance level includes: asking the patient to monitor and record checking and avoidance behaviors over time; guiding the patient to identify and articulate catastrophic interpretations of bodily sensations; prompting the patient to rate belief strength in catastrophic thoughts; facilitating the generation of alternative, less-threatening explanations for symptoms; instructing the use of pie charts to visualize probability; encouraging reflection on the emotional and behavioral impact of beliefs; directing cost–benefit analysis dialogue; scheduling reminders to delay immediate rumination or checking; prompting redirection of attention during the session; and supporting tolerance for uncertainty when alternative explanations seem unsatisfactory."
+    },
+    "conversation_states": {
+      "summary": "Therapist should continuously track: degree and frequency of health-related preoccupation; hours spent thinking about health; frequency and type of checking, reassurance-seeking, and avoidance behaviors; presence and strength of catastrophic health beliefs; emotional responses (anxiety, distress); attention focus (health vs. other topics); ability to generate alternative interpretations; tolerance for uncertainty; engagement in behavioral experiments; and progress in reducing safety-seeking behaviors."
+    },
+    "knowledge_graph": {
+      "summary": "Long-term memory dimensions to track across sessions include: individualized profile of illness anxiety (specific feared illnesses, typical catastrophic interpretations, main bodily sensations that trigger anxiety); baseline and changes in checking/reassurance/avoidance patterns; patient’s family medical history and objective health risks; progress in cognitive restructuring (chart/pie chart work); patient’s tolerance of uncertainty; use and outcome of behavioral experiments; effectiveness of attention modification and reduction in preoccupation; history of any comorbid conditions (OCD, GAD, SSD)."
+    },
+    "cautions": {
+      "summary": "Therapist should not: invalidate or minimize genuine medical concerns; assume all physical symptoms are psychological; encourage avoidance of legitimate medical care when warranted; reinforce catastrophic interpretations or safety-seeking behaviors through inadvertent reassurance; rush patients toward reinterpretation before building foundational understanding; neglect tolerance of uncertainty as a key target; or push behavioral experiments without appropriate preparation or safety."
+    },
+    "rules": {
+      "summary": "[{\"if\": \"patient presents with excessive preoccupation over health concerns\", \"then\": \"initiate assessment and profiling of illness anxiety behaviors and beliefs\"},{\"if\": \"patient expresses catastrophic misinterpretation of bodily sensations\", \"then\": \"guide patient in generating and rating alternative, less-threatening explanations\"},{\"if\": \"patient shows intolerance of uncertainty regarding health\", \"then\": \"implement strategies and dialogue to increase tolerance for uncertainty\"},{\"if\": \"patient repeatedly seeks reassurance, checks symptoms, or avoids triggers\", \"then\": \"develop behavioral experiments and attention strategies to reduce these safety-seeking behaviors\"},{\"if\": \"patient becomes distressed when unable to identify a benign explanation\", \"then\": \"normalize uncertainty rather than providing reassurance or speculative medical advice\"},{\"if\": \"patient demonstrates willingness to engage in behavioral experiments\", \"then\": \"structure and monitor these activities, ensuring preparation and support\"},{\"if\": \"patient presents unexplained physical symptoms\", \"then\": \"avoid dismissing symptoms as purely psychological without appropriate medical review\"}]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The high-level phases and strategies described include: exploring and contextualizing current problems in relation to past experiences; identifying and articulating core beliefs (about self, others, and the world); examining how these beliefs influence present emotions and behaviors; detecting and making explicit the patient's negative core beliefs using structured methods; formulating and reflecting on the history and impact of beliefs; increasing awareness of belief activation; developing and strengthening healthier alternative core beliefs; and encouraging patients to challenge and update old meanings assigned to past events."
+    },
+    "micro_actions": {
+      "summary": "- Micro-intervention actions operationalizing the above include: \n  - Guiding the patient to identify specific situations that trigger negative emotions and facilitating \"downward arrow\" questioning to uncover underlying core beliefs.\n  - Reviewing ABC forms and tracking recurring themes in automatic thoughts.\n  - Prompting the patient to fill in blank statements (\"I am...\", \"Other people are...\", \"The world is...\") to reveal implicit beliefs.\n  - Assisting in the completion of belief formulation worksheets, categorizing events, core and conditional beliefs, coping behaviors, and positive evidence.\n  - Instructing the patient to create and regularly use a core belief flashcard detailing their core belief, its effects, alternative explanations, and adaptive behaviors.\n  - Guiding the patient through exercises to reinterpret old meanings of past events (e.g., three-column worksheet separating event, old meaning, and new meaning).\n  - Prompting reflection using hypothetical situations (e.g., \"What advice would you give to a friend or child?\") to foster compassionate and objective belief evaluation.\n  - Explicitly encouraging patients to act \"as if\" their new, healthier alternative beliefs are true in relevant situations."
+    },
+    "conversation_states": {
+      "summary": "- Variables/dimensions for therapist to track include:\n  - Patient’s current emotional responses and the situations/events triggering them.\n  - Content, absolute nature, and activation status of core beliefs (about self, others, and world).\n  - Frequency and patterns of negative automatic thoughts and behavioral responses.\n  - Patient’s ability to detect and articulate their core beliefs.\n  - Evidence and counter-evidence for both negative and alternative beliefs (including positive feedback and experiences).\n  - The degree to which the patient can generate and apply new meanings to old experiences.\n  - Level of commitment/action in living by healthier beliefs.\n  - The patient’s self-compassion vs self-criticism during reflection."
+    },
+    "knowledge_graph": {
+      "summary": "- Long-term dimensions to track across sessions:\n  - Historical events and formative experiences shaping core beliefs.\n  - Catalog of the patient’s specific core/conditional beliefs and the evidence supporting or contradicting them.\n  - Behavioral patterns (avoidance, compensatory behaviors) linked to these beliefs.\n  - Patient’s progress in detecting triggers and belief activation.\n  - List of developed alternative core beliefs and their evolution.\n  - Positive personal qualities and supportive experiences serving as counterweights to negative beliefs.\n  - Records of reinterpreted events with new, adaptive meanings.\n  - The patient’s responses to exercises, use of tools (e.g., flashcards), and progress in acting by new beliefs."
+    },
+    "cautions": {
+      "summary": "- Warnings and risks include:\n  - Avoid reinforcing or validating the patient’s negative, absolute, and unhealthy core beliefs.\n  - Do not encourage \"positive thinking\" that is unrealistic, simplistic, or dismissive of the patient’s experiences.\n  - Avoid telling patients to simply \"erase\" old beliefs or to make extreme and opposite changes too quickly.\n  - Do not neglect the importance of self-compassion or foster excessive self-blame/guilt during belief review.\n  - Avoid encouraging the patient to ignore positive evidence or distort it to fit negative beliefs.\n  - Do not jump to conclusions about the origin of beliefs without thorough exploration, nor assume all beliefs stem solely from childhood.\n  - Avoid using therapist’s language for alternative beliefs if it does not match the patient’s authentic self-talk."
+    },
+    "rules": {
+      "summary": "[\n    {\"if\": \"patient presents a situation with strong negative emotion\", \"then\": \"use downward arrow questioning to uncover underlying core belief\"},\n    {\"if\": \"patient struggles to identify core beliefs\", \"then\": \"prompt them to fill in statements about self, others, and the world\"},\n    {\"if\": \"automatic thoughts follow a recurring negative theme\", \"then\": \"hypothesize a related core belief and discuss patterns\"},\n    {\"if\": \"core beliefs are identified\", \"then\": \"work with patient to formulate alternative, less absolute and more realistic beliefs\"},\n    {\"if\": \"patient displays avoidant or compensatory behaviors\", \"then\": \"link behaviors to underlying beliefs and address in formulation\"},\n    {\"if\": \"positive evidence contradicting core beliefs emerges\", \"then\": \"encourage recognition and elaboration of this evidence\"},\n    {\"if\": \"core belief is activated and distorts perception of events\", \"then\": \"guide patient to use a flashcard or reframing tool for alternate interpretation\"},\n    {\"if\": \"reviewing past events tied to negative beliefs\", \"then\": \"assist patient with new meaning assignment through structured worksheet\"},\n    {\"if\": \"patient is resistant to alternative beliefs\", \"then\": \"suggest gradual, compassionate shifts rather than extreme reversals\"},\n    {\"if\": \"patient expresses new, healthier beliefs\", \"then\": \"prompt action consistent with new beliefs to reinforce change\"}\n  ]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter describes high-level CBT intervention strategies aimed at consolidating new, healthy beliefs and attitudes. Major phases include: helping the patient define which alternative beliefs to reinforce, guiding the patient through cognitive dissonance and 'head-to-heart' problems, encouraging 'acting as if' new beliefs are true, developing a portfolio of arguments for and against old and new beliefs, practicing belief strengthening using the zigzag technique, testing new beliefs in real-life situations, and nurturing new beliefs via evidence tracking (positive data logs)."
+    },
+    "micro_actions": {
+      "summary": "Therapists operationalize these strategies by: prompting the patient to rate their conviction in new beliefs (0–100%), asking targeted questions to help the patient detail how they would behave if their new belief were true, helping the patient troubleshoot challenges and observe others endorsing similar beliefs, facilitating written exercises to generate arguments against old beliefs (fact-checking, logic, helpfulness, rigidity, extremity), guiding the patient to produce logical, flexible, balanced, and helpful arguments supporting the new belief, using the zigzag technique to iteratively dispute doubts and reaffirm convictions, setting up behavioral experiments ('tests') in real-life situations, and encouraging regular, detailed entries in a positive data log capturing evidence for the new belief and contradictions of the old belief."
+    },
+    "conversation_states": {
+      "summary": "Relevant variables to track during the session include: patient's conviction/endorsement strength for specific beliefs (0–100%), degree and nature of cognitive dissonance, emergence of doubts/attacks on new beliefs, ability to generate supporting/refuting arguments, emotional responses (anxiety, panic, self-acceptance), reported behavioral changes, experiences in real-life tests of new beliefs, perceived outcomes and feedback from these actions, and the ongoing accumulation of supportive evidence in positive data logs."
+    },
+    "knowledge_graph": {
+      "summary": "Long-term dimensions to track across sessions include: catalog of patient's old unhelpful beliefs and new alternative beliefs, historic and current strength-of-conviction ratings, records of specific behavioral experiments and their outcomes, nature and sources of previous doubts and reservations, evidence and arguments generated in favor/against beliefs, positive data log entries (including emotional/behavioral changes, feedback from others), and information regarding setbacks or relapses in old patterns."
+    },
+    "cautions": {
+      "summary": "Therapists should not: expect or enforce perfection in belief/behavior change, encourage patients to suppress or ignore doubts (should address them explicitly), allow unchecked cognitive dissonance to persist, overlook the need for repeated testing and practice, or neglect collecting real evidence supportive of new beliefs. Avoid rigid or extreme approaches to belief change, and do not push for instant or complete conviction."
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "Patient reports only intellectual understanding of new belief but doubts remain",
+          "then": "Facilitate 'acting as if' exercises and behavioral tests of new beliefs."
+        },
+        {
+          "if": "Patient expresses doubts or reservations about new belief",
+          "then": "Apply the zigzag technique to dispute doubts and strengthen conviction."
+        },
+        {
+          "if": "Patient is experiencing cognitive dissonance",
+          "then": "Normalize discomfort, explain it's a sign of change, and encourage continued practice."
+        },
+        {
+          "if": "Patient displays perfectionist attitudes about thought/behavior change",
+          "then": "Remind the patient that practice makes imperfect and encourage acceptance of setbacks."
+        },
+        {
+          "if": "Patient is struggling to weaken old beliefs",
+          "then": "Prompt generation of arguments (factual, logical, helpfulness checks) against old belief and for new belief."
+        },
+        {
+          "if": "Patient is bedding down new beliefs",
+          "then": "Encourage frequent reference to a positive data log documenting supportive evidence and helpful outcomes."
+        },
+        {
+          "if": "Therapist encounters patient suppressing doubts",
+          "then": "Explicitly invite, explore, and address those doubts to prevent relapse."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter outlines several high-level interventions for the therapist: helping patients identify and choose healthy lifestyle activities; encouraging self-care and relationship building; facilitating effective communication skills; assisting in evaluating and living in accordance with personal values; planning and preventing relapse; supporting the restoration of intimacy, including sexual relationships; and promoting involvement in meaningful pursuits (community, hobbies, personal development)."
+    },
+    "micro_actions": {
+      "summary": "Guide the patient to list past and new activities they enjoy or want to try; Encourage concrete planning, including setting start dates for new healthy behaviors; Help the patient balance activity types and daily routines; Invite reflection on values by asking targeted questions about interests, principles, and admired individuals; Support the patient in making specific plans and schedules to act on values; Employ six-step structured approaches to improve dialogue (e.g. ‘I feel’ statements, feedback, listening, accepting criticism); Encourage non-sexual physical contact and open discussion about intimacy when relevant; Prompt review and adjustment of routine behaviors, aiming to increase positive behaviors and reduce negative ones; Help the patient record and analyze behaviors (e.g., eating habits) and identify barriers."
+    },
+    "conversation_states": {
+      "summary": "Patient's current and target mood/state of psychological/physical health; Ongoing activity engagement (quantity, type, frequency); Adherence to healthy routines (sleep, exercise, diet, social contact); Values and priorities (explicitly listed, observed, or discussed); Motivation and readiness for change; Quality and quantity of social relationships (support network, intimacy levels, communication patterns); Barriers or negative habits (e.g. avoidance, unhealthy lifestyle choices); Relapse risk indicators (slippage into old habits, withdrawal, reduction in healthy activities); Emotional response to relapse prevention planning, self-care, and value-aligned behaviors."
+    },
+    "knowledge_graph": {
+      "summary": "Patient’s history of symptoms and recovery progress; Lists of activities and hobbies enjoyed (past, current, and desired); Record of values, priorities, and associated value-based behaviors (with frequency); Relationship status and changes (including intimacy, social network, sources of support); Patterns in healthy and unhealthy habits (diet, exercise, sleep, substance use, routines); Historical barriers to lifestyle change; Notes on personal development goals (study, work, skills); Documentation of communication patterns and difficulties; Relapse prevention plan details."
+    },
+    "cautions": {
+      "summary": "Avoid pressuring patients into activities that conflict with their core personality or abilities; Do not encourage obsessive/compulsive behaviors in healthy routines (e.g., excessive exercise for unhealthy reasons); Avoid blaming language in relationship communication; Do not impose therapist’s own values over the patient’s (guarding against “adoption” of others’ values due to self-doubt); Avoid making assumptions about intimacy, sexual interest, or relationship priorities without open dialogue; Do not ignore the patient’s stated boundaries or comfort zones, especially regarding sex and personal life changes; Avoid neglecting the importance of small, incremental changes and self-compassion during transitions."
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "Patient expresses uncertainty about enjoyable or meaningful activities.",
+          "then": "Guide the patient to list past and new activities, suggest examples, and help them choose a few to start."
+        },
+        {
+          "if": "Patient’s routines or habits indicate neglect of healthy behaviors.",
+          "then": "Prompt the patient to evaluate daily/weekly habits and work to replace negative behaviors with positive ones."
+        },
+        {
+          "if": "Patient struggles to identify or honor personal values.",
+          "then": "Ask values-focused questions, and help patient reflect and plan value-aligned activities with specific schedules."
+        },
+        {
+          "if": "Patient or partner reports relationship strain",
+          "then": "Implement the six-step structured communication guide and encourage open, non-blaming dialogue."
+        },
+        {
+          "if": "Patient reports low motivation or failure to follow through on intentions.",
+          "then": "Support creation of concrete plans with definite start dates and small incremental steps."
+        },
+        {
+          "if": "Patient engages in excessive exercise or unhealthy behaviors for harmful motives (punishment, appearance, etc.)",
+          "then": "Assess motivation, educate about healthy reasons, and redirect focus as needed."
+        },
+        {
+          "if": "Patient demonstrates self-doubt regarding values or adopts others’ values unquestioningly.",
+          "then": "Encourage patient to reflect independently and validate their own choices."
+        },
+        {
+          "if": "Patient is reluctant or uncertain about intimacy or sexual issues.",
+          "then": "Facilitate open, non-judgmental conversation and suggest non-sexual ways of reconnecting."
+        },
+        {
+          "if": "Patient is at risk of relapse or returning to old unhealthy habits.",
+          "then": "Review relapse prevention strategies and incorporate self-care and value-based actions into plan."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The therapist systematically guides the patient through phases of identifying and overcoming internal obstacles (shame, guilt, pride) to progress. They employ strategies such as emotional awareness, self-acceptance, compassion training, goal setting and review, cognitive restructuring (especially of task-interfering cognitions), and repeated behavioral/CBT experiments. Support seeking and open discussion of problems are encouraged, alongside cultivation of perseverance and optimism. The therapist helps the patient sidestep common motivational traps such as passivity, fatalism, excessive dependence, and low frustration tolerance."
+    },
+    "micro_actions": {
+      "summary": "Therapist prompts patient to name and explore feelings related to their problems (shame, guilt, pride), encourages verbalization and reframing of self-critical thoughts, supports completion of forms like the Tic-Toc sheet (identifying task-interfering and task-orienting cognitions), guides cost–benefit analyses for goal pursuit, reinforces self-compassionate self-talk, reminds patient of previous successes, facilitates breaking goals into smaller, manageable steps, and prompts repeated practice of new behaviors and thoughts even when unnatural or uncomfortable. Therapist may directly challenge fatalistic and passive statements, validate concerns, and invite evidence against negative predictions."
+    },
+    "conversation_states": {
+      "summary": "Therapist tracks level of emotional engagement (shame, guilt, pride), degree of self-compassion vs. self-criticism, patient's acknowledgment/denial of problems, readiness for change, attitude toward help-seeking, explicit and implicit beliefs about recovery/motivation, adherence to goals and behavioral experiments, presence of task-interfering cognitions (TICs), optimism/pessimism about outcome, degree of passivity or autonomy resistance, reliance on external solutions (waiting for others/motivation), and frequency of review/revision of goals."
+    },
+    "knowledge_graph": {
+      "summary": "Long-term tracking of patient's core beliefs and automatic patterns, history of shame/guilt/pride and their effects, records of past attempts, interventions tried (successes/failures), specific task-interfering thoughts and their evolution, attitudes toward professional help, coping strategies used, progress on goal-setting and achievement, instances of passivity/fatalism/autonomy resistance, reliance on external supports, and degree of skill in self-compassion and emotional regulation techniques."
+    },
+    "cautions": {
+      "summary": "Therapist should not ignore or minimize patient's feelings of shame/guilt/pride, should avoid blaming or criticizing the patient for lack of progress, must not coerce or override patient autonomy (especially in those sensitive to being \"bossed around\"), should not reinforce passivity by taking over work for the patient, must not encourage unhelpful dependence on others or external motivators, and must avoid setting overwhelming or unrealistic goals that risk further discouragement."
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "Patient expresses shame or guilt about their problem",
+          "then": "Support patient to verbalize and normalize their feelings and encourage self-acceptance."
+        },
+        {
+          "if": "Patient resists acknowledging their problem due to pride",
+          "then": "Gently challenge pride-based beliefs and reinforce that seeking help shows strength."
+        },
+        {
+          "if": "Patient identifies task-interfering cognition (TIC)",
+          "then": "Prompt patient to generate a task-orienting cognition (TOC) to challenge the TIC."
+        },
+        {
+          "if": "Patient appears passive or waiting for motivation",
+          "then": "Encourage patient to take small actions regardless of motivation level, emphasizing that action precedes motivation."
+        },
+        {
+          "if": "Patient fears being judged or misunderstood",
+          "then": "Provide information and examples to normalize symptoms and reduce isolation."
+        },
+        {
+          "if": "Patient shows signs of low-frustration tolerance",
+          "then": "Coach perseverance and highlight the benefits of sustained effort over time."
+        },
+        {
+          "if": "Patient focuses on fatalistic or special-case thinking",
+          "then": "Help patient test assumptions and look for contrary evidence to encourage flexibility."
+        },
+        {
+          "if": "Patient struggles with goal setting",
+          "then": "Guide patient to break goals down into smaller, achievable steps and review progress regularly."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter focuses on relapse prevention and maintaining treatment gains after CBT by encouraging regular self-monitoring. The therapist promotes the patient's ongoing use of CBT techniques, anticipation and management of setbacks, development of crisis plans, identification of high-risk situations, compassionate self-talk, and replacement of unhealthy beliefs/behaviors (\"weeds\") with healthy alternatives (\"flowers\"). The therapist supports the patient in consolidating new patterns of thinking and behavior, troubleshooting emerging challenges, and fostering self-compassion and resilience."
+    },
+    "micro_actions": {
+      "summary": "- Guide the patient to identify \"weeds\" (unhealthy patterns) and \"flowers\" (healthy patterns) in their thoughts and behaviors.\n- Encourage the patient to write down areas needing continued work and effective CBT strategies/techniques they have learned.\n- Prompt the patient to monitor signs of relapse or emerging unhelpful thought/behavior patterns.\n- Direct the patient to challenge pessimistic thoughts, disrupt rumination, and use mindfulness or task-focused activities.\n- Suggest continued engagement in social activities and healthy routines even when motivation is low.\n- Help the patient compile lists of high-risk situations, triggers, and vulnerable areas.\n- Support the development of plans for possible crises or setbacks, including whom to reach out to and which strategies to use.\n- Facilitate reviewing previous CBT exercises during setbacks.\n- Encourage compassionate self-talk and realistic goal-setting.\n- Reinforce practicing alternative beliefs and behaviors by exposing the patient to triggering situations and guiding their response.\n- Prompt the patient to actively replace old behaviors with new, healthier actions in specific life contexts."
+    },
+    "conversation_states": {
+      "summary": "- Current presence and strength of \"weeds\" (unhealthy beliefs, behaviors, and thinking patterns).\n- Patient’s adherence to healthy routines and behavioral practices.\n- Early warning signs of relapse, e.g., negative thought patterns, withdrawal, changes in motivation, or behavioral avoidance.\n- Stress level and exposure to environmental/interpersonal triggers.\n- Self-compassion versus self-criticism after setbacks.\n- Level of confidence in ability to manage setbacks.\n- Records of which strategies and techniques have been most effective.\n- Engagement in compassionate self-reflection and realistic goal planning."
+    },
+    "knowledge_graph": {
+      "summary": "- Patient’s historical and current \"weeds\" and \"flowers\" (specific unhelpful beliefs/behaviors and new adaptive beliefs/behaviors).\n- Lists of triggers, high-risk situations, and vulnerability factors.\n- Personal crisis/relapse management plan.\n- Record of previous effective CBT strategies and exercises.\n- Progress with specific alternative beliefs and behaviors (including evidence and arguments used to dispute unhealthy beliefs).\n- History of setbacks, relapse episodes, and responses.\n- Patient's support network and typical sources of help.\n- Patterns of compassionate versus self-critical responses to setbacks."
+    },
+    "cautions": {
+      "summary": "- Do not ignore, minimize, or dismiss early signs of relapse.\n- Avoid shaming or blaming the patient for setbacks or recurrence of symptoms.\n- Do not permit avoidance behaviors to go unaddressed, as they reinforce unhealthy beliefs.\n- Avoid making goals overwhelming or unrealistic for the patient.\n- Do not encourage half-hearted efforts at challenging thinking errors; promote systematic and thorough interventions.\n- Avoid assuming a setback means treatment failure; promote a growth mindset."
+    },
+    "rules": {
+      "summary": "[\n  {\"if\": \"Patient identifies signs of unhealthy thoughts or behaviors resurging (weeds)\", \"then\": \"Prompt immediate self-monitoring and active deployment of relevant CBT strategies to address them.\"},\n  {\"if\": \"Patient experiences a setback or relapse\", \"then\": \"Encourage compassionate self-response, review previous gains, and reuse effective CBT techniques.\"},\n  {\"if\": \"Patient engages in avoidance due to fear or unhelpful beliefs\", \"then\": \"Guide exposure to feared situation and challenge avoidance-related beliefs.\"},\n  {\"if\": \"Patient articulates self-criticism or shame over relapse\", \"then\": \"Facilitate compassionate self-talk and reframe setbacks as normal and manageable.\"},\n  {\"if\": \"Patient is in a crisis or at risk for relapse\", \"then\": \"Support development or activation of a crisis management plan, including social/professional supports.\"},\n  {\"if\": \"Patient is setting goals for maintenance\", \"then\": \"Ensure goals are realistic, challenging, but not overwhelming; break down large goals into smaller steps.\"},\n  {\"if\": \"Patient identifies specific triggers or high-risk situations\", \"then\": \"Work collaboratively to plan preventive strategies for those contexts.\"},\n  {\"if\": \"Patient expresses belief that relapse means complete failure\", \"then\": \"Challenge this belief and provide evidence of previous successful change and resilience.\"}\n]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter outlines the process of deciding to seek professional CBT help, selecting an appropriate therapist, preparing for first contact and initial meetings, and engaging actively with the therapist. High-level interventions include conducting assessments, collaboratively establishing treatment goals, reviewing progress regularly, providing psychoeducation about CBT, formulating and implementing homework assignments, and maintaining a collaborative therapeutic alliance. The therapist is expected to challenge problematic beliefs and behaviours, encourage client independence, refer to other professionals if needed, and regularly receive supervision."
+    },
+    "micro_actions": {
+      "summary": "Asking targeted questions about the patient’s symptoms severity, history, and goals. Explaining CBT principles and rationale for interventions. Using scales/measures to monitor mood, anxiety, etc. Reviewing homework and discussing obstacles to completion. Employing active listening, inviting patient questions, feedback, doubts or reservations. Interrupting and refocusing if discussion strays from relevant problems. Eliciting and evaluating automatic thoughts. Providing handouts or recommending reading/resources. Suggesting and co-developing graded exposure and behavioural experiments. Adjusting strategies if patient expresses discomfort or reluctance."
+    },
+    "conversation_states": {
+      "summary": "Severity and persistence of symptoms. Progress on self-help or therapy assignments. Level of engagement, motivation, or ambivalence regarding therapy. Realism and clarity of treatment goals. Patient’s trust and comfort with therapist. Specific barriers or obstacles to progress (e.g., avoidance, embarrassment, inability to concentrate). Feedback and doubts/concerns about therapy or its process. Degree of independence, responsibility-taking, and openness to change."
+    },
+    "knowledge_graph": {
+      "summary": "Patient’s clinical history: diagnoses, symptom severity, treatment attempts (self-help/previous therapies), and response. Record of homework completion, types of assignments, and obstacles encountered. Evolving list of treatment goals and outcomes over sessions. Patient’s beliefs, automatic thoughts, and behavioural patterns. Progress measures (e.g., scales for depression/anxiety) over time. Therapist’s notes on feedback, doubts, or reservations. Information about referrals, other professionals involved, and supervision history."
+    },
+    "cautions": {
+      "summary": "Do not ignore or gloss over severe symptoms, prolonged or worsening problems—refer for specialized assessment or consider psychiatric input. Do not withhold rationale for interventions or keep therapy process opaque. Do not avoid reviewing homework or neglect obstacles to completion. Do not act superior, dismiss patient concerns, or make therapy non-collaborative. Do not breach confidentiality except in cases of clear danger to patient or others. Do not delay or deny referrals for more appropriate treatment when competence or disorder-specific expertise is lacking. Do not push patients into exposure or behavioural experiments when they are not ready—seek alternatives collaboratively."
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "The patient reports severe, persistent, or worsening symptoms interfering with daily life.",
+          "then": "Prioritize referral to a CBT therapist and/or consider psychiatric assessment."
+        },
+        {
+          "if": "The patient has tried self-help approaches without progress after 2-6 weeks.",
+          "then": "Recommend structured sessions with a CBT professional."
+        },
+        {
+          "if": "Session begins or new therapy is initiated.",
+          "then": "Explain CBT principles, approaches, and session structure; invite patient questions."
+        },
+        {
+          "if": "Treatment goals are unrealistic or unclear.",
+          "then": "Collaboratively review and adjust goals with the patient."
+        },
+        {
+          "if": "Homework is incomplete or not done.",
+          "then": "Discuss obstacles, provide rationale, and collaboratively develop alternative assignments if needed."
+        },
+        {
+          "if": "The patient expresses doubts, fears, or reservations.",
+          "then": "Acknowledge and invite discussion to address these concerns."
+        },
+        {
+          "if": "Patient wants a different therapist, or has issues with gender/cultural background.",
+          "then": "Arrange referral or explore alternatives to meet patient's preferences."
+        },
+        {
+          "if": "Therapist lacks disorder-specific training/experience.",
+          "then": "Seek supervision/training or refer to another competent professional."
+        },
+        {
+          "if": "Patient is reluctant to engage in specific interventions.",
+          "then": "Discuss rationale, respect the patient’s readiness, and offer manageable steps or alternatives."
+        },
+        {
+          "if": "Therapist is asked about supervision or credentials.",
+          "then": "Answer openly and provide evidence as appropriate."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The therapist helps the patient explore, understand, and adopt rational philosophies for living, aimed at improving psychological health and resilience. Key strategies include promoting emotional responsibility, encouraging flexible thinking, valuing individuality, accepting life’s unfairness, recognizing that approval from others is not necessary, understanding that love is desirable but not essential, fostering tolerance of short-term discomfort, advocating enlightened self-interest, pursuing personally meaningful goals and values, and tolerating uncertainty. The therapist supports reflection on these standpoints and facilitates experimentation with these attitudes in daily life."
+    },
+    "micro_actions": {
+      "summary": "The therapist asks targeted questions that prompt the patient to assess their responsibility for emotional reactions and situations. They assist the patient in challenging rigid “must/should” thinking, encourage self-acceptance independent of external approval or relationships, help reframe perceptions of unfairness and uncertainty, provide validation for individuality, reinforce choices aligned with personal values, guide the patient in tolerating discomfort and delaying gratification for long-term goals, and help distinguish between enlightened self-interest and selfishness. The therapist also encourages the patient to create actionable plans for pursuing hobbies and interests, and to normalize calculated risk-taking."
+    },
+    "conversation_states": {
+      "summary": "The therapist should track the patient’s core philosophies and attitudes toward self, others, and the world; levels of emotional responsibility; degree of acceptance or resistance to reality and uncertainty; pursuit of personal interests and values; self-worth contingent on approval or love; tolerance of discomfort; expression of individuality versus conformity; and balance between self-care and care for others."
+    },
+    "knowledge_graph": {
+      "summary": "Long-term tracking should include: patient’s adopted/rational philosophies, habitual thinking patterns (“musts/shoulds”), beliefs about responsibility, tendency to seek approval, tolerance for being single or alone, relationship history (especially regarding jealousy and dependency), experience with and tolerance of discomfort, patterns of self-interest vs. self-neglect or selfishness, consistency of life choices with personal values, engagement in meaningful activities/hobbies, and attitudes/behaviors toward uncertainty and risk."
+    },
+    "cautions": {
+      "summary": "The therapist should avoid encouraging reliance on external approval or relationships for self-worth, promoting unrealistic demands for certainty, endorsing passive waiting for change, reinforcing avoidance of discomfort, or conflating enlightened self-interest with selfishness. Avoid pressuring the patient to disregard personal values for conformity, to seek perfection in relationships, or to deny/emotionally suppress feelings associated with life’s unfairness."
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "patient expresses rigid 'must/should' demands about self, others, or the world",
+          "then": "encourage flexible, rational re-evaluation and acceptance of reality"
+        },
+        {
+          "if": "patient attributes emotional problems solely to external events",
+          "then": "prompt reflection on personal emotional responsibility and responses"
+        },
+        {
+          "if": "patient expresses fear of disapproval or excessive need for external validation",
+          "then": "facilitate self-acceptance independent of others' approval"
+        },
+        {
+          "if": "patient struggles to tolerate being single or displays relationship dependency",
+          "then": "reframe love/partnership as desirable but not essential and support building secure self-worth"
+        },
+        {
+          "if": "patient avoids discomfort or immediate pain",
+          "then": "encourage tolerance and link short-term discomfort to long-term goals"
+        },
+        {
+          "if": "patient neglects self-care or personal interests for others",
+          "then": "support balanced enlightened self-interest and clarify difference from selfishness"
+        },
+        {
+          "if": "patient fixates on unfairness or unpredictability of life",
+          "then": "guide toward acceptance and focus on adaptive coping"
+        },
+        {
+          "if": "patient’s life is dominated by work/chores at the expense of hobbies or values",
+          "then": "encourage engagement in personally meaningful activities"
+        },
+        {
+          "if": "patient expresses intolerance of risk or uncertainty",
+          "then": "normalize uncertainty and promote calculated risk-taking over excessive reassurance-seeking"
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter highlights ten ineffective strategies for boosting self-esteem and recommends that therapists help patients to: 1) Recognize and discontinue counterproductive self-esteem behaviors (e.g., putting others down, seeking approval, perfectionism, avoiding failure/emotions); 2) Encourage more constructive, self-accepting attitudes and behaviors; 3) Challenge and re-evaluate maladaptive beliefs and motivations underpinning low self-worth (e.g., the need to be special, fear of criticism/failure, blaming others); 4) Substitute unhealthy self-esteem management strategies with healthier, acceptance-based alternatives."
+    },
+    "micro_actions": {
+      "summary": "Therapists should: \n- Prompt clients to reflect on their current self-esteem boosting strategies and recognize their ineffectiveness.\n- Gently challenge and explore the beliefs underlying such strategies (e.g., \"What makes you feel you need everyone’s approval?\").\n- Encourage clients to experiment with self-acceptance and authentic self-expression in session (\"Try describing an imperfection and notice how it feels.\").\n- Support clients in noticing and accepting their emotions rather than avoiding them.\n- Use guided imagery or role-play to help patients imagine new responses to situations where control, perfectionism, or defensiveness arise.\n- Reframe self-judgment and introduce compassionate self-understanding."
+    },
+    "conversation_states": {
+      "summary": "Therapists should track:\n- The types and frequency of counterproductive self-esteem strategies currently used by the patient.\n- Levels of defensiveness, perfectionism, people-pleasing, avoidance of emotions/criticism/failure.\n- Patient’s underlying beliefs about self-worth (e.g., need to be special, fear of being average).\n- Emotional responses to criticism, rejection, imperfection, or failed attempts to control others.\n- Receptivity to alternative self-acceptance strategies.\n- Sources of self-blame or external blame (nature/nurture/family), including internalized childhood messages."
+    },
+    "knowledge_graph": {
+      "summary": "Long-term dimensions to track across sessions include:\n- Patient’s core beliefs and internalized rules about self-esteem (e.g., \"I must be special to matter,\" \"Mistakes make me worthless\").\n- Common unhealthy compensatory behaviors (e.g., seeking approval, controlling others, self-criticism).\n- Patterns of avoidance (of emotions, situations, criticism).\n- History of family messages and cultural/gender-norm beliefs affecting self-worth.\n- Progress in shifting towards acceptance and reduction of counterproductive strategies."
+    },
+    "cautions": {
+      "summary": "- Do not collude with or reinforce the client’s ineffective self-esteem boosting strategies.\n- Avoid encouraging perfectionism, defensiveness, or controlling behaviors.\n- Do not promote over-reliance on others’ approval or specialness for self-worth.\n- Beware of inadvertently validating external blame for problems (nature, nurture) in a way that undermines personal agency.\n- Do not shame clients for their counterproductive strategies; approach them with compassion.\n- Avoid encouraging suppression or avoidance of emotions."
+    },
+    "rules": {
+      "summary": "[\n  {\"if\": \"Patient expresses the need to put others down to feel better about themselves\", \"then\": \"Encourage exploration and respect for their own and others' uniqueness; shift focus to personal strengths.\"},\n  {\"if\": \"Patient strives to be 'special' to counter feelings of worthlessness\", \"then\": \"Challenge the belief that specialness is necessary; encourage acceptance of being normally worthy.\"},\n  {\"if\": \"Patient attempts to win everyone’s approval\", \"then\": \"Redirect emphasis to self-respect and forging mutually rewarding relationships.\"},\n  {\"if\": \"Patient places themselves above criticism or displays perfectionism\", \"then\": \"Promote acceptance of human imperfection and reframe criticism as natural and growth-oriented.\"},\n  {\"if\": \"Patient avoids emotion, failure, disapproval, or rejection\", \"then\": \"Guide them in accepting emotions and facing avoided situations as opportunities for self-acceptance.\"},\n  {\"if\": \"Patient tries to control others to feel significant\", \"then\": \"Explore the need for influence and practice authentic, respectful interactions.\"},\n  {\"if\": \"Patient over-defends their self-worth and reacts aggressively to slights\", \"then\": \"Encourage calm assertion and self-respect independent of others’ treatment.\"},\n  {\"if\": \"Patient blames nature, nurture, or others for difficulties\", \"then\": \"Facilitate re-evaluation and promote balanced personal responsibility and compassionate self-understanding.\"}\n]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "In this chapter and appendices, the primary macro-actions for therapists (or self-help readers) involve normalizing psychological distress, correcting mental health misconceptions, facilitating help-seeking behaviors, and promoting self-compassion in managing setbacks and progress in recovery. The appendices detail the use of structured CBT worksheets (e.g., ABC forms, cost–benefit analyses, belief change forms) that support core CBT interventions like cognitive restructuring, behavioral experiments, relapse prevention, and value-based action planning."
+    },
+    "micro_actions": {
+      "summary": "Micro-actions include validating the patient's experience to reduce shame, actively debunking myths as they arise in dialogue (e.g., challenging beliefs about weakness or stigma), encouraging patients to share difficulties rather than hide them, exploring and recording beliefs (with prompts like “What does this event mean to you?”), rating conviction in beliefs, identifying and replacing unhelpful thoughts, and guiding patients through gradual exposure or behavioral tasks. Additional micro-actions include helping clients fill out structured forms: noting events, beliefs, consequences, performing cost–benefit analyses, generating alternative thoughts/beliefs, and planning specific behavioral experiments or value-based activities."
+    },
+    "conversation_states": {
+      "summary": "Therapists should track (explicitly or implicitly): patient beliefs about mental health and its stigma, emotional states (including emotional naming and rating), engagement with self-help or professional resources, conviction in beliefs, occurrence of setbacks/relapses, help-seeking attitudes, levels of self-compassion, ongoing progress towards goals, and attitudes toward medication/use of external supports. Progress on structured worksheets (e.g., ABC forms, cost–benefit analysis forms) serves as a dynamic record of thought, emotion, and behavior changes."
+    },
+    "knowledge_graph": {
+      "summary": "Long-term memory dimensions to track across sessions include: core beliefs (old and new) with associated evidence and conviction ratings; history of setbacks and coping responses; progression in self-compassion and help-seeking; use and effectiveness of medication (with side effects/withdrawal experiences); completed forms/charts (e.g., ABC, tic-toc, vicious flower, value-based behaviors) and their evolving content; record of engagement in behavioral experiments and learning; development, weakening, or strengthening of unhelpful myths, attitudes and thinking errors; legal and stigma-related concerns and how they've shifted."
+    },
+    "cautions": {
+      "summary": "Therapists must avoid: reinforcing stigma or myths about psychological weakness, invalidating or trivializing the patient’s experience, romanticizing or minimizing serious mental illness, pressuring self-recovery without support, making assumptions about patient risk without professional assessment, giving medical advice outside scope, allowing shame or secrecy to prevent help-seeking, promoting unreliable information or anecdotal online sources, overgeneralizing or making all-or-none statements, and neglecting the importance of setbacks and the need for self-compassion during recovery."
+    },
+    "rules": {
+      "summary": "[{\"if\": \"Patient expresses shame, secrecy, or fear about having a mental health problem\", \"then\": \"Normalize psychological problems and highlight their similarity to physical illness; counter stigma explicitly.\"}, {\"if\": \"Patient holds myth-based beliefs about their condition (e.g., 'mental illness means weakness', 'I should recover alone', etc.)\", \"then\": \"Gently challenge and correct misconceptions in-session; provide factual explanations and resources.\"}, {\"if\": \"Patient experiences a setback or slow progress in recovery\", \"then\": \"Validate setbacks as normal, encourage self-compassion, and reinforce the need for patience and perseverance.\"}, {\"if\": \"Patient is considering medication or worried about medication stigma\", \"then\": \"Provide balanced psychoeducation about medication, recommend consulting a medical professional, and avoid pressuring or dismissing valid concerns.\"}, {\"if\": \"Patient avoids sharing symptoms due to fear others can 'just tell' or they fear being seen as dangerous\", \"then\": \"Encourage open communication and asking for support; clarify that mental illness is rarely visible or inherently dangerous.\"}, {\"if\": \"Patient attempts to trivialize or romanticize mental illness\", \"then\": \"Educate about the real suffering that accompanies serious mental disorders and discourage minimizing or glamorizing psychopathology.\"}, {\"if\": \"Patient worries seeking help will harm future prospects\", \"then\": \"Educate on patient rights, confidentiality, and the supportive purpose of medical records.\"}, {\"if\": \"Patient reports or demonstrates all-or-nothing/extreme thinking about illness or recovery\", \"then\": \"Support exploration of the continuum of mental health states and realistic recovery trajectories.\"}, {\"if\": \"Patient is not tracking beliefs, emotions, and behaviors systematically\", \"then\": \"Introduce and collaboratively complete structured CBT forms (e.g., ABC, cost–benefit analysis, tic-toc, vicious flower, etc.).\"}]"
+    }
+  }
+]

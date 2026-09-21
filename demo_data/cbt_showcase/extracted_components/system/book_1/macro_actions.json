@@ -1,0 +1,238 @@
+{
+  "macro_actions": [
+    {
+      "name": "Establish Therapeutic Alliance",
+      "description": "Build rapport, trust, and a collaborative partnership to underpin all therapy phases.",
+      "goal": {
+        "objective": "Form a secure, empathetic, and collaborative foundation for therapeutic work.",
+        "success_levels": {
+          "ideal": "Patient feels understood, trusts the therapist, and is actively engaged in session.",
+          "acceptable": "Patient expresses moderate trust and engagement, but relationship feels tentative.",
+          "unsuccessful": "Patient feels disconnected, mistrustful, or unengaged, impeding therapy progress."
+        },
+        "reward_hint": "Patient actively participates, communicates openly, and expresses feeling understood."
+      },
+      "states": [
+        "Initial contact and early sessions",
+        "Patient expresses hesitancy or mistrust",
+        "Therapeutic relationship strains emerge",
+        "Throughout all sessions for maintenance"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "name": "Conduct Cognitive Case Conceptualization",
+      "description": "Formulate and collaboratively refine an individualized cognitive conceptualization of the patient’s problems.",
+      "goal": {
+        "objective": "Achieve a shared cognitive understanding of the patient’s issues to guide treatment.",
+        "success_levels": {
+          "ideal": "Therapist and patient have a clear, agreed-upon cognitive case formulation that guides interventions.",
+          "acceptable": "Case conceptualization is mostly clear but may need refinement; both parties broadly agree.",
+          "unsuccessful": "Case conceptualization is unclear, therapist and patient have differing understandings."
+        },
+        "reward_hint": "Patient can articulate the cognitive model of their problems and connects it to treatment."
+      },
+      "states": [
+        "Assessment/early sessions",
+        "Presentation of complex or poorly understood problems",
+        "Need to target interventions to specific cognitions or beliefs",
+        "Periods requiring revision of treatment approach"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "name": "Psychoeducation and Socialization to Therapy",
+      "description": "Educate the patient about the cognitive model, therapy structure, session format, and expectations.",
+      "goal": {
+        "objective": "Enable patient understanding of CBT principles, methods, and session norms.",
+        "success_levels": {
+          "ideal": "Patient understands key CBT concepts and participates actively according to session structure.",
+          "acceptable": "Patient shows basic comprehension but occasional confusion about therapy methods.",
+          "unsuccessful": "Patient is unclear about CBT rationale, leading to disengagement or misunderstanding."
+        },
+        "reward_hint": "Patient demonstrates understanding and adherence to session routines and therapeutic rationale."
+      },
+      "states": [
+        "Early sessions and initial onboarding",
+        "When patient queries about therapy process",
+        "If patient shows confusion about session structure",
+        "When introducing new techniques"
+      ],
+      "confidence_score": 0.98
+    },
+    {
+      "name": "Collaborative Agenda Setting and Goal Planning",
+      "description": "Set session agendas and treatment goals in partnership with the patient.",
+      "goal": {
+        "objective": "Establish shared, clear session goals and therapeutic objectives.",
+        "success_levels": {
+          "ideal": "Patient and therapist collaboratively set and agree upon clear, attainable session and treatment goals.",
+          "acceptable": "Goals are broadly discussed, but some ambiguity or lack of collaboration exists.",
+          "unsuccessful": "Goals are imposed, unclear, or not discussed; patient feels uninvolved."
+        },
+        "reward_hint": "Patient takes an active role in selecting agenda items and verbalizes goals/goals prioritization."
+      },
+      "states": [
+        "Beginning of every session",
+        "Patient requests to address specific topics",
+        "Reassessment of treatment objectives needed"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "name": "Assessment and Mood Check",
+      "description": "Gather mood ratings and biopsychosocial information to inform session focus and priorities.",
+      "goal": {
+        "objective": "Acquire current emotional and psychological state to guide intervention.",
+        "success_levels": {
+          "ideal": "Accurate information obtained and used to tailor session; patient feels heard.",
+          "acceptable": "Partial assessment completed but may lack depth or specificity.",
+          "unsuccessful": "Mood and psychological status not assessed, risking inappropriate focus."
+        },
+        "reward_hint": "Therapist conducts structured check-in and patient reports mood/emotional state openly."
+      },
+      "states": [
+        "Start of each session",
+        "When patient seems emotionally distressed or withdrawn",
+        "When shift in mood is observed between sessions"
+      ],
+      "confidence_score": 0.96
+    },
+    {
+      "name": "Identification and Evaluation of Automatic Thoughts",
+      "description": "Guide patient to identify, specify, and assess the validity and impact of automatic thoughts.",
+      "goal": {
+        "objective": "Patient reliably identifies automatic thoughts and evaluates their accuracy and effects.",
+        "success_levels": {
+          "ideal": "Patient regularly and accurately identifies and evaluates automatic thoughts during and between sessions.",
+          "acceptable": "Patient can identify some thoughts but struggles with regularity or specificity.",
+          "unsuccessful": "Patient unable or unwilling to identify or evaluate automatic thoughts."
+        },
+        "reward_hint": "Patient articulates automatic thoughts and actively participates in thought evaluation tasks."
+      },
+      "states": [
+        "In sessions focused on cognitive restructuring",
+        "When patient reports strong emotions or problematic situations",
+        "During homework review",
+        "When new thought patterns emerge"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "name": "Modification of Intermediate and Core Beliefs",
+      "description": "Identify, evaluate, and collaboratively modify dysfunctional intermediate and core beliefs.",
+      "goal": {
+        "objective": "Reduce the influence of maladaptive core beliefs and strengthen adaptive beliefs.",
+        "success_levels": {
+          "ideal": "Patient successfully modifies central negative beliefs and adopts adaptive alternatives.",
+          "acceptable": "Partial modification or awareness of core beliefs; progress is evident but incomplete.",
+          "unsuccessful": "Core beliefs remain unaddressed, unchanged, or worsen."
+        },
+        "reward_hint": "Patient expresses new perspectives, beliefs, or shows behavioral change based on shifts in core beliefs."
+      },
+      "states": [
+        "After automatic thoughts have been identified and persist",
+        "When repeated patterns emerge",
+        "If distress or dysfunction seems rooted in deep-seated beliefs",
+        "Later therapy stages targeting underlying schemas"
+      ],
+      "confidence_score": 0.99
+    },
+    {
+      "name": "Skill Acquisition and Behavioral Activation",
+      "description": "Teach practical coping skills, schedule activities, and plan behavioral experiments to improve functioning.",
+      "goal": {
+        "objective": "Equip patient with behavioral and cognitive skills to manage symptoms.",
+        "success_levels": {
+          "ideal": "Patient applies targeted coping strategies and behavioral activation techniques with steady improvement.",
+          "acceptable": "Patient tries skills/activities but uses them inconsistently.",
+          "unsuccessful": "Patient resists skills training or avoids behavioral activation."
+        },
+        "reward_hint": "Patient completes behavioral tasks, demonstrates skill use, and reports improvement in mood/functioning."
+      },
+      "states": [
+        "Sessions focusing on overcoming inactivity or avoidance",
+        "When patient struggles with specific behavioral targets",
+        "When cognitive interventions alone are insufficient"
+      ],
+      "confidence_score": 0.98
+    },
+    {
+      "name": "Structured Problem Solving",
+      "description": "Facilitate analysis, brainstorming, and implementation of solutions to current problems.",
+      "goal": {
+        "objective": "Enable patient to resolve present difficulties using a collaborative stepwise approach.",
+        "success_levels": {
+          "ideal": "Patient learns and applies structured problem solving independently and effectively.",
+          "acceptable": "Patient engages in some steps, but problem-solving process is incomplete.",
+          "unsuccessful": "Patient remains stuck or unable/unwilling to engage in structured problem solving."
+        },
+        "reward_hint": "Patient actively generates solutions, evaluates options, and follows up on plan."
+      },
+      "states": [
+        "When session agenda involves resolving acute problems",
+        "Patient reports feeling overwhelmed, stuck, or indecisive",
+        "Known barriers identified during therapy"
+      ],
+      "confidence_score": 0.97
+    },
+    {
+      "name": "Homework Assignment and Review",
+      "description": "Set, adapt, and review homework assignments collaboratively to promote skill generalization and progress between sessions.",
+      "goal": {
+        "objective": "Foster patient autonomy and mastery by practicing skills outside of sessions.",
+        "success_levels": {
+          "ideal": "Patient completes homework consistently, reports insights, and skill gains.",
+          "acceptable": "Patient completes some homework, shows partial engagement.",
+          "unsuccessful": "Patient disengages from homework or fails to complete assignments."
+        },
+        "reward_hint": "Patient brings completed work, discusses difficulties or successes, and requests new tasks."
+      },
+      "states": [
+        "End of session as ongoing practice",
+        "When consolidation of session learning is needed",
+        "To address skills acquisition failures",
+        "As a tool for relapse prevention"
+      ],
+      "confidence_score": 0.99
+    },
+    {
+      "name": "Session Summarization and Feedback Elicitation",
+      "description": "Summarize session key points and elicit patient feedback to reinforce learning and strengthen therapeutic engagement.",
+      "goal": {
+        "objective": "Ensure patient comprehension of session content and foster collaborative evaluation.",
+        "success_levels": {
+          "ideal": "Patient summarizes learnings and provides constructive feedback.",
+          "acceptable": "Patient acknowledges summary and provides minimal feedback.",
+          "unsuccessful": "Session ends without summary or feedback, patient is confused or uncertain."
+        },
+        "reward_hint": "Patient restates session takeaways and expresses satisfaction or clarifies misunderstandings."
+      },
+      "states": [
+        "End of each session",
+        "If confusion or miscommunication arises",
+        "When patient appears disengaged or needs encouragement"
+      ],
+      "confidence_score": 0.96
+    },
+    {
+      "name": "Termination Preparation and Relapse Prevention",
+      "description": "Prepare patient for therapy ending, teach relapse prevention strategies, review skills, and ensure maintenance of gains.",
+      "goal": {
+        "objective": "Equip patient for lasting self-management, resilience to setbacks, and successful transfer of skills beyond therapy.",
+        "success_levels": {
+          "ideal": "Patient feels prepared for ending therapy, has clear relapse prevention plan, and maintains gains.",
+          "acceptable": "Patient feels somewhat prepared; relapse plan and skills review are incomplete.",
+          "unsuccessful": "Patient feels unprepared or anxious, lacking necessary skills/support for termination."
+        },
+        "reward_hint": "Patient verbalizes readiness for termination and demonstrates relapse prevention strategies."
+      },
+      "states": [
+        "Final phase of therapy",
+        "During session frequency reduction",
+        "When discussing end-of-treatment or setbacks"
+      ],
+      "confidence_score": 0.97
+    }
+  ]
+}

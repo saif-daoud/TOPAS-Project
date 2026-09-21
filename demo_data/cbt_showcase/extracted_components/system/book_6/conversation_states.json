@@ -1,0 +1,219 @@
+[
+  {
+    "Variable Name": "Engagement with Recordkeeping",
+    "Description": "Patient’s willingness and consistency in engaging with session and homework recordkeeping. Essential for accurate monitoring and data-driven interventions.",
+    "Categorical values": [
+      "Willing",
+      "Ambivalent",
+      "Resistant",
+      "Avoidant"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Objectivity of Self-Monitoring",
+    "Description": "Degree to which patient entries are factual versus emotional/subjective. Impacts data reliability for cognitive restructuring.",
+    "Categorical values": [
+      "Objective",
+      "Mixed",
+      "Subjective"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Frequency of Panic/Anxiety Episodes",
+    "Description": "How often anxiety or panic attacks are occurring. Important for tracking therapeutic progress and symptom change.",
+    "Categorical values": [
+      "None",
+      "Rare",
+      "Occasional",
+      "Frequent"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Intensity of Anxiety and Panic",
+    "Description": "Severity of anxiety or panic during episodes, exposures, and homework practice.",
+    "Categorical values": [
+      "Mild",
+      "Moderate",
+      "Severe"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Patterns of Avoidance",
+    "Description": "Occurrence and diversity of avoidance behaviors, including agoraphobic situations, escape, and use of safety signals/behaviors.",
+    "Categorical values": [
+      "No avoidance",
+      "Limited avoidance",
+      "Situational avoidance",
+      "Pervasive avoidance"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Use of Safety Behaviors",
+    "Description": "Reliance on safety signals, superstitious objects, medication, or distraction techniques to manage anxiety.",
+    "Categorical values": [
+      "None",
+      "Intermittent",
+      "Frequent",
+      "Compulsive"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Completion of Homework/Exposures",
+    "Description": "Patient’s progress and adherence with self-monitoring assignments, exposure exercises, and coping strategy practice.",
+    "Categorical values": [
+      "Not completed",
+      "Partially completed",
+      "Completed",
+      "Exceeded"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Awareness of Automatic Thoughts",
+    "Description": "Patient’s insight into own negative automatic thoughts and the capacity to identify them.",
+    "Categorical values": [
+      "Unaware",
+      "Occasionally aware",
+      "Mostly aware",
+      "Consistently aware"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Cognitive Distortions Present",
+    "Description": "Frequency and type of faulty thinking patterns (e.g., catastrophizing, overgeneralization). Guides cognitive restructuring.",
+    "Categorical values": [
+      "None",
+      "Some",
+      "Frequent",
+      "Dominant"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Belief in the Harmfulness of Symptoms",
+    "Description": "Patient’s attribution of physical symptoms as dangerous or harmful, affecting panic maintenance.",
+    "Categorical values": [
+      "Not harmful",
+      "Unsure",
+      "Somewhat harmful",
+      "Very harmful"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Fear of Catastrophic Outcome",
+    "Description": "Strength of belief in feared outcomes and perceived likelihood of catastrophe during anxiety/panic.",
+    "Categorical values": [
+      "No fear",
+      "Mild",
+      "Moderate",
+      "Severe"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Ability to Re-engage After Avoidance/Escape",
+    "Description": "Willingness and ability to resume tasks after avoidance or escape. Important for building resilience.",
+    "Categorical values": [
+      "Not able",
+      "Hesitant",
+      "Usually able",
+      "Consistently able"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Confidence in Coping Skills",
+    "Description": "Patient’s self-efficacy in using learned CBT skills for managing anxiety/panic.",
+    "Categorical values": [
+      "No confidence",
+      "Low",
+      "Moderate",
+      "High"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Progress in Cognitive Restructuring",
+    "Description": "Reduction in catastrophic thinking and adoption of realistic appraisals about symptoms and situations.",
+    "Categorical values": [
+      "No progress",
+      "Some progress",
+      "Substantial progress",
+      "Maintenance"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Emotional Response to Practice/Exposure",
+    "Description": "Level of subjective distress, frustration, or motivation related to recordkeeping and exposure.",
+    "Categorical values": [
+      "Motivated",
+      "Neutral",
+      "Frustrated",
+      "Distressed"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Recognition of Thought-Feeling-Behavior Cycle",
+    "Description": "Patient’s insight into the interplay of thoughts, feelings, and behaviors driving anxiety.",
+    "Categorical values": [
+      "No insight",
+      "Some awareness",
+      "Good understanding",
+      "Comprehensive insight"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Medication Attitudes and Behaviors",
+    "Description": "Patient’s current use, beliefs about, and motivation or ambivalence regarding anxiety/panic medications.",
+    "Categorical values": [
+      "Not using",
+      "Consistent use",
+      "Ambivalent",
+      "Discontinuing"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Relapse Risk",
+    "Description": "Presence of risk factors or early signs of return of significant anxiety or avoidance.",
+    "Categorical values": [
+      "Low",
+      "Moderate",
+      "High"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Helper Involvement and Attitude",
+    "Description": "Supporter’s (helper’s) motivation, emotional stance, and effectiveness in facilitating exposure and safety reduction.",
+    "Categorical values": [
+      "Supportive",
+      "Neutral",
+      "Frustrated",
+      "Accusatory"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Self-Criticism vs. Self-Reward",
+    "Description": "Trend in patient’s self-evaluation following attempts at exposures or homework (self-shaming/rewarding).",
+    "Categorical values": [
+      "Predominantly critical",
+      "Mixed",
+      "Balanced",
+      "Self-rewarding"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  }
+]

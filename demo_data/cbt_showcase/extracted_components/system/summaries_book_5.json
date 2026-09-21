@@ -1,0 +1,1856 @@
+[
+  {
+    "macro_actions": {
+      "summary": "None"
+    },
+    "micro_actions": {
+      "summary": "None"
+    },
+    "conversation_states": {
+      "summary": "None"
+    },
+    "knowledge_graph": {
+      "summary": "None"
+    },
+    "cautions": {
+      "summary": "None"
+    },
+    "rules": {
+      "summary": "None"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "None"
+    },
+    "micro_actions": {
+      "summary": "None"
+    },
+    "conversation_states": {
+      "summary": "None"
+    },
+    "knowledge_graph": {
+      "summary": "None"
+    },
+    "cautions": {
+      "summary": "None"
+    },
+    "rules": {
+      "summary": "None"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "None"
+    },
+    "micro_actions": {
+      "summary": "None"
+    },
+    "conversation_states": {
+      "summary": "None"
+    },
+    "knowledge_graph": {
+      "summary": "None"
+    },
+    "cautions": {
+      "summary": "None"
+    },
+    "rules": {
+      "summary": "None"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "None"
+    },
+    "micro_actions": {
+      "summary": "None"
+    },
+    "conversation_states": {
+      "summary": "None"
+    },
+    "knowledge_graph": {
+      "summary": "None"
+    },
+    "cautions": {
+      "summary": "None"
+    },
+    "rules": {
+      "summary": "None"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter highlights the use of high-level strategies such as helping patients understand how their thoughts affect their feelings, teaching step-by-step skills for mood management, and guiding patients in changing their thinking to achieve lasting changes in their emotions and behaviors."
+    },
+    "micro_actions": {
+      "summary": "Specific micro-interventions are not explicitly described in this chapter. The focus is on the overall approach rather than individual utterances or conversational steps."
+    },
+    "conversation_states": {
+      "summary": "The chapter implies the importance of tracking the patient's current mood, their thoughts and beliefs about emotional situations, their understanding of the connection between thoughts and emotions, and their engagement with learning mood management skills."
+    },
+    "knowledge_graph": {
+      "summary": "Long-term tracking should include the patient's history of mood difficulties, progress in learning and applying cognitive-behavioral skills, patterns of thinking related to problematic emotions, and effectiveness of past interventions."
+    },
+    "cautions": {
+      "summary": "The chapter implicitly cautions therapists not to ignore the role of thoughts in the patient's emotional experience or to use unproven methods unsupported by clinical research."
+    },
+    "rules": {
+      "summary": "- {\"if\": \"the patient presents with challenging moods or emotions\", \"then\": \"teach the patient how their thoughts affect their feelings and guide them in changing their thinking\"}\n- {\"if\": \"introducing skills for mood management\", \"then\": \"use clinically proven, step-by-step strategies based on current research\"}\n- {\"if\": \"evaluating interventions\", \"then\": \"ensure the chosen methods are supported by scientific evidence\"}"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "None"
+    },
+    "micro_actions": {
+      "summary": "None"
+    },
+    "conversation_states": {
+      "summary": "None"
+    },
+    "knowledge_graph": {
+      "summary": "None"
+    },
+    "cautions": {
+      "summary": "None"
+    },
+    "rules": {
+      "summary": "None"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "Based on the provided chapter (the book’s front matter and table of contents), there is no explicit mention of high-level CBT dialogue phases, strategies, or interventions performed by the therapist. The contents do suggest the book covers a sequence of CBT-related steps (e.g., understanding problems, identifying thoughts and moods, balancing thinking, and behavioral experiments), but this is not described in a way that supports step-by-step modeling."
+    },
+    "micro_actions": {
+      "summary": "None"
+    },
+    "conversation_states": {
+      "summary": "None"
+    },
+    "knowledge_graph": {
+      "summary": "None"
+    },
+    "cautions": {
+      "summary": "None"
+    },
+    "rules": {
+      "summary": "None"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "This chapter (Foreword and appendices/epilogue references) provides a high-level orientation to the scope, accessibility, and versatility of Cognitive Therapy (CT)/Cognitive Behavioral Therapy (CBT) interventions described in \"Mind Over Mood.\" It attests to the manual’s use in guiding diverse strategies (e.g., step-by-step CT, integration with mindfulness, acceptance, gratitude, and positive psychology) across various clinical problems, but does not give explicit examples or phases of therapeutic dialogue or intervention implementation."
+    },
+    "micro_actions": {
+      "summary": "None."
+    },
+    "conversation_states": {
+      "summary": "None."
+    },
+    "knowledge_graph": {
+      "summary": "None."
+    },
+    "cautions": {
+      "summary": "None."
+    },
+    "rules": {
+      "summary": "None."
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "None"
+    },
+    "micro_actions": {
+      "summary": "None"
+    },
+    "conversation_states": {
+      "summary": "None"
+    },
+    "knowledge_graph": {
+      "summary": "None"
+    },
+    "cautions": {
+      "summary": "None"
+    },
+    "rules": {
+      "summary": "None"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": [
+        "Structuring therapy sessions around step-by-step CBT skills as outlined in the workbook.",
+        "Reinforcing and reviewing CBT skills taught to clients during therapy.",
+        "Assisting clients in continuing the learning and application of CBT skills beyond formal sessions.",
+        "Sequentially teaching CBT skills, building new ones on established foundations.",
+        "Integrating empirically supported methods (including behavioral activation, cognitive restructuring, relaxation, exposure, acceptance, mindfulness, and positive psychology) as needed.",
+        "Using troubleshooting and “Helpful Hints” guides to help clients overcome stuck points and obstacles."
+      ]
+    },
+    "micro_actions": {
+      "summary": [
+        "Guiding clients in completing mood questionnaires and structured worksheets.",
+        "Providing in-the-moment feedback as clients apply specific CBT skill steps.",
+        "Encouraging clients to articulate their understanding of each skill and its relevance.",
+        "Prompting clients to discuss their experiences applying skills to real life.",
+        "Identifying and addressing specific points where clients become “stuck.”",
+        "Reinforcing skill acquisition through immediate problem-solving and clarification."
+      ]
+    },
+    "conversation_states": {
+      "summary": [
+        "Level of client understanding of current CBT skill being taught.",
+        "Client engagement and motivation in practicing skills.",
+        "Emotional state (mood intensity, distress level) during the session.",
+        "Degree to which previously learned skills have been mastered and are being applied.",
+        "Points of confusion, resistance, or “stuck” areas for the client.",
+        "Client feedback regarding relevance and effectiveness of skills being taught."
+      ]
+    },
+    "knowledge_graph": {
+      "summary": [
+        "Record of CBT skills acquired and practiced by the client.",
+        "Historical log of mood ratings, questionnaire results, and worksheet completions.",
+        "Notation of recurring psychological problems or stuck points.",
+        "List of empirically supported interventions used, and client response to each.",
+        "Patterns in the application of CBT skills outside of therapy and level of independence achieved."
+      ]
+    },
+    "cautions": {
+      "summary": [
+        "Do not introduce methods lacking empirical support or those contraindicated by scientific evidence.",
+        "Avoid deviating from best-practice psychotherapy principles.",
+        "Do not proceed to new skills before foundational ones are learned.",
+        "Avoid pressuring clients to move too quickly, or dismissing difficulties when clients feel “stuck.”",
+        "Ensure skills and strategies are adapted to be culturally and contextually relevant; do not impose rigid frameworks."
+      ]
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "A client demonstrates confusion or repeated difficulty with a CBT skill.",
+          "then": "Pause and use troubleshooting guides to clarify and reinforce the skill before proceeding."
+        },
+        {
+          "if": "A new CBT skill is to be introduced.",
+          "then": "Ensure the client has adequately learned and practiced prerequisite skills first."
+        },
+        {
+          "if": "The therapist considers using an intervention.",
+          "then": "Confirm it is empirically supported and consistent with best practices."
+        },
+        {
+          "if": "A client shows signs of low engagement or motivation.",
+          "then": "Reinforce the practical relevance of skills and celebrate small successes to boost motivation."
+        },
+        {
+          "if": "The client completes a mood questionnaire or worksheet.",
+          "then": "Review and discuss results immediately, linking insights to current therapy goals and actions."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter describes the use of structured CBT interventions, primarily through worksheet-guided phases. High-level strategies evident from the worksheet topics include: problem identification, thought-mood connection exploration, mood identification and rating, goal setting and tracking, cognitive restructuring (evidence gathering, thought records), core belief identification and modification, behavioral experiments, gratitude and kindness exercises, and tracking of depression/anxiety/mood-related symptoms across time."
+    },
+    "micro_actions": {
+      "summary": "Micro-intervention actions implicit in the worksheet structure include: prompting clients to articulate and distinguish situations, moods, and thoughts; guiding identification and rating of moods and thoughts; eliciting evidence for and against thoughts; facilitating use of thought records; supporting downward arrow technique to explore core beliefs; facilitating setting and reviewing action plans; collecting self-monitoring data (activities, mood, anxiety, symptoms); guiding rating of beliefs and behaviors; assigning and reviewing specific gratitude or behavioral exercises; and prompting reflection via targeted worksheet questions."
+    },
+    "conversation_states": {
+      "summary": "Therapists should monitor the following variables during sessions: client’s identified problems and goals, current mood ratings, identified thoughts and automatic thoughts, content and ratings of core beliefs, progress toward goals, evidence for cognitive restructuring, engagement with behavioral experiments, anxiety/fear triggers and responses, experience of gratitude/kindness, and recorded depression/anxiety symptom levels."
+    },
+    "knowledge_graph": {
+      "summary": "Dimensions to track across sessions include: client’s evolving problems and goals; history of identified moods and thought patterns; patterns in automatic thoughts and core beliefs; progress and results of behavioral experiments; history of mood and symptom scores (depression, anxiety, anger, etc.); completion and learning from gratitude/kindness/forgiveness exercises; and cumulative outcomes from activity/mood records."
+    },
+    "cautions": {
+      "summary": "None."
+    },
+    "rules": {
+      "summary": "- if: A client presents a problem or issue in session.  \n  then: Guide the client to identify and categorize the underlying thoughts, moods, and situations using targeted worksheets.\n\n- if: The client appears unclear about the relationship between thoughts, moods, and behaviors.  \n  then: Use tools like \"Thought Connections\" or \"Distinguishing Situations, Moods, and Thoughts\" to support exploration.\n\n- if: The client reports difficulty with a mood (e.g., depression, anxiety).  \n  then: Assign symptom-specific inventories and worksheets (e.g., Depression Inventory, Anxiety Inventory, Thought Record) to facilitate structured assessment and intervention.\n\n- if: The client expresses limited progress or goal attainment.  \n  then: Review and modify goals, and explore enabling and hindering factors using worksheets (e.g., Advantages/Disadvantages, What Will Help Me Reach My Goals?).\n\n- if: The client identifies core beliefs that impede progress.  \n  then: Employ downward arrow technique and core belief modification worksheets to facilitate restructuring.\n\n- if: The client completes a behavioral experiment or gratitude exercise.  \n  then: Facilitate reflection and integration using corresponding learning and tracking worksheets."
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter/introductory section outlines the general therapeutic progression in cognitive behavioral therapy (CBT) as taught in \"Mind Over Mood.\" High-level strategies include: educating the patient about the CBT model (thoughts, emotions, behaviors, physical reactions, and events and their interconnections), fostering skill acquisition through step-by-step practice, supporting the patient in tracking and measuring their moods and progress, and customizing the sequence of interventions to match individual needs/goals."
+    },
+    "micro_actions": {
+      "summary": "The micro-level therapist actions implied or required include: encouraging the patient to practice specific skills daily, helping the patient complete exercises and worksheets, supporting reflection on thoughts and moods in real-life situations, assisting in tracking and graphing mood or skill progress, prompting the patient to repeat or revisit exercises when necessary, and helping ensure patient understanding by reviewing pertinent sections or exercises."
+    },
+    "conversation_states": {
+      "summary": "Variables and dimensions to track include: current mood states (e.g., depression, anxiety, anger, etc.), specific progress in skill acquisition and application, frequency and regularity of practice, the patient’s self-reported level of understanding/mastery of concepts and exercises, encountered barriers (e.g., difficulty with a skill, low motivation), and benefit/satisfaction derived from skill application."
+    },
+    "knowledge_graph": {
+      "summary": "Long-term variables to track include: patient-specific target moods or symptoms, historical and current progress in learning/applying CBT skills, personal skill acquisition trajectory, issues beyond moods (e.g., stress, substance use, eating concerns, self-esteem, relationships), worksheets/exercises completed and their outcomes, the most effective/practical intervention sequence, and patient preferences for skill application and content order."
+    },
+    "cautions": {
+      "summary": "Therapists (and patients) should avoid: moving through exercises or chapters too quickly without adequate practice, prioritizing speed of completion over depth of skill mastery, neglecting to apply skills to personal situations, and skipping relevant exercises or themes specific to the patient’s concerns. There is an implicit warning that CBT skills require consistent, patient practice and should not be superficially or hastily approached."
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "The patient has not consistently practiced a skill or completed related exercises.",
+          "then": "Encourage the patient to spend additional time practicing before moving forward."
+        },
+        {
+          "if": "The patient reports little benefit or understanding from a skill.",
+          "then": "Review and clarify the relevant concepts; possibly repeat the exercise."
+        },
+        {
+          "if": "The patient faces a specific mood or problem area (e.g., depression, anxiety, anger).",
+          "then": "Customize the order of interventions and recommend chapters/skills most relevant to the target problem."
+        },
+        {
+          "if": "The patient is progressing through the book or therapy too quickly.",
+          "then": "Advise them to slow down, prioritize mastery, and ensure adequate skill practice."
+        },
+        {
+          "if": "The patient shows measurable progress or improvement.",
+          "then": "Acknowledge progress and reinforce ongoing practice."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "- The high-level dialogue phases in this chapter include: (1) initial assessment of presenting problems and symptoms; (2) gathering relevant psychosocial and medical history; (3) engagement and building rapport, especially with skeptical or reluctant clients; (4) use of conceptual models (the five-part model) to help patients understand the interconnections of their experiences; (5) case formulation and collaborative understanding of how specific life events, thoughts, moods, behaviors, and physical reactions contribute to current issues; (6) instilling hope and motivating clients to try out treatment, even if initially skeptical; and (7) initial collaborative planning/experimentation for small changes."
+    },
+    "micro_actions": {
+      "summary": "- Elicit patient narratives about their experiences and recent life events.\n- Ask specific, gentle questions about symptoms in each of the five areas (environment/situations, physical reactions, moods, behaviors, thoughts).\n- Use reflective listening and validation, acknowledging emotional pain and skepticism.\n- Educate about the CBT/five-part model and guide the patient through mapping their own symptoms/experiences onto it.\n- Collaboratively fill out or review conceptual models/worksheets (like the five-part model and Worksheet 2.1).\n- Draw connections between different domains of the patient's experience in real time, highlighting patterns (e.g., how certain thoughts affect behaviors and mood).\n- Provide psychoeducation differentiating depression and anxiety.\n- Suggest homework/experimentation (e.g., tracking mood and activities).\n- Assess for suicidal risk and make appropriate referrals when indicated (e.g., medication consult, suicide risk assessment).\n- Provide encouragement for continued participation (even if minimal) and gently challenge hopelessness."
+    },
+    "conversation_states": {
+      "summary": "- Patient’s current mood(s) and their intensity.\n- Patient’s primary thoughts/beliefs about self, others, and the future.\n- Present behavioral patterns, including avoidance, withdrawal, self-harm, or compulsions.\n- Physical symptoms (e.g., sleep, appetite, energy, somatic symptoms, agitation).\n- Environmental/life events (recent and past significant stressors or traumas).\n- Level of engagement, hope, motivation or ambivalence about treatment.\n- Suicide risk indicators and history of self-harm.\n- Support systems and relationships.\n- Patient’s understanding and acceptance/rejection of the CBT model."
+    },
+    "knowledge_graph": {
+      "summary": "- History of mood/anxiety (including onset, duration, severity, recurrence, and previous episodes/treatments).\n- Significant life events (losses, traumas, transitions).\n- Family structure and relevant relationships/dynamics.\n- Patterns of thinking, especially self-critical or catastrophic beliefs.\n- Behavior patterns relevant to symptom maintenance or improvement.\n- Coping strategies (adaptive or maladaptive, e.g., withdrawal, substance use).\n- Past and ongoing risk factors (e.g., abuse, self-harm, suicidality).\n- Patient's goals, values, and sources of pride or meaning.\n- Treatment adherence, motivation, and obstacles."
+    },
+    "cautions": {
+      "summary": "- Do not dismiss, invalidate, or minimize the patient’s reported thoughts and emotional pain.\n- Do not attempt to address everything at once; avoid overwhelming the patient.\n- Do not ignore indicators of suicide or self-harm—these require immediate attention.\n- Do not force the patient into interventions or interpretations for which they are not ready.\n- Avoid making assumptions without collaboratively exploring the patient’s unique history and context.\n- Do not pathologize normal reactions to life transitions or loss without considering context."
+    },
+    "rules": {
+      "summary": "- if: Patient expresses skepticism or hopelessness about therapy or CBT,\n  then: Respond with validation and normalization, and invite the patient to experiment with a few sessions before deciding.\n- if: Patient describes recent severe life stressors (e.g., death, illness, trauma),\n  then: Explore the impact of these events across the five domains (thoughts, moods, behaviors, physical reactions, environment).\n- if: Patient expresses suicidal thoughts or a history of self-harm,\n  then: Immediately assess suicide risk and refer for appropriate psychiatric or emergency evaluation.\n- if: Patient disengages, minimizes, or expresses doubt during conceptual model work,\n  then: Gently revisit and clarify the five-part model using examples from the patient’s own experience.\n- if: Patient identifies any area of possible small change (even minor),\n  then: Encourage experimentation with change and track effects collaboratively.\n- if: Patient demonstrates strong avoidance behavior,\n  then: Explore the connection between avoidance and mood/anxiety and consider gentle behavioral activation or exposure strategies.\n- if: Patient has difficulty with worksheet completion,\n  then: Use concrete examples and questions to scaffold the process until the patient can participate fully.\n- if: Patient’s history reveals a pattern of perfectionism, high self-criticism, or performance-based self-worth,\n  then: Highlight and collaboratively explore these thinking patterns and discuss their emotional and behavioral impact.\n- if: Patient's physical symptoms have not been medically evaluated,\n  then: Recommend medical assessment to rule out physical causes before attributing symptoms to mood/anxiety."
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "- The therapist helps the patient identify and differentiate between five interconnected aspects of problems: environment/life situations, physical reactions, moods, behaviors, and thoughts.  \n- The therapist guides the patient to recognize how thoughts influence moods, behaviors, and physical reactions, and how life experiences/environment contribute to thought patterns.  \n- Facilitates reflection on the connections among these domains using concrete examples and exercises (e.g., worksheets).  \n- Assists the patient to move beyond automatic thoughts, challenge distortions, and consider the full range of information (positive, negative, neutral) in interpreting situations.  \n- Encourages behavioral, physical, and environmental change alongside cognitive restructuring (not focusing solely on \"positive thinking\" or changing thoughts).  \n- Validates patient experiences and provides psychoeducation on the limitations of positive thinking and the need for holistic change."
+    },
+    "micro_actions": {
+      "summary": "- Eliciting the patient's current thoughts, moods, behaviors, physical sensations, and environmental/life context during relevant events.  \n- Asking the patient to describe or recall specific situations and then guiding them to identify accompanying automatic thoughts and related emotional reactions.  \n- Using examples and structured worksheets (like the “Thought Connections” worksheet) to walk the patient through mapping thoughts to moods, behaviors, and physical sensations.  \n- Prompting the patient to notice instances of discounting, ignoring, or distorting positive information, and gently challenging these patterns.  \n- Encouraging the patient to consider alternative explanations and evidence not previously considered.  \n- Supporting the patient to anticipate and plan for a range of possible emotional and physical responses (not just striving for only positive thoughts).  \n- Reinforcing the value of making gradual changes in thoughts, behavior, physical habits, or the environment and not relying on a single change area."
+    },
+    "conversation_states": {
+      "summary": "- Current automatic thoughts in response to events.  \n- Emotional state/mood (e.g., anxious, sad, angry, etc.) and its intensity.  \n- Patient's behavior in situations (actions taken or avoided).  \n- Physical sensations or physiological reactions (e.g., heart rate, sweating, dizziness, etc.).  \n- The patient's beliefs about self, others, and the world, especially core or global beliefs.  \n- Patient's current environment/life situation and its stressors/supports.  \n- The degree of patient awareness/insight into the connection between thoughts, moods, behaviors, physical reactions, and environment."
+    },
+    "knowledge_graph": {
+      "summary": "- Patient’s history of specific environmental/life events that may have shaped enduring beliefs or schemas.  \n- Recurrent and core automatic thoughts, cognitive distortions, or maladaptive patterns identified over time.  \n- Patterns in mood, behavior, or physical reactions associated with particular thoughts or beliefs.  \n- Patient’s habitual behavior and avoidance patterns.  \n- Coping strategies the patient typically employs in various domains (cognitive, behavioral, physical, environmental).  \n- Patient's strengths and positive responses to new approaches or changes.  \n- Progress or difficulties with adopting balanced thinking and integrating behavioral/physical/environmental strategies."
+    },
+    "cautions": {
+      "summary": "- Do not encourage or suggest “just think positive thoughts” as a solution; avoid oversimplifying the process of change.  \n- Do not minimize or overlook significant environmental/life circumstances that may require action rather than cognitive reframing (e.g., abuse).  \n- Avoid focusing only on cognitive intervention to the exclusion of behavioral, physical, or environmental changes.  \n- Do not disregard the complexity of thought–emotion–behavior–physical–environment links; avoid telling the patient what they “should” feel or think.  \n- Avoid pressuring the patient to instantly adopt new perspectives without validation and processing."
+    },
+    "rules": {
+      "summary": "- {if: the patient presents with a distressing mood or intense emotion, then: guide the patient to identify associated automatic thoughts.}  \n- {if: the patient reports negative interpretations not supported by evidence, then: prompt the patient to consider alternative explanations or evidence.}  \n- {if: the patient ignores or discounts positive experiences, then: gently challenge this distortion and support the patient to acknowledge the positives.}  \n- {if: the patient's life situation involves active harm or abuse, then: focus on safety, behavioral/environmental change, and practical resources rather than just cognitive reframing.}  \n- {if: the patient focuses only on changing thoughts to feel better, then: educate about the importance of also making behavioral, physical, and environmental changes.}  \n- {if: the patient equates positive thinking with CBT, then: clarify that the goal is realistic, balanced thinking, not forced positivity.}  \n- {if: the patient experiences strong physical reactions related to anxiety or mood, then: explore the thought→physical sensation link and assist with coping strategies addressing both domains.}  \n- {if: the patient fails to see connections between domains (thought, mood, behavior, etc.), then: use concrete examples and worksheets to illustrate these links.}"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": [
+        "Psychoeducation about the interplay between thoughts, moods, behaviors, and physical responses.",
+        "Training in identification and labeling of moods, distinguishing them from thoughts, behaviors, and situational factors.",
+        "Coaching in the use of mood lists and worksheets to concretely identify and rate moods in context.",
+        "Guidance on tracking mood intensity over time to assess changes and inform further intervention.",
+        "Collaborative prioritization of which mood(s) to address first, especially in cases of multiple co-occurring difficult moods.",
+        "Encouragement of regular review and adaptation of intervention focus based on tracked mood data."
+      ]
+    },
+    "micro_actions": {
+      "summary": [
+        "Asking patients to describe recent situations and prompting identification of specific one-word moods.",
+        "Providing and reviewing a list of possible moods; inviting patients to add their own.",
+        "Using physical sensations as clues for mood identification.",
+        "Clarifying patient responses to distinguish moods from thoughts, behaviors, and situations (e.g., “How did you feel?” vs. “What were you thinking or doing?”).",
+        "Having patients rate the intensity of particular moods on a 0-100 scale.",
+        "Guiding patients through completion of structured worksheets (e.g., Worksheet 4.1, 4.2).",
+        "Prompting patients to track and record their mood ratings at regular intervals (weekly, monthly, etc.).",
+        "Assisting patients in reflecting on patterns and changes in their mood tracking."
+      ]
+    },
+    "conversation_states": {
+      "summary": [
+        "Current identified moods (by name, e.g., “sad,” “anxious,” “angry”).",
+        "Mood intensity ratings for each mood in a given situation (e.g., 0–100 scale).",
+        "Situational context variables (Who, What, When, Where).",
+        "Physical sensation correlates to moods (e.g., rapid heartbeat, heaviness).",
+        "Recent and recurrent situations associated with strong moods.",
+        "Progress or fluctuation in targeted moods over time.",
+        "Clarity/differentiation in patient’s self-report between thoughts, moods, behaviors, and situations."
+      ]
+    },
+    "knowledge_graph": {
+      "summary": [
+        "Patient’s recurring or primary distressing moods and their typical intensities.",
+        "Situations and contexts frequently linked with specific moods.",
+        "Mood intensity baselines and trends over time, per mood type.",
+        "Patient’s ability and progress in differentiating moods vs. thoughts vs. behaviors vs. situations.",
+        "Intervention sequence or chapter focus history (which mood chapters completed/skills practiced).",
+        "Individual mood response to intervention strategies (e.g., which interventions impact which moods).",
+        "Co-occurrence patterns of multiple moods and hierarchy of most distressing mood(s)."
+      ]
+    },
+    "cautions": {
+      "summary": [
+        "Do not confuse or conflate patients’ thoughts, moods, behaviors, or situational factors—ensure precise identification.",
+        "Avoid pressuring patients to be overly positive or to rate moods inaccurately.",
+        "Do not neglect the importance of physical sensations as indicators for moods.",
+        "Avoid making assumptions based solely on situational descriptions without exploring the patient’s subjective emotional experience.",
+        "Don’t try to address all co-occurring difficult moods simultaneously without prioritizing the most distressing one.",
+        "Refrain from giving generic advice that ignores the patient’s unique mood profiles and progress.",
+        "Avoid skipping the mood identification and rating step before deeper cognitive or behavioral work."
+      ]
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "Patient describes an experience with more than one word or gives a narrative.",
+          "then": "Prompt patient to identify the core mood(s) using single word descriptors from the mood list."
+        },
+        {
+          "if": "Patient labels a reaction with a broad or vague term (e.g., 'uncomfortable', 'numb'),",
+          "then": "Ask exploratory questions to differentiate between possible moods, thoughts, or physical sensations."
+        },
+        {
+          "if": "Patient provides a thought or behavior when asked about mood (e.g., 'I feel like I want to be alone').",
+          "then": "Clarify and guide the patient to distinguish between their thoughts and actual mood(s)."
+        },
+        {
+          "if": "A situation is described without associated mood.",
+          "then": "Prompt the patient to identify what they felt emotionally during or after that situation."
+        },
+        {
+          "if": "Multiple moods are present in one situation.",
+          "then": "Record each mood separately with its own intensity rating."
+        },
+        {
+          "if": "Patient reports physical sensations (e.g., rapid heartbeat, sweaty hands).",
+          "then": "Inquire about which mood(s) these sensations may indicate."
+        },
+        {
+          "if": "Tracking change is a goal.",
+          "then": "Have patient rate mood intensity regularly (e.g., weekly) using a standardized scale."
+        },
+        {
+          "if": "Patient is struggling with more than one distressing mood.",
+          "then": "Guide the patient to select one primary mood to focus on first."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": [
+        "Facilitate identification and articulation of the patient’s moods and emotional states.",
+        "Guide the patient to set specific, measurable personal goals related to mood and behavioral changes.",
+        "Support the exploration of advantages and disadvantages of reaching (or not reaching) these goals to enhance motivation.",
+        "Encourage identification of personal strengths, resources, and supports that can aid in achieving set goals.",
+        "Prompt the patient to identify and track early signs of improvement as part of ongoing self-monitoring and progress evaluation."
+      ]
+    },
+    "micro_actions": {
+      "summary": [
+        "Prompt the patient to describe their current mood in a single word and in specific situations.",
+        "Ask the patient to rate the intensity of their mood (using scales or worksheets).",
+        "Request the patient to state or write down at least two personal, observable, and measurable goals.",
+        "Facilitate a discussion or worksheet completion exploring advantages/disadvantages related to achieving/not achieving each goal.",
+        "Encourage listing of personal strengths, qualities, experiences, values, and supportive relationships.",
+        "Assist the patient in identifying and noting small, concrete signs of improvement and progress.",
+        "Validate and encourage recognition of early, incremental progress."
+      ]
+    },
+    "conversation_states": {
+      "summary": [
+        "Current identified moods and their intensity ratings.",
+        "Specific, measurable personal goals set by the patient.",
+        "The patient’s perceived advantages and disadvantages related to change (ambivalence/motivation level).",
+        "The patient’s recognized personal strengths/resources.",
+        "The presence or absence of early signs of improvement as noted by the patient.",
+        "Motivation to engage in the change process."
+      ]
+    },
+    "knowledge_graph": {
+      "summary": [
+        "Historical list of identified moods and changes in intensity over time.",
+        "Patient’s set goals (and their specificity/measurability).",
+        "Previously articulated advantages/disadvantages of achieving goals (and changes in these over sessions).",
+        "Catalog of patient’s strengths, skills, supports, and successful coping strategies from past experience.",
+        "Early/progressive signs of improvement logged over sessions.",
+        "Record of motivational barriers and facilitators."
+      ]
+    },
+    "cautions": {
+      "summary": [
+        "Avoid setting vague, non-measurable goals.",
+        "Do not ignore ambivalence; do not pressure the patient to set goals or make changes without addressing both pros and cons.",
+        "Avoid overlooking the patient’s strengths and past successes.",
+        "Do not minimize small signs of improvement; avoid focusing only on large or final results.",
+        "Do not overlook tracking progress, as failing to do so may reduce motivation."
+      ]
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "the patient provides a mood description",
+          "then": "ask the patient to rate the intensity and specify context/situation."
+        },
+        {
+          "if": "the patient sets a general or vague goal",
+          "then": "help the patient refine the goal to be specific and measurable."
+        },
+        {
+          "if": "the patient expresses mixed feelings or ambivalence about change",
+          "then": "explore the advantages and disadvantages of reaching or not reaching the goal."
+        },
+        {
+          "if": "the patient appears discouraged or unmotivated",
+          "then": "review personal strengths, past successes, and supports."
+        },
+        {
+          "if": "early signs of improvement are reported or observed",
+          "then": "validate and reinforce these signs, highlighting incremental progress."
+        },
+        {
+          "if": "tracking of mood or progress is missing or incomplete",
+          "then": "prompt the patient to use worksheets or tracking tools to monitor changes."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": [
+        "The therapist guides the patient through the identification and differentiation of situations, moods, and automatic thoughts using structured tools like the Thought Record.",
+        "The therapist models structured, stepwise skills training—introducing just a few components of the Thought Record at a time.",
+        "The therapist uses supportive, non-critical feedback and scaffolding, reassuring the patient and helping them build skills through repeated practice.",
+        "The therapist helps patients connect their motivation and reasons for change to engagement with skill-building exercises."
+      ]
+    },
+    "micro_actions": {
+      "summary": [
+        "Explicitly prompt the patient to describe a specific situation by asking “Who? What? When? Where?” and guide them to narrow time frames for precision.",
+        "Coach the patient to list moods (single words) and rate their intensity on a 0–100% scale. Prompt for physical reactions if relevant.",
+        "Help the patient distinguish moods from automatic thoughts and situations, correcting misclassifications gently.",
+        "Guide the patient to identify automatic thoughts and images that occurred during the situation, including prompting for associated memories or images.",
+        "Encourage and assist the patient in documenting their experience into the thought record columns, and provide in-moment feedback/correction.",
+        "Support the patient emotionally when they feel overwhelmed by the process, helping break tasks into manageable steps."
+      ]
+    },
+    "conversation_states": {
+      "summary": [
+        "The patient’s current emotional state (moods and intensity ratings).",
+        "The specificity and accuracy with which the patient identifies situations, moods, and thoughts.",
+        "The patient’s confusion, overwhelm, or resistance toward the Thought Record process.",
+        "The presence of physical symptoms associated with moods (especially panic/anxiety).",
+        "The patient’s motivation and engagement level with skills exercises.",
+        "The patient’s ability to accurately distinguish thoughts from moods and situations."
+      ]
+    },
+    "knowledge_graph": {
+      "summary": [
+        "The patient’s recurring situations, moods, and automatic thoughts, as documented in Thought Records.",
+        "The patient’s rated intensity of moods and how these change over sessions.",
+        "The patient’s typical physical reactions to emotional distress.",
+        "The patient’s historical reactions to skills training (e.g., finding it overwhelming or manageable).",
+        "The patient’s sources of support, values, strengths, and change motivation, as related to engagement and progress.",
+        "The patient’s increasing mastery and independence in using the Thought Record."
+      ]
+    },
+    "cautions": {
+      "summary": [
+        "Do not overwhelm the patient by introducing too many skills/components at once; scaffold the process gradually.",
+        "Do not criticize or judge errors in the patient’s entries; use errors as teaching moments.",
+        "Avoid making assumptions about the patient’s mood or thoughts; elicit information collaboratively.",
+        "Do not focus exclusively on negative content—also attend to evidence and thoughts that do not support negative beliefs.",
+        "Avoid overgeneralizing situations or moods; encourage specificity."
+      ]
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "The patient describes a mood using a sentence with cognitive content.",
+          "then": "Guide the patient to rephrase it as an automatic thought and identify a one-word mood label for the actual feeling."
+        },
+        {
+          "if": "The patient appears overwhelmed by completing a Thought Record.",
+          "then": "Provide reassurance, break the task into smaller steps, and scaffold as needed."
+        },
+        {
+          "if": "The patient lists a physical reaction linked to a mood (e.g., 'heart racing'),",
+          "then": "Prompt the patient to document it separately under physical reactions in the Moods column and rate its intensity."
+        },
+        {
+          "if": "The patient describes a situation using a broad or vague timeframe ('all day Tuesday').",
+          "then": "Guide the patient to specify a moment or brief interval when emotions were strongest."
+        },
+        {
+          "if": "The patient expresses discouragement about skill acquisition.",
+          "then": "Acknowledge the feeling, relate the experience to other skills learned through practice, and reinforce that mastery takes time."
+        },
+        {
+          "if": "The patient confuses a thought, mood, or situation during worksheet completion.",
+          "then": "Use gentle correction and teach distinguishing features to clarify the concepts."
+        },
+        {
+          "if": "The patient is able to complete the first few columns of Thought Record.",
+          "then": "Acknowledge progress and encourage continued practice before moving to more advanced columns."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter details the high-level dialogue phases and strategies used by the therapist to help the patient develop awareness and identification of automatic thoughts that are linked to emotional experiences. The process includes distinguishing between situations, moods, and thoughts using Thought Records; guiding patients through a structured series of reflective questions (both general and mood-specific); identifying \"hot thoughts\" (thoughts most strongly associated with emotional intensity); and fostering daily practice of these skills through exercises and homework. Therapists lead patients to systematically observe, document, and evaluate their thoughts and emotional responses in various real-life situations as a precursor to later cognitive restructuring."
+    },
+    "micro_actions": {
+      "summary": "At each conversational step, the therapist (or the self-guided patient) should:  \n    - Ask the patient to describe a recent situation associated with a strong mood.\n    - Request specific identification and labeling of moods, including intensity ratings (0–100%).\n    - Prompt the patient to articulate what went through their mind immediately before and during the experience (automatic thoughts), including words, images, and memories.\n    - Use targeted questions depending on the mood (e.g., \"What am I afraid might happen?\" for anxiety; \"What does this mean about me?\" for depression).\n    - Assist the patient to rate each thought for emotional “hotness” (connection to mood intensity).\n    - Guide the patient to select, circle, or mark the mood and the associated hottest thought for focused examination.\n    - Encourage repeated practice and recording of these steps (e.g., using Thought Record worksheets) between sessions."
+    },
+    "conversation_states": {
+      "summary": "The therapist should continuously track:  \n    - The current emotional state(s)/mood(s) of the patient and the corresponding intensity ratings.\n    - The situational context (who, what, where, when) of emotional episodes.\n    - The automatic thoughts (including images and memories) occurring in response to situations.\n    - The linkages between specific moods and specific thoughts.\n    - The “hotness” rating of individual thoughts in relation to the mood.\n    - The selection of the main (most distressing or target) mood and hot thought in each situation.\n    - Changes in the patient’s ability to identify, differentiate, and understand their moods and thoughts across different situations."
+    },
+    "knowledge_graph": {
+      "summary": "Across multiple sessions, the following patient-specific long-term information should be tracked:  \n    - Patterns of recurring situations that consistently trigger strong moods.\n    - Common automatic thoughts, images, or memories (including their “hotness” ratings) associated with specific moods.\n    - Typical emotional responses (types and intensities) the patient experiences in various contexts.\n    - Progress in the skill of identifying automatic thoughts and distinguishing between situations, moods, and thoughts (mastery of Thought Records).\n    - The patient’s mood patterns measured using standardized inventories (e.g., depression, anxiety, other mood scales).\n    - The degree of patient engagement and consistency in practicing daily Thought Records or related exercises."
+    },
+    "cautions": {
+      "summary": "Therapists should avoid:  \n    - Forcing patients to answer all reflective questions if some do not apply, as this may overwhelm or obstruct insight.\n    - Dismissing or minimizing the patient’s emotional experiences, even if the thoughts seem irrational.\n    - Jumping ahead to challenging or restructuring thoughts before the patient has clearly identified and understood their automatic thoughts (“hot thoughts”).\n    - Neglecting the emotional impact of images and memories, which can be as significant as verbal thoughts.\n    - Overgeneralizing from one mood or thought to all situations, rather than encouraging careful observation and differentiation.\n    - Pushing for rapid change without sufficient practice and familiarity with identifying automatic thoughts."
+    },
+    "rules": {
+      "summary": "[\n    {\"if\": \"The patient describes a situation associated with a strong mood\", \"then\": \"Ask the patient to specify and rate each mood (0–100%) and describe the situation context (who, where, when, what)\"},\n    {\"if\": \"A strong or distressing mood is identified\", \"then\": \"Prompt the patient to recall and articulate what was going through their mind before and during the mood (automatic thoughts, images, memories)\"},\n    {\"if\": \"A mood is labeled (e.g., anxiety, depression, anger, guilt, shame)\", \"then\": \"Ask targeted, mood-specific questions to elicit relevant automatic thoughts (per the Helpful Hints or worksheet prompts)\"},\n    {\"if\": \"Multiple automatic thoughts are identified\", \"then\": \"Guide the patient to rate each thought for the intensity (0–100%) the thought alone would create of the target mood\"},\n    {\"if\": \"Multiple moods are present for a situation\", \"then\": \"Have the patient circle or mark the most distressing mood to focus on identifying its associated hot thought(s)\"},\n    {\"if\": \"A hot thought is identified (highest emotional activation)\", \"then\": \"Ensure the patient marks and attends to this thought for further evaluation in later interventions\"},\n    {\"if\": \"The patient expresses confusion or difficulty identifying thoughts or associations\", \"then\": \"Encourage repeated and varied reflective questioning, without pressure to answer all questions\"},\n    {\"if\": \"The patient confuses situations, moods, and thoughts\", \"then\": \"Reinforce the structure of Thought Records and provide examples to clarify the distinctions\"}\n]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": [
+        "Guiding the patient through identifying situations, associated moods, and automatic thoughts, with an emphasis on strong moods and \"hot\" thoughts.",
+        "Instructing the patient in using Thought Records to differentiate between facts and interpretations, and to rate mood intensity.",
+        "Facilitating a structured review of evidence supporting and not supporting hot thoughts.",
+        "Encouraging patients to generate alternative or balanced thoughts after evidence evaluation.",
+        "Reinforcing the practice of regularly recording thoughts and moods as homework/skill-building.",
+        "Using Socratic questioning to help patients examine their beliefs from multiple perspectives.",
+        "Supporting the use of worksheets and exercises to reinforce skills between sessions."
+      ]
+    },
+    "micro_actions": {
+      "summary": [
+        "Prompting the patient for details about the triggering situation (who, what, when, where).",
+        "Asking the patient to label and rate the intensity of each mood present (0–100% scale).",
+        "Eliciting specific automatic thoughts, images, or memories linked to the mood.",
+        "Instructing the patient to mark/circle the \"hot\" thought with the strongest emotional charge.",
+        "Guiding the patient to list factual evidence that supports the hot thought (ensuring focus on facts, not interpretations).",
+        "Asking targeted questions (from \"Helpful Hints\") to help the patient find evidence that does NOT support the hot thought.",
+        "Actively differentiating between facts and interpretations, and using examples.",
+        "Facilitating the writing-down of evidence (not just verbal reflection).",
+        "Using perspective-taking questions (e.g., \"What would you tell a friend with this thought?\").",
+        "Tracking and asking about shifts in mood intensity after reviewing evidence.",
+        "Periodically measuring/reporting mood via standard inventories."
+      ]
+    },
+    "conversation_states": {
+      "summary": [
+        "Current situation context (who, what, when, where).",
+        "Labeled mood(s) and their intensity (0–100%).",
+        "Identified automatic thoughts and which are \"hot.\"",
+        "Evidence listed both for and against hot thoughts.",
+        "Degree of belief in hot/alternative thoughts (0–100%).",
+        "Patient’s ability to distinguish facts from interpretations.",
+        "Shifts in emotional state during/after evidence review.",
+        "Current level of hope/doubt regarding change.",
+        "Willingness and ability to engage in alternative perspectives.",
+        "Adherence to homework/completion of Thought Records."
+      ]
+    },
+    "knowledge_graph": {
+      "summary": [
+        "Frequent or characteristic automatic thoughts and \"hot\" thoughts for this patient.",
+        "The patient’s typical emotional triggers and situational patterns.",
+        "History and outcome of applying evidence-based review (what works, what is difficult).",
+        "Individual progress in differentiating facts from interpretations.",
+        "Previous mood ratings, tracked longitudinally.",
+        "Themes of cognitive distortions or interpretation tendencies unique to the patient.",
+        "Level of skill acquisition and use of CBT tools (Thought Records, mood inventory).",
+        "Patient’s history with respect to hope or doubt, especially regarding therapeutic progress or suicidal thinking.",
+        "Recurring topics or interpersonal relationships where cognitive distortions emerge."
+      ]
+    },
+    "cautions": {
+      "summary": [
+        "Do not accept interpretations or assumptions as evidence; maintain a focus on facts.",
+        "Avoid imposing interpretations; instead, guide the patient to discover alternative perspectives.",
+        "Do not invalidate the patient’s strong emotions by minimizing or dismissing them.",
+        "Be cautious not to rush the evidence-seeking process, especially when the patient has high distress or suicidal thoughts.",
+        "Avoid suggesting that negative emotions or hot thoughts are not understandable or are simply \"wrong.\"",
+        "Do not push for optimism without evidence (avoid toxic positivity).",
+        "Avoid bypassing the writing process; patients benefit more from written evidence than verbal rumination alone."
+      ]
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "Patient reports a strong mood or distressing situation.",
+          "then": "Initiate a Thought Record by identifying details of the situation, mood labels, and automatic thoughts."
+        },
+        {
+          "if": "Patient identifies multiple automatic thoughts.",
+          "then": "Guide patient to circle the 'hot' thought with the highest emotional intensity."
+        },
+        {
+          "if": "Patient provides evidence for a hot thought.",
+          "then": "Ensure that evidence consists of facts, not interpretations, by prompting for observable data."
+        },
+        {
+          "if": "Patient cannot find evidence that does not support a hot thought.",
+          "then": "Use specific perspective-shifting questions (e.g., 'What would you say to a friend?') to facilitate evidence generation."
+        },
+        {
+          "if": "Patient makes interpretation-based statements as evidence.",
+          "then": "Prompt the patient to re-express these as either observable facts or clarify them as interpretations."
+        },
+        {
+          "if": "Strong mood does not change despite evidence review.",
+          "then": "Validate the patient's emotion and encourage continued practice; do not force premature resolution."
+        },
+        {
+          "if": "Patient expresses suicidal thoughts with feelings of hopelessness.",
+          "then": "Explore previous times the patient felt similarly and survived; highlight evidence for survival and alternate coping strategies."
+        },
+        {
+          "if": "Patient struggles to come up with evidence",
+          "then": "Direct attention to the Helpful Hints list for structured prompts."
+        },
+        {
+          "if": "Evidence is being considered during a session.",
+          "then": "Encourage the patient to write evidence down rather than only reflect verbally."
+        },
+        {
+          "if": "Patient references mood improvement after evidence review.",
+          "then": "Prompt patient to rerate their current mood and discuss the shift."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "- Guide the patient through the process of completing a Thought Record, focusing on identifying and evaluating automatic (hot) thoughts.\n- Facilitate collection of factual evidence supporting and not supporting the hot thought.\n- Support the patient in generating alternative or balanced thoughts that integrate all available evidence.\n- Assist the patient in rating their belief in original and alternative/balanced thoughts, as well as the intensity of their moods.\n- Provide psychoeducation on the difference between balanced thinking and purely positive thinking, as well as on acceptance and action planning when hot thoughts are supported.\n- Encourage regular Thought Record exercises to develop flexible thinking and reduce distress."
+    },
+    "micro_actions": {
+      "summary": "- Ask targeted questions to identify specific situations, moods, and hot thoughts (e.g., \"What was going through your mind before you felt this way?\").\n- Prompt the patient to gather, articulate, and document factual evidence both supporting and not supporting the hot thought (columns 4 and 5 of Thought Record).\n- Use structured prompting (e.g., Helpful Hints) to help patients construct alternative or balanced thoughts based on evidence.\n- Assist in rerating beliefs in the hot and alternative thoughts, as well as the associated moods (columns 6 and 7).\n- Facilitate perspective-taking (e.g., \"What would you say to a friend in this situation?\").\n- Review and troubleshoot the Thought Record if no mood change occurs, using a checklist to identify possible process errors or missing information.\n- Encourage repeated practice with Thought Records and guide reflection on changes in mood and belief over time."
+    },
+    "conversation_states": {
+      "summary": "- Intensity of mood(s) (current and shifted levels)\n- Believability ratings of hot thoughts and alternative/balanced thoughts\n- Completeness and accuracy of evidence (supporting/not supporting)\n- Occurrence and identification of hot thoughts and core beliefs\n- Patient’s level of engagement and understanding of the Thought Record process\n- Situational context and emotional triggers\n- Progress in flexible/alternative thinking over time"
+    },
+    "knowledge_graph": {
+      "summary": "- History of identified hot thoughts and recurring cognitive patterns\n- Patient’s typical evidence-gathering biases (e.g., tendency to overlook disconfirming evidence)\n- Track of believable alternative and balanced thoughts and their impact on mood\n- Individual's core beliefs relevant to recurring hot thoughts\n- Record of completed Thought Records, themes, and progress\n- Changes in mood ratings and thought believability across sessions"
+    },
+    "cautions": {
+      "summary": "- Do not encourage positive thinking that ignores negative information or is not believable to the patient.\n- Do not push for immediate or complete elimination of negative moods; the goal is balanced thinking and more adaptive emotional responses, not emotional suppression.\n- Avoid substituting rationalization or forced reframing in place of evidence-based alternative thoughts.\n- Do not rush through the evidence-gathering or belief-rating steps; incomplete work reduces effectiveness.\n- Do not make assumptions about the accuracy of hot thoughts without patient participation in evidence gathering.\n- Do not use Thought Records to invalidate accurate perceptions of negative events; if the evidence supports the hot thought, shift to action planning or acceptance strategies."
+    },
+    "rules": {
+      "summary": "- {\"if\": \"The patient expresses a strong negative mood linked to an automatic thought\", \"then\": \"Guide the patient to identify the situation and describe the thought and mood in detail (columns 1–3 of Thought Record).\"}\n- {\"if\": \"The hot thought is identified\", \"then\": \"Prompt the patient to gather and write down factual evidence both supporting and not supporting the hot thought (columns 4 and 5).\"}\n- {\"if\": \"Evidence in columns 4 and 5 does not support the hot thought\", \"then\": \"Assist the patient in writing an alternative view of the situation consistent with the evidence in column 6.\"}\n- {\"if\": \"Evidence partially supports the hot thought\", \"then\": \"Help the patient construct a balanced thought in column 6 summarizing evidence both for and against the hot thought.\"}\n- {\"if\": \"Patient writes an alternative or balanced thought\", \"then\": \"Have the patient rate how much they believe it (0–100%).\"}\n- {\"if\": \"Alternative or balanced thought is written and rated\", \"then\": \"Have the patient rerate the intensity of their mood(s) in column 7.\"}\n- {\"if\": \"No change in mood after completing the Thought Record\", \"then\": \"Review the process using the checklist to identify errors or missing information, and consider next steps (e.g., action plan, acceptance, addressing core beliefs).\"}\n- {\"if\": \"Evidence supports the hot thought\", \"then\": \"Shift focus to problem-solving, acceptance, or resilience-building strategies as appropriate.\"}\n- {\"if\": \"Patient struggles to develop a balanced/alternative thought for themselves\", \"then\": \"Encourage them to imagine advice they’d give a friend or what someone who cares about them would say.\"}\n- {\"if\": \"Patient attempts to substitute positive thinking or rationalization\", \"then\": \"Redirect them to generate evidence-based alternative or balanced thoughts.\"}"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The therapist helps the patient transition through distinct intervention steps after identifying and testing thoughts: (1) strengthening new/balanced thoughts by gathering real-life evidence, (2) collaboratively creating and supporting the execution of Action Plans for solving real-world problems when evidence supports distressing thoughts, and (3) facilitating the development of acceptance for problems or emotions that cannot be changed or solved. The therapist also supports reflective self-monitoring (mood check-ins and reviewing progress toward goals) and integrates these interventions as appropriate to the patient's context."
+    },
+    "micro_actions": {
+      "summary": "- The therapist prompts and assists the patient to:\n  - Identify alternative or balanced thoughts that are difficult to fully believe, and encourage monitoring and recording daily evidence for and against these thoughts.\n  - Guide the patient in writing out specific, actionable Action Plans (including goals, actions, start times, anticipated obstacles, strategies to overcome problems, and progress tracking).\n  - Help the patient consider disclosure, request support, or seek resources as part of Action Plans where relevant.\n  - Prompt the patient to observe their thoughts and moods mindfully, without judgment, and reflect on these observations.\n  - Encourage “big picture” thinking to help put distressing events in context, and explicitly link acceptance of distress to the pursuit of personally meaningful values/goals.\n  - Periodically measure and review the patient’s mood and progress toward goals."
+    },
+    "conversation_states": {
+      "summary": "- Therapist should monitor:\n  - Current strength of belief in alternative and automatic thoughts.\n  - Evidence patient gathers for or against particular thoughts.\n  - Patient’s mood ratings and distress levels.\n  - Specific problems identified and their solvability.\n  - Degree of patient’s engagement with Action Plans and obstacles encountered.\n  - Levels of acceptance vs. resistance/frustration toward unchangeable problems or emotions.\n  - Patient’s clarification of and movement toward personally valued goals.\n  - Frequency and intensity of problematic behaviors (e.g., angry outbursts).\n  - Social supports and willingness to seek help."
+    },
+    "knowledge_graph": {
+      "summary": "- Therapist should track over multiple sessions:\n  - Major distressing thoughts, alternative/balanced thoughts, and changes in belief over time.\n  - Inventory of problems addressed, attempted Action Plans, and outcomes.\n  - Mood ratings (baseline and changes).\n  - Personal values and life goals articulated by the patient.\n  - Key emotional and behavioral patterns (e.g., triggers for anger/depression, engagement with support networks).\n  - Patient's acceptance levels and strategies that improved or maintained acceptance.\n  - Progress in skill use (thought monitoring, Action Plan adherence, acceptance practices)."
+    },
+    "cautions": {
+      "summary": "- Do not attempt to force the patient to believe new thoughts without supporting evidence from their lived experience.\n- Avoid encouraging “positive thinking” as an artificial substitute for genuine acceptance of difficult situations or emotions.\n- Do not minimize or invalidate persistent problems; address these through direct problem-solving (Action Plans) when indicated.\n- Refrain from pushing for thought change or problem-solving when genuine acceptance is the most adaptive approach (e.g., terminal illness, irreversible loss).\n- Avoid judgmental, critical, or invalidating responses to the patient’s emotional reactions.\n- Do not encourage avoidance or suppression of distressing moods; instead, foster mindful observation and acceptance."
+    },
+    "rules": {
+      "summary": "- {'if': 'Patient does not fully believe an alternative thought, even though it fits their experience.', 'then': 'Guide the patient to gather and record daily evidence for and against the thought, and reassess belief after practice.'}\n- {'if': 'Evidence strongly supports a distressing automatic thought and no believable alternative emerges.', 'then': 'Collaborate with the patient to create a concrete, stepwise Action Plan to address the underlying problem.'}\n- {'if': 'Patient identifies a problem that cannot be changed or solved with an Action Plan or Thought Record.', 'then': 'Support the patient in developing acceptance through observation, perspective-taking, and value-driven coping.'}\n- {'if': 'Patient is executing an Action Plan and encounters obstacles.', 'then': 'Facilitate identification of potential barriers and generate corresponding coping strategies.'}\n- {'if': 'Patient focuses excessively on distress or negative feelings about unchangeable situations.', 'then': 'Encourage acceptance by linking the situation to personal values and goals and practicing nonjudgmental awareness.'}\n- {'if': 'Patient exhibits ongoing distress, setbacks, or declining engagement.', 'then': 'Check-in on mood ratings, review goals, and adjust interventions/support as needed.'}"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": [
+        "Guiding the patient to identify, articulate, and reflect on their underlying assumptions (core \"if ... then ...\" beliefs influencing behavior and emotions).",
+        "Teaching patients to design and execute behavioral experiments to test these underlying assumptions in structured, incremental steps.",
+        "Supporting the patient with the development, execution, and reflection of action plans to address problematic assumptions or avoidance behaviors.",
+        "Encouraging acceptance as a potential intervention when thoughts and situations cannot be changed, emphasizing observing thoughts and feelings non-judgmentally and acting according to values.",
+        "Helping patients generate alternative, more adaptive assumptions or beliefs based on experiment outcomes.",
+        "Facilitating ongoing tracking of mood and beliefs to assess progress."
+      ]
+    },
+    "micro_actions": {
+      "summary": [
+        "Prompting the patient to complete \"if ... then ...\" and \"if I don't ... then ...\" sentence stems to make implicit assumptions explicit.",
+        "Asking Socratic, clarifying, or probing questions to help the patient uncover underlying rules driving behavior or avoidance.",
+        "Collaboratively filling out structured worksheets for identifying assumptions and planning behavioral experiments.",
+        "Supporting the patient in making specific behavioral predictions, breaking experiments into small, manageable steps, and problem-solving anticipated barriers.",
+        "Asking the patient to observe others or interview them about shared assumptions.",
+        "Encouraging the patient to do the opposite of their assumption-driven behavior to test predictions.",
+        "Reviewing and reflecting on experiment results, comparing predicted and actual outcomes, and updating beliefs as appropriate.",
+        "Encouraging patients to write down what they learn from each experiment.",
+        "Teaching the patient to track mood changes and rate confidence in new beliefs.",
+        "Offering reminders, prompts for focus (such as distraction for anxiety), and positive reinforcement for efforts and progress.",
+        "Encouraging writing and review of Action Plans with specific steps, timing, barriers, strategies to overcome barriers, and outcome tracking."
+      ]
+    },
+    "conversation_states": {
+      "summary": [
+        "Current underlying assumptions (including explicit \"if ... then ...\" beliefs) under examination.",
+        "Patient's emotional reactions (e.g., anxiety, shame, sadness) and their intensity.",
+        "Level of the patient's belief in old vs. alternative assumptions/balanced thoughts.",
+        "Patterns of avoidance or repeated behaviors.",
+        "Confidence in being able to carry out behavioral experiments/action plans.",
+        "Success or struggles in completing steps of behavioral experiments/action plans.",
+        "Predictions vs. actual outcomes for specific behavioral experiments.",
+        "Current acceptance or resistance to alternative interpretations or cognitive restructuring.",
+        "Recent mood levels (tracked over time, e.g., depression, anxiety scores)."
+      ]
+    },
+    "knowledge_graph": {
+      "summary": [
+        "Catalog of identified underlying assumptions for the patient (including situational triggers and historical context/family/cultural sources if available).",
+        "History of action plans, behavioral experiments (steps, predictions, results, learnings), and corresponding outcomes.",
+        "Alternative, more adaptive assumptions derived and tested, and their effect on symptoms/moods.",
+        "Patterns of avoidance or problematic behaviors and past experiments addressing them.",
+        "Repository of patient’s common emotional triggers and “signature” responses.",
+        "Tracking record of mood scores and progress over time.",
+        "Patient’s general skills and confidence level in self-experimentation and acceptance-based strategies."
+      ]
+    },
+    "cautions": {
+      "summary": [
+        "Do not assume or impose the therapist’s own interpretations of behaviors or beliefs; elicit and use the patient's own words.",
+        "Do not rush or pressure the patient into challenging behavioral experiments before appropriate assessment of readiness and safety (especially for anxiety-provoking tasks).",
+        "Avoid invalidating the patient’s current beliefs or minimising their distress; offer empathy and validation throughout the process.",
+        "Don’t neglect medical safety—ensure physical tests of assumptions (e.g., fast breathing, exposure tasks) are medically safe for the patient.",
+        "Avoid encouraging all-or-nothing/black-and-white thinking when constructing alternative assumptions or evaluating experiment results.",
+        "Don’t overlook values or acceptance when circumstances cannot change; pushing only for cognitive restructuring may be inappropriate."
+      ]
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "The patient consistently struggles to modify a problematic behavior or experiences strong emotional reactions to specific triggers.",
+          "then": "Prompt the patient to articulate their underlying assumption using 'if ... then ...' stems about the behavior or situation."
+        },
+        {
+          "if": "A patient’s underlying assumption is identified.",
+          "then": "Collaboratively design a behavioral experiment that tests the predictive validity of the assumption in small, manageable steps."
+        },
+        {
+          "if": "The behavioral experiment involves physical stress or anxiety symptoms.",
+          "then": "Confirm with medical evaluation that the proposed experiment is physically safe for the patient before proceeding."
+        },
+        {
+          "if": "The patient feels discouraged because an experiment does not go as planned.",
+          "then": "Guide the patient to problem-solve obstacles and adapt the plan, rather than quitting."
+        },
+        {
+          "if": "Testing an assumption is too distressing for the patient to perform directly.",
+          "then": "Encourage the patient to observe others or interview them to see if the same 'if ... then ...' rule applies in their cases."
+        },
+        {
+          "if": "The patient demonstrates persistent avoidance or distress in certain situations.",
+          "then": "Identify and test the underlying assumption with appropriate behavioral experiments, tracking predictions and actual outcomes."
+        },
+        {
+          "if": "Experiments are completed.",
+          "then": "Assist the patient in reflecting on results and updating their beliefs, generating alternative assumptions if supported by evidence."
+        },
+        {
+          "if": "The patient is in the midst of unchangeable or extremely distressing circumstances.",
+          "then": "Introduce and model acceptance strategies (observing thoughts non-judgmentally, keeping the big picture in mind, acting according to values)."
+        },
+        {
+          "if": "Developing action plans for problem-solving or exposure is warranted.",
+          "then": "Ensure plans are specific, scheduled, include anticipated barriers and strategies to overcome them, and are recorded and tracked in writing."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": [
+        "Guide the patient to identify core beliefs (particularly those that are negative, absolute, and global in nature about the self, others, or the world).",
+        "Use structured techniques (e.g., the downward arrow method and sentence completion) to uncover underlying core beliefs.",
+        "Support the development and articulation of alternative, more flexible and positive core beliefs.",
+        "Facilitate behavioral experiments designed to strengthen new core beliefs through real-life actions and reflection.",
+        "Encourage systematic observation and recording of experiences that support the new positive core beliefs.",
+        "Introduce and foster practices of gratitude (e.g., gratitude journaling, expressing gratitude to others) and acts of kindness as routes to improving mood and strengthening positive beliefs.",
+        "Teach the use of rating scales to track changes in beliefs and behaviors, emphasizing gradual progress.",
+        "Normalize setbacks and reinforce the need for ongoing, long-term skill practice and tracking (e.g., mood check-ups, returning to helpful exercises during difficult periods).",
+        "Encourage patient reflection on the effect of positive practices on mood, self-perception, and relationships."
+      ]
+    },
+    "micro_actions": {
+      "summary": [
+        "Ask targeted questions such as “If this is true, what does this say or mean about me/others/the world?” in recursive fashion to reveal deeper core beliefs (downward arrow technique).",
+        "Prompt completion of statements like “I am …”, “Others are …”, “The world is …” to elicit core beliefs.",
+        "Provide step-by-step instruction for filling out core belief identification and tracking worksheets.",
+        "Prompt the patient to articulate both negative and desired alternative (positive) core beliefs.",
+        "Instruct the patient to make daily or weekly entries documenting small pieces of evidence supporting new positive beliefs.",
+        "Ask the patient to rate their confidence in new beliefs on percentage scales, and to rate their behaviors (e.g., “anger control”) similarly.",
+        "Encourage the patient to reflect on the effects of new behaviors/experiments, comparing predicted vs. actual outcomes.",
+        "Prompt for regular entries in a gratitude journal, asking specifics about experiences for which the patient is grateful in self/other/world domains.",
+        "Suggest and discuss acts of kindness the patient can perform, and explore the impact of these on mood and beliefs.",
+        "When appropriate, guide the patient to express gratitude explicitly to others and reflect on the impact.",
+        "Prompt ongoing habit formation and encourage self-reflection on the changes noted over weeks/months."
+      ]
+    },
+    "conversation_states": {
+      "summary": [
+        "Confidence level in newly developed/strengthened core beliefs (progress tracked over time).",
+        "Current types and content of core beliefs (positive/negative, self/other/world).",
+        "Frequency and recency of behaviors (and experiments) consistent with new positive beliefs.",
+        "Patient’s mood ratings (current and over time, including depression, anxiety, and happiness).",
+        "Identification of all-or-nothing thinking, evidence of “stuck” negative belief activation.",
+        "Evidence supporting positive beliefs (number and nature of experiences recorded).",
+        "Patient’s engagement in gratitude practices and acts of kindness.",
+        "The patient's assessment of the impact of gratitude and kindness exercises on mood and relationships.",
+        "The level of flexibility versus rigidity in perspectives and beliefs.",
+        "Success or difficulty with specific behavioral experiments or exposure to situations testing beliefs.",
+        "Attribution style (e.g., tendency to discount positive experiences or overvalue negative ones)."
+      ]
+    },
+    "knowledge_graph": {
+      "summary": [
+        "Patient’s identified negative and positive core beliefs (self/other/world), including their evolution and strength over time.",
+        "History and outcomes of behavioral experiments linked to belief change (actual experiences, predictions, and results).",
+        "Records of specific experiences and events that supported or challenged core beliefs.",
+        "Ongoing ratings of confidence in new core beliefs, and observed mood and behavioral changes.",
+        "Patient’s completion and contents of gratitude journal entries.",
+        "Record of acts of kindness performed and expressions of gratitude, with noted effects.",
+        "Long-term mood tracking data connected to belief changes and skill use.",
+        "Significant life events that influenced belief origins, shifts, or activation patterns."
+      ]
+    },
+    "cautions": {
+      "summary": [
+        "Do not attempt to “disprove” deeply held negative core beliefs head-on by arguing or confronting—the patient may discount positive evidence.",
+        "Avoid forcing rapid belief change; accept and normalize slow, gradual progress.",
+        "Do not ignore or invalidate the patient’s discomfort, resistance, or distress when testing new beliefs.",
+        "Avoid reinforcing all-or-nothing, absolute thinking (about self/others/world); promote flexible, nuanced perspectives.",
+        "Do not neglect to track mood and behavior changes over time—improvements may be gradual and require ongoing support.",
+        "Be wary of discounting small positive changes or successes (by therapist or patient).",
+        "Do not prematurely stop skill practice or tracking, especially when belief confidence is still developing.",
+        "Avoid pushing the patient to perform gratitude or kindness activities when they seem overwhelmed; adapt pacing to the patient's readiness."
+      ]
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "The patient articulates an automatic thought or underlying assumption during a strong emotional response.",
+          "then": "Use the downward arrow questioning technique to help them uncover the corresponding core belief."
+        },
+        {
+          "if": "The patient is unable to state a core belief directly,",
+          "then": "Prompt completion of 'I am...', 'Others are...', or 'The world is...' statements."
+        },
+        {
+          "if": "A negative, absolute core belief is identified,",
+          "then": "Guide the patient to articulate a new, desired, positive or more flexible core belief."
+        },
+        {
+          "if": "A new positive core belief is articulated,",
+          "then": "Direct the patient to observe and record daily/weekly experiences that provide even minor support for the new belief."
+        },
+        {
+          "if": "The patient reports a qualifying or discounting response to positive evidence (e.g., 'That doesn’t count'),",
+          "then": "Encourage recording the evidence anyway and discuss the significance of small positive experiences."
+        },
+        {
+          "if": "The patient engages in behaviors aligned with a new core belief,",
+          "then": "Prompt them to rate their confidence and success on a scale, and explore progress rather than perfection."
+        },
+        {
+          "if": "The patient has sufficient positive evidence for a new core belief,",
+          "then": "Encourage regular re-rating of belief confidence to track development over time."
+        },
+        {
+          "if": "Patient is practicing gratitude or acts of kindness,",
+          "then": "Prompt reflection on the effects of these practices on mood, relationships, and activated core beliefs."
+        },
+        {
+          "if": "Patient experiences a setback or reactivation of negative core beliefs,",
+          "then": "Review past positive evidence and practices, and encourage return to helpful exercises and tracking."
+        },
+        {
+          "if": "Negative core beliefs persist despite intervention on automatic thoughts and assumptions,",
+          "then": "Focus intervention at the core belief level, utilizing the techniques outlined above."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter details several high-level therapist strategies for working with depression in cognitive behavioral therapy:  \n- Eliciting the patient's depression history and unique patterns.\n- Educating the patient about depression, its symptoms, and the cognitive-behavioral model.\n- Guiding the patient to self-assess symptom presence, frequency, and severity (using inventories and tracking tools).\n- Encouraging structured self-monitoring of mood and activities (Activity Records).\n- Facilitating reflection on the link between activities and mood.\n- Supporting the patient in planning and experimenting with behavioral activation (Activity Scheduling).\n- Discussing alternative treatment options (cognitive therapy, medication, relationship improvement, behavioral activation).\n- Providing encouragement, normalization, and relapse prevention psychoeducation.\n- Preparing the patient for normal setbacks in mood and progress."
+    },
+    "micro_actions": {
+      "summary": "- Prompting the patient to describe the onset, severity, and pattern of their depression.\n- Asking questions to help patients differentiate between normal sadness and clinical depression.\n- Administering and reviewing depression inventories with the patient.\n- Guiding the patient in completion and periodic review of symptom tracking worksheets.\n- Asking the patient to identify and record specific negative automatic thoughts (about self, experiences, and future).\n- Encouraging open reflection (“write down your thoughts here”) on negative thinking patterns.\n- Teaching the patient how to fill out, interpret, and learn from an Activity Record.\n- Assisting the patient in scheduling and prioritizing activities across domains: pleasurable, accomplishment, avoidance, values.\n- Reviewing and troubleshooting adherence to the activity schedule (e.g., if activities are skipped or not enjoyable).\n- Coaching on the “capturing enjoyment” micro-strategy: prompting attention to small sensory positives during activities.\n- Encouraging self-compassion and non-judgment after setbacks or incomplete tasks."
+    },
+    "conversation_states": {
+      "summary": "- Depression symptom intensity and pattern (baseline, week-to-week changes).\n- Types of symptoms present (cognitive, behavioral, emotional, physical).\n- Content and valence of current automatic thoughts (self, experiences, future).\n- Level and pattern of activity engagement.\n- Relationship quality and supportiveness; presence of potentially abusive/critical relationships.\n- Motivation level, initiation energy for activities.\n- Patient’s ability to identify and savor small positive experiences.\n- Response to prior interventions (e.g., mood changes after activity scheduling).\n- Medication use and associated concerns or effects.\n- Tendency to ruminate or focus on negatives.\n- Times of day or week when mood worsens or improves.\n- Degree of hope/hopelessness about the future."
+    },
+    "knowledge_graph": {
+      "summary": "- Depression history: onset, duration, pattern (episodic, chronic, recurrence).\n- Inventory scores over time; longitudinal tracking of symptom change.\n- Individual-specific negative cognitions (about self, world, future).\n- Baseline and changes in daily activity and mood patterns.\n- Activities that have produced pleasure, mastery, or improved mood.\n- Activities that increase or decrease negative mood.\n- Strategies attempted and their outcomes (e.g., which skills/interventions lead to improvement).\n- Relapse indicators or warning signs.\n- Social supports and relationship factors (including presence of abuse or criticism).\n- Medication trials, side effects, and adherence.\n- Values and personally meaningful activities identified by the patient.\n- Patient’s attitude towards therapy, change, and hope for improvement."
+    },
+    "cautions": {
+      "summary": "- Do not pathologize or stigmatize normal sadness or typical life struggles.\n- Avoid dismissing or minimizing patients’ distress or past negative experiences.\n- Do not expect immediate improvements; do not pressure for quick results.\n- Avoid criticizing or shaming if the patient skips activities or has setbacks.\n- Do not equate the need for medication with being “crazy.”\n- Be careful not to reinforce avoidance behaviors; help the patient approach valued/life-oriented activities gradually.\n- Do not ignore the warning signs of suicide or severe hopelessness; recommend professional support if scores remain high.\n- Take special care if abuse or harmful relationships are disclosed; ensure appropriate referrals.\n- Avoid making assumptions about what activities are pleasurable or meaningful for the individual patient.\n- Do not overload the patient with activities—tailor scheduling to the patient’s capacity."
+    },
+    "rules": {
+      "summary": "[\n  {\n    \"if\": \"patient reports persistent or worsening depression scores after several weeks of intervention\",\n    \"then\": \"recommend professional consultation or changes in treatment approach\"\n  },\n  {\n    \"if\": \"patient discloses thoughts of suicide, self-harm, or severe hopelessness\",\n    \"then\": \"assess risk immediately and refer to appropriate crisis or mental health support\"\n  },\n  {\n    \"if\": \"patient completes activity and mood tracking for a week\",\n    \"then\": \"review patterns with the patient to identify activities/contexts linked to better or worse mood\"\n  },\n  {\n    \"if\": \"patient skips scheduled activities or feels discouraged by lack of progress\",\n    \"then\": \"normalize setbacks, encourage self-compassion, and help adjust the activity plan\"\n  },\n  {\n    \"if\": \"patient reports diminished enjoyment of previously pleasurable activities\",\n    \"then\": \"encourage partial engagement and focus attention on small positive sensory experiences\"\n  },\n  {\n    \"if\": \"patient is in an abusive or highly critical relationship\",\n    \"then\": \"provide appropriate psychoeducation, caution, and support referral to specialized resources\"\n  },\n  {\n    \"if\": \"activity scheduling is introduced\",\n    \"then\": \"help patient choose a balance of pleasurable, accomplishment, avoidance-overcoming, and value-driven activities\"\n  },\n  {\n    \"if\": \"patient reports strong resistance or lack of motivation to begin activities\",\n    \"then\": \"encourage starting with very small or partial actions and reinforce any effort\"\n  }\n]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "- Psychoeducation: The therapist educates the patient about the nature of depression and anxiety, including symptom dimensions (physical, cognitive, behavioral, emotional), common patterns, and the CBT model.\n- Symptom and behavior monitoring: The therapist guides the patient to regularly assess and track their symptoms and behaviors using structured inventories and records (e.g., Anxiety Inventory, Activity Record, Mood Inventory).\n- Case conceptualization: The therapist helps the patient distinguish between anxiety types, triggers, coping vs. safety behaviors, and the role of thoughts and images in maintaining anxiety.\n- Intervention planning: The therapist collaboratively develops hierarchies (\"Fear Ladders\") to structure graded exposure; plans the order and progression of facing feared situations.\n- Skills training: The therapist introduces and practices anxiety management tools—mindfulness and acceptance, balanced breathing, progressive muscle relaxation, imagery, cognitive restructuring.\n- Behavioral experiments: The therapist encourages the patient to test anxious predictions and coping capacities via real-life or imagined exposure.\n- Relapse prevention planning: The therapist discusses the relative merits of skills vs. medication in achieving sustained change and plans for ongoing self-management."
+    },
+    "micro_actions": {
+      "summary": "- Directing the patient through self-reflection and guided questioning to identify personal triggers, avoidance behaviors, safety behaviors, and anxious thoughts/images.\n- Stepwise guidance using worksheets to rate symptoms, make lists of avoided situations, brainstorm and order a Fear Ladder.\n- Encouraging the patient to explicitly rate anxiety/tension levels before and after exercises.\n- Prompting the patient to describe thoughts both in verbal and imagery forms related to feared situations.\n- Coaching in real-time practice of skills (e.g., \"Let’s try four minutes of slow breathing,\" \"Notice sensations during muscle relaxation,\" \"Describe your experience of mindful attention\").\n- Providing in-the-moment support to help patients stay in exposure situations (real or imagined), acknowledging distress and reinforcing effort.\n- Helping the patient differentiate between avoidance/safety behaviors and coping strategies at the level of specific scenario choices (e.g., “Are you avoiding or coping right now?”).\n- Debriefing after exposure/skills use to review learning, progress, and negative/positive evidence for catastrophic predictions."
+    },
+    "conversation_states": {
+      "summary": "- Current levels/intensity of anxiety or depression (subjective units, e.g., 0–100).\n- Recent and baseline symptom inventory scores (Anxiety Inventory, Mood Inventory).\n- List and hierarchy of avoided situations or triggers (Fear Ladder steps).\n- Ongoing engagement in avoidance/safety behaviors versus coping behaviors.\n- Patient's current anxious thoughts and mental images, focus on \"What if...?\" predictions and perceived coping ability.\n- Level of distress/tolerance during exposure and use of anxiety management skills.\n- Confidence or self-efficacy in coping with anxiety triggers.\n- Use and perceived helpfulness of different relaxation/mindfulness techniques.\n- Medication status and beliefs about its effects (if applicable)."
+    },
+    "knowledge_graph": {
+      "summary": "- Patient’s history of anxiety symptoms (onset, severity pattern, contexts).\n- Inventory of avoided situations and how they change over time as exposure progresses.\n- Patterns of safety behaviors versus coping/approach behaviors in various life domains.\n- Typical anxious beliefs/themes and recurring catastrophic thoughts/images.\n- History of prior interventions (skills attempted, outcomes); skill use and efficacy ratings.\n- Medication use/treatment history for anxiety or depression.\n- Key personal triggers and associated feared consequences.\n- Progress over time tracked via repeated inventory scores and movement up the Fear Ladder.\n- Patient’s strengths and successes in coping as evidence for self-efficacy."
+    },
+    "cautions": {
+      "summary": "- Avoid pushing the patient to face feared situations faster than they are ready, as this can backfire or reduce engagement.\n- Do not use or suggest anxiety management skills as safety behaviors to avoid exposure (“rescue” behaviors); focus on skills as methods to tolerate rather than eliminate anxiety.\n- Do not invalidate or minimize the patient's physical/emotional symptoms (“it’s all in your head”).\n- Avoid conflating medication effects with skill development—emphasize the centrality of skills for durable change.\n- Caution with medication due to risk of tolerance, dependence, and interference with learning coping skills; avoid over-reliance on pharmacological intervention alone.\n- Do not frame anxiety as something that should be eliminated entirely; communicate its adaptive function and the goal of appropriate regulation.\n- Avoid overwhelming the patient with complex tasks or high-level exposures too soon; err toward breaking tasks into manageable steps.\n- Never pressure the patient to discontinue medication without coordination with a prescriber."
+    },
+    "rules": {
+      "summary": "- {\"if\": \"Patient reports high anxiety or avoidance in a situation.\", \"then\": \"Help patient identify and rate the situation, add it to the Fear Ladder, and plan a manageable exposure step.\"}\n- {\"if\": \"Patient presents anxious thoughts or images about danger or inability to cope.\", \"then\": \"Guide patient to identify these thoughts/images; use cognitive restructuring or behavioral experiments to test their validity.\"}\n- {\"if\": \"Patient engages in avoidance or safety behaviors during exposure.\", \"then\": \"Help patient recognize these behaviors, differentiate from coping, and encourage reduction of avoidance/safety behaviors.\"}\n- {\"if\": \"Patient becomes overwhelmed or highly distressed during exposure.\", \"then\": \"Support use of anxiety management skills like mindfulness, slow breathing, or relaxation to reach a tolerable level, but do not allow escape or avoidance unless necessary for safety.\"}\n- {\"if\": \"Patient's anxiety does not decrease with repeated exposure at a step.\", \"then\": \"Assess for safety, break exposure into smaller steps, or increase use of coping skills before progressing.\"}\n- {\"if\": \"Medication is discussed or used.\", \"then\": \"Discuss short-term role and potential risks of medications; reinforce importance of skills practice for long-term change.\"}\n- {\"if\": \"Patient reports improvement in anxiety scores or Fear Ladder progress.\", \"then\": \"Reinforce progress, review coping strategies used, and update Fear Ladder for further steps.\"}\n- {\"if\": \"Session includes skill practice (e.g., mindfulness, relaxation).\", \"then\": \"Instruct patient, observe their practice, prompt ratings before/after, and process feedback for refinement.\"}\n- {\"if\": \"Patient expresses concern about rate of exposure or feels pressured.\", \"then\": \"Clarify collaborative pacing, adjust steps based on tolerability, and encourage sense of control.\"}\n- {\"if\": \"Patient repeatedly uses anxiety management skills before or during exposure to avoid distress.\", \"then\": \"Reframe skill use toward tolerating anxiety rather than avoidance; limit skill use as rescue behavior.\"}"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The therapist guides the patient through high-level phases such as (1) psychoeducation about anger, guilt, and shame; (2) routine mood monitoring and self-assessment; (3) identifying and understanding emotional triggers using thought records; (4) challenging and testing angry or guilt/shame-based thoughts; (5) teaching and modeling anger management strategies (e.g., cognitive restructuring, anticipation, imagery, recognizing early warning signs, timeouts, assertion, forgiveness); (6) helping the patient evaluate and shift perspectives on guilt and shame (e.g., assessing seriousness, responsibility pie, reparation, breaking silence); (7) fostering self-forgiveness; and (8) supporting the use of family/couple therapy if relevant."
+    },
+    "micro_actions": {
+      "summary": "The therapist (a) asks the patient to rate and track moods (frequency, intensity, duration) using standard scales/worksheets; (b) elicits recent emotional incidents and prompts for specific situation, mood rating, automatic thoughts, memories, and images; (c) encourages use of worksheets to clarify thought-emotion links; (d) asks open questions to explore patient’s interpretations, rules, and expectations in triggering events; (e) facilitates consideration of alternative explanations/intentions in others; (f) prompts patient to notice labeling/judging patterns and to “test out” assumptions; (g) prompts rehearsal and guided imagery for handling high-risk situations; (h) intervenes to recognize early warning signs and suggests in-moment emotion regulation (e.g., call timeouts, relaxation); (i) models and encourages assertive “I” statements, direct expression of wants and needs, and clarification of expectations; (j) guides the patient through responsibility pie exercises to attribute responsibility proportionally; (k) supports the patient in planning and practicing reparative actions/apologies; (l) gently encourages disclosure of shame-laden secrets with trusted others; (m) explores and models self-forgiveness processes; (n) prompts comparative ratings before and after strategy trials."
+    },
+    "conversation_states": {
+      "summary": "Therapist tracks the patient’s (a) current level and trend of mood states (anger, guilt, shame, happiness, etc.)—frequency, strength, duration; (b) awareness of emotional triggers/situations; (c) automatic thoughts and interpretations (especially “shoulds/oughts,” labeling, magnitude of personalizing/blaming); (d) underlying rules, expectations, and beliefs relevant to mood episodes; (e) readiness, use, and effectiveness of coping strategies (e.g., assertion, timeouts, forgiveness); (f) sense of personal responsibility versus external responsibility for events; (g) the presence and power of secrecy/shame narratives; (h) capacity for self-forgiveness or self-compassion; (i) changes in response effectiveness as reflected in pre/post technique mood ratings."
+    },
+    "knowledge_graph": {
+      "summary": "Therapist should track over sessions: major emotional issues targeted (anger, guilt, shame, happiness, etc.); patient’s personal “hot button” triggers; typical automatic thoughts and interpretations (especially as related to fairness, intent, rules, and expectations in relationships); responsibility appraisals (including “responsibility pies” per event); past attempts at reparation or forgiveness (towards others or self); ongoing secrets or sources of shame; strategies tried and their reported effectiveness; history of relationship issues (family, partners); changes in self-assessment over time; and results of relevant psychoeducational or skills exercises."
+    },
+    "cautions": {
+      "summary": "Therapist should not minimize or dismiss the patient’s feelings, push for forgiveness/reparation prematurely, assign blame to the patient for events outside their control (e.g., abuse survivors), force disclosure of secrets or push pace too quickly with shame material, assume responsibility attribution without patient exploration, rely solely on verbal reports without mood tracking, expect assertiveness to always succeed in changing others’ behavior, or ignore the seriousness of ongoing abuse or unsafe situations."
+    },
+    "rules": {
+      "summary": "- {\"if\": \"Patient reports intense anger and expresses labeling/judging of another person (e.g., 'they are careless')\", \"then\": \"Guide the patient to identify and reconsider the automatic thought and explore alternate interpretations or intentions.\"}\n- {\"if\": \"Patient shows early warning signs of escalating anger (physical/behavioral cues)\", \"then\": \"Encourage immediate emotion regulation action (timeout, relaxation, imagery) before continuing the conversation.\"}\n- {\"if\": \"Patient rates mood states using provided worksheets\", \"then\": \"Review and discuss patterns over time to identify triggers, improvements, or stuck points.\"}\n- {\"if\": \"Patient expresses frequent or chronic guilt/shame over events\", \"then\": \"Prompt for seriousness and responsibility assessment (seriousness ratings, responsibility pie).\" }\n- {\"if\": \"Patient identifies personal wrongdoing for which they feel guilty\", \"then\": \"Support the patient to plan and initiate appropriate reparative actions or apologies.\" }\n- {\"if\": \"Patient exhibits or reports secrecy, avoidance, or shame connected to past events\", \"then\": \"Gently explore the possibility of sharing with a trusted person or in therapist-patient dialogue, without pressuring.\" }\n- {\"if\": \"Patient frequently defers their own needs or is unable to express wants or limits\", \"then\": \"Coach the patient in forming assertive 'I' statements and role-play relevant situations.\" }\n- {\"if\": \"Coping strategy is attempted (e.g., assertion, timeout, forgiveness)\", \"then\": \"Prompt patient to rate mood before and after, reflect on effectiveness, and encourage continued practice of those found helpful.\" }\n- {\"if\": \"Responsibility for abuse or maltreatment is discussed regarding childhood events\", \"then\": \"Clearly assign primary responsibility to the adult/abuser, not the child.\" }"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "- Guide clients through the process of reviewing and rating their use of CBT skills to foster self-awareness and confidence in their progress.\n- Support clients in identifying high-risk situations for mood deterioration, recognizing early warning signs of relapse, and collaboratively developing actionable relapse prevention plans.\n- Encourage clients to practice and reinforce skills even after initial improvement, aiming for skills to become automatic.\n- Engage clients in mental rehearsal/imagination exercises to practice implementing their relapse plans and boost confidence in managing future setbacks.\n- Promote ongoing self-monitoring and skill utilization for both maintaining gains and achieving greater life satisfaction.\n- Suggest periodic review of therapeutic materials and skills to sustain practice and reduce relapse risk.\n- Advise seeking further professional help if self-guided efforts are insufficient for improvement."
+    },
+    "micro_actions": {
+      "summary": "- Facilitate self-rating exercises of skill usage, helpfulness, current application, and anticipated future use via structured worksheets.\n- Help clients identify and articulate personal high-risk situations that predict mood problems.\n- Assist clients in recognizing and listing early warning signs in their thoughts, behaviors, moods, and physical state.\n- Guide clients through regular mood rating and monitoring.\n- Prompt clients to develop specific plans of action (e.g., which skills to deploy) tailored to high-risk situations and warning signs.\n- Lead mental imagery exercises to simulate skill use in upcoming challenges, and assess client confidence in their plans.\n- Encourage clients to keep therapy materials visible and accessible for ongoing reference.\n- Recommend expressing gratitude and engaging in positive, value-driven behaviors to enhance well-being."
+    },
+    "conversation_states": {
+      "summary": "- Client’s frequency, automaticity, and helpfulness of CBT skill usage.\n- Current and past mood state, including intensity, duration, and frequency of problematic moods.\n- Presence or absence of high-risk situations.\n- Emergence of early warning signs for relapse (behavioral, cognitive, emotional, physical).\n- Client’s confidence in relapse management plan and in their ability to execute skills.\n- Level of engagement with self-monitoring and skill reinforcement.\n- Client’s access to external supports and resources."
+    },
+    "knowledge_graph": {
+      "summary": "- Client’s history of skill acquisition (what CBT skills have been learned, practiced, and mastered).\n- Ratings over time of skill usage, helpfulness, and relapse-related data (e.g., frequency of relapse, mood tracking scores).\n- Record of high-risk situations, personal warning signs, and individualized relapse prevention plans.\n- Progression from deliberate to automatic use of skills.\n- Noted supports and resources (family, friends, therapist involvement).\n- Evidence of engagement with ongoing self-care practices like gratitude journals or activity scheduling."
+    },
+    "cautions": {
+      "summary": "- Do not discontinue skill practice prematurely when clients begin to feel better; reinforce continued practice until automaticity is achieved.\n- Avoid neglecting or minimizing early warning signs of mood deterioration.\n- Do not encourage rigid adherence to worksheets if skills have become automatic, but prompt their reuse if relapse occurs.\n- Do not pathologize normal mood fluctuations; distinguish transient mood changes from true relapse.\n- Avoid fostering overconfidence; ensure plans and skills are sufficiently rehearsed and flexible.\n- Do not dismiss the value of professional support if a client fails to improve with self-guided methods."
+    },
+    "rules": {
+      "summary": "[{\"if\": \"Client reports feeling better and wants to stop practicing skills\", \"then\": \"Encourage continued practice until skills become automatic\"},\n{\"if\": \"Mood ratings begin to increase in frequency, strength, and/or duration\", \"then\": \"Prompt deliberate, structured use of CBT skills and review relapse prevention plans\"},\n{\"if\": \"Client identifies early warning signs of problematic mood states\", \"then\": \"Activate planned responses and coping skills as specified in their relapse prevention plan\"},\n{\"if\": \"Client demonstrates low confidence in their relapse management plan during mental rehearsal\", \"then\": \"Help client enhance their plan or increase skill practice to boost confidence\"},\n{\"if\": \"Client fails to improve or relapses despite self-help efforts\", \"then\": \"Recommend consultation with a mental health professional\"},\n{\"if\": \"Client has made skills automatic but begins to struggle\", \"then\": \"Return to deliberate use of structured worksheets and exercises\"},\n{\"if\": \"Periodic self-review is neglected\", \"then\": \"Signal the importance of regular review of materials and progress for sustained wellbeing\"}]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "- Use psychoeducational tools (e.g., Thought Records, Activity Schedules, Core Belief Records) to facilitate cognitive restructuring and behavioral activation.\n- Track and review patient progress over time using mood/depression rating scales.\n- Support patients in applying CBT skills to real-life situations and encourage ongoing practice and self-monitoring.\n- Aid patients in identifying and addressing setbacks or relapses (e.g., binge drinking, discouragement) by collaboratively problem-solving and reviewing strategies.\n- Encourage generalization and maintenance of gains by helping patients apply CBT techniques independently after therapy ends.\n- Involve significant others (e.g., couple therapy) when relationship dynamics contribute to clinical concerns.\n- Affirm patient agency and credit successes to patient effort and skill use."
+    },
+    "micro_actions": {
+      "summary": "- Prompt patients to identify and label specific moods, thoughts, and situations as they occur.\n- Guide completion of worksheets (e.g., Thought Records, Activity Schedules, Core Belief Records) and review them collaboratively in-session.\n- Encourage and debrief behavioral experiments in a variety of contexts (e.g., in vivo, imagery, daily life).\n- Offer specific feedback and positive reinforcement for attempts at applying CBT skills, even if progress fluctuates.\n- Support the development and revision of relapse management plans, including strategies to cope with setbacks.\n- Help patients extract evidence for and against beliefs to reinforce cognitive restructuring.\n- Explore and discuss changes in personal values, goals, and behavioral choices.\n- Assess for ongoing risks (such as suicidal ideation when relevant) and discuss problem-solving techniques for emerging challenges."
+    },
+    "conversation_states": {
+      "summary": "- Current mood and severity (e.g., depression/anxiety rating scores).\n- Recent use of specific CBT skills (which techniques, how often, in what situations).\n- Patient’s attributions for changes in mood (e.g., internal vs. external, skill use vs. circumstances).\n- Presence and nature of setbacks or relapses.\n- Progress toward goals and movement toward valued activities.\n- Patient’s confidence in applying skills independently.\n- Relationship dynamics if relevant (e.g., communication, trust).\n- Ongoing risk factors (suicidality, substance use, major stressors)."
+    },
+    "knowledge_graph": {
+      "summary": "- History and pattern of symptom severity over time (e.g., longitudinal mood/depression scores).\n- Records of CBT assignments and progress (e.g., completed Thought Records, Activity Schedules, Core Belief Records).\n- Patient’s individual values, goals, and significant life events.\n- Episodes of relapse or recurrence (e.g., binge drinking, suicidal ideation/attempts).\n- Key learnings and cognitive/behavioral shifts (e.g., changes in core beliefs, new coping strategies).\n- Important relationships and support systems.\n- Successful relapse prevention strategies and indicators of progress toward independence in self-management."
+    },
+    "cautions": {
+      "summary": "- Do not attribute patient success solely to the therapist; emphasize patient agency and hard work.\n- Avoid minimizing setbacks—normalize fluctuations and progress variability.\n- Do not stop relapse prevention planning even after significant improvements are made.\n- Do not disregard the impact of external stressors or significant relationships on patient progress.\n- Avoid pressuring patients for perfection—reinforce acceptance of imperfection and ongoing effort."
+    },
+    "rules": {
+      "summary": "- if: Patient experiences an increase in depression/anxiety scores or reports relapse/setback, \n  then: Review recent coping strategies, collaboratively problem-solve, and adjust the action plan as needed.\n- if: Patient demonstrates progress or achieves a therapy goal,\n  then: Reinforce the link between skill application and improvement, attributing success to the patient’s effort.\n- if: Patient completes a behavioral experiment or worksheet,\n  then: Review the outcomes together and extract learning points, regardless of result.\n- if: Significant fluctuation in patient’s progress is observed,\n  then: Normalize variability in change and encourage continued practice of skills.\n- if: Patient prepares to end therapy,\n  then: Develop and rehearse a relapse management plan and reinforce independent use of CBT tools.\n- if: Patient’s relationships are affecting their mood or progress,\n  then: Consider including relevant others in therapy and use communication-focused interventions.\n- if: Patient expresses self-blame, guilt, or shame regarding slow or variable progress,\n  then: Provide psychoeducation about the non-linear nature of change and validate effort.\n- if: Patient faces ongoing major life stressors,\n  then: Monitor for risk, address these stressors within session, and adapt interventions accordingly."
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter highlights high-level strategies in cognitive behavioral therapy such as teaching patients to evaluate their thoughts, manage their moods, develop coping strategies, transform problems into strengths, and work towards long-term change through insight, understanding, and skill-building. The reference to the Worksheets suggests a structured approach to interventions across thought evaluation, action planning, testing beliefs, and tracking progress."
+    },
+    "micro_actions": {
+      "summary": "Therapists are expected to guide patients in completing specific worksheets (e.g., Thought Records, Action Plans, Behavioral Experiments), prompt reflection on evidence for and against beliefs, support rating confidence and personal experiences, assist in planning and evaluating activities, and help patients track symptoms and progress."
+    },
+    "conversation_states": {
+      "summary": "Variables to track include current mood states (e.g., depression, anxiety), patient’s thoughts and core beliefs, level of confidence in new beliefs, evidence supporting or contradicting beliefs, progress on behavioral experiments, and current behavior/activity patterns."
+    },
+    "knowledge_graph": {
+      "summary": "Across sessions, therapists should track the patient’s progress in changing core beliefs, accumulating evidence for new adaptive beliefs, patterns in mood and activity levels, scores on standardized inventories, outcomes of behavioral experiments, and personal experiences that affirm or challenge belief change."
+    },
+    "cautions": {
+      "summary": "None"
+    },
+    "rules": {
+      "summary": "- { \"if\": \"the patient presents a problematic thought or mood\", \"then\": \"guide the patient to complete a Thought Record to evaluate the thought and mood.\" }\n- { \"if\": \"the patient is working to change a core belief\", \"then\": \"facilitate the recording of evidence supporting the new belief and rate the patient’s confidence in it over time.\" }\n- { \"if\": \"the patient is engaging in an action plan or behavioral experiment\", \"then\": \"help the patient plan, execute, and reflect on the outcome to test and strengthen new beliefs.\" }\n- { \"if\": \"the patient reports scores on a mood or activity inventory\", \"then\": \"review the scores to inform the direction and focus of ongoing intervention.\" }\n- { \"if\": \"the patient is confronting anxiety or fear\", \"then\": \"use tools like the Fear Ladder to structure graded exposure and monitor progress.\" }"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter focuses on training the patient in core cognitive restructuring interventions within CBT. High-level dialogue phases include: (1) identifying situations and emotional states; (2) examining and labeling automatic thoughts; (3) evaluating evidence for and against thoughts; (4) generating alternative/balanced thoughts; (5) rating emotional intensity; and (6) tracking mood over time. The general strategy is to guide patients through these structured steps via Socratic questioning and worksheet-based exercises."
+    },
+    "micro_actions": {
+      "summary": "Micro-actions involve (a) prompting the patient to describe specific situations, timing, location, and involved people; (b) eliciting and recording automatic thoughts verbatim; (c) using structured questions (“What’s the evidence for this thought? Against?”) to help the patient examine their thinking; (d) guiding the patient to generate alternative, more balanced thoughts; (e) facilitating the patient in rating the intensity of their emotions and thoughts before and after cognitive restructuring; (f) supporting the patient in recording mood scores and tracking changes; and (g) instructing the patient to regularly fill out worksheets capturing these steps."
+    },
+    "conversation_states": {
+      "summary": "Therapists should track: (1) the current situation and its details (who, what, when, where); (2) patient-reported emotion(s) and their intensity (often on a 0–100% scale); (3) the automatic thoughts linked to the situation; (4) the patient’s evaluation of evidence for/against their thoughts; (5) the generation and acceptance of alternative or balanced thoughts; (6) shifts in mood ratings before and after intervention; (7) degree of engagement or hesitance with the worksheets."
+    },
+    "knowledge_graph": {
+      "summary": "Track across sessions: (a) patterns of automatic thoughts and common cognitive distortions; (b) recurrent situations/triggers for distress; (c) typical emotional reactions and their average intensity scores; (d) patient’s ability/progress in generating alternative thoughts; (e) longitudinal mood trends and responses to intervention; (f) noted improvements or recurring difficulties in cognitive restructuring tasks."
+    },
+    "cautions": {
+      "summary": "- Do not accept automatic thoughts at face value without evidence-based examination.\n- Avoid invalidating or dismissing patient’s emotions or thoughts.\n- Do not skip the stepwise structure of exploring situation, thought, evidence, and alternative.\n- Do not judge or label thoughts as “good” or “bad” without patient collaboration.\n- Avoid imposing therapist-generated alternatives; prioritize patient-generated ideas."
+    },
+    "rules": {
+      "summary": "- {\"if\": \"The patient presents a distressing situation.\", \"then\": \"Prompt for specifics: who, what, when, where.\"}\n- {\"if\": \"The patient reports emotional distress.\", \"then\": \"Ask for emotion label(s) and intensity rating (0–100%).\"}\n- {\"if\": \"A thought related to distress is identified.\", \"then\": \"Record the exact automatic thought and question its evidence.\"}\n- {\"if\": \"Evidence for and against the automatic thought is unclear.\", \"then\": \"Use Socratic questioning to explore both sides.\"}\n- {\"if\": \"Patient is stuck or unable to generate alternative thoughts.\", \"then\": \"Offer prompts but encourage the patient to generate their own alternatives.\"}\n- {\"if\": \"An alternative/balanced thought is produced.\", \"then\": \"Prompt patient to rate their mood again and compare shifts.\"}\n- {\"if\": \"Session ends.\", \"then\": \"Encourage regular completion of worksheets and mood tracking until the next session.\"}"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": [
+        "The therapist guides the patient through the process of setting a specific goal to address a problem the patient wishes to change.",
+        "The therapist supports the patient in making an individualized, actionable plan (Action Plan) to achieve this goal.",
+        "The therapist helps the patient anticipate possible obstacles and collaboratively develops coping strategies for potential difficulties.",
+        "The therapist encourages ongoing tracking of progress and, if applicable, the creation of additional Action Plans for other problem areas."
+      ]
+    },
+    "micro_actions": {
+      "summary": [
+        "Elicit a specific problem area the patient wants to change.",
+        "Guide the patient to articulate a concrete, specific goal.",
+        "Assist the patient in describing detailed actions to take toward the goal.",
+        "Support the patient in planning a start time for action.",
+        "Explore with the patient possible problems or barriers to success.",
+        "Collaborate on devising coping strategies for anticipated problems.",
+        "Prompt the patient to keep a written record of actions and progress.",
+        "Provide worksheets or tools (e.g., Worksheet 10.2) and explain their use."
+      ]
+    },
+    "conversation_states": {
+      "summary": [
+        "Current problem(s) the patient wants to address.",
+        "Patient’s articulated goal(s) for change.",
+        "Planned actions and their specificity.",
+        "Identified potential obstacles or barriers.",
+        "Patient’s proposed coping strategies.",
+        "Patient’s commitment or readiness to begin.",
+        "Ongoing progress since previous sessions."
+      ]
+    },
+    "knowledge_graph": {
+      "summary": [
+        "Historical log of problems identified.",
+        "List of goals set across sessions.",
+        "Action Plans developed and the status of each.",
+        "Catalog of obstacles encountered and strategies applied.",
+        "Progress history and outcome notes for each problem area."
+      ]
+    },
+    "cautions": {
+      "summary": [
+        "Do not allow goals or action plans to remain vague or nonspecific.",
+        "Do not ignore or minimize possible obstacles the patient identifies.",
+        "Do not fail to support the patient in brainstorming coping strategies.",
+        "Do not proceed without written tracking, as accountability and self-monitoring are critical.",
+        "Do not move on without ensuring patient understanding of Action Plan implementation."
+      ]
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "The patient expresses a desire to change a problem area in life",
+          "then": "Guide the patient to define a specific, actionable goal."
+        },
+        {
+          "if": "A goal is identified",
+          "then": "Collaborate with the patient to break down the goal into detailed, actionable steps."
+        },
+        {
+          "if": "Action steps are defined",
+          "then": "Help the patient identify possible obstacles to completing these steps."
+        },
+        {
+          "if": "Obstacles are anticipated",
+          "then": "Assist the patient in creating coping strategies for each potential problem."
+        },
+        {
+          "if": "The Action Plan is ready",
+          "then": "Ask the patient to set a specific start time and begin tracking progress in writing."
+        },
+        {
+          "if": "Progress is monitored",
+          "then": "Review outcomes and adjust the Action Plan as necessary in future sessions."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": [
+        "Guiding the patient to design and conduct behavioral experiments to test their underlying assumptions.",
+        "Facilitating reflection on experiment outcomes versus predictions.",
+        "Assisting the patient in identifying unexpected results or problems and strategies used to overcome them.",
+        "Supporting the consideration and formulation of alternative, more adaptive assumptions that fit the experimental outcomes."
+      ]
+    },
+    "micro_actions": {
+      "summary": [
+        "Helping the patient articulate the specific assumption to be tested.",
+        "Collaborating with the patient to design a concrete experiment targeting the assumption.",
+        "Prompting the patient to make specific, testable predictions about the outcome.",
+        "Eliciting potential problems and brainstorming strategies to address them.",
+        "Encouraging careful recording and discussion of what actually happened during the experiment.",
+        "Asking direct questions to compare actual outcomes with predictions.",
+        "Exploring with the patient what was learned from the experiment, especially any unexpected events.",
+        "Guiding the patient to generate alternative, more adaptive assumptions if evidence supports it."
+      ]
+    },
+    "conversation_states": {
+      "summary": [
+        "Current underlying assumption(s) being tested.",
+        "Patient’s explicit predictions about experiment outcomes.",
+        "Identified potential problems/barriers and proposed coping strategies.",
+        "Patient’s emotional and cognitive reactions post-experiment.",
+        "Degree of match/mismatch between predicted and actual outcomes.",
+        "Level of adaptability in the patient’s thinking (openness to alternative assumptions).",
+        "Coping ability when things do not go as planned."
+      ]
+    },
+    "knowledge_graph": {
+      "summary": [
+        "Log of assumptions tested by the patient over time.",
+        "History of experiments conducted, including designs and predicted outcomes.",
+        "Actual outcomes versus predictions for each experiment.",
+        "Strategies the patient has used for overcoming barriers.",
+        "Lessons learned and updates to the patient’s belief system (including any endorsed alternative assumptions).",
+        "Record of instances where unexpected events influenced the patient’s learning or belief change."
+      ]
+    },
+    "cautions": {
+      "summary": [
+        "Do not accept assumptions or predictions at face value without collaboratively investigating them.",
+        "Avoid rushing the generation of alternative assumptions before thoroughly reviewing experiment outcomes.",
+        "Do not dismiss the patient’s difficulties in coping with unexpected or undesired outcomes.",
+        "Avoid imposing the therapist’s interpretations; focus on drawing out the patient’s own meaning and learning."
+      ]
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "The patient articulates an underlying assumption to test",
+          "then": "Guide the patient in designing a suitable behavioral experiment and identifying specific predictions."
+        },
+        {
+          "if": "Potential problems or barriers are identified for the experiment",
+          "then": "Collaboratively develop possible strategies to address these issues."
+        },
+        {
+          "if": "The patient completes the experiment",
+          "then": "Facilitate discussion to compare actual outcomes with initial predictions."
+        },
+        {
+          "if": "Unexpected outcomes are observed",
+          "then": "Explore with the patient what was learned and encourage openness to updating assumptions."
+        },
+        {
+          "if": "Outcomes do not match predictions",
+          "then": "Support the patient in analyzing the reasons and generating a plausible, alternative assumption."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter discusses techniques for updating and reinforcing a new core belief. The therapist guides the patient through reflecting on the outcome of behavioral experiments, evaluating their responses to setbacks, and systematically recording positive evidence supporting the new core belief."
+    },
+    "micro_actions": {
+      "summary": "The micro-interventions involve prompting the patient to:\n- Reflect on specific outcomes of recent experiments related to their beliefs.\n- Articulate how well they handled situations if things did not go as planned.\n- Identify and state an alternative assumption/belief that fits recent experiences.\n- List concrete pieces of evidence or experiences that support the new core belief.\n- Record these pieces of evidence systematically in a worksheet."
+    },
+    "conversation_states": {
+      "summary": "Relevant variables to track include:\n- The patient's current core belief and the new core belief being formed.\n- The nature and outcome of recent behavioral experiments.\n- The patient's emotional and cognitive response to setbacks or unexpected outcomes.\n- Progress in collecting evidence supporting the new belief.\n- The patient’s level of conviction in the new versus the old core belief."
+    },
+    "knowledge_graph": {
+      "summary": "The therapist should log, across sessions:\n- The evolving core beliefs and their supporting evidence.\n- Key behavioral experiments undertaken by the patient.\n- Instances where the patient successfully applied new beliefs or handled setbacks differently.\n- A cumulative list of evidence/experiences supporting the new core belief."
+    },
+    "cautions": {
+      "summary": "None explicitly mentioned in this chapter."
+    },
+    "rules": {
+      "summary": "[{\"if\": \"Patient completes a behavioral experiment with unexpected or negative outcome\", \"then\": \"Prompt the patient to assess how well they handled the situation and to consider an alternative assumption that fits the outcome.\"}, {\"if\": \"Patient identifies a new core belief\", \"then\": \"Guide the patient to systematically record specific evidence or experiences that support this new belief.\"}, {\"if\": \"Session is underway and patient expresses doubt about the new belief\", \"then\": \"Review previously recorded supporting evidence and encourage the patient to reflect on additional examples.\"}]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter focuses on the process of guiding patients to monitor, rate, and track their confidence in new core beliefs over time. The therapist helps the patient practice ongoing self-assessment, encourages periodic review, and reinforces progress in belief change."
+    },
+    "micro_actions": {
+      "summary": "The therapist instructs the patient to identify a specific new core belief, date each rating session, guide the patient to mark their level of confidence on a 0%-100% scale, prompt reflection on how the new belief fits with current experiences, and remind the patient to repeat this exercise periodically for ongoing progress monitoring."
+    },
+    "conversation_states": {
+      "summary": "The therapist should track the patient's identified core belief(s), date of each rating, current confidence levels (numerical ratings), patterns or changes in confidence over time, and the patient’s subjective experiences validating or challenging the new core belief."
+    },
+    "knowledge_graph": {
+      "summary": "The therapist should maintain a long-term record of the patient’s new core beliefs, historical confidence ratings and dates, observed progress or setbacks in belief strength, and contextual notes about what real-life experiences have influenced the patient’s confidence shifts."
+    },
+    "cautions": {
+      "summary": "The therapist should not disregard plateaus or declines in confidence, minimize the importance of gradual belief strengthening, or pressure the patient into reporting artificially high confidence. It is also cautioned against neglecting regular follow-up on rating exercises."
+    },
+    "rules": {
+      "summary": "- { \"if\": \"The patient provides a rating of confidence in the new core belief.\", \"then\": \"Acknowledge the rating and encourage them to reflect on recent experiences that support or contradict the belief.\" }\n- { \"if\": \"Several weeks have passed since the last rating session.\", \"then\": \"Prompt the patient to revisit and rerate their confidence in the new core belief.\" }\n- { \"if\": \"The rating shows little or no increase over time.\", \"then\": \"Explore potential obstacles and collaboratively discuss ways to strengthen the new belief.\" }\n- { \"if\": \"The patient expresses uncertainty about the new belief.\", \"then\": \"Encourage open discussion without pressure and validate their current experiences.\" }"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "- Guide the patient to shift from all-or-nothing thinking to rating their behaviors on a scale.\n- Encourage self-reflection and the association of behaviors with emerging core beliefs.\n- Facilitate the identification and re-evaluation of personal behaviors in various contexts.\n- Support the patient in summarizing insights gained from the exercise."
+    },
+    "micro_actions": {
+      "summary": "- Prompt the patient to describe specific situations and associated behaviors.\n- Instruct on rating each behavior on a graduated scale (e.g., 0%, 25%, 50%, 75%, 100%) instead of categorically.\n- Ask questions to help the patient notice and articulate their feelings about the difference between scaling and all-or-nothing judgments.\n- Elicit a summary from the patient regarding what they learned in the process."
+    },
+    "conversation_states": {
+      "summary": "- Patient’s current mode of self-evaluation (all-or-nothing vs. continuum).\n- Emotional reactions to using scales instead of binary judgments.\n- Degree of insight or cognitive shift regarding the nature of their self-assessment.\n- Link between behaviors rated and the new core belief being developed."
+    },
+    "knowledge_graph": {
+      "summary": "- Set of behaviors the patient tends to evaluate in all-or-nothing terms.\n- Patient’s target new core belief (e.g., \"I am lovable,\" \"I am a worthwhile person\").\n- Historical ratings of specific behaviors in relevant situations across sessions.\n- Documented patterns of change in self-evaluation style over time."
+    },
+    "cautions": {
+      "summary": "- Do not reinforce or ignore all-or-nothing thinking patterns.\n- Avoid making judgments or interpretations that undermine the patient’s effort to adopt continuum-based self-evaluation.\n- Do not skip the self-reflection or summarization step after the ratings are done."
+    },
+    "rules": {
+      "summary": "- { \"if\": \"Patient describes their behavior in all-or-nothing terms\", \"then\": \"Prompt them to rate the behavior on a scale and explore the continuum.\" }\n- { \"if\": \"Patient completes several behavior ratings\", \"then\": \"Facilitate a summary discussion about insights and emotional reactions to the process.\" }\n- { \"if\": \"Patient shows difficulty identifying behaviors to rate\", \"then\": \"Provide concrete examples or guide them to connect with their new core belief.\" }\n- { \"if\": \"Patient expresses frustration or confusion with scaling\", \"then\": \"Validate their feelings and offer support in understanding the rationale for using the scale.\" }"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": [
+        "Guiding the patient to identify new core beliefs they wish to strengthen.",
+        "Facilitating the generation of actionable behaviors aligned with new core beliefs.",
+        "Encouraging the patient to make predictions regarding outcomes, contrasting old and new core beliefs.",
+        "Supporting the patient in carrying out behavioral experiments based on those predictions.",
+        "Reviewing and discussing the results of these experiments."
+      ]
+    },
+    "micro_actions": {
+      "summary": [
+        "Prompting the patient to articulate the new core belief(s) to be strengthened.",
+        "Asking the patient to list two or three specific, actionable behaviors consistent with the new core belief.",
+        "Inviting the patient to express predictions about outcomes, based both on old and new core beliefs.",
+        "Assisting the patient in planning and describing the details of behavioral experiments (what, with whom, where).",
+        "Instructing the patient to record the actual outcomes of their experiments.",
+        "Helping the patient reflect on discrepancies between predictions and outcomes to reinforce the new belief."
+      ]
+    },
+    "conversation_states": {
+      "summary": [
+        "Patient’s current set of core beliefs (old versus new).",
+        "Patient's level of confidence in the new core belief.",
+        "Specific behaviors the patient is willing/reluctant to attempt.",
+        "Patient’s predictions about outcomes (based on old and new beliefs).",
+        "Actual results and emotional reactions from behavioral experiments."
+      ]
+    },
+    "knowledge_graph": {
+      "summary": [
+        "Patient’s past and current core beliefs.",
+        "List of behavioral experiments attempted and their results.",
+        "Patient’s history of predictions versus outcomes.",
+        "Trends in how new beliefs are being adopted or resisted across multiple sessions."
+      ]
+    },
+    "cautions": {
+      "summary": [
+        "Do not force the patient to attempt behaviors they are strongly unwilling or unprepared to do.",
+        "Avoid invalidating or dismissing the patient’s old core beliefs; instead, explore them collaboratively.",
+        "Do not neglect to plan for accurately recording both predictions and actual outcomes.",
+        "Avoid drawing premature conclusions without sufficient behavioral evidence."
+      ]
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "The patient struggles to generate behaviors consistent with new core beliefs",
+          "then": "Prompt and support the patient in brainstorming small, achievable actions that fit the new belief."
+        },
+        {
+          "if": "The patient is reluctant to attempt a behavior",
+          "then": "Explore the reasons for reluctance and collaboratively assess possible steps or alternatives."
+        },
+        {
+          "if": "The patient makes predictions based on old core beliefs",
+          "then": "Encourage articulation of alternative predictions consistent with the new belief."
+        },
+        {
+          "if": "The results of behavioral experiments are discussed",
+          "then": "Guide reflection on how the outcomes support or challenge old and new core beliefs."
+        },
+        {
+          "if": "There is a mismatch between predicted and actual outcomes",
+          "then": "Facilitate exploration of implications for updating core beliefs."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "- Assessment of depressive symptoms using standardized self-report inventory.\n- Encouragement of patient self-monitoring regarding social activities and behavioral experiments related to core beliefs.\n- Facilitation of planning for future therapeutic activities (“future experiments”)."
+    },
+    "micro_actions": {
+      "summary": "- Instructing the patient to complete the depression inventory.\n- Reviewing and clarifying each symptom item (e.g., helping the patient reflect on sadness, guilt, etc.).\n- Guiding the patient in documenting specific behavioral experiments: what was done, with whom, outcomes.\n- Prompting patient reflection on whether outcomes support new core beliefs.\n- Assisting the patient in brainstorming and noting future experiments."
+    },
+    "conversation_states": {
+      "summary": "- Current severity/frequency of depressive symptoms (as measured across 19 inventory items).\n- Patient’s recent behavioral activities with others and outcomes.\n- Shifts in patient’s beliefs or support for new core beliefs.\n- Patient’s motivation and ideas for future therapeutic tasks."
+    },
+    "knowledge_graph": {
+      "summary": "- Patient’s historical depression symptom trajectory (tracking inventory scores over time).\n- Record of behavioral experiments: what was planned, executed, discovered, and learned.\n- Identified core beliefs and changes in these beliefs across sessions.\n- Patterns of social interaction and avoidance documented session-to-session.\n- Planned future therapeutic experiments."
+    },
+    "cautions": {
+      "summary": "- Do not ignore high-risk responses (e.g., suicidal thoughts, recurrent thoughts of death, suicide planning) on the inventory; these require immediate clinical attention.\n- Do not dismiss or invalidate the patient’s self-reports or feelings.\n- Do not fail to follow up on incomplete or ambiguous item responses.\n- Do not overlook significant behavior changes or emerging symptom patterns."
+    },
+    "rules": {
+      "summary": "- { \"if\": \"Patient endorses high suicidal ideation, thoughts of death, or suicide planning on the inventory.\", \"then\": \"Initiate immediate suicide risk assessment and implement safety protocols.\" }\n- { \"if\": \"Patient notes decreased motivation for activities or withdrawal from people.\", \"then\": \"Explore barriers and collaboratively problem-solve activity scheduling or graded exposure.\" }\n- { \"if\": \"Patient completes behavioral experiment worksheet.\", \"then\": \"Review outcomes, discuss support for new core beliefs, and plan next steps.\" }\n- { \"if\": \"Patient provides significantly incomplete inventory or worksheet.\", \"then\": \"Clarify reasons for noncompletion and offer guidance or encouragement as appropriate.\" }"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter primarily involves monitoring depression through standardized self-reported inventory scores and guiding the patient through structured activity scheduling. The high-level strategy is to assess depressive symptom severity and implement behavioral activation by planning and tracking daily activities."
+    },
+    "micro_actions": {
+      "summary": "The micro-intervention actions include instructing the patient to self-rate their depression on a quantifiable scale (using the worksheet), assisting them in filling out the activity scheduling exercise, reviewing the recorded scores and activities, providing feedback on progress, and prompting reflection on patterns in mood and behavior."
+    },
+    "conversation_states": {
+      "summary": "Key variables to track during sessions include the patient's depression inventory scores (severity), adherence to activity scheduling, engagement and participation in the exercise, expressed motivation/resistance, and observed changes in mood or daily routines."
+    },
+    "knowledge_graph": {
+      "summary": "The long-term patient memory should include historical depression inventory scores with corresponding dates, records of activity scheduling attempts and outcomes, patterns in mood changes over time, and individualized activity preferences and barriers."
+    },
+    "cautions": {
+      "summary": "The chapter does not explicitly mention cautions or risks."
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "The patient has completed a depression inventory score worksheet.",
+          "then": "Review and discuss the results with the patient, noting changes over time."
+        },
+        {
+          "if": "The patient struggles with activity scheduling.",
+          "then": "Provide additional support, break down tasks, and encourage small, achievable steps."
+        },
+        {
+          "if": "There are significant drops or increases in depression scores.",
+          "then": "Assess for possible triggers and collaboratively problem-solve or adjust the intervention plan."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The therapist guides the patient in planning daily activities across multiple categories (pleasurable, accomplishment, overcoming avoidance, value-based activities), encourages review of past worksheets for reflection, and supports the distribution of activities throughout the week for balanced engagement."
+    },
+    "micro_actions": {
+      "summary": "The therapist prompts the patient to:\n- List several specific activities for each day in each category.\n- Reflect on which category each activity fits and allow flexible categorization.\n- Refer to previous worksheets and answers for ideas.\n- Use the daily schedule worksheet to plan, track, and rate enjoyment for each activity.\n- Encourage marking changes and noting if planned activities weren't completed and what was done instead."
+    },
+    "conversation_states": {
+      "summary": "The therapist should monitor:\n- Patient engagement in planning and categorizing activities.\n- Patient’s willingness and comfort in scheduling activities.\n- Which categories of activities are being prioritized or neglected.\n- Patient’s experience of enjoyment or accomplishment from activities (via ratings).\n- Instances of avoidance or substitution of planned activities for others."
+    },
+    "knowledge_graph": {
+      "summary": "The therapist should track:\n- Patient’s preferred types of activities in each category over time.\n- Patterns of avoidance or engagement in activities across sessions.\n- Patient’s value-oriented goals and progress toward them.\n- Frequency and variety of planned and completed activities.\n- Enjoyment or accomplishment ratings for activities."
+    },
+    "cautions": {
+      "summary": "- Avoid rigidly categorizing activities; allow patient autonomy in classifying what fits for them.\n- Do not pressure the patient to strictly adhere to the proposed schedule without considering flexibility and context.\n- Avoid criticizing or making the patient feel guilty for not completing planned activities.\n- Do not overlook the importance of reflecting on why activities were missed or substituted."
+    },
+    "rules": {
+      "summary": "[{\"if\": \"The patient is unsure about which activities to plan\", \"then\": \"Guide them to review previous worksheets and answers for inspiration.\"}, {\"if\": \"The patient categorizes an activity differently than expected\", \"then\": \"Accept the patient's chosen category to support autonomy.\"}, {\"if\": \"A planned activity is not completed\", \"then\": \"Ask the patient to note what they did instead and reflect on the experience without judgment.\"}, {\"if\": \"There are few or no activities in a specific category\", \"then\": \"Encourage exploring or brainstorming more options for that category.\"}, {\"if\": \"The patient completed an activity\", \"then\": \"Prompt them to rate their enjoyment or sense of accomplishment.\"}]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The high-level strategy is the assessment of anxiety symptoms through the use of a structured self-report inventory (e.g., Mind over Mood Anxiety Inventory). The therapist guides the patient to reflect on various anxiety-related experiences over the past week in order to identify target symptoms and severity."
+    },
+    "micro_actions": {
+      "summary": "- Instruct the patient to complete the anxiety inventory, clarifying any ambiguous items as needed.\n- Prompt the patient to reflect on their experience of each listed symptom, encouraging honest and specific responses.\n- Review the patient's answers, seeking clarification where responses are unclear.\n- Normalize the process of symptom assessment to reduce any discomfort or embarrassment."
+    },
+    "conversation_states": {
+      "summary": "- Current severity and frequency of anxiety-related symptoms per item (e.g., feeling nervous, worrying, restlessness).\n- Patient’s emotional state and comfort with disclosing symptoms.\n- Areas where patient provides incomplete or inconsistent self-report data.\n- Level of patient insight and self-awareness regarding their symptoms."
+    },
+    "knowledge_graph": {
+      "summary": "- Baseline and session-by-session scores for each anxiety symptom dimension.\n- Patterns or changes in symptom frequency or severity across sessions.\n- Patient’s historical and emerging avoidance behaviors.\n- Key cognitive beliefs (e.g., self-efficacy, perceived danger, ability to cope) as referenced in the inventory."
+    },
+    "cautions": {
+      "summary": "- Do not invalidate or dismiss the patient's reported experiences or symptoms.\n- Avoid pressuring the patient for responses if they seem uncomfortable or resistant.\n- Do not jump to interpretation or intervention before assessment is complete.\n- Avoid making diagnostic conclusions solely based on the inventory without a broader assessment."
+    },
+    "rules": {
+      "summary": "- { \"if\": \"The patient expresses confusion about an inventory item\", \"then\": \"Clarify the meaning of the item in an empathetic, non-judgmental way.\" }\n- { \"if\": \"The patient omits or skips an item\", \"then\": \"Gently prompt the patient to consider their experiences and offer to return to the item later if necessary.\" }\n- { \"if\": \"The patient reports high levels of distress or discomfort during assessment\", \"then\": \"Pause assessment, address distress, and normalize their feelings before proceeding.\" }\n- { \"if\": \"The therapist observes inconsistent or surprising symptom reporting\", \"then\": \"Ask open-ended questions to explore the discrepancy without confrontation.\" }"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "None"
+    },
+    "micro_actions": {
+      "summary": "None"
+    },
+    "conversation_states": {
+      "summary": "The chapter references the use of an anxiety inventory worksheet and details about scoring, indicating that the therapist should track session or inventory score totals. Monitoring the patient's current anxiety level as measured by this worksheet is an implicit conversation state variable."
+    },
+    "knowledge_graph": {
+      "summary": "The therapist should maintain long-term tracking of the patient’s Mind Over Mood Anxiety Inventory scores across sessions to monitor progress, trends, and changes in anxiety symptoms over time."
+    },
+    "cautions": {
+      "summary": "None"
+    },
+    "rules": {
+      "summary": "- {\"if\": \"A patient completes the Mind Over Mood Anxiety Inventory\", \"then\": \"Record and monitor the sum of item scores as a measure of the patient's current anxiety level.\"}\n- {\"if\": \"Inventory scores are tracked over multiple sessions\", \"then\": \"Use these longitudinal scores to identify progress, worsening, or patterns in the patient's anxiety.\"}"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "Establishing the therapeutic alliance, setting collaborative goals, psychoeducation about the cognitive model, identifying maladaptive thought patterns, collaboratively devising cognitive restructuring interventions, assigning homework, and reviewing progress."
+    },
+    "micro_actions": {
+      "summary": "Asking open-ended questions to elicit thoughts and feelings; providing validation and empathy; offering gentle Socratic questioning to explore evidence for and against thoughts; summarizing patient statements; collaboratively generating alternative thoughts; providing behavioral experiments and exercises; giving clear instructions for homework assignments."
+    },
+    "conversation_states": {
+      "summary": "Level of patient engagement/motivation; current emotional state; degree of insight into maladaptive patterns; accuracy of thought identification; openness to alternative viewpoints; frequency/intensity of target symptoms; patient’s understanding of CBT concepts."
+    },
+    "knowledge_graph": {
+      "summary": "Patient’s core beliefs and automatic thoughts; history of problematic behaviors and symptom patterns; progress toward therapeutic goals; responses to previous interventions; homework compliance and difficulties; contextual life events impacting therapy."
+    },
+    "cautions": {
+      "summary": "Avoid making authoritative statements or invalidating the patient’s perspective; do not impose interpretations without consensus; avoid overloading the patient with challenging tasks; refrain from ignoring the patient’s affect or resistance."
+    },
+    "rules": {
+      "summary": "if: The patient expresses uncertainty or skepticism about the CBT model,  then: Explore their concerns and offer psychoeducation using collaborative and respectful dialogue.\n\nif: The patient becomes emotionally distressed during thought exploration,  then: Pause to validate emotions and provide support before proceeding.\n\nif: The patient struggles to identify automatic thoughts,  then: Use concrete examples from recent experiences to guide the process.\n\nif: Homework assignments are not completed,  then: Discuss barriers and collaboratively adjust the task as needed.\n\nif: The therapist detects disengagement or lack of motivation,  then: Check in about the therapeutic alliance and collaboratively reset goals."
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": [
+        "Guiding the patient through identifying, rating, and organizing anxiety-provoking situations (construction of a “Fear Ladder”).",
+        "Facilitating exposure planning by helping the patient structure situations from least to most anxiety-inducing.",
+        "Supporting brainstorming and self-reflection to increase patient awareness of their avoidance behaviors."
+      ]
+    },
+    "micro_actions": {
+      "summary": [
+        "Prompting the patient to brainstorm specific situations, events, or people that trigger avoidance due to anxiety.",
+        "Instructing the patient to rate each avoided situation on a 0–100 anxiety scale.",
+        "Directing the patient to order and fill these situations into a hierarchical “Fear Ladder” from lowest to highest anxiety.",
+        "Encouraging patient clarification if ratings are equal and helping them choose a logical sequence."
+      ]
+    },
+    "conversation_states": {
+      "summary": [
+        "The list of anxiety-provoking stimuli or situations the patient avoids.",
+        "Patient’s reported subjective anxiety ratings for each item (0–100 scale).",
+        "The current progress in completing and ordering the “Fear Ladder.”",
+        "Level of understanding and engagement in the process."
+      ]
+    },
+    "knowledge_graph": {
+      "summary": [
+        "The patient’s personalized list of avoided situations, with attached anxiety ratings.",
+        "The organized hierarchy of feared situations (the constructed Fear Ladder).",
+        "Changes in anxiety ratings or avoidance patterns over time."
+      ]
+    },
+    "cautions": {
+      "summary": [
+        "Do not force patient to rank or order items in ways that do not make sense to them.",
+        "Do not minimize the patient’s reported anxiety or invalidate their experiences.",
+        "Avoid pressuring the patient to fill every step if some are left blank.",
+        "Do not skip the rating step before organizing the ladder."
+      ]
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "The patient has brainstormed and listed avoidance situations.",
+          "then": "Prompt the patient to rate their anxiety for each situation on a 0–100 scale."
+        },
+        {
+          "if": "Situations have been rated for anxiety.",
+          "then": "Guide the patient to order the situations on the Fear Ladder from lowest to highest rated anxiety."
+        },
+        {
+          "if": "Two or more situations have equal anxiety ratings.",
+          "then": "Ask the patient to order them in a way that makes the most sense to them."
+        },
+        {
+          "if": "The patient expresses uncertainty or confusion about rankings.",
+          "then": "Provide supportive clarification and emphasize flexibility in ordering and leaving steps blank if needed."
+        },
+        {
+          "if": "A step is left blank on the Fear Ladder.",
+          "then": "Reassure the patient that blank steps are acceptable and the process can be individualized."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "Facilitating mood self-monitoring; guiding patients to systematically measure and track the frequency, strength, and duration of their moods and emotions over time using structured worksheets."
+    },
+    "micro_actions": {
+      "summary": "Prompting the patient to identify and specify a target mood; instructing the patient to rate the frequency of experiencing the mood within a defined period; cueing the patient to assess and record the strength of the mood at its most intense point; guiding the patient to rate the duration of the mood during its strongest occurrence; assisting the patient in marking or circling the relevant values on the scale for each dimension."
+    },
+    "conversation_states": {
+      "summary": "Current target mood being rated; reported frequency of target mood; reported strength of target mood at its strongest; reported duration of target mood at its strongest; patient understanding and accuracy of reporting; patient engagement with self-monitoring."
+    },
+    "knowledge_graph": {
+      "summary": "History of mood ratings for each target mood (date, frequency, strength, duration); patterns or changes in mood ratings over time; baseline and peak mood measurements; association of mood fluctuations with events or activities."
+    },
+    "cautions": {
+      "summary": "Do not neglect to clarify rating instructions, as patient misunderstanding can lead to inaccurate tracking; do not dismiss low or fluctuating mood scores—each data point informs therapeutic decisions; avoid imposing therapist's own ratings—ensure the patient’s own perspective is recorded."
+    },
+    "rules": {
+      "summary": "- { \"if\": \"The patient expresses uncertainty about how to rate a mood dimension (frequency, strength, or duration).\", \"then\": \"Clarify the rating scale and provide concrete examples to support accurate self-report.\" }\n- { \"if\": \"The patient attempts to skip a worksheet section.\", \"then\": \"Gently encourage completion, explaining the importance of each rating for progress tracking.\" }\n- { \"if\": \"Recent ratings show a significant change (increase or decrease) from previous weeks.\", \"then\": \"Discuss the change with the patient to explore potential causes or implications.\" }\n- { \"if\": \"The patient rates a mood as 0 (not experienced).\", \"then\": \"Acknowledge this, and consider whether tracking a different mood may be more relevant.\" }"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter describes the therapist-supported intervention of teaching the patient to systematically monitor and track their moods over time by recording frequency, strength, and duration using a structured worksheet. This supports skill development in mood awareness and self-monitoring as a foundational CBT strategy."
+    },
+    "micro_actions": {
+      "summary": "The therapist instructs the patient on how to fill out the mood tracking worksheet (labeling variables, selecting moods to track, using separate sheets for each mood, and differentiating between ratings with labels or colors); provides feedback and clarification on recording entries; checks for understanding and correct use; and reviews completed worksheets with the patient to reinforce skill development."
+    },
+    "conversation_states": {
+      "summary": "The therapist must track which moods the patient selects for monitoring, the accuracy/completeness of worksheet entries (frequency, strength, duration for each mood), the patient’s understanding of the tracking process, and the patient’s engagement/compliance with the self-monitoring task."
+    },
+    "knowledge_graph": {
+      "summary": "The therapist should maintain longitudinal data on the patient’s mood scores (frequency, strength, duration) for each tracked mood, patterns and changes over time, which moods are prioritized for monitoring, and the patient’s progress with CBT skills (especially self-monitoring)."
+    },
+    "cautions": {
+      "summary": "The therapist should avoid overwhelming the patient with too many moods to track at once, avoid unclear instructions that might lead to inaccurate data, and refrain from making judgments based solely on short-term mood shifts without considering longitudinal trends."
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "the patient is learning to track mood scores for the first time",
+          "then": "provide clear instruction, demonstrate labeling, and model use of Worksheet 15.2 for one mood."
+        },
+        {
+          "if": "the patient expresses confusion about differentiating frequency, strength, or duration",
+          "then": "clarify definitions and give examples for each variable."
+        },
+        {
+          "if": "the patient submits incomplete or incorrectly labeled worksheets",
+          "then": "provide corrective feedback and additional guidance."
+        },
+        {
+          "if": "the patient becomes overwhelmed by tracking several moods simultaneously",
+          "then": "reduce the number of moods being tracked to a manageable amount."
+        },
+        {
+          "if": "reviewing mood scores with the patient",
+          "then": "reinforce the importance of consistent tracking and point out observable changes or patterns."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "None"
+    },
+    "micro_actions": {
+      "summary": "None"
+    },
+    "conversation_states": {
+      "summary": "None"
+    },
+    "knowledge_graph": {
+      "summary": "None"
+    },
+    "cautions": {
+      "summary": "None"
+    },
+    "rules": {
+      "summary": "None"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The therapist guides the patient through the structured exploration of forgiving others and possibly oneself, using reflection, perspective-taking, and structured exercises (such as composing a Forgiveness Letter and self-forgiveness activities). The therapist assists the patient in identifying and articulating feelings about being hurt, the impact of these experiences, and envisioning the potential benefits of forgiveness."
+    },
+    "micro_actions": {
+      "summary": "- Prompting the patient to specifically describe the hurtful event (\"This is what you did to me\")\n- Asking the patient to identify the emotional and practical impacts (\"This is the impact it has had in my life\")\n- Encouraging reflection on ongoing effects (\"This is how it continues to affect me\")\n- Inviting the patient to imagine life post-forgiveness (\"This is how I imagine my life will be better if I’m able to forgive you\")\n- Encouraging empathetic perspective-taking regarding the other person's actions (\"This is how I can understand what you have done\")\n- Facilitating self-compassion by having the patient consider how they would want to be perceived if roles were reversed (\"This is how I would want to be viewed if I hurt someone\")\n- Clarifying what forgiveness means and does not mean (\"This is how I can forgive what you have done\")\n- Identifying personal strengths to support moving forward (\"These are the qualities I have that will allow me to move forward\")\n- Monitoring for self-criticism and prompting self-forgiveness exercises if needed."
+    },
+    "conversation_states": {
+      "summary": "- Degree of emotional distress or anger regarding past events\n- Level of understanding/insight into the actions and motivations of the person who hurt them\n- Current capacity for empathy or perspective-taking\n- Readiness and ambivalence towards forgiveness\n- Self-perception (especially self-criticism versus self-compassion)\n- Impact of past events on current functioning"
+    },
+    "knowledge_graph": {
+      "summary": "- Key hurtful events and the associated individuals\n- Documented impacts of those events on the patient's life\n- How the patient's feelings about these events change over time\n- The patient’s current abilities in empathy, perspective-taking and forgiveness\n- Instances and progress in self-forgiveness (if applicable)\n- Identified personal qualities/resources aiding in moving forward"
+    },
+    "cautions": {
+      "summary": "- Do not minimize, deny, or invalidate the pain and impact of the patient’s experiences.\n- Do not pressure the patient to forgive before they are ready or able.\n- Do not equate forgiveness with condoning or forgetting the hurtful act.\n- Avoid reinforcing self-critical or harsh internal dialogue when addressing self-forgiveness."
+    },
+    "rules": {
+      "summary": "- { \"if\": \"The patient expresses difficulty articulating feelings about a hurtful event\", \"then\": \"Use specific prompts to help them express what happened and its effects.\" }\n- { \"if\": \"The patient displays reluctance or ambivalence towards forgiveness\", \"then\": \"Explore underlying concerns, validate their feelings, and clarify the meaning of forgiveness.\" }\n- { \"if\": \"The patient is highly self-critical\", \"then\": \"Encourage self-forgiveness exercises and support the development of self-compassion.\" }\n- { \"if\": \"The patient confuses forgiveness with excusing or forgetting the wrong\", \"then\": \"Clarify the distinction and provide psychoeducation.\" }\n- { \"if\": \"The patient demonstrates readiness to forgive\", \"then\": \"Support and affirm their process, reinforcing personal strengths and resources.\" }"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": [
+        "Facilitating self-forgiveness by guiding the patient through compassionate reflection and understanding of their actions.",
+        "Supporting relapse prevention planning by prompting identification of high-risk situations, early warning signs, and corresponding action plans.",
+        "Encouraging routine self-monitoring and emotional awareness to reduce relapse risk."
+      ]
+    },
+    "micro_actions": {
+      "summary": [
+        "Prompting the patient to articulate what they need to forgive themselves for.",
+        "Asking the patient to explore and describe the impact of their actions on themselves and others.",
+        "Facilitating discussion of ongoing effects and possible positive changes through forgiveness.",
+        "Guiding the patient to recognize contributing factors from past experiences.",
+        "Eliciting more compassionate perspectives by asking how they would view a friend in the same situation.",
+        "Helping the patient identify overlooked positive personal qualities.",
+        "Encouraging narrative exercises written in a compassionate voice to foster self-forgiveness.",
+        "Helping the patient document personal strengths to support moving forward.",
+        "Asking the patient to specify high-risk situations and early warning signs for relapse.",
+        "Supporting the creation of concrete action steps based on personalized risk factors.",
+        "Instituting a routine for mood rating and monitoring warning scores."
+      ]
+    },
+    "conversation_states": {
+      "summary": [
+        "Current level of self-forgiveness/self-compassion.",
+        "Degree of guilt, shame, and associated emotional states.",
+        "Awareness of past experiences influencing current behavior.",
+        "Recognition of positive self-attributes during states of distress.",
+        "Current high-risk situations and early warning signs for relapse.",
+        "Ongoing mood and warning score tracking."
+      ]
+    },
+    "knowledge_graph": {
+      "summary": [
+        "Patient's history of actions requiring self-forgiveness, with context and impact details.",
+        "Patterns and triggers for guilt or shame over time.",
+        "Patient's identified high-risk situations and historical relapse data.",
+        "List of personal strengths and coping resources.",
+        "Patient's early warning signs and mood rating trends across sessions.",
+        "Documented plans of action for relapse risk management."
+      ]
+    },
+    "cautions": {
+      "summary": [
+        "Do not encourage the patient to condone, forget, or deny harmful actions or pain.",
+        "Avoid minimizing or invalidating the patient’s experience of guilt or shame.",
+        "Do not overlook the importance of understanding actions within the patient’s life context."
+      ]
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "the patient expresses guilt or shame about past actions",
+          "then": "guide the patient through compassionate self-reflection and self-forgiveness exercises."
+        },
+        {
+          "if": "the patient has difficulty forgiving themselves",
+          "then": "help them identify life experiences that may have contributed to their actions and explore these with understanding."
+        },
+        {
+          "if": "the patient is preparing a relapse prevention plan",
+          "then": "prompt identification of high-risk situations, early warning signs, and specific action strategies."
+        },
+        {
+          "if": "the patient is at risk of relapse (e.g., high warning score, identified risk situations)",
+          "then": "encourage implementation of the agreed-upon action plan and increase mood/self-monitoring frequency."
+        },
+        {
+          "if": "discussing forgiveness",
+          "then": "clarify that forgiveness does not mean condoning or forgetting the action, but involves releasing guilt and shame and adopting a compassionate perspective."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter details major CBT intervention phases, including: mood and thought identification, goal setting, creating and following action plans, identifying and challenging automatic and hot thoughts, gathering evidence for or against thoughts, using behavioral experiments (e.g., downward arrow technique), planning and practicing coping and relaxation strategies, relapse management and monitoring, strengthening core beliefs, encouraging gratitude and acts of kindness, and managing specific emotion profiles (anger, anxiety, depression, guilt, shame). It also emphasizes using structured tools like Thought Records and Activity Schedules, and tracking progress through self-monitoring."
+    },
+    "micro_actions": {
+      "summary": "At the utterance level, therapists: prompt patients to name and rate moods, differentiate between situations and thoughts, identify automatic/hot thoughts, guide completion of Thought Records step by step, prompt for evidence and counter-evidence, use Socratic questioning to challenge thoughts, rate beliefs, help derive underlying assumptions, introduce and review action plans, suggest specific coping/relaxation techniques (e.g., breathing, muscle relaxation), introduce gratitude journals, ask the patient to generate alternative/balanced thoughts, support behavioral experiments (e.g., \"do the opposite\" and observe outcomes), and track changes or lack of change in mood or belief after interventions. Regularly summarize and reflect on progress, provide encouragement, and help patients notice improvements."
+    },
+    "conversation_states": {
+      "summary": "Key states to track: current mood(s) and their intensity, patient’s goals, automatic and core beliefs held, level of belief/confidence in thoughts/core beliefs, evidence supporting or challenging thoughts, engagement with action plans or coping strategies, occurrence of triggers or high-risk situations (for relapse), patient’s use of safety or avoidance behaviors, progress and setbacks, session-specific targets (e.g., focus on anger, anxiety, depression, or shame), completion of assigned experiments/homework, and signs of improvement. Further states include patient’s willingness for acceptance, readiness to change, medication use, and emotional/behavioral responses in session."
+    },
+    "knowledge_graph": {
+      "summary": "Long-term tracking should include: the patient’s persistent core beliefs and their evolution, frequently endorsed automatic thoughts, patterns and themes of situational triggers, history of moods and mood intensity, history of completed interventions (e.g., Thought Records, behavioral experiments, action plans), relapse warning signs, use and efficacy of coping strategies, goal progression, history and outcome of gratitude/kindness exercises, and adherence to medication or other treatments if relevant. Relationship or family factors, previous traumatic events, and chronic avoidance/safety behaviors should also be tracked."
+    },
+    "cautions": {
+      "summary": "Therapists should not: force positive thinking or minimize negative feelings (e.g., overlook disadvantages of positive thinking), skip individualized assessment of thoughts/moods, move too quickly to solutions without thorough evidence gathering, ignore patient’s readiness or resistance, over-rely on one intervention without evaluating its effectiveness, invalidate experiences/emotions, or neglect relapse indicators. Avoid giving advice without Socratic exploration, and do not use confrontational methods that undermine therapeutic alliance—especially when addressing shame, guilt, or trauma. Do not ignore comorbid substance use or medical/medication issues if present."
+    },
+    "rules": {
+      "summary": "[{\"if\": \"The patient reports a strong negative mood.\", \"then\": \"Guide identification and rating of the specific mood(s) and elicit associated thoughts.\"}, {\"if\": \"A patient’s automatic/hot thought is identified.\", \"then\": \"Prompt the patient to gather supporting and opposing evidence; support recording this in the Thought Record.\"}, {\"if\": \"Patient shows no change in mood after a Thought Record.\", \"then\": \"Explore alternative explanations, prompt additional evidence gathering, or identify underlying assumptions/core beliefs.\"}, {\"if\": \"Strong belief in an unhelpful thought or core belief persists.\", \"then\": \"Use Socratic questioning or behavioral experiments to test the belief.\"}, {\"if\": \"Patient faces a high-risk or triggering situation.\", \"then\": \"Review coping strategies, action plans, or relapse prevention steps.\"}, {\"if\": \"Progress or improvement is detected (by self or therapist).\", \"then\": \"Acknowledge, summarize, and reinforce new learning or effective strategies.\"}, {\"if\": \"Patient expresses resistance or doubts the CBT process.\", \"then\": \"Pause, validate their experience, and collaboratively revisit their goals or reservations.\"}, {\"if\": \"Managing anger, anxiety, depression, guilt, or shame is the focus.\", \"then\": \"Apply emotion-specific interventions as guided by the patient profile.\"}, {\"if\": \"Patient inconsistently uses coping techniques, or action plans.\", \"then\": \"Review barriers and collaboratively problem-solve to support engagement.\"}, {\"if\": \"Signs of relapse or recurrence of old patterns are noticed.\", \"then\": \"Raise warning signs explicitly and revisit relapse management strategies.\"}]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter and outlined content detail several high-level intervention strategies used in CBT. These include collaboratively identifying and tracking moods (depression, anxiety, anger, guilt, shame), setting personal goals, using worksheets and inventories for structured assessment, teaching balanced thinking (challenging and updating automatic thoughts and core beliefs), employing behavioral experiments (e.g., activity schedules, fear ladders), fostering acceptance and self-forgiveness, and developing relapse prevention plans."
+    },
+    "micro_actions": {
+      "summary": "Micro-actions include: guiding patients to fill out mood and thought records; prompting for specific emotion ratings; encouraging identification and articulation of automatic thoughts and underlying assumptions; supporting completion of fear ladders and activity schedules; cueing alternative/balanced thought generation; prompting written exercises such as forgiveness letters and responsibility analyses; providing feedback on behavioral experiments and self-ratings; and reminding patients to self-monitor mood changes and progress."
+    },
+    "conversation_states": {
+      "summary": "The therapist should continuously track: current mood/emotional state (and changes); presence of specific negative emotions (depression, anxiety, anger, guilt, shame); automatic thoughts/cognitive distortions; behavioral activation level; avoidance versus approach behaviors; cognitive appraisal of situations; confidence in new beliefs; patient’s insight and understanding; effort and adherence to action plans or worksheets; and emerging therapeutic alliance factors."
+    },
+    "knowledge_graph": {
+      "summary": "Long-term memory dimensions for tracking across sessions include: baseline and changes in mood ratings; individual “problem” triggers and patterns; core beliefs and current evidence supporting/challenging them; progress on fear ladders and behavioral experiments; completion and effectiveness of action plans; history of relapse risk and management strategies; development of forgiveness/self-acceptance; and overall CBT skills acquisition and use."
+    },
+    "cautions": {
+      "summary": "The therapist should not: invalidate or minimize patient emotions; prematurely push for cognitive change before adequate validation or understanding; allow worksheet use to become rote or mechanical; push beyond patient’s readiness for difficult behavioral experiments; ignore signs of demoralization, avoidance, or resistance; use shaming or judgmental language when exploring guilt or shame; skip tracking or revisiting previously identified problem patterns."
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "patient reports a specific negative mood or cognitive distortion",
+          "then": "guide the patient to use relevant mood and thought recording worksheets to specify and reflect upon these states."
+        },
+        {
+          "if": "the patient demonstrates avoidance of feared situations",
+          "then": "collaboratively construct and use a fear ladder and support stepwise exposure."
+        },
+        {
+          "if": "evidence for or against an automatic thought is unclear",
+          "then": "use Socratic questioning and evidence-gathering techniques to clarify."
+        },
+        {
+          "if": "the patient completes a behavioral experiment or action plan",
+          "then": "review outcomes, discuss learning, and update confidence ratings and future plans."
+        },
+        {
+          "if": "themes of guilt, shame, or self-blame arise",
+          "then": "consider responsibility pie, forgiveness letter, and reparations exercises in a supportive manner."
+        },
+        {
+          "if": "relapse risk is a concern or is identified",
+          "then": "develop and review a concrete relapse prevention plan with explicit coping strategies."
+        }
+      ]
+    }
+  }
+]

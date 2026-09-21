@@ -1,0 +1,189 @@
+{
+  "static_dimensions": [
+    {
+      "dimension_name": "Primary Anxiety Disorder Diagnosis",
+      "description": "A static categorical attribute representing the main anxiety-related diagnosis for the patient that remains fixed during the CBT session.",
+      "options": [
+        "Panic Disorder",
+        "Social Phobia",
+        "Generalized Anxiety Disorder",
+        "Obsessive-Compulsive Disorder",
+        "Posttraumatic Stress Disorder",
+        "Other Anxiety Disorder"
+      ]
+    },
+    {
+      "dimension_name": "Comorbid Mental Health Conditions",
+      "description": "A static categorical attribute indicating the presence of significant comorbid psychiatric disorders that remain fixed during the CBT session.",
+      "options": [
+        "None",
+        "Depression",
+        "Substance Use Disorder",
+        "Other Anxiety Disorder",
+        "Personality Disorder",
+        "Multiple Comorbidities"
+      ]
+    },
+    {
+      "dimension_name": "Trait Anxiety/Negative Affectivity",
+      "description": "A static categorical attribute reflecting the patient’s enduring temperament and personality as it relates to susceptibility for anxiety.",
+      "options": [
+        "High Trait Anxiety/Negative Affectivity",
+        "Moderate Trait Anxiety/Negative Affectivity",
+        "Low Trait Anxiety/Negative Affectivity"
+      ]
+    },
+    {
+      "dimension_name": "Core Maladaptive Schemas/Beliefs",
+      "description": "A static categorical attribute specifying enduring, maladaptive cognitive schemas regarding threat, coping, vulnerability, or self-worth.",
+      "options": [
+        "Threat/Vulnerability",
+        "Incompetence/Failure",
+        "Social Inadequacy/Negative Evaluation",
+        "Perfectionism/Responsibility",
+        "Control/Intolerance of Uncertainty",
+        "Multiple/Other"
+      ]
+    },
+    {
+      "dimension_name": "Primary Coping Style",
+      "description": "A static categorical attribute denoting the patient’s predominant pattern of coping with anxiety.",
+      "options": [
+        "Avoidance/Escape",
+        "Safety-Seeking Behaviors",
+        "Reassurance-Seeking",
+        "Compulsive Rituals",
+        "Adaptive Problem-Solving",
+        "Mixed/Other"
+      ]
+    },
+    {
+      "dimension_name": "Symptom Onset and Chronicity",
+      "description": "A static categorical attribute reflecting age of onset and chronicity of anxiety symptoms.",
+      "options": [
+        "Childhood/Adolescent Onset, Chronic Course",
+        "Adult Onset, Chronic Course",
+        "Recent Onset, Acute Course"
+      ]
+    },
+    {
+      "dimension_name": "Functional Impairment Level",
+      "description": "A static categorical attribute representing the degree of disruption in daily functioning due to anxiety.",
+      "options": [
+        "Severe Functional Impairment",
+        "Moderate Functional Impairment",
+        "Mild Functional Impairment",
+        "Minimal/No Functional Impairment"
+      ]
+    },
+    {
+      "dimension_name": "Insight into Symptoms",
+      "description": "A static categorical attribute denoting the degree to which the patient recognizes and understands the irrationality or excessiveness of their anxious cognitions and behaviors.",
+      "options": [
+        "Good Insight",
+        "Partial Insight",
+        "Poor/Absent Insight"
+      ]
+    },
+    {
+      "dimension_name": "Cultural/Social Context Influencer",
+      "description": "A static categorical attribute identifying the primary sociocultural context that shapes symptom presentation and interpretation.",
+      "options": [
+        "Individualistic Western",
+        "Collectivist/Non-Western",
+        "Mixed/Migratory/Transitional"
+      ]
+    },
+    {
+      "dimension_name": "Family History of Anxiety",
+      "description": "A static categorical attribute representing the presence or absence of a family/biological predisposition to anxiety disorders.",
+      "options": [
+        "Positive Family History",
+        "Negative Family History",
+        "Unknown"
+      ]
+    }
+  ],
+  "dynamic_dimensions": [
+    {
+      "dimension_name": "Current Affective State",
+      "description": "A dynamic categorical state reflecting the patient’s predominant emotional state during the CBT session.",
+      "options": [
+        "Calm/Neutral",
+        "Mild Anxiety",
+        "Moderate Anxiety",
+        "Severe Anxiety/Panic",
+        "Distress (Shame/Guilt/Anger)"
+      ],
+      "update_condition": "Changes as the patient encounters or discusses triggers in-session, participates in exposure, or engages in cognitive restructuring. Should be updated when new stressors, memories, or therapeutic exercises elevate or reduce arousal."
+    },
+    {
+      "dimension_name": "Level of Engagement and Motivation",
+      "description": "A dynamic categorical state representing the patient’s readiness, willingness, and active effort in participating with CBT interventions.",
+      "options": [
+        "Highly Engaged/Motivated",
+        "Moderately Engaged",
+        "Ambivalent/Hesitant",
+        "Resistant/Avoidant"
+      ],
+      "update_condition": "Updated during session response to therapist’s interventions, collaborative exercises, homework compliance, and as rapport or therapeutic alliance shifts."
+    },
+    {
+      "dimension_name": "Perceived Control/Self-Efficacy",
+      "description": "A dynamic categorical state indicating the patient’s current perceived ability to manage symptoms and cope with anxiety.",
+      "options": [
+        "High Perceived Control",
+        "Moderate Perceived Control",
+        "Low Perceived Control",
+        "Helpless/Overwhelmed"
+      ],
+      "update_condition": "Changes throughout the session based on success with challenging thoughts, completing exposure tasks, or processing setbacks; should be reassessed after key therapeutic exercises or patient self-reflection."
+    },
+    {
+      "dimension_name": "Cognitive Processing Mode",
+      "description": "A dynamic categorical state reflecting whether the patient is operating from a threat-focused, worry/rumination-based, avoidance-based, or adaptive/reality-based cognitive set.",
+      "options": [
+        "Threat-Focused/Hypervigilant",
+        "Worrying/Ruminative",
+        "Avoidant/Distracting",
+        "Adaptive/Reflective"
+      ],
+      "update_condition": "Update when the patient shifts between automatic anxious thoughts, reflective reappraisal, engagement in safety behaviors, or engagement with cognitive restructuring tasks."
+    },
+    {
+      "dimension_name": "Dominant Coping Response in Session",
+      "description": "A dynamic categorical state indicating which coping strategy is currently most prominent during the session.",
+      "options": [
+        "Avoidance/Escape",
+        "Safety/Reassurance-Seeking",
+        "Active Engagement/Problem-Solving",
+        "Suppression/Distraction",
+        "Compulsions/Rituals",
+        "Acceptance/Tolerance"
+      ],
+      "update_condition": "Update as the patient spontaneously avoids, seeks safety, engages therapeutically, reports compulsions, or begins to tolerate/accept anxiety, especially during or after exposure or cognitive tasks."
+    },
+    {
+      "dimension_name": "Symptom Severity/Distress Level",
+      "description": "A dynamic categorical state representing the intensity of current anxiety symptoms or subjective distress reported in-session.",
+      "options": [
+        "None/Mild",
+        "Moderate",
+        "Severe",
+        "Extreme/Impairing"
+      ],
+      "update_condition": "Update in real-time with subjective patient ratings, observed arousal, escalation or reduction following interventions, and as a result of triggering or soothing in-session topics."
+    },
+    {
+      "dimension_name": "Appraisal of Triggers (Threat/Safety)",
+      "description": "A dynamic categorical state categorizing the patient’s current cognitive appraisal of specific triggers discussed in the session.",
+      "options": [
+        "Catastrophic/Threat-Dominant",
+        "Ambivalent/Uncertain",
+        "Balanced/Realistic Appraisal",
+        "Minimizing/Dismissive"
+      ],
+      "update_condition": "Update as patients express or reappraise the significance of triggers during cognitive restructuring, behavioral experiments, or discussion of recent events."
+    }
+  ]
+}

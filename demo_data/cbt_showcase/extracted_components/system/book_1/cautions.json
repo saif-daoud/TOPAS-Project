@@ -1,0 +1,212 @@
+[
+  {
+    "negative_action": "Using persuasion or lecturing to challenge patient thoughts",
+    "description": "Attempting to change patient beliefs through debate, persuasion, or didactic explanation rather than guided discovery.",
+    "risk": "Can foster resistance, damage the therapeutic alliance, and reduce patient engagement.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Ignoring patient reality or advocating uncritical positivity",
+    "description": "Encouraging patients to adopt overly positive viewpoints without considering their experiences or context.",
+    "risk": "Risk of invalidating patient experiences and eroding trust in the therapist.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Rigid application of techniques",
+    "description": "Using CBT methods without individual adaptation or ongoing feedback.",
+    "risk": "Decreases effectiveness and may alienate the patient.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Neglecting the therapeutic alliance",
+    "description": "Failing to establish, maintain, or repair a strong therapeutic relationship.",
+    "risk": "Weakens patient engagement and reduces likelihood of positive outcomes.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Making premature inferences or assumptions",
+    "description": "Drawing conclusions about patient experiences or problems without sufficient evidence or collaboration.",
+    "risk": "Leads to mistakes in conceptualization and reduced patient collaboration.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Focusing excessively on the past without cause",
+    "description": "Dwelling on past events not directly relevant to current issues or alliance ruptures.",
+    "risk": "Can divert from present-focused CBT work and reduce session effectiveness.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Delivering treatment in an impersonal or rote manner",
+    "description": "Using a cold, scripted, or unengaged approach in sessions.",
+    "risk": "Can make patients feel undervalued and impair the therapeutic alliance.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Ignoring patient feedback",
+    "description": "Failing to attend or respond to negative feedback from the patient.",
+    "risk": "Reduces trust and engagement; hinders collaborative work.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Assigning generic interventions or homework",
+    "description": "Providing unpersonalized tasks or interventions regardless of patient needs.",
+    "risk": "Can reduce relevance, adherence, and patient motivation.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Questioning or challenging core beliefs prematurely",
+    "description": "Addressing deeply held beliefs before the patient is ready.",
+    "risk": "Can threaten the alliance and reduce therapeutic credibility.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Interpreting data without patient input",
+    "description": "Making therapeutic interpretations or inferences without basing them on patient data.",
+    "risk": "Can lead to misunderstanding and rupture trust.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Misattributing organic causes as psychological",
+    "description": "Assuming psychological explanations without ruling out medical factors.",
+    "risk": "Medical issues may go untreated and worsen problem.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Over-focusing on negatives",
+    "description": "Concentrating solely on patients' difficulties rather than strengths.",
+    "risk": "May undermine hope and motivation.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Pushing patients to reveal sensitive material before readiness",
+    "description": "Encouraging premature disclosure of distressing information.",
+    "risk": "Can cause increased distress and potentially retraumatize clients.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Using stigmatizing diagnostic labels",
+    "description": "Labeling patients with terms like 'personality disorder' in a stigmatizing fashion.",
+    "risk": "Can damage the therapeutic relationship and reinforce shame.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Dictating the session agenda",
+    "description": "Exercising excessive control over what is discussed in session.",
+    "risk": "Undermines collaboration and patient engagement.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Assigning homework without collaboration or ensuring feasibility",
+    "description": "Providing tasks without discussing practicality or getting patient buy-in.",
+    "risk": "Decreases adherence and may foster feelings of failure.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Overloading severely depressed or inactive patients",
+    "description": "Setting up overly ambitious or packed activity schedules.",
+    "risk": "Can lead to overwhelming the patient and reduce chances of success.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Focusing only on activity quantity",
+    "description": "Prioritizing number of tasks over quality (mastery or pleasure).",
+    "risk": "Reduces the therapeutic benefit and motivation from activities.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Forcing cognitive strategies during high distress",
+    "description": "Requiring cognitive tasks when emotional arousal or executive function is impaired.",
+    "risk": "Can increase frustration and sense of inadequacy.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Pushing patients to compare themselves to prior functioning",
+    "description": "Encouraging comparisons to their non-depressed or 'best' self.",
+    "risk": "Can lower self-esteem and motivation.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Pushing cognitive restructuring when the alliance or readiness is weak or distress is high",
+    "description": "Attempting restructuring interventions without established rapport or if the patient is overwhelmed.",
+    "risk": "Can lead to disengagement and potential alliance rupture.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Overemphasizing worksheet completion",
+    "description": "Insisting on completing all forms and questions regardless of utility.",
+    "risk": "Can create patient frustration and feelings of inadequacy.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Invalidating emotional experiences or the significance of imagery",
+    "description": "Minimizing, criticizing, or pathologizing patients' imagery or emotions even if they seem unrealistic.",
+    "risk": "May hinder trust and impede emotional processing.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Treating core beliefs as facts",
+    "description": "Reinforcing or failing to question maladaptive core beliefs.",
+    "risk": "Maintains dysfunctional thought patterns and prolongs symptoms.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Premature attribution of failures to internal causes",
+    "description": "Attributing setbacks or failures to internal traits like incompetence without considering alternatives.",
+    "risk": "Can reinforce negative self-concept and impede progress.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Allowing excessive distraction from emotion",
+    "description": "Permitting patients to consistently avoid emotional experience through distraction.",
+    "risk": "Hinders learning and prevents emotional processing.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Making homework assignments too difficult or ill-defined",
+    "description": "Assigning tasks that outpace readiness or are not specific enough.",
+    "risk": "Leads to noncompliance and feelings of failure.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Shaming or criticizing patients for lack of homework completion",
+    "description": "Using punitive or negative feedback for incomplete assignments.",
+    "risk": "Reduces motivation, increases shame, and undermines collaboration.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Fostering dependence on the therapist",
+    "description": "Positioning oneself as responsible for solving all patient problems.",
+    "risk": "Prevents patient autonomy and self-efficacy.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Ignoring or minimizing termination-related anxieties",
+    "description": "Failing to address patient fears or concerns about ending therapy.",
+    "risk": "Can lead to unresolved dependency, distress, or unfinished therapeutic work.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Pursuing topics that activate painful core beliefs without readiness",
+    "description": "Addressing distressing topics or beliefs before the patient is prepared.",
+    "risk": "May cause increased distress and damage alliance.",
+    "confidence_score": 1.0
+  },
+  {
+    "negative_action": "Rigid adherence to standard format or agenda",
+    "description": "Following a set structure without considering individual patient needs.",
+    "risk": "Reduces patient engagement and treatment effectiveness.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Assigning blame to patient or therapist for problems",
+    "description": "Focusing on fault-finding rather than collaborative problem-solving.",
+    "risk": "Undermines the therapeutic relationship and progress.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Practicing CBT tools without personal experience",
+    "description": "Using or assigning CBT interventions without firsthand practice or understanding obstacles.",
+    "risk": "May reduce empathy, skill, and credibility.",
+    "confidence_score": 0.95
+  }
+]

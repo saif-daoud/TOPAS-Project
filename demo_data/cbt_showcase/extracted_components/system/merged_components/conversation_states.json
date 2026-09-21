@@ -1,0 +1,530 @@
+[
+  {
+    "Variable Name": "Automatic Thoughts",
+    "Description": "Content, frequency, and valence of patient’s spontaneous thoughts that drive emotional and behavioral responses. Used to identify maladaptive patterns and guide cognitive restructuring.",
+    "Categorical values": [
+      "Negative",
+      "Neutral",
+      "Positive",
+      "Catastrophic",
+      "Obsessive",
+      "Recurrent"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Core Beliefs/Schemas",
+    "Description": "Underlying, deep-seated beliefs about self, others, or the world, including confidence and changes in these beliefs. Guides advanced CBT and cognitive restructuring.",
+    "Categorical values": [
+      "Negative-Self",
+      "Negative-Other",
+      "Negative-World",
+      "Adaptive",
+      "Maladaptive",
+      "Self-critical",
+      "Anxious",
+      "Helpless",
+      "Positive",
+      "Activated",
+      "Dormant",
+      "Other"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Belief Conviction/Strength",
+    "Description": "Degree of conviction in target, alternative, and problematic cognitions, including automatic thoughts and core beliefs.",
+    "Categorical values": [
+      "Very Low",
+      "Low",
+      "Moderate",
+      "High",
+      "Very High"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Mood/Emotional State",
+    "Description": "Current emotional state and its intensity, including shifts and predominant affect (e.g., anxiety, depression, anger, guilt).",
+    "Categorical values": [
+      "Sad",
+      "Anxious",
+      "Angry",
+      "Guilty",
+      "Happy",
+      "Irritable",
+      "Shame",
+      "Pride",
+      "Calm",
+      "Hopeful",
+      "Neutral",
+      "Depressed",
+      "Fearful",
+      "Relieved",
+      "Defensive",
+      "Labile",
+      "Flat/Blunted",
+      "Other"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Emotional State Intensity",
+    "Description": "Strength or severity of emotional responses or distress. Used to track intervention impact, risk, and session pacing.",
+    "Categorical values": [
+      "Low",
+      "Mild",
+      "Moderate",
+      "High",
+      "Severe",
+      "Extreme",
+      "Crisis/Emergency"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Symptom Severity",
+    "Description": "Overall intensity and fluctuation of target psychiatric symptoms (e.g., depression, anxiety). Guides formulation and treatment.",
+    "Categorical values": [
+      "None",
+      "Below baseline",
+      "Baseline",
+      "Mild",
+      "Moderate",
+      "Severe",
+      "Acute",
+      "Extreme"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Functional Impairment",
+    "Description": "Extent to which symptoms or behaviors interfere with social, occupational, educational, or daily functioning.",
+    "Categorical values": [
+      "None",
+      "Mild",
+      "Moderate",
+      "Severe",
+      "Extreme"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Cognitive Distortions/Errors",
+    "Description": "Type, presence, and frequency of faulty thinking patterns (e.g., catastrophizing, overgeneralization, black-and-white thinking). Informs cognitive restructuring.",
+    "Categorical values": [
+      "None",
+      "Mild",
+      "Moderate",
+      "Severe",
+      "Extreme",
+      "Occasional",
+      "Frequent",
+      "Dominant",
+      "Multiple Types"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Insight and Self-Awareness",
+    "Description": "Patient’s ability to identify, reflect on, and understand their own thoughts, emotions, and behavioral patterns.",
+    "Categorical values": [
+      "None",
+      "Low",
+      "Moderate",
+      "High",
+      "Very High",
+      "Partial",
+      "Consistent"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Motivation and Readiness for Change",
+    "Description": "Patient’s willingness, motivation, and openness to engage in change processes and new strategies.",
+    "Categorical values": [
+      "Highly motivated",
+      "High",
+      "Ambivalent",
+      "Somewhat Ready",
+      "Moderate",
+      "Low",
+      "Unmotivated",
+      "Not Ready",
+      "Resistant",
+      "Ready"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Therapeutic Alliance",
+    "Description": "Strength, quality, and trust in the working relationship between therapist and patient, including collaboration and conflict.",
+    "Categorical values": [
+      "Weak",
+      "Vulnerable/Repairing",
+      "Adequate",
+      "Strong",
+      "Very Strong",
+      "Low",
+      "Fair",
+      "Ruptured"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Patient Engagement and Participation",
+    "Description": "Patient’s activity, willingness, and collaboration during sessions and with treatment tasks.",
+    "Categorical values": [
+      "Not engaged",
+      "Minimal",
+      "Passive",
+      "Partial",
+      "Partially Engaged",
+      "Active",
+      "Mostly engaged",
+      "Fully Engaged",
+      "Highly Engaged",
+      "Disengaged",
+      "Resistant",
+      "Ambivalent",
+      "Variable"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Homework/Behavioral Experiment Completion",
+    "Description": "Degree of completion, quality of engagement, and reflection with therapy homework, assignments, or behavioral experiments.",
+    "Categorical values": [
+      "Not Started",
+      "Not completed",
+      "No engagement",
+      "None",
+      "Started",
+      "Partially Completed",
+      "Partial",
+      "Partial progress",
+      "Partially compliant",
+      "Adequate",
+      "Mostly accomplished",
+      "Full",
+      "Fully compliant",
+      "Fully Completed",
+      "Exceeded",
+      "Resistant",
+      "Barriers present",
+      "Complete"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Avoidance and Safety Behaviors",
+    "Description": "Presence, frequency, and reliance on avoidance and safety behaviors/rituals aimed at reducing perceived threat or distress.",
+    "Categorical values": [
+      "Absent",
+      "None",
+      "Subtle",
+      "Occasional",
+      "Minor",
+      "Frequent",
+      "Pervasive",
+      "Constant",
+      "Full avoidance",
+      "Partial avoidance",
+      "Engaged/Active",
+      "Passive",
+      "Use of safety behaviors"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Progress Toward Goals",
+    "Description": "Movement toward therapy/treatment goals, including behavioral activation, symptom reduction, and completion of tasks.",
+    "Categorical values": [
+      "No progress",
+      "Partial progress",
+      "On track",
+      "Significant progress",
+      "Goal achieved",
+      "Regressing",
+      "Progressing"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Social Support and Interpersonal Functioning",
+    "Description": "Presence, quality, and helpfulness of patient’s relationships, support network, and interpersonal connections.",
+    "Categorical values": [
+      "Strong/supportive",
+      "Reliable",
+      "Robust",
+      "Highly Engaged",
+      "Adequate",
+      "Limited",
+      "Impaired/conflict",
+      "Withdrawn",
+      "Isolated",
+      "Absent",
+      "Partial",
+      "Critical/Abusive",
+      "Unavailable"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Coping Strategies Utilization/Effectiveness",
+    "Description": "Frequency and effectiveness of adaptive or maladaptive coping skills used to manage distress, including problem-solving and emotional regulation.",
+    "Categorical values": [
+      "None",
+      "Not used/ineffective",
+      "Rarely used",
+      "Maladaptive",
+      "Some",
+      "Occasionally/effective",
+      "Occasional Adaptive",
+      "Consistent Adaptive",
+      "Frequently/effective",
+      "Highly Effective",
+      "Assertiveness",
+      "Relaxation/Mindfulness",
+      "Distraction",
+      "Problem-Solving",
+      "Effective",
+      "Inconsistent",
+      "Ineffective",
+      "Mastered",
+      "Other"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Comorbid Symptoms Impact",
+    "Description": "Influence of comorbid diagnoses or symptoms (e.g., depression, social anxiety, chronic pain, substance misuse) on session engagement and progress.",
+    "Categorical values": [
+      "None",
+      "Mild",
+      "Moderate",
+      "Severe",
+      "Dominant"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Relapse Risk and Early Warning Signs",
+    "Description": "Presence and intensity of early warning signs or risk factors for relapse or deterioration. Used for monitoring and prevention.",
+    "Categorical values": [
+      "Absent",
+      "Present",
+      "Minimal",
+      "Mild",
+      "Moderate",
+      "Increasing",
+      "High Risk",
+      "Severe",
+      "Critical"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Suicidal Ideation and Risk",
+    "Description": "Presence, intensity, and change in suicidal thoughts, intent, planning, and behaviors. Guides safety planning.",
+    "Categorical values": [
+      "Absent",
+      "None",
+      "Passive",
+      "Passive ideation",
+      "Active",
+      "Active Ideation",
+      "Active/Ineffective plan",
+      "Active/Specific plan",
+      "Intent present",
+      "Plan present",
+      "Intent or plan",
+      "Recent behavior",
+      "Means accessible",
+      "Severe"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Obstacles and Barriers to Change",
+    "Description": "Internal and external barriers (practical, emotional, motivational, or situational) interfering with progress, engagement, or skill application.",
+    "Categorical values": [
+      "None",
+      "Cognitive",
+      "Emotional",
+      "Behavioral",
+      "Motivational",
+      "Situational",
+      "Minor",
+      "Some",
+      "Occasional",
+      "Frequent",
+      "Moderate",
+      "Significant",
+      "Severe",
+      "Other"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Change in Belief/Emotion Post-Experiment",
+    "Description": "Degree of shift in conviction or emotional response following behavioral experiments or corrective experiences.",
+    "Categorical values": [
+      "No Change",
+      "Slight Shift",
+      "Moderate Change",
+      "Substantial Change",
+      "Complete Shift"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Generalization of Learning",
+    "Description": "Extent to which acquired cognitions and behaviors transfer to situations outside of session. Indicates real-world impact.",
+    "Categorical values": [
+      "Absent",
+      "Minimal",
+      "Partial",
+      "Full",
+      "Consistent"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Subjective Distress Level",
+    "Description": "Self-reported or observed emotional discomfort or distress, including SUDs ratings. Used to inform safety and intervention selection.",
+    "Categorical values": [
+      "Low",
+      "Mild",
+      "Moderate",
+      "High",
+      "Extreme"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Readiness/Commitment to Change",
+    "Description": "Patient’s preparedness, willingness, and commitment to take action, explore new strategies, or participate in exposures/advanced interventions.",
+    "Categorical values": [
+      "Not Ready",
+      "Ambivalent",
+      "Somewhat Ready",
+      "Ready",
+      "Very Ready",
+      "Considering",
+      "Open/Ready",
+      "Actively requesting"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Therapist Emotional/Countertransference Response",
+    "Description": "Therapist’s own emotional responses and their potential influence on the session.",
+    "Categorical values": [
+      "Calm",
+      "Empathic",
+      "Frustrated",
+      "Fatigued",
+      "Burnt Out",
+      "Triggered",
+      "Distressed",
+      "Neutral"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Quality of Life",
+    "Description": "Overall assessment of patient’s well-being and satisfaction with life, reflecting symptoms and functional impact.",
+    "Categorical values": [
+      "Excellent",
+      "Good",
+      "Fair",
+      "Poor",
+      "Very poor"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Sleep Patterns and Quality",
+    "Description": "Quality, onset, duration, and disruptions in sleep, including restfulness or insomnia.",
+    "Categorical values": [
+      "Restful/normal",
+      "Mild disturbance",
+      "Moderate disturbance",
+      "Severe insomnia"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Physical Symptoms",
+    "Description": "Somatic symptoms related to mood or anxiety (e.g., sleep, appetite, energy, agitation).",
+    "Categorical values": [
+      "Sleep Problems",
+      "Appetite Issues",
+      "Fatigue",
+      "Restlessness",
+      "Agitation",
+      "Other"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Cultural/Identity/Context Factors",
+    "Description": "Consideration of individual cultural, developmental, and identity factors relevant to therapy engagement and alliance.",
+    "Categorical values": [
+      "Influential",
+      "Minimal Influence",
+      "Barrier",
+      "Facilitator",
+      "Not considered",
+      "Minimally considered",
+      "Adequately considered",
+      "Fully integrated"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Learning/Cognitive Performance",
+    "Description": "Ability to retain, recall, and apply CBT concepts and skills, highlighting barriers and need for adaptations.",
+    "Categorical values": [
+      "Impaired",
+      "Adequate",
+      "Strong"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Attentional Focus",
+    "Description": "Whether patient’s attention is self-focused or externally directed. Guides intervention selection.",
+    "Categorical values": [
+      "Internal",
+      "External",
+      "Mixed"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Environmental/Situational Stressors",
+    "Description": "External circumstances or recent life events impacting engagement, such as trauma, financial stress, or loss.",
+    "Categorical values": [
+      "Absent",
+      "None",
+      "Mild",
+      "Moderate",
+      "Severe"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Therapist-Patient Consensus and Conflict",
+    "Description": "Degree of agreement or discrepancy between therapist and patient on goals, analysis, and evidence.",
+    "Categorical values": [
+      "Complete Consensus",
+      "Partial Consensus",
+      "Neutral",
+      "Partial Conflict",
+      "Severe Conflict"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  }
+]

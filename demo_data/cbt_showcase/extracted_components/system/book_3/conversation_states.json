@@ -1,0 +1,218 @@
+[
+  {
+    "Variable Name": "Belief Conviction/Strength",
+    "Description": "The degree to which the patient holds specific beliefs, including dysfunctional or alternative beliefs. Monitoring conviction guides interventions such as cognitive restructuring and behavioral experiments.",
+    "Categorical values": [
+      "Low",
+      "Moderate",
+      "High"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Emotional State and Intensity",
+    "Description": "Current dominant emotions (e.g., anxiety, sadness, anger, shame) and their intensity. Tracking helps inform the emotional impact of cognitions, guide coping strategies, and assess intervention effectiveness.",
+    "Categorical values": [
+      "Anxiety",
+      "Sadness",
+      "Anger",
+      "Shame",
+      "Guilt",
+      "Pride",
+      "Other"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Cognitive Distortions Presence and Type",
+    "Description": "Recognition and frequency of cognitive errors (e.g., catastrophizing, overgeneralization, mind-reading). Therapists use this to target specific thinking patterns for intervention.",
+    "Categorical values": [
+      "None",
+      "Mild",
+      "Moderate",
+      "Severe"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Behavioral Avoidance/Safety Behaviors",
+    "Description": "Frequency and reliance on avoidance strategies, rituals, or safety behaviors in response to distress. Tracking reduces barriers to change and identifies cycles maintaining symptoms.",
+    "Categorical values": [
+      "Absent",
+      "Occasional",
+      "Frequent",
+      "Constant"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Insight and Self-Awareness",
+    "Description": "Ability to identify, label, and reflect on thoughts, feelings, beliefs, and cognitive distortions. Important for fostering change and enhancing self-efficacy.",
+    "Categorical values": [
+      "None",
+      "Low",
+      "Moderate",
+      "High"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Goal Orientation/Clarity",
+    "Description": "Awareness, specificity, and commitment to personal therapy goals. Used to assess and scaffold therapeutic progress and maintain motivation.",
+    "Categorical values": [
+      "None",
+      "Vague",
+      "Somewhat Clear",
+      "Very Clear"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Motivation and Readiness for Change",
+    "Description": "Current willingness and preparedness to engage in change processes, including ambivalence and factors enhancing or hindering motivation.",
+    "Categorical values": [
+      "Low",
+      "Ambivalent",
+      "Moderate",
+      "High"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Engagement in Therapy and Homework",
+    "Description": "Active participation during sessions and with therapy tasks/assignments. Essential for tracking progress and adherence.",
+    "Categorical values": [
+      "Not engaged",
+      "Partially engaged",
+      "Mostly engaged",
+      "Fully engaged"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Avoidance/Withdrawal Patterns",
+    "Description": "Tendencies toward withdrawal, procrastination, or shifting away from tasks, goals, or social interaction as a response to distress.",
+    "Categorical values": [
+      "Absent",
+      "Minor",
+      "Frequent",
+      "Severe"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Level of Self-Compassion vs Self-Criticism",
+    "Description": "Balance between compassionate self-response and negative, harsh self-talk. Influences resilience and recovery from setbacks.",
+    "Categorical values": [
+      "Self-Compassionate",
+      "Mixed",
+      "Self-Critical"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Tolerance of Discomfort/Uncertainty",
+    "Description": "Ability and willingness to experience distress or uncertainty without avoidance or relapse into old patterns.",
+    "Categorical values": [
+      "Low",
+      "Moderate",
+      "High"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Progress Toward Goal Achievement",
+    "Description": "Change in problem severity, intensity/frequency/duration, and proximity to stated goals over time.",
+    "Categorical values": [
+      "No progress",
+      "Partial progress",
+      "Significant progress",
+      "Goal achieved"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Triggers and Patterns",
+    "Description": "Identification of and reaction to specific triggers for emotional or behavioral responses. Used for targeted interventions and understanding maintenance cycles.",
+    "Categorical values": [
+      "No triggers identified",
+      "Some triggers identified",
+      "Clear trigger patterns"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Interpersonal Functioning and Support",
+    "Description": "Quality and presence of supportive relationships and the patient's willingness to utilize or disclose to their network.",
+    "Categorical values": [
+      "None",
+      "Limited",
+      "Moderate",
+      "Strong"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Relapse Risk and Early Warning Signs",
+    "Description": "Indicators of potential symptom recurrence (e.g., negative thoughts, withdrawal, avoidance, decreases in goal-related behavior). Enables timely relapse prevention planning.",
+    "Categorical values": [
+      "None",
+      "Present",
+      "Increasing",
+      "High Risk"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Barriers and Obstacles to Change",
+    "Description": "Practical, emotional, or cognitive barriers preventing progress (e.g., embarrassment, skepticism, concentration problems).",
+    "Categorical values": [
+      "None",
+      "Some",
+      "Significant"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Meta-Emotional Reactions",
+    "Description": "The presence and impact of emotions about emotions (e.g., shame about anxiety). Important for unpacking resistance and secondary distress.",
+    "Categorical values": [
+      "None",
+      "Mild",
+      "Moderate",
+      "Severe"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Self-Appraisal and Attribution Patterns",
+    "Description": "Tendency toward global (fixed) versus specific (situational) self-assessment, including self-blame and use of double standards.",
+    "Categorical values": [
+      "Mostly global",
+      "Mixed",
+      "Mostly specific"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Adherence to Healthy Routines",
+    "Description": "Extent of participation in adaptive routines (sleep, diet, exercise, socializing) that support well-being. Track for behavioral activation and relapse prevention.",
+    "Categorical values": [
+      "None",
+      "Inconsistent",
+      "Mostly consistent",
+      "Consistent"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Responsibility and Ownership of Change",
+    "Description": "Degree of patient’s assumption of responsibility versus blame-shifting or passivity, an essential element for empowerment and sustained change.",
+    "Categorical values": [
+      "Denial/Blaming",
+      "Ambivalent",
+      "Active responsibility-taking"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  }
+]

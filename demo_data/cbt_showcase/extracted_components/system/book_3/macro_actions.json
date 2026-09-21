@@ -1,0 +1,194 @@
+{
+  "macro_actions": [
+    {
+      "name": "Psychoeducation and Orientation",
+      "description": "Providing the patient with information about CBT principles, psychological mechanisms, and normalizing emotional responses.",
+      "goal": {
+        "objective": "To ensure the patient understands foundational CBT concepts, reducing misconceptions and increasing engagement.",
+        "success_levels": {
+          "ideal": "Patient demonstrates accurate understanding of CBT fundamentals and feels reassured about their psychological experiences.",
+          "acceptable": "Patient can recall some key CBT concepts and expresses openness to starting therapy.",
+          "unsuccessful": "Patient remains confused or misinformed about CBT and feels resistant or anxious."
+        },
+        "reward_hint": "Patient articulates correct understanding and shows reduced shame or stigma toward their difficulties."
+      },
+      "states": [
+        "Patient is new to CBT and unfamiliar with its principles.",
+        "Patient expresses confusion, shame, or misconceptions about psychological distress.",
+        "Therapy is beginning or following a transition to a new problem area."
+      ],
+      "confidence_score": 0.98
+    },
+    {
+      "name": "Structured Problem Assessment",
+      "description": "Systematically exploring and defining the patient's presenting problems, triggers, and patterns using evidence-based tools (e.g., ABC model, forms).",
+      "goal": {
+        "objective": "To achieve a clear, specific, and contextualized formulation of the patient's difficulties.",
+        "success_levels": {
+          "ideal": "Patient and therapist agree on a specific problem formulation with identified triggers, beliefs, and consequences.",
+          "acceptable": "Patient can identify some triggers, behaviors, and emotions related to their problems.",
+          "unsuccessful": "Patient's problems remain vague, diffuse, or unformulated, hindering progress."
+        },
+        "reward_hint": "Patient participates actively in assessment and can describe their problem in concrete terms."
+      },
+      "states": [
+        "Patient presents with general distress without clear problem definition.",
+        "Patient has complex or overlapping difficulties.",
+        "New problem area is identified requiring specific definition."
+      ],
+      "confidence_score": 0.97
+    },
+    {
+      "name": "Cognitive Distortion Identification and Restructuring",
+      "description": "Guiding the patient to identify cognitive distortions and challenge/reframe them with alternative, evidence-based thoughts.",
+      "goal": {
+        "objective": "To reduce the impact of maladaptive thinking and foster more adaptive cognitive patterns.",
+        "success_levels": {
+          "ideal": "Patient consistently recognizes distorted thoughts and successfully reframes them using evidence.",
+          "acceptable": "Patient can sometimes spot and challenge distorted thinking, making occasional adaptive changes.",
+          "unsuccessful": "Patient remains entrenched in unchallenged cognitive distortions."
+        },
+        "reward_hint": "Patient demonstrates insight when challenged and offers alternative explanations for their thinking."
+      },
+      "states": [
+        "Patient displays rigid, maladaptive, or distorted thought patterns.",
+        "Patient reacts intensely to events due to overgeneralization or catastrophizing.",
+        "Cognitive restructuring phase is indicated by persistent negative thinking."
+      ],
+      "confidence_score": 0.99
+    },
+    {
+      "name": "Emotion Identification and Regulation Training",
+      "description": "Teaching the patient to recognize, label, analyze, and transform unhealthy emotional responses.",
+      "goal": {
+        "objective": "To increase emotional awareness and facilitate movement from unhealthy to healthy emotional states.",
+        "success_levels": {
+          "ideal": "Patient accurately identifies emotions, their triggers, and uses strategies to regulate and respond healthily.",
+          "acceptable": "Patient can name emotions and sometimes engage in regulation strategies.",
+          "unsuccessful": "Patient is unaware or overwhelmed by emotions, unable to regulate responses."
+        },
+        "reward_hint": "Patient uses emotional vocabulary and applies learned regulation techniques."
+      },
+      "states": [
+        "Patient reports overwhelming or unclear emotional experiences.",
+        "Patient struggles with persistent negative emotions (e.g., anger, depression, anxiety).",
+        "Affective disturbance is prominent in session."
+      ],
+      "confidence_score": 0.96
+    },
+    {
+      "name": "Behavioral Experimentation and Exposure",
+      "description": "Collaboratively designing, conducting, and reviewing behavioral experiments to test beliefs, reduce avoidance, and build new adaptive behaviors.",
+      "goal": {
+        "objective": "To help patients gather direct evidence about their beliefs, reduce unhelpful behaviors, and acquire new skills.",
+        "success_levels": {
+          "ideal": "Patient completes behavioral experiments and meaningfully revises beliefs/behaviors based on outcomes.",
+          "acceptable": "Patient participates in at least some experiments and notices partial change.",
+          "unsuccessful": "Patient avoids experimentation or reverts to old behaviors without learning."
+        },
+        "reward_hint": "Patient takes meaningful risks, follows through with exposure tasks, and reflects constructively on results."
+      },
+      "states": [
+        "Patient's beliefs seem resistant to change through dialogue alone.",
+        "Patient uses avoidance, safety behaviors, or maintains unrealistic fears.",
+        "Therapist introduces or reviews graded exposure or behavioral planning."
+      ],
+      "confidence_score": 0.98
+    },
+    {
+      "name": "Goal Setting and Progress Monitoring",
+      "description": "Collaboratively forming specific, achievable, motivational therapy goals and regularly tracking progress.",
+      "goal": {
+        "objective": "To orient therapy toward concrete change and maintain patient motivation.",
+        "success_levels": {
+          "ideal": "Patient engages with clear, positive goals and tracks progress; adjusts goals as needed.",
+          "acceptable": "Patient sets some goals and notices progress or barriers.",
+          "unsuccessful": "No clear goals; therapy feels stagnant or demotivating."
+        },
+        "reward_hint": "Patient expresses commitment to goals and regularly reviews steps and outcomes."
+      },
+      "states": [
+        "Patient or therapist identifies vague or undirected therapy process.",
+        "Transition needed from problem focus to future orientation.",
+        "Therapy stalls or motivation decreases."
+      ],
+      "confidence_score": 0.97
+    },
+    {
+      "name": "Attention Training and Mindfulness",
+      "description": "Training the patient to focus attention, use present-moment awareness, and tolerate intrusive/distressing thoughts through mindfulness and concentration exercises.",
+      "goal": {
+        "objective": "To help patients manage internal distress through attention retraining, presence, and acceptance.",
+        "success_levels": {
+          "ideal": "Patient applies mindfulness and concentration skills, showing reduced distress and improved focus.",
+          "acceptable": "Patient practices attention exercises with partial success in distress reduction.",
+          "unsuccessful": "Patient avoids or misapplies attention skills, distress remains unchanged."
+        },
+        "reward_hint": "Patient uses mindfulness or concentration tools and reports shifts in attention or emotion."
+      },
+      "states": [
+        "Patient is preoccupied with internal distress or intrusive thoughts.",
+        "Therapist seeks to shift focus from content to process.",
+        "Planning graded exposure or attention modification."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "name": "Identification and Modification of Maintenance Mechanisms",
+      "description": "Guiding the patient to recognize coping strategies and behaviors that perpetuate emotional or behavioral problems, targeting them for change.",
+      "goal": {
+        "objective": "To break cycles of maladaptive coping and facilitate healthier patterns.",
+        "success_levels": {
+          "ideal": "Patient identifies and modifies unhelpful coping strategies, resulting in symptom reduction.",
+          "acceptable": "Patient becomes aware of some maintaining factors and attempts new behaviors.",
+          "unsuccessful": "Patient clings to old patterns; problem maintenance unchanged."
+        },
+        "reward_hint": "Patient discusses, experiments with, and minimizes maintaining behaviors (e.g., safety behaviors, reassurance seeking)."
+      },
+      "states": [
+        "Patient uses repetitive, ineffective coping strategies.",
+        "Maladaptive cycles or 'vicious flowers' present.",
+        "Therapy focuses on maintenance rather than root causes."
+      ],
+      "confidence_score": 0.96
+    },
+    {
+      "name": "Core Belief Elucidation and Strengthening",
+      "description": "Helping the patient uncover, reflect on, and challenge central beliefs about self, others, or the world; reinforcing adaptive alternatives.",
+      "goal": {
+        "objective": "To shift entrenched negative core beliefs toward healthier, more flexible foundations.",
+        "success_levels": {
+          "ideal": "Patient identifies and systematically challenges core beliefs, developing and embodying new alternatives.",
+          "acceptable": "Patient becomes aware of core beliefs and begins to question their impact.",
+          "unsuccessful": "Core beliefs remain unexamined or unaltered throughout therapy."
+        },
+        "reward_hint": "Patient discusses past experiences, tracks belief activation, and attempts 'acting as if' healthy beliefs are true."
+      },
+      "states": [
+        "Surface-level cognitive work stalls progress.",
+        "Longstanding problems traced to central beliefs.",
+        "Patient expresses self-labels, global judgments, or meaning-making around adverse experiences."
+      ],
+      "confidence_score": 0.98
+    },
+    {
+      "name": "Relapse Prevention and Consolidation",
+      "description": "Supporting the patient in maintaining gains, anticipating setbacks, and applying CBT tools for continued self-management post-therapy.",
+      "goal": {
+        "objective": "To prevent relapse, strengthen new skills and beliefs, and promote resilience.",
+        "success_levels": {
+          "ideal": "Patient independently applies CBT strategies, monitors risks, and manages setbacks with adaptive coping.",
+          "acceptable": "Patient uses some prevention strategies and recognizes early signs of trouble.",
+          "unsuccessful": "Patient lapses into old patterns quickly when therapy ends or stressors arise."
+        },
+        "reward_hint": "Patient self-monitors, plans for setbacks, and replaces maladaptive habits with healthy alternatives."
+      },
+      "states": [
+        "Therapy is ending or transitioning out.",
+        "Patient has made progress but risks returning to old habits.",
+        "History of relapse or fluctuating motivation."
+      ],
+      "confidence_score": 0.97
+    }
+  ]
+}

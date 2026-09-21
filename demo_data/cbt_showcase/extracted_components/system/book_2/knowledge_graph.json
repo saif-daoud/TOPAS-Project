@@ -1,0 +1,244 @@
+{
+  "nodes": [
+    {
+      "type": "Patient",
+      "description": "The individual receiving cognitive behavioral therapy; root node."
+    },
+    {
+      "type": "Diagnostic History",
+      "description": "Record of mental health diagnoses, psychiatric comorbidities, and symptom patterns over time."
+    },
+    {
+      "type": "Automatic Thoughts",
+      "description": "Patterns, themes, and evolution of the patient's spontaneous cognitions tracked longitudinally."
+    },
+    {
+      "type": "Core Beliefs/Schemas",
+      "description": "Identified maladaptive/adaptive schemas, their origins, development, and modifications."
+    },
+    {
+      "type": "Behavioral Patterns",
+      "description": "Patterns of activation and avoidance, activity completion, and ritual or safety behaviors."
+    },
+    {
+      "type": "Mood/Energy Patterns",
+      "description": "Longitudinal record of mood symptoms, pleasure, mastery, and energy levels."
+    },
+    {
+      "type": "Suicide Risk Status",
+      "description": "Assessment and tracking of suicidal ideation, crises, risk factors, and protective factors."
+    },
+    {
+      "type": "Complex Disorder History",
+      "description": "Record of chronicity, severity, complexity, and course of disorders."
+    },
+    {
+      "type": "Developmental & Life Events",
+      "description": "History of childhood, trauma, significant life events, family, and sociocultural background."
+    },
+    {
+      "type": "Competency/Skill Acquisition",
+      "description": "Tracking of CBT skill mastery and performance (homework, coping, relapse prevention)."
+    },
+    {
+      "type": "Therapeutic Alliance",
+      "description": "Record and evaluation of engagement, compliance, and quality of the therapy relationship over time."
+    },
+    {
+      "type": "Treatment Engagement & Responses",
+      "description": "Patient’s responses to interventions, adherence to assignments, and attitude toward therapy."
+    },
+    {
+      "type": "Exposure Hierarchy Progress",
+      "description": "Record of graded exposure tasks, anxiety ratings, and response prevention outcomes."
+    },
+    {
+      "type": "Coping Strategies",
+      "description": "List and outcome of strategies employed, including strengths, assets, and barriers."
+    },
+    {
+      "type": "Session Outcome Measures",
+      "description": "Symptom scores, progress toward goals, and well-being ratings over time."
+    },
+    {
+      "type": "Risk/Relapse History",
+      "description": "Record of risk markers, relapse episodes, vulnerabilities, and safety plans."
+    },
+    {
+      "type": "Social Supports & Context",
+      "description": "Assessment of family, friends, relationships, and social/cultural context relevant to treatment."
+    },
+    {
+      "type": "Transference/Countertransference",
+      "description": "Observed patient transference patterns and therapist countertransference reactions/history."
+    },
+    {
+      "type": "Patient Strengths/Resources",
+      "description": "Identified personal strengths, coping successes, and external supports/resources."
+    },
+    {
+      "type": "Therapist Competencies & Supervision",
+      "description": "Record of therapist skills relevant to case and supervision notes (if tracked)."
+    },
+    {
+      "type": "Pharmacotherapy History",
+      "description": "Medication history, adherence, and side effects."
+    },
+    {
+      "type": "Goals & Plans",
+      "description": "Collaboratively formulated goals, treatment plans, and revision history."
+    }
+  ],
+  "edges": [
+    {
+      "source": "Patient",
+      "target": "Diagnostic History",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Automatic Thoughts",
+      "relation": "exhibits"
+    },
+    {
+      "source": "Patient",
+      "target": "Core Beliefs/Schemas",
+      "relation": "holds"
+    },
+    {
+      "source": "Core Beliefs/Schemas",
+      "target": "Developmental & Life Events",
+      "relation": "originated in"
+    },
+    {
+      "source": "Patient",
+      "target": "Behavioral Patterns",
+      "relation": "demonstrates"
+    },
+    {
+      "source": "Automatic Thoughts",
+      "target": "Core Beliefs/Schemas",
+      "relation": "reflects"
+    },
+    {
+      "source": "Patient",
+      "target": "Mood/Energy Patterns",
+      "relation": "experiences"
+    },
+    {
+      "source": "Patient",
+      "target": "Suicide Risk Status",
+      "relation": "has risk in"
+    },
+    {
+      "source": "Suicide Risk Status",
+      "target": "Risk/Relapse History",
+      "relation": "is part of"
+    },
+    {
+      "source": "Patient",
+      "target": "Complex Disorder History",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Developmental & Life Events",
+      "relation": "has history of"
+    },
+    {
+      "source": "Patient",
+      "target": "Competency/Skill Acquisition",
+      "relation": "acquires"
+    },
+    {
+      "source": "Competency/Skill Acquisition",
+      "target": "Coping Strategies",
+      "relation": "enables"
+    },
+    {
+      "source": "Competency/Skill Acquisition",
+      "target": "Session Outcome Measures",
+      "relation": "affects"
+    },
+    {
+      "source": "Patient",
+      "target": "Therapeutic Alliance",
+      "relation": "engages in"
+    },
+    {
+      "source": "Patient",
+      "target": "Treatment Engagement & Responses",
+      "relation": "participates in"
+    },
+    {
+      "source": "Treatment Engagement & Responses",
+      "target": "Session Outcome Measures",
+      "relation": "influences"
+    },
+    {
+      "source": "Therapeutic Alliance",
+      "target": "Treatment Engagement & Responses",
+      "relation": "modulates"
+    },
+    {
+      "source": "Patient",
+      "target": "Exposure Hierarchy Progress",
+      "relation": "progresses through"
+    },
+    {
+      "source": "Patient",
+      "target": "Session Outcome Measures",
+      "relation": "achieves"
+    },
+    {
+      "source": "Patient",
+      "target": "Risk/Relapse History",
+      "relation": "records"
+    },
+    {
+      "source": "Risk/Relapse History",
+      "target": "Coping Strategies",
+      "relation": "challenges"
+    },
+    {
+      "source": "Patient",
+      "target": "Social Supports & Context",
+      "relation": "is influenced by"
+    },
+    {
+      "source": "Patient",
+      "target": "Transference/Countertransference",
+      "relation": "relates via"
+    },
+    {
+      "source": "Patient",
+      "target": "Patient Strengths/Resources",
+      "relation": "possesses"
+    },
+    {
+      "source": "Patient",
+      "target": "Therapist Competencies & Supervision",
+      "relation": "receives care from"
+    },
+    {
+      "source": "Patient",
+      "target": "Pharmacotherapy History",
+      "relation": "may have"
+    },
+    {
+      "source": "Patient",
+      "target": "Goals & Plans",
+      "relation": "collaborates on"
+    },
+    {
+      "source": "Goals & Plans",
+      "target": "Session Outcome Measures",
+      "relation": "measured by"
+    },
+    {
+      "source": "Goals & Plans",
+      "target": "Treatment Engagement & Responses",
+      "relation": "shapes"
+    }
+  ]
+}

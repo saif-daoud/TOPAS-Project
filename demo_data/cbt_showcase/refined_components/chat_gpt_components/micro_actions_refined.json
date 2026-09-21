@@ -1,0 +1,448 @@
+[
+  {
+    "name": "Therapeutic Alliance and Agenda Setting",
+    "description": "Establishes rapport, clarifies roles, and collaboratively defines the session focus and expectations.",
+    "goal": {
+      "objective": "Create a safe, collaborative foundation and a clear agenda for the CBT session.",
+      "success_levels": {
+        "ideal": "Patient feels understood, engaged, and agrees on a clear, shared agenda.",
+        "acceptable": "Basic rapport is established and a tentative agenda is set.",
+        "unsuccessful": "Patient feels misunderstood, disengaged, or the session lacks direction."
+      },
+      "reward_hint": "Patient expresses comfort, willingness to engage, and agreement on session goals."
+    },
+    "states": [
+      "Session start with unclear goals",
+      "Patient expresses uncertainty about therapy process",
+      "Low initial trust or engagement"
+    ],
+    "confidence_score": 0.93,
+    "micro_actions": [
+      {
+        "name": "Warm Greeting and Normalization",
+        "description": "Therapist offers a welcoming greeting and normalizes the therapy experience.",
+        "states": [
+          "First session or session opening",
+          "Patient appears anxious or guarded"
+        ],
+        "confidence_score": 0.95
+      },
+      {
+        "name": "Collaborative Agenda Proposal",
+        "description": "Therapist suggests possible topics and invites the patient to prioritize them.",
+        "states": [
+          "Multiple concerns expressed",
+          "Unstructured or drifting conversation early in session"
+        ],
+        "confidence_score": 0.92
+      },
+      {
+        "name": "Acknowledgment and Validation",
+        "description": "Therapist acknowledges what the patient has said, validates their experience or effort, or shows they are listening.",
+        "states": [
+          "Patient shares an update or personal experience",
+          "Patient expresses an emotion or discloses information",
+          "Session opening or during rapport-building"
+        ],
+        "confidence_score": 0.9
+      },
+      {
+        "name": "Casual Rapport Building",
+        "description": "Therapist engages in brief, casual conversation (small talk, personal sharing) to build comfort and rapport before transitioning to therapy topics.",
+        "states": [
+          "Session opening",
+          "Patient shares non-therapy related update (e.g., travel, weather)",
+          "Transitioning from casual talk to therapy focus"
+        ],
+        "confidence_score": 0.85
+      },
+      {
+        "name": "Encouraging Elaboration",
+        "description": "Therapist uses minimal prompts or invitations to encourage the patient to continue or elaborate on their story or thoughts.",
+        "states": [
+          "Patient begins telling a story or sharing an experience",
+          "Therapist wants to understand context before setting agenda",
+          "Patient pauses or seems hesitant"
+        ],
+        "confidence_score": 0.8
+      },
+      {
+        "name": "Reflecting Non-Verbal Cues",
+        "description": "Therapist notices and verbally reflects the patient's non-verbal communication (sigh, tone, appearance) to demonstrate attentiveness and invite exploration.",
+        "states": [
+          "Patient exhibits a noticeable non-verbal cue",
+          "Session opening where patient seems emotionally present",
+          "Building initial connection"
+        ],
+        "confidence_score": 0.75
+      }
+    ]
+  },
+  {
+    "name": "Problem Exploration and Emotional Validation",
+    "description": "Elicits detailed descriptions of the patient’s difficulties while validating emotional experiences.",
+    "goal": {
+      "objective": "Develop a shared understanding of the patient’s problems and emotional context.",
+      "success_levels": {
+        "ideal": "Patient openly shares experiences and feels emotionally validated.",
+        "acceptable": "Key problems are identified with moderate emotional engagement.",
+        "unsuccessful": "Patient remains vague, defensive, or emotionally disconnected."
+      },
+      "reward_hint": "Patient provides concrete examples and acknowledges feeling understood."
+    },
+    "states": [
+      "Patient reports distress or symptoms",
+      "Problems are vague or poorly specified",
+      "Emotional intensity is rising"
+    ],
+    "confidence_score": 0.94,
+    "micro_actions": [
+      {
+        "name": "Open-Ended Inquiry",
+        "description": "Therapist asks open questions to encourage detailed sharing.",
+        "states": [
+          "Patient gives brief or surface-level responses",
+          "Need to expand on a reported issue"
+        ],
+        "confidence_score": 0.94
+      },
+      {
+        "name": "Empathic Reflection",
+        "description": "Therapist reflects feelings and meanings to validate the patient’s experience.",
+        "states": [
+          "Patient expresses strong emotions",
+          "Patient seeks understanding or reassurance"
+        ],
+        "confidence_score": 0.96
+      },
+      {
+        "name": "Understanding Check",
+        "description": "Therapist briefly confirms or paraphrases to ensure accurate comprehension of the patient's narrative.",
+        "states": [
+          "Patient has shared a complex or lengthy description",
+          "Therapist needs to verify details before proceeding",
+          "Risk of misunderstanding the patient's story"
+        ],
+        "confidence_score": 0.85
+      },
+      {
+        "name": "Facilitative Acknowledgment",
+        "description": "Therapist uses brief verbal or non-verbal cues (e.g., 'Yeah.', 'Right.', 'Okay.') to signal active listening and encourage the patient to continue.",
+        "states": [
+          "Patient is elaborating on an experience or thought process",
+          "Therapist wishes to maintain flow without interrupting",
+          "Minimal guidance is needed to keep exploration going"
+        ],
+        "confidence_score": 0.9
+      },
+      {
+        "name": "Gently Refocusing",
+        "description": "Therapist makes a brief, gentle comment to steer the conversation back to the patient's core issue or the therapeutic task after a tangent or digression.",
+        "states": [
+          "Conversation has drifted to less relevant details",
+          "Patient is avoiding the primary emotional or problem content",
+          "Need to return focus to the therapeutic exploration goal"
+        ],
+        "confidence_score": 0.8
+      },
+      {
+        "name": "Light Humor or Shared Humanity",
+        "description": "Therapist uses mild, appropriate humor or a comment highlighting a shared human experience to build rapport and slightly lower emotional intensity, making deeper exploration feel safer.",
+        "states": [
+          "Patient's narrative is heavy and could benefit from slight levity",
+          "Building rapport and reducing patient's self-consciousness",
+          "Transitioning into a sensitive topic"
+        ],
+        "confidence_score": 0.75
+      },
+      {
+        "name": "In-The-Moment Processing Prompt",
+        "description": "Therapist asks a very short, direct question to bring the patient's attention to their immediate reaction or a specific, just-mentioned detail.",
+        "states": [
+          "Patient has just described an event or feeling",
+          "Therapist wants to explore the patient's reaction to that specific moment",
+          "Opportunity to examine cognitive or emotional processes as they occur"
+        ],
+        "confidence_score": 0.85
+      },
+      {
+        "name": "Practical Encouragement or Normalization",
+        "description": "Therapist offers brief encouragement for a step taken or normalizes a patient's reaction, reinforcing adaptive behavior or reducing self-criticism.",
+        "states": [
+          "Patient reports attempting a positive behavior or coping strategy",
+          "Patient expresses shame or confusion about a normal reaction",
+          "Validating effort and reinforcing progress within the exploration"
+        ],
+        "confidence_score": 0.8
+      }
+    ]
+  },
+  {
+    "name": "Cognitive Assessment and Case Formulation",
+    "description": "Identifies automatic thoughts, beliefs, and cognitive patterns linked to emotions and behaviors.",
+    "goal": {
+      "objective": "Build a shared CBT formulation connecting thoughts, emotions, and behaviors.",
+      "success_levels": {
+        "ideal": "Patient recognizes and articulates key automatic thoughts and patterns.",
+        "acceptable": "Some cognitive links are identified with therapist support.",
+        "unsuccessful": "Patient cannot identify or engage with cognitive aspects."
+      },
+      "reward_hint": "Patient verbalizes thought–emotion–behavior connections."
+    },
+    "states": [
+      "Repeated maladaptive behaviors",
+      "Emotional reactions lack clear explanation",
+      "Patient reports negative self-talk"
+    ],
+    "confidence_score": 0.91,
+    "micro_actions": [
+      {
+        "name": "Thought Elicitation",
+        "description": "Therapist asks targeted questions to uncover automatic thoughts.",
+        "states": [
+          "Strong emotional reaction described",
+          "Behavioral avoidance or rumination noted"
+        ],
+        "confidence_score": 0.92
+      },
+      {
+        "name": "Summarizing Cognitive Links",
+        "description": "Therapist summarizes how thoughts, feelings, and behaviors interact.",
+        "states": [
+          "Multiple elements discussed",
+          "Patient appears confused about patterns"
+        ],
+        "confidence_score": 0.9
+      },
+      {
+        "name": "Clarifying Inquiry",
+        "description": "Therapist asks for clarification about a specific detail, person, or situation mentioned by the patient to better understand the context or the people involved in the patient's cognitive patterns.",
+        "states": [
+          "Patient mentions other people influencing their thoughts or behaviors",
+          "Patient describes a situation or event with ambiguous details",
+          "Therapist needs to understand interpersonal dynamics affecting cognition"
+        ],
+        "confidence_score": 0.9
+      },
+      {
+        "name": "Affirmation and Validation",
+        "description": "Therapist validates the patient's emotional experience, effort, or a correct insight without adding new cognitive formulation. This builds rapport and reinforces adaptive recognition.",
+        "states": [
+          "Patient expresses a correct insight or shows progress",
+          "Patient shares a difficult emotional experience",
+          "Therapist aims to reinforce a healthy perspective the patient has voiced"
+        ],
+        "confidence_score": 0.85
+      },
+      {
+        "name": "Prompting Elaboration",
+        "description": "Therapist uses minimal verbal prompts (e.g., 'However...', 'Without effort.') or unfinished statements to encourage the patient to continue their train of thought, often leading to more detailed description of a cognitive or behavioral pattern.",
+        "states": [
+          "Patient has just revealed a key piece of information",
+          "Patient is on the verge of elaborating on a pattern",
+          "Therapist wants the patient to articulate the consequence or contradiction in their statement"
+        ],
+        "confidence_score": 0.8
+      },
+      {
+        "name": "Checking Understanding or Agreement",
+        "description": "Therapist checks if the patient has understood a point, agrees with a formulation, or is following the therapeutic discussion. This ensures shared understanding before proceeding.",
+        "states": [
+          "After explaining a CBT concept",
+          "After proposing a cognitive link",
+          "When the patient's response seems ambiguous or non-committal"
+        ],
+        "confidence_score": 0.75
+      },
+      {
+        "name": "Tracking Session Process",
+        "description": "Therapist makes an utterance to manage the structure or flow of the session itself, such as refocusing on the task at hand or clarifying what step of a procedure is being discussed.",
+        "states": [
+          "Patient gets off-topic or loses focus",
+          "Therapist is guiding the patient through a structured exercise (e.g., ABC form)",
+          "Need to reorient to the session agenda or homework"
+        ],
+        "confidence_score": 0.7
+      }
+    ]
+  },
+  {
+    "name": "Cognitive Restructuring and Behavioral Experimentation",
+    "description": "Guides the patient to evaluate and modify maladaptive thoughts and test new behaviors.",
+    "goal": {
+      "objective": "Reduce maladaptive thinking and promote more adaptive beliefs and behaviors.",
+      "success_levels": {
+        "ideal": "Patient generates balanced thoughts and commits to adaptive actions.",
+        "acceptable": "Patient questions maladaptive thoughts with therapist guidance.",
+        "unsuccessful": "Patient rigidly maintains maladaptive beliefs."
+      },
+      "reward_hint": "Patient expresses alternative perspectives or willingness to try new behaviors."
+    },
+    "states": [
+      "Identified cognitive distortions",
+      "Avoidance or safety behaviors present",
+      "Patient seeks solutions or change"
+    ],
+    "confidence_score": 0.92,
+    "micro_actions": [
+      {
+        "name": "Socratic Questioning",
+        "description": "Therapist uses guided questions to examine evidence for and against thoughts.",
+        "states": [
+          "Rigid or catastrophic thinking",
+          "Patient expresses certainty in negative beliefs"
+        ],
+        "confidence_score": 0.94
+      },
+      {
+        "name": "Behavioral Experiment Planning",
+        "description": "Therapist collaborates to design small experiments to test beliefs.",
+        "states": [
+          "Patient open to change",
+          "Opportunities for real-world testing identified"
+        ],
+        "confidence_score": 0.91
+      },
+      {
+        "name": "Clarifying and Reframing",
+        "description": "Therapist clarifies patient statements, reframes them in more precise or constructive terms, and validates the patient's experience while correcting misinterpretations.",
+        "states": [
+          "Patient expresses confusion about concepts or their own experience",
+          "Patient uses vague or inaccurate terminology",
+          "Patient misinterprets therapeutic concepts",
+          "Therapist needs to validate while providing correction"
+        ],
+        "confidence_score": 0.9
+      },
+      {
+        "name": "Providing Psychoeducation",
+        "description": "Therapist explains therapeutic models, concepts, or mechanisms in a didactic manner to build patient understanding and correct misconceptions.",
+        "states": [
+          "Patient expresses curiosity or confusion about the therapeutic approach",
+          "Therapist is introducing or clarifying a core concept",
+          "Patient holds a misconception that needs correcting"
+        ],
+        "confidence_score": 0.95
+      },
+      {
+        "name": "Summarizing and Consolidating",
+        "description": "Therapist synthesizes key points from the discussion, highlights progress or insights, and prepares to transition to a new topic or task.",
+        "states": [
+          "After exploring a thought or example in depth",
+          "Before transitioning to homework or a new topic",
+          "When reinforcing a learning point"
+        ],
+        "confidence_score": 0.85
+      },
+      {
+        "name": "Process Checking and Engagement",
+        "description": "Therapist checks the patient's understanding, asks for questions or comments, or assesses the patient's current state to ensure alignment and engagement.",
+        "states": [
+          "After providing explanation or instruction",
+          "Before moving to a new segment",
+          "When gauging patient comprehension or reaction"
+        ],
+        "confidence_score": 0.9
+      },
+      {
+        "name": "Session Management and Task Orientation",
+        "description": "Therapist manages the practical flow of the session, gives instructions for in-session activities, assigns or discusses homework, and structures the therapeutic work.",
+        "states": [
+          "Setting up an in-session exercise",
+          "Transitioning to or discussing homework",
+          "Managing time or materials within the session"
+        ],
+        "confidence_score": 0.8
+      }
+    ]
+  },
+  {
+    "name": "Consolidation, Homework, and Session Closure",
+    "description": "Reinforces learning, assigns between-session tasks, and closes the session collaboratively.",
+    "goal": {
+      "objective": "Ensure learning is consolidated and translated into between-session practice.",
+      "success_levels": {
+        "ideal": "Patient clearly summarizes insights and commits to homework.",
+        "acceptable": "Homework is assigned with basic understanding.",
+        "unsuccessful": "Patient leaves unclear or unmotivated to practice."
+      },
+      "reward_hint": "Patient accurately summarizes session and agrees to specific next steps."
+    },
+    "states": [
+      "Session time nearing end",
+      "Key insights have emerged",
+      "Preparation for between-session work needed"
+    ],
+    "confidence_score": 0.95,
+    "micro_actions": [
+      {
+        "name": "Session Summarization",
+        "description": "Therapist reviews main points and invites patient feedback.",
+        "states": [
+          "End of session",
+          "Multiple insights discussed"
+        ],
+        "confidence_score": 0.95
+      },
+      {
+        "name": "Homework Assignment",
+        "description": "Therapist collaboratively defines concrete, achievable homework tasks.",
+        "states": [
+          "Patient shows readiness to apply skills",
+          "Behavioral or cognitive practice identified"
+        ],
+        "confidence_score": 0.96
+      },
+      {
+        "name": "Acknowledging Effort and Resilience",
+        "description": "Therapist validates and reinforces the patient's persistence, strength, or engagement in the therapeutic process, especially in the face of difficulty.",
+        "states": [
+          "Patient shows persistence despite discomfort",
+          "Patient demonstrates resilience or effort",
+          "End of session or summary phase",
+          "Patient reports positive change or insight"
+        ],
+        "confidence_score": 0.9
+      },
+      {
+        "name": "Clarifying Homework Details",
+        "description": "Therapist provides specific guidance, refinement, or clarification about the mechanics, expectations, or focus of a previously discussed homework task.",
+        "states": [
+          "Homework task has been collaboratively identified",
+          "Patient needs clarification on task execution",
+          "Therapist is reinforcing key aspects of the task"
+        ],
+        "confidence_score": 0.85
+      },
+      {
+        "name": "Guiding In-Session Practice",
+        "description": "Therapist directs or structures a live practice of a therapeutic skill (e.g., ABCDE, mindfulness) during the session, often as a rehearsal for homework.",
+        "states": [
+          "Session time allows for practice",
+          "Patient is learning a new skill",
+          "Preparation for between-session work is needed",
+          "Key insights have emerged that can be applied practically"
+        ],
+        "confidence_score": 0.95
+      },
+      {
+        "name": "Confirming Session Logistics",
+        "description": "Therapist confirms or discusses administrative details related to session closure, such as the next appointment time, scheduling, or payment.",
+        "states": [
+          "Session time nearing end",
+          "Directly prior to or after ending the session"
+        ],
+        "confidence_score": 0.9
+      },
+      {
+        "name": "Indirect Suggestion for Practice",
+        "description": "Therapist plants a seed or makes a gentle, non-directive suggestion for an action the patient *might* consider between sessions, often framed as curiosity or wonder.",
+        "states": [
+          "Patient shows readiness for behavioral experimentation",
+          "A new insight or possibility has been discussed"
+        ],
+        "confidence_score": 0.8
+      }
+    ]
+  }
+]

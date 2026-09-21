@@ -1,0 +1,333 @@
+[
+  {
+    "Variable Name": "Symptom Severity",
+    "Description": "Level and frequency of core symptoms (e.g., depression, anxiety, intrusive thoughts). Guides session focus and interventions.",
+    "Categorical values": [
+      "None",
+      "Mild",
+      "Moderate",
+      "Severe",
+      "Extreme"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Functional Impairment",
+    "Description": "Degree to which symptoms impact social, occupational, educational, or daily life functioning. Indicates need and urgency for intervention.",
+    "Categorical values": [
+      "None",
+      "Mild",
+      "Moderate",
+      "Severe"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Progress Toward Goals",
+    "Description": "Extent to which patient is moving toward short- and long-term treatment goals. Guides adjustments in plan.",
+    "Categorical values": [
+      "No progress",
+      "Partial progress",
+      "On track",
+      "Goal achieved",
+      "Regressing"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Mental Status",
+    "Description": "Patient’s cognitive functioning (orientation, memory, attention), speech, mood, affect, judgement, insight. Influences assessment and safety.",
+    "Categorical values": [
+      "Unimpaired",
+      "Mildly impaired",
+      "Moderately impaired",
+      "Severely impaired"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Response to Interventions",
+    "Description": "Degree of improvement or resistance following therapeutic techniques. Informs next steps and pace of therapy.",
+    "Categorical values": [
+      "Highly responsive",
+      "Somewhat responsive",
+      "Neutral",
+      "Resistant",
+      "Deteriorating"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Life Stressors",
+    "Description": "Presence and impact of acute or chronic stressors (recent losses, trauma, changes). These may exacerbate symptoms or impede progress.",
+    "Categorical values": [
+      "None",
+      "Mild",
+      "Moderate",
+      "Severe"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Medication Usage and Response",
+    "Description": "Adherence to, effectiveness, and side effects of psychiatric medications. Essential for coordination with pharmacologic treatment.",
+    "Categorical values": [
+      "Not taking",
+      "Adherent/effective",
+      "Adherent/side effects",
+      "Non-adherent",
+      "Changes ongoing"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Suicidal Ideation and Risk",
+    "Description": "Level of suicidal thoughts, intent, planning, and behaviors. Critical for safety planning and crisis intervention.",
+    "Categorical values": [
+      "None",
+      "Passive ideation",
+      "Active ideation",
+      "Intent or plan",
+      "Recent behavior"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Mood and Affect State",
+    "Description": "Current and past emotional states and affective expression influencing session direction and risk monitoring.",
+    "Categorical values": [
+      "Euthymic/Stable",
+      "Depressed",
+      "Anxious",
+      "Irritable",
+      "Angry",
+      "Flat/Blunted",
+      "Labile"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Automatic Thoughts",
+    "Description": "Type, frequency, and believability of spontaneous negative or positive thoughts guiding cognitive restructuring work.",
+    "Categorical values": [
+      "Negative",
+      "Neutral",
+      "Positive",
+      "Catastrophic",
+      "Obsessive"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Core Schemas and Assumptions",
+    "Description": "Deep-seated beliefs and rules about self, others, or world. Drives therapeutic targets in CBT.",
+    "Categorical values": [
+      "Adaptive",
+      "Maladaptive/Self-critical",
+      "Maladaptive/Anxious",
+      "Maladaptive/Helpless"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Behavioral Engagement/Avoidance",
+    "Description": "Levels of behavioral activation (activity, reward-seeking) versus avoidance/passivity, including use of safety behaviors.",
+    "Categorical values": [
+      "Engaged/Active",
+      "Partially engaged",
+      "Avoidant",
+      "Passive",
+      "Use of safety behaviors"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Social Support and Interpersonal Functioning",
+    "Description": "Quality, frequency, and helpfulness of relationships, plus social withdrawal or conflict. Impacts prognosis and therapy focus.",
+    "Categorical values": [
+      "Strong/supportive",
+      "Adequate",
+      "Impaired/conflict",
+      "Withdrawn",
+      "Absent"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Motivation and Readiness",
+    "Description": "Patient’s willingness to change and engage in therapy, including self-efficacy and ambivalence.",
+    "Categorical values": [
+      "Highly motivated",
+      "Ambivalent",
+      "Unmotivated",
+      "Resistant"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Frustration Tolerance",
+    "Description": "Ability to tolerate distress or setbacks. Guides pace and intensity of exposures.",
+    "Categorical values": [
+      "High tolerance",
+      "Moderate",
+      "Low",
+      "Very low"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Problem-Solving and Coping Skills",
+    "Description": "Patient's use of adaptive coping strategies and problem-solving effectiveness.",
+    "Categorical values": [
+      "Effective",
+      "Inconsistent",
+      "Ineffective",
+      "Not used"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Homework Engagement/Compliance",
+    "Description": "Degree of completion and engagement with therapy homework and assignments. Impacts treatment efficacy.",
+    "Categorical values": [
+      "Fully compliant",
+      "Partially compliant",
+      "No engagement",
+      "Barriers present"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Hopelessness/Helplessness",
+    "Description": "Patient’s expressed or observed sense of hope versus hopelessness, impacting risk and motivation.",
+    "Categorical values": [
+      "No hopelessness",
+      "Mild",
+      "Moderate",
+      "Severe"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Rumination",
+    "Description": "Frequency, intensity, and impact of repetitive negative thinking, often increasing distress.",
+    "Categorical values": [
+      "None",
+      "Mild",
+      "Moderate",
+      "Severe"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Sleep Patterns and Quality",
+    "Description": "Sleep onset, duration, disruptions, and overall restfulness. Directly affects mood and engagement.",
+    "Categorical values": [
+      "Restful/normal",
+      "Mild disturbance",
+      "Moderate disturbance",
+      "Severe insomnia"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Comorbid Symptoms/Conditions",
+    "Description": "Presence and severity of additional psychiatric or medical conditions (substance use, physical illness, etc.) influencing case complexity.",
+    "Categorical values": [
+      "None",
+      "Mild",
+      "Moderate",
+      "Severe"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Subjective Distress (SUDs Ratings)",
+    "Description": "Self-reported levels of distress or anxiety in specific situations, guiding exposure and coping plans.",
+    "Categorical values": [
+      "Low",
+      "Moderate",
+      "High",
+      "Extreme"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Avoidance/Exposure Engagement",
+    "Description": "Degree to which patient avoids or approaches feared situations, tasks, or memories.",
+    "Categorical values": [
+      "Full avoidance",
+      "Partial avoidance",
+      "Exposure attempted",
+      "Exposure completed"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Emotional Regulation",
+    "Description": "Ability to manage and respond to emotional arousal or triggers in-session and beyond.",
+    "Categorical values": [
+      "Well regulated",
+      "Partially regulated",
+      "Dysregulated"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Insight and Recognition",
+    "Description": "Patient’s awareness of symptoms, cognitive distortions, or excessive/unrealistic worries.",
+    "Categorical values": [
+      "Full insight",
+      "Partial insight",
+      "No insight"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Attentional Focus",
+    "Description": "Whether patient’s attention is focused internally (e.g., bodily sensations) or externally (social context). Informs interventions for anxiety/social phobia.",
+    "Categorical values": [
+      "Internal",
+      "External",
+      "Mixed"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Quality of Life",
+    "Description": "Global assessment of how symptoms and circumstances affect well-being and satisfaction.",
+    "Categorical values": [
+      "Excellent",
+      "Good",
+      "Fair",
+      "Poor",
+      "Very poor"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Self-Efficacy",
+    "Description": "Patient’s confidence in their ability to use coping skills and effect change.",
+    "Categorical values": [
+      "High",
+      "Moderate",
+      "Low",
+      "Very low"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  },
+  {
+    "Variable Name": "Treatment Phase",
+    "Description": "Current stage in the therapeutic process, which informs session structure and focus.",
+    "Categorical values": [
+      "Assessment",
+      "Skill training",
+      "Exposure",
+      "Restructuring",
+      "Generalization",
+      "Phasing out",
+      "Maintenance"
+    ],
+    "Numerical values": "regression from 0 to 1 scale"
+  }
+]

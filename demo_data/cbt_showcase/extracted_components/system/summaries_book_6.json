@@ -1,0 +1,587 @@
+[
+  {
+    "macro_actions": {
+      "summary": "- Introduce and reinforce the importance of systematic recordkeeping for panic attacks, anxiety, and related moods.\n- Instruct and motivate the patient to conduct objective (not subjective) recording of panic/anxiety events and mood states.\n- Train the patient to use standardized forms (Panic Attack Record, Daily Mood Record, Progress Record) to capture and track experiences and progress.\n- Provide rationale for objective recordkeeping as a foundation for intervention (increasing self-awareness, evaluating progress, and shaping further treatment).\n- Address patient concerns or misconceptions about recordkeeping increasing anxiety."
+    },
+    "micro_actions": {
+      "summary": "- Guide the patient in immediately or promptly filling out specific details on forms after panic attacks (e.g., date, time, triggers, maximum fear, specific symptoms, thoughts, and behaviors).\n- Prompt use of rating scales (0–10) to quantify fear/anxiety, depression, and worry about panic, both for specific events and daily averages.\n- Encourage noting whether panic attacks were expected or unexpected.\n- Instruct in distinguishing and shifting from subjective (“how bad I feel”) to objective (“what happened, what I did, what I felt, what I thought”) data recording.\n- Review and provide feedback on completed records as part of ongoing therapy."
+    },
+    "conversation_states": {
+      "summary": "- Patient’s willingness to engage in and comply with ongoing recordkeeping.\n- Accuracy and objectivity of patient entries (i.e., are recordings factual/neutral or subjective/emotional).\n- Patterns and trends in frequency, intensity, and context of panic attacks and anxiety over time.\n- Fluctuations in mood and worry as related to situational context (e.g., being alone vs. with others, weekdays vs. weekends).\n- Presence of residual anxiety following panic attacks.\n- Patient’s emotional responses to the recordkeeping process itself (e.g., frustration, avoidance, increased anxiety)."
+    },
+    "knowledge_graph": {
+      "summary": "- History and log of individual panic attacks (including triggers, symptoms, thoughts, and behaviors for each episode).\n- Patterns in daily/weekly mood ratings (anxiety, depression, worry about panic).\n- Trends in progress over time (e.g., frequency of attacks, changes in mood ratings).\n- Key contextual variables (e.g., when/where attacks typically occur, relationship to stressful situations, specific fears or catastrophic thoughts).\n- Patient’s coping behaviors during and after panic attacks.\n- Known and suspected triggers or antecedent events."
+    },
+    "cautions": {
+      "summary": "- Do not encourage or allow subjective, judgmental, or emotionalized forms of recording (e.g., \"how bad it is,\" \"I can't cope\") as this can reinforce anxiety and avoidance.\n- Do not delay recording details (especially panic attacks) until the end of the day or later, as accuracy and usefulness significantly decrease.\n- Do not ignore or downplay patient resistance or increased anxiety concerning recordkeeping; instead, address concerns explicitly and support the transition to objective recording.\n- Avoid using vague generalities or retrospective recall as substitutes for concrete, immediate documentation."
+    },
+    "rules": {
+      "summary": "- {\"if\": \"The patient reports or reflects on panic/anxiety experiences in a vague/subjective way (e.g., 'it was a bad week')\", \"then\": \"Prompt the patient to use specific, objective data recorded on standardized forms to clarify and ground the discussion.\"}\n- {\"if\": \"A panic attack occurs\", \"then\": \"Instruct the patient to complete the Your Panic Attack Record as soon as possible after the episode.\"}\n- {\"if\": \"It is the end of the day\", \"then\": \"Remind the patient to complete the Daily Mood Record, rating average anxiety, depression, and worry about panic for that day.\"}\n- {\"if\": \"Reviewing progress week to week\", \"then\": \"Use the Progress Record to visually plot trends in panic attacks and mood ratings and discuss observed patterns with the patient.\"}\n- {\"if\": \"The patient feels increased anxiety about recording\", \"then\": \"Validate the feeling, explain the difference between subjective and objective recording, and encourage continued objective documentation using specific forms.\"}\n- {\"if\": \"A panic attack trigger cannot be identified by the patient\", \"then\": \"Instruct the patient to record the last thing or situation they noticed before the attack, even if the trigger is unclear.\"}"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "- Psychoeducation about the purpose and components of anxiety and panic, including normalizing these experiences and differentiating between adaptive and maladaptive anxiety.\n- Guiding the patient to self-monitor and record their own physical symptoms, thoughts, and behaviors during episodes of anxiety and panic.\n- Facilitating patient discovery of their own negative cycles that can escalate into panic attacks and/or agoraphobia.\n- Teaching how these cycles operate and explaining the rationale for treatment strategies that interrupt these cycles.\n- Introducing (at a high level) the future acquisition of coping skills including breathing techniques and cognitive restructuring to address negative thoughts.\n- Assigning homework to enhance self-awareness and apply monitoring strategies outside of sessions."
+    },
+    "micro_actions": {
+      "summary": "- Encouraging or prompting the patient to describe specific instances of panic or anxiety, focusing separately on physical sensations, thoughts, and behaviors.\n- Using case examples and step-by-step breakdowns of episodes to model analysis and promote patient reflection.\n- Providing and reviewing self-monitoring forms (Components of Panic/Anxiety, Step-by-Step Analysis of Panic Attack) to structure patient self-report during and between sessions.\n- Asking targeted questions about episode sequence (what happened first, what followed, how did thoughts/behaviors/symptoms interact).\n- Reinforcing identification of patterns and connections (e.g., how a thought led to increased symptoms or an escape behavior).\n- Emphasizing distinctions between anxiety and panic in both subjective experience and behavioral response.\n- Reviewing and clarifying patient homework, ensuring that they continue to record and reflect on their panic/anxiety episodes."
+    },
+    "conversation_states": {
+      "summary": "- Current intensity, frequency, and nature of anxiety and panic symptoms.\n- Patient’s reported physical sensations associated with anxiety/panic.\n- Patient’s automatic thoughts or interpretations during anxiety/panic episodes.\n- Patient’s observable or reported behaviors in response to anxiety/panic (e.g., avoidance, escape, seeking reassurance).\n- Patient’s attributions/beliefs about the meaning or danger of symptoms.\n- Patient’s usage and completion of self-monitoring/homework assignments.\n- Current avoidance patterns and situations that provoke anxiety or panic.\n- Patient’s insight into the cyclical relationships between thoughts, feelings, and behaviors."
+    },
+    "knowledge_graph": {
+      "summary": "- Individualized patterns of anxiety/panic (triggers, symptom clusters, thought patterns, avoidance behaviors).\n- Chronicity and changes in symptom presentation over time.\n- Documented beliefs about the dangerousness of physical symptoms.\n- History of successful or unsuccessful coping attempts.\n- Situations or contexts most frequently avoided due to fear/anticipation of panic.\n- Progress and compliance with homework/self-monitoring.\n- Patient insight into the cognitive-behavioral model of panic/agoraphobia."
+    },
+    "cautions": {
+      "summary": "- Do not pathologize all forms of anxiety or suggest anxiety should be eliminated entirely.\n- Avoid minimizing or invalidating patient experience of panic, but clarify misconceptions (e.g., panic is not dangerous).\n- Do not reinforce avoidance or escape behaviors as adaptive long-term solutions.\n- Avoid prematurely moving to coping skills before patient has developed awareness of their own cycles and symptoms.\n- Do not attribute panic attacks as totally random or inexplicable; stress the identifiable cycle.\n- Avoid encouraging unscientific interventions (e.g., pure \"positive thinking,\" meditation without context, or vague advice to \"chill out\" as core treatment)."
+    },
+    "rules": {
+      "summary": "- {\"if\": \"Patient describes an episode of anxiety or panic\", \"then\": \"Guide the patient to separate and identify physical symptoms, thoughts, and behaviors.\"}\n- {\"if\": \"Patient attributes panic attacks to mysterious or external causes only\", \"then\": \"Educate the patient on the cognitive-behavioral cycle, illustrating the interplay between thoughts, symptoms, and behaviors.\"}\n- {\"if\": \"Patient reports ongoing avoidance of certain situations\", \"then\": \"Clarify the long-term negative impact of avoidance and link this to the agoraphobia cycle.\"}\n- {\"if\": \"Patient expresses belief that anxiety should be eliminated\", \"then\": \"Normalize anxiety as a natural, sometimes helpful emotion, and correct the misconception of total elimination as a goal.\"}\n- {\"if\": \"Beginning a new session or homework check-in\", \"then\": \"Review completed self-monitoring forms and discuss observations/insights gained.\"}\n- {\"if\": \"Patient expresses extreme fear about physical symptoms\", \"then\": \"Provide psychoeducation about the harmlessness of these symptoms and introduce cognitive restructuring as a future strategy.\"}\n- {\"if\": \"Discussing intervention skills before patient has tracked their symptoms and cycles\", \"then\": \"Prioritize self-monitoring and awareness-building before implementing new coping techniques.\"}"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "- Psychoeducation about the physical symptoms of panic and anxiety, focusing on their underlying mechanisms (fight-or-flight response) and adaptive functions.\n- Cognitive restructuring to address and challenge mistaken beliefs about the harmfulness of panic symptoms (e.g., fears about going insane, losing control, heart attacks).\n- Normalization and reassurance regarding the non-dangerous nature of panic symptoms.\n- Encouragement of self-monitoring through the assignment of homework (e.g., keeping panic attack and mood records).\n- Guidance in understanding the cycle of panic, including the role of anxiety about physical symptoms and automatic/conditioned responses.\n- Preparation for upcoming coping-skills development in subsequent chapters."
+    },
+    "micro_actions": {
+      "summary": "- Provide clear explanations of physiological processes involved in panic (e.g., sympathetic vs. parasympathetic nervous system).\n- Use specific, relatable examples and analogies (e.g., ancestral survival, real-life panic triggers).\n- Actively check for and dispel specific myths and inaccurate beliefs about panic symptoms as they arise in conversation.\n- Reframe symptomatic experiences as normal and protective rather than dangerous.\n- Invite the patient to reflect on past experiences and personal history that may contribute to their current beliefs about physical symptoms.\n- Assign and review homework logs for tracking panic attacks and daily moods.\n- Utilize self-assessment or quiz questions to check understanding and highlight misconceptions."
+    },
+    "conversation_states": {
+      "summary": "- Patient's current beliefs and misconceptions about the causes and implications of their physical symptoms.\n- Level of fear and anxiety associated with specific symptoms (e.g., heart racing, dizziness).\n- Patient's awareness of, and response to, \"out of the blue\" panic attacks versus situational attacks.\n- Frequency, intensity, and context of panic attacks (tracked via homework logs).\n- Emotional and cognitive response patterns to physical symptoms, including the presence of automatic negative thoughts and conditioned responses.\n- Degree of insight or acceptance regarding the non-harmful nature of panic symptoms.\n- Patient's engagement and compliance with self-monitoring assignments."
+    },
+    "knowledge_graph": {
+      "summary": "- History of panic attacks: onset, contexts, frequency patterns (from logs).\n- Enduring beliefs and myths about panic and anxiety symptoms (e.g., fears about insanity, heart attacks).\n- Significant prior experiences influencing symptom interpretation (e.g., trauma, observation of others, medical events).\n- Response patterns to physical symptoms (escape behaviors, avoidance, reassurance seeking).\n- Progress and changes in understanding/misinterpretations over time (updated with each session).\n- Level of mastery of psychoeducation and cognitive restructuring components."
+    },
+    "cautions": {
+      "summary": "- Do not dismiss or minimize the patient's panic symptoms without appropriate explanation—normalize but validate their real distress.\n- Avoid providing inaccurate or oversimplified medical information that could reinforce or create fears.\n- Do not assume understanding without directly checking the patient's beliefs or comprehension.\n- Avoid reinforcing catastrophic interpretations or providing ambiguous explanations.\n- Do not ignore the contribution of past experiences or contextual factors to the patient's beliefs about symptoms."
+    },
+    "rules": {
+      "summary": "- if: The patient expresses belief that physical panic symptoms are a sign of serious illness or impending harm (e.g., insanity, heart attack).  \n  then: Provide accurate psychoeducation correcting this belief and offer specific physiological explanations of the symptoms.\n\n- if: The patient describes panic attacks occurring \"out of the blue\" with no identifiable trigger.  \n  then: Explain the possible roles of subtle physical changes and conditioned responses, helping the patient identify underlying factors.\n\n- if: The patient expresses confusion or shows a gap in understanding about why panic symptoms occur or persist.  \n  then: Use analogies, diagrams, or relatable examples to clarify concepts and check understanding via follow-up questions or self-assessment.\n\n- if: The patient reports high anxiety about future physical symptoms or panic episodes.  \n  then: Assign self-monitoring homework (e.g., panic attack record, daily mood record) and review it in the next session.\n\n- if: The patient references or alludes to past traumatic events, family attitudes, or information sources contributing to their beliefs.  \n  then: Explore these influences, validate their impact, and gently challenge any resulting misconceptions.\n\n- if: Patient completes psychoeducation and homework with evidence of persistent misconceptions.  \n  then: Review key concepts and engage in further cognitive restructuring strategies until misconceptions are addressed."
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": [
+        "Review with the patient their recent panic attack and mood records to encourage monitoring and establish a baseline.",
+        "Collaboratively analyze patterns in the records to build insight into the triggers and cycles of panic/anxiety.",
+        "Guide the patient in developing a personalized hierarchy of agoraphobic situations, considering both mild and severe triggers.",
+        "Support the patient to identify and list superstitious objects, safety signals, safety behaviors, and distraction techniques that maintain avoidance and anxiety.",
+        "Encourage gradual reduction or elimination of safety signals and behaviors in approaching avoided situations.",
+        "Assign homework tasks (continued recording, completion of hierarchies and lists) and schedule review."
+      ]
+    },
+    "micro_actions": {
+      "summary": [
+        "Prompt the patient to recall and discuss their daily mood and panic attack records.",
+        "Ask specific questions about patterns (when/where/with whom panic occurs, symptom variability, mood connections).",
+        "Brainstorm methods with the patient to improve consistent daily record-keeping.",
+        "Guide the patient step by step in rating situations and conditions on their personal hierarchy (0–10 scale).",
+        "Probe for the presence and use of safety signals, superstitious objects, safety behaviors, and distractions by asking targeted questions (e.g., “What do you always bring?” or “How do you cope in feared situations?”).",
+        "Encourage objective self-focus in experience descriptions (e.g., “Describe where you are, what’s happening, what you feel physically”).",
+        "Suggest that the patient seek input from close others regarding unnoticed safety behaviors or avoidance patterns.",
+        "Provide concrete homework instructions and clarify next-step expectations."
+      ]
+    },
+    "conversation_states": {
+      "summary": [
+        "Frequency, intensity, and patterns of panic attacks and daily anxiety/mood.",
+        "Patient’s ability and consistency in record-keeping.",
+        "Identification, severity/ranking, and diversity of avoided/agoraphobic situations (and associated ratings).",
+        "Use or dependence on safety signals, superstitious objects, safety behaviors, and distraction techniques.",
+        "Generalization and change in anxiety response across contexts (e.g., alone vs. accompanied, proximity to home, number of people present, time of day).",
+        "Level of objective vs. subjective self-focus during anxiety-provoking situations."
+      ]
+    },
+    "knowledge_graph": {
+      "summary": [
+        "Longitudinal data from panic attack and mood records (date, context, triggers, severity).",
+        "Progress across exposure hierarchy (completed, pending, levels of anxiety, changes over time).",
+        "Inventory of patient-specific avoided situations, safety signals/objects, safety behaviors, and distractions.",
+        "Evolving patterns of avoidance, approach behaviors, and reliance on maladaptive coping strategies.",
+        "Homework completion and barriers identified over time."
+      ]
+    },
+    "cautions": {
+      "summary": [
+        "Do not allow avoidance behaviors or safety signals to persist unexamined, as these prevent corrective learning.",
+        "Do not encourage or reinforce the use of safety signals, distractions, or superstitious objects.",
+        "Avoid relying on distraction techniques as these impede mastery and maintain anxiety cycles.",
+        "Avoid subjective, catastrophizing language that may reinforce fears.",
+        "Do not skip the identification and explicit listing of all relevant safety behaviors and signals.",
+        "Avoid progressing with exposures without adequate baseline data and personalized hierarchy.",
+        "Do not minimize or overlook the patient’s use of subtle avoidance strategies."
+      ]
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "The patient has not maintained daily panic/mood records",
+          "then": "Pause progression and collaboratively brainstorm practical strategies to improve record-keeping adherence before proceeding."
+        },
+        {
+          "if": "Patterns are identified in panic/mood records (e.g., time of day, context, social presence)",
+          "then": "Use these patterns to guide hierarchy development and personalize exposure planning."
+        },
+        {
+          "if": "New avoidance situations or triggers are disclosed",
+          "then": "Add these to the patient’s agoraphobia hierarchy and rate appropriately."
+        },
+        {
+          "if": "Safety signals, superstitious objects, or safety behaviors are reported",
+          "then": "Plan for their gradual reduction or elimination during exposure tasks."
+        },
+        {
+          "if": "Distraction techniques are used in feared situations",
+          "then": "Support the patient to face situations with mindful, objective self-focus rather than distraction."
+        },
+        {
+          "if": "The patient is consistently relying on others during exposures",
+          "then": "Include solo exposures in the hierarchy and encourage independent practice."
+        },
+        {
+          "if": "The patient struggles to identify safety behaviors/distractions",
+          "then": "Suggest obtaining collateral input from trusted others who observe the patient in anxiety-provoking situations."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": [
+        "Psychoeducation about breathing, panic, and hyperventilation, including correcting misconceptions about the role of breathing patterns in anxiety and panic attacks.",
+        "Systematic skills training in diaphragmatic (abdominal) breathing and later, slowed breathing, to foster regulation of breathing during anxiety.",
+        "Guidance in progressive practice: starting in relaxed circumstances, then applying skills in more challenging or anxiety-provoking environments.",
+        "Ongoing review, feedback, and troubleshooting regarding practice and application of breathing skills.",
+        "Emphasis on using breathing as a coping skill to facilitate approaching feared situations, not as an avoidance or escape tactic.",
+        "Assignment of between-session homework and self-monitoring."
+      ]
+    },
+    "micro_actions": {
+      "summary": [
+        "Elicit/check for awareness of breathing patterns and related symptoms through targeted questions and/or controlled overbreathing exercises (with medical caution).",
+        "Instruct and model correct diaphragmatic breathing technique (hand-on-stomach, observing physical movement).",
+        "Prompt patient to focus attention on breath, use counting, and the word “relax” on exhalation as a meditative aid.",
+        "Provide feedback and normalization about breathlessness or awkwardness during training.",
+        "Reinforce smooth, normal-sized breaths (not deep or gulping breaths) and encourage a steady, fluid flow.",
+        "Encourage repeated, structured practice (e.g., \"do this exercise twice daily for 10 minutes\"; “practice in different settings”; “do mini-practices”).",
+        "Prompt the patient to keep records (e.g., Breathing Skills Record) of practice, concentration, and technique success.",
+        "Encourage patient to redirect attention back to breath and cues (numbers, word) when distracted.",
+        "Review patient’s practice logs and discuss successes/challenges in sessions.",
+        "Coach use of breathing in real-time when experiencing anxiety or physical symptoms.",
+        "Prompt self-reflection after application (e.g., “What was the effect? Did you pick up on early signals?”).",
+        "Normalize and reinforce continuing efforts, even if mastery is imperfect."
+      ]
+    },
+    "conversation_states": {
+      "summary": [
+        "Awareness and accuracy of patient’s understanding of the relationship between breathing, anxiety, and panic.",
+        "Patient’s current breathing style (chest vs. diaphragm, rate, depth).",
+        "Intensity and frequency of physical symptoms: e.g., shortness of breath, dizziness, chest tightness, etc.",
+        "Patient’s reported anxiety or panic level (subjective units, e.g., 0-10 scales).",
+        "Patient’s adherence to practice (frequency and quality of skill rehearsal).",
+        "Level of concentration and focus during breathing exercises.",
+        "Patient’s ability to notice early vs. late signals of anxiety/panic onset.",
+        "Patient’s attitude and motivation towards the skills (e.g., using skills desperately vs. for coping/progress).",
+        "Environmental/circumstantial difficulty during practice (e.g., calm vs. stressful setting)."
+      ]
+    },
+    "knowledge_graph": {
+      "summary": [
+        "History and typical profile of panic attacks (frequency, severity, symptom pattern).",
+        "Patient-specific triggers and contexts for anxiety/panic.",
+        "Patient’s baseline and progress in breathing skill acquisition and application (as observed in practice logs).",
+        "Instances and efficacy of skill application in both calm and challenging environments.",
+        "Trends in patient’s self-reported anxiety/panic ratings and how these are affected by skill use.",
+        "Patient’s beliefs and cognitive appraisals about breathing, hyperventilation, and control.",
+        "Adherence/compliance with assigned home practice and record-keeping.",
+        "Any medical contraindications to breathing exercises."
+      ]
+    },
+    "cautions": {
+      "summary": [
+        "Do not treat hyperventilation or associated symptoms as dangerous; correct misperceptions about medical danger.",
+        "Do not encourage taking deep/gulping breaths; avoid reinforcing “bigger is better” breathing.",
+        "Do not instruct or allow practice of overbreathing exercises for patients with epilepsy, seizures, or cardiopulmonary diseases.",
+        "Do not prompt use of new, unfamiliar breathing skills in high-anxiety situations before skill mastery in calm environments.",
+        "Do not use breathing skills as safety behaviors to avoid, escape, or prevent anxiety at all costs—emphasize approach, not avoidance.",
+        "Do not criticize or provoke frustration if patient finds skill learning difficult; normalize challenges and reinforce gradual improvement.",
+        "Avoid instilling or reinforcing catastrophic beliefs about breathing or panic symptoms (e.g., “If I don’t breathe right, I’ll die”)."
+      ]
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "Patient expresses or demonstrates misconceptions regarding the dangerousness of hyperventilation or associated symptoms",
+          "then": "Provide psychoeducation to correct misperceptions and reassure about safety."
+        },
+        {
+          "if": "Patient is beginning skill training in diaphragmatic or slowed breathing",
+          "then": "Start practice in a calm, comfortable setting and focus on technique before applying in anxiety-provoking situations."
+        },
+        {
+          "if": "Patient reports sensations of breathlessness, discomfort, or finds the breathing exercise strange",
+          "then": "Normalize the experience and encourage continued, gradual practice."
+        },
+        {
+          "if": "Patient is not using primarily abdominal (diaphragmatic) movement while breathing",
+          "then": "Coach with hand placement technique to encourage correct form."
+        },
+        {
+          "if": "Patient asks about when to apply breathing skills during anxiety",
+          "then": "Encourage use for coping and remaining in the situation—not for escape or avoidance."
+        },
+        {
+          "if": "Patient is practicing breathing skills during anxiety and becomes desperate to eliminate symptoms",
+          "then": "Remind that the objective is to enable engagement and approach, not to remove all symptoms."
+        },
+        {
+          "if": "Patient has a medical contraindication (e.g., epilepsy, cardiopulmonary disease)",
+          "then": "Do not conduct or assign overbreathing/hyperventilation exercises."
+        },
+        {
+          "if": "Patient is distracted during exercises",
+          "then": "Prompt to gently redirect attention to breath, counting, and the word 'relax'."
+        },
+        {
+          "if": "Patient is not maintaining a practice log",
+          "then": "Prompt and reinforce keeping records for feedback and adherence monitoring."
+        },
+        {
+          "if": "Patient expresses discouragement about not mastering breathing techniques quickly",
+          "then": "Normalize the pace of learning and encourage persistence."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "- The chapter covers high-level therapeutic interventions used in CBT for panic and anxiety disorders. These include:\n  - Educating the patient on the connection between thoughts, emotions, and behaviors.\n  - Training patients to become aware of, identify, and record automatic negative thoughts, especially regarding panic and agoraphobic situations.\n  - Guiding patients to analyze these thoughts through evidence-based inquiry, distinguishing between facts and assumptions.\n  - Teaching patients to recognize and correct cognitive errors such as jumping to conclusions and catastrophizing (blowing things out of proportion).\n  - Encouraging patients to face feared situations or “the worst” and to develop coping strategies, thereby recalibrating their perspective on survivability and manageability.\n  - Supporting patients in processing frightening memories of past panic attacks in a logical, non-catastrophic manner.\n  - Assigning structured, repeated practice through homework and self-assessment to consolidate these skills."
+    },
+    "micro_actions": {
+      "summary": "- At the utterance or interaction-step level, the therapist is advised to:\n  - Ask open-ended, clarifying questions to uncover the patient’s automatic thoughts (e.g., “What are you afraid will happen?”, “And if that happened, then what?”).\n  - Prompt the patient to specify fears in detail instead of accepting vague or global statements (“What exactly could happen if you lose control?”).\n  - Repeatedly probe for underlying catastrophic predictions, using iterative questioning (“And if that happened, what would it mean?”).\n  - Challenge automatic thoughts by asking for evidence for and against the feared outcome (“Has what you feared ever happened?”, “What is the actual evidence?”).\n  - Encourage rating of the realistic odds of feared events on a 0–100 scale, based on evidence, not feeling.\n  - Guide the patient to generate alternative, more evidence-based or balanced ways of thinking.\n  - Prompt the patient to brainstorm coping strategies for feared worst-case scenarios.\n  - Lead step-by-step review of past panic episodes, deconstructing triggers, thoughts, behaviors, and outcomes.\n  - Normalize anxiety and repeated practice, reinforcing that change takes time and persistence.\n  - Facilitate homework compliance through reminders and troubleshooting barriers."
+    },
+    "conversation_states": {
+      "summary": "- The therapist should track the following dynamic features during sessions:\n  - Current emotional state (level of anxiety/panic, presence of distressing physical symptoms).\n  - Specific negative automatic thoughts and underlying catastrophic fears.\n  - Degree of awareness of automatic thoughts (explicit vs. implicit/automatic thoughts).\n  - Patient’s tendency toward cognitive distortions (e.g., jumping to conclusions, catastrophizing).\n  - Evidence-reasoning skills—how well is the patient able to find and weigh evidence for/against beliefs?\n  - Use of avoidance behaviors and safety behaviors.\n  - Patient’s beliefs about survivability, manageability, and duration of feared outcomes.\n  - Readiness and ability to engage in coping or problem-solving thinking.\n  - Progress and adherence to homework assignments and self-monitoring."
+    },
+    "knowledge_graph": {
+      "summary": "- Longitudinal (across-session) memory should track:\n  - Detailed taxonomy of the patient’s negative thoughts, including themes and triggers.\n  - Patterns of cognitive errors (e.g., situations leading to catastrophizing or jumping to conclusions).\n  - History and frequency of specific panic attacks/agoraphobic episodes (including contexts, symptoms, and perceived outcomes).\n  - Successes and difficulties in using evidence-based thinking/coping skills.\n  - Beliefs about coping ability and actual coping strategies attempted and their outcomes.\n  - Records of past “worst case” memories and the emotional response before and after processing.\n  - Homework completion and self-assessment data over time (e.g., anxiety/panic frequency, homework engagement).\n  - Responses to therapeutic exercises (e.g., changes in odds ratings over time for various feared outcomes).\n  - Evolving insight and metacognitive understanding demonstrated by the patient."
+    },
+    "cautions": {
+      "summary": "- The therapist is explicitly and implicitly cautioned:\n  - Not to accept vague descriptions of fear (“I will panic,” “It will be horrible”)—should always probe for specificity.\n  - Not to reinforce positive thinking or false reassurance (“Don’t worry, be happy,” “Everything will be fine”), as this approach is not evidence-based and does not address core cognitive errors.\n  - Not to focus exclusively on eliminating anxiety or physical symptoms—the goal is cognitive change, not immediate symptom eradication.\n  - Not to avoid discussing distressing memories or feared outcomes—these must be processed, not suppressed.\n  - Not to ignore automatic negative thoughts that can arise very quickly and may not be immediately obvious to the patient.\n  - Not to present physical symptoms of anxiety as dangerous or inherently harmful.\n  - Not to minimize the effort and time needed to master these skills (“old habits die hard”).\n  - Not to confuse adaptive behaviors during panic as “loss of control.”\n  - Not to equate emotional intensity or recurrence of negative thoughts with therapeutic failure."
+    },
+    "rules": {
+      "summary": "[\n  {\"if\": \"The patient gives a vague or global reason for their anxiety (e.g., 'I could panic', 'It will be horrible').\", \"then\": \"Probe for specific feared outcomes by asking 'What exactly could happen?', 'And then what?', or 'What would that mean?'.\"},\n  {\"if\": \"The patient presents a negative thought about a situation.\", \"then\": \"Guide them to identify the underlying catastrophic prediction and the specific feared consequence.\"},\n  {\"if\": \"The patient identifies a negative belief or catastrophic expectation.\", \"then\": \"Prompt them to review evidence for and against the likelihood of this believed outcome.\"},\n  {\"if\": \"The patient reports a fear of a negative event that has never or rarely happened.\", \"then\": \"Encourage them to rate the realistic odds, referencing past experience and evidence.\"},\n  {\"if\": \"The patient continues to worry about an event despite no evidence for its likelihood.\", \"then\": \"Ask about avoidance, beliefs that past experience does not predict future outcomes, or beliefs about being 'lucky' that negative events have not occurred.\"},\n  {\"if\": \"The patient jumps to conclusions about the likelihood of a catastrophe.\", \"then\": \"Prompt them to consider alternative interpretations and re-examine the probability objectively.\"},\n  {\"if\": \"The patient blows a situation out of proportion or describes it as 'insufferable' or 'catastrophic'.\", \"then\": \"Encourage them to face the worst-case scenario, evaluate its actual severity, and generate coping strategies.\"},\n  {\"if\": \"The patient is working with a distressing memory of a past panic attack.\", \"then\": \"Facilitate a step-by-step, matter-of-fact analysis of triggers, thoughts, behaviors, and the actual outcome to reduce anxiety.\"},\n  {\"if\": \"Negative thoughts persist or recur, even after previous successful interventions.\", \"then\": \"Instruct the patient to repeat evidence review, facing the worst, and resumption of coping perspective.\"},\n  {\"if\": \"The patient expresses frustration at slow progress or that the process does not feel natural.\", \"then\": \"Normalize the learning curve and reinforce that repeated practice is required for skill mastery.\"},\n  {\"if\": \"The patient differentiates between evidence-based thinking and blind reassurance.\", \"then\": \"Reinforce the importance of evidence-based cognitive restructuring rather than positive thinking or denial.\"}\n]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The therapist facilitates a multi-stage behavioral exposure process aimed at helping the patient reduce fear of physical symptoms associated with panic disorder. High-level dialogue phases include: - Educating the patient on the rationale for directly facing physical symptoms (interoceptive exposure). - Guiding the patient through identification and ranking of feared symptoms and activities. - Preparing and planning for safe symptom-induction exercises, with consideration for medical conditions. - Assigning and reviewing structured exposure exercises to elicit and face physical symptoms and anxiety. - Encouraging repeated, graded exposure to feared symptoms and activities, systematically increasing difficulty. - Reviewing experiences and consolidating learning after exercises, including reflection on expectations vs. outcomes. - Continuously discouraging avoidance, safety behaviors, distractions, and reliance on medications as coping mechanisms. - Planning ongoing homework, self-monitoring, and continuation/adjustment of exposure practices over weeks."
+    },
+    "micro_actions": {
+      "summary": "The therapist operationalizes the intervention by: - Prompting the patient to detail symptoms felt and rate anxiety and similarity to panic symptoms after each exercise. - Helping the patient explicitly identify and record “greatest worry” or negative thought before each exercise. - Coaching the patient to rate the perceived likelihood of catastrophic outcomes. - Instructing the patient to carry out exercises to sufficient intensity, continuing at least 30 seconds after symptom onset. - Directing the patient not to use coping/distraction techniques until after exercise completion. - Prompting labeling and acceptance of feelings during exercises (e.g., “I am afraid, my heart is racing”). - Guiding post-exercise reflection: Did worry come true? What was maximal anxiety? What was learned? What was expected vs. actual outcome? What was accomplished? - Reminding to avoid unhealthy self-criticism and to reward effort/courage. - In the case of escape or unmanageable anxiety, guiding short withdrawal, coping skill use, and prompt return to the activity. - Assigning homework: daily practice, mood/panic attack recording, and repeated exposures."
+    },
+    "conversation_states": {
+      "summary": "Therapist tracks: - List of specific feared physical symptoms/activities (including intensity, rated anxiety, similarity to panic). - Patient’s anxiety rating (0-10) during and after exposures. - Patient’s beliefs about the harmfulness of symptoms and their ability to cope. - Occurrence and content of negative catastrophic thoughts (greatest worry). - Perceived likelihood of catastrophic outcomes (0-100% scale). - Use and presence of avoidance behaviors, distractions, superstitious objects, safety behaviors, and medications. - Whether patient completed exposures, escaped, or avoided. - Changes over time: reduction in anxiety, changes in beliefs, increased willingness to face symptoms/activities. - Patient’s experience of self-criticism vs. self-reward. - Patient’s learning outcomes and ability to distinguish expected vs. actual outcomes after exposures."
+    },
+    "knowledge_graph": {
+      "summary": "Tracked over multiple sessions: - Patient’s personal symptom and activity hierarchy (list and ranked order). - Patient-specific catastrophic beliefs and their evolution. - Patterns of avoidance, safety behaviors, and use of medication across situations. - Progress in exposure practice: activities/symptoms faced, frequency, duration, and learning from each. - Records of panic attacks, mood, anxiety levels (homework logs). - Accumulated evidence/learning re: actual outcomes of exposures vs. predicted worries. - Patient’s medical status/comorbidities (guiding safe exercise selection). - Cumulative changes in anxiety/fear and self-efficacy over time."
+    },
+    "cautions": {
+      "summary": "- Do NOT conduct intense symptom-induction exercises without recent medical clearance if relevant medical conditions exist. - Do NOT use coping skills (breathing/thinking) as avoidance or during exposure; only employ them after exercises. - Do NOT allow avoidance, distraction, use of safety behaviors, or use of superstitious objects during exposure. - Do NOT reinforce self-criticism or minimize accomplishments; avoid judgmental stance. - Do NOT focus on making anxiety go to zero or eliminating symptoms; tolerate some anxiety as part of learning. - Do NOT discontinue exposures or activities solely because of strong anxiety or unpleasant symptoms unless medically unsafe. - Do NOT use medication in a way that fully blocks anxiety/fear responses during the learning process."
+    },
+    "rules": {
+      "summary": "[{\"if\": \"Patient has not had a recent (within 12 months) medical evaluation and may have medical risk factors (e.g., epilepsy, high BP, pregnancy, asthma)\", \"then\": \"Obtain medical clearance before beginning symptom-induction exercises.\"}, {\"if\": \"Patient is about to begin a symptom-induction exercise\", \"then\": \"Have patient identify and record their greatest worry/negative thought and rate its likelihood on a 0-100 scale.\"}, {\"if\": \"Patient first notices symptoms during an exercise\", \"then\": \"Instruct them to continue for at least 30 more seconds.\"}, {\"if\": \"Patient uses coping skills (breathing, thinking skills)\", \"then\": \"Instruct: Use only after, not during, symptom-induction exercises.\"}, {\"if\": \"Exercise or activity is performed\", \"then\": \"Direct patient to rate anxiety (0-10) and similarity to panic symptoms afterwards.\"}, {\"if\": \"Patient completes an exposure or activity\", \"then\": \"Prompt reflection on whether their greatest worry came true, what was learned, expected vs. actual outcomes, and what was accomplished.\"}, {\"if\": \"An exercise or activity is ended early due to intolerable anxiety\", \"then\": \"Teach patient to use coping skills, then return and repeat the exposure.\"}, {\"if\": \"Patient faces an activity/symptom with the aid of safety behaviors or distractions\", \"then\": \"Instruct them to repeat practice without safety behaviors/distractions.\"}, {\"if\": \"Patient practices exposure exercises\", \"then\": \"Encourage objective labeling and acceptance of emotions during exposures (e.g., 'I am afraid').\"}, {\"if\": \"Progress is reviewed\", \"then\": \"Focus on learning and accomplishment, discourage self-criticism, reinforce effort.\"}]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": "The chapter outlines a stepwise, exposure-based intervention for treating agoraphobia. High-level phases include: (1) planning and designing exposure practices based on the patient's specific hierarchy of feared situations, (2) reviewing and troubleshooting past failed or incomplete attempts at exposure, (3) facilitating systematic and repeated practice of feared situations (with or without gradual steps), (4) deliberately facing and accepting physical symptoms alongside feared situations (symptom exaggeration), (5) reviewing and reflecting on each exposure to consolidate learning and adjust beliefs, and (6) tracking progress over weeks through recorded homework and self-assessment. Throughout, the therapist reinforces the importance of direct experience, acceptance, minimizing safety behaviors, and using cognitive (thinking) and behavioral (breathing, coping) strategies."
+    },
+    "micro_actions": {
+      "summary": "Micro-interventions include: collaboratively identifying and specifying the patient's greatest worry or catastrophic thought in each situation; instructing the patient to rate the subjective probability of feared outcomes; guiding the patient to design exposure tasks that test the feared outcome (end goals); prompting abandonment of superstitious objects, safety signals or behaviors, and distractions during practice; cueing the use of cognitive restructuring (“thinking skills”) by reviewing evidence, evaluating actual odds, and problem-solving coping responses; instructing on specific breathing techniques during high anxiety moments; supporting the patient in returning to the situation after short escape/avoidance if necessary; facilitating immediate and delayed reflection on experience versus expectation after exposures; labeling and normalizing emotions as they arise; assigning and reviewing structured homework (exposure, panic/mood monitoring forms); and regularly reviewing learning, anxiety levels, and behavioral accomplishments after each exposure."
+    },
+    "conversation_states": {
+      "summary": "The therapist should continuously track: the patient’s current anxiety and panic levels (subjective units, frequency/intensity, per exposure and over time); presence/absence of safety behaviors, signals, distractions, or medication use during exposures; the patient’s expectations vs. actual experiences (especially around feared outcomes); cognitive appraisals (catastrophic beliefs, overestimation, “jumping to conclusions,” “blowing things out of proportion”); degree of acceptance vs. avoidance/suppression of anxiety and symptoms; willingness and ability to re-engage after an escape; accomplishment of “end goals” vs. intermediate or avoided steps; type, context, and variety of situations practiced; patient self-criticism vs. self-reinforcement; and overall engagement/adherence with homework and tracking forms."
+    },
+    "knowledge_graph": {
+      "summary": "Long-term memory dimensions include: the patient’s individualized agoraphobia hierarchy (list and subjective anxiety for each situation); tracked exposure history and outcomes (dates, practices, duration, triggers, safety behaviors removed, anxiety ratings, experience vs. expectation, learning, accomplishments); history of panic attacks and mood (ongoing record); the context and features of the initial panic attack(s); history of medication use and any changes; types of superstitious objects, safety signals, safety behaviors, and distractions previously used; use of symptom exaggeration techniques; and progress across situations and symptoms over time."
+    },
+    "cautions": {
+      "summary": "Warnings and risks include: do not confuse one-off or forced exposure with systematic, repeated, therapeutic practice; do not allow continued use of safety behaviors, superstitious objects, or excessive reliance on distractions or fast-acting medications during exposures, as these prevent corrective learning; do not treat the absence of anxiety during exposure as a sign of success (some anxiety is necessary and beneficial); do not reinforce escape/avoidance without instructing a prompt return; do not shame, criticize, or focus on “failures”—self-criticism is counterproductive; do not suppress or encourage the patient to suppress emotional experiences, as acceptance and labeling are helpful; do not focus solely on in-session outcomes, but encourage and monitor between-session homework and self-monitoring; and do not ignore the significance of the original panic context when planning exposures."
+    },
+    "rules": {
+      "summary": "[\n  {\"if\": \"The patient uses a safety signal, superstitious object, safety behavior, or distraction during exposure\", \"then\": \"Prompt the patient to remove these during future practices to maximize learning.\"},\n  {\"if\": \"The patient experiences high anxiety or fear during exposure\", \"then\": \"Encourage the use of breathing and cognitive thinking skills, and normalize anxiety as expected and helpful.\"},\n  {\"if\": \"The patient escapes a situation due to anxiety\", \"then\": \"Direct the patient to re-enter the situation as soon as possible after using coping skills.\"},\n  {\"if\": \"The patient believes their greatest worry is likely to come true\", \"then\": \"Guide the patient in examining evidence, reviewing the history of the worry, evaluating the real odds, and identifying coping strategies.\"},\n  {\"if\": \"Exposure is practiced but the feared outcome does not occur\", \"then\": \"Facilitate explicit reflection and discussion on the mismatch between fear and actual experience to consolidate learning.\"},\n  {\"if\": \"The patient reports the use of fast-acting medication prior to exposure\", \"then\": \"Discuss with the patient the potential for medications to interfere with learning, and recommend consulting their prescriber regarding possible dose reduction.\"},\n  {\"if\": \"The patient practices an exposure less frequently or for a shorter duration than recommended\", \"then\": \"Encourage more frequent, longer, or more varied practices in line with treatment principles.\"},\n  {\"if\": \"The patient is self-critical or focuses on failures after exposure\", \"then\": \"Redirect attention to accomplishments, even small ones, and reinforce effort.\"},\n  {\"if\": \"Designing an exposure task\", \"then\": \"Ensure the task specifically tests the patient’s greatest worry and includes sufficient duration and repetition to allow learning.\"},\n  {\"if\": \"Preparing for symptom-related exposure\", \"then\": \"Prompt the patient to intentionally exaggerate physical symptoms as part of practice, to demonstrate they are tolerable and not dangerous.\"},\n  {\"if\": \"Reviewing exposures after the fact\", \"then\": \"Guide the patient in journaling and reflecting on expectations, what occurred, learning, and self-acknowledgement for accomplishments.\"},\n  {\"if\": \"The patient is attempting to eliminate all anxiety during exposure\", \"then\": \"Remind that some anxiety is necessary for learning, and guide toward acceptance.\"},\n  {\"if\": \"Exposures do not include the context of the first panic attack\", \"then\": \"Prompt planning of exposures that match the original panic context when possible.\"},\n  {\"if\": \"Symptoms do not arise naturally in exposure\", \"then\": \"Instruct the patient to use symptom exaggeration exercises to ensure exposure includes feared sensations.\"}\n]"
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": [
+        "Initiate discussion about involving significant others (partners, family, friends) in treatment for agoraphobia.",
+        "Evaluate benefits and risks of incorporating others into therapy.",
+        "Educate patient and helper about agoraphobia, panic symptoms, and therapeutic principles.",
+        "Facilitate team-based recognition and discussion of how agoraphobia impacts both the patient and the helper.",
+        "Identify and address patterns of reinforcement (e.g., attention, accommodation of avoidance) and emotional responses within relationships.",
+        "Develop an explicit plan for collaborative exposure and communication strategies between patient and helper.",
+        "Prepare and coach significant others on supportive behaviors, objective feedback, and reinforcing patient progress.",
+        "Gradually structure the helper’s involvement so the patient transitions to independent exposure practices."
+      ]
+    },
+    "micro_actions": {
+      "summary": [
+        "Prompt patient to identify individuals who could serve as helpers and explore willingness.",
+        "Assist patient and helper in brainstorming and listing specific reinforcement patterns and chore redistribution caused by agoraphobia.",
+        "Model or role-play constructive exposure dialogue using agreed-upon keywords or number ratings (e.g., anxiety level from 0-10).",
+        "Prompt patient to rate anxiety numerically and encourage helper to elicit, acknowledge, and validate these ratings.",
+        "Encourage helper to prompt use of CBT skills (thinking skills, breathing exercises) via direct, concrete cues during anxious moments.",
+        "Guide patient and helper to rehearse and pre-plan communication responses for anticipated distress or withdrawal during exposures.",
+        "Support helper in providing objective, positive reinforcement for attempts at exposure or progress, not just comforting during distress.",
+        "Scaffold gradual exposure steps, adjusting helper's level of assistance over time (from present to more distant), and problem-solve as a team."
+      ]
+    },
+    "conversation_states": {
+      "summary": [
+        "Patient’s current anxiety/distress level (e.g., 0-10 scale).",
+        "Patterns of avoidance and approach in agoraphobia situations.",
+        "Current reinforcement patterns: when and how patient receives attention/support from others.",
+        "Helper’s motivation and willingness to participate.",
+        "Degree of patient’s dependence on others as a “safety signal.”",
+        "Emotional stance of helper (supportive, frustrated, accusatory, etc.).",
+        "Progression in exposure activities (with/without helper).",
+        "Communication effectiveness between patient and helper."
+      ]
+    },
+    "knowledge_graph": {
+      "summary": [
+        "List of significant others involved and nature of their relationship to the patient.",
+        "Historical patterns of avoidance, delegation of chores, and reinforcement by others.",
+        "Record of exposure activities performed (helper’s role, patient’s response, outcome).",
+        "Specific communication strategies agreed upon (keywords, rating systems).",
+        "Record of both positive and problematic incidents in collaborating with helpers.",
+        "Evolution of patient’s independence in exposure (helper proximity, support level).",
+        "Helper’s understanding of CBT skills and their use in collaborative sessions."
+      ]
+    },
+    "cautions": {
+      "summary": [
+        "Do not allow the helper to consistently act as a safety signal, leading to dependence.",
+        "Avoid reinforcing avoidance or anxiety by over-attending to patient’s distress.",
+        "Do not use accusatory, minimizing, or invalidating responses to patient’s symptoms.",
+        "Do not let communication during exposure be vague, overly emotional, or undiscussed in advance.",
+        "Helper should not magnify or catastrophize symptoms, nor overreact (e.g. suggesting emergency care without evidence).",
+        "Avoid excluding helpers without serious consideration of potential benefits.",
+        "Do not ignore the impact that agoraphobia has on the helper’s life and emotional state."
+      ]
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "The patient expresses interest or willingness to involve a significant other in treatment.",
+          "then": "Facilitate discussion of the pros and cons and plan explicit roles for the helper."
+        },
+        {
+          "if": "There is evidence of reinforcement of avoidance/anxiety by others (attention, tasks taken over).",
+          "then": "Collaboratively identify and modify these patterns with both patient and helper."
+        },
+        {
+          "if": "The helper is involved in exposure situations.",
+          "then": "Coach both patient and helper to use objective communication cues (e.g., number ratings, keywords) during anxiety."
+        },
+        {
+          "if": "The patient expresses anxiety, distress, or urges to escape during exposure.",
+          "then": "Prompt use of CBT skills and objective review of evidence, not immediate escape."
+        },
+        {
+          "if": "The helper provides support after progress or exposure attempts.",
+          "then": "Reinforce effort and initiative objectively, not just comforting during distress."
+        },
+        {
+          "if": "The patient is becoming dependent on the helper as a safety signal.",
+          "then": "Plan a gradual weaning process to encourage independence in exposure practices."
+        },
+        {
+          "if": "The helper exhibits frustration, accusatory, or catastrophizing responses.",
+          "then": "Address and re-educate about the nature of agoraphobia and effective support strategies."
+        },
+        {
+          "if": "Helpers are unavailable or patient prefers independence.",
+          "then": "Respect patient’s autonomy but discuss and document the decision deliberately."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": [
+        "Educate the patient about the role, effectiveness, and types of medications for anxiety and panic, including side effects and withdrawal processes.",
+        "Coordinate and reinforce collaboration with prescribing physicians regarding medication management and withdrawal.",
+        "Support and guide the patient in safely weaning off medications, leveraging skills learned in therapy to address withdrawal symptoms and increased anxiety.",
+        "Encourage use of learned CBT coping techniques during medication tapering to manage symptoms and prevent relapse.",
+        "Normalize and reframe withdrawal symptoms, reducing fear and maladaptive interpretations."
+      ]
+    },
+    "micro_actions": {
+      "summary": [
+        "Assess the patient’s current medication use, preferences, and beliefs about medications.",
+        "Provide psychoeducation regarding medication action, side effects, withdrawal, and the importance of therapeutic doses.",
+        "Remind and prompt the patient to consult closely with their physician about dosage adjustments and withdrawal timing.",
+        "Encourage gradual medication tapering, not abrupt cessation.",
+        "Help the patient set a reasonable, physician-approved target date for medication withdrawal.",
+        "Identify and anticipate withdrawal symptoms, normalizing their occurrence and differentiating them from panic relapse.",
+        "Remind and practice CBT coping skills (e.g., abdominal breathing, cognitive restructuring, symptom exposure) specifically when withdrawal symptoms arise.",
+        "Encourage self-monitoring and tracking of symptoms through diaries or assessment forms.",
+        "Reinforce facing previously avoided symptoms and situations post-withdrawal.",
+        "Assign homework to consult with prescribing physician and to plan coping strategies for anticipated symptoms."
+      ]
+    },
+    "conversation_states": {
+      "summary": [
+        "Current medication regimen, including types, dosage, and duration.",
+        "Patient’s motivation, readiness, or ambivalence about continuing or stopping medication.",
+        "Side effects or withdrawal symptoms currently experienced.",
+        "Patient’s understanding and beliefs about medications and withdrawal.",
+        "Level of collaboration or communication with prescribing physicians.",
+        "Patient’s use and mastery of CBT coping skills.",
+        "Anxiety, panic, or avoidance in reaction to medication changes.",
+        "Relapse risk factors and behaviors.",
+        "Degree of fear or catastrophic thinking about symptoms during withdrawal."
+      ]
+    },
+    "knowledge_graph": {
+      "summary": [
+        "Patient’s medication history (types, dosages, response, and side effects).",
+        "History and outcomes of previous medication tapers or cessation attempts.",
+        "Long-term trajectory of anxiety and panic symptoms across medication and non-medication periods.",
+        "History of collaboration/consultation with prescribing physicians.",
+        "Mastery and application of CBT skills in relation to medication changes.",
+        "Patterns of withdrawal symptoms and patient responses.",
+        "Chronology of significant milestones (e.g., when started/stopped medication, therapy progress markers).",
+        "Coping strategies found most and least effective by the patient in the context of withdrawal or medication management."
+      ]
+    },
+    "cautions": {
+      "summary": [
+        "Do not advise, encourage, or permit abrupt cessation of medication without physician oversight.",
+        "Do not minimize or dismiss withdrawal symptoms; normalize but do not invalidate.",
+        "Do not attribute all new anxiety or physical symptoms during withdrawal to relapse—distinguish between withdrawal and recurrence of panic.",
+        "Do not increase catastrophic interpretations of symptoms; avoid language or responses that reinforce maladaptive beliefs.",
+        "Do not undermine the authority/expertise of the prescribing physician or foster patient non-compliance.",
+        "Avoid assuming withdrawal symptoms mean treatment failure or inability to discontinue medication."
+      ]
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "Patient expresses interest in stopping medication",
+          "then": "Instruct patient to collaborate with their prescribing physician for a safe, gradual taper and set a realistic withdrawal target date."
+        },
+        {
+          "if": "Withdrawal symptoms (e.g., anxiety, physical sensations) occur during tapering",
+          "then": "Help patient use learned CBT coping skills to manage symptoms and reframe them as normal adjustment, not signs of relapse or harm."
+        },
+        {
+          "if": "Patient shows increase in anxiety or panic during medication changes",
+          "then": "Support patient in applying exposure and cognitive restructuring techniques, and monitor for catastrophic interpretations."
+        },
+        {
+          "if": "Patient discusses discontinuing medication abruptly",
+          "then": "Firmly advise against it and direct the patient to consult their prescribing physician about safe withdrawal procedures."
+        },
+        {
+          "if": "Patient attributes all physical symptoms during withdrawal to relapse or loss of treatment gains",
+          "then": "Clarify the difference between withdrawal symptoms and relapse, normalizing bodily adjustment to medication changes."
+        },
+        {
+          "if": "Patient completes medication withdrawal",
+          "then": "Encourage the patient to continue facing all previously feared symptoms, activities, and situations, applying CBT skills as needed."
+        }
+      ]
+    }
+  },
+  {
+    "macro_actions": {
+      "summary": [
+        "Guide the patient through a systematic review of their progress by evaluating reductions in panic attacks, anxiety levels, negative thoughts, fear of symptoms/activities, and agoraphobia situations.",
+        "Collaboratively develop structured, ongoing practice and maintenance plans with the patient targeting core skills (breathing, thinking/cognitive restructuring, exposure to feared situations and symptoms).",
+        "Support the patient in setting and revising long-term personal goals disrupted by panic/anxiety.",
+        "Prepare the patient for high-risk periods and potential setbacks by normalizing recurrence, encouraging skill application, and problem-solving for anticipated stressors.",
+        "Reinforce self-efficacy, resilience, and continued self-monitoring to maintain gains and respond proactively to challenges."
+      ]
+    },
+    "micro_actions": {
+      "summary": [
+        "Assist the patient in completing progress self-assessment forms (e.g., rating frequency/severity of panic, negative thoughts, and avoidance behaviors).",
+        "Review patient’s ratings/scales of fear regarding specific symptoms, activities, and agoraphobic situations.",
+        "Provide affirmative feedback and tailored advice based on self-evaluation outcomes.",
+        "Help the patient generate and update specific, actionable practice items in a written practice plan.",
+        "Encourage periodic self-monitoring of mood, anxiety, and panic frequency, tying these to regular life events for consistency.",
+        "Role-play or discuss strategies for facing feared situations and symptoms using skills previously learned (breathing, cognitive techniques).",
+        "Problem-solve and mentally rehearse coping with high-risk or stressful situations to prevent relapse.",
+        "Support the patient in breaking down long-term goals into manageable steps and tracking incremental progress.",
+        "Encourage reviewing psychoeducational content as a maintenance strategy."
+      ]
+    },
+    "conversation_states": {
+      "summary": [
+        "Patient’s current intensity and frequency of panic attacks and anxiety symptoms.",
+        "Degree of cognitive restructuring achieved (e.g., reduction in catastrophic thinking, jumping to conclusions).",
+        "Patient’s current level of avoidance and subjective units of distress regarding activities/situations.",
+        "Progress and adherence to planned practice of coping strategies.",
+        "Patient’s anticipation of and response to high-risk/stressful periods.",
+        "Emotional state, self-confidence, and engagement with maintenance strategies.",
+        "Occurrence and handling of setbacks or symptom flares."
+      ]
+    },
+    "knowledge_graph": {
+      "summary": [
+        "Baseline and ongoing measures of patient progress (panic/anxiety frequency, severity, avoidance behaviors).",
+        "Individualized hierarchy of feared symptoms, activities, and agoraphobic situations.",
+        "History and effectiveness of specific coping strategies practiced.",
+        "Patient’s long-term life goals and the steps taken toward them.",
+        "Record of high-risk times, setbacks, triggers, and effective responses.",
+        "Chronology of practice plans and revisions made across sessions.",
+        "Patterns and habits in patient’s cognitive errors and avoidance behaviors.",
+        "Reviews of psychoeducational content and maintenance activities."
+      ]
+    },
+    "cautions": {
+      "summary": [
+        "Do not interpret setbacks as a sign of failure or loss of all prior progress.",
+        "Do not encourage avoidance behaviors; avoidance maintains or exacerbates anxiety.",
+        "Avoid minimizing the patient’s stressors or assuming skills will generalize automatically without ongoing practice and planning.",
+        "Do not neglect regular self-monitoring and plan revision, as these are key to maintenance and relapse prevention."
+      ]
+    },
+    "rules": {
+      "summary": [
+        {
+          "if": "Patient reports increase in fear or avoidance during high-risk or stressful periods.",
+          "then": "Encourage immediate use of coping skills and facing avoided situations, and plan specific strategies for stress management."
+        },
+        {
+          "if": "Self-assessment indicates three or more 'No' responses on progress evaluation form.",
+          "then": "Revisit and intensify practice in areas showing less improvement; support additional skills acquisition or exposure."
+        },
+        {
+          "if": "Patient experiences a setback or panic recurrence.",
+          "then": "Normalize the experience, review triggers and coping responses, and reinforce resuming previously successful strategies."
+        },
+        {
+          "if": "Patient expresses doubt about maintaining gains or facing new situations.",
+          "then": "Problem-solve barriers, review and reinforce successful skills, and set incremental, achievable tasks."
+        },
+        {
+          "if": "Patient completes scheduled maintenance and self-monitoring activities.",
+          "then": "Provide positive reinforcement and discuss ongoing motivation for continued adherence."
+        },
+        {
+          "if": "Patient identifies new long-term goals.",
+          "then": "Assist in outlining actionable steps and integrating these goals into the ongoing practice plan."
+        },
+        {
+          "if": "Patient avoids or delays reviewing educational material.",
+          "then": "Prompt the patient to review relevant resources and discuss their application to current challenges."
+        }
+      ]
+    }
+  }
+]

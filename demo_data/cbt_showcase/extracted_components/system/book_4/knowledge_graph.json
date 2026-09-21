@@ -1,0 +1,387 @@
+{
+  "nodes": [
+    {
+      "type": "Patient",
+      "description": "Root node representing the individual receiving CBT."
+    },
+    {
+      "type": "Diagnostic History",
+      "description": "Comprehensive record of psychiatric diagnoses, comorbidities, and relevant medical conditions."
+    },
+    {
+      "type": "Symptom Profile",
+      "description": "Longitudinal data on symptom types, severity, acuity, chronicity, onset, and changes over time."
+    },
+    {
+      "type": "Functional Impairment",
+      "description": "Impact of mental health on functioning in social, occupational, educational, and other life domains across time."
+    },
+    {
+      "type": "Treatment Goals and Progress",
+      "description": "Identified therapy goals, individual progress, goal achievement status, and relapse prevention efforts."
+    },
+    {
+      "type": "Interventions and Outcomes",
+      "description": "Records of completed interventions, exposures, behavioral experiments, and their outcomes (successes, failures, learning)."
+    },
+    {
+      "type": "Medication History",
+      "description": "Details of past and current medication regimens, trial responses, side effects, and rationales for changes."
+    },
+    {
+      "type": "Significant Life Events/Stressors",
+      "description": "Critical life occurrences (trauma, loss, transitions, stressors) affecting symptoms or therapy."
+    },
+    {
+      "type": "Engagement and Response Pattern",
+      "description": "Patient's motivation, engagement levels, resistance, compliance, treatment dropouts, and attitudinal shifts."
+    },
+    {
+      "type": "Episode History",
+      "description": "Number, duration, triggers, and outcomes of previous major episodes (e.g., depressive, panic, anxiety)."
+    },
+    {
+      "type": "Family Psychiatric History",
+      "description": "Mental health, substance use, and psychiatric history in the patient's family."
+    },
+    {
+      "type": "Core Beliefs/Schemas",
+      "description": "Enduring beliefs about self, others, world; schema origin, development, and evolution."
+    },
+    {
+      "type": "Maladaptive Assumptions & Automatic Thoughts",
+      "description": "Recurring negative automatic thoughts and unhelpful assumptions affecting functioning."
+    },
+    {
+      "type": "Coping Strategies",
+      "description": "Coping methods (adaptive/maladaptive), avoidance, compensation, behavioral/social skills deficits."
+    },
+    {
+      "type": "Relationship History",
+      "description": "History of significant past/current relationships, conflicts, social support, and relational/attachment issues."
+    },
+    {
+      "type": "History of Suicidality/Self-harm",
+      "description": "Episodes of suicidal ideation, attempts, self-harm, and related safety plans/interventions."
+    },
+    {
+      "type": "Motivational and Behavioral Patterns",
+      "description": "Habits, routines, reinforcement mechanisms, reward sources, changes in motivation."
+    },
+    {
+      "type": "Personality Traits",
+      "description": "Relevant stable personality characteristics (e.g., obsessiveness, perfectionism) influencing therapy."
+    },
+    {
+      "type": "Cultural/Family/Religious Factors",
+      "description": "Contextual factors shaping beliefs, behaviors, and treatment engagement."
+    },
+    {
+      "type": "Panic/Phobia/Avoidance Profile",
+      "description": "History and details of panic, phobias, avoidance behaviors, and associated hierarchies."
+    },
+    {
+      "type": "Feared/Avoided Situations & Safety Behaviors",
+      "description": "Catalog of feared scenarios, avoided situations, and employed safety behaviors."
+    },
+    {
+      "type": "Exposure Hierarchies & Progress",
+      "description": "Exposure items, hierarchy changes, items mastered, and remaining targets."
+    },
+    {
+      "type": "Standardized Assessments",
+      "description": "Scores from standardized symptom/behavioral/emotional measures and their evolution."
+    },
+    {
+      "type": "Emotional Schema Features",
+      "description": "Patterns of emotional response, emotional validation progress, metacognitive beliefs about emotions."
+    },
+    {
+      "type": "Problem-solving Capacity",
+      "description": "Record of problem-solving attempts, skill level, and learning trajectory."
+    },
+    {
+      "type": "Homework and Adherence",
+      "description": "History and outcomes of therapy homework, patient compliance, and independent practice."
+    },
+    {
+      "type": "Trauma History",
+      "description": "Nature, timing, and sequence of traumatic events experienced by the patient."
+    },
+    {
+      "type": "Triggers and Cognitive Distortions",
+      "description": "Key triggers ('hot spots'), cognitive distortions, automatic thoughts, and their change over time."
+    },
+    {
+      "type": "Strengths and Support Structures",
+      "description": "Evidence of coping resources, strengths, supportive relationships/networks."
+    },
+    {
+      "type": "Rewarding Activities/Self-rewards",
+      "description": "Records of pleasurable, rewarding, or self-reinforcing activities and patient use of self-rewards."
+    },
+    {
+      "type": "Problematic Habits/Compulsive Behaviors",
+      "description": "Obsessive themes, compulsive rituals, and detailed patterns of compulsive/avoidant behavior."
+    },
+    {
+      "type": "Family Involvement",
+      "description": "Role and involvement of family members in rituals, support, or maintenance of symptoms."
+    },
+    {
+      "type": "Case Conceptualization",
+      "description": "Ongoing integrative understanding (developmental, cognitive, behavioral, metacognitive, emotional schema) of the patient."
+    },
+    {
+      "type": "Relapse/Recurrence/Risk Factors",
+      "description": "Observed or predicted risk factors for relapse, recurrence patterns, and ongoing risk assessment."
+    }
+  ],
+  "edges": [
+    {
+      "source": "Patient",
+      "target": "Diagnostic History",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Symptom Profile",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Functional Impairment",
+      "relation": "experiences"
+    },
+    {
+      "source": "Patient",
+      "target": "Treatment Goals and Progress",
+      "relation": "pursues"
+    },
+    {
+      "source": "Patient",
+      "target": "Interventions and Outcomes",
+      "relation": "receives"
+    },
+    {
+      "source": "Patient",
+      "target": "Medication History",
+      "relation": "uses"
+    },
+    {
+      "source": "Patient",
+      "target": "Significant Life Events/Stressors",
+      "relation": "experiences"
+    },
+    {
+      "source": "Patient",
+      "target": "Engagement and Response Pattern",
+      "relation": "demonstrates"
+    },
+    {
+      "source": "Patient",
+      "target": "Episode History",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Family Psychiatric History",
+      "relation": "relates_to"
+    },
+    {
+      "source": "Patient",
+      "target": "Core Beliefs/Schemas",
+      "relation": "holds"
+    },
+    {
+      "source": "Patient",
+      "target": "Maladaptive Assumptions & Automatic Thoughts",
+      "relation": "demonstrates"
+    },
+    {
+      "source": "Patient",
+      "target": "Coping Strategies",
+      "relation": "utilizes"
+    },
+    {
+      "source": "Patient",
+      "target": "Relationship History",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "History of Suicidality/Self-harm",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Motivational and Behavioral Patterns",
+      "relation": "shows"
+    },
+    {
+      "source": "Patient",
+      "target": "Personality Traits",
+      "relation": "displays"
+    },
+    {
+      "source": "Patient",
+      "target": "Cultural/Family/Religious Factors",
+      "relation": "is_influenced_by"
+    },
+    {
+      "source": "Patient",
+      "target": "Panic/Phobia/Avoidance Profile",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Feared/Avoided Situations & Safety Behaviors",
+      "relation": "experiences"
+    },
+    {
+      "source": "Patient",
+      "target": "Exposure Hierarchies & Progress",
+      "relation": "undertakes"
+    },
+    {
+      "source": "Patient",
+      "target": "Standardized Assessments",
+      "relation": "is_measured_by"
+    },
+    {
+      "source": "Patient",
+      "target": "Emotional Schema Features",
+      "relation": "demonstrates"
+    },
+    {
+      "source": "Patient",
+      "target": "Problem-solving Capacity",
+      "relation": "exhibits"
+    },
+    {
+      "source": "Patient",
+      "target": "Homework and Adherence",
+      "relation": "displays"
+    },
+    {
+      "source": "Patient",
+      "target": "Trauma History",
+      "relation": "has"
+    },
+    {
+      "source": "Patient",
+      "target": "Triggers and Cognitive Distortions",
+      "relation": "is_affected_by"
+    },
+    {
+      "source": "Patient",
+      "target": "Strengths and Support Structures",
+      "relation": "possesses"
+    },
+    {
+      "source": "Patient",
+      "target": "Rewarding Activities/Self-rewards",
+      "relation": "engages_in"
+    },
+    {
+      "source": "Patient",
+      "target": "Problematic Habits/Compulsive Behaviors",
+      "relation": "displays"
+    },
+    {
+      "source": "Patient",
+      "target": "Family Involvement",
+      "relation": "experiences"
+    },
+    {
+      "source": "Patient",
+      "target": "Case Conceptualization",
+      "relation": "is_described_by"
+    },
+    {
+      "source": "Patient",
+      "target": "Relapse/Recurrence/Risk Factors",
+      "relation": "is_at_risk_of"
+    },
+    {
+      "source": "Diagnostic History",
+      "target": "Comorbidities",
+      "relation": "includes"
+    },
+    {
+      "source": "Core Beliefs/Schemas",
+      "target": "Maladaptive Assumptions & Automatic Thoughts",
+      "relation": "underlie"
+    },
+    {
+      "source": "Significant Life Events/Stressors",
+      "target": "Core Beliefs/Schemas",
+      "relation": "contribute_to"
+    },
+    {
+      "source": "Symptom Profile",
+      "target": "Functional Impairment",
+      "relation": "causes"
+    },
+    {
+      "source": "Treatment Goals and Progress",
+      "target": "Interventions and Outcomes",
+      "relation": "achieved_through"
+    },
+    {
+      "source": "Motivational and Behavioral Patterns",
+      "target": "Engagement and Response Pattern",
+      "relation": "influence"
+    },
+    {
+      "source": "Medication History",
+      "target": "Interventions and Outcomes",
+      "relation": "modifies"
+    },
+    {
+      "source": "Trauma History",
+      "target": "Core Beliefs/Schemas",
+      "relation": "shapes"
+    },
+    {
+      "source": "Family Psychiatric History",
+      "target": "Core Beliefs/Schemas",
+      "relation": "influences"
+    },
+    {
+      "source": "Feared/Avoided Situations & Safety Behaviors",
+      "target": "Exposure Hierarchies & Progress",
+      "relation": "inform"
+    },
+    {
+      "source": "Panic/Phobia/Avoidance Profile",
+      "target": "Exposure Hierarchies & Progress",
+      "relation": "guides"
+    },
+    {
+      "source": "Homework and Adherence",
+      "target": "Treatment Goals and Progress",
+      "relation": "facilitates"
+    },
+    {
+      "source": "Problem-solving Capacity",
+      "target": "Coping Strategies",
+      "relation": "enhances"
+    },
+    {
+      "source": "Problematic Habits/Compulsive Behaviors",
+      "target": "Functional Impairment",
+      "relation": "result_in"
+    },
+    {
+      "source": "Relapse/Recurrence/Risk Factors",
+      "target": "Treatment Goals and Progress",
+      "relation": "threaten"
+    },
+    {
+      "source": "Emotional Schema Features",
+      "target": "Core Beliefs/Schemas",
+      "relation": "reflect"
+    }
+  ]
+}

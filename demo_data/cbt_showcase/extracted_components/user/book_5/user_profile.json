@@ -1,0 +1,162 @@
+{
+  "static_dimensions": [
+    {
+      "dimension_name": "primary_diagnosis",
+      "description": "A static categorical attribute of the user that remains fixed during the cognitive behavioral therapy session with the therapist, indicating the main presenting problem or disorder.",
+      "options": [
+        "panic_disorder",
+        "agoraphobia",
+        "generalized_anxiety_disorder",
+        "social_anxiety_disorder"
+      ]
+    },
+    {
+      "dimension_name": "demographics",
+      "description": "A static categorical attribute of the user that remains fixed during the cognitive behavioral therapy session, denoting age group, marital/family status, and core responsibilities.",
+      "options": [
+        "young_adult_single",
+        "young_adult_married",
+        "adult_with_children",
+        "adult_no_children",
+        "older_adult"
+      ]
+    },
+    {
+      "dimension_name": "medication_status",
+      "description": "A static categorical attribute representing the user’s relationship to psychiatric medication during the CBT session.",
+      "options": [
+        "regular_medication_use",
+        "as_needed_medication_use",
+        "not_using_medication",
+        "recent_medication_withdrawal"
+      ]
+    },
+    {
+      "dimension_name": "tendency_toward_cognitive_distortion",
+      "description": "A static categorical attribute indicating the user's baseline tendency toward distorted thinking patterns.",
+      "options": [
+        "frequent_catastrophizing",
+        "moderate_distortions",
+        "minimal_distortions"
+      ]
+    },
+    {
+      "dimension_name": "interpersonal_support_pattern",
+      "description": "A static categorical attribute reflecting the user’s typical support and relationship dynamics during therapy.",
+      "options": [
+        "dependence_on_significant_others",
+        "receives_unsupportive_responses",
+        "effective_support_system",
+        "prefers_autonomy"
+      ]
+    }
+  ],
+  "dynamic_dimensions": [
+    {
+      "dimension_name": "current_anxiety_panic_level",
+      "description": "A dynamic categorical state of the user that may change during the cognitive behavioral therapy session depending on the user's responses and the therapist’s interventions, reflecting symptom severity and frequency.",
+      "options": [
+        "low",
+        "moderate",
+        "high"
+      ],
+      "update_condition": "Changes based on recent experiences, symptom self-report, therapist observations, or recent exposures/stressors in session."
+    },
+    {
+      "dimension_name": "insight_and_self_monitoring_skill",
+      "description": "A dynamic categorical state reflecting the patient's current ability to objectively record and analyze their symptoms, thoughts, and behaviors.",
+      "options": [
+        "limited_insight",
+        "growing_insight",
+        "accurate_self_monitoring"
+      ],
+      "update_condition": "Shifts as the user practices recording, receives feedback, and demonstrates increased awareness or accuracy in reporting."
+    },
+    {
+      "dimension_name": "avoidance_behavior_intensity",
+      "description": "A dynamic categorical state tracking the degree to which the user is currently engaging in avoidance or escape behaviors.",
+      "options": [
+        "significantly_avoidant",
+        "occasionally_avoidant",
+        "minimally_avoidant"
+      ],
+      "update_condition": "Updates in response to exposure tasks, homework, or willingness to confront feared situations during the session."
+    },
+    {
+      "dimension_name": "use_of_safety_behaviors",
+      "description": "A dynamic categorical state indicating current reliance on safety signals, objects, coping aides, or superstitious practices to manage anxiety.",
+      "options": [
+        "high_reliance",
+        "moderate_reliance",
+        "minimal_reliance"
+      ],
+      "update_condition": "Changes as the patient practices doing exposures without safety behaviors or intentionally limits their use."
+    },
+    {
+      "dimension_name": "engagement_and_motivation",
+      "description": "A dynamic categorical state describing the user’s present motivation for treatment tasks and their level of active engagement in therapy.",
+      "options": [
+        "disengaged",
+        "variable_engagement",
+        "highly_engaged"
+      ],
+      "update_condition": "Updates according to homework completion, willingness to try new skills, or the user’s response to setbacks and support."
+    },
+    {
+      "dimension_name": "emotional_state",
+      "description": "A dynamic categorical state indicating the user's dominant emotion(s) during the therapy session.",
+      "options": [
+        "anxious",
+        "fearful",
+        "hopeful",
+        "frustrated",
+        "discouraged",
+        "calm"
+      ],
+      "update_condition": "Reflects moment-to-moment shifts in emotion, contextual triggers, accomplishments, or setbacks reported or observed in session."
+    },
+    {
+      "dimension_name": "coping_skill_proficiency",
+      "description": "A dynamic categorical state reflecting how adeptly the patient is currently applying and benefiting from coping techniques (e.g., breathing, cognitive restructuring).",
+      "options": [
+        "novice",
+        "practicing",
+        "competent",
+        "mastery"
+      ],
+      "update_condition": "Evolves with repeated implementation of skills across exposures and accurate demonstration of adaptive strategies."
+    },
+    {
+      "dimension_name": "medication_attitude_and_compliance",
+      "description": "A dynamic categorical state describing the user's current attitude toward and compliance with prescribed medication, if any.",
+      "options": [
+        "compliant_positive",
+        "compliant_ambivalent",
+        "noncompliant_negative",
+        "tapering_withdrawal"
+      ],
+      "update_condition": "Varies as the patient experiences side effects, discusses withdrawal, or develops increased reliance on CBT strategies."
+    },
+    {
+      "dimension_name": "readiness_to_confront_fears",
+      "description": "A dynamic categorical state indicating the user's readiness to face avoided situations or symptoms as targeted in therapy.",
+      "options": [
+        "resistant",
+        "ambivalent",
+        "preparing",
+        "actively_confronting"
+      ],
+      "update_condition": "Shifts in response to progress on homework assignments, exposure exercises, or increased confidence during the session."
+    },
+    {
+      "dimension_name": "interpersonal_openness",
+      "description": "A dynamic categorical state signifying how open the user is in communicating about their anxiety and incorporating helpers/support persons into their therapeutic process.",
+      "options": [
+        "closed",
+        "somewhat_open",
+        "open_and_inclusive"
+      ],
+      "update_condition": "Adjusts as the user practices structured communication, receives or requests assistance, or reappraises relationship roles in recovery."
+    }
+  ]
+}

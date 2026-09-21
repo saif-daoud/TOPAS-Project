@@ -1,0 +1,747 @@
+[
+  {
+    "name": "Psychoeducation and Orientation",
+    "description": "Providing the patient with information about CBT principles, psychological mechanisms, and normalizing emotional responses.",
+    "goal": {
+      "objective": "To ensure the patient understands foundational CBT concepts, reducing misconceptions and increasing engagement.",
+      "success_levels": {
+        "ideal": "Patient demonstrates accurate understanding of CBT fundamentals and feels reassured about their psychological experiences.",
+        "acceptable": "Patient can recall some key CBT concepts and expresses openness to starting therapy.",
+        "unsuccessful": "Patient remains confused or misinformed about CBT and feels resistant or anxious."
+      },
+      "reward_hint": "Patient articulates correct understanding and shows reduced shame or stigma toward their difficulties."
+    },
+    "states": [
+      "Patient is new to CBT and unfamiliar with its principles.",
+      "Patient expresses confusion, shame, or misconceptions about psychological distress.",
+      "Therapy is beginning or following a transition to a new problem area."
+    ],
+    "confidence_score": 0.98,
+    "micro_actions": [
+      {
+        "name": "Explain CBT Basics",
+        "description": "Therapist clearly describes the core principles, structure, and process of CBT, adapting explanations to patient’s knowledge level.",
+        "states": [
+          "Patient is unfamiliar with CBT terminology or approach.",
+          "Patient expresses misconceptions about therapy goals."
+        ],
+        "confidence_score": 0.99
+      },
+      {
+        "name": "Normalize Emotional Distress",
+        "description": "Therapist provides statements that validate emotional reactions as common and normal, reducing shame or stigma ('Many people feel anxious, it’s not a sign of weakness').",
+        "states": [
+          "Patient expresses embarrassment, shame, or self-blame about symptoms.",
+          "Patient appears reluctant to discuss experiences due to stigma."
+        ],
+        "confidence_score": 0.98
+      },
+      {
+        "name": "Debunk Myths and Misconceptions",
+        "description": "Therapist directly challenges inaccurate beliefs about psychological problems or therapy using gentle, corrective statements.",
+        "states": [
+          "Patient expresses beliefs in myths or stigma surrounding mental health.",
+          "Misconceptions are acting as a barrier to engagement."
+        ],
+        "confidence_score": 0.98
+      },
+      {
+        "name": "Invite Questions and Feedback",
+        "description": "Therapist actively invites questions, concerns, or doubts about the therapy process.",
+        "states": [
+          "Patient hesitates, appears confused, or seeks clarification during psychoeducation."
+        ],
+        "confidence_score": 0.95
+      },
+      {
+        "name": "Review and Summarize CBT Rationale",
+        "description": "Therapist offers brief summaries of key therapy principles, checking for patient understanding after explanations.",
+        "states": [
+          "Patient needs reminders or check-ins about the rationale behind interventions."
+        ],
+        "confidence_score": 0.96
+      },
+      {
+        "name": "Provide Resources and Handouts",
+        "description": "Therapist gives handouts, diagrams, or recommends reading materials to reinforce psychoeducation.",
+        "states": [
+          "Patient benefits from supplemental information.",
+          "Therapy is beginning or transitions to a new topic."
+        ],
+        "confidence_score": 0.95
+      }
+    ]
+  },
+  {
+    "name": "Structured Problem Assessment",
+    "description": "Systematically exploring and defining the patient's presenting problems, triggers, and patterns using evidence-based tools (e.g., ABC model, forms).",
+    "goal": {
+      "objective": "To achieve a clear, specific, and contextualized formulation of the patient's difficulties.",
+      "success_levels": {
+        "ideal": "Patient and therapist agree on a specific problem formulation with identified triggers, beliefs, and consequences.",
+        "acceptable": "Patient can identify some triggers, behaviors, and emotions related to their problems.",
+        "unsuccessful": "Patient's problems remain vague, diffuse, or unformulated, hindering progress."
+      },
+      "reward_hint": "Patient participates actively in assessment and can describe their problem in concrete terms."
+    },
+    "states": [
+      "Patient presents with general distress without clear problem definition.",
+      "Patient has complex or overlapping difficulties.",
+      "New problem area is identified requiring specific definition."
+    ],
+    "confidence_score": 0.97,
+    "micro_actions": [
+      {
+        "name": "Elicit Detailed Problem Description",
+        "description": "Therapist asks targeted questions to prompt the patient to describe their main symptoms and the duration/problem details in their own words.",
+        "states": [
+          "Patient provides unclear or overly general descriptions of difficulties."
+        ],
+        "confidence_score": 0.98
+      },
+      {
+        "name": "Use ABC Format",
+        "description": "Therapist encourages the patient to break down episodes using the ABC (Activating Event, Beliefs, Consequences) structure and record each part.",
+        "states": [
+          "Patient struggles to link emotions/thoughts to specific events."
+        ],
+        "confidence_score": 0.98
+      },
+      {
+        "name": "Prompt Written or Structured Recording",
+        "description": "Therapist asks the patient to write down events, thoughts/beliefs, and consequences using forms or worksheets.",
+        "states": [
+          "Patient benefits from visual aids or written reflection."
+        ],
+        "confidence_score": 0.97
+      },
+      {
+        "name": "Clarify and Differentiate Events vs Beliefs",
+        "description": "Therapist helps the patient distinguish between factual events and subjective interpretations in problem descriptions.",
+        "states": [
+          "Patient provides global or confusing narratives blending events and beliefs."
+        ],
+        "confidence_score": 0.96
+      },
+      {
+        "name": "Encourage Identification of Triggers",
+        "description": "Therapist prompts for recent situations, events, or interactions that triggered distress.",
+        "states": [
+          "Patient cannot specify what initiated their symptoms."
+        ],
+        "confidence_score": 0.95
+      },
+      {
+        "name": "Review Homework or Assessment Forms",
+        "description": "Therapist reviews previously completed worksheets or forms and asks clarifying questions.",
+        "states": [
+          "Assessment forms are available from prior sessions.",
+          "Therapist is gathering new information after homework completion."
+        ],
+        "confidence_score": 0.95
+      }
+    ]
+  },
+  {
+    "name": "Cognitive Distortion Identification and Restructuring",
+    "description": "Guiding the patient to identify cognitive distortions and challenge/reframe them with alternative, evidence-based thoughts.",
+    "goal": {
+      "objective": "To reduce the impact of maladaptive thinking and foster more adaptive cognitive patterns.",
+      "success_levels": {
+        "ideal": "Patient consistently recognizes distorted thoughts and successfully reframes them using evidence.",
+        "acceptable": "Patient can sometimes spot and challenge distorted thinking, making occasional adaptive changes.",
+        "unsuccessful": "Patient remains entrenched in unchallenged cognitive distortions."
+      },
+      "reward_hint": "Patient demonstrates insight when challenged and offers alternative explanations for their thinking."
+    },
+    "states": [
+      "Patient displays rigid, maladaptive, or distorted thought patterns.",
+      "Patient reacts intensely to events due to overgeneralization or catastrophizing.",
+      "Cognitive restructuring phase is indicated by persistent negative thinking."
+    ],
+    "confidence_score": 0.99,
+    "micro_actions": [
+      {
+        "name": "Elicit Automatic Thoughts",
+        "description": "Therapist prompts patient to verbalize or write down their automatic thoughts related to recent upsetting events.",
+        "states": [
+          "Patient is experiencing or reflecting on an emotionally charged event.",
+          "Negative thinking is present."
+        ],
+        "confidence_score": 0.99
+      },
+      {
+        "name": "Identify Cognitive Distortions",
+        "description": "Therapist asks targeted questions to help the patient spot specific distortions (e.g., catastrophizing, black-and-white thinking) in their thoughts.",
+        "states": [
+          "Patient's thoughts show patterns typical of cognitive distortions."
+        ],
+        "confidence_score": 0.99
+      },
+      {
+        "name": "Challenge and Dispute Distorted Thoughts",
+        "description": "Therapist uses probing questions or Socratic dialogue to prompt the patient to reconsider or test the validity of negative thoughts ('Is there evidence for/against this?').",
+        "states": [
+          "Patient expresses rigid or extreme negative beliefs."
+        ],
+        "confidence_score": 0.99
+      },
+      {
+        "name": "Encourage Alternative Perspectives",
+        "description": "Therapist helps the patient brainstorm and record alternative, more balanced explanations or thoughts.",
+        "states": [
+          "Therapist and patient identify a cognitive distortion.",
+          "Patient is stuck in self-defeating interpretations."
+        ],
+        "confidence_score": 0.98
+      },
+      {
+        "name": "Prompt Evidence Gathering",
+        "description": "Therapist asks the patient to list supporting and contradicting evidence for key negative thoughts/beliefs.",
+        "states": [
+          "Patient struggles to see contradictions or alternatives to their beliefs."
+        ],
+        "confidence_score": 0.98
+      },
+      {
+        "name": "Coach Realistic and Flexible Language Use",
+        "description": "Therapist encourages the patient to shift wording from 'must/should' to 'prefer/wish' and other flexible phrasing.",
+        "states": [
+          "Patient uses rigid or absolutist language during discussion."
+        ],
+        "confidence_score": 0.97
+      },
+      {
+        "name": "Facilitate Rating of Emotional Change",
+        "description": "Therapist prompts patient to rate emotional intensity after reframing thoughts.",
+        "states": [
+          "Therapist is testing the impact of cognitive restructuring."
+        ],
+        "confidence_score": 0.97
+      }
+    ]
+  },
+  {
+    "name": "Emotion Identification and Regulation Training",
+    "description": "Teaching the patient to recognize, label, analyze, and transform unhealthy emotional responses.",
+    "goal": {
+      "objective": "To increase emotional awareness and facilitate movement from unhealthy to healthy emotional states.",
+      "success_levels": {
+        "ideal": "Patient accurately identifies emotions, their triggers, and uses strategies to regulate and respond healthily.",
+        "acceptable": "Patient can name emotions and sometimes engage in regulation strategies.",
+        "unsuccessful": "Patient is unaware or overwhelmed by emotions, unable to regulate responses."
+      },
+      "reward_hint": "Patient uses emotional vocabulary and applies learned regulation techniques."
+    },
+    "states": [
+      "Patient reports overwhelming or unclear emotional experiences.",
+      "Patient struggles with persistent negative emotions (e.g., anger, depression, anxiety).",
+      "Affective disturbance is prominent in session."
+    ],
+    "confidence_score": 0.96,
+    "micro_actions": [
+      {
+        "name": "Prompt Emotion Naming",
+        "description": "Therapist asks the patient to identify and explicitly name the emotion(s) they are experiencing.",
+        "states": [
+          "Patient expresses unclear distress or is emotionally overwhelmed."
+        ],
+        "confidence_score": 0.97
+      },
+      {
+        "name": "Explore Triggers/Themes",
+        "description": "Therapist encourages the patient to discuss recent events, themes, or situations associated with their emotions.",
+        "states": [
+          "Patient describes intense emotional episodes."
+        ],
+        "confidence_score": 0.96
+      },
+      {
+        "name": "Differentiate Thought Styles",
+        "description": "Therapist prompts the patient to categorize their thoughts as rigid/demanding or flexible/preferential.",
+        "states": [
+          "Patient reports persistent negative mood or emotional interference."
+        ],
+        "confidence_score": 0.95
+      },
+      {
+        "name": "Inquire About Behavioral Urges",
+        "description": "Therapist asks about the specific actions or urges that result from the emotion (e.g., lashing out, withdrawal).",
+        "states": [
+          "Patient discusses or acts on emotional urges."
+        ],
+        "confidence_score": 0.96
+      },
+      {
+        "name": "Guide Awareness of Physical Sensations",
+        "description": "Therapist prompts patient to notice and rate physical sensations linked to emotions (e.g., tension, heartbeat).",
+        "states": [
+          "Patient reports somatic complaints or is disconnected from emotional experience."
+        ],
+        "confidence_score": 0.95
+      },
+      {
+        "name": "Identify Meta-Emotions",
+        "description": "Therapist helps patient notice secondary emotions (e.g., feeling guilty about sadness) that complicate emotion identification.",
+        "states": [
+          "Patient expresses complex or mixed emotion states."
+        ],
+        "confidence_score": 0.94
+      },
+      {
+        "name": "Use Emotional Problem Statement",
+        "description": "Therapist supports completion of structured statements linking feeling, trigger, and resulting action or urge.",
+        "states": [
+          "Patient struggles to make sense of their emotional responses."
+        ],
+        "confidence_score": 0.96
+      },
+      {
+        "name": "Prompt Distress and Interference Ratings",
+        "description": "Therapist asks patient to rate emotional distress and interference (e.g., 0–10 scale).",
+        "states": [
+          "Therapist is tracking progress or emotional changes."
+        ],
+        "confidence_score": 0.95
+      },
+      {
+        "name": "Review Emotion Ratings/Progress",
+        "description": "Therapist periodically reviews ratings, acknowledges progress, and reminds patient of skills used.",
+        "states": [
+          "Therapy includes monitoring/regulation practice."
+        ],
+        "confidence_score": 0.94
+      }
+    ]
+  },
+  {
+    "name": "Behavioral Experimentation and Exposure",
+    "description": "Collaboratively designing, conducting, and reviewing behavioral experiments to test beliefs, reduce avoidance, and build new adaptive behaviors.",
+    "goal": {
+      "objective": "To help patients gather direct evidence about their beliefs, reduce unhelpful behaviors, and acquire new skills.",
+      "success_levels": {
+        "ideal": "Patient completes behavioral experiments and meaningfully revises beliefs/behaviors based on outcomes.",
+        "acceptable": "Patient participates in at least some experiments and notices partial change.",
+        "unsuccessful": "Patient avoids experimentation or reverts to old behaviors without learning."
+      },
+      "reward_hint": "Patient takes meaningful risks, follows through with exposure tasks, and reflects constructively on results."
+    },
+    "states": [
+      "Patient's beliefs seem resistant to change through dialogue alone.",
+      "Patient uses avoidance, safety behaviors, or maintains unrealistic fears.",
+      "Therapist introduces or reviews graded exposure or behavioral planning."
+    ],
+    "confidence_score": 0.98,
+    "micro_actions": [
+      {
+        "name": "Prompt Explicit Predictions",
+        "description": "Therapist asks patient to detail their expectation of experiment outcomes and rate confidence in those predictions.",
+        "states": [
+          "Behavioral experiment/graded exposure planning."
+        ],
+        "confidence_score": 0.98
+      },
+      {
+        "name": "Plan Experiment Details",
+        "description": "Therapist guides patient to specify when, where, and how an experiment or exposure task will occur, defining success/failure criteria.",
+        "states": [
+          "Therapist and patient collaboratively designing exposure tasks."
+        ],
+        "confidence_score": 0.98
+      },
+      {
+        "name": "Coach Execution of Experiment",
+        "description": "Therapist supports patient during actual behavioral experiment, providing encouragement and reminders as needed.",
+        "states": [
+          "Patient is engaging in challenging, feared, or avoided activities."
+        ],
+        "confidence_score": 0.97
+      },
+      {
+        "name": "Review and Re-Rate Predictions",
+        "description": "Therapist guides the patient to examine the results of the experiment, compare to the original prediction, and rate learning points.",
+        "states": [
+          "Therapist and patient complete experiment and debrief results."
+        ],
+        "confidence_score": 0.97
+      },
+      {
+        "name": "Identify and Challenge Safety Behaviors",
+        "description": "Therapist prompts patient to notice and reduce subtle safety or avoidance behaviors contaminating the experiment.",
+        "states": [
+          "Exposure or experiment results may be impacted by avoidance behaviors."
+        ],
+        "confidence_score": 0.96
+      },
+      {
+        "name": "Facilitate Reflection on Experiment Outcomes",
+        "description": "Therapist asks patient for insights, emotional changes, difficulty level, and new beliefs learned.",
+        "states": [
+          "Patient reviews or completes behavioral experiment."
+        ],
+        "confidence_score": 0.97
+      },
+      {
+        "name": "Assign Homework for Repeated Exposure",
+        "description": "Therapist instructs patient to repeat experiments or exposures and track results for skill development.",
+        "states": [
+          "Therapy includes ongoing exposure/experiment practice."
+        ],
+        "confidence_score": 0.96
+      }
+    ]
+  },
+  {
+    "name": "Goal Setting and Progress Monitoring",
+    "description": "Collaboratively forming specific, achievable, motivational therapy goals and regularly tracking progress.",
+    "goal": {
+      "objective": "To orient therapy toward concrete change and maintain patient motivation.",
+      "success_levels": {
+        "ideal": "Patient engages with clear, positive goals and tracks progress; adjusts goals as needed.",
+        "acceptable": "Patient sets some goals and notices progress or barriers.",
+        "unsuccessful": "No clear goals; therapy feels stagnant or demotivating."
+      },
+      "reward_hint": "Patient expresses commitment to goals and regularly reviews steps and outcomes."
+    },
+    "states": [
+      "Patient or therapist identifies vague or undirected therapy process.",
+      "Transition needed from problem focus to future orientation.",
+      "Therapy stalls or motivation decreases."
+    ],
+    "confidence_score": 0.97,
+    "micro_actions": [
+      {
+        "name": "Prompt Specific Goal Articulation",
+        "description": "Therapist asks patient to state goals in a precise, functional format (using prescribed structure, e.g., SPORT, desired emotion/situation/behavior).",
+        "states": [
+          "Goal setting or therapy planning is underway."
+        ],
+        "confidence_score": 0.97
+      },
+      {
+        "name": "Distinguish Unrealistic vs Functional Goals",
+        "description": "Therapist asks clarifying questions to separate vague, avoidance-based, or unrealistic goals from adaptive ones.",
+        "states": [
+          "Patient proposes unclear or avoidance-oriented goals."
+        ],
+        "confidence_score": 0.96
+      },
+      {
+        "name": "Facilitate Cost–Benefit Analysis",
+        "description": "Therapist uses paired questioning to review pros and cons of current versus alternative emotions, behaviors, and thoughts.",
+        "states": [
+          "Patient is undecided or ambivalent about pursuing goals."
+        ],
+        "confidence_score": 0.96
+      },
+      {
+        "name": "Support Motivation Material Creation",
+        "description": "Therapist encourages development of flashcards or visual aids for goal reminders and inspiration.",
+        "states": [
+          "Patient benefits from external reminders or struggles with motivation."
+        ],
+        "confidence_score": 0.94
+      },
+      {
+        "name": "Prompt Regular Progress Ratings",
+        "description": "Therapist instructs patient to self-rate emotional intensity/interfering factors and track steps toward goal achievement.",
+        "states": [
+          "Therapy is tracking specific progress over time."
+        ],
+        "confidence_score": 0.96
+      },
+      {
+        "name": "Adjust Goals When Needed",
+        "description": "Therapist invites patient to discuss barriers and revise goals during therapy as needed.",
+        "states": [
+          "Patient encounters obstacles or notices lack of progress."
+        ],
+        "confidence_score": 0.95
+      }
+    ]
+  },
+  {
+    "name": "Attention Training and Mindfulness",
+    "description": "Training the patient to focus attention, use present-moment awareness, and tolerate intrusive/distressing thoughts through mindfulness and concentration exercises.",
+    "goal": {
+      "objective": "To help patients manage internal distress through attention retraining, presence, and acceptance.",
+      "success_levels": {
+        "ideal": "Patient applies mindfulness and concentration skills, showing reduced distress and improved focus.",
+        "acceptable": "Patient practices attention exercises with partial success in distress reduction.",
+        "unsuccessful": "Patient avoids or misapplies attention skills, distress remains unchanged."
+      },
+      "reward_hint": "Patient uses mindfulness or concentration tools and reports shifts in attention or emotion."
+    },
+    "states": [
+      "Patient is preoccupied with internal distress or intrusive thoughts.",
+      "Therapist seeks to shift focus from content to process.",
+      "Planning graded exposure or attention modification."
+    ],
+    "confidence_score": 0.95,
+    "micro_actions": [
+      {
+        "name": "Prompt Attention Allocation Reflection",
+        "description": "Therapist asks the patient to notice and report what percentage of attention is focused on self, task, and environment.",
+        "states": [
+          "Active attention training or mindfulness exercises in session."
+        ],
+        "confidence_score": 0.96
+      },
+      {
+        "name": "Instruct Mindfulness Exercises",
+        "description": "Therapist leads patient in observing sensations, thoughts, and surroundings with non-judgmental awareness.",
+        "states": [
+          "Therapy session focuses on mindfulness or presence."
+        ],
+        "confidence_score": 0.97
+      },
+      {
+        "name": "Encourage Non-Suppression of Thoughts",
+        "description": "Therapist discourages thought suppression, inviting patient to observe intrusive thoughts/images and let them fade naturally.",
+        "states": [
+          "Patient attempts to control or suppress unwanted intrusions."
+        ],
+        "confidence_score": 0.96
+      },
+      {
+        "name": "Coach Deliberate Attention Redirection",
+        "description": "Therapist instructs the patient in exercises such as redirecting focus from self to task/environment.",
+        "states": [
+          "Patient is caught in self-focus or worry."
+        ],
+        "confidence_score": 0.95
+      },
+      {
+        "name": "Facilitate Reflection Post-Exercise",
+        "description": "Therapist asks patient to consider changes in anxiety, difficulty level, or new insights after each attention or mindfulness exercise.",
+        "states": [
+          "Patient completes attention training or mindfulness activity."
+        ],
+        "confidence_score": 0.95
+      }
+    ]
+  },
+  {
+    "name": "Identification and Modification of Maintenance Mechanisms",
+    "description": "Guiding the patient to recognize coping strategies and behaviors that perpetuate emotional or behavioral problems, targeting them for change.",
+    "goal": {
+      "objective": "To break cycles of maladaptive coping and facilitate healthier patterns.",
+      "success_levels": {
+        "ideal": "Patient identifies and modifies unhelpful coping strategies, resulting in symptom reduction.",
+        "acceptable": "Patient becomes aware of some maintaining factors and attempts new behaviors.",
+        "unsuccessful": "Patient clings to old patterns; problem maintenance unchanged."
+      },
+      "reward_hint": "Patient discusses, experiments with, and minimizes maintaining behaviors (e.g., safety behaviors, reassurance seeking)."
+    },
+    "states": [
+      "Patient uses repetitive, ineffective coping strategies.",
+      "Maladaptive cycles or 'vicious flowers' present.",
+      "Therapy focuses on maintenance rather than root causes."
+    ],
+    "confidence_score": 0.96,
+    "micro_actions": [
+      {
+        "name": "Identify Coping and Safety Behaviors",
+        "description": "Therapist asks patient to describe typical strategies like reassurance seeking, avoidance, or safety props.",
+        "states": [
+          "Patient relies on short-term relief or controlling habits."
+        ],
+        "confidence_score": 0.97
+      },
+      {
+        "name": "Specify Situational Triggers",
+        "description": "Therapist prompts detailed description of situations/events that trigger maladaptive coping behaviors.",
+        "states": [
+          "Problem maintenance cycle or vicious flower assessment."
+        ],
+        "confidence_score": 0.97
+      },
+      {
+        "name": "Guide Detailed Behavior Recording",
+        "description": "Therapist directs patient to record avoidance or safety behaviors in a structured way (forms, diaries).",
+        "states": [
+          "Therapy includes maintenance mechanism monitoring."
+        ],
+        "confidence_score": 0.96
+      },
+      {
+        "name": "Prompt Exposure/Behavioral Activation",
+        "description": "Therapist encourages patient to try facing feared situations without their usual safety behaviors.",
+        "states": [
+          "Therapy focuses on breaking old coping cycles."
+        ],
+        "confidence_score": 0.96
+      },
+      {
+        "name": "Facilitate Listing and Discarding Props",
+        "description": "Therapist helps patient list physical safety props, then discard them and process urges to replace.",
+        "states": [
+          "Patient relies on external props for emotional regulation."
+        ],
+        "confidence_score": 0.95
+      },
+      {
+        "name": "Provide Feedback on Maintenance Attempts",
+        "description": "Therapist gives specific in-session feedback about how safety, control, or reassurance attempts worsen symptoms.",
+        "states": [
+          "Patient exhibits maintenance behaviors during session."
+        ],
+        "confidence_score": 0.96
+      },
+      {
+        "name": "Encourage Activity Scheduling",
+        "description": "Therapist supports gradual increase in positive activities (behavioral activation) to replace avoidance.",
+        "states": [
+          "Depressive cycles or avoidance patterns are present."
+        ],
+        "confidence_score": 0.95
+      }
+    ]
+  },
+  {
+    "name": "Core Belief Elucidation and Strengthening",
+    "description": "Helping the patient uncover, reflect on, and challenge central beliefs about self, others, or the world; reinforcing adaptive alternatives.",
+    "goal": {
+      "objective": "To shift entrenched negative core beliefs toward healthier, more flexible foundations.",
+      "success_levels": {
+        "ideal": "Patient identifies and systematically challenges core beliefs, developing and embodying new alternatives.",
+        "acceptable": "Patient becomes aware of core beliefs and begins to question their impact.",
+        "unsuccessful": "Core beliefs remain unexamined or unaltered throughout therapy."
+      },
+      "reward_hint": "Patient discusses past experiences, tracks belief activation, and attempts 'acting as if' healthy beliefs are true."
+    },
+    "states": [
+      "Surface-level cognitive work stalls progress.",
+      "Longstanding problems traced to central beliefs.",
+      "Patient expresses self-labels, global judgments, or meaning-making around adverse experiences."
+    ],
+    "confidence_score": 0.98,
+    "micro_actions": [
+      {
+        "name": "Identify Core Beliefs via Downward Arrow Technique",
+        "description": "Therapist uses iterative questioning to help the patient uncover core beliefs behind surface thoughts.",
+        "states": [
+          "Recurring negative automatic thoughts are present."
+        ],
+        "confidence_score": 0.98
+      },
+      {
+        "name": "Prompt Completion of Core Belief Statements",
+        "description": "Therapist asks patient to fill in structured statements ('I am...', 'Others are...', etc.) to clarify global beliefs.",
+        "states": [
+          "Implicit beliefs need to be made explicit."
+        ],
+        "confidence_score": 0.97
+      },
+      {
+        "name": "Review ABC and Thematic Forms",
+        "description": "Therapist reviews ABC forms and other worksheets to track recurring themes and activate core beliefs.",
+        "states": [
+          "Patient has completed forms identifying belief patterns."
+        ],
+        "confidence_score": 0.96
+      },
+      {
+        "name": "Challenge and Reframe Global Self-Labels",
+        "description": "Therapist prompts patient to reframe broad self-judgments into specific, behavior-focused assertions.",
+        "states": [
+          "Patient uses extreme, global self-labels in sessions."
+        ],
+        "confidence_score": 0.97
+      },
+      {
+        "name": "Encourage Compassionate Self-Reflection",
+        "description": "Therapist uses Socratic questioning and analogies to help the patient show self-compassion and challenge perfectionistic standards.",
+        "states": [
+          "Patient is highly self-critical or perfectionistic."
+        ],
+        "confidence_score": 0.97
+      },
+      {
+        "name": "Facilitate Reinterpretation of Past Events",
+        "description": "Therapist guides patient through exercises to reinterpret the meaning of old adverse experiences.",
+        "states": [
+          "Old meanings continue to activate maladaptive beliefs."
+        ],
+        "confidence_score": 0.96
+      },
+      {
+        "name": "Prompt Acting 'As If' Adaptive Beliefs Are True",
+        "description": "Therapist explicitly encourages behavioral experiments where the patient embodies new, more functional beliefs.",
+        "states": [
+          "Patient identifies new belief but struggles to implement it."
+        ],
+        "confidence_score": 0.97
+      }
+    ]
+  },
+  {
+    "name": "Relapse Prevention and Consolidation",
+    "description": "Supporting the patient in maintaining gains, anticipating setbacks, and applying CBT tools for continued self-management post-therapy.",
+    "goal": {
+      "objective": "To prevent relapse, strengthen new skills and beliefs, and promote resilience.",
+      "success_levels": {
+        "ideal": "Patient independently applies CBT strategies, monitors risks, and manages setbacks with adaptive coping.",
+        "acceptable": "Patient uses some prevention strategies and recognizes early signs of trouble.",
+        "unsuccessful": "Patient lapses into old patterns quickly when therapy ends or stressors arise."
+      },
+      "reward_hint": "Patient self-monitors, plans for setbacks, and replaces maladaptive habits with healthy alternatives."
+    },
+    "states": [
+      "Therapy is ending or transitioning out.",
+      "Patient has made progress but risks returning to old habits.",
+      "History of relapse or fluctuating motivation."
+    ],
+    "confidence_score": 0.97,
+    "micro_actions": [
+      {
+        "name": "Monitor for Signs of Relapse",
+        "description": "Therapist prompts patient to write down and notice recurring patterns of unhelpful thoughts or behaviors.",
+        "states": [
+          "Gains need consolidation or risk of setbacks is present."
+        ],
+        "confidence_score": 0.97
+      },
+      {
+        "name": "Review and Reinforce Learned Strategies",
+        "description": "Therapist encourages reflection on previous CBT tools and strategies, facilitating discussion of their effectiveness.",
+        "states": [
+          "Therapy is nearing end or reviewing prior gains."
+        ],
+        "confidence_score": 0.96
+      },
+      {
+        "name": "Support Planning for High-Risk Situations",
+        "description": "Therapist helps patient compile lists of triggers/vulnerable areas and develop crisis plans.",
+        "states": [
+          "Patient expresses concern about relapse or is about to face stressors."
+        ],
+        "confidence_score": 0.97
+      },
+      {
+        "name": "Prompt Use of Self-Monitoring Tools",
+        "description": "Therapist encourages ongoing use of diaries, rating scales, or tracking sheets to monitor progress.",
+        "states": [
+          "Patient is independent or transitioning out of therapy."
+        ],
+        "confidence_score": 0.95
+      },
+      {
+        "name": "Encourage Replacement of Old Behaviors",
+        "description": "Therapist actively prompts patient to substitute maladaptive routines with healthier actions in real-life contexts.",
+        "states": [
+          "Patient is exposed to triggers or high-risk situations."
+        ],
+        "confidence_score": 0.97
+      },
+      {
+        "name": "Promote Use of Social Supports",
+        "description": "Therapist suggests reaching out for help or communicating with supports during setbacks.",
+        "states": [
+          "Patient anticipates or experiences setbacks/relapse signs."
+        ],
+        "confidence_score": 0.95
+      }
+    ]
+  }
+]

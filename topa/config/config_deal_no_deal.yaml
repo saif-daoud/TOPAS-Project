@@ -1,0 +1,188 @@
+﻿domain: "Deal or No Deal"
+mode: "dialogue" # choices: "dialogue", "task"
+# Read API key from environment (.env). See repository root .env.example
+api_key_env: "TOPA_API_KEY"
+seed: 42
+
+domain_params:
+  system: "negotiator"
+  user: "other negotiator"
+  adj: "multi-issue bargaining"
+  interaction_unit: "negotiation"
+
+paths:
+  textbooks: "topa/data/textbooks/Deal or No Deal/"
+  data: "topa/data/datasets/CBT/AlexanderStreet_Dataset.json"
+  output: "outputs/"
+
+extraction_params:
+  method: "ChatGPT" # choices: "ChatGPT", "DeepSeek", "LC_Full", "Chap_Seq", "Chunk_RAG", "Rules", "Merge_RAG", "Mamba", "topa_per_book", "topa_ours"
+  role: ["system"]
+  role_components:
+    system: ["macro_actions", "micro_actions", "conversation_states", "knowledge_graph", "cautions", "rules"]
+    user: ["user_profile"] # "user_actions"
+  fusion_type: "Late" # choices: "Late", "Early"
+
+annotations_params:
+  components:
+    - macro_actions
+    - micro_actions
+    # - conv_state
+    # - intrinsic_reward
+    # - cautions
+    # - extrinsic_reward
+
+    # - user_profile
+    # - user_actions
+  num_processes: 1
+  max_retries: 3
+
+  # Frequent pattern mining after macro_actions annotation
+  frequent_pattern_mining:
+    enabled: true
+    min_support_ratio: 0.1
+    min_pattern_length: 2
+    max_pattern_length: 10
+    top_k: 30
+    collapse_consecutive: true
+
+  # Improve micro action space using low-confidence / 'None' micro-action annotations
+  action_space_refinement:
+    enabled: true
+    conf_threshold: 0.65
+    context_length: 5
+    max_examples_per_macro: 30
+    max_new_actions_per_macro: 6
+
+  # Expert evaluator feedback loop: build diverse low-confidence set (clustering)
+  expert_feedback:
+    enabled: true
+    conf_threshold: 0.65
+    n_review: 200
+    # when propagating expert labels later
+    similarity_delta: 0.85
+
+  # Only annotate user profile on a held-out validation subset (for later simulation).
+  # If your dataset already has session_metadata.split in {val, validation}, set split_key/split_values accordingly.
+  validation_subset:
+    enabled: true
+    mode: by_user   # by_session | by_user
+    ratio: 0.1
+    seed: 42
+    split_key: split
+    split_values: ["val", "validation"]
+    export_path: ""  # optional: write chosen indices JSON here (default: <output>/validation_sessions.json)
+    user_profile_only: true
+
+  # Conversation-state ambiguity mining: run conv_state twice and export expert review CSV.
+  conv_state_ambiguity:
+    enabled: false
+    n_review: 200
+    context_length: 10
+    none_value: none
+
+  macro_actions_params:
+    use_annotation_rules: true
+    num_processes: 1
+  micro_actions_params:
+    context_length: 5
+    batch_size: 32
+    use_annotation_rules: true
+  conv_state_params:
+    numeric: false
+  intrinsic_reward_params:
+    context_length: 5
+  cautions_params:
+    context_length: 5
+    batch_size: 32
+  # user_actions_params:
+  #   context_length: 5
+  #   batch_size: 32
+
+rl:
+  prepare_only: true
+  artifact_dir: "rl"
+  runs_dir: "runs"
+  cache_dir: ".cache"
+  sft:
+    enabled: false
+    state_repr: "encoder" # encoder | activations
+    encoder_name: "roberta-large"
+    epochs: 10
+    batch_size: 32
+    lr: 2e-4
+    amp: "auto"
+    run_macro_no_conv: true
+    run_conv_state: true
+    run_macro_with_conv: true
+    run_micro_flat: true
+    run_micro_independent: true
+    run_termination: true
+    # Uses rl.activation_out_dir when state_repr=activations
+    # activation_layer: -1
+    # activation_key: "activations"
+    # mlp_hidden_dim: 256
+    # mlp_dropout: 0.1
+  ppo:
+    enabled: false
+    state_repr: "encoder" # encoder | activations
+    encoder_name: "roberta-large"
+    epochs: 10
+    batch_size: 16
+    lr_actor: 3e-5
+    lr_critic: 1e-4
+    gamma: 0.99
+    amp: "auto"
+    plot_action_dist: true
+    action_dist_top_k: 30
+    action_dist_max_batches: 50
+    run_macro_no_conv: true
+    run_macro_with_conv: true
+    run_micro_flat: true
+    run_micro_independent: true
+    run_termination: true
+    # Uses rl.activation_out_dir when state_repr=activations
+    # activation_layer: -1
+    # activation_key: "activations"
+    # mlp_hidden_dim: 256
+    # mlp_dropout: 0.1
+
+simulation:
+  output_dir: ""
+  validation_subset_path: ""
+  methods: ["prompting"]
+  user_simulator: "patient_psi"
+  num_workers: 1
+  seed_turns: 0
+  turns: 50
+  max_new_tokens: 64
+  resume: true
+  prefer_ppo: false
+  context_turns: -1
+  max_macro_turns: 5
+  metadata_keys: ["summary", "presenting conditions"]
+  extrinsic_reward:
+    reward_fn: ""
+    prompt_builder: ""
+    judge_system_prompt: "You are a strict but fair evaluator. Evaluate only the system responses (ignore user messages). Return JSON only."
+    output_type: "score"   # binary | int | float | score
+    reward_key: "overall_mean"
+    min_value: 0
+    max_value: 6
+    success_threshold: 4.0
+    success_fn: ""
+  # latent_instruction_following:
+  #   instruction_mode: "prompt"   # prompt | kv_cache
+  #   router_layer_index: 10
+  #   rep_pooling: "last"          # last | mean
+  #   instruction_marker: "[[INSTRUCTION]]"
+  #   system_prefix_template: "{system_label}: "
+  #   user_prefix_template: "{user_label}: "
+  #   latent_max_new_tokens: 200
+  # latent_policies:
+  #   root_dir: ""                 # optional override; defaults to <rl_root>/runs
+  #   flat_subdir: "flat"
+  #   macro_subdir: "macro"
+  #   micro_subdir: "micro"
+  #   termination_subdir: "termination"
+

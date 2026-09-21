@@ -1,0 +1,165 @@
+{
+  "static_dimensions": [
+    {
+      "dimension_name": "Diagnosis and Clinical Profile",
+      "description": "A static categorical attribute capturing primary diagnoses and comorbid conditions relevant to the course of trauma-focused CBT (e.g., PTSD, depression, substance use, personality disorder, cognitive impairment).",
+      "options": [
+        "PTSD only",
+        "PTSD with depression",
+        "PTSD with anxiety",
+        "PTSD with substance use",
+        "PTSD with personality disorder features",
+        "Complex PTSD/multiple comorbidities",
+        "Subthreshold PTSD",
+        "No formal diagnosis"
+      ]
+    },
+    {
+      "dimension_name": "Trauma History and Index Trauma Type",
+      "description": "A fixed representation of the nature and context of the user’s traumatic experience(s), including developmentally-timed or repeated trauma.",
+      "options": [
+        "Combat-related trauma",
+        "Sexual assault/abuse",
+        "Childhood physical abuse",
+        "Intimate partner violence",
+        "Accident or disaster",
+        "Witnessing violence/death",
+        "Moral injury",
+        "Multiple/complex traumas",
+        "Other trauma"
+      ]
+    },
+    {
+      "dimension_name": "Demographics and Identity",
+      "description": "Key categorical attributes such as age group, gender identity, sexual orientation, cultural/ethnic background, education/intellectual level, and veteran/military status.",
+      "options": [
+        "Child/adolescent",
+        "Adult",
+        "Older adult",
+        "Male",
+        "Female",
+        "Non-binary/gender diverse",
+        "LGBTQ+",
+        "Veteran/military",
+        "Civilian",
+        "Low literacy",
+        "High literacy",
+        "Specific cultural/ethnic group"
+      ]
+    },
+    {
+      "dimension_name": "Cognitive and Functional Capacity",
+      "description": "The user's baseline cognitive functioning that affects engagement with therapy (e.g. cognitive impairment, developmental challenges).",
+      "options": [
+        "No impairment",
+        "Mild cognitive impairment",
+        "Moderate cognitive impairment",
+        "Severe impairment (may require adaptations)"
+      ]
+    },
+    {
+      "dimension_name": "Treatment Preferences and Therapy Format",
+      "description": "The user’s selected/assigned mode of therapy delivery.",
+      "options": [
+        "Individual CPT",
+        "Group CPT",
+        "CPT with additional elements (CPT+A)",
+        "Telehealth/remote",
+        "In-person",
+        "Shortened/adapted format"
+      ]
+    }
+  ],
+  "dynamic_dimensions": [
+    {
+      "dimension_name": "Symptom Trajectory and Severity",
+      "description": "A dynamic categorical state reflecting the current intensity and patterning of PTSD and related symptoms during therapy.",
+      "options": [
+        "Severe/worsening symptoms",
+        "Moderate/persistent symptoms",
+        "Mild/improving symptoms",
+        "Remitted/minimal symptoms"
+      ],
+      "update_condition": "Updated periodically based on patient self-report, standardized symptom measures, and therapist assessment throughout the course of sessions."
+    },
+    {
+      "dimension_name": "Cognitive Patterns / Stuck Points",
+      "description": "Represents current categories of maladaptive beliefs/distortions ('Stuck Points') central to the user’s post-trauma thoughts (e.g., self-blame, distrust, overgeneralization).",
+      "options": [
+        "Assimilated self-blame",
+        "Assimilated other-blame",
+        "Overaccommodation (global/rigid beliefs)",
+        "Just-world distortion",
+        "Balanced/accommodated beliefs"
+      ],
+      "update_condition": "Adjusted as cognitive processing exercises and Socratic questioning help shift beliefs from rigid/maladaptive to balanced perspectives during therapy."
+    },
+    {
+      "dimension_name": "Emotional State and Affect Regulation",
+      "description": "Reflects current mood and capacity for experiencing and tolerating emotions (e.g., avoidance, numbness, excessive affect, effective regulation).",
+      "options": [
+        "Emotional numbing/avoidance",
+        "Excessive guilt/shame/fear",
+        "Emotional dysregulation",
+        "Effective regulation/acceptance"
+      ],
+      "update_condition": "Changes in response to trauma processing, exposure, homework assignments, and evolving insight, tracked session by session."
+    },
+    {
+      "dimension_name": "Therapeutic Engagement and Adherence",
+      "description": "Measures the user's ongoing participation with therapy tasks, assignments, session attendance, and willingness to engage with challenging material.",
+      "options": [
+        "High avoidance/minimal engagement",
+        "Variable engagement",
+        "Consistent engagement/adherence",
+        "Dropout risk/high resistance"
+      ],
+      "update_condition": "Re-evaluated at every session based on task completion, observed effort, reported motivation, and therapist assessment."
+    },
+    {
+      "dimension_name": "Readiness and Motivation for Change",
+      "description": "Captures current willingness to approach trauma memories, challenge stuck points, and participate actively in recovery.",
+      "options": [
+        "Precontemplation (not ready/anxious/ambivalent)",
+        "Contemplation (willing but hesitant)",
+        "Preparation (ready to engage)",
+        "Action (actively participating)",
+        "Maintenance (consolidating gains)"
+      ],
+      "update_condition": "Updates as patient expresses shifts in willingness, demonstrates engagement with assignments, and responds to feedback/intervention."
+    },
+    {
+      "dimension_name": "Social Context and Support Impact",
+      "description": "Represents the ongoing influence of social or family/support network on recovery efforts and engagement.",
+      "options": [
+        "Supportive context",
+        "Neutral context",
+        "Unsupportive/context of conflict",
+        "Social isolation"
+      ],
+      "update_condition": "Updates as life circumstances, relationships, or external support changes (positively or negatively) during therapy."
+    },
+    {
+      "dimension_name": "Therapy-interfering Beliefs and Barriers",
+      "description": "Reflects the presence of beliefs or circumstances that actively hinder progress in therapy.",
+      "options": [
+        "Strong interfering beliefs/barriers",
+        "Some interfering beliefs/barriers",
+        "Minimal barriers",
+        "No significant barriers"
+      ],
+      "update_condition": "Reassessed at key points when engagement drops, assignments are missed, or patient expresses doubt or reluctance towards therapy."
+    },
+    {
+      "dimension_name": "Progress in Core Themes (Safety, Trust, Power/Control, Esteem, Intimacy)",
+      "description": "Tracks shifts in central CPT domains as the patient’s beliefs and behaviors evolve across therapy.",
+      "options": [
+        "Rigidly maladaptive beliefs in multiple domains",
+        "Partial progress in some domains",
+        "Significant progress (some domains balanced)",
+        "Broadly accommodated (balanced) beliefs"
+      ],
+      "update_condition": "Updated after major exercises, Stuck Point reviews, and therapist evaluation of cognitive and behavioral shifts."
+    }
+  ]
+}

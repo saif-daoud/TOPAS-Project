@@ -1,0 +1,733 @@
+[
+  {
+    "name": "Establish Therapeutic Alliance",
+    "description": "Build rapport, trust, and a collaborative partnership to underpin all therapy phases.",
+    "goal": {
+      "objective": "Form a secure, empathetic, and collaborative foundation for therapeutic work.",
+      "success_levels": {
+        "ideal": "Patient feels understood, trusts the therapist, and is actively engaged in session.",
+        "acceptable": "Patient expresses moderate trust and engagement, but relationship feels tentative.",
+        "unsuccessful": "Patient feels disconnected, mistrustful, or unengaged, impeding therapy progress."
+      },
+      "reward_hint": "Patient actively participates, communicates openly, and expresses feeling understood."
+    },
+    "states": [
+      "Initial contact and early sessions",
+      "Patient expresses hesitancy or mistrust",
+      "Therapeutic relationship strains emerge",
+      "Throughout all sessions for maintenance"
+    ],
+    "confidence_score": 1.0,
+    "micro_actions": [
+      {
+        "name": "Make Empathic Statements",
+        "description": "Therapist expresses understanding and validation of patient's feelings through warm, genuine language and welcoming body posture.",
+        "states": [
+          "On patient disclosure of distress/emotions",
+          "When patient expresses hesitancy",
+          "Any sign of relational strain during session"
+        ],
+        "confidence_score": 1.0
+      },
+      {
+        "name": "Show Warmth and Genuine Interest",
+        "description": "Therapist uses attentive tone and open-ended questions to convey authentic concern for the patient's experiences.",
+        "states": [
+          "Initial contact",
+          "Throughout all sessions"
+        ],
+        "confidence_score": 0.99
+      },
+      {
+        "name": "Collaborative Decision-Making",
+        "description": "Invite patient input before any session adjustment (e.g., agenda amendments, family involvement), reinforcing equality.",
+        "states": [
+          "When session plans are being revised",
+          "Patient requests change",
+          "When engaging new therapy tasks"
+        ],
+        "confidence_score": 0.98
+      },
+      {
+        "name": "Greet and Acknowledge Patient Arrival",
+        "description": "Begin each session with a friendly greeting and brief personal connection to set a trusting tone.",
+        "states": [
+          "Every session start"
+        ],
+        "confidence_score": 0.98
+      },
+      {
+        "name": "Directly Elicit Feedback",
+        "description": "Therapist invites honest feedback about session quality, therapy progress, and personal reactions.",
+        "states": [
+          "End of session",
+          "If patient appears uncomfortable"
+        ],
+        "confidence_score": 0.99
+      }
+    ]
+  },
+  {
+    "name": "Conduct Cognitive Case Conceptualization",
+    "description": "Formulate and collaboratively refine an individualized cognitive conceptualization of the patient’s problems.",
+    "goal": {
+      "objective": "Achieve a shared cognitive understanding of the patient’s issues to guide treatment.",
+      "success_levels": {
+        "ideal": "Therapist and patient have a clear, agreed-upon cognitive case formulation that guides interventions.",
+        "acceptable": "Case conceptualization is mostly clear but may need refinement; both parties broadly agree.",
+        "unsuccessful": "Case conceptualization is unclear, therapist and patient have differing understandings."
+      },
+      "reward_hint": "Patient can articulate the cognitive model of their problems and connects it to treatment."
+    },
+    "states": [
+      "Assessment/early sessions",
+      "Presentation of complex or poorly understood problems",
+      "Need to target interventions to specific cognitions or beliefs",
+      "Periods requiring revision of treatment approach"
+    ],
+    "confidence_score": 1.0,
+    "micro_actions": [
+      {
+        "name": "Elicit Patient Narrative and Problem Context",
+        "description": "Ask open-ended questions for detailed background, current concerns, symptoms, daily routines, and major stressors.",
+        "states": [
+          "Initial assessment",
+          "When refining conceptualization"
+        ],
+        "confidence_score": 1.0
+      },
+      {
+        "name": "Explicitly Check Conceptualization Resonance",
+        "description": "Present case formulation and invite patient agreement/disagreement, encouraging direct feedback for accuracy.",
+        "states": [
+          "After summarizing problem model",
+          "When updating or revising formulation"
+        ],
+        "confidence_score": 0.99
+      },
+      {
+        "name": "Summarize and Reflect Back",
+        "description": "Paraphrase patient's story and cognitive patterns aloud in accessible language for confirmation and clarification.",
+        "states": [
+          "After information-gathering",
+          "During formulation refinement"
+        ],
+        "confidence_score": 0.99
+      },
+      {
+        "name": "Probe for Situational Data and Hypothesis Testing",
+        "description": "Ask for specific examples that reveal links between situations, thoughts, and mood, and test working hypotheses collaboratively.",
+        "states": [
+          "When constructing or revising cognitive model",
+          "In complex presentations"
+        ],
+        "confidence_score": 0.98
+      }
+    ]
+  },
+  {
+    "name": "Psychoeducation and Socialization to Therapy",
+    "description": "Educate the patient about the cognitive model, therapy structure, session format, and expectations.",
+    "goal": {
+      "objective": "Enable patient understanding of CBT principles, methods, and session norms.",
+      "success_levels": {
+        "ideal": "Patient understands key CBT concepts and participates actively according to session structure.",
+        "acceptable": "Patient shows basic comprehension but occasional confusion about therapy methods.",
+        "unsuccessful": "Patient is unclear about CBT rationale, leading to disengagement or misunderstanding."
+      },
+      "reward_hint": "Patient demonstrates understanding and adherence to session routines and therapeutic rationale."
+    },
+    "states": [
+      "Early sessions and initial onboarding",
+      "When patient queries about therapy process",
+      "If patient shows confusion about session structure",
+      "When introducing new techniques"
+    ],
+    "confidence_score": 0.98,
+    "micro_actions": [
+      {
+        "name": "Explain Session Structure and Rationale",
+        "description": "Give accessible explanations of session elements, agenda, expectations, and the therapist’s role.",
+        "states": [
+          "First sessions",
+          "Prior to new task or technique introduction"
+        ],
+        "confidence_score": 1.0
+      },
+      {
+        "name": "Provide Rationale for Assessment and Intervention",
+        "description": "State clear reasons for asking certain questions or suggesting specific exercises to foster buy-in.",
+        "states": [
+          "When proposing new intervention",
+          "If patient asks 'why?'"
+        ],
+        "confidence_score": 0.99
+      },
+      {
+        "name": "Normalize Symptoms and Emotional Experiences",
+        "description": "Reassure the patient that their reactions are common and expected in CBT.",
+        "states": [
+          "On patient disclosure of distress or fears"
+        ],
+        "confidence_score": 0.97
+      },
+      {
+        "name": "Teach Basic CBT Concepts",
+        "description": "Use analogies, diagrams, and examples to illustrate key ideas like the cognitive triad or automatic thoughts.",
+        "states": [
+          "When orienting to therapy model",
+          "During psychoeducation phase"
+        ],
+        "confidence_score": 0.98
+      }
+    ]
+  },
+  {
+    "name": "Collaborative Agenda Setting and Goal Planning",
+    "description": "Set session agendas and treatment goals in partnership with the patient.",
+    "goal": {
+      "objective": "Establish shared, clear session goals and therapeutic objectives.",
+      "success_levels": {
+        "ideal": "Patient and therapist collaboratively set and agree upon clear, attainable session and treatment goals.",
+        "acceptable": "Goals are broadly discussed, but some ambiguity or lack of collaboration exists.",
+        "unsuccessful": "Goals are imposed, unclear, or not discussed; patient feels uninvolved."
+      },
+      "reward_hint": "Patient takes an active role in selecting agenda items and verbalizes goals/goals prioritization."
+    },
+    "states": [
+      "Beginning of every session",
+      "Patient requests to address specific topics",
+      "Reassessment of treatment objectives needed"
+    ],
+    "confidence_score": 1.0,
+    "micro_actions": [
+      {
+        "name": "Ask Explicit Agenda-Setting Question",
+        "description": "Invite the patient to suggest items for the session agenda, prioritize goals, and review previous plans.",
+        "states": [
+          "Session start",
+          "When planning treatment trajectory"
+        ],
+        "confidence_score": 1.0
+      },
+      {
+        "name": "Collaboratively Revise Agenda",
+        "description": "Offer options and negotiate session focus when priorities shift mid-session.",
+        "states": [
+          "Agenda adjustment needed",
+          "Emergence of new issues"
+        ],
+        "confidence_score": 0.99
+      },
+      {
+        "name": "Record and Review Goals",
+        "description": "Write down or paraphrase chosen goals aloud and confirm patient agreement.",
+        "states": [
+          "Session start",
+          "When setting new treatment goals"
+        ],
+        "confidence_score": 0.99
+      }
+    ]
+  },
+  {
+    "name": "Assessment and Mood Check",
+    "description": "Gather mood ratings and biopsychosocial information to inform session focus and priorities.",
+    "goal": {
+      "objective": "Acquire current emotional and psychological state to guide intervention.",
+      "success_levels": {
+        "ideal": "Accurate information obtained and used to tailor session; patient feels heard.",
+        "acceptable": "Partial assessment completed but may lack depth or specificity.",
+        "unsuccessful": "Mood and psychological status not assessed, risking inappropriate focus."
+      },
+      "reward_hint": "Therapist conducts structured check-in and patient reports mood/emotional state openly."
+    },
+    "states": [
+      "Start of each session",
+      "When patient seems emotionally distressed or withdrawn",
+      "When shift in mood is observed between sessions"
+    ],
+    "confidence_score": 0.96,
+    "micro_actions": [
+      {
+        "name": "Ask Specific Mood Check Question",
+        "description": "Request patient to rate mood (numerically or descriptively) or use emotion charts at session start or noticeable affect shift.",
+        "states": [
+          "Start of session",
+          "On observation of distress"
+        ],
+        "confidence_score": 1.0
+      },
+      {
+        "name": "Probe for Emotional and Physiological Correlates",
+        "description": "Inquire about body sensations, affect shifts, and ask for scaling intensity (e.g., 'How strong was that feeling [0-100%]?'').",
+        "states": [
+          "During mood assessment",
+          "On reporting difficulty with emotion labeling"
+        ],
+        "confidence_score": 0.98
+      },
+      {
+        "name": "Review and Reflect Mood Ratings",
+        "description": "Summarize patient’s stated emotional state and ask how it relates to session topics or recent events.",
+        "states": [
+          "After mood check",
+          "If patient expresses confusion"
+        ],
+        "confidence_score": 0.97
+      }
+    ]
+  },
+  {
+    "name": "Identification and Evaluation of Automatic Thoughts",
+    "description": "Guide patient to identify, specify, and assess the validity and impact of automatic thoughts.",
+    "goal": {
+      "objective": "Patient reliably identifies automatic thoughts and evaluates their accuracy and effects.",
+      "success_levels": {
+        "ideal": "Patient regularly and accurately identifies and evaluates automatic thoughts during and between sessions.",
+        "acceptable": "Patient can identify some thoughts but struggles with regularity or specificity.",
+        "unsuccessful": "Patient unable or unwilling to identify or evaluate automatic thoughts."
+      },
+      "reward_hint": "Patient articulates automatic thoughts and actively participates in thought evaluation tasks."
+    },
+    "states": [
+      "In sessions focused on cognitive restructuring",
+      "When patient reports strong emotions or problematic situations",
+      "During homework review",
+      "When new thought patterns emerge"
+    ],
+    "confidence_score": 1.0,
+    "micro_actions": [
+      {
+        "name": "Ask Targeted Questions to Elicit Automatic Thoughts",
+        "description": "Pose specific queries such as 'What was going through your mind in that moment?' during discussion of problem events.",
+        "states": [
+          "During discussion of strong emotion",
+          "On reporting of avoidance/withdrawal"
+        ],
+        "confidence_score": 1.0
+      },
+      {
+        "name": "Reality Test Automatic Thought",
+        "description": "Use Socratic questioning ('What evidence supports or contradicts this thought?') to collaboratively evaluate its validity.",
+        "states": [
+          "Once automatic thought is identified",
+          "During cognitive restructuring"
+        ],
+        "confidence_score": 0.99
+      },
+      {
+        "name": "Directly Note Automatic Thoughts in Writing",
+        "description": "Write down or prompt patient to record thought for evaluation and later review.",
+        "states": [
+          "During or following identification",
+          "As part of homework"
+        ],
+        "confidence_score": 0.98
+      },
+      {
+        "name": "Collect Contextual Examples and Affective Ratings",
+        "description": "Ask for situational details and emotional intensity scales (numeric or qualitative) for each thought.",
+        "states": [
+          "As thoughts are elicited",
+          "During worksheet completion"
+        ],
+        "confidence_score": 0.98
+      },
+      {
+        "name": "Correct or Clarify Emotional-Thought Labeling",
+        "description": "Gently guide patient to accurately pair emotions with automatic thoughts, using emotion charts if needed.",
+        "states": [
+          "When mislabeling occurs",
+          "On patient confusion"
+        ],
+        "confidence_score": 0.97
+      }
+    ]
+  },
+  {
+    "name": "Modification of Intermediate and Core Beliefs",
+    "description": "Identify, evaluate, and collaboratively modify dysfunctional intermediate and core beliefs.",
+    "goal": {
+      "objective": "Reduce the influence of maladaptive core beliefs and strengthen adaptive beliefs.",
+      "success_levels": {
+        "ideal": "Patient successfully modifies central negative beliefs and adopts adaptive alternatives.",
+        "acceptable": "Partial modification or awareness of core beliefs; progress is evident but incomplete.",
+        "unsuccessful": "Core beliefs remain unaddressed, unchanged, or worsen."
+      },
+      "reward_hint": "Patient expresses new perspectives, beliefs, or shows behavioral change based on shifts in core beliefs."
+    },
+    "states": [
+      "After automatic thoughts have been identified and persist",
+      "When repeated patterns emerge",
+      "If distress or dysfunction seems rooted in deep-seated beliefs",
+      "Later therapy stages targeting underlying schemas"
+    ],
+    "confidence_score": 0.99,
+    "micro_actions": [
+      {
+        "name": "Apply Downward Arrow Technique",
+        "description": "Repeatedly ask 'What does this thought mean to you?' or 'What’s the worst that could happen?' until underlying belief surfaces.",
+        "states": [
+          "When evaluating recurring negative thoughts",
+          "During conceptualization of deeper beliefs"
+        ],
+        "confidence_score": 1.0
+      },
+      {
+        "name": "Socratic Questioning of Beliefs",
+        "description": "Probe belief evidence, exceptions, and history with questions like 'What supports or contradicts this belief?'",
+        "states": [
+          "Active belief examination",
+          "On patient uncertainty"
+        ],
+        "confidence_score": 0.99
+      },
+      {
+        "name": "Label Belief as Hypothesis",
+        "description": "Encourage patient to treat beliefs as 'ideas' for testing and discussion to foster cognitive flexibility.",
+        "states": [
+          "When patient appears stuck or rigid in beliefs"
+        ],
+        "confidence_score": 0.98
+      },
+      {
+        "name": "Examine Advantages and Disadvantages",
+        "description": "Facilitate discussion of pros/cons of maintaining certain beliefs.",
+        "states": [
+          "During reframing work",
+          "On resistance to change"
+        ],
+        "confidence_score": 0.98
+      },
+      {
+        "name": "Formulate and Rate Alternative Beliefs",
+        "description": "Collaboratively develop and refine new beliefs, prompting patient for agreement and belief strength rating.",
+        "states": [
+          "After maladaptive beliefs are identified",
+          "During modification phase"
+        ],
+        "confidence_score": 0.99
+      },
+      {
+        "name": "Assign Evidence-Collection Homework",
+        "description": "Instruct patient to monitor and collect evidence for/against both old and new beliefs between sessions.",
+        "states": [
+          "End of session",
+          "During belief modification"
+        ],
+        "confidence_score": 0.98
+      }
+    ]
+  },
+  {
+    "name": "Skill Acquisition and Behavioral Activation",
+    "description": "Teach practical coping skills, schedule activities, and plan behavioral experiments to improve functioning.",
+    "goal": {
+      "objective": "Equip patient with behavioral and cognitive skills to manage symptoms.",
+      "success_levels": {
+        "ideal": "Patient applies targeted coping strategies and behavioral activation techniques with steady improvement.",
+        "acceptable": "Patient tries skills/activities but uses them inconsistently.",
+        "unsuccessful": "Patient resists skills training or avoids behavioral activation."
+      },
+      "reward_hint": "Patient completes behavioral tasks, demonstrates skill use, and reports improvement in mood/functioning."
+    },
+    "states": [
+      "Sessions focusing on overcoming inactivity or avoidance",
+      "When patient struggles with specific behavioral targets",
+      "When cognitive interventions alone are insufficient"
+    ],
+    "confidence_score": 0.98,
+    "micro_actions": [
+      {
+        "name": "Teach and Model Coping Strategies",
+        "description": "Provide stepwise instruction and role-play on skills such as relaxation, distraction, assertiveness, and problem-solving.",
+        "states": [
+          "Skill-building sessions",
+          "During patient distress or skill deficit"
+        ],
+        "confidence_score": 0.99
+      },
+      {
+        "name": "Suggest and Schedule Specific Activities",
+        "description": "Offer concrete, manageable behavioral tasks and collaboratively plan their timing.",
+        "states": [
+          "Patient inactivity or avoidance",
+          "Planning phase in session"
+        ],
+        "confidence_score": 1.0
+      },
+      {
+        "name": "Initiate and Review Behavioral Experiments",
+        "description": "Guide patient in designing, carrying out, and reflecting on behavioral experiments to test new strategies or cognitions.",
+        "states": [
+          "When new skills need real-world trial",
+          "To test beliefs"
+        ],
+        "confidence_score": 0.98
+      },
+      {
+        "name": "Reinforce and Praise Efforts",
+        "description": "Acknowledge and positively reinforce any steps taken towards activation or skill use.",
+        "states": [
+          "On patient completion of task",
+          "When reporting partial success"
+        ],
+        "confidence_score": 0.98
+      },
+      {
+        "name": "Offer Forced-Choice for Activity Selection",
+        "description": "Present curated activity options when patient struggles to generate own ideas, offering gentle guidance.",
+        "states": [
+          "Patient difficulty initiating tasks",
+          "Lack of suggestions"
+        ],
+        "confidence_score": 0.97
+      }
+    ]
+  },
+  {
+    "name": "Structured Problem Solving",
+    "description": "Facilitate analysis, brainstorming, and implementation of solutions to current problems.",
+    "goal": {
+      "objective": "Enable patient to resolve present difficulties using a collaborative stepwise approach.",
+      "success_levels": {
+        "ideal": "Patient learns and applies structured problem solving independently and effectively.",
+        "acceptable": "Patient engages in some steps, but problem-solving process is incomplete.",
+        "unsuccessful": "Patient remains stuck or unable/unwilling to engage in structured problem solving."
+      },
+      "reward_hint": "Patient actively generates solutions, evaluates options, and follows up on plan."
+    },
+    "states": [
+      "When session agenda involves resolving acute problems",
+      "Patient reports feeling overwhelmed, stuck, or indecisive",
+      "Known barriers identified during therapy"
+    ],
+    "confidence_score": 0.97,
+    "micro_actions": [
+      {
+        "name": "Facilitate Stepwise Problem Definition",
+        "description": "Prompt patient to clearly articulate the specific problem needing resolution and break it into manageable parts.",
+        "states": [
+          "When issue is ambiguous",
+          "Patient reports difficulty solving"
+        ],
+        "confidence_score": 0.99
+      },
+      {
+        "name": "Co-Brainstorm Solutions",
+        "description": "Jointly generate potential solutions using open-ended probes and encouragement of multiple options.",
+        "states": [
+          "Active problem-solving discussion"
+        ],
+        "confidence_score": 0.98
+      },
+      {
+        "name": "Guide through Pros/Cons Analysis",
+        "description": "Ask patient to consider advantages and disadvantages of chosen solutions prior to implementation.",
+        "states": [
+          "Solution evaluation phase"
+        ],
+        "confidence_score": 0.98
+      },
+      {
+        "name": "Instruct and Model Skills via Role Play",
+        "description": "Demonstrate practical steps (e.g., assertiveness, social scripts) and rehearse with patient using simulated scenarios.",
+        "states": [
+          "When skill or strategy is unfamiliar",
+          "During rehearsal phase"
+        ],
+        "confidence_score": 0.97
+      }
+    ]
+  },
+  {
+    "name": "Homework Assignment and Review",
+    "description": "Set, adapt, and review homework assignments collaboratively to promote skill generalization and progress between sessions.",
+    "goal": {
+      "objective": "Foster patient autonomy and mastery by practicing skills outside of sessions.",
+      "success_levels": {
+        "ideal": "Patient completes homework consistently, reports insights, and skill gains.",
+        "acceptable": "Patient completes some homework, shows partial engagement.",
+        "unsuccessful": "Patient disengages from homework or fails to complete assignments."
+      },
+      "reward_hint": "Patient brings completed work, discusses difficulties or successes, and requests new tasks."
+    },
+    "states": [
+      "End of session as ongoing practice",
+      "When consolidation of session learning is needed",
+      "To address skills acquisition failures",
+      "As a tool for relapse prevention"
+    ],
+    "confidence_score": 0.99,
+    "micro_actions": [
+      {
+        "name": "Jointly Propose and Write Homework Assignment",
+        "description": "Collaboratively select appropriate homework tasks and record them (written/audio) with rationale and reminders.",
+        "states": [
+          "End of session",
+          "When new skills are introduced"
+        ],
+        "confidence_score": 1.0
+      },
+      {
+        "name": "Review Homework Completion and Obstacles",
+        "description": "Ask patient about previous homework experience, difficulties faced, and reaffirm value of effort.",
+        "states": [
+          "Session start",
+          "Homework review"
+        ],
+        "confidence_score": 0.99
+      },
+      {
+        "name": "Covertly Rehearse Homework Steps",
+        "description": "Invite patient to mentally rehearse homework logistics (timing, steps, anticipated problems) with therapist’s support.",
+        "states": [
+          "Before assignment is finalized",
+          "If patient expresses uncertainty"
+        ],
+        "confidence_score": 0.98
+      },
+      {
+        "name": "Problem-Solve Homework Barriers",
+        "description": "Collaboratively identify and address logistical, emotional, or cognitive obstacles blocking homework completion.",
+        "states": [
+          "If patient failed/struggled with homework",
+          "During homework reframing"
+        ],
+        "confidence_score": 0.99
+      },
+      {
+        "name": "Model Mistake-Normalization and Self-Disclosure",
+        "description": "Therapist may model mistake admission and normalization to reduce patient shame about incomplete homework.",
+        "states": [
+          "On patient self-criticism",
+          "When difficulties are acknowledged"
+        ],
+        "confidence_score": 0.97
+      }
+    ]
+  },
+  {
+    "name": "Session Summarization and Feedback Elicitation",
+    "description": "Summarize session key points and elicit patient feedback to reinforce learning and strengthen therapeutic engagement.",
+    "goal": {
+      "objective": "Ensure patient comprehension of session content and foster collaborative evaluation.",
+      "success_levels": {
+        "ideal": "Patient summarizes learnings and provides constructive feedback.",
+        "acceptable": "Patient acknowledges summary and provides minimal feedback.",
+        "unsuccessful": "Session ends without summary or feedback, patient is confused or uncertain."
+      },
+      "reward_hint": "Patient restates session takeaways and expresses satisfaction or clarifies misunderstandings."
+    },
+    "states": [
+      "End of each session",
+      "If confusion or miscommunication arises",
+      "When patient appears disengaged or needs encouragement"
+    ],
+    "confidence_score": 0.96,
+    "micro_actions": [
+      {
+        "name": "Summarize Session Progress Aloud",
+        "description": "Verbally recapitulate main points, therapeutic progress, agreed goals, and insights from session.",
+        "states": [
+          "End of session",
+          "When patient expresses confusion"
+        ],
+        "confidence_score": 1.0
+      },
+      {
+        "name": "Prompt Patient to Summarize Adaptive Responses",
+        "description": "Request patient to restate or record their own adaptive thoughts and key session learnings.",
+        "states": [
+          "Near session conclusion",
+          "After cognitive or skills work"
+        ],
+        "confidence_score": 0.98
+      },
+      {
+        "name": "Elicit Explicit Feedback",
+        "description": "Ask open-ended questions about session helpfulness, understanding, and preferences for future focus.",
+        "states": [
+          "Session ending",
+          "After difficult or complex session"
+        ],
+        "confidence_score": 0.99
+      },
+      {
+        "name": "Check for Clarity and Helpfulness of Notes",
+        "description": "Review patient-generated notes/adaptive responses for clarity and completeness, offering concise rewording.",
+        "states": [
+          "After patient summarizes",
+          "On observed confusion"
+        ],
+        "confidence_score": 0.97
+      }
+    ]
+  },
+  {
+    "name": "Termination Preparation and Relapse Prevention",
+    "description": "Prepare patient for therapy ending, teach relapse prevention strategies, review skills, and ensure maintenance of gains.",
+    "goal": {
+      "objective": "Equip patient for lasting self-management, resilience to setbacks, and successful transfer of skills beyond therapy.",
+      "success_levels": {
+        "ideal": "Patient feels prepared for ending therapy, has clear relapse prevention plan, and maintains gains.",
+        "acceptable": "Patient feels somewhat prepared; relapse plan and skills review are incomplete.",
+        "unsuccessful": "Patient feels unprepared or anxious, lacking necessary skills/support for termination."
+      },
+      "reward_hint": "Patient verbalizes readiness for termination and demonstrates relapse prevention strategies."
+    },
+    "states": [
+      "Final phase of therapy",
+      "During session frequency reduction",
+      "When discussing end-of-treatment or setbacks"
+    ],
+    "confidence_score": 0.97,
+    "micro_actions": [
+      {
+        "name": "Discuss Course of Recovery and Setbacks Explicitly",
+        "description": "Talk openly about expected ups and downs, setbacks, plateaus, and normalize these experiences.",
+        "states": [
+          "Session on ending therapy",
+          "Booster/tapering sessions"
+        ],
+        "confidence_score": 1.0
+      },
+      {
+        "name": "Coach Use of Relapse Prevention Tools",
+        "description": "Teach coping cards, thought records, and action planning in preparation for setbacks or periods of distress.",
+        "states": [
+          "Sessions preceding termination",
+          "When relapse risk emerges"
+        ],
+        "confidence_score": 0.99
+      },
+      {
+        "name": "Assign and Review Relapse Prevention Homework",
+        "description": "Ask patient to practice skill use (e.g., coping tools, contacting support, writing skill synopses) and debrief experiences in session.",
+        "states": [
+          "Pre-termination phase",
+          "Skill consolidation sessions"
+        ],
+        "confidence_score": 0.98
+      },
+      {
+        "name": "Reframe Setbacks and Explore Automatic Thoughts",
+        "description": "Collaboratively identify thoughts/beliefs about setbacks, use guided discovery/Socratic questioning to reinforce advantages of skill use and session tapering.",
+        "states": [
+          "Discussions on relapse or setbacks"
+        ],
+        "confidence_score": 0.98
+      },
+      {
+        "name": "Review Skills Learned and Self-Therapy Program",
+        "description": "Summarize key skills, monitor ongoing progress, and update self-therapy plan in final sessions.",
+        "states": [
+          "Final phase",
+          "Booster sessions"
+        ],
+        "confidence_score": 0.97
+      }
+    ]
+  }
+]

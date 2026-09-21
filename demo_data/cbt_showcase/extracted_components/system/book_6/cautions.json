@@ -1,0 +1,416 @@
+[
+  {
+    "negative_action": "Allow subjective or judgmental recording",
+    "description": "Permitting emotional, subjective note-taking (e.g., 'how bad it is') instead of objective descriptions.",
+    "risk": "Reinforces anxiety and avoidance behaviors.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Delay recording details",
+    "description": "Waiting until end of day or later to record panic attack details.",
+    "risk": "Accuracy and usefulness of documentation decrease, impeding effective intervention.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Ignore patient resistance or anxiety about recordkeeping",
+    "description": "Not addressing or minimizing the patient's discomfort with recordkeeping.",
+    "risk": "Patient may avoid objective recording, hindering progress.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Use vague generalities or retrospective recall",
+    "description": "Substituting concrete, immediate documentation with general statements or delayed recall.",
+    "risk": "Loss of essential detail undermines therapeutic value.",
+    "confidence_score": 0.8
+  },
+  {
+    "negative_action": "Pathologize all forms of anxiety",
+    "description": "Presenting all anxiety as abnormal or harmful.",
+    "risk": "Fosters unrealistic expectations and can stigmatize normal experiences.",
+    "confidence_score": 0.85
+  },
+  {
+    "negative_action": "Minimize or invalidate panic experiences",
+    "description": "Downplaying the patient's panic or distress.",
+    "risk": "Can increase feelings of isolation or misunderstanding.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Reinforce avoidance or escape behaviors",
+    "description": "Supporting avoidance or escape as desirable solutions.",
+    "risk": "Maintains anxiety and prevents corrective learning.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Prematurely introduce coping skills",
+    "description": "Teaching coping mechanisms before patient develops awareness of their symptoms and cycles.",
+    "risk": "Patient may not understand or benefit from skills, and root problem may remain unaddressed.",
+    "confidence_score": 0.85
+  },
+  {
+    "negative_action": "Attribute panic attacks as random/inexplicable",
+    "description": "Framing panic attacks as entirely random events without identifiable patterns.",
+    "risk": "Reduces patient agency and obstructs skill development.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Encourage unscientific interventions",
+    "description": "Suggesting interventions without scientific basis (e.g., pure positive thinking, generic meditation, vague advice).",
+    "risk": "Can lead to ineffective treatment and deteriorate trust.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Dismiss or minimize panic symptoms",
+    "description": "Normalizing without validating the patient’s true distress.",
+    "risk": "Makes patient feel misunderstood and can damage therapeutic alliance.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Provide inaccurate or oversimplified medical information",
+    "description": "Giving misleading medical facts about panic symptoms.",
+    "risk": "Could increase or create new fears and misconceptions.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Assume understanding without checking beliefs",
+    "description": "Not validating or directly checking patient's understanding of concepts.",
+    "risk": "Potential for untreated cognitive errors and misconceptions.",
+    "confidence_score": 0.85
+  },
+  {
+    "negative_action": "Reinforce catastrophic interpretations",
+    "description": "Supporting exaggerated or catastrophic explanations of symptoms.",
+    "risk": "Amplifies anxiety and maladaptive beliefs.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Ignore past experiences or context",
+    "description": "Neglecting the influence of history or context on patient’s beliefs.",
+    "risk": "Misses deeper underlying causes and reduces efficacy of therapy.",
+    "confidence_score": 0.85
+  },
+  {
+    "negative_action": "Allow avoidance behaviors or safety signals to persist",
+    "description": "Not examining or addressing avoidance or safety behaviors and signals.",
+    "risk": "Prevents corrective learning and perpetuates anxiety cycles.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Encourage use of safety signals/superstitious objects",
+    "description": "Supporting reliance on safety signals or objects.",
+    "risk": "Impedes mastery and maintains avoidance patterns.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Rely on distraction techniques for exposure",
+    "description": "Utilizing distractions instead of direct exposures.",
+    "risk": "Reduces learning and maintains anxiety cycles.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Skip identification of safety behaviors",
+    "description": "Not explicitly listing all relevant safety behaviors.",
+    "risk": "Unrecognized avoidance can hinder progress.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Progress with exposures without baseline data",
+    "description": "Starting exposures without adequate individual assessment.",
+    "risk": "Exposures may be inappropriate and less effective.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Overlook subtle avoidance strategies",
+    "description": "Missing less obvious avoidance behaviors.",
+    "risk": "Prevents full therapeutic engagement and change.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Treat hyperventilation as dangerous",
+    "description": "Treating hyperventilation or related symptoms as medically dangerous.",
+    "risk": "Reinforces catastrophic beliefs and increases panic.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Encourage deep/gulping breaths",
+    "description": "Promoting the belief that bigger breaths are better.",
+    "risk": "Can worsen hyperventilation and anxiety symptoms.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Use overbreathing with medical contraindications",
+    "description": "Guiding overbreathing exercises with patients who have epilepsy, seizures, or cardiopulmonary diseases.",
+    "risk": "Could cause serious medical complications.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Introduce breathing skills in high-anxiety settings prematurely",
+    "description": "Urging use of new or unfamiliar breathing methods in stressful contexts before skills are mastered.",
+    "risk": "Could lead to skill failure and increased frustration or anxiety.",
+    "confidence_score": 0.85
+  },
+  {
+    "negative_action": "Use breathing skills as safety behaviors",
+    "description": "Employing breathing skills solely to avoid or escape anxiety.",
+    "risk": "Impedes approach behavior and corrective learning.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Criticize or provoke frustration during skill learning",
+    "description": "Reacting negatively if patient struggles with skill acquisition.",
+    "risk": "Reduces motivation and may increase resistance.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Reinforce catastrophic beliefs about breathing/panic",
+    "description": "Suggesting that breathing issues or panic symptoms are life-threatening.",
+    "risk": "Amplifies maladaptive beliefs and panic.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Accept vague descriptions of fear",
+    "description": "Not probing when patient reports unspecific fears.",
+    "risk": "Impedes cognitive restructuring and clarity.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Reinforce positive thinking or false reassurance",
+    "description": "Offering reassurance not grounded in reality or evidence-based practice.",
+    "risk": "Does not address underlying cognitive errors; may erode trust.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Focus only on eliminating anxiety/physical symptoms",
+    "description": "Neglecting cognitive change and overemphasizing symptom removal.",
+    "risk": "Misses therapeutic goals and impedes recovery.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Avoid discussing distressing memories/feared outcomes",
+    "description": "Suppressing or evading important subjects in therapy.",
+    "risk": "Prevents emotional processing and corrective experiences.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Ignore automatic negative thoughts",
+    "description": "Not attending to quickly arising negative cognitions.",
+    "risk": "Leaves core cognitive errors untreated.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Present physical symptoms as dangerous",
+    "description": "Portraying normal anxiety symptoms as harmful or risky.",
+    "risk": "Reinforces fear and panic.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Minimize required effort/time for skill mastery",
+    "description": "Underestimating how much effort and time patients need to change.",
+    "risk": "Can foster frustration and premature dropout.",
+    "confidence_score": 0.85
+  },
+  {
+    "negative_action": "Confuse adaptive behaviors as loss of control",
+    "description": "Framing adaptive coping during panic as failure.",
+    "risk": "Reduces patient self-confidence and skill use.",
+    "confidence_score": 0.8
+  },
+  {
+    "negative_action": "Equate emotional recurrence/intensity with failure",
+    "description": "Treating intense or repeated negative emotions as therapeutic failure.",
+    "risk": "Undermines progress; promotes hopelessness.",
+    "confidence_score": 0.85
+  },
+  {
+    "negative_action": "Conduct intense symptom induction without medical clearance",
+    "description": "Doing high-intensity exposure exercises without ensuring medical safety.",
+    "risk": "Patient may experience dangerous symptoms or medical events.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Use coping skills as avoidance during exposure",
+    "description": "Allowing coping skills during exposures instead of after.",
+    "risk": "Reduces effectiveness of corrective learning.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Allow avoidance/distraction/safety behaviors during exposure",
+    "description": "Letting patients use avoidance, distractions, or safety objects/system during exposure tasks.",
+    "risk": "Undermines learning and maintains anxiety.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Reinforce self-criticism or minimize accomplishments",
+    "description": "Taking a judgmental stance toward patient effort.",
+    "risk": "Reduces self-esteem and motivation.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Focus on elimination of symptoms (zero anxiety)",
+    "description": "Attempting to drive anxiety levels to absolute zero.",
+    "risk": "Unrealistic goals may lead to disappointment and hinder learning.",
+    "confidence_score": 0.85
+  },
+  {
+    "negative_action": "Discontinue exposures due to strong anxiety/symptoms",
+    "description": "Stopping exposures solely because symptoms become intense (unless medically unsafe).",
+    "risk": "Prevents effective learning and recovery.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Use medication to block all anxiety/fear responses",
+    "description": "Employing medication so symptoms are fully suppressed during learning periods.",
+    "risk": "Obstructs acquisition of coping skills and mastery.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Confuse one-off/forced exposure with systematic practice",
+    "description": "Assuming brief or forced exposure is therapeutic rather than repeated, structured practice.",
+    "risk": "May hinder long-term progress and reinforce avoidance.",
+    "confidence_score": 0.85
+  },
+  {
+    "negative_action": "Allow continued use of safety behaviors/medications during exposures",
+    "description": "Permitting distractions, safety signals, or fast-acting medications in exposure.",
+    "risk": "Prevents corrective learning; reinforces avoidance.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Treat absence of anxiety during exposure as success",
+    "description": "Assuming complete lack of anxiety is desired during exposures.",
+    "risk": "Undermines purpose of exposure therapy and can impede progress.",
+    "confidence_score": 0.85
+  },
+  {
+    "negative_action": "Reinforce escape/avoidance without prompt return",
+    "description": "Encouraging escape without instructing the patient to re-engage in exposure.",
+    "risk": "Strengthens avoidance behaviors.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Shame, criticize, or focus on failures",
+    "description": "Highlighting shortcomings instead of supporting patient progress.",
+    "risk": "Reduces self-efficacy; may cause disengagement.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Suppress emotional experiences",
+    "description": "Encouraging or allowing patient to suppress emotional reactions during therapy.",
+    "risk": "Hinders acceptance and emotion labeling, reducing effectiveness.",
+    "confidence_score": 0.85
+  },
+  {
+    "negative_action": "Focus only on in-session outcomes",
+    "description": "Neglecting homework and between-session monitoring.",
+    "risk": "Reduces skill generalization and long-term improvement.",
+    "confidence_score": 0.85
+  },
+  {
+    "negative_action": "Ignore original panic context in exposure planning",
+    "description": "Failing to factor in the initial context that triggered panic symptoms during therapy design.",
+    "risk": "May miss important triggers and impede therapeutic change.",
+    "confidence_score": 0.8
+  },
+  {
+    "negative_action": "Allow helper to act as safety signal",
+    "description": "Letting a support person’s presence function as a safety signal for the patient.",
+    "risk": "Can lead to dependency and hinder patient independence.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Reinforce avoidance/anxiety by over-attending",
+    "description": "Overly focusing on/helping when patient is distressed.",
+    "risk": "May reinforce avoidance behaviors and anxiety.",
+    "confidence_score": 0.85
+  },
+  {
+    "negative_action": "Use accusatory/minimizing/invalidating responses",
+    "description": "Responding to patient symptoms in judgmental or diminishing ways.",
+    "risk": "Damages therapeutic relationship and patient engagement.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Have vague/undiscussed communication during exposure",
+    "description": "Not clarifying or planning communication between helper and patient.",
+    "risk": "May create confusion and increase anxiety.",
+    "confidence_score": 0.8
+  },
+  {
+    "negative_action": "Helper magnifies/catastrophizes symptoms",
+    "description": "Support person overreacts to symptoms, suggesting emergency action without evidence.",
+    "risk": "Amplifies panic and maladaptive beliefs.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Exclude helpers without consideration",
+    "description": "Leaving out helpers without evaluating their potential benefits.",
+    "risk": "Missed opportunities for additional support and engagement.",
+    "confidence_score": 0.8
+  },
+  {
+    "negative_action": "Ignore agoraphobia’s impact on helper",
+    "description": "Not attending to the helper’s own distress related to agoraphobia.",
+    "risk": "Can create unrecognized strain and conflict.",
+    "confidence_score": 0.8
+  },
+  {
+    "negative_action": "Advise or permit abrupt cessation of medication",
+    "description": "Encouraging a patient to stop medication suddenly and without medical oversight.",
+    "risk": "Can cause severe withdrawal symptoms and medical complications.",
+    "confidence_score": 0.95
+  },
+  {
+    "negative_action": "Minimize/dismiss withdrawal symptoms",
+    "description": "Invalidating the patient’s withdrawal experience.",
+    "risk": "Increases frustration and reduces trust.",
+    "confidence_score": 0.85
+  },
+  {
+    "negative_action": "Attribute all withdrawal symptoms to relapse",
+    "description": "Assuming new symptoms during withdrawal always mean relapse.",
+    "risk": "May mismanage treatment and unnecessarily increase medication.",
+    "confidence_score": 0.85
+  },
+  {
+    "negative_action": "Increase catastrophic interpretations during withdrawal",
+    "description": "Using language that reinforces maladaptive beliefs about withdrawal symptoms.",
+    "risk": "Heightens anxiety and reluctance to discontinue medication.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Undermine physician authority or foster non-compliance",
+    "description": "Presenting therapists as more authoritative than prescribing physicians.",
+    "risk": "Encourages non-compliance, risking medical safety.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Assume withdrawal symptoms mean treatment failure",
+    "description": "Equating withdrawal symptoms with inability to stop medication.",
+    "risk": "May foster hopelessness and unnecessary medication resumption.",
+    "confidence_score": 0.85
+  },
+  {
+    "negative_action": "Interpret setbacks as total failure/loss of progress",
+    "description": "Framing setbacks as complete regression.",
+    "risk": "Undermines motivation and can lead to self-criticism.",
+    "confidence_score": 0.85
+  },
+  {
+    "negative_action": "Encourage avoidance behaviors",
+    "description": "Supporting avoidance as a response to anxiety.",
+    "risk": "Maintains or exacerbates anxiety and impedes recovery.",
+    "confidence_score": 0.9
+  },
+  {
+    "negative_action": "Minimize stressors or assume automatic skill generalization",
+    "description": "Downplaying ongoing patient challenges or assuming skills will transfer without guidance.",
+    "risk": "May impede relapse prevention and long-term effect.",
+    "confidence_score": 0.85
+  },
+  {
+    "negative_action": "Neglect self-monitoring and plan revision",
+    "description": "Failing to support regular symptom tracking and treatment adjustment.",
+    "risk": "Increases risk of relapse and impairs maintenance.",
+    "confidence_score": 0.9
+  }
+]
