@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import sys
 import tempfile
 import threading
 import time
@@ -12,6 +13,11 @@ from typing import Any
 from urllib.parse import urlencode
 
 import httpx
+
+
+REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
+if str(REPOSITORY_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPOSITORY_ROOT))
 
 
 API_URL = os.environ["TOPAS_API_URL"].rstrip("/")
