@@ -8,5 +8,6 @@ backend/.pytest_cache/
 frontend/node_modules/
 frontend/dist/
 frontend/*.log
+worker/node_modules/
 screenshots/
 screenshots-therapy-agent/

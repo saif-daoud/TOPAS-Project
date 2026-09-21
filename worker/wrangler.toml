@@ -1,0 +1,17 @@
+name = "topas-studio-api"
+main = "src/index.js"
+compatibility_date = "2026-06-01"
+
+[vars]
+ALLOWED_ORIGINS = "https://saif-daoud.github.io"
+GITHUB_REPOSITORY = "saif-daoud/TOPAS-Project"
+AZURE_CONFIGURED = "true"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "topas-studio-production"
+database_id = "6b36712e-eae9-4c98-9dde-12a6a795fbec"
+
+[[kv_namespaces]]
+binding = "FILES"
+id = "aec45af2de034b4d86a0af74be0db4b0"

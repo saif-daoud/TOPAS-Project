@@ -2,14 +2,10 @@ from pathlib import Path
 import random
 from typing import Optional
 
-from .base_extractor import BaseExtractor
-from .baseline_methods import LC_Full, Chap_Seq, Chunk_RAG, Rules, ChatGPT, DeepSeek, Merge_RAG, Mamba
-from .topa_ours import TOPAPerBookExtractor, TOPAOurExtractor
-from .metrics import MetricsManager
-from .metric_utils import load_outputs, load_json
-
 class ExtractionPhase:
     def __init__(self, domain_name, domain_params, textbooks_path, data_path, output_path, api_key, mode, seed_base):
+        from .baseline_methods import LC_Full, Chap_Seq, Chunk_RAG, Rules, ChatGPT, DeepSeek, Merge_RAG, Mamba
+        from .topa_ours import TOPAPerBookExtractor, TOPAOurExtractor
         self.domain_name = domain_name
         self.adj = domain_params["adj"]
         self.system = domain_params["system"]

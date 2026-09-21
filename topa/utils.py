@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import time
 import os
 import json
@@ -6,8 +8,12 @@ import numpy as np
 from tqdm import tqdm
 from typing import List, Optional
 from openai import OpenAI, AzureOpenAI
-import torch
-from transformers import AutoModel
+try:
+    import torch
+    from transformers import AutoModel
+except ImportError:  # Extraction and refinement do not need local embedding models.
+    torch = None
+    AutoModel = None
 
 def build_logger():
     # disable noisy libs globally
@@ -268,6 +274,8 @@ class JinaLocalEmbedder:
         batch_size: int = 8,
         return_multivector: bool = False
     ):
+        if torch is None or AutoModel is None:
+            raise RuntimeError("Install torch and transformers to use JinaLocalEmbedder.")
         if device is None:
             device = "cuda" if torch.cuda.is_available() else "cpu"
         if torch_dtype is None:

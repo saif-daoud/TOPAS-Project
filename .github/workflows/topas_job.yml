@@ -1,0 +1,51 @@
+name: Run TOPAS job
+
+on:
+  workflow_dispatch:
+    inputs:
+      project_id:
+        description: Project ID
+        required: true
+        type: string
+      job_type:
+        description: extraction or refinement
+        required: true
+        type: choice
+        options: [extraction, refinement]
+      api_url:
+        description: TOPAS Worker API URL
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: topas-${{ inputs.project_id }}-${{ inputs.job_type }}
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: backend/requirements-cloud-job.txt
+      - run: python -m pip install -r backend/requirements-cloud-job.txt
+      - run: python scripts/cloud_job.py
+        env:
+          TOPAS_API_URL: ${{ inputs.api_url }}
+          TOPAS_PROJECT_ID: ${{ inputs.project_id }}
+          TOPAS_JOB_TYPE: ${{ inputs.job_type }}
+          TOPAS_JOB_TOKEN: ${{ secrets.TOPAS_JOB_TOKEN }}
+          AZURE_OPENAI_API_KEY: ${{ secrets.AZURE_OPENAI_API_KEY }}
+          AZURE_OPENAI_ENDPOINT: ${{ vars.AZURE_OPENAI_ENDPOINT }}
+          AZURE_OPENAI_API_VERSION: ${{ vars.AZURE_OPENAI_API_VERSION }}
+          TOPAS_MODEL_GPT_5_1: ${{ vars.TOPAS_MODEL_GPT_5_1 }}
+          TOPAS_MODEL_GPT_4_1: ${{ vars.TOPAS_MODEL_GPT_4_1 }}
+          TOPAS_MODEL_DEEPSEEK_V4_PRO: ${{ vars.TOPAS_MODEL_DEEPSEEK_V4_PRO }}
+          TOPAS_USE_SYSTEM_CA: "false"

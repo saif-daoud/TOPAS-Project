@@ -36,7 +36,14 @@ FastAPI backend ── SQLite profile/project store
         └── TOPAOurExtractor (Late fusion) ── Azure AI endpoint
 ```
 
-The Python backend is intentional: PDF parsing and the long-running TOPAS process cannot execute on GitHub Pages. The frontend can still be deployed to GitHub Pages; point it to a separately hosted FastAPI service with `VITE_API_BASE`. For a production multi-server deployment, replace local SQLite/files with Postgres plus object storage and move extraction jobs to a durable queue.
+The Python backend is intentional: PDF parsing and the long-running TOPAS process cannot execute on GitHub Pages. The frontend can still be deployed to GitHub Pages; point it to a separately hosted API with `VITE_API_BASE`.
+
+The production deployment included in this repository uses a serverless split:
+GitHub Pages serves the interface, a Cloudflare Worker exposes the same REST
+contract, D1 stores profiles/projects/events, KV stores PDFs and artifacts, and
+an authenticated GitHub Actions runner executes the unchanged Python TOPA code.
+This keeps Azure credentials out of the browser while allowing the interface to
+poll and reveal artifacts as each one is completed.
 
 ## Run locally
 
@@ -155,3 +162,37 @@ npm --prefix frontend run build
 ```
 
 Deploy `frontend/dist`. Make sure `TOPAS_ALLOWED_ORIGINS` on the API contains the exact GitHub Pages origin. Azure keys and access-code hashes belong only on the backend—never in `VITE_*` variables.
+
+## Production cloud resources
+
+The checked-in deployment definitions are:
+
+- `.github/workflows/deploy_pages.yml` for the React interface
+- `.github/workflows/topas_job.yml` for Python extraction/refinement jobs
+- `worker/` for the API, D1 schema, and KV bindings
+- `scripts/cloud_job.py` for prompt-preserving TOPA execution
+
+Required GitHub Actions secrets:
+
+- `AZURE_OPENAI_API_KEY`
+- `TOPAS_JOB_TOKEN` (must match the Worker secret)
+
+Required GitHub Actions variables:
+
+- `VITE_API_BASE`
+- `AZURE_OPENAI_ENDPOINT`
+- `AZURE_OPENAI_API_VERSION`
+- `TOPAS_MODEL_GPT_5_1`
+- `TOPAS_MODEL_GPT_4_1`
+- `TOPAS_MODEL_DEEPSEEK_V4_PRO`
+
+Required Worker secrets:
+
+- `ACCESS_CODE_HASHES`
+- `TOKEN_SECRET`
+- `JOB_TOKEN`
+- `GITHUB_TOKEN`
+
+Production PDFs are limited to 24 MB each because Cloudflare KV values have a
+per-object size ceiling. Local FastAPI uploads retain the configurable local
+limit.
